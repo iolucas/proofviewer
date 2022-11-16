@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>theorems - ProofViewer</title>
+    <link rel="shortcut icon" type="image/x-icon" href="static/favicon.ico"/>
+    <style>
+      
+
+    </style>
+  </head>
+  <body>
+
+    <div id="theorems-list">
+      
+
+    </div>
+
+    <!-- <a href="">dfss2 - a C B</a><br>
+
+    <a href="">dfss2 - a C B</a> -->
+    
+    <!-- <script src="https://d3js.org/d3.v7.min.js"></script> -->
+    <script src="static/d3.v7.min.js"></script>
+    <script src="static/rendertree.js"></script>
+    <script>
+
+        function handle_error(err) {
+          if(err.message == "404 NOT FOUND")
+            alert("Theorem {{theorem}} not found.")
+          else
+            alert(err)
+        }
+
+        function render_list(props_list) {
+
+          d3.select("#theorems-list")
+                .selectAll(".theorem-link")
+                .data(props_list)
+                .join("div")
+                .append("a")
+                .attr("href", (d) => "../#" + d[1])
+                .text((d) => d[1] + " - "+ d[2])
+        }
+
+        d3.json("filtered_props.json")// + window.location.search)
+          .then(render_list)
+          .catch(handle_error)
+       
+        // render_list([
+        //           [0,1,2],[3,4,5]
+        //         ])
+
+
+
+    </script>
+  </body>
+</html>
