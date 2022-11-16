@@ -38,9 +38,7 @@
   <body>
     <div id="header-div" style="display:block;">
 
-      <!-- <a href="http://us.metamath.org/mpeuni/{{theorem}}.html" target="_blank"><h1>{{theorem}}</h1></a> -->
-
-
+      <a id="original-proof" target="_blank"></a>
 
       <label for="criteria-list">Criteria:</label><br>
 
@@ -73,6 +71,12 @@
     <script src="static/d3.v7.min.js"></script>
     <script src="static/rendertree.js"></script>
     <script>
+
+      theorem_name = window.location.hash.substr(1)
+
+      d3.select("#original-proof")
+        .attr("href", "http://us.metamath.org/mpeuni/" + theorem_name + ".html")
+        .append("h1").text(theorem_name)
 
       var slider = document.getElementById("myRange");
       var output = document.getElementById("demo");
@@ -130,7 +134,7 @@
 
 
 
-        d3.json("theorem/" + window.location.hash.substr(1) + ".json")// + window.location.search)
+        d3.json("theorem/" + theorem_name + ".json")// + window.location.search)
           .then(render_theorem)
           .catch(handle_error)
 
