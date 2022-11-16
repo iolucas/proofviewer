@@ -16,7 +16,7 @@
             "ground_truth": "biimpar \u22a2 ( ( F Fn A \u2227 B \u2286 A ) \u2192 ( F |` B ) Fn B )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.8951169078338868,
+            "_thrs_random_uniform": 0.84932,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.5,
@@ -24,7 +24,7 @@
             "_thrs_surprisingness": 0.5,
             "_thrs_intensity": 1.0,
             "_thrs_interestingness": 0.7,
-            "_thrs_logistic_regression": 0.9987664158001925,
+            "_thrs_logistic_regression": 0.99877,
             "_thrs_random_forest": 0.67
         },
         {
@@ -35,7 +35,7 @@
             "ground_truth": "fnssresb \u22a2 ( F Fn A \u2192 ( ( F |` B ) Fn B \u2194 B \u2286 A ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.053562465478469545,
+            "_thrs_random_uniform": 0.35089,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.5,
@@ -43,7 +43,7 @@
             "_thrs_surprisingness": 0.5,
             "_thrs_intensity": 0.0,
             "_thrs_interestingness": 0.3,
-            "_thrs_logistic_regression": 0.800036378889129,
+            "_thrs_logistic_regression": 0.80004,
             "_thrs_random_forest": 0.76
         }
     ]

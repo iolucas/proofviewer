@@ -24,7 +24,7 @@
             "ground_truth": "syl5eq \u22a2 ( \ud835\udf11 \u2192 A = C )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.760297621463721,
+            "_thrs_random_uniform": 0.18823,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.0,
@@ -32,7 +32,7 @@
             "_thrs_surprisingness": 0.0,
             "_thrs_intensity": 1.0,
             "_thrs_interestingness": 0.4,
-            "_thrs_logistic_regression": 0.9999203329863858,
+            "_thrs_logistic_regression": 0.99992,
             "_thrs_random_forest": 0.81
         },
         {
@@ -43,15 +43,15 @@
             "ground_truth": "eqcomi \u22a2 A = B",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.03965577293614231,
-            "_thrs_reconstruct": 0.07292119988566631,
-            "_thrs_obviousness": 0.06796701371388525,
+            "_thrs_random_uniform": 0.49986,
+            "_thrs_reconstruct": 0.07292,
+            "_thrs_obviousness": 0.06797,
             "_thrs_weight": 1.0,
             "_thrs_complexity": 1.0,
             "_thrs_surprisingness": 0.5,
             "_thrs_intensity": 0.0,
-            "_thrs_interestingness": 0.5135934027427771,
-            "_thrs_logistic_regression": 0.3355818042205094,
+            "_thrs_interestingness": 0.51359,
+            "_thrs_logistic_regression": 0.33558,
             "_thrs_random_forest": 0.85
         },
         {
@@ -62,7 +62,7 @@
             "ground_truth": "syl5eqr.1 \u22a2 B = A",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.23941126655345568,
+            "_thrs_random_uniform": 0.99208,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
@@ -70,7 +70,7 @@
             "_thrs_surprisingness": 0.5,
             "_thrs_intensity": 0.0,
             "_thrs_interestingness": 0.5,
-            "_thrs_logistic_regression": 0.33688020817427905,
+            "_thrs_logistic_regression": 0.33688,
             "_thrs_random_forest": 0.915
         },
         {
@@ -81,7 +81,7 @@
             "ground_truth": "syl5eqr.2 \u22a2 ( \ud835\udf11 \u2192 B = C )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.5300588955077002,
+            "_thrs_random_uniform": 0.19023,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.0,
@@ -89,7 +89,7 @@
             "_thrs_surprisingness": 1.0,
             "_thrs_intensity": 0.0,
             "_thrs_interestingness": 0.2,
-            "_thrs_logistic_regression": 0.941201642956695,
+            "_thrs_logistic_regression": 0.9412,
             "_thrs_random_forest": 0.99
         }
     ]

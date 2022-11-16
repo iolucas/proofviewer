@@ -20,7 +20,7 @@
             "ground_truth": "sylan9bb \u22a2 ( ( A = C \u2227 B = D ) \u2192 ( F : A -\u2192 B \u2194 F : C -\u2192 D ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.6659104371667873,
+            "_thrs_random_uniform": 0.85272,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.0,
@@ -28,7 +28,7 @@
             "_thrs_surprisingness": 1.0,
             "_thrs_intensity": 1.0,
             "_thrs_interestingness": 0.6,
-            "_thrs_logistic_regression": 0.9996913885209483,
+            "_thrs_logistic_regression": 0.99969,
             "_thrs_random_forest": 0.655
         },
         {
@@ -39,8 +39,8 @@
             "ground_truth": "feq2 \u22a2 ( A = C \u2192 ( F : A -\u2192 B \u2194 F : C -\u2192 B ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.7388841322503731,
-            "_thrs_reconstruct": 0.015119308703837472,
+            "_thrs_random_uniform": 0.79684,
+            "_thrs_reconstruct": 0.01512,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
             "_thrs_complexity": 1.0,
@@ -58,15 +58,15 @@
             "ground_truth": "feq3 \u22a2 ( B = D \u2192 ( F : C -\u2192 B \u2194 F : C -\u2192 D ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.41501854714405506,
+            "_thrs_random_uniform": 0.93837,
             "_thrs_reconstruct": 1.0,
-            "_thrs_obviousness": 0.9840451729399365,
+            "_thrs_obviousness": 0.98405,
             "_thrs_weight": 1.0,
             "_thrs_complexity": 1.0,
             "_thrs_surprisingness": 0.0,
             "_thrs_intensity": 0.0,
-            "_thrs_interestingness": 0.5968090345879873,
-            "_thrs_logistic_regression": 0.4789546718585892,
+            "_thrs_interestingness": 0.59681,
+            "_thrs_logistic_regression": 0.47895,
             "_thrs_random_forest": 0.815
         }
     ]

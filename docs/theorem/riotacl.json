@@ -20,7 +20,7 @@
             "ground_truth": "eqeltrd \u22a2 ( E! x \u2208 A \ud835\udf11 \u2192 ( io\ud835\udf0f_ x \u2208 A \ud835\udf11 ) \u2208 A )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.4579593811901883,
+            "_thrs_random_uniform": 0.23062,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 1.0,
@@ -28,7 +28,7 @@
             "_thrs_surprisingness": 0.5,
             "_thrs_intensity": 1.0,
             "_thrs_interestingness": 0.8,
-            "_thrs_logistic_regression": 0.9992339271291688,
+            "_thrs_logistic_regression": 0.99923,
             "_thrs_random_forest": 0.82
         },
         {
@@ -39,15 +39,15 @@
             "ground_truth": "riotaiota \u22a2 ( E! x \u2208 A \ud835\udf11 \u2192 ( io\ud835\udf0f_ x \u2208 A \ud835\udf11 ) = ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.07263337777396084,
-            "_thrs_reconstruct": 0.00017820118700911748,
+            "_thrs_random_uniform": 0.17077,
+            "_thrs_reconstruct": 0.00018,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.0,
             "_thrs_complexity": 0.5,
             "_thrs_surprisingness": 0.5,
             "_thrs_intensity": 0.0,
             "_thrs_interestingness": 0.2,
-            "_thrs_logistic_regression": 0.7129289188481559,
+            "_thrs_logistic_regression": 0.71293,
             "_thrs_random_forest": 0.92
         },
         {
@@ -58,15 +58,15 @@
             "ground_truth": "reiotacl \u22a2 ( E! x \u2208 A \ud835\udf11 \u2192 ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) \u2208 A )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.8667584849779336,
+            "_thrs_random_uniform": 0.05861,
             "_thrs_reconstruct": 1.0,
-            "_thrs_obviousness": 0.9998044123446144,
-            "_thrs_weight": 0.6666666666666667,
+            "_thrs_obviousness": 0.9998,
+            "_thrs_weight": 0.66667,
             "_thrs_complexity": 0.5,
             "_thrs_surprisingness": 0.5,
-            "_thrs_intensity": 0.026737967914438502,
-            "_thrs_interestingness": 0.5386418093851439,
-            "_thrs_logistic_regression": 0.8326000671069667,
+            "_thrs_intensity": 0.02674,
+            "_thrs_interestingness": 0.53864,
+            "_thrs_logistic_regression": 0.8326,
             "_thrs_random_forest": 0.96
         }
     ]

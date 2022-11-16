@@ -24,7 +24,7 @@
             "ground_truth": "eqtri \u22a2 A = C",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.039811404806666895,
+            "_thrs_random_uniform": 0.41684,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.5,
@@ -32,7 +32,7 @@
             "_thrs_surprisingness": 0.0,
             "_thrs_intensity": 1.0,
             "_thrs_interestingness": 0.6,
-            "_thrs_logistic_regression": 0.9993729300984916,
+            "_thrs_logistic_regression": 0.99937,
             "_thrs_random_forest": 0.84
         },
         {
@@ -43,7 +43,7 @@
             "ground_truth": "eqtr4i.1 \u22a2 A = B",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.8810272818973501,
+            "_thrs_random_uniform": 0.58972,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.5,
@@ -51,7 +51,7 @@
             "_thrs_surprisingness": 1.0,
             "_thrs_intensity": 0.0,
             "_thrs_interestingness": 0.4,
-            "_thrs_logistic_regression": 0.6702450283867224,
+            "_thrs_logistic_regression": 0.67025,
             "_thrs_random_forest": 0.995
         },
         {
@@ -62,15 +62,15 @@
             "ground_truth": "eqcomi \u22a2 B = C",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.6445195088065335,
-            "_thrs_reconstruct": 0.07292345329298912,
-            "_thrs_obviousness": 0.06796897126097455,
+            "_thrs_random_uniform": 0.07945,
+            "_thrs_reconstruct": 0.07292,
+            "_thrs_obviousness": 0.06797,
             "_thrs_weight": 0.5,
             "_thrs_complexity": 0.5,
             "_thrs_surprisingness": 1.0,
             "_thrs_intensity": 0.0,
-            "_thrs_interestingness": 0.4135937942521949,
-            "_thrs_logistic_regression": 0.6689578992626644,
+            "_thrs_interestingness": 0.41359,
+            "_thrs_logistic_regression": 0.66896,
             "_thrs_random_forest": 0.815
         },
         {
@@ -81,7 +81,7 @@
             "ground_truth": "eqtr4i.2 \u22a2 C = B",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.4324688509912864,
+            "_thrs_random_uniform": 0.14824,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.5,
@@ -89,7 +89,7 @@
             "_thrs_surprisingness": 1.0,
             "_thrs_intensity": 0.0,
             "_thrs_interestingness": 0.4,
-            "_thrs_logistic_regression": 0.6702450283867224,
+            "_thrs_logistic_regression": 0.67025,
             "_thrs_random_forest": 0.99
         }
     ]

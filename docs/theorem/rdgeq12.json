@@ -20,7 +20,7 @@
             "ground_truth": "sylan9eqr \u22a2 ( ( F = G \u2227 A = B ) \u2192 rec ( F , A ) = rec ( G , B ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.9558330728515178,
+            "_thrs_random_uniform": 0.59195,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.0,
@@ -28,7 +28,7 @@
             "_thrs_surprisingness": 1.0,
             "_thrs_intensity": 1.0,
             "_thrs_interestingness": 0.6,
-            "_thrs_logistic_regression": 0.9996913885209483,
+            "_thrs_logistic_regression": 0.99969,
             "_thrs_random_forest": 0.655
         },
         {
@@ -39,8 +39,8 @@
             "ground_truth": "rdgeq2 \u22a2 ( A = B \u2192 rec ( F , A ) = rec ( F , B ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.9753428623460052,
-            "_thrs_reconstruct": 0.4929103106074283,
+            "_thrs_random_uniform": 0.97856,
+            "_thrs_reconstruct": 0.49291,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
             "_thrs_complexity": 1.0,
@@ -58,15 +58,15 @@
             "ground_truth": "rdgeq1 \u22a2 ( F = G \u2192 rec ( F , B ) = rec ( G , B ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.7400638024429265,
+            "_thrs_random_uniform": 0.8194,
             "_thrs_reconstruct": 1.0,
-            "_thrs_obviousness": 0.5070895767125991,
+            "_thrs_obviousness": 0.50709,
             "_thrs_weight": 1.0,
             "_thrs_complexity": 1.0,
             "_thrs_surprisingness": 0.0,
             "_thrs_intensity": 0.0,
-            "_thrs_interestingness": 0.5014179153425198,
-            "_thrs_logistic_regression": 0.4891503972110968,
+            "_thrs_interestingness": 0.50142,
+            "_thrs_logistic_regression": 0.48915,
             "_thrs_random_forest": 0.76
         }
     ]

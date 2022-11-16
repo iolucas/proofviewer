@@ -20,7 +20,7 @@
             "ground_truth": "sbie \u22a2 ( [. x / y ]. y = A \u2194 x = A )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.4650119501954728,
+            "_thrs_random_uniform": 0.30639,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.0,
@@ -28,7 +28,7 @@
             "_thrs_surprisingness": 0.5,
             "_thrs_intensity": 1.0,
             "_thrs_interestingness": 0.6,
-            "_thrs_logistic_regression": 0.9980141633190189,
+            "_thrs_logistic_regression": 0.99801,
             "_thrs_random_forest": 0.86
         },
         {
@@ -39,15 +39,15 @@
             "ground_truth": "ax-17 \u22a2 ( x = A \u2192 \u2200 y x = A )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.8521943322556199,
+            "_thrs_random_uniform": 0.18837,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
             "_thrs_complexity": 0.5,
             "_thrs_surprisingness": 0.5,
-            "_thrs_intensity": 0.07499999999999998,
-            "_thrs_interestingness": 0.41500000000000004,
-            "_thrs_logistic_regression": 0.9061976069938408,
+            "_thrs_intensity": 0.075,
+            "_thrs_interestingness": 0.415,
+            "_thrs_logistic_regression": 0.9062,
             "_thrs_random_forest": 0.91
         },
         {
@@ -58,15 +58,15 @@
             "ground_truth": "eqeq1 \u22a2 ( y = x \u2192 ( y = A \u2194 x = A ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.9278630089982218,
-            "_thrs_reconstruct": 0.40139818474911004,
-            "_thrs_obviousness": 0.2864263154089608,
+            "_thrs_random_uniform": 0.49742,
+            "_thrs_reconstruct": 0.4014,
+            "_thrs_obviousness": 0.28643,
             "_thrs_weight": 0.0,
             "_thrs_complexity": 0.5,
             "_thrs_surprisingness": 0.5,
             "_thrs_intensity": 0.0,
-            "_thrs_interestingness": 0.25728526308179217,
-            "_thrs_logistic_regression": 0.7078851266690295,
+            "_thrs_interestingness": 0.25729,
+            "_thrs_logistic_regression": 0.70789,
             "_thrs_random_forest": 0.905
         }
     ]

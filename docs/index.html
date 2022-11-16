@@ -130,7 +130,7 @@
 
 
 
-        d3.json("theorem/dfss2.json")// + window.location.search)
+        d3.json("theorem/" + window.location.hash.substr(1) + ".json")// + window.location.search)
           .then(render_theorem)
           .catch(handle_error)
 

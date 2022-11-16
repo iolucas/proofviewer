@@ -20,7 +20,7 @@
             "ground_truth": "sylan9bb \u22a2 ( ( A = B \u2227 C = D ) \u2192 ( A = C \u2194 B = D ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.6799327407867962,
+            "_thrs_random_uniform": 0.15558,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.0,
@@ -28,7 +28,7 @@
             "_thrs_surprisingness": 1.0,
             "_thrs_intensity": 1.0,
             "_thrs_interestingness": 0.6,
-            "_thrs_logistic_regression": 0.9996913885209483,
+            "_thrs_logistic_regression": 0.99969,
             "_thrs_random_forest": 0.585
         },
         {
@@ -39,8 +39,8 @@
             "ground_truth": "eqeq1 \u22a2 ( A = B \u2192 ( A = C \u2194 B = C ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.8496177715964126,
-            "_thrs_reconstruct": 0.650540960472111,
+            "_thrs_random_uniform": 0.08701,
+            "_thrs_reconstruct": 0.65054,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
             "_thrs_complexity": 1.0,
@@ -58,15 +58,15 @@
             "ground_truth": "eqeq2 \u22a2 ( C = D \u2192 ( B = C \u2194 B = D ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.26116887535390165,
+            "_thrs_random_uniform": 0.85498,
             "_thrs_reconstruct": 1.0,
-            "_thrs_obviousness": 0.2882350313094474,
+            "_thrs_obviousness": 0.28824,
             "_thrs_weight": 1.0,
             "_thrs_complexity": 1.0,
             "_thrs_surprisingness": 0.0,
             "_thrs_intensity": 0.0,
-            "_thrs_interestingness": 0.4576470062618895,
-            "_thrs_logistic_regression": 0.4938323166926967,
+            "_thrs_interestingness": 0.45765,
+            "_thrs_logistic_regression": 0.49383,
             "_thrs_random_forest": 0.885
         }
     ]

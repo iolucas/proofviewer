@@ -20,7 +20,7 @@
             "ground_truth": "ralrimivv \u22a2 ( \ud835\udf11 \u2192 \u2200 x \u2208 A \u2200 y \u2208 B \ud835\udf13 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.9810999274845247,
+            "_thrs_random_uniform": 0.4877,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.5,
@@ -28,7 +28,7 @@
             "_thrs_surprisingness": 0.5,
             "_thrs_intensity": 1.0,
             "_thrs_interestingness": 0.7,
-            "_thrs_logistic_regression": 0.9987664158001925,
+            "_thrs_logistic_regression": 0.99877,
             "_thrs_random_forest": 0.925
         },
         {
@@ -39,15 +39,15 @@
             "ground_truth": "ex \u22a2 ( \ud835\udf11 \u2192 ( ( x \u2208 A \u2227 y \u2208 B ) \u2192 \ud835\udf13 ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.8538631563508027,
-            "_thrs_reconstruct": 0.33606957881364213,
-            "_thrs_obviousness": 0.25157232704402516,
+            "_thrs_random_uniform": 0.81011,
+            "_thrs_reconstruct": 0.33607,
+            "_thrs_obviousness": 0.25157,
             "_thrs_weight": 0.5,
             "_thrs_complexity": 0.5,
             "_thrs_surprisingness": 0.5,
             "_thrs_intensity": 1.0,
-            "_thrs_interestingness": 0.550314465408805,
-            "_thrs_logistic_regression": 0.9988428761530989,
+            "_thrs_interestingness": 0.55031,
+            "_thrs_logistic_regression": 0.99884,
             "_thrs_random_forest": 0.805
         },
         {
@@ -58,7 +58,7 @@
             "ground_truth": "ralrimivva.1 \u22a2 ( ( \ud835\udf11 \u2227 ( x \u2208 A \u2227 y \u2208 B ) ) \u2192 \ud835\udf13 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.3425666947427475,
+            "_thrs_random_uniform": 0.45767,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.5,
@@ -66,7 +66,7 @@
             "_thrs_surprisingness": 0.5,
             "_thrs_intensity": 0.0,
             "_thrs_interestingness": 0.3,
-            "_thrs_logistic_regression": 0.800036378889129,
+            "_thrs_logistic_regression": 0.80004,
             "_thrs_random_forest": 0.76
         }
     ]

@@ -20,15 +20,15 @@
             "ground_truth": "mpbi \u22a2 \u2203 x x = A",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.004435970913083898,
-            "_thrs_reconstruct": 0.00022794246910858108,
+            "_thrs_random_uniform": 0.48035,
+            "_thrs_reconstruct": 0.00023,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 1.0,
             "_thrs_complexity": 1.0,
             "_thrs_surprisingness": 0.5,
             "_thrs_intensity": 1.0,
             "_thrs_interestingness": 0.9,
-            "_thrs_logistic_regression": 0.9903666769802343,
+            "_thrs_logistic_regression": 0.99037,
             "_thrs_random_forest": 0.89
         },
         {
@@ -39,7 +39,7 @@
             "ground_truth": "isseti.1 \u22a2 A \u2208 V",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.5645622836339386,
+            "_thrs_random_uniform": 0.19829,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
@@ -47,7 +47,7 @@
             "_thrs_surprisingness": 0.5,
             "_thrs_intensity": 0.4,
             "_thrs_interestingness": 0.48,
-            "_thrs_logistic_regression": 0.9823924041589946,
+            "_thrs_logistic_regression": 0.98239,
             "_thrs_random_forest": 0.94
         },
         {
@@ -58,15 +58,15 @@
             "ground_truth": "isset \u22a2 ( A \u2208 V \u2194 \u2203 x x = A )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.7246817409722064,
+            "_thrs_random_uniform": 0.28983,
             "_thrs_reconstruct": 1.0,
-            "_thrs_obviousness": 0.9997706203379328,
+            "_thrs_obviousness": 0.99977,
             "_thrs_weight": 0.0,
             "_thrs_complexity": 0.0,
             "_thrs_surprisingness": 0.5,
             "_thrs_intensity": 0.0,
-            "_thrs_interestingness": 0.2999541240675866,
-            "_thrs_logistic_regression": 0.9665827480011493,
+            "_thrs_interestingness": 0.29995,
+            "_thrs_logistic_regression": 0.96658,
             "_thrs_random_forest": 0.92
         }
     ]

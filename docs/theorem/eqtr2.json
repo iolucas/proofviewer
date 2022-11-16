@@ -20,7 +20,7 @@
             "ground_truth": "sylanb \u22a2 ( ( A = B \u2227 A = C ) \u2192 B = C )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.9835018510675194,
+            "_thrs_random_uniform": 0.33466,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.0,
@@ -28,7 +28,7 @@
             "_thrs_surprisingness": 1.0,
             "_thrs_intensity": 1.0,
             "_thrs_interestingness": 0.6,
-            "_thrs_logistic_regression": 0.9996913885209483,
+            "_thrs_logistic_regression": 0.99969,
             "_thrs_random_forest": 0.835
         },
         {
@@ -39,8 +39,8 @@
             "ground_truth": "eqcom \u22a2 ( A = B \u2194 B = A )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.15059355548500797,
-            "_thrs_reconstruct": 0.08753771573774029,
+            "_thrs_random_uniform": 0.66376,
+            "_thrs_reconstruct": 0.08754,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
             "_thrs_complexity": 1.0,
@@ -58,15 +58,15 @@
             "ground_truth": "eqtr \u22a2 ( ( B = A \u2227 A = C ) \u2192 B = C )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.028851827138252517,
+            "_thrs_random_uniform": 0.32037,
             "_thrs_reconstruct": 1.0,
-            "_thrs_obviousness": 0.8830075642747333,
+            "_thrs_obviousness": 0.88301,
             "_thrs_weight": 0.0,
             "_thrs_complexity": 0.0,
             "_thrs_surprisingness": 1.0,
             "_thrs_intensity": 0.0,
-            "_thrs_interestingness": 0.37660151285494664,
-            "_thrs_logistic_regression": 0.9368766512935666,
+            "_thrs_interestingness": 0.3766,
+            "_thrs_logistic_regression": 0.93688,
             "_thrs_random_forest": 0.985
         }
     ]

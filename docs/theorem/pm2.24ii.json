@@ -24,7 +24,7 @@
             "ground_truth": "ax-mp \u22a2 \ud835\udf13",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.662648526412429,
+            "_thrs_random_uniform": 0.14416,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 1.0,
@@ -32,7 +32,7 @@
             "_thrs_surprisingness": 0.5,
             "_thrs_intensity": 1.0,
             "_thrs_interestingness": 0.9,
-            "_thrs_logistic_regression": 0.9903666769802343,
+            "_thrs_logistic_regression": 0.99037,
             "_thrs_random_forest": 0.9
         },
         {
@@ -43,7 +43,7 @@
             "ground_truth": "pm2.24ii.1 \u22a2 \ud835\udf11",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.7748132681704708,
+            "_thrs_random_uniform": 0.60038,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
@@ -51,7 +51,7 @@
             "_thrs_surprisingness": 0.5,
             "_thrs_intensity": 0.0,
             "_thrs_interestingness": 0.5,
-            "_thrs_logistic_regression": 0.33688020817427905,
+            "_thrs_logistic_regression": 0.33688,
             "_thrs_random_forest": 0.925
         },
         {
@@ -62,15 +62,15 @@
             "ground_truth": "pm2.21i \u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.624102947528553,
+            "_thrs_random_uniform": 0.84036,
             "_thrs_reconstruct": 1.0,
-            "_thrs_obviousness": 0.9915966386554622,
+            "_thrs_obviousness": 0.9916,
             "_thrs_weight": 0.0,
             "_thrs_complexity": 0.0,
             "_thrs_surprisingness": 0.5,
             "_thrs_intensity": 0.0,
-            "_thrs_interestingness": 0.29831932773109243,
-            "_thrs_logistic_regression": 0.9666053402251705,
+            "_thrs_interestingness": 0.29832,
+            "_thrs_logistic_regression": 0.96661,
             "_thrs_random_forest": 0.775
         },
         {
@@ -81,7 +81,7 @@
             "ground_truth": "pm2.24ii.2 \u22a2 \u00ac \ud835\udf11",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.789524024822503,
+            "_thrs_random_uniform": 0.62699,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
@@ -89,7 +89,7 @@
             "_thrs_surprisingness": 0.5,
             "_thrs_intensity": 0.0,
             "_thrs_interestingness": 0.5,
-            "_thrs_logistic_regression": 0.33688020817427905,
+            "_thrs_logistic_regression": 0.33688,
             "_thrs_random_forest": 0.91
         }
     ]

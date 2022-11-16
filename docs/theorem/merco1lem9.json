@@ -20,7 +20,7 @@
             "ground_truth": "ax-mp \u22a2 ( ( \ud835\udf11 \u2192 ( \ud835\udf11 \u2192 \ud835\udf13 ) ) \u2192 ( \ud835\udf11 \u2192 \ud835\udf13 ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.17803136487385773,
+            "_thrs_random_uniform": 0.83135,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 1.0,
@@ -28,7 +28,7 @@
             "_thrs_surprisingness": 0.5,
             "_thrs_intensity": 1.0,
             "_thrs_interestingness": 0.9,
-            "_thrs_logistic_regression": 0.9903666769802343,
+            "_thrs_logistic_regression": 0.99037,
             "_thrs_random_forest": 0.765
         },
         {
@@ -39,15 +39,15 @@
             "ground_truth": "merco1lem8 \u22a2 ( ( F. \u2192 \ud835\udf11 ) \u2192 ( ( \ud835\udf11 \u2192 ( \ud835\udf11 \u2192 \ud835\udf13 ) ) \u2192 ( \ud835\udf11 \u2192 \ud835\udf13 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.5081387835390249,
+            "_thrs_random_uniform": 0.84929,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 0.0,
-            "_thrs_weight": 0.7142857142857143,
+            "_thrs_weight": 0.71429,
             "_thrs_complexity": 0.0,
             "_thrs_surprisingness": 0.5,
-            "_thrs_intensity": 0.07820646506777892,
-            "_thrs_interestingness": 0.25849843587069865,
-            "_thrs_logistic_regression": 0.9895793533116234,
+            "_thrs_intensity": 0.07821,
+            "_thrs_interestingness": 0.2585,
+            "_thrs_logistic_regression": 0.98958,
             "_thrs_random_forest": 0.97
         },
         {
@@ -58,7 +58,7 @@
             "ground_truth": "merco1lem8 \u22a2 ( ( ( F. \u2192 \ud835\udf11 ) \u2192 ( ( \ud835\udf11 \u2192 ( \ud835\udf11 \u2192 \ud835\udf13 ) ) \u2192 ( \ud835\udf11 \u2192 \ud835\udf13 ) ) ) \u2192 ( ( \ud835\udf11 \u2192 ( \ud835\udf11 \u2192 \ud835\udf13 ) ) \u2192 ( \ud835\udf11 \u2192 \ud835\udf13 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.9349565536507207,
+            "_thrs_random_uniform": 0.15604,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.0,
@@ -66,7 +66,7 @@
             "_thrs_surprisingness": 0.5,
             "_thrs_intensity": 0.0,
             "_thrs_interestingness": 0.1,
-            "_thrs_logistic_regression": 0.969239243564271,
+            "_thrs_logistic_regression": 0.96924,
             "_thrs_random_forest": 0.85
         }
     ]

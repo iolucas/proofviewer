@@ -20,7 +20,7 @@
             "ground_truth": "syl \u22a2 ( A \u2208 On \u2192 \u00ac ( A \u2208 B \u2227 B \u2208 suc A ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.9764394535707973,
+            "_thrs_random_uniform": 0.50471,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.0,
@@ -28,7 +28,7 @@
             "_thrs_surprisingness": 1.0,
             "_thrs_intensity": 1.0,
             "_thrs_interestingness": 0.6,
-            "_thrs_logistic_regression": 0.9996913885209483,
+            "_thrs_logistic_regression": 0.99969,
             "_thrs_random_forest": 0.825
         },
         {
@@ -39,15 +39,15 @@
             "ground_truth": "eloni \u22a2 ( A \u2208 On \u2192 Ord A )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.13271776126406454,
-            "_thrs_reconstruct": 0.0002969707667354893,
+            "_thrs_random_uniform": 0.57851,
+            "_thrs_reconstruct": 0.0003,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
             "_thrs_complexity": 1.0,
             "_thrs_surprisingness": 0.0,
             "_thrs_intensity": 0.4,
             "_thrs_interestingness": 0.48,
-            "_thrs_logistic_regression": 0.8964389420472716,
+            "_thrs_logistic_regression": 0.89644,
             "_thrs_random_forest": 0.795
         },
         {
@@ -58,15 +58,15 @@
             "ground_truth": "ordnbtwn \u22a2 ( Ord A \u2192 \u00ac ( A \u2208 B \u2227 B \u2208 suc A ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.10291413528989368,
+            "_thrs_random_uniform": 0.36334,
             "_thrs_reconstruct": 1.0,
-            "_thrs_obviousness": 0.9997030292328358,
-            "_thrs_weight": 0.19999999999999996,
+            "_thrs_obviousness": 0.9997,
+            "_thrs_weight": 0.2,
             "_thrs_complexity": 0.0,
             "_thrs_surprisingness": 1.0,
             "_thrs_intensity": 0.0,
-            "_thrs_interestingness": 0.43994060584656713,
-            "_thrs_logistic_regression": 0.9467592169315433,
+            "_thrs_interestingness": 0.43994,
+            "_thrs_logistic_regression": 0.94676,
             "_thrs_random_forest": 0.735
         }
     ]

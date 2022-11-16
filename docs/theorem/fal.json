@@ -24,7 +24,7 @@
             "ground_truth": "mtbir \u22a2 \u00ac F.",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.9921513494012011,
+            "_thrs_random_uniform": 0.49743,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 1.0,
@@ -32,7 +32,7 @@
             "_thrs_surprisingness": 0.0,
             "_thrs_intensity": 1.0,
             "_thrs_interestingness": 0.8,
-            "_thrs_logistic_regression": 0.9950827441511825,
+            "_thrs_logistic_regression": 0.99508,
             "_thrs_random_forest": 0.875
         },
         {
@@ -43,15 +43,15 @@
             "ground_truth": "notnoti \u22a2 \u00ac \u00ac T.",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.6518147763335824,
-            "_thrs_reconstruct": 0.015716803760282023,
-            "_thrs_obviousness": 0.3656855439642325,
+            "_thrs_random_uniform": 0.50145,
+            "_thrs_reconstruct": 0.01572,
+            "_thrs_obviousness": 0.36569,
             "_thrs_weight": 1.0,
             "_thrs_complexity": 1.0,
             "_thrs_surprisingness": 0.0,
             "_thrs_intensity": 0.0,
-            "_thrs_interestingness": 0.4731371087928465,
-            "_thrs_logistic_regression": 0.49217526447910204,
+            "_thrs_interestingness": 0.47314,
+            "_thrs_logistic_regression": 0.49218,
             "_thrs_random_forest": 0.805
         },
         {
@@ -62,16 +62,16 @@
             "ground_truth": "tru \u22a2 T.",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.21345643694150862,
-            "_thrs_reconstruct": 0.5608108108108109,
-            "_thrs_obviousness": 0.35562593144560356,
+            "_thrs_random_uniform": 0.94173,
+            "_thrs_reconstruct": 0.56081,
+            "_thrs_obviousness": 0.35563,
             "_thrs_weight": 1.0,
             "_thrs_complexity": 1.0,
             "_thrs_surprisingness": 0.0,
             "_thrs_intensity": 0.0,
-            "_thrs_interestingness": 0.4711251862891207,
-            "_thrs_logistic_regression": 0.4923904807538977,
-            "_thrs_random_forest": 0.613125
+            "_thrs_interestingness": 0.47113,
+            "_thrs_logistic_regression": 0.49239,
+            "_thrs_random_forest": 0.61312
         },
         {
             "expression": "\u22a2 ( F. \u2194 \u00ac T. )",
@@ -81,7 +81,7 @@
             "ground_truth": "df-fal \u22a2 ( F. \u2194 \u00ac T. )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.7531131640481242,
+            "_thrs_random_uniform": 0.50613,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.0,
@@ -89,7 +89,7 @@
             "_thrs_surprisingness": 1.0,
             "_thrs_intensity": 0.0,
             "_thrs_interestingness": 0.2,
-            "_thrs_logistic_regression": 0.941201642956695,
+            "_thrs_logistic_regression": 0.9412,
             "_thrs_random_forest": 0.98
         }
     ]

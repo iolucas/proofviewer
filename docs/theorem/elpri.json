@@ -16,7 +16,7 @@
             "ground_truth": "ibi \u22a2 ( A \u2208 { B , C } \u2192 ( A = B \u2228 A = C ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.44778185014775285,
+            "_thrs_random_uniform": 0.75097,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 1.0,
@@ -24,7 +24,7 @@
             "_thrs_surprisingness": 0.5,
             "_thrs_intensity": 1.0,
             "_thrs_interestingness": 0.8,
-            "_thrs_logistic_regression": 0.9992339271291688,
+            "_thrs_logistic_regression": 0.99923,
             "_thrs_random_forest": 0.675
         },
         {
@@ -35,7 +35,7 @@
             "ground_truth": "elprg \u22a2 ( A \u2208 { B , C } \u2192 ( A \u2208 { B , C } \u2194 ( A = B \u2228 A = C ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.04944729808049775,
+            "_thrs_random_uniform": 0.35088,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.0,
@@ -43,7 +43,7 @@
             "_thrs_surprisingness": 0.5,
             "_thrs_intensity": 0.0,
             "_thrs_interestingness": 0.2,
-            "_thrs_logistic_regression": 0.7129289188481559,
+            "_thrs_logistic_regression": 0.71293,
             "_thrs_random_forest": 0.8
         }
     ]

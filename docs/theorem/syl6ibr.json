@@ -24,15 +24,15 @@
             "ground_truth": "syl6 \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf03 ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.9037460267515258,
-            "_thrs_reconstruct": 0.0024176488365064974,
+            "_thrs_random_uniform": 0.03254,
+            "_thrs_reconstruct": 0.00242,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.0,
             "_thrs_complexity": 0.0,
             "_thrs_surprisingness": 0.0,
             "_thrs_intensity": 1.0,
             "_thrs_interestingness": 0.4,
-            "_thrs_logistic_regression": 0.9999203329863858,
+            "_thrs_logistic_regression": 0.99992,
             "_thrs_random_forest": 0.91
         },
         {
@@ -43,7 +43,7 @@
             "ground_truth": "syl6ibr.1 \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf12 ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.11081123362820933,
+            "_thrs_random_uniform": 0.91523,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.0,
@@ -51,7 +51,7 @@
             "_thrs_surprisingness": 1.0,
             "_thrs_intensity": 0.0,
             "_thrs_interestingness": 0.2,
-            "_thrs_logistic_regression": 0.941201642956695,
+            "_thrs_logistic_regression": 0.9412,
             "_thrs_random_forest": 0.965
         },
         {
@@ -62,15 +62,15 @@
             "ground_truth": "biimpri \u22a2 ( \ud835\udf12 \u2192 \ud835\udf03 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.5431871465818384,
+            "_thrs_random_uniform": 0.83224,
             "_thrs_reconstruct": 1.0,
-            "_thrs_obviousness": 0.9969879518072289,
+            "_thrs_obviousness": 0.99699,
             "_thrs_weight": 1.0,
             "_thrs_complexity": 1.0,
             "_thrs_surprisingness": 0.5,
             "_thrs_intensity": 0.0,
-            "_thrs_interestingness": 0.6993975903614458,
-            "_thrs_logistic_regression": 0.3180891608322394,
+            "_thrs_interestingness": 0.6994,
+            "_thrs_logistic_regression": 0.31809,
             "_thrs_random_forest": 0.895
         },
         {
@@ -81,7 +81,7 @@
             "ground_truth": "syl6ibr.2 \u22a2 ( \ud835\udf03 \u2194 \ud835\udf12 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.7843156883139195,
+            "_thrs_random_uniform": 0.95087,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
@@ -89,7 +89,7 @@
             "_thrs_surprisingness": 0.5,
             "_thrs_intensity": 0.0,
             "_thrs_interestingness": 0.5,
-            "_thrs_logistic_regression": 0.33688020817427905,
+            "_thrs_logistic_regression": 0.33688,
             "_thrs_random_forest": 0.925
         }
     ]

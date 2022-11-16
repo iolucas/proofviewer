@@ -28,7 +28,7 @@
             "ground_truth": "eqtr4i \u22a2 C = D",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.1602956261923042,
+            "_thrs_random_uniform": 0.33731,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.5,
@@ -36,7 +36,7 @@
             "_thrs_surprisingness": 0.0,
             "_thrs_intensity": 1.0,
             "_thrs_interestingness": 0.6,
-            "_thrs_logistic_regression": 0.9993729300984916,
+            "_thrs_logistic_regression": 0.99937,
             "_thrs_random_forest": 0.99
         },
         {
@@ -47,15 +47,15 @@
             "ground_truth": "3eqtr4i.2 \u22a2 C = A",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.46974154905679966,
+            "_thrs_random_uniform": 0.73185,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.5,
             "_thrs_complexity": 0.5,
-            "_thrs_surprisingness": 0.7499999999999999,
+            "_thrs_surprisingness": 0.75,
             "_thrs_intensity": 0.0,
             "_thrs_interestingness": 0.35,
-            "_thrs_logistic_regression": 0.7403729020131156,
+            "_thrs_logistic_regression": 0.74037,
             "_thrs_random_forest": 0.99
         },
         {
@@ -66,7 +66,7 @@
             "ground_truth": "eqtr4i \u22a2 D = A",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.9456900285268833,
+            "_thrs_random_uniform": 0.48634,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 0.5,
             "_thrs_weight": 0.5,
@@ -74,7 +74,7 @@
             "_thrs_surprisingness": 0.0,
             "_thrs_intensity": 1.0,
             "_thrs_interestingness": 0.5,
-            "_thrs_logistic_regression": 0.9993991856938178,
+            "_thrs_logistic_regression": 0.9994,
             "_thrs_random_forest": 0.99
         },
         {
@@ -85,15 +85,15 @@
             "ground_truth": "3eqtr4i.3 \u22a2 D = B",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.5676581754697472,
+            "_thrs_random_uniform": 0.03068,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.5,
             "_thrs_complexity": 0.5,
-            "_thrs_surprisingness": 0.7499999999999999,
+            "_thrs_surprisingness": 0.75,
             "_thrs_intensity": 0.0,
             "_thrs_interestingness": 0.35,
-            "_thrs_logistic_regression": 0.7403729020131156,
+            "_thrs_logistic_regression": 0.74037,
             "_thrs_random_forest": 0.975
         },
         {
@@ -104,7 +104,7 @@
             "ground_truth": "3eqtr4i.1 \u22a2 A = B",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.6328649230672084,
+            "_thrs_random_uniform": 0.79807,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.5,
@@ -112,7 +112,7 @@
             "_thrs_surprisingness": 1.0,
             "_thrs_intensity": 0.0,
             "_thrs_interestingness": 0.4,
-            "_thrs_logistic_regression": 0.6702450283867224,
+            "_thrs_logistic_regression": 0.67025,
             "_thrs_random_forest": 0.975
         }
     ]

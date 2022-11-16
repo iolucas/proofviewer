@@ -28,7 +28,7 @@
             "ground_truth": "3imtr4i \u22a2 ( \ud835\udf11 \u2192 \u2200 x \ud835\udf11 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.8208211363924929,
+            "_thrs_random_uniform": 0.62525,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.5,
@@ -36,7 +36,7 @@
             "_thrs_surprisingness": 0.0,
             "_thrs_intensity": 1.0,
             "_thrs_interestingness": 0.7,
-            "_thrs_logistic_regression": 0.9921019140774335,
+            "_thrs_logistic_regression": 0.9921,
             "_thrs_random_forest": 0.92
         },
         {
@@ -47,7 +47,7 @@
             "ground_truth": "hbxfrbi.2 \u22a2 ( \ud835\udf13 \u2192 \u2200 x \ud835\udf13 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.9082737820662302,
+            "_thrs_random_uniform": 0.70863,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.5,
@@ -55,7 +55,7 @@
             "_thrs_surprisingness": 0.0,
             "_thrs_intensity": 0.0,
             "_thrs_interestingness": 0.3,
-            "_thrs_logistic_regression": 0.3829915301313332,
+            "_thrs_logistic_regression": 0.38299,
             "_thrs_random_forest": 0.87
         },
         {
@@ -66,7 +66,7 @@
             "ground_truth": "hbxfrbi.1 \u22a2 ( \ud835\udf11 \u2194 \ud835\udf13 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.4022521241539526,
+            "_thrs_random_uniform": 0.39249,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
@@ -74,7 +74,7 @@
             "_thrs_surprisingness": 1.0,
             "_thrs_intensity": 0.25,
             "_thrs_interestingness": 0.65,
-            "_thrs_logistic_regression": 0.4986153787987981,
+            "_thrs_logistic_regression": 0.49862,
             "_thrs_random_forest": 0.94
         },
         {
@@ -85,15 +85,15 @@
             "ground_truth": "albii \u22a2 ( \u2200 x \ud835\udf11 \u2194 \u2200 x \ud835\udf13 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.9641350843355694,
-            "_thrs_reconstruct": 0.833655172413793,
-            "_thrs_obviousness": 0.45451811757630434,
+            "_thrs_random_uniform": 0.77669,
+            "_thrs_reconstruct": 0.83366,
+            "_thrs_obviousness": 0.45452,
             "_thrs_weight": 0.0,
             "_thrs_complexity": 0.0,
             "_thrs_surprisingness": 1.0,
-            "_thrs_intensity": 0.06250000000000001,
-            "_thrs_interestingness": 0.3034036235152609,
-            "_thrs_logistic_regression": 0.9556961189358264,
+            "_thrs_intensity": 0.0625,
+            "_thrs_interestingness": 0.3034,
+            "_thrs_logistic_regression": 0.9557,
             "_thrs_random_forest": 0.9
         },
         {
@@ -104,7 +104,7 @@
             "ground_truth": "hbxfrbi.1 \u22a2 ( \ud835\udf11 \u2194 \ud835\udf13 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.015244269042707703,
+            "_thrs_random_uniform": 0.01955,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
@@ -112,7 +112,7 @@
             "_thrs_surprisingness": 1.0,
             "_thrs_intensity": 0.25,
             "_thrs_interestingness": 0.65,
-            "_thrs_logistic_regression": 0.4986153787987981,
+            "_thrs_logistic_regression": 0.49862,
             "_thrs_random_forest": 0.96
         }
     ]
