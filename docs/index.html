@@ -184,11 +184,14 @@
 
               thres_values.unshift(resetThrsValue) //Add reset value to show all nodes
           
+              d3.selectAll(".thrs-button-el").style("font-weight", null)
+
               d3.select("#thresbut")
                 .selectAll("button")
                 .data(thres_values)
                 .join("button")
                 .style("display", "block")
+                .attr("class", "thrs-button-el")
                 .text(function(d, i) {
                   //return "Threshold: " + d;
                   if(i == 0)
@@ -201,6 +204,9 @@
                   // slider.value = Math.round(d*100)
                   // output.innerHTML = slider.value / 100;
                   // main(data, d+Number.EPSILON)
+
+                  d3.selectAll(".thrs-button-el").style("font-weight", null)
+                  d3.select(this).style("font-weight", "bold")
                   
                   main(data, d)
                 });
