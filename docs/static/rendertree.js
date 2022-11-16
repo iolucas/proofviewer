@@ -304,16 +304,16 @@ function main(data, threshold) {
                         n_group = enter
                             .append("g")
                             .style("opacity", 1.0)
-                            .attr("transform", d => `translate(${d.x},${d.y})`)
-                            .style("cursor", "pointer")
-                            .on("click", function(e, d) {
-                                //console.log(d.data)
-                                //console.log(window.location)
-                                if(window.location.search == "")
-                                    window.location.href = window.location.href + "?expansions_ids=" + d.data.step;
-                                else
-                                    window.location.href = window.location.href + ";" + d.data.step;
-                            });
+                            .attr("transform", d => `translate(${d.x},${d.y})`);
+                            // .style("cursor", "pointer")
+                            // .on("click", function(e, d) {
+                            //     //console.log(d.data)
+                            //     //console.log(window.location)
+                            //     if(window.location.search == "")
+                            //         window.location.href = window.location.href + "?expansions_ids=" + d.data.step;
+                            //     else
+                            //         window.location.href = window.location.href + ";" + d.data.step;
+                            // });
 
                         n_group.append("title").text(function(d) {
                             var returnValues = [
