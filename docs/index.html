@@ -73,6 +73,8 @@
     <script src="static/rendertree.js"></script>
     <script>
 
+      addEventListener('hashchange', (event) => { location.reload() });
+
       theorem_name = window.location.hash.substr(1)
 
       document.title = theorem_name + " - ProofViewer"
