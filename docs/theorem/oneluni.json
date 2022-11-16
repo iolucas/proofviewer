@@ -1,0 +1,96 @@
+{
+    "theorem": "oneluni",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( B \u2208 A \u2192 ( A \u222a B ) = A )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( B \u2208 A \u2192 ( A \u222a B ) = A )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf13 \u2194 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "sylib",
+            "ground_truth": "sylib \u22a2 ( B \u2208 A \u2192 ( A \u222a B ) = A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8028586593256378,
+            "_thrs_reconstruct": 2.1296186534936704e-08,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.9996913885209483,
+            "_thrs_random_forest": 0.945
+        },
+        {
+            "expression": "\u22a2 ( B \u2208 A \u2192 B \u2286 A )",
+            "prop_expression": "A \u2208 On \u22a2 ( B \u2208 A \u2192 B \u2286 A )",
+            "step": 2,
+            "theorem": "onelssi",
+            "ground_truth": "onelssi \u22a2 ( B \u2208 A \u2192 B \u2286 A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.24724833364424104,
+            "_thrs_reconstruct": 0.9824193795329343,
+            "_thrs_obviousness": 0.4955658621422972,
+            "_thrs_weight": 0.25,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.10416666666666666,
+            "_thrs_interestingness": 0.3699465057617928,
+            "_thrs_logistic_regression": 0.9715600647628216,
+            "_thrs_random_forest": 0.815
+        },
+        {
+            "expression": "\u22a2 A \u2208 On",
+            "prop_expression": " \u22a2 A \u2208 On",
+            "step": 3,
+            "theorem": "on.1",
+            "ground_truth": "on.1 \u22a2 A \u2208 On",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.43262655542168127,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.46875,
+            "_thrs_interestingness": 0.49375,
+            "_thrs_logistic_regression": 0.9261651186223,
+            "_thrs_random_forest": 0.935
+        },
+        {
+            "expression": "\u22a2 ( B \u2286 A \u2194 ( A \u222a B ) = A )",
+            "prop_expression": " \u22a2 ( A \u2286 B \u2194 ( B \u222a A ) = B )",
+            "step": 4,
+            "theorem": "ssequn2",
+            "ground_truth": "ssequn2 \u22a2 ( B \u2286 A \u2194 ( A \u222a B ) = A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6662070568515546,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.504434127045873,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3008868254091746,
+            "_thrs_logistic_regression": 0.9387661096029106,
+            "_thrs_random_forest": 0.53
+        }
+    ]
+}

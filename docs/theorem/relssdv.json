@@ -1,0 +1,142 @@
+{
+    "theorem": "relssdv",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "expression": "( \ud835\udf11 \u2192 A \u2286 B )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 A \u2286 B )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf12 ), ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
+            "step": 1,
+            "theorem": "mpbird",
+            "ground_truth": "mpbird \u22a2 ( \ud835\udf11 \u2192 A \u2286 B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9612941312364158,
+            "_thrs_reconstruct": 2.2068054621387083e-08,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.9166666666666666,
+            "_thrs_complexity": 0.75,
+            "_thrs_surprisingness": 0.3684210526315788,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.807017543859649,
+            "_thrs_logistic_regression": 0.9975320504275489,
+            "_thrs_random_forest": 0.97
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 \u2200 x \u2200 y ( \u27e8 x , y \u27e9 \u2208 A \u2192 \u27e8 x , y \u27e9 \u2208 B ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 ( \ud835\udf11 \u2192 \u2200 x \u2200 y \ud835\udf13 )",
+            "step": 2,
+            "theorem": "alrimivv",
+            "ground_truth": "alrimivv \u22a2 ( \ud835\udf11 \u2192 \u2200 x \u2200 y ( \u27e8 x , y \u27e9 \u2208 A \u2192 \u27e8 x , y \u27e9 \u2208 B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.15213611864969123,
+            "_thrs_reconstruct": 5.238158734481714e-11,
+            "_thrs_obviousness": 5.546285596022929e-11,
+            "_thrs_weight": 0.33333333333333337,
+            "_thrs_complexity": 0.25,
+            "_thrs_surprisingness": 0.31578947368421045,
+            "_thrs_intensity": 0.11321807027328501,
+            "_thrs_interestingness": 0.20246817546925833,
+            "_thrs_logistic_regression": 0.9663745339725609,
+            "_thrs_random_forest": 0.865
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 ( \u27e8 x , y \u27e9 \u2208 A \u2192 \u27e8 x , y \u27e9 \u2208 B ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \u27e8 x , y \u27e9 \u2208 A \u2192 \u27e8 x , y \u27e9 \u2208 B ) )",
+            "step": 3,
+            "theorem": "relssdv.2",
+            "ground_truth": "relssdv.2 \u22a2 ( \ud835\udf11 \u2192 ( \u27e8 x , y \u27e9 \u2208 A \u2192 \u27e8 x , y \u27e9 \u2208 B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8542747821320669,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.25,
+            "_thrs_surprisingness": 0.31578947368421045,
+            "_thrs_intensity": 0.06441717791411042,
+            "_thrs_interestingness": 0.22604133031966417,
+            "_thrs_logistic_regression": 0.9628133875180037,
+            "_thrs_random_forest": 0.785
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 ( A \u2286 B \u2194 \u2200 x \u2200 y ( \u27e8 x , y \u27e9 \u2208 A \u2192 \u27e8 x , y \u27e9 \u2208 B ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf13 \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 4,
+            "theorem": "syl",
+            "ground_truth": "syl \u22a2 ( \ud835\udf11 \u2192 ( A \u2286 B \u2194 \u2200 x \u2200 y ( \u27e8 x , y \u27e9 \u2208 A \u2192 \u27e8 x , y \u27e9 \u2208 B ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9045363503196445,
+            "_thrs_reconstruct": 1.2325079375251093e-11,
+            "_thrs_obviousness": 0.9999999778703205,
+            "_thrs_weight": 0.08333333333333337,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.8421052631578948,
+            "_thrs_intensity": 0.2120398773006135,
+            "_thrs_interestingness": 0.4274956903324324,
+            "_thrs_logistic_regression": 0.9840917960589094,
+            "_thrs_random_forest": 0.91
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 Rel A )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 Rel A )",
+            "step": 5,
+            "theorem": "relssdv.1",
+            "ground_truth": "relssdv.1 \u22a2 ( \ud835\udf11 \u2192 Rel A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.005068999934450424,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.17177914110429449,
+            "_thrs_interestingness": 0.4343558282208589,
+            "_thrs_logistic_regression": 0.7164386073917539,
+            "_thrs_random_forest": 0.84
+        },
+        {
+            "expression": "\u22a2 ( Rel A \u2192 ( A \u2286 B \u2194 \u2200 x \u2200 y ( \u27e8 x , y \u27e9 \u2208 A \u2192 \u27e8 x , y \u27e9 \u2208 B ) ) )",
+            "prop_expression": " \u22a2 ( Rel A \u2192 ( A \u2286 B \u2194 \u2200 x \u2200 y ( \u27e8 x , y \u27e9 \u2208 A \u2192 \u27e8 x , y \u27e9 \u2208 B ) ) )",
+            "step": 6,
+            "theorem": "ssrel",
+            "ground_truth": "ssrel \u22a2 ( Rel A \u2192 ( A \u2286 B \u2194 \u2200 x \u2200 y ( \u27e8 x , y \u27e9 \u2208 A \u2192 \u27e8 x , y \u27e9 \u2208 B ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.08968928988399238,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9999999778518328,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.39999999557036653,
+            "_thrs_logistic_regression": 0.9362818279372395,
+            "_thrs_random_forest": 0.685
+        }
+    ]
+}

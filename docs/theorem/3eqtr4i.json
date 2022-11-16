@@ -1,0 +1,119 @@
+{
+    "theorem": "3eqtr4i",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "expression": "C = D",
+    "steps": [
+        {
+            "expression": "\u22a2 C = D",
+            "prop_expression": "A = B, C = B \u22a2 A = C",
+            "step": 1,
+            "theorem": "eqtr4i",
+            "ground_truth": "eqtr4i \u22a2 C = D",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.1602956261923042,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.9993729300984916,
+            "_thrs_random_forest": 0.99
+        },
+        {
+            "expression": "\u22a2 C = A",
+            "prop_expression": " \u22a2 C = A",
+            "step": 2,
+            "theorem": "3eqtr4i.2",
+            "ground_truth": "3eqtr4i.2 \u22a2 C = A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.46974154905679966,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.7499999999999999,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.35,
+            "_thrs_logistic_regression": 0.7403729020131156,
+            "_thrs_random_forest": 0.99
+        },
+        {
+            "expression": "\u22a2 D = A",
+            "prop_expression": "A = B, C = B \u22a2 A = C",
+            "step": 3,
+            "theorem": "eqtr4i",
+            "ground_truth": "eqtr4i \u22a2 D = A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9456900285268833,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.5,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.9993991856938178,
+            "_thrs_random_forest": 0.99
+        },
+        {
+            "expression": "\u22a2 D = B",
+            "prop_expression": " \u22a2 D = B",
+            "step": 4,
+            "theorem": "3eqtr4i.3",
+            "ground_truth": "3eqtr4i.3 \u22a2 D = B",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5676581754697472,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.7499999999999999,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.35,
+            "_thrs_logistic_regression": 0.7403729020131156,
+            "_thrs_random_forest": 0.975
+        },
+        {
+            "expression": "\u22a2 A = B",
+            "prop_expression": " \u22a2 A = B",
+            "step": 5,
+            "theorem": "3eqtr4i.1",
+            "ground_truth": "3eqtr4i.1 \u22a2 A = B",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6328649230672084,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.6702450283867224,
+            "_thrs_random_forest": 0.975
+        }
+    ]
+}

@@ -1,0 +1,165 @@
+{
+    "theorem": "fnseqom",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "expression": "G Fn _om",
+    "steps": [
+        {
+            "expression": "\u22a2 G Fn _om",
+            "prop_expression": "\ud835\udf13, ( \ud835\udf11 \u2194 \ud835\udf13 ) \u22a2 \ud835\udf11",
+            "step": 1,
+            "theorem": "mpbir",
+            "ground_truth": "mpbir \u22a2 G Fn _om",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7894336146371486,
+            "_thrs_reconstruct": 4.254401816628501e-16,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.9950827441511825,
+            "_thrs_random_forest": 0.82
+        },
+        {
+            "expression": "\u22a2 ( rec ( ( a \u2208 _om , b \u2208 V |\u2192 \u27e8 suc a , ( a F b ) \u27e9 ) , \u27e8 \u2205 , ( _I ` I ) \u27e9 ) \u201c _om ) Fn _om",
+            "prop_expression": "Q = rec ( ( i \u2208 _om , v \u2208 V |\u2192 \u27e8 suc i , ( i F v ) \u27e9 ) , \u27e8 \u2205 , ( _I ` I ) \u27e9 ) \u22a2 ( Q \u201c _om ) Fn _om",
+            "step": 2,
+            "theorem": "seqomlem2",
+            "ground_truth": "seqomlem2 \u22a2 ( rec ( ( a \u2208 _om , b \u2208 V |\u2192 \u27e8 suc a , ( a F b ) \u27e9 ) , \u27e8 \u2205 , ( _I ` I ) \u27e9 ) \u201c _om ) Fn _om",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.23570754058775145,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9999998476277758,
+            "_thrs_weight": 0.4193548387096774,
+            "_thrs_complexity": 0.07692307692307687,
+            "_thrs_surprisingness": 0.6228070175438595,
+            "_thrs_intensity": 0.4967146548541898,
+            "_thrs_interestingness": 0.5231598871317159,
+            "_thrs_logistic_regression": 0.9972338763541482,
+            "_thrs_random_forest": 0.87
+        },
+        {
+            "expression": "\u22a2 rec ( ( a \u2208 _om , b \u2208 V |\u2192 \u27e8 suc a , ( a F b ) \u27e9 ) , \u27e8 \u2205 , ( _I ` I ) \u27e9 ) = rec ( ( c \u2208 _om , d \u2208 V |\u2192 \u27e8 suc c , ( c F d ) \u27e9 ) , \u27e8 \u2205 , ( _I ` I ) \u27e9 )",
+            "prop_expression": " \u22a2 rec ( ( a \u2208 _om , b \u2208 V |\u2192 \u27e8 suc a , ( a F b ) \u27e9 ) , \u27e8 \u2205 , ( _I ` I ) \u27e9 ) = rec ( ( c \u2208 _om , d \u2208 V |\u2192 \u27e8 suc c , ( c F d ) \u27e9 ) , \u27e8 \u2205 , ( _I ` I ) \u27e9 )",
+            "step": 3,
+            "theorem": "seqomlem0",
+            "ground_truth": "seqomlem0 \u22a2 rec ( ( a \u2208 _om , b \u2208 V |\u2192 \u27e8 suc a , ( a F b ) \u27e9 ) , \u27e8 \u2205 , ( _I ` I ) \u27e9 ) = rec ( ( c \u2208 _om , d \u2208 V |\u2192 \u27e8 suc c , ( c F d ) \u27e9 ) , \u27e8 \u2205 , ( _I ` I ) \u27e9 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5301376922709811,
+            "_thrs_reconstruct": 1.0735440147013828e-06,
+            "_thrs_obviousness": 1.0735426986277548e-06,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.07692307692307687,
+            "_thrs_surprisingness": 0.31578947368421023,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.07854272482999715,
+            "_thrs_logistic_regression": 0.964733289342401,
+            "_thrs_random_forest": 0.815
+        },
+        {
+            "expression": "\u22a2 ( G Fn _om \u2194 ( rec ( ( a \u2208 _om , b \u2208 V |\u2192 \u27e8 suc a , ( a F b ) \u27e9 ) , \u27e8 \u2205 , ( _I ` I ) \u27e9 ) \u201c _om ) Fn _om )",
+            "prop_expression": "F = G \u22a2 ( F Fn A \u2194 G Fn A )",
+            "step": 4,
+            "theorem": "fneq1i",
+            "ground_truth": "fneq1i \u22a2 ( G Fn _om \u2194 ( rec ( ( a \u2208 _om , b \u2208 V |\u2192 \u27e8 suc a , ( a F b ) \u27e9 ) , \u27e8 \u2205 , ( _I ` I ) \u27e9 ) \u201c _om ) Fn _om )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8361930838550963,
+            "_thrs_reconstruct": 1.5237236067809722e-07,
+            "_thrs_obviousness": 1.523722237949731e-07,
+            "_thrs_weight": 0.32258064516129037,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.6929824561403507,
+            "_thrs_intensity": 0.1888027562446167,
+            "_thrs_interestingness": 0.24087320198369627,
+            "_thrs_logistic_regression": 0.9891776566575861,
+            "_thrs_random_forest": 0.945
+        },
+        {
+            "expression": "\u22a2 G = ( rec ( ( a \u2208 _om , b \u2208 V |\u2192 \u27e8 suc a , ( a F b ) \u27e9 ) , \u27e8 \u2205 , ( _I ` I ) \u27e9 ) \u201c _om )",
+            "prop_expression": "A = B, B = C \u22a2 A = C",
+            "step": 5,
+            "theorem": "eqtri",
+            "ground_truth": "eqtri \u22a2 G = ( rec ( ( a \u2208 _om , b \u2208 V |\u2192 \u27e8 suc a , ( a F b ) \u27e9 ) , \u27e8 \u2205 , ( _I ` I ) \u27e9 ) \u201c _om )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.2677422805516563,
+            "_thrs_reconstruct": 4.9912102279222435e-14,
+            "_thrs_obviousness": 4.9912298154470156e-14,
+            "_thrs_weight": 0.4516129032258065,
+            "_thrs_complexity": 0.07692307692307687,
+            "_thrs_surprisingness": 0.6929824561403507,
+            "_thrs_intensity": 0.32790697674418606,
+            "_thrs_interestingness": 0.309885082606694,
+            "_thrs_logistic_regression": 0.9932939762962373,
+            "_thrs_random_forest": 0.86
+        },
+        {
+            "expression": "\u22a2 G = seqom ( F , I )",
+            "prop_expression": " \u22a2 G = seqom ( F , I )",
+            "step": 6,
+            "theorem": "seqom.a",
+            "ground_truth": "seqom.a \u22a2 G = seqom ( F , I )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.797266263365596,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.967741935483871,
+            "_thrs_complexity": 0.9230769230769231,
+            "_thrs_surprisingness": 0.131578947368421,
+            "_thrs_intensity": 0.2356589147286822,
+            "_thrs_interestingness": 0.45161134413157944,
+            "_thrs_logistic_regression": 0.8105240717142934,
+            "_thrs_random_forest": 0.915
+        },
+        {
+            "expression": "\u22a2 seqom ( F , I ) = ( rec ( ( a \u2208 _om , b \u2208 V |\u2192 \u27e8 suc a , ( a F b ) \u27e9 ) , \u27e8 \u2205 , ( _I ` I ) \u27e9 ) \u201c _om )",
+            "prop_expression": " \u22a2 seqom ( F , I ) = ( rec ( ( i \u2208 _om , v \u2208 V |\u2192 \u27e8 suc i , ( i F v ) \u27e9 ) , \u27e8 \u2205 , ( _I ` I ) \u27e9 ) \u201c _om )",
+            "step": 7,
+            "theorem": "df-seqom",
+            "ground_truth": "df-seqom \u22a2 seqom ( F , I ) = ( rec ( ( a \u2208 _om , b \u2208 V |\u2192 \u27e8 suc a , ( a F b ) \u27e9 ) , \u27e8 \u2205 , ( _I ` I ) \u27e9 ) \u201c _om )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5253869896979053,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.3870967741935484,
+            "_thrs_complexity": 0.07692307692307687,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.10147991543340384,
+            "_thrs_interestingness": 0.3130999533100058,
+            "_thrs_logistic_regression": 0.964391769840144,
+            "_thrs_random_forest": 0.81
+        }
+    ]
+}

@@ -1,0 +1,142 @@
+{
+    "theorem": "fnmap",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            6
+        ]
+    ],
+    "expression": "^m Fn ( V \u00d7 V )",
+    "steps": [
+        {
+            "expression": "\u22a2 ^m Fn ( V \u00d7 V )",
+            "prop_expression": "F = ( x \u2208 A , y \u2208 B |\u2192 C ), C \u2208 V \u22a2 F Fn ( A \u00d7 B )",
+            "step": 1,
+            "theorem": "fnmpt2i",
+            "ground_truth": "fnmpt2i \u22a2 ^m Fn ( V \u00d7 V )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.892918426736403,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.8,
+            "_thrs_complexity": 0.8,
+            "_thrs_surprisingness": 0.15,
+            "_thrs_intensity": 0.6829268292682927,
+            "_thrs_interestingness": 0.6865853658536586,
+            "_thrs_logistic_regression": 0.9855368710095619,
+            "_thrs_random_forest": 0.89
+        },
+        {
+            "expression": "\u22a2 ^m = ( x \u2208 V , y \u2208 V |\u2192 { f | f : y -\u2192 x } )",
+            "prop_expression": " \u22a2 ^m = ( x \u2208 V , y \u2208 V |\u2192 { f | f : y -\u2192 x } )",
+            "step": 2,
+            "theorem": "df-map",
+            "ground_truth": "df-map \u22a2 ^m = ( x \u2208 V , y \u2208 V |\u2192 { f | f : y -\u2192 x } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8319157543272284,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.06829268292682929,
+            "_thrs_interestingness": 0.21365853658536588,
+            "_thrs_logistic_regression": 0.9585736167278168,
+            "_thrs_random_forest": 0.98
+        },
+        {
+            "expression": "\u22a2 { f | f : y -\u2192 x } \u2208 V",
+            "prop_expression": "\ud835\udf11, \ud835\udf13, ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 ) \u22a2 \ud835\udf12",
+            "step": 3,
+            "theorem": "mp2an",
+            "ground_truth": "mp2an \u22a2 { f | f : y -\u2192 x } \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8960613151039488,
+            "_thrs_reconstruct": 1.1848372808524679e-12,
+            "_thrs_obviousness": 0.005628985471672356,
+            "_thrs_weight": 0.6,
+            "_thrs_complexity": 0.4,
+            "_thrs_surprisingness": 0.2,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.4411257970943344,
+            "_thrs_logistic_regression": 0.9995869574669562,
+            "_thrs_random_forest": 0.87
+        },
+        {
+            "expression": "\u22a2 y \u2208 V",
+            "prop_expression": " \u22a2 x \u2208 V",
+            "step": 4,
+            "theorem": "vex",
+            "ground_truth": "vex \u22a2 y \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7694710855382142,
+            "_thrs_reconstruct": 3.081069056844098e-10,
+            "_thrs_obviousness": 3.063725763885901e-10,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.23902439024390248,
+            "_thrs_interestingness": 0.4478048781100551,
+            "_thrs_logistic_regression": 0.7840959356906502,
+            "_thrs_random_forest": 0.79375
+        },
+        {
+            "expression": "\u22a2 x \u2208 V",
+            "prop_expression": " \u22a2 x \u2208 V",
+            "step": 5,
+            "theorem": "vex",
+            "ground_truth": "vex \u22a2 x \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.522978490525196,
+            "_thrs_reconstruct": 3.081069056844098e-10,
+            "_thrs_obviousness": 3.063725763885901e-10,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.23902439024390248,
+            "_thrs_interestingness": 0.4478048781100551,
+            "_thrs_logistic_regression": 0.7840959356906502,
+            "_thrs_random_forest": 0.79375
+        },
+        {
+            "expression": "\u22a2 ( ( y \u2208 V \u2227 x \u2208 V ) \u2192 { f | f : y -\u2192 x } \u2208 V )",
+            "prop_expression": " \u22a2 ( ( A \u2208 C \u2227 B \u2208 D ) \u2192 { f | f : A -\u2192 B } \u2208 V )",
+            "step": 6,
+            "theorem": "mapex",
+            "ground_truth": "mapex \u22a2 ( ( y \u2208 V \u2227 x \u2208 V ) \u2192 { f | f : y -\u2192 x } \u2208 V )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8291391439221599,
+            "_thrs_reconstruct": 0.005660849698457968,
+            "_thrs_obviousness": 0.005628984857748023,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.4,
+            "_thrs_surprisingness": 0.2,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.12112579697154961,
+            "_thrs_logistic_regression": 0.8610012447493595,
+            "_thrs_random_forest": 0.41
+        }
+    ]
+}

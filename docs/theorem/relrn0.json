@@ -1,0 +1,73 @@
+{
+    "theorem": "relrn0",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( Rel A \u2192 ( A = \u2205 \u2194 ran A = \u2205 ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( Rel A \u2192 ( A = \u2205 \u2194 ran A = \u2205 ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ), ( \ud835\udf12 \u2194 \ud835\udf03 ) \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf03 ) )",
+            "step": 1,
+            "theorem": "syl6bb",
+            "ground_truth": "syl6bb \u22a2 ( Rel A \u2192 ( A = \u2205 \u2194 ran A = \u2205 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.1294064933110386,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.9960985537607514,
+            "_thrs_random_forest": 0.746
+        },
+        {
+            "expression": "\u22a2 ( Rel A \u2192 ( A = \u2205 \u2194 dom A = \u2205 ) )",
+            "prop_expression": " \u22a2 ( Rel A \u2192 ( A = \u2205 \u2194 dom A = \u2205 ) )",
+            "step": 2,
+            "theorem": "reldm0",
+            "ground_truth": "reldm0 \u22a2 ( Rel A \u2192 ( A = \u2205 \u2194 dom A = \u2205 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4121074594523273,
+            "_thrs_reconstruct": 0.08852886069966961,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.8301767051241057,
+            "_thrs_random_forest": 0.6
+        },
+        {
+            "expression": "\u22a2 ( dom A = \u2205 \u2194 ran A = \u2205 )",
+            "prop_expression": " \u22a2 ( dom A = \u2205 \u2194 ran A = \u2205 )",
+            "step": 3,
+            "theorem": "dm0rn0",
+            "ground_truth": "dm0rn0 \u22a2 ( dom A = \u2205 \u2194 ran A = \u2205 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.20923862982851082,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9114711340219599,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.10416666666666666,
+            "_thrs_interestingness": 0.5031275601377253,
+            "_thrs_logistic_regression": 0.9536753931644899,
+            "_thrs_random_forest": 0.76
+        }
+    ]
+}

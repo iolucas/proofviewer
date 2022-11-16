@@ -1,0 +1,119 @@
+{
+    "theorem": "neorian",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ]
+    ],
+    "expression": "( ( A \u2260 B \u2228 C \u2260 D ) \u2194 \u00ac ( A = B \u2227 C = D ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( ( A \u2260 B \u2228 C \u2260 D ) \u2194 \u00ac ( A = B \u2227 C = D ) )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ), ( \ud835\udf12 \u2194 \ud835\udf13 ) \u22a2 ( \ud835\udf11 \u2194 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "bitr4i",
+            "ground_truth": "bitr4i \u22a2 ( ( A \u2260 B \u2228 C \u2260 D ) \u2194 \u00ac ( A = B \u2227 C = D ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.07470372381905444,
+            "_thrs_reconstruct": 0.07140388194629088,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.9996913885209483,
+            "_thrs_random_forest": 0.985
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2260 B \u2228 C \u2260 D ) \u2194 ( \u00ac A = B \u2228 \u00ac C = D ) )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ), ( \ud835\udf12 \u2194 \ud835\udf03 ) \u22a2 ( ( \ud835\udf11 \u2228 \ud835\udf12 ) \u2194 ( \ud835\udf13 \u2228 \ud835\udf03 ) )",
+            "step": 2,
+            "theorem": "orbi12i",
+            "ground_truth": "orbi12i \u22a2 ( ( A \u2260 B \u2228 C \u2260 D ) \u2194 ( \u00ac A = B \u2228 \u00ac C = D ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9085763115973954,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.5124692144445996,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.3333333333333333,
+            "_thrs_interestingness": 0.3691605095555866,
+            "_thrs_logistic_regression": 0.989310382031366,
+            "_thrs_random_forest": 0.99
+        },
+        {
+            "expression": "\u22a2 ( A \u2260 B \u2194 \u00ac A = B )",
+            "prop_expression": " \u22a2 ( A \u2260 B \u2194 \u00ac A = B )",
+            "step": 3,
+            "theorem": "df-ne",
+            "ground_truth": "df-ne \u22a2 ( A \u2260 B \u2194 \u00ac A = B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5567843756326548,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.5,
+            "_thrs_random_forest": 0.775
+        },
+        {
+            "expression": "\u22a2 ( C \u2260 D \u2194 \u00ac C = D )",
+            "prop_expression": " \u22a2 ( A \u2260 B \u2194 \u00ac A = B )",
+            "step": 4,
+            "theorem": "df-ne",
+            "ground_truth": "df-ne \u22a2 ( C \u2260 D \u2194 \u00ac C = D )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5446553299326092,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.5,
+            "_thrs_random_forest": 0.775
+        },
+        {
+            "expression": "\u22a2 ( \u00ac ( A = B \u2227 C = D ) \u2194 ( \u00ac A = B \u2228 \u00ac C = D ) )",
+            "prop_expression": " \u22a2 ( \u00ac ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2194 ( \u00ac \ud835\udf11 \u2228 \u00ac \ud835\udf13 ) )",
+            "step": 5,
+            "theorem": "ianor",
+            "ground_truth": "ianor \u22a2 ( \u00ac ( A = B \u2227 C = D ) \u2194 ( \u00ac A = B \u2228 \u00ac C = D ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.07126068826751986,
+            "_thrs_reconstruct": 0.8799321988832757,
+            "_thrs_obviousness": 0.45093216788219226,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2901864335764385,
+            "_thrs_logistic_regression": 0.9390288360082549,
+            "_thrs_random_forest": 1.0
+        }
+    ]
+}

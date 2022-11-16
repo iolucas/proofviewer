@@ -1,0 +1,119 @@
+{
+    "theorem": "elrn2g",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "expression": "( A \u2208 V \u2192 ( A \u2208 ran B \u2194 \u2203 x \u27e8 x , A \u27e9 \u2208 B ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( A \u2208 V \u2192 ( A \u2208 ran B \u2194 \u2203 x \u27e8 x , A \u27e9 \u2208 B ) )",
+            "prop_expression": "( x = A \u2192 ( \ud835\udf11 \u2194 \ud835\udf13 ) ), B = { x | \ud835\udf11 } \u22a2 ( A \u2208 V \u2192 ( A \u2208 B \u2194 \ud835\udf13 ) )",
+            "step": 1,
+            "theorem": "elab2g",
+            "ground_truth": "elab2g \u22a2 ( A \u2208 V \u2192 ( A \u2208 ran B \u2194 \u2203 x \u27e8 x , A \u27e9 \u2208 B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6205795837054695,
+            "_thrs_reconstruct": 0.0004418687030513708,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.9998431944152827,
+            "_thrs_random_forest": 0.89
+        },
+        {
+            "expression": "\u22a2 ( y = A \u2192 ( \u2203 x \u27e8 x , y \u27e9 \u2208 B \u2194 \u2203 x \u27e8 x , A \u27e9 \u2208 B ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2192 ( \u2203 x \ud835\udf13 \u2194 \u2203 x \ud835\udf12 ) )",
+            "step": 2,
+            "theorem": "exbidv",
+            "ground_truth": "exbidv \u22a2 ( y = A \u2192 ( \u2203 x \u27e8 x , y \u27e9 \u2208 B \u2194 \u2203 x \u27e8 x , A \u27e9 \u2208 B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8344529338110249,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.602782439835299e-07,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.28571428571428575,
+            "_thrs_interestingness": 0.22380955586517262,
+            "_thrs_logistic_regression": 0.9643651434329703,
+            "_thrs_random_forest": 0.795
+        },
+        {
+            "expression": "\u22a2 ( y = A \u2192 ( \u27e8 x , y \u27e9 \u2208 B \u2194 \u27e8 x , A \u27e9 \u2208 B ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 A = B ) \u22a2 ( \ud835\udf11 \u2192 ( A \u2208 C \u2194 B \u2208 C ) )",
+            "step": 3,
+            "theorem": "eleq1d",
+            "ground_truth": "eleq1d \u22a2 ( y = A \u2192 ( \u27e8 x , y \u27e9 \u2208 B \u2194 \u27e8 x , A \u27e9 \u2208 B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.253676882414238,
+            "_thrs_reconstruct": 8.380572723148993e-08,
+            "_thrs_obviousness": 1.2202346830364023e-07,
+            "_thrs_weight": 0.33333333333333337,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.42857142857142855,
+            "_thrs_interestingness": 0.31904764345231273,
+            "_thrs_logistic_regression": 0.987713229303107,
+            "_thrs_random_forest": 0.585
+        },
+        {
+            "expression": "\u22a2 ( y = A \u2192 \u27e8 x , y \u27e9 = \u27e8 x , A \u27e9 )",
+            "prop_expression": " \u22a2 ( A = B \u2192 \u27e8 C , A \u27e9 = \u27e8 C , B \u27e9 )",
+            "step": 4,
+            "theorem": "opeq2",
+            "ground_truth": "opeq2 \u22a2 ( y = A \u2192 \u27e8 x , y \u27e9 = \u27e8 x , A \u27e9 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.351679204552222,
+            "_thrs_reconstruct": 0.027213438280769428,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.33688020817427905,
+            "_thrs_random_forest": 0.51
+        },
+        {
+            "expression": "\u22a2 ran B = { y | \u2203 x \u27e8 x , y \u27e9 \u2208 B }",
+            "prop_expression": " \u22a2 ran A = { y | \u2203 x \u27e8 x , y \u27e9 \u2208 A }",
+            "step": 5,
+            "theorem": "dfrn3",
+            "ground_truth": "dfrn3 \u22a2 ran B = { y | \u2203 x \u27e8 x , y \u27e9 \u2208 B }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.2825220586874292,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.972356677391303,
+            "_thrs_weight": 0.6666666666666667,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.10714285714285714,
+            "_thrs_interestingness": 0.5158999069068321,
+            "_thrs_logistic_regression": 0.9472114879002893,
+            "_thrs_random_forest": 0.82
+        }
+    ]
+}

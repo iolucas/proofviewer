@@ -1,0 +1,119 @@
+{
+    "theorem": "sylan2d",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "expression": "( \ud835\udf11 \u2192 ( ( \ud835\udf03 \u2227 \ud835\udf13 ) \u2192 \ud835\udf0f ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 ( ( \ud835\udf03 \u2227 \ud835\udf13 ) \u2192 \ud835\udf0f ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( ( \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) ) \u22a2 ( \ud835\udf11 \u2192 ( ( \ud835\udf12 \u2227 \ud835\udf13 ) \u2192 \ud835\udf03 ) )",
+            "step": 1,
+            "theorem": "ancomsd",
+            "ground_truth": "ancomsd \u22a2 ( \ud835\udf11 \u2192 ( ( \ud835\udf03 \u2227 \ud835\udf13 ) \u2192 \ud835\udf0f ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6899580943252615,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.96658211380152,
+            "_thrs_random_forest": 0.825
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 ( ( \ud835\udf13 \u2227 \ud835\udf03 ) \u2192 \ud835\udf0f ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf12 ) ), ( \ud835\udf11 \u2192 ( ( \ud835\udf12 \u2227 \ud835\udf03 ) \u2192 \ud835\udf0f ) ) \u22a2 ( \ud835\udf11 \u2192 ( ( \ud835\udf13 \u2227 \ud835\udf03 ) \u2192 \ud835\udf0f ) )",
+            "step": 2,
+            "theorem": "syland",
+            "ground_truth": "syland \u22a2 ( \ud835\udf11 \u2192 ( ( \ud835\udf13 \u2227 \ud835\udf03 ) \u2192 \ud835\udf0f ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.09549168336470015,
+            "_thrs_reconstruct": 0.4848884492801407,
+            "_thrs_obviousness": 0.597594410542142,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.4195188821084284,
+            "_thrs_logistic_regression": 0.9998485027582061,
+            "_thrs_random_forest": 0.87
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf12 ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf12 ) )",
+            "step": 3,
+            "theorem": "sylan2d.1",
+            "ground_truth": "sylan2d.1 \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf12 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.38670363361076665,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.5,
+            "_thrs_random_forest": 0.85
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 ( ( \ud835\udf12 \u2227 \ud835\udf03 ) \u2192 \ud835\udf0f ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( ( \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) ) \u22a2 ( \ud835\udf11 \u2192 ( ( \ud835\udf12 \u2227 \ud835\udf13 ) \u2192 \ud835\udf03 ) )",
+            "step": 4,
+            "theorem": "ancomsd",
+            "ground_truth": "ancomsd \u22a2 ( \ud835\udf11 \u2192 ( ( \ud835\udf12 \u2227 \ud835\udf03 ) \u2192 \ud835\udf0f ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.03445148466047232,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.402405589457858,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2804811178915716,
+            "_thrs_logistic_regression": 0.9392662184140452,
+            "_thrs_random_forest": 0.245
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 ( ( \ud835\udf03 \u2227 \ud835\udf12 ) \u2192 \ud835\udf0f ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( ( \ud835\udf03 \u2227 \ud835\udf12 ) \u2192 \ud835\udf0f ) )",
+            "step": 5,
+            "theorem": "sylan2d.2",
+            "ground_truth": "sylan2d.2 \u22a2 ( \ud835\udf11 \u2192 ( ( \ud835\udf03 \u2227 \ud835\udf12 ) \u2192 \ud835\udf0f ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8827460325005023,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.941201642956695,
+            "_thrs_random_forest": 1.0
+        }
+    ]
+}

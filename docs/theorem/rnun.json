@@ -1,0 +1,211 @@
+{
+    "theorem": "rnun",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            6
+        ],
+        [
+            1,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "expression": "ran ( A \u222a B ) = ( ran A \u222a ran B )",
+    "steps": [
+        {
+            "expression": "\u22a2 ran ( A \u222a B ) = ( ran A \u222a ran B )",
+            "prop_expression": "A = B, C = A, D = B \u22a2 C = D",
+            "step": 1,
+            "theorem": "3eqtr4i",
+            "ground_truth": "3eqtr4i \u22a2 ran ( A \u222a B ) = ( ran A \u222a ran B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8340836247605076,
+            "_thrs_reconstruct": 7.102355966859909e-07,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.28235294117647075,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7564705882352942,
+            "_thrs_logistic_regression": 0.9884650373354725,
+            "_thrs_random_forest": 0.99
+        },
+        {
+            "expression": "\u22a2 dom `' ( A \u222a B ) = ( dom `' A \u222a dom `' B )",
+            "prop_expression": "A = B, B = C \u22a2 A = C",
+            "step": 2,
+            "theorem": "eqtri",
+            "ground_truth": "eqtri \u22a2 dom `' ( A \u222a B ) = ( dom `' A \u222a dom `' B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.27687612869079925,
+            "_thrs_reconstruct": 3.3098029385133775e-07,
+            "_thrs_obviousness": 0.9712213820849825,
+            "_thrs_weight": 0.125,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.3764705882352941,
+            "_thrs_intensity": 0.7842323651452281,
+            "_thrs_interestingness": 0.551384867093101,
+            "_thrs_logistic_regression": 0.9952484039645749,
+            "_thrs_random_forest": 0.795
+        },
+        {
+            "expression": "\u22a2 dom `' ( A \u222a B ) = dom ( `' A \u222a `' B )",
+            "prop_expression": "A = B \u22a2 dom A = dom B",
+            "step": 3,
+            "theorem": "dmeqi",
+            "ground_truth": "dmeqi \u22a2 dom `' ( A \u222a B ) = dom ( `' A \u222a `' B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.019673160642089238,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.93521124965101,
+            "_thrs_weight": 0.25,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.3764705882352941,
+            "_thrs_intensity": 0.3097887589588834,
+            "_thrs_interestingness": 0.4742941193690375,
+            "_thrs_logistic_regression": 0.9481849785719529,
+            "_thrs_random_forest": 0.595
+        },
+        {
+            "expression": "\u22a2 `' ( A \u222a B ) = ( `' A \u222a `' B )",
+            "prop_expression": " \u22a2 `' ( A \u222a B ) = ( `' A \u222a `' B )",
+            "step": 4,
+            "theorem": "cnvun",
+            "ground_truth": "cnvun \u22a2 `' ( A \u222a B ) = ( `' A \u222a `' B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7153116376261273,
+            "_thrs_reconstruct": 0.07445334641257907,
+            "_thrs_obviousness": 0.06480468172176489,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.029045643153526972,
+            "_thrs_interestingness": 0.31877006497505833,
+            "_thrs_logistic_regression": 0.4192881750657177,
+            "_thrs_random_forest": 0.645
+        },
+        {
+            "expression": "\u22a2 dom ( `' A \u222a `' B ) = ( dom `' A \u222a dom `' B )",
+            "prop_expression": " \u22a2 dom ( A \u222a B ) = ( dom A \u222a dom B )",
+            "step": 5,
+            "theorem": "dmun",
+            "ground_truth": "dmun \u22a2 dom ( `' A \u222a `' B ) = ( dom `' A \u222a dom `' B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6390883882278572,
+            "_thrs_reconstruct": 0.0413712920741944,
+            "_thrs_obviousness": 0.03600984434506724,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.3764705882352941,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.18249608651607227,
+            "_thrs_logistic_regression": 0.7453349870174126,
+            "_thrs_random_forest": 0.7
+        },
+        {
+            "expression": "\u22a2 ran ( A \u222a B ) = dom `' ( A \u222a B )",
+            "prop_expression": " \u22a2 ran A = dom `' A",
+            "step": 6,
+            "theorem": "df-rn",
+            "ground_truth": "df-rn \u22a2 ran ( A \u222a B ) = dom `' ( A \u222a B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.25903611852712594,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.13692946058091285,
+            "_thrs_interestingness": 0.3273858921161826,
+            "_thrs_logistic_regression": 0.9818138216864102,
+            "_thrs_random_forest": 0.645
+        },
+        {
+            "expression": "\u22a2 ( ran A \u222a ran B ) = ( dom `' A \u222a dom `' B )",
+            "prop_expression": "A = B, C = D \u22a2 ( A \u222a C ) = ( B \u222a D )",
+            "step": 7,
+            "theorem": "uneq12i",
+            "ground_truth": "uneq12i \u22a2 ( ran A \u222a ran B ) = ( dom `' A \u222a dom `' B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7499198023127376,
+            "_thrs_reconstruct": 0.03306270974731867,
+            "_thrs_obviousness": 0.028777999719063658,
+            "_thrs_weight": 0.125,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.2987551867219917,
+            "_thrs_interestingness": 0.2905066372882111,
+            "_thrs_logistic_regression": 0.989032411292856,
+            "_thrs_random_forest": 0.96
+        },
+        {
+            "expression": "\u22a2 ran A = dom `' A",
+            "prop_expression": " \u22a2 ran A = dom `' A",
+            "step": 8,
+            "theorem": "df-rn",
+            "ground_truth": "df-rn \u22a2 ran A = dom `' A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.27882509631526453,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.08235294117647061,
+            "_thrs_intensity": 0.2016597510373444,
+            "_thrs_interestingness": 0.4568025384427631,
+            "_thrs_logistic_regression": 0.7264224097267906,
+            "_thrs_random_forest": 0.865
+        },
+        {
+            "expression": "\u22a2 ran B = dom `' B",
+            "prop_expression": " \u22a2 ran A = dom `' A",
+            "step": 9,
+            "theorem": "df-rn",
+            "ground_truth": "df-rn \u22a2 ran B = dom `' B",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.845323337786543,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.08235294117647061,
+            "_thrs_intensity": 0.2016597510373444,
+            "_thrs_interestingness": 0.4568025384427631,
+            "_thrs_logistic_regression": 0.7264224097267906,
+            "_thrs_random_forest": 0.865
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "theorem": "riotacl",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( E! x \u2208 A \ud835\udf11 \u2192 ( io\ud835\udf0f_ x \u2208 A \ud835\udf11 ) \u2208 A )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( E! x \u2208 A \ud835\udf11 \u2192 ( io\ud835\udf0f_ x \u2208 A \ud835\udf11 ) \u2208 A )",
+            "prop_expression": "( \ud835\udf11 \u2192 A = B ), ( \ud835\udf11 \u2192 B \u2208 C ) \u22a2 ( \ud835\udf11 \u2192 A \u2208 C )",
+            "step": 1,
+            "theorem": "eqeltrd",
+            "ground_truth": "eqeltrd \u22a2 ( E! x \u2208 A \ud835\udf11 \u2192 ( io\ud835\udf0f_ x \u2208 A \ud835\udf11 ) \u2208 A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4579593811901883,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.9992339271291688,
+            "_thrs_random_forest": 0.82
+        },
+        {
+            "expression": "\u22a2 ( E! x \u2208 A \ud835\udf11 \u2192 ( io\ud835\udf0f_ x \u2208 A \ud835\udf11 ) = ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) )",
+            "prop_expression": " \u22a2 ( E! x \u2208 A \ud835\udf11 \u2192 ( io\ud835\udf0f_ x \u2208 A \ud835\udf11 ) = ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) )",
+            "step": 2,
+            "theorem": "riotaiota",
+            "ground_truth": "riotaiota \u22a2 ( E! x \u2208 A \ud835\udf11 \u2192 ( io\ud835\udf0f_ x \u2208 A \ud835\udf11 ) = ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.07263337777396084,
+            "_thrs_reconstruct": 0.00017820118700911748,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.7129289188481559,
+            "_thrs_random_forest": 0.92
+        },
+        {
+            "expression": "\u22a2 ( E! x \u2208 A \ud835\udf11 \u2192 ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) \u2208 A )",
+            "prop_expression": " \u22a2 ( E! x \u2208 A \ud835\udf11 \u2192 ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) \u2208 A )",
+            "step": 3,
+            "theorem": "reiotacl",
+            "ground_truth": "reiotacl \u22a2 ( E! x \u2208 A \ud835\udf11 \u2192 ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) \u2208 A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8667584849779336,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9998044123446144,
+            "_thrs_weight": 0.6666666666666667,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.026737967914438502,
+            "_thrs_interestingness": 0.5386418093851439,
+            "_thrs_logistic_regression": 0.8326000671069667,
+            "_thrs_random_forest": 0.96
+        }
+    ]
+}

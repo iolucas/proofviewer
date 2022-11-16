@@ -1,0 +1,96 @@
+{
+    "theorem": "fpm",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            1,
+            4
+        ]
+    ],
+    "expression": "( F : A -\u2192 B \u2192 F \u2208 ( B ^pm A ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( F : A -\u2192 B \u2192 F \u2208 ( B ^pm A ) )",
+            "prop_expression": "\ud835\udf11, \ud835\udf13, ( ( \ud835\udf11 \u2227 \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( \ud835\udf12 \u2192 \ud835\udf03 )",
+            "step": 1,
+            "theorem": "mp3an12",
+            "ground_truth": "mp3an12 \u22a2 ( F : A -\u2192 B \u2192 F \u2208 ( B ^pm A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6600895150701132,
+            "_thrs_reconstruct": 4.669215698499197e-11,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.25,
+            "_thrs_surprisingness": 0.6800000000000002,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.686,
+            "_thrs_logistic_regression": 0.9995577110563602,
+            "_thrs_random_forest": 0.91
+        },
+        {
+            "expression": "\u22a2 A \u2208 V",
+            "prop_expression": " \u22a2 A \u2208 V",
+            "step": 2,
+            "theorem": "elmap.1",
+            "ground_truth": "elmap.1 \u22a2 A \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3559444434706631,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.3478260869565218,
+            "_thrs_interestingness": 0.4695652173913044,
+            "_thrs_logistic_regression": 0.8672380106140413,
+            "_thrs_random_forest": 0.93
+        },
+        {
+            "expression": "\u22a2 B \u2208 V",
+            "prop_expression": " \u22a2 B \u2208 V",
+            "step": 3,
+            "theorem": "elmap.2",
+            "ground_truth": "elmap.2 \u22a2 B \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6449633523779856,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.3478260869565218,
+            "_thrs_interestingness": 0.4695652173913044,
+            "_thrs_logistic_regression": 0.8672380106140413,
+            "_thrs_random_forest": 0.93
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 V \u2227 B \u2208 V \u2227 F : A -\u2192 B ) \u2192 F \u2208 ( B ^pm A ) )",
+            "prop_expression": " \u22a2 ( ( A \u2208 V \u2227 B \u2208 W \u2227 F : A -\u2192 B ) \u2192 F \u2208 ( B ^pm A ) )",
+            "step": 4,
+            "theorem": "fpmg",
+            "ground_truth": "fpmg \u22a2 ( ( A \u2208 V \u2227 B \u2208 V \u2227 F : A -\u2192 B ) \u2192 F \u2208 ( B ^pm A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.2739392631159604,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9999999999533004,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3999999999906601,
+            "_thrs_logistic_regression": 0.9362818278243773,
+            "_thrs_random_forest": 0.695
+        }
+    ]
+}

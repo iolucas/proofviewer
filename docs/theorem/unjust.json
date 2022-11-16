@@ -1,0 +1,211 @@
+{
+    "theorem": "unjust",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "expression": "{ x | ( x \u2208 A \u2228 x \u2208 B ) } = { y | ( y \u2208 A \u2228 y \u2208 B ) }",
+    "steps": [
+        {
+            "expression": "\u22a2 { x | ( x \u2208 A \u2228 x \u2208 B ) } = { y | ( y \u2208 A \u2228 y \u2208 B ) }",
+            "prop_expression": "A = B, B = C \u22a2 A = C",
+            "step": 1,
+            "theorem": "eqtri",
+            "ground_truth": "eqtri \u22a2 { x | ( x \u2208 A \u2228 x \u2208 B ) } = { y | ( y \u2208 A \u2228 y \u2208 B ) }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9189158678585105,
+            "_thrs_reconstruct": 0.001483763997420553,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.9996913885209483,
+            "_thrs_random_forest": 0.96
+        },
+        {
+            "expression": "\u22a2 { x | ( x \u2208 A \u2228 x \u2208 B ) } = { z | ( z \u2208 A \u2228 z \u2208 B ) }",
+            "prop_expression": "( x = y \u2192 ( \ud835\udf11 \u2194 \ud835\udf13 ) ) \u22a2 { x | \ud835\udf11 } = { y | \ud835\udf13 }",
+            "step": 2,
+            "theorem": "cbvabv",
+            "ground_truth": "cbvabv \u22a2 { x | ( x \u2208 A \u2228 x \u2208 B ) } = { z | ( z \u2208 A \u2228 z \u2208 B ) }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8373155930139565,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.49454258007420765,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.42857142857142844,
+            "_thrs_interestingness": 0.3846228017291272,
+            "_thrs_logistic_regression": 0.9935879472432264,
+            "_thrs_random_forest": 0.97
+        },
+        {
+            "expression": "\u22a2 ( x = z \u2192 ( ( x \u2208 A \u2228 x \u2208 B ) \u2194 ( z \u2208 A \u2228 z \u2208 B ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ), ( \ud835\udf11 \u2192 ( \ud835\udf03 \u2194 \ud835\udf0f ) ) \u22a2 ( \ud835\udf11 \u2192 ( ( \ud835\udf13 \u2228 \ud835\udf03 ) \u2194 ( \ud835\udf12 \u2228 \ud835\udf0f ) ) )",
+            "step": 3,
+            "theorem": "orbi12d",
+            "ground_truth": "orbi12d \u22a2 ( x = z \u2192 ( ( x \u2208 A \u2228 x \u2208 B ) \u2194 ( z \u2208 A \u2228 z \u2208 B ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7271940503783415,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.010198769946630404,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.5510204081632653,
+            "_thrs_interestingness": 0.3122438356219791,
+            "_thrs_logistic_regression": 0.9968124051099152,
+            "_thrs_random_forest": 0.835
+        },
+        {
+            "expression": "\u22a2 ( x = z \u2192 ( x \u2208 A \u2194 z \u2208 A ) )",
+            "prop_expression": " \u22a2 ( A = B \u2192 ( A \u2208 C \u2194 B \u2208 C ) )",
+            "step": 4,
+            "theorem": "eleq1",
+            "ground_truth": "eleq1 \u22a2 ( x = z \u2192 ( x \u2208 A \u2194 z \u2208 A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9115117142875192,
+            "_thrs_reconstruct": 0.013921213310003568,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.5,
+            "_thrs_random_forest": 0.605
+        },
+        {
+            "expression": "\u22a2 ( x = z \u2192 ( x \u2208 B \u2194 z \u2208 B ) )",
+            "prop_expression": " \u22a2 ( A = B \u2192 ( A \u2208 C \u2194 B \u2208 C ) )",
+            "step": 5,
+            "theorem": "eleq1",
+            "ground_truth": "eleq1 \u22a2 ( x = z \u2192 ( x \u2208 B \u2194 z \u2208 B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5514023742356474,
+            "_thrs_reconstruct": 0.013921213310003568,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.5,
+            "_thrs_random_forest": 0.605
+        },
+        {
+            "expression": "\u22a2 { z | ( z \u2208 A \u2228 z \u2208 B ) } = { y | ( y \u2208 A \u2228 y \u2208 B ) }",
+            "prop_expression": "( x = y \u2192 ( \ud835\udf11 \u2194 \ud835\udf13 ) ) \u22a2 { x | \ud835\udf11 } = { y | \ud835\udf13 }",
+            "step": 6,
+            "theorem": "cbvabv",
+            "ground_truth": "cbvabv \u22a2 { z | ( z \u2208 A \u2228 z \u2208 B ) } = { y | ( y \u2208 A \u2228 y \u2208 B ) }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5359216226269027,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.49454258007420765,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.42857142857142844,
+            "_thrs_interestingness": 0.3846228017291272,
+            "_thrs_logistic_regression": 0.9935879472432264,
+            "_thrs_random_forest": 0.97
+        },
+        {
+            "expression": "\u22a2 ( z = y \u2192 ( ( z \u2208 A \u2228 z \u2208 B ) \u2194 ( y \u2208 A \u2228 y \u2208 B ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ), ( \ud835\udf11 \u2192 ( \ud835\udf03 \u2194 \ud835\udf0f ) ) \u22a2 ( \ud835\udf11 \u2192 ( ( \ud835\udf13 \u2228 \ud835\udf03 ) \u2194 ( \ud835\udf12 \u2228 \ud835\udf0f ) ) )",
+            "step": 7,
+            "theorem": "orbi12d",
+            "ground_truth": "orbi12d \u22a2 ( z = y \u2192 ( ( z \u2208 A \u2228 z \u2208 B ) \u2194 ( y \u2208 A \u2228 y \u2208 B ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.18949032578462877,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.010198769946630404,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.5510204081632653,
+            "_thrs_interestingness": 0.3122438356219791,
+            "_thrs_logistic_regression": 0.9968124051099152,
+            "_thrs_random_forest": 0.835
+        },
+        {
+            "expression": "\u22a2 ( z = y \u2192 ( z \u2208 A \u2194 y \u2208 A ) )",
+            "prop_expression": " \u22a2 ( A = B \u2192 ( A \u2208 C \u2194 B \u2208 C ) )",
+            "step": 8,
+            "theorem": "eleq1",
+            "ground_truth": "eleq1 \u22a2 ( z = y \u2192 ( z \u2208 A \u2194 y \u2208 A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9766225896555651,
+            "_thrs_reconstruct": 0.013921213310003568,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.5,
+            "_thrs_random_forest": 0.605
+        },
+        {
+            "expression": "\u22a2 ( z = y \u2192 ( z \u2208 B \u2194 y \u2208 B ) )",
+            "prop_expression": " \u22a2 ( A = B \u2192 ( A \u2208 C \u2194 B \u2208 C ) )",
+            "step": 9,
+            "theorem": "eleq1",
+            "ground_truth": "eleq1 \u22a2 ( z = y \u2192 ( z \u2208 B \u2194 y \u2208 B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9835175786131367,
+            "_thrs_reconstruct": 0.013921213310003568,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.5,
+            "_thrs_random_forest": 0.605
+        }
+    ]
+}

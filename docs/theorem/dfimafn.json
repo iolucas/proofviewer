@@ -1,0 +1,211 @@
+{
+    "theorem": "dfimafn",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "expression": "( ( Fun F \u2227 A \u2286 dom F ) \u2192 ( F \u201c A ) = { y | \u2203 x \u2208 A ( F ` x ) = y } )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( ( Fun F \u2227 A \u2286 dom F ) \u2192 ( F \u201c A ) = { y | \u2203 x \u2208 A ( F ` x ) = y } )",
+            "prop_expression": "( \ud835\udf11 \u2192 A = B ), C = B \u22a2 ( \ud835\udf11 \u2192 C = A )",
+            "step": 1,
+            "theorem": "syl6reqr",
+            "ground_truth": "syl6reqr \u22a2 ( ( Fun F \u2227 A \u2286 dom F ) \u2192 ( F \u201c A ) = { y | \u2203 x \u2208 A ( F ` x ) = y } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7483695129665411,
+            "_thrs_reconstruct": 1.3343914296842483e-09,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.36363636363636365,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6727272727272727,
+            "_thrs_logistic_regression": 0.9997818115525243,
+            "_thrs_random_forest": 0.95
+        },
+        {
+            "expression": "\u22a2 ( ( Fun F \u2227 A \u2286 dom F ) \u2192 { y | \u2203 x \u2208 A ( F ` x ) = y } = { y | \u2203 x \u2208 A x F y } )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2192 { x | \ud835\udf13 } = { x | \ud835\udf12 } )",
+            "step": 2,
+            "theorem": "abbidv",
+            "ground_truth": "abbidv \u22a2 ( ( Fun F \u2227 A \u2286 dom F ) \u2192 { y | \u2203 x \u2208 A ( F ` x ) = y } = { y | \u2203 x \u2208 A x F y } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4527007941092369,
+            "_thrs_reconstruct": 5.166095194858214e-08,
+            "_thrs_obviousness": 0.9563455583521421,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.25,
+            "_thrs_surprisingness": 0.7500000000000002,
+            "_thrs_intensity": 0.2850435949027498,
+            "_thrs_interestingness": 0.4482778306509784,
+            "_thrs_logistic_regression": 0.964342580199985,
+            "_thrs_random_forest": 0.855
+        },
+        {
+            "expression": "\u22a2 ( ( Fun F \u2227 A \u2286 dom F ) \u2192 ( \u2203 x \u2208 A ( F ` x ) = y \u2194 \u2203 x \u2208 A x F y ) )",
+            "prop_expression": "( ( \ud835\udf11 \u2227 x \u2208 A ) \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2192 ( \u2203 x \u2208 A \ud835\udf13 \u2194 \u2203 x \u2208 A \ud835\udf12 ) )",
+            "step": 3,
+            "theorem": "rexbidva",
+            "ground_truth": "rexbidva \u22a2 ( ( Fun F \u2227 A \u2286 dom F ) \u2192 ( \u2203 x \u2208 A ( F ` x ) = y \u2194 \u2203 x \u2208 A x F y ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8967027417950483,
+            "_thrs_reconstruct": 2.604966342562468e-09,
+            "_thrs_obviousness": 0.9563455089462478,
+            "_thrs_weight": 0.18181818181818177,
+            "_thrs_complexity": 0.25,
+            "_thrs_surprisingness": 0.7500000000000002,
+            "_thrs_intensity": 0.23628613787991096,
+            "_thrs_interestingness": 0.4748899657288682,
+            "_thrs_logistic_regression": 0.9611273999138055,
+            "_thrs_random_forest": 0.7633333333333334
+        },
+        {
+            "expression": "\u22a2 ( ( ( Fun F \u2227 A \u2286 dom F ) \u2227 x \u2208 A ) \u2192 ( ( F ` x ) = y \u2194 x F y ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 ( \ud835\udf12 \u2192 \ud835\udf03 ) ) ) \u22a2 ( ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 )",
+            "step": 4,
+            "theorem": "imp31",
+            "ground_truth": "imp31 \u22a2 ( ( ( Fun F \u2227 A \u2286 dom F ) \u2227 x \u2208 A ) \u2192 ( ( F ` x ) = y \u2194 x F y ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.06389836560801665,
+            "_thrs_reconstruct": 3.835949102120057e-12,
+            "_thrs_obviousness": 0.9563455064548251,
+            "_thrs_weight": 0.4545454545454546,
+            "_thrs_complexity": 0.25,
+            "_thrs_surprisingness": 0.7500000000000002,
+            "_thrs_intensity": 0.3591549295774647,
+            "_thrs_interestingness": 0.5540091781155488,
+            "_thrs_logistic_regression": 0.9841855113031441,
+            "_thrs_random_forest": 0.7
+        },
+        {
+            "expression": "\u22a2 ( Fun F \u2192 ( A \u2286 dom F \u2192 ( x \u2208 A \u2192 ( ( F ` x ) = y \u2194 x F y ) ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf12 ) ), ( \ud835\udf03 \u2192 ( \ud835\udf12 \u2192 \ud835\udf0f ) ) \u22a2 ( \ud835\udf03 \u2192 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf0f ) ) )",
+            "step": 5,
+            "theorem": "syl9r",
+            "ground_truth": "syl9r \u22a2 ( Fun F \u2192 ( A \u2286 dom F \u2192 ( x \u2208 A \u2192 ( ( F ` x ) = y \u2194 x F y ) ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.30628719531560544,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.9563455064509816,
+            "_thrs_weight": 0.4545454545454546,
+            "_thrs_complexity": 0.25,
+            "_thrs_surprisingness": 0.7500000000000002,
+            "_thrs_intensity": 0.7482394366197181,
+            "_thrs_interestingness": 0.6318260795232309,
+            "_thrs_logistic_regression": 0.9980349297379935,
+            "_thrs_random_forest": 0.86
+        },
+        {
+            "expression": "\u22a2 ( A \u2286 dom F \u2192 ( x \u2208 A \u2192 x \u2208 dom F ) )",
+            "prop_expression": " \u22a2 ( A \u2286 B \u2192 ( C \u2208 A \u2192 C \u2208 B ) )",
+            "step": 6,
+            "theorem": "ssel",
+            "ground_truth": "ssel \u22a2 ( A \u2286 dom F \u2192 ( x \u2208 A \u2192 x \u2208 dom F ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.03317767829776497,
+            "_thrs_reconstruct": 3.2948319467542365e-08,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.9090909090909091,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.2499999999999999,
+            "_thrs_intensity": 0.005441741357234389,
+            "_thrs_interestingness": 0.43290653008962876,
+            "_thrs_logistic_regression": 0.402284367600965,
+            "_thrs_random_forest": 0.73
+        },
+        {
+            "expression": "\u22a2 ( Fun F \u2192 ( x \u2208 dom F \u2192 ( ( F ` x ) = y \u2194 x F y ) ) )",
+            "prop_expression": "( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf12 ) )",
+            "step": 7,
+            "theorem": "ex",
+            "ground_truth": "ex \u22a2 ( Fun F \u2192 ( x \u2208 dom F \u2192 ( ( F ` x ) = y \u2194 x F y ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.22199218794766407,
+            "_thrs_reconstruct": 1.0134223624756585e-11,
+            "_thrs_obviousness": 0.9563454749406544,
+            "_thrs_weight": 0.7272727272727273,
+            "_thrs_complexity": 0.75,
+            "_thrs_surprisingness": 0.25,
+            "_thrs_intensity": 0.3591549295774647,
+            "_thrs_interestingness": 0.6085546263581693,
+            "_thrs_logistic_regression": 0.9260546610097949,
+            "_thrs_random_forest": 0.6775
+        },
+        {
+            "expression": "\u22a2 ( ( Fun F \u2227 x \u2208 dom F ) \u2192 ( ( F ` x ) = y \u2194 x F y ) )",
+            "prop_expression": " \u22a2 ( ( Fun F \u2227 A \u2208 dom F ) \u2192 ( ( F ` A ) = B \u2194 A F B ) )",
+            "step": 8,
+            "theorem": "funbrfvb",
+            "ground_truth": "funbrfvb \u22a2 ( ( Fun F \u2227 x \u2208 dom F ) \u2192 ( ( F ` x ) = y \u2194 x F y ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.780786902652498,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9563454749307876,
+            "_thrs_weight": 0.7272727272727273,
+            "_thrs_complexity": 0.75,
+            "_thrs_surprisingness": 0.25,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.536723640440703,
+            "_thrs_logistic_regression": 0.6433020213974291,
+            "_thrs_random_forest": 0.7398360655737705
+        },
+        {
+            "expression": "\u22a2 ( F \u201c A ) = { y | \u2203 x \u2208 A x F y }",
+            "prop_expression": " \u22a2 ( A \u201c B ) = { y | \u2203 x \u2208 B x A y }",
+            "step": 9,
+            "theorem": "dfima2",
+            "ground_truth": "dfima2 \u22a2 ( F \u201c A ) = { y | \u2203 x \u2208 A x F y }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.895595486849738,
+            "_thrs_reconstruct": 0.045647143294307586,
+            "_thrs_obviousness": 0.043654408861391485,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.047887323943661964,
+            "_thrs_interestingness": 0.4183083465610107,
+            "_thrs_logistic_regression": 0.5633201056929342,
+            "_thrs_random_forest": 0.9
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "theorem": "exmidne",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "expression": "( A = B \u2228 A \u2260 B )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( A = B \u2228 A \u2260 B )",
+            "prop_expression": "\ud835\udf13, ( \ud835\udf11 \u2194 \ud835\udf13 ) \u22a2 \ud835\udf11",
+            "step": 1,
+            "theorem": "mpbir",
+            "ground_truth": "mpbir \u22a2 ( A = B \u2228 A \u2260 B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9045483740331074,
+            "_thrs_reconstruct": 0.06783898999836038,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.9992339271291688,
+            "_thrs_random_forest": 0.955
+        },
+        {
+            "expression": "\u22a2 ( A = B \u2228 \u00ac A = B )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2228 \u00ac \ud835\udf11 )",
+            "step": 2,
+            "theorem": "exmid",
+            "ground_truth": "exmid \u22a2 ( A = B \u2228 \u00ac A = B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.037682892234937815,
+            "_thrs_reconstruct": 0.06796196097720938,
+            "_thrs_obviousness": 0.05983291532090724,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.41196658306418144,
+            "_thrs_logistic_regression": 0.8650951887677347,
+            "_thrs_random_forest": 0.98
+        },
+        {
+            "expression": "\u22a2 ( ( A = B \u2228 A \u2260 B ) \u2194 ( A = B \u2228 \u00ac A = B ) )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ) \u22a2 ( ( \ud835\udf12 \u2228 \ud835\udf11 ) \u2194 ( \ud835\udf12 \u2228 \ud835\udf13 ) )",
+            "step": 3,
+            "theorem": "orbi2i",
+            "ground_truth": "orbi2i \u22a2 ( ( A = B \u2228 A \u2260 B ) \u2194 ( A = B \u2228 \u00ac A = B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.1155969472966909,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.880406344165569,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.37608126883311377,
+            "_thrs_logistic_regression": 0.6972616719326692,
+            "_thrs_random_forest": 0.93
+        },
+        {
+            "expression": "\u22a2 ( A \u2260 B \u2194 \u00ac A = B )",
+            "prop_expression": " \u22a2 ( A \u2260 B \u2194 \u00ac A = B )",
+            "step": 4,
+            "theorem": "df-ne",
+            "ground_truth": "df-ne \u22a2 ( A \u2260 B \u2194 \u00ac A = B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5355299857485926,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.8656917795982607,
+            "_thrs_random_forest": 0.58
+        }
+    ]
+}

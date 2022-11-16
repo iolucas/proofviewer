@@ -1,0 +1,96 @@
+{
+    "theorem": "0elon",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "expression": "\u2205 \u2208 On",
+    "steps": [
+        {
+            "expression": "\u22a2 \u2205 \u2208 On",
+            "prop_expression": "\ud835\udf13, ( \ud835\udf11 \u2194 \ud835\udf13 ) \u22a2 \ud835\udf11",
+            "step": 1,
+            "theorem": "mpbir",
+            "ground_truth": "mpbir \u22a2 \u2205 \u2208 On",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.20439055671235606,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.6666666666666667,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6333333333333334,
+            "_thrs_logistic_regression": 0.9994650391551381,
+            "_thrs_random_forest": 0.855
+        },
+        {
+            "expression": "\u22a2 Ord \u2205",
+            "prop_expression": " \u22a2 Ord \u2205",
+            "step": 2,
+            "theorem": "ord0",
+            "ground_truth": "ord0 \u22a2 Ord \u2205",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8528125373038894,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.7452616115062475,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.21052631578947364,
+            "_thrs_interestingness": 0.5911575854591442,
+            "_thrs_logistic_regression": 0.7450034769217314,
+            "_thrs_random_forest": 0.935
+        },
+        {
+            "expression": "\u22a2 ( \u2205 \u2208 On \u2194 Ord \u2205 )",
+            "prop_expression": "A \u2208 V \u22a2 ( A \u2208 On \u2194 Ord A )",
+            "step": 3,
+            "theorem": "elon",
+            "ground_truth": "elon \u22a2 ( \u2205 \u2208 On \u2194 Ord \u2205 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9210549892481918,
+            "_thrs_reconstruct": 0.11870332989581521,
+            "_thrs_obviousness": 0.10610799611181952,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2212215992223639,
+            "_thrs_logistic_regression": 0.9406969884989462,
+            "_thrs_random_forest": 0.715
+        },
+        {
+            "expression": "\u22a2 \u2205 \u2208 V",
+            "prop_expression": " \u22a2 \u2205 \u2208 V",
+            "step": 4,
+            "theorem": "0ex",
+            "ground_truth": "0ex \u22a2 \u2205 \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7648952840430784,
+            "_thrs_reconstruct": 0.16627322669042024,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.6666666666666667,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.21052631578947364,
+            "_thrs_interestingness": 0.4754385964912281,
+            "_thrs_logistic_regression": 0.8812353651599094,
+            "_thrs_random_forest": 0.6
+        }
+    ]
+}

@@ -1,0 +1,211 @@
+{
+    "theorem": "ixpfi",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            6
+        ],
+        [
+            1,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "expression": "( ( A \u2208 Fin \u2227 \u2200 x \u2208 A B \u2208 Fin ) \u2192 X_ x \u2208 A B \u2208 Fin )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( ( A \u2208 Fin \u2227 \u2200 x \u2208 A B \u2208 Fin ) \u2192 X_ x \u2208 A B \u2208 Fin )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf11 \u2192 \ud835\udf12 ), ( ( \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf03 )",
+            "step": 1,
+            "theorem": "syl2anc",
+            "ground_truth": "syl2anc \u22a2 ( ( A \u2208 Fin \u2227 \u2200 x \u2208 A B \u2208 Fin ) \u2192 X_ x \u2208 A B \u2208 Fin )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.30026224245837174,
+            "_thrs_reconstruct": 6.375999263129101e-18,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.7647058823529411,
+            "_thrs_complexity": 0.75,
+            "_thrs_surprisingness": 0.25974025974025977,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7548892284186401,
+            "_thrs_logistic_regression": 0.9975376383520628,
+            "_thrs_random_forest": 0.87
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 Fin \u2227 \u2200 x \u2208 A B \u2208 Fin ) \u2192 ( \u222a x \u2208 A B ^m A ) \u2208 Fin )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf11 \u2192 \ud835\udf12 ), ( ( \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf03 )",
+            "step": 2,
+            "theorem": "syl2anc",
+            "ground_truth": "syl2anc \u22a2 ( ( A \u2208 Fin \u2227 \u2200 x \u2208 A B \u2208 Fin ) \u2192 ( \u222a x \u2208 A B ^m A ) \u2208 Fin )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5613642344129429,
+            "_thrs_reconstruct": 6.375999263129101e-18,
+            "_thrs_obviousness": 0.7503839568967839,
+            "_thrs_weight": 0.6470588235294117,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.29870129870129863,
+            "_thrs_intensity": 0.8971055088702146,
+            "_thrs_interestingness": 0.6186499175995418,
+            "_thrs_logistic_regression": 0.9986080887508727,
+            "_thrs_random_forest": 0.88
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 Fin \u2227 \u2200 x \u2208 A B \u2208 Fin ) \u2192 \u222a x \u2208 A B \u2208 Fin )",
+            "prop_expression": " \u22a2 ( ( A \u2208 Fin \u2227 \u2200 x \u2208 A B \u2208 Fin ) \u2192 \u222a x \u2208 A B \u2208 Fin )",
+            "step": 3,
+            "theorem": "iunfi",
+            "ground_truth": "iunfi \u22a2 ( ( A \u2208 Fin \u2227 \u2200 x \u2208 A B \u2208 Fin ) \u2192 \u222a x \u2208 A B \u2208 Fin )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9259346449241906,
+            "_thrs_reconstruct": 0.4980311687211034,
+            "_thrs_obviousness": 0.24947050959020994,
+            "_thrs_weight": 0.7647058823529411,
+            "_thrs_complexity": 0.75,
+            "_thrs_surprisingness": 0.06493506493506492,
+            "_thrs_intensity": 0.025210084033613436,
+            "_thrs_interestingness": 0.3708643081823658,
+            "_thrs_logistic_regression": 0.7450949126971487,
+            "_thrs_random_forest": 0.745
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 Fin \u2227 \u2200 x \u2208 A B \u2208 Fin ) \u2192 A \u2208 Fin )",
+            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf11 )",
+            "step": 4,
+            "theorem": "simpl",
+            "ground_truth": "simpl \u22a2 ( ( A \u2208 Fin \u2227 \u2200 x \u2208 A B \u2208 Fin ) \u2192 A \u2208 Fin )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3368864227970434,
+            "_thrs_reconstruct": 1.220585084577172e-18,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.04145658263305322,
+            "_thrs_interestingness": 0.4082913165266106,
+            "_thrs_logistic_regression": 0.5556895199497885,
+            "_thrs_random_forest": 0.595
+        },
+        {
+            "expression": "\u22a2 ( ( \u222a x \u2208 A B \u2208 Fin \u2227 A \u2208 Fin ) \u2192 ( \u222a x \u2208 A B ^m A ) \u2208 Fin )",
+            "prop_expression": " \u22a2 ( ( A \u2208 Fin \u2227 B \u2208 Fin ) \u2192 ( A ^m B ) \u2208 Fin )",
+            "step": 5,
+            "theorem": "mapfi",
+            "ground_truth": "mapfi \u22a2 ( ( \u222a x \u2208 A B \u2208 Fin \u2227 A \u2208 Fin ) \u2192 ( \u222a x \u2208 A B ^m A ) \u2208 Fin )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4103827171167581,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.5009134473065741,
+            "_thrs_weight": 0.5882352941176471,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.29870129870129863,
+            "_thrs_intensity": 0.022644847412649254,
+            "_thrs_interestingness": 0.38209897750763383,
+            "_thrs_logistic_regression": 0.8608817890931005,
+            "_thrs_random_forest": 0.76
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 Fin \u2227 \u2200 x \u2208 A B \u2208 Fin ) \u2192 X_ x \u2208 A B \u2286 ( \u222a x \u2208 A B ^m A ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf13 \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 6,
+            "theorem": "syl",
+            "ground_truth": "syl \u22a2 ( ( A \u2208 Fin \u2227 \u2200 x \u2208 A B \u2208 Fin ) \u2192 X_ x \u2208 A B \u2286 ( \u222a x \u2208 A B ^m A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9885178608695233,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.2494716460339815,
+            "_thrs_weight": 0.4117647058823529,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.5170359052711992,
+            "_thrs_interestingness": 0.43565445143750675,
+            "_thrs_logistic_regression": 0.9973595502326521,
+            "_thrs_random_forest": 0.88
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 Fin \u2227 \u2200 x \u2208 A B \u2208 Fin ) \u2192 \u222a x \u2208 A B \u2208 Fin )",
+            "prop_expression": " \u22a2 ( ( A \u2208 Fin \u2227 \u2200 x \u2208 A B \u2208 Fin ) \u2192 \u222a x \u2208 A B \u2208 Fin )",
+            "step": 7,
+            "theorem": "iunfi",
+            "ground_truth": "iunfi \u22a2 ( ( A \u2208 Fin \u2227 \u2200 x \u2208 A B \u2208 Fin ) \u2192 \u222a x \u2208 A B \u2208 Fin )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6923988336289351,
+            "_thrs_reconstruct": 0.4980311687211034,
+            "_thrs_obviousness": 0.24947050959020994,
+            "_thrs_weight": 0.7647058823529411,
+            "_thrs_complexity": 0.75,
+            "_thrs_surprisingness": 0.06493506493506492,
+            "_thrs_intensity": 0.025210084033613436,
+            "_thrs_interestingness": 0.3708643081823658,
+            "_thrs_logistic_regression": 0.7450949126971487,
+            "_thrs_random_forest": 0.57
+        },
+        {
+            "expression": "\u22a2 ( \u222a x \u2208 A B \u2208 Fin \u2192 X_ x \u2208 A B \u2286 ( \u222a x \u2208 A B ^m A ) )",
+            "prop_expression": " \u22a2 ( \u222a x \u2208 A B \u2208 V \u2192 X_ x \u2208 A B \u2286 ( \u222a x \u2208 A B ^m A ) )",
+            "step": 8,
+            "theorem": "ixpssmap2g",
+            "ground_truth": "ixpssmap2g \u22a2 ( \u222a x \u2208 A B \u2208 Fin \u2192 X_ x \u2208 A B \u2286 ( \u222a x \u2208 A B ^m A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.904432496153795,
+            "_thrs_reconstruct": 2.268742789158842e-06,
+            "_thrs_obviousness": 1.1364437715688761e-06,
+            "_thrs_weight": 0.5294117647058824,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.054453781512605014,
+            "_thrs_interestingness": 0.31677333653245177,
+            "_thrs_logistic_regression": 0.9726625375871475,
+            "_thrs_random_forest": 0.545
+        },
+        {
+            "expression": "\u22a2 ( ( ( \u222a x \u2208 A B ^m A ) \u2208 Fin \u2227 X_ x \u2208 A B \u2286 ( \u222a x \u2208 A B ^m A ) ) \u2192 X_ x \u2208 A B \u2208 Fin )",
+            "prop_expression": " \u22a2 ( ( A \u2208 Fin \u2227 B \u2286 A ) \u2192 B \u2208 Fin )",
+            "step": 9,
+            "theorem": "ssfi",
+            "ground_truth": "ssfi \u22a2 ( ( ( \u222a x \u2208 A B ^m A ) \u2208 Fin \u2227 X_ x \u2208 A B \u2286 ( \u222a x \u2208 A B ^m A ) ) \u2192 X_ x \u2208 A B \u2208 Fin )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3090270324363933,
+            "_thrs_reconstruct": 0.000288267504118578,
+            "_thrs_obviousness": 0.0001443970692344983,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2000288794138469,
+            "_thrs_logistic_regression": 0.9412009589412025,
+            "_thrs_random_forest": 0.76
+        }
+    ]
+}

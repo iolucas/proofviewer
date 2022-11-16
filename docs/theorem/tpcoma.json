@@ -1,0 +1,119 @@
+{
+    "theorem": "tpcoma",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            1,
+            5
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "{ A , B , C } = { B , A , C }",
+    "steps": [
+        {
+            "expression": "\u22a2 { A , B , C } = { B , A , C }",
+            "prop_expression": "A = B, C = A, D = B \u22a2 C = D",
+            "step": 1,
+            "theorem": "3eqtr4i",
+            "ground_truth": "3eqtr4i \u22a2 { A , B , C } = { B , A , C }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.17994434218604793,
+            "_thrs_reconstruct": 8.592357028589268e-05,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.9987664158001925,
+            "_thrs_random_forest": 0.97
+        },
+        {
+            "expression": "\u22a2 ( { A , B } \u222a { C } ) = ( { B , A } \u222a { C } )",
+            "prop_expression": "A = B \u22a2 ( A \u222a C ) = ( B \u222a C )",
+            "step": 2,
+            "theorem": "uneq1i",
+            "ground_truth": "uneq1i \u22a2 ( { A , B } \u222a { C } ) = ( { B , A } \u222a { C } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.288826026875159,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9999570393848166,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.2222222222222222,
+            "_thrs_interestingness": 0.44443585232140775,
+            "_thrs_logistic_regression": 0.9798952315599277,
+            "_thrs_random_forest": 0.415
+        },
+        {
+            "expression": "\u22a2 { A , B } = { B , A }",
+            "prop_expression": " \u22a2 { A , B } = { B , A }",
+            "step": 3,
+            "theorem": "prcom",
+            "ground_truth": "prcom \u22a2 { A , B } = { B , A }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7655942200186494,
+            "_thrs_reconstruct": 0.9999757432074049,
+            "_thrs_obviousness": 0.49997245565545717,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4999944911310914,
+            "_thrs_logistic_regression": 0.48930262712583716,
+            "_thrs_random_forest": 0.435
+        },
+        {
+            "expression": "\u22a2 { A , B , C } = ( { A , B } \u222a { C } )",
+            "prop_expression": " \u22a2 { A , B , C } = ( { A , B } \u222a { C } )",
+            "step": 4,
+            "theorem": "df-tp",
+            "ground_truth": "df-tp \u22a2 { A , B , C } = ( { A , B } \u222a { C } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.34776963781658154,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.25,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.03174603174603173,
+            "_thrs_interestingness": 0.2563492063492063,
+            "_thrs_logistic_regression": 0.9601806933829068,
+            "_thrs_random_forest": 0.635
+        },
+        {
+            "expression": "\u22a2 { B , A , C } = ( { B , A } \u222a { C } )",
+            "prop_expression": " \u22a2 { A , B , C } = ( { A , B } \u222a { C } )",
+            "step": 5,
+            "theorem": "df-tp",
+            "ground_truth": "df-tp \u22a2 { B , A , C } = ( { B , A } \u222a { C } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.013379180199339369,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.25,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.03174603174603173,
+            "_thrs_interestingness": 0.2563492063492063,
+            "_thrs_logistic_regression": 0.9601806933829068,
+            "_thrs_random_forest": 0.635
+        }
+    ]
+}

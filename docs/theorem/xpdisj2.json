@@ -1,0 +1,119 @@
+{
+    "theorem": "xpdisj2",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "expression": "( ( A \u2229 B ) = \u2205 \u2192 ( ( C \u00d7 A ) \u2229 ( D \u00d7 B ) ) = \u2205 )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( ( A \u2229 B ) = \u2205 \u2192 ( ( C \u00d7 A ) \u2229 ( D \u00d7 B ) ) = \u2205 )",
+            "prop_expression": "A = B, ( \ud835\udf11 \u2192 B = C ) \u22a2 ( \ud835\udf11 \u2192 A = C )",
+            "step": 1,
+            "theorem": "syl5eq",
+            "ground_truth": "syl5eq \u22a2 ( ( A \u2229 B ) = \u2205 \u2192 ( ( C \u00d7 A ) \u2229 ( D \u00d7 B ) ) = \u2205 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7591752530433479,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.4,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6799999999999999,
+            "_thrs_logistic_regression": 0.9997892473609156,
+            "_thrs_random_forest": 0.96
+        },
+        {
+            "expression": "\u22a2 ( ( C \u00d7 A ) \u2229 ( D \u00d7 B ) ) = ( ( C \u2229 D ) \u00d7 ( A \u2229 B ) )",
+            "prop_expression": " \u22a2 ( ( A \u00d7 B ) \u2229 ( C \u00d7 D ) ) = ( ( A \u2229 C ) \u00d7 ( B \u2229 D ) )",
+            "step": 2,
+            "theorem": "inxp",
+            "ground_truth": "inxp \u22a2 ( ( C \u00d7 A ) \u2229 ( D \u00d7 B ) ) = ( ( C \u2229 D ) \u00d7 ( A \u2229 B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.06768823361763998,
+            "_thrs_reconstruct": 0.4340473740522344,
+            "_thrs_obviousness": 0.30267261679541735,
+            "_thrs_weight": 0.19999999999999996,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.33333333333333354,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.26720119002575016,
+            "_thrs_logistic_regression": 0.7858744925608653,
+            "_thrs_random_forest": 0.865
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2229 B ) = \u2205 \u2192 ( ( C \u2229 D ) \u00d7 ( A \u2229 B ) ) = \u2205 )",
+            "prop_expression": "( \ud835\udf11 \u2192 A = B ), B = C \u22a2 ( \ud835\udf11 \u2192 A = C )",
+            "step": 3,
+            "theorem": "syl6eq",
+            "ground_truth": "syl6eq \u22a2 ( ( A \u2229 B ) = \u2205 \u2192 ( ( C \u2229 D ) \u00d7 ( A \u2229 B ) ) = \u2205 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.27770722750523413,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.6973270276047733,
+            "_thrs_weight": 0.4,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.8082191780821917,
+            "_thrs_interestingness": 0.581109241137393,
+            "_thrs_logistic_regression": 0.9994222180567646,
+            "_thrs_random_forest": 0.95
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2229 B ) = \u2205 \u2192 ( ( C \u2229 D ) \u00d7 ( A \u2229 B ) ) = ( ( C \u2229 D ) \u00d7 \u2205 ) )",
+            "prop_expression": " \u22a2 ( A = B \u2192 ( C \u00d7 A ) = ( C \u00d7 B ) )",
+            "step": 4,
+            "theorem": "xpeq2",
+            "ground_truth": "xpeq2 \u22a2 ( ( A \u2229 B ) = \u2205 \u2192 ( ( C \u2229 D ) \u00d7 ( A \u2229 B ) ) = ( ( C \u2229 D ) \u00d7 \u2205 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9251933208765766,
+            "_thrs_reconstruct": 4.91683585700967e-07,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.005136986301369876,
+            "_thrs_interestingness": 0.201027397260274,
+            "_thrs_logistic_regression": 0.9427169323212025,
+            "_thrs_random_forest": 0.56
+        },
+        {
+            "expression": "\u22a2 ( ( C \u2229 D ) \u00d7 \u2205 ) = \u2205",
+            "prop_expression": " \u22a2 ( A \u00d7 \u2205 ) = \u2205",
+            "step": 5,
+            "theorem": "xp0",
+            "ground_truth": "xp0 \u22a2 ( ( C \u2229 D ) \u00d7 \u2205 ) = \u2205",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.2722940736603181,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.6973266720049638,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.2328767123287671,
+            "_thrs_interestingness": 0.5860406768667462,
+            "_thrs_logistic_regression": 0.7679617075638064,
+            "_thrs_random_forest": 0.795
+        }
+    ]
+}

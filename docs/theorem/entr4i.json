@@ -1,0 +1,96 @@
+{
+    "theorem": "entr4i",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "expression": "A \u2248 C",
+    "steps": [
+        {
+            "expression": "\u22a2 A \u2248 C",
+            "prop_expression": "A \u2248 B, B \u2248 C \u22a2 A \u2248 C",
+            "step": 1,
+            "theorem": "entri",
+            "ground_truth": "entri \u22a2 A \u2248 C",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.14584168999615332,
+            "_thrs_reconstruct": 0.9971227961208402,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.9987664158001925,
+            "_thrs_random_forest": 0.87
+        },
+        {
+            "expression": "\u22a2 A \u2248 B",
+            "prop_expression": " \u22a2 A \u2248 B",
+            "step": 2,
+            "theorem": "entr4i.1",
+            "ground_truth": "entr4i.1 \u22a2 A \u2248 B",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.936903564390307,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.800036378889129,
+            "_thrs_random_forest": 0.805
+        },
+        {
+            "expression": "\u22a2 B \u2248 C",
+            "prop_expression": "A \u2248 B \u22a2 B \u2248 A",
+            "step": 3,
+            "theorem": "ensymi",
+            "ground_truth": "ensymi \u22a2 B \u2248 C",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.30782929680406446,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.5007203372483524,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.40014406744967046,
+            "_thrs_logistic_regression": 0.7930914628102245,
+            "_thrs_random_forest": 0.845
+        },
+        {
+            "expression": "\u22a2 C \u2248 B",
+            "prop_expression": " \u22a2 C \u2248 B",
+            "step": 4,
+            "theorem": "entr4i.2",
+            "ground_truth": "entr4i.2 \u22a2 C \u2248 B",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.11176834620419962,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.800036378889129,
+            "_thrs_random_forest": 0.76
+        }
+    ]
+}

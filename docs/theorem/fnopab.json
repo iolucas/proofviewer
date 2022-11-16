@@ -1,0 +1,119 @@
+{
+    "theorem": "fnopab",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "expression": "F Fn A",
+    "steps": [
+        {
+            "expression": "\u22a2 F Fn A",
+            "prop_expression": "\ud835\udf11, ( \ud835\udf11 \u2194 \ud835\udf13 ) \u22a2 \ud835\udf13",
+            "step": 1,
+            "theorem": "mpbi",
+            "ground_truth": "mpbi \u22a2 F Fn A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.04667736306734882,
+            "_thrs_reconstruct": 1.8184013341587382e-12,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.3333333333333333,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8666666666666668,
+            "_thrs_logistic_regression": 0.9922983541588947,
+            "_thrs_random_forest": 0.925
+        },
+        {
+            "expression": "\u22a2 \u2200 x \u2208 A E! y \ud835\udf11",
+            "prop_expression": "( x \u2208 A \u2192 \ud835\udf11 ) \u22a2 \u2200 x \u2208 A \ud835\udf11",
+            "step": 2,
+            "theorem": "rgen",
+            "ground_truth": "rgen \u22a2 \u2200 x \u2208 A E! y \ud835\udf11",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7472353511809366,
+            "_thrs_reconstruct": 1.9681520322659284e-11,
+            "_thrs_obviousness": 1.9687462810255664e-11,
+            "_thrs_weight": 0.6,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.1428571428571429,
+            "_thrs_interestingness": 0.24857142857536604,
+            "_thrs_logistic_regression": 0.9493065117046167,
+            "_thrs_random_forest": 0.805
+        },
+        {
+            "expression": "\u22a2 ( x \u2208 A \u2192 E! y \ud835\udf11 )",
+            "prop_expression": " \u22a2 ( x \u2208 A \u2192 E! y \ud835\udf11 )",
+            "step": 3,
+            "theorem": "fnopab.1",
+            "ground_truth": "fnopab.1 \u22a2 ( x \u2208 A \u2192 E! y \ud835\udf11 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.13397934209526252,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.6,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.1428571428571429,
+            "_thrs_interestingness": 0.24857142857142858,
+            "_thrs_logistic_regression": 0.9493065117046977,
+            "_thrs_random_forest": 0.895
+        },
+        {
+            "expression": "\u22a2 ( \u2200 x \u2208 A E! y \ud835\udf11 \u2194 F Fn A )",
+            "prop_expression": "F = { \u27e8 x , y \u27e9 | ( x \u2208 A \u2227 \ud835\udf11 ) } \u22a2 ( \u2200 x \u2208 A E! y \ud835\udf11 \u2194 F Fn A )",
+            "step": 4,
+            "theorem": "fnopabg",
+            "ground_truth": "fnopabg \u22a2 ( \u2200 x \u2208 A E! y \ud835\udf11 \u2194 F Fn A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7766480772471324,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9999999999784822,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.16369047619047639,
+            "_thrs_interestingness": 0.4327380952337917,
+            "_thrs_logistic_regression": 0.9726329450383108,
+            "_thrs_random_forest": 0.785
+        },
+        {
+            "expression": "\u22a2 F = { \u27e8 x , y \u27e9 | ( x \u2208 A \u2227 \ud835\udf11 ) }",
+            "prop_expression": " \u22a2 F = { \u27e8 x , y \u27e9 | ( x \u2208 A \u2227 \ud835\udf11 ) }",
+            "step": 5,
+            "theorem": "fnopab.2",
+            "ground_truth": "fnopab.2 \u22a2 F = { \u27e8 x , y \u27e9 | ( x \u2208 A \u2227 \ud835\udf11 ) }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7960932620609313,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.19999999999999996,
+            "_thrs_complexity": 0.25,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.29,
+            "_thrs_logistic_regression": 0.844681462829081,
+            "_thrs_random_forest": 0.765
+        }
+    ]
+}

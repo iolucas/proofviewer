@@ -1,0 +1,119 @@
+{
+    "theorem": "funsng",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "expression": "( ( A \u2208 V \u2227 B \u2208 W ) \u2192 Fun { \u27e8 A , B \u27e9 } )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( ( A \u2208 V \u2227 B \u2208 W ) \u2192 Fun { \u27e8 A , B \u27e9 } )",
+            "prop_expression": "\ud835\udf13, ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "mpbii",
+            "ground_truth": "mpbii \u22a2 ( ( A \u2208 V \u2227 B \u2208 W ) \u2192 Fun { \u27e8 A , B \u27e9 } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5841083313664438,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.4444444444444444,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.5555555555555556,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6666666666666666,
+            "_thrs_logistic_regression": 0.9993983526082846,
+            "_thrs_random_forest": 0.8
+        },
+        {
+            "expression": "\u22a2 Fun `' { \u27e8 B , A \u27e9 }",
+            "prop_expression": " \u22a2 Fun `' { \u27e8 A , B \u27e9 }",
+            "step": 2,
+            "theorem": "funcnvsn",
+            "ground_truth": "funcnvsn \u22a2 Fun `' { \u27e8 B , A \u27e9 }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7075976008989074,
+            "_thrs_reconstruct": 0.5506062672584171,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.4233870967741936,
+            "_thrs_interestingness": 0.4846774193548387,
+            "_thrs_logistic_regression": 0.9075816445034299,
+            "_thrs_random_forest": 0.85
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 V \u2227 B \u2208 W ) \u2192 ( Fun `' { \u27e8 B , A \u27e9 } \u2194 Fun { \u27e8 A , B \u27e9 } ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 A = B ) \u22a2 ( \ud835\udf11 \u2192 ( Fun A \u2194 Fun B ) )",
+            "step": 3,
+            "theorem": "funeqd",
+            "ground_truth": "funeqd \u22a2 ( ( A \u2208 V \u2227 B \u2208 W ) \u2192 ( Fun `' { \u27e8 B , A \u27e9 } \u2194 Fun { \u27e8 A , B \u27e9 } ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7598693630203465,
+            "_thrs_reconstruct": 0.00014376375209823678,
+            "_thrs_obviousness": 0.4494728786116187,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.41144540942928043,
+            "_thrs_interestingness": 0.3721836576081798,
+            "_thrs_logistic_regression": 0.9929984291845321,
+            "_thrs_random_forest": 0.875
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 V \u2227 B \u2208 W ) \u2192 `' { \u27e8 B , A \u27e9 } = { \u27e8 A , B \u27e9 } )",
+            "prop_expression": "( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 ) \u22a2 ( ( \ud835\udf13 \u2227 \ud835\udf11 ) \u2192 \ud835\udf12 )",
+            "step": 4,
+            "theorem": "ancoms",
+            "ground_truth": "ancoms \u22a2 ( ( A \u2208 V \u2227 B \u2208 W ) \u2192 `' { \u27e8 B , A \u27e9 } = { \u27e8 A , B \u27e9 } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.042350510635150385,
+            "_thrs_reconstruct": 4.4837986402298016e-11,
+            "_thrs_obviousness": 0.449329135520871,
+            "_thrs_weight": 0.2222222222222222,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.6666666666666666,
+            "_thrs_intensity": 0.4233870967741936,
+            "_thrs_interestingness": 0.4189876909034573,
+            "_thrs_logistic_regression": 0.9818134922095855,
+            "_thrs_random_forest": 0.53
+        },
+        {
+            "expression": "\u22a2 ( ( B \u2208 W \u2227 A \u2208 V ) \u2192 `' { \u27e8 B , A \u27e9 } = { \u27e8 A , B \u27e9 } )",
+            "prop_expression": " \u22a2 ( ( A \u2208 V \u2227 B \u2208 W ) \u2192 `' { \u27e8 A , B \u27e9 } = { \u27e8 B , A \u27e9 } )",
+            "step": 5,
+            "theorem": "cnvsng",
+            "ground_truth": "cnvsng \u22a2 ( ( B \u2208 W \u2227 A \u2208 V ) \u2192 `' { \u27e8 B , A \u27e9 } = { \u27e8 A , B \u27e9 } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6992171961452237,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.4493291354723358,
+            "_thrs_weight": 0.2222222222222222,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.6666666666666666,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3343102715389116,
+            "_thrs_logistic_regression": 0.846090747073434,
+            "_thrs_random_forest": 0.685
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "theorem": "sylbir",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( \ud835\udf11 \u2192 \ud835\udf12 )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf13 \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "syl",
+            "ground_truth": "syl \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.44544117708981346,
+            "_thrs_reconstruct": 0.0012088244182532487,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.9993729300984916,
+            "_thrs_random_forest": 0.92
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ) \u22a2 ( \ud835\udf13 \u2192 \ud835\udf11 )",
+            "step": 2,
+            "theorem": "biimpri",
+            "ground_truth": "biimpri \u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7028264767382411,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9981905910735827,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.5996381182147166,
+            "_thrs_logistic_regression": 0.6510940297831992,
+            "_thrs_random_forest": 0.84
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf13 \u2194 \ud835\udf11 )",
+            "prop_expression": " \u22a2 ( \ud835\udf13 \u2194 \ud835\udf11 )",
+            "step": 3,
+            "theorem": "sylbir.1",
+            "ground_truth": "sylbir.1 \u22a2 ( \ud835\udf13 \u2194 \ud835\udf11 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.012675214990188421,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.6702450283867224,
+            "_thrs_random_forest": 0.965
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf13 \u2192 \ud835\udf12 )",
+            "prop_expression": " \u22a2 ( \ud835\udf13 \u2192 \ud835\udf12 )",
+            "step": 4,
+            "theorem": "sylbir.2",
+            "ground_truth": "sylbir.2 \u22a2 ( \ud835\udf13 \u2192 \ud835\udf12 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.800909366837377,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.6702450283867224,
+            "_thrs_random_forest": 0.975
+        }
+    ]
+}

@@ -1,0 +1,119 @@
+{
+    "theorem": "fpmg",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "expression": "( ( A \u2208 V \u2227 B \u2208 W \u2227 F : A -\u2192 B ) \u2192 F \u2208 ( B ^pm A ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( ( A \u2208 V \u2227 B \u2208 W \u2227 F : A -\u2192 B ) \u2192 F \u2208 ( B ^pm A ) )",
+            "prop_expression": "( ( \ud835\udf11 \u2227 \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( ( \ud835\udf13 \u2227 \ud835\udf11 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 )",
+            "step": 1,
+            "theorem": "3com12",
+            "ground_truth": "3com12 \u22a2 ( ( A \u2208 V \u2227 B \u2208 W \u2227 F : A -\u2192 B ) \u2192 F \u2208 ( B ^pm A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6120436044364732,
+            "_thrs_reconstruct": 1.0795483456198586e-09,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.19999999999999996,
+            "_thrs_complexity": 0.1428571428571429,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.6716417910447761,
+            "_thrs_interestingness": 0.5028997867803838,
+            "_thrs_logistic_regression": 0.9984274615926061,
+            "_thrs_random_forest": 0.8305
+        },
+        {
+            "expression": "\u22a2 ( ( B \u2208 W \u2227 A \u2208 V \u2227 F : A -\u2192 B ) \u2192 F \u2208 ( B ^pm A ) )",
+            "prop_expression": "( ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 )",
+            "step": 2,
+            "theorem": "3impa",
+            "ground_truth": "3impa \u22a2 ( ( B \u2208 W \u2227 A \u2208 V \u2227 F : A -\u2192 B ) \u2192 F \u2208 ( B ^pm A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.14214317172496704,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.999999998899249,
+            "_thrs_weight": 0.19999999999999996,
+            "_thrs_complexity": 0.1428571428571429,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.6716417910447761,
+            "_thrs_interestingness": 0.5028997865602336,
+            "_thrs_logistic_regression": 0.9984274615927542,
+            "_thrs_random_forest": 0.8225
+        },
+        {
+            "expression": "\u22a2 ( ( ( B \u2208 W \u2227 A \u2208 V ) \u2227 F : A -\u2192 B ) \u2192 F \u2208 ( B ^pm A ) )",
+            "prop_expression": "\ud835\udf12, ( ( \ud835\udf11 \u2227 ( \ud835\udf13 \u2227 \ud835\udf12 ) ) \u2192 \ud835\udf03 ) \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf03 )",
+            "step": 3,
+            "theorem": "mpanr2",
+            "ground_truth": "mpanr2 \u22a2 ( ( ( B \u2208 W \u2227 A \u2208 V ) \u2227 F : A -\u2192 B ) \u2192 F \u2208 ( B ^pm A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8223327172111627,
+            "_thrs_reconstruct": 9.813578853376106e-12,
+            "_thrs_obviousness": 0.9999999988780462,
+            "_thrs_weight": 0.19999999999999996,
+            "_thrs_complexity": 0.1428571428571429,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.5685714283470378,
+            "_thrs_logistic_regression": 0.9997322538842941,
+            "_thrs_random_forest": 0.89
+        },
+        {
+            "expression": "\u22a2 A \u2286 A",
+            "prop_expression": " \u22a2 A \u2286 A",
+            "step": 4,
+            "theorem": "ssid",
+            "ground_truth": "ssid \u22a2 A \u2286 A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5814508593491772,
+            "_thrs_reconstruct": 2.6693476228508925e-08,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.22388059701492533,
+            "_thrs_interestingness": 0.44477611940298506,
+            "_thrs_logistic_regression": 0.7699424498521213,
+            "_thrs_random_forest": 0.835
+        },
+        {
+            "expression": "\u22a2 ( ( ( B \u2208 W \u2227 A \u2208 V ) \u2227 ( F : A -\u2192 B \u2227 A \u2286 A ) ) \u2192 F \u2208 ( B ^pm A ) )",
+            "prop_expression": " \u22a2 ( ( ( A \u2208 V \u2227 B \u2208 W ) \u2227 ( F : C -\u2192 A \u2227 C \u2286 B ) ) \u2192 F \u2208 ( A ^pm B ) )",
+            "step": 5,
+            "theorem": "elpm2r",
+            "ground_truth": "elpm2r \u22a2 ( ( ( B \u2208 W \u2227 A \u2208 V ) \u2227 ( F : A -\u2192 B \u2227 A \u2286 A ) ) \u2192 F \u2208 ( B ^pm A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.34299400007558456,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.999999972132351,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.39999999442647016,
+            "_thrs_logistic_regression": 0.9362818279664462,
+            "_thrs_random_forest": 0.79
+        }
+    ]
+}

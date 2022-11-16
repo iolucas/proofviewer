@@ -1,0 +1,50 @@
+{
+    "theorem": "falimfal",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( ( F. \u2192 F. ) \u2194 T. )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( ( F. \u2192 F. ) \u2194 T. )",
+            "prop_expression": "\ud835\udf11 \u22a2 ( \ud835\udf11 \u2194 T. )",
+            "step": 1,
+            "theorem": "bitru",
+            "ground_truth": "bitru \u22a2 ( ( F. \u2192 F. ) \u2194 T. )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.32487099347385073,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.9998431944152827,
+            "_thrs_random_forest": 0.685
+        },
+        {
+            "expression": "\u22a2 ( F. \u2192 F. )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \ud835\udf11 )",
+            "step": 2,
+            "theorem": "id",
+            "ground_truth": "id \u22a2 ( F. \u2192 F. )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8477583507384066,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.33688020817427905,
+            "_thrs_random_forest": 0.985
+        }
+    ]
+}

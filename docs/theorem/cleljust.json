@@ -1,0 +1,96 @@
+{
+    "theorem": "cleljust",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ]
+    ],
+    "expression": "( x \u2208 y \u2194 \u2203 z ( z = x \u2227 z \u2208 y ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( x \u2208 y \u2194 \u2203 z ( z = x \u2227 z \u2208 y ) )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ) \u22a2 ( \ud835\udf13 \u2194 \ud835\udf11 )",
+            "step": 1,
+            "theorem": "bicomi",
+            "ground_truth": "bicomi \u22a2 ( x \u2208 y \u2194 \u2203 z ( z = x \u2227 z \u2208 y ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.05187469763831132,
+            "_thrs_reconstruct": 0.003377132215344753,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.42857142857142855,
+            "_thrs_interestingness": 0.48571428571428565,
+            "_thrs_logistic_regression": 0.9583729170021239,
+            "_thrs_random_forest": 0.965
+        },
+        {
+            "expression": "\u22a2 ( \u2203 z ( z = x \u2227 z \u2208 y ) \u2194 x \u2208 y )",
+            "prop_expression": "( \ud835\udf13 \u2192 \u2200 x \ud835\udf13 ), ( x = y \u2192 ( \ud835\udf11 \u2194 \ud835\udf13 ) ) \u22a2 ( \u2203 x ( x = y \u2227 \ud835\udf11 ) \u2194 \ud835\udf13 )",
+            "step": 2,
+            "theorem": "equsex",
+            "ground_truth": "equsex \u22a2 ( \u2203 z ( z = x \u2227 z \u2208 y ) \u2194 x \u2208 y )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5654522785144918,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9973204171015191,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.5994640834203038,
+            "_thrs_logistic_regression": 0.998014617841268,
+            "_thrs_random_forest": 0.965
+        },
+        {
+            "expression": "\u22a2 ( x \u2208 y \u2192 \u2200 z x \u2208 y )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \u2200 x \ud835\udf11 )",
+            "step": 3,
+            "theorem": "ax-17",
+            "ground_truth": "ax-17 \u22a2 ( x \u2208 y \u2192 \u2200 z x \u2208 y )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4963060712275411,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.06122448979591834,
+            "_thrs_interestingness": 0.4122448979591836,
+            "_thrs_logistic_regression": 0.8996858503480119,
+            "_thrs_random_forest": 0.405
+        },
+        {
+            "expression": "\u22a2 ( z = x \u2192 ( z \u2208 y \u2194 x \u2208 y ) )",
+            "prop_expression": " \u22a2 ( x = y \u2192 ( x \u2208 z \u2194 y \u2208 z ) )",
+            "step": 4,
+            "theorem": "elequ1",
+            "ground_truth": "elequ1 \u22a2 ( z = x \u2192 ( z \u2208 y \u2194 x \u2208 y ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.80651080721442,
+            "_thrs_reconstruct": 0.2573592917806247,
+            "_thrs_obviousness": 0.20413355098254346,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3408267101965087,
+            "_thrs_logistic_regression": 0.7972263929277927,
+            "_thrs_random_forest": 0.52
+        }
+    ]
+}

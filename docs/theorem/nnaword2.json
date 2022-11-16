@@ -1,0 +1,73 @@
+{
+    "theorem": "nnaword2",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( ( A \u2208 _om \u2227 B \u2208 _om ) \u2192 A \u2286 ( B +o A ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om ) \u2192 A \u2286 ( B +o A ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 A \u2286 B ), ( \ud835\udf11 \u2192 B = C ) \u22a2 ( \ud835\udf11 \u2192 A \u2286 C )",
+            "step": 1,
+            "theorem": "sseqtrd",
+            "ground_truth": "sseqtrd \u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om ) \u2192 A \u2286 ( B +o A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4258423508653979,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.9998810702354666,
+            "_thrs_random_forest": 0.705
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om ) \u2192 A \u2286 ( A +o B ) )",
+            "prop_expression": " \u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om ) \u2192 A \u2286 ( A +o B ) )",
+            "step": 2,
+            "theorem": "nnaword1",
+            "ground_truth": "nnaword1 \u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om ) \u2192 A \u2286 ( A +o B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8906433839606211,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.47156575638966197,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.07692307692307694,
+            "_thrs_interestingness": 0.5096977666625478,
+            "_thrs_logistic_regression": 0.9837210648685211,
+            "_thrs_random_forest": 0.865
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om ) \u2192 ( A +o B ) = ( B +o A ) )",
+            "prop_expression": " \u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om ) \u2192 ( A +o B ) = ( B +o A ) )",
+            "step": 3,
+            "theorem": "nnacom",
+            "ground_truth": "nnacom \u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om ) \u2192 ( A +o B ) = ( B +o A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5796687525960955,
+            "_thrs_reconstruct": 0.5284342436023387,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.2781333495520423,
+            "_thrs_random_forest": 0.8
+        }
+    ]
+}

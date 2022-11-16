@@ -1,0 +1,96 @@
+{
+    "theorem": "necon3bi",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ]
+    ],
+    "expression": "( \u00ac \ud835\udf11 \u2192 A \u2260 B )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( \u00ac \ud835\udf11 \u2192 A \u2260 B )",
+            "prop_expression": "( \u00ac \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 ( \u00ac \ud835\udf13 \u2192 \ud835\udf11 )",
+            "step": 1,
+            "theorem": "con1i",
+            "ground_truth": "con1i \u22a2 ( \u00ac \ud835\udf11 \u2192 A \u2260 B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.654671664063857,
+            "_thrs_reconstruct": 0.0012462659588637099,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.2727272727272727,
+            "_thrs_interestingness": 0.6545454545454545,
+            "_thrs_logistic_regression": 0.9940164124290072,
+            "_thrs_random_forest": 0.995
+        },
+        {
+            "expression": "\u22a2 ( \u00ac A \u2260 B \u2192 \ud835\udf11 )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ), ( \ud835\udf13 \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 2,
+            "theorem": "sylbi",
+            "ground_truth": "sylbi \u22a2 ( \u00ac A \u2260 B \u2192 \ud835\udf11 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.2936779741489488,
+            "_thrs_reconstruct": 0.002949178986624046,
+            "_thrs_obviousness": 0.9987495026430967,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7997499005286193,
+            "_thrs_logistic_regression": 0.9998810829633378,
+            "_thrs_random_forest": 0.98
+        },
+        {
+            "expression": "\u22a2 ( \u00ac A \u2260 B \u2194 A = B )",
+            "prop_expression": " \u22a2 ( \u00ac A \u2260 B \u2194 A = B )",
+            "step": 3,
+            "theorem": "nne",
+            "ground_truth": "nne \u22a2 ( \u00ac A \u2260 B \u2194 A = B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.2159442029305284,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9957937816176888,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.39915875632353776,
+            "_thrs_logistic_regression": 0.26134753209404643,
+            "_thrs_random_forest": 0.34
+        },
+        {
+            "expression": "\u22a2 ( A = B \u2192 \ud835\udf11 )",
+            "prop_expression": " \u22a2 ( A = B \u2192 \ud835\udf11 )",
+            "step": 4,
+            "theorem": "necon3bi.1",
+            "ground_truth": "necon3bi.1 \u22a2 ( A = B \u2192 \ud835\udf11 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.07172453700973691,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.2727272727272727,
+            "_thrs_interestingness": 0.4545454545454545,
+            "_thrs_logistic_regression": 0.9945045825993711,
+            "_thrs_random_forest": 1.0
+        }
+    ]
+}

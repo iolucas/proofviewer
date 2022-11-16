@@ -1,0 +1,165 @@
+{
+    "theorem": "equs45f",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "expression": "( \u2203 x ( x = y \u2227 \ud835\udf11 ) \u2194 \u2200 x ( x = y \u2192 \ud835\udf11 ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( \u2203 x ( x = y \u2227 \ud835\udf11 ) \u2194 \u2200 x ( x = y \u2192 \ud835\udf11 ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf13 \u2192 \ud835\udf11 ) \u22a2 ( \ud835\udf11 \u2194 \ud835\udf13 )",
+            "step": 1,
+            "theorem": "impbii",
+            "ground_truth": "impbii \u22a2 ( \u2203 x ( x = y \u2227 \ud835\udf11 ) \u2194 \u2200 x ( x = y \u2192 \ud835\udf11 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.1269008168375877,
+            "_thrs_reconstruct": 0.0011501129243939878,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.16666666666666663,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.8695652173913043,
+            "_thrs_interestingness": 0.5072463768115941,
+            "_thrs_logistic_regression": 0.9997296493452378,
+            "_thrs_random_forest": 0.98
+        },
+        {
+            "expression": "\u22a2 ( \u2203 x ( x = y \u2227 \ud835\udf11 ) \u2192 \u2200 x ( x = y \u2192 \ud835\udf11 ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf13 \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 2,
+            "theorem": "syl",
+            "ground_truth": "syl \u22a2 ( \u2203 x ( x = y \u2227 \ud835\udf11 ) \u2192 \u2200 x ( x = y \u2192 \ud835\udf11 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.20698430843462068,
+            "_thrs_reconstruct": 9.275104228983773e-06,
+            "_thrs_obviousness": 0.5087791952470724,
+            "_thrs_weight": 0.16666666666666663,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.4350891723827478,
+            "_thrs_logistic_regression": 0.9998717435541806,
+            "_thrs_random_forest": 0.97
+        },
+        {
+            "expression": "\u22a2 ( \u2203 x ( x = y \u2227 \ud835\udf11 ) \u2192 \u2203 x ( x = y \u2227 \u2200 y \ud835\udf11 ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 ( \u2203 x \ud835\udf11 \u2192 \u2203 x \ud835\udf13 )",
+            "step": 3,
+            "theorem": "eximi",
+            "ground_truth": "eximi \u22a2 ( \u2203 x ( x = y \u2227 \ud835\udf11 ) \u2192 \u2203 x ( x = y \u2227 \u2200 y \ud835\udf11 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.2871004333006617,
+            "_thrs_reconstruct": 0.48255352894528153,
+            "_thrs_obviousness": 0.2517540755876594,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.2318840579710145,
+            "_thrs_interestingness": 0.19672762671173477,
+            "_thrs_logistic_regression": 0.9908053174963838,
+            "_thrs_random_forest": 0.39
+        },
+        {
+            "expression": "\u22a2 ( ( x = y \u2227 \ud835\udf11 ) \u2192 ( x = y \u2227 \u2200 y \ud835\udf11 ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 ( ( \ud835\udf12 \u2227 \ud835\udf11 ) \u2192 ( \ud835\udf12 \u2227 \ud835\udf13 ) )",
+            "step": 4,
+            "theorem": "anim2i",
+            "ground_truth": "anim2i \u22a2 ( ( x = y \u2227 \ud835\udf11 ) \u2192 ( x = y \u2227 \u2200 y \ud835\udf11 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.42682472467563326,
+            "_thrs_reconstruct": 0.03054059944998632,
+            "_thrs_obviousness": 0.014986011766271916,
+            "_thrs_weight": 0.33333333333333337,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.16149068322981364,
+            "_thrs_interestingness": 0.2019620056658838,
+            "_thrs_logistic_regression": 0.9904181164002228,
+            "_thrs_random_forest": 0.66
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 \u2200 y \ud835\udf11 )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \u2200 y \ud835\udf11 )",
+            "step": 5,
+            "theorem": "equs45f.1",
+            "ground_truth": "equs45f.1 \u22a2 ( \ud835\udf11 \u2192 \u2200 y \ud835\udf11 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.2989666036139831,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.17391304347826086,
+            "_thrs_interestingness": 0.5347826086956522,
+            "_thrs_logistic_regression": 0.5649188411869411,
+            "_thrs_random_forest": 0.91
+        },
+        {
+            "expression": "\u22a2 ( \u2203 x ( x = y \u2227 \u2200 y \ud835\udf11 ) \u2192 \u2200 x ( x = y \u2192 \ud835\udf11 ) )",
+            "prop_expression": " \u22a2 ( \u2203 x ( x = y \u2227 \u2200 y \ud835\udf11 ) \u2192 \u2200 x ( x = y \u2192 \ud835\udf11 ) )",
+            "step": 6,
+            "theorem": "equs5a",
+            "ground_truth": "equs5a \u22a2 ( \u2203 x ( x = y \u2227 \u2200 y \ud835\udf11 ) \u2192 \u2200 x ( x = y \u2192 \ud835\udf11 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6912071808935408,
+            "_thrs_reconstruct": 0.5238277427642594,
+            "_thrs_obviousness": 0.257018293355845,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.15140365867116898,
+            "_thrs_logistic_regression": 0.9685765110382448,
+            "_thrs_random_forest": 0.16
+        },
+        {
+            "expression": "\u22a2 ( \u2200 x ( x = y \u2192 \ud835\udf11 ) \u2192 \u2203 x ( x = y \u2227 \ud835\udf11 ) )",
+            "prop_expression": " \u22a2 ( \u2200 x ( x = y \u2192 \ud835\udf11 ) \u2192 \u2203 x ( x = y \u2227 \ud835\udf11 ) )",
+            "step": 7,
+            "theorem": "equs4",
+            "ground_truth": "equs4 \u22a2 ( \u2200 x ( x = y \u2192 \ud835\udf11 ) \u2192 \u2203 x ( x = y \u2227 \ud835\udf11 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.32545884306155826,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.49065422155678406,
+            "_thrs_weight": 0.16666666666666663,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.02173913043478262,
+            "_thrs_interestingness": 0.23581200373164668,
+            "_thrs_logistic_regression": 0.9755059773992864,
+            "_thrs_random_forest": 0.98
+        }
+    ]
+}

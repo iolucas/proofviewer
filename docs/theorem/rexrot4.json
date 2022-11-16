@@ -1,0 +1,96 @@
+{
+    "theorem": "rexrot4",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( \u2203 x \u2208 A \u2203 y \u2208 B \u2203 z \u2208 C \u2203 w \u2208 D \ud835\udf11 \u2194 \u2203 z \u2208 C \u2203 w \u2208 D \u2203 x \u2208 A \u2203 y \u2208 B \ud835\udf11 )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( \u2203 x \u2208 A \u2203 y \u2208 B \u2203 z \u2208 C \u2203 w \u2208 D \ud835\udf11 \u2194 \u2203 z \u2208 C \u2203 w \u2208 D \u2203 x \u2208 A \u2203 y \u2208 B \ud835\udf11 )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ), ( \ud835\udf13 \u2194 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2194 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "bitri",
+            "ground_truth": "bitri \u22a2 ( \u2203 x \u2208 A \u2203 y \u2208 B \u2203 z \u2208 C \u2203 w \u2208 D \ud835\udf11 \u2194 \u2203 z \u2208 C \u2203 w \u2208 D \u2203 x \u2208 A \u2203 y \u2208 B \ud835\udf11 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.13288526065985862,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.9996913885209483,
+            "_thrs_random_forest": 0.555
+        },
+        {
+            "expression": "\u22a2 ( \u2203 x \u2208 A \u2203 y \u2208 B \u2203 z \u2208 C \u2203 w \u2208 D \ud835\udf11 \u2194 \u2203 x \u2208 A \u2203 w \u2208 D \u2203 z \u2208 C \u2203 y \u2208 B \ud835\udf11 )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ) \u22a2 ( \u2203 x \u2208 A \ud835\udf11 \u2194 \u2203 x \u2208 A \ud835\udf13 )",
+            "step": 2,
+            "theorem": "rexbii",
+            "ground_truth": "rexbii \u22a2 ( \u2203 x \u2208 A \u2203 y \u2208 B \u2203 z \u2208 C \u2203 w \u2208 D \ud835\udf11 \u2194 \u2203 x \u2208 A \u2203 w \u2208 D \u2203 z \u2208 C \u2203 y \u2208 B \ud835\udf11 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.016444598246716846,
+            "_thrs_reconstruct": 0.03761695758005831,
+            "_thrs_obviousness": 0.03654282586779743,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.3571428571428571,
+            "_thrs_interestingness": 0.27873713660213084,
+            "_thrs_logistic_regression": 0.9909593394998581,
+            "_thrs_random_forest": 0.73
+        },
+        {
+            "expression": "\u22a2 ( \u2203 y \u2208 B \u2203 z \u2208 C \u2203 w \u2208 D \ud835\udf11 \u2194 \u2203 w \u2208 D \u2203 z \u2208 C \u2203 y \u2208 B \ud835\udf11 )",
+            "prop_expression": " \u22a2 ( \u2203 x \u2208 A \u2203 y \u2208 B \u2203 z \u2208 C \ud835\udf11 \u2194 \u2203 z \u2208 C \u2203 y \u2208 B \u2203 x \u2208 A \ud835\udf11 )",
+            "step": 3,
+            "theorem": "rexcom13",
+            "ground_truth": "rexcom13 \u22a2 ( \u2203 y \u2208 B \u2203 z \u2208 C \u2203 w \u2208 D \ud835\udf11 \u2194 \u2203 w \u2208 D \u2203 z \u2208 C \u2203 y \u2208 B \ud835\udf11 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.11420973168304793,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.00952380952380956,
+            "_thrs_interestingness": 0.4019047619047619,
+            "_thrs_logistic_regression": 0.5128440119080703,
+            "_thrs_random_forest": 0.4425
+        },
+        {
+            "expression": "\u22a2 ( \u2203 x \u2208 A \u2203 w \u2208 D \u2203 z \u2208 C \u2203 y \u2208 B \ud835\udf11 \u2194 \u2203 z \u2208 C \u2203 w \u2208 D \u2203 x \u2208 A \u2203 y \u2208 B \ud835\udf11 )",
+            "prop_expression": " \u22a2 ( \u2203 x \u2208 A \u2203 y \u2208 B \u2203 z \u2208 C \ud835\udf11 \u2194 \u2203 z \u2208 C \u2203 y \u2208 B \u2203 x \u2208 A \ud835\udf11 )",
+            "step": 4,
+            "theorem": "rexcom13",
+            "ground_truth": "rexcom13 \u22a2 ( \u2203 x \u2208 A \u2203 w \u2208 D \u2203 z \u2208 C \u2203 y \u2208 B \ud835\udf11 \u2194 \u2203 z \u2208 C \u2203 w \u2208 D \u2203 x \u2208 A \u2203 y \u2208 B \ud835\udf11 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.21857961376275725,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.941201642956695,
+            "_thrs_random_forest": 0.68
+        }
+    ]
+}

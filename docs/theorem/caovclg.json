@@ -1,0 +1,188 @@
+{
+    "theorem": "caovclg",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "expression": "( ( \ud835\udf11 \u2227 ( A \u2208 C \u2227 B \u2208 D ) ) \u2192 ( A F B ) \u2208 E )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( ( \ud835\udf11 \u2227 ( A \u2208 C \u2227 B \u2208 D ) ) \u2192 ( A F B ) \u2208 E )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf12 \u2192 ( \ud835\udf13 \u2192 \ud835\udf03 ) ) \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 )",
+            "step": 1,
+            "theorem": "mpan9",
+            "ground_truth": "mpan9 \u22a2 ( ( \ud835\udf11 \u2227 ( A \u2208 C \u2227 B \u2208 D ) ) \u2192 ( A F B ) \u2208 E )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7535728522009644,
+            "_thrs_reconstruct": 4.766902806070815e-10,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.7142857142857143,
+            "_thrs_complexity": 0.19999999999999996,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7828571428571429,
+            "_thrs_logistic_regression": 0.999568630254092,
+            "_thrs_random_forest": 0.965
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 \u2200 x \u2208 C \u2200 y \u2208 D ( x F y ) \u2208 E )",
+            "prop_expression": "( ( \ud835\udf11 \u2227 ( x \u2208 A \u2227 y \u2208 B ) ) \u2192 \ud835\udf13 ) \u22a2 ( \ud835\udf11 \u2192 \u2200 x \u2208 A \u2200 y \u2208 B \ud835\udf13 )",
+            "step": 2,
+            "theorem": "ralrimivva",
+            "ground_truth": "ralrimivva \u22a2 ( \ud835\udf11 \u2192 \u2200 x \u2208 C \u2200 y \u2208 D ( x F y ) \u2208 E )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6135954758776107,
+            "_thrs_reconstruct": 9.077696666769674e-09,
+            "_thrs_obviousness": 4.546450706384163e-09,
+            "_thrs_weight": 0.7142857142857143,
+            "_thrs_complexity": 0.19999999999999996,
+            "_thrs_surprisingness": 0.6666666666666665,
+            "_thrs_intensity": 0.2830188679245283,
+            "_thrs_interestingness": 0.3727942506846719,
+            "_thrs_logistic_regression": 0.9880688612995164,
+            "_thrs_random_forest": 0.9116666666666667
+        },
+        {
+            "expression": "\u22a2 ( ( \ud835\udf11 \u2227 ( x \u2208 C \u2227 y \u2208 D ) ) \u2192 ( x F y ) \u2208 E )",
+            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 ( x \u2208 C \u2227 y \u2208 D ) ) \u2192 ( x F y ) \u2208 E )",
+            "step": 3,
+            "theorem": "caovclg.1",
+            "ground_truth": "caovclg.1 \u22a2 ( ( \ud835\udf11 \u2227 ( x \u2208 C \u2227 y \u2208 D ) ) \u2192 ( x F y ) \u2208 E )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4747167114629284,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.7142857142857143,
+            "_thrs_complexity": 0.19999999999999996,
+            "_thrs_surprisingness": 0.6666666666666665,
+            "_thrs_intensity": 0.09433962264150941,
+            "_thrs_interestingness": 0.335058400718778,
+            "_thrs_logistic_regression": 0.9676591692771194,
+            "_thrs_random_forest": 0.8
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 C \u2227 B \u2208 D ) \u2192 ( \u2200 x \u2208 C \u2200 y \u2208 D ( x F y ) \u2208 E \u2192 ( A F B ) \u2208 E ) )",
+            "prop_expression": "( x = A \u2192 ( \ud835\udf11 \u2194 \ud835\udf12 ) ), ( y = B \u2192 ( \ud835\udf12 \u2194 \ud835\udf13 ) ) \u22a2 ( ( A \u2208 C \u2227 B \u2208 D ) \u2192 ( \u2200 x \u2208 C \u2200 y \u2208 D \ud835\udf11 \u2192 \ud835\udf13 ) )",
+            "step": 4,
+            "theorem": "rcla42v",
+            "ground_truth": "rcla42v \u22a2 ( ( A \u2208 C \u2227 B \u2208 D ) \u2192 ( \u2200 x \u2208 C \u2200 y \u2208 D ( x F y ) \u2208 E \u2192 ( A F B ) \u2208 E ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.980228243238861,
+            "_thrs_reconstruct": 0.0032135713686262026,
+            "_thrs_obviousness": 0.9999999952141574,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.8518518518518517,
+            "_thrs_intensity": 0.5109041901494731,
+            "_thrs_interestingness": 0.4725512074430965,
+            "_thrs_logistic_regression": 0.996476526896969,
+            "_thrs_random_forest": 0.9
+        },
+        {
+            "expression": "\u22a2 ( x = A \u2192 ( ( x F y ) \u2208 E \u2194 ( A F y ) \u2208 E ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 A = B ) \u22a2 ( \ud835\udf11 \u2192 ( A \u2208 C \u2194 B \u2208 C ) )",
+            "step": 5,
+            "theorem": "eleq1d",
+            "ground_truth": "eleq1d \u22a2 ( x = A \u2192 ( ( x F y ) \u2208 E \u2194 ( A F y ) \u2208 E ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5686654379401338,
+            "_thrs_reconstruct": 8.878449424272473e-07,
+            "_thrs_obviousness": 0.4975893401012845,
+            "_thrs_weight": 0.7142857142857143,
+            "_thrs_complexity": 0.6,
+            "_thrs_surprisingness": 0.2962962962962962,
+            "_thrs_intensity": 0.2830188679245283,
+            "_thrs_interestingness": 0.47823804372156475,
+            "_thrs_logistic_regression": 0.9449642091386294,
+            "_thrs_random_forest": 0.8492307692307692
+        },
+        {
+            "expression": "\u22a2 ( x = A \u2192 ( x F y ) = ( A F y ) )",
+            "prop_expression": " \u22a2 ( A = B \u2192 ( A F C ) = ( B F C ) )",
+            "step": 6,
+            "theorem": "oveq1",
+            "ground_truth": "oveq1 \u22a2 ( x = A \u2192 ( x F y ) = ( A F y ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9765491579054422,
+            "_thrs_reconstruct": 0.9935863612723262,
+            "_thrs_obviousness": 0.49758889546744917,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4995177790934898,
+            "_thrs_logistic_regression": 0.48935361014661555,
+            "_thrs_random_forest": 0.81
+        },
+        {
+            "expression": "\u22a2 ( y = B \u2192 ( ( A F y ) \u2208 E \u2194 ( A F B ) \u2208 E ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 A = B ) \u22a2 ( \ud835\udf11 \u2192 ( A \u2208 C \u2194 B \u2208 C ) )",
+            "step": 7,
+            "theorem": "eleq1d",
+            "ground_truth": "eleq1d \u22a2 ( y = B \u2192 ( ( A F y ) \u2208 E \u2194 ( A F B ) \u2208 E ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7665119964478286,
+            "_thrs_reconstruct": 8.878449424272473e-07,
+            "_thrs_obviousness": 0.5008012958354029,
+            "_thrs_weight": 0.7142857142857143,
+            "_thrs_complexity": 0.6,
+            "_thrs_surprisingness": 0.5555555555555555,
+            "_thrs_intensity": 0.2830188679245283,
+            "_thrs_interestingness": 0.5307322867202402,
+            "_thrs_logistic_regression": 0.9235602375027592,
+            "_thrs_random_forest": 0.845
+        },
+        {
+            "expression": "\u22a2 ( y = B \u2192 ( A F y ) = ( A F B ) )",
+            "prop_expression": " \u22a2 ( A = B \u2192 ( C F A ) = ( C F B ) )",
+            "step": 8,
+            "theorem": "oveq2",
+            "ground_truth": "oveq2 \u22a2 ( y = B \u2192 ( A F y ) = ( A F B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6822474502550453,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.5008008512015675,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.25925925925925913,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.5520120220921653,
+            "_thrs_logistic_regression": 0.4027493850300857,
+            "_thrs_random_forest": 0.8
+        }
+    ]
+}

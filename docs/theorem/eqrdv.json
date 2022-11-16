@@ -1,0 +1,96 @@
+{
+    "theorem": "eqrdv",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( \ud835\udf11 \u2192 A = B )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 A = B )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf12 \u2194 \ud835\udf13 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "sylibr",
+            "ground_truth": "sylibr \u22a2 ( \ud835\udf11 \u2192 A = B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.49835293205007536,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.6666666666666666,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9333333333333332,
+            "_thrs_logistic_regression": 0.9879563892866938,
+            "_thrs_random_forest": 0.805
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 \u2200 x ( x \u2208 A \u2194 x \u2208 B ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 ( \ud835\udf11 \u2192 \u2200 x \ud835\udf13 )",
+            "step": 2,
+            "theorem": "alrimiv",
+            "ground_truth": "alrimiv \u22a2 ( \ud835\udf11 \u2192 \u2200 x ( x \u2208 A \u2194 x \u2208 B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.04727253039410895,
+            "_thrs_reconstruct": 0.0024140012070006035,
+            "_thrs_obviousness": 0.0027059530968129887,
+            "_thrs_weight": 0.16666666666666663,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.14567669172932327,
+            "_thrs_interestingness": 0.2630098622985606,
+            "_thrs_logistic_regression": 0.9762883650644679,
+            "_thrs_random_forest": 0.96
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 ( x \u2208 A \u2194 x \u2208 B ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( x \u2208 A \u2194 x \u2208 B ) )",
+            "step": 3,
+            "theorem": "eqrdv.1",
+            "ground_truth": "eqrdv.1 \u22a2 ( \ud835\udf11 \u2192 ( x \u2208 A \u2194 x \u2208 B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9281933933493899,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.33333333333333337,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.09129967776584319,
+            "_thrs_interestingness": 0.28492660221983535,
+            "_thrs_logistic_regression": 0.9729745749162833,
+            "_thrs_random_forest": 0.805
+        },
+        {
+            "expression": "\u22a2 ( A = B \u2194 \u2200 x ( x \u2208 A \u2194 x \u2208 B ) )",
+            "prop_expression": " \u22a2 ( A = B \u2194 \u2200 x ( x \u2208 A \u2194 x \u2208 B ) )",
+            "step": 4,
+            "theorem": "dfcleq",
+            "ground_truth": "dfcleq \u22a2 ( A = B \u2194 \u2200 x ( x \u2208 A \u2194 x \u2208 B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9427073578851022,
+            "_thrs_reconstruct": 0.00030175015087507544,
+            "_thrs_obviousness": 0.0003006614552014432,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1000601322910403,
+            "_thrs_logistic_regression": 0.8301730767958193,
+            "_thrs_random_forest": 0.98
+        }
+    ]
+}

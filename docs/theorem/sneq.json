@@ -1,0 +1,119 @@
+{
+    "theorem": "sneq",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            1,
+            5
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( A = B \u2192 { A } = { B } )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( A = B \u2192 { A } = { B } )",
+            "prop_expression": "( \ud835\udf11 \u2192 A = B ), C = A, D = B \u22a2 ( \ud835\udf11 \u2192 C = D )",
+            "step": 1,
+            "theorem": "3eqtr4g",
+            "ground_truth": "3eqtr4g \u22a2 ( A = B \u2192 { A } = { B } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8598157334118054,
+            "_thrs_reconstruct": 0.04673379159882718,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 1.0,
+            "_thrs_logistic_regression": 0.9812128957710443,
+            "_thrs_random_forest": 0.965
+        },
+        {
+            "expression": "\u22a2 ( A = B \u2192 { x | x = A } = { x | x = B } )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2192 { x | \ud835\udf13 } = { x | \ud835\udf12 } )",
+            "step": 2,
+            "theorem": "abbidv",
+            "ground_truth": "abbidv \u22a2 ( A = B \u2192 { x | x = A } = { x | x = B } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.013067814202400996,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9562931810049999,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.11538461538461539,
+            "_thrs_interestingness": 0.4143355592779231,
+            "_thrs_logistic_regression": 0.9648980388421099,
+            "_thrs_random_forest": 0.9
+        },
+        {
+            "expression": "\u22a2 ( A = B \u2192 ( x = A \u2194 x = B ) )",
+            "prop_expression": " \u22a2 ( A = B \u2192 ( C = A \u2194 C = B ) )",
+            "step": 3,
+            "theorem": "eqeq2",
+            "ground_truth": "eqeq2 \u22a2 ( A = B \u2192 ( x = A \u2194 x = B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.15047412174461694,
+            "_thrs_reconstruct": 0.022526261829034906,
+            "_thrs_obviousness": 0.021067145325986216,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.30421342906519727,
+            "_thrs_logistic_regression": 0.9626051418783464,
+            "_thrs_random_forest": 0.64
+        },
+        {
+            "expression": "\u22a2 { A } = { x | x = A }",
+            "prop_expression": " \u22a2 { A } = { x | x = A }",
+            "step": 4,
+            "theorem": "df-sn",
+            "ground_truth": "df-sn \u22a2 { A } = { x | x = A }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9726018561944634,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.5,
+            "_thrs_random_forest": 0.98
+        },
+        {
+            "expression": "\u22a2 { B } = { x | x = B }",
+            "prop_expression": " \u22a2 { A } = { x | x = A }",
+            "step": 5,
+            "theorem": "df-sn",
+            "ground_truth": "df-sn \u22a2 { B } = { x | x = B }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6137527110406196,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.5,
+            "_thrs_random_forest": 0.98
+        }
+    ]
+}

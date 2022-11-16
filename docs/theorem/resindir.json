@@ -1,0 +1,142 @@
+{
+    "theorem": "resindir",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "expression": "( ( A \u2229 B ) |` C ) = ( ( A |` C ) \u2229 ( B |` C ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( ( A \u2229 B ) |` C ) = ( ( A |` C ) \u2229 ( B |` C ) )",
+            "prop_expression": "A = B, C = A, D = B \u22a2 C = D",
+            "step": 1,
+            "theorem": "3eqtr4i",
+            "ground_truth": "3eqtr4i \u22a2 ( ( A \u2229 B ) |` C ) = ( ( A |` C ) \u2229 ( B |` C ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3149711299579614,
+            "_thrs_reconstruct": 5.208729473401253e-06,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.6,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.25,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.77,
+            "_thrs_logistic_regression": 0.9899488403029991,
+            "_thrs_random_forest": 0.92
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2229 B ) \u2229 ( C \u00d7 V ) ) = ( ( A \u2229 ( C \u00d7 V ) ) \u2229 ( B \u2229 ( C \u00d7 V ) ) )",
+            "prop_expression": " \u22a2 ( ( A \u2229 B ) \u2229 C ) = ( ( A \u2229 C ) \u2229 ( B \u2229 C ) )",
+            "step": 2,
+            "theorem": "inindir",
+            "ground_truth": "inindir \u22a2 ( ( A \u2229 B ) \u2229 ( C \u00d7 V ) ) = ( ( A \u2229 ( C \u00d7 V ) ) \u2229 ( B \u2229 ( C \u00d7 V ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9822483060977433,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.804869966911136,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2609739933822272,
+            "_thrs_logistic_regression": 0.8202416967846011,
+            "_thrs_random_forest": 0.87
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2229 B ) |` C ) = ( ( A \u2229 B ) \u2229 ( C \u00d7 V ) )",
+            "prop_expression": " \u22a2 ( A |` B ) = ( A \u2229 ( B \u00d7 V ) )",
+            "step": 3,
+            "theorem": "df-res",
+            "ground_truth": "df-res \u22a2 ( ( A \u2229 B ) |` C ) = ( ( A \u2229 B ) \u2229 ( C \u00d7 V ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.2695526647793288,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.6,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.09905660377358493,
+            "_thrs_interestingness": 0.339811320754717,
+            "_thrs_logistic_regression": 0.9797623297158282,
+            "_thrs_random_forest": 0.885
+        },
+        {
+            "expression": "\u22a2 ( ( A |` C ) \u2229 ( B |` C ) ) = ( ( A \u2229 ( C \u00d7 V ) ) \u2229 ( B \u2229 ( C \u00d7 V ) ) )",
+            "prop_expression": "A = B, C = D \u22a2 ( A \u2229 C ) = ( B \u2229 D )",
+            "step": 4,
+            "theorem": "ineq12i",
+            "ground_truth": "ineq12i \u22a2 ( ( A |` C ) \u2229 ( B |` C ) ) = ( ( A \u2229 ( C \u00d7 V ) ) \u2229 ( B \u2229 ( C \u00d7 V ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.48877500645513816,
+            "_thrs_reconstruct": 0.24243150910777264,
+            "_thrs_obviousness": 0.1951258407238519,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.22012578616352194,
+            "_thrs_interestingness": 0.28305032537747477,
+            "_thrs_logistic_regression": 0.9809987775666661,
+            "_thrs_random_forest": 0.875
+        },
+        {
+            "expression": "\u22a2 ( A |` C ) = ( A \u2229 ( C \u00d7 V ) )",
+            "prop_expression": " \u22a2 ( A |` B ) = ( A \u2229 ( B \u00d7 V ) )",
+            "step": 5,
+            "theorem": "df-res",
+            "ground_truth": "df-res \u22a2 ( A |` C ) = ( A \u2229 ( C \u00d7 V ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.30475454236365274,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.16509433962264153,
+            "_thrs_interestingness": 0.3330188679245283,
+            "_thrs_logistic_regression": 0.9686720300807222,
+            "_thrs_random_forest": 0.845
+        },
+        {
+            "expression": "\u22a2 ( B |` C ) = ( B \u2229 ( C \u00d7 V ) )",
+            "prop_expression": " \u22a2 ( A |` B ) = ( A \u2229 ( B \u00d7 V ) )",
+            "step": 6,
+            "theorem": "df-res",
+            "ground_truth": "df-res \u22a2 ( B |` C ) = ( B \u2229 ( C \u00d7 V ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.512155530792671,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.16509433962264153,
+            "_thrs_interestingness": 0.3330188679245283,
+            "_thrs_logistic_regression": 0.9686720300807222,
+            "_thrs_random_forest": 0.845
+        }
+    ]
+}

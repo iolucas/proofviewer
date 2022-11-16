@@ -1,0 +1,119 @@
+{
+    "theorem": "oa0",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ]
+    ],
+    "expression": "( A \u2208 On \u2192 ( A +o \u2205 ) = A )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( A \u2208 On \u2192 ( A +o \u2205 ) = A )",
+            "prop_expression": "( \ud835\udf11 \u2192 A = B ), ( \ud835\udf11 \u2192 B = C ) \u22a2 ( \ud835\udf11 \u2192 A = C )",
+            "step": 1,
+            "theorem": "eqtrd",
+            "ground_truth": "eqtrd \u22a2 ( A \u2208 On \u2192 ( A +o \u2205 ) = A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.2310928004914521,
+            "_thrs_reconstruct": 1.6003669273817295e-12,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.75,
+            "_thrs_complexity": 0.75,
+            "_thrs_surprisingness": 0.3181818181818181,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7636363636363637,
+            "_thrs_logistic_regression": 0.9972978098975124,
+            "_thrs_random_forest": 0.855
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 On \u2192 ( A +o \u2205 ) = ( rec ( ( x \u2208 V |\u2192 suc x ) , A ) ` \u2205 ) )",
+            "prop_expression": "\ud835\udf13, ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 2,
+            "theorem": "mpan2",
+            "ground_truth": "mpan2 \u22a2 ( A \u2208 On \u2192 ( A +o \u2205 ) = ( rec ( ( x \u2208 V |\u2192 suc x ) , A ) ` \u2205 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7985505714159766,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0010351887591783311,
+            "_thrs_weight": 0.1875,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.5814403394907639,
+            "_thrs_interestingness": 0.3539951056499885,
+            "_thrs_logistic_regression": 0.9977375511149618,
+            "_thrs_random_forest": 0.91
+        },
+        {
+            "expression": "\u22a2 \u2205 \u2208 On",
+            "prop_expression": " \u22a2 \u2205 \u2208 On",
+            "step": 3,
+            "theorem": "0elon",
+            "ground_truth": "0elon \u22a2 \u2205 \u2208 On",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.34087648021352346,
+            "_thrs_reconstruct": 3.117780014321155e-07,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.3075386919620569,
+            "_thrs_interestingness": 0.46150773839241144,
+            "_thrs_logistic_regression": 0.8401544784280875,
+            "_thrs_random_forest": 0.57
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 On \u2227 \u2205 \u2208 On ) \u2192 ( A +o \u2205 ) = ( rec ( ( x \u2208 V |\u2192 suc x ) , A ) ` \u2205 ) )",
+            "prop_expression": " \u22a2 ( ( A \u2208 On \u2227 B \u2208 On ) \u2192 ( A +o B ) = ( rec ( ( x \u2208 V |\u2192 suc x ) , A ) ` B ) )",
+            "step": 4,
+            "theorem": "oav",
+            "ground_truth": "oav \u22a2 ( ( A \u2208 On \u2227 \u2205 \u2208 On ) \u2192 ( A +o \u2205 ) = ( rec ( ( x \u2208 V |\u2192 suc x ) , A ) ` \u2205 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6767598625643574,
+            "_thrs_reconstruct": 0.001036261485392261,
+            "_thrs_obviousness": 0.0010348773038969775,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.20020697546077942,
+            "_thrs_logistic_regression": 0.9411967405309183,
+            "_thrs_random_forest": 0.575
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 On \u2192 ( rec ( ( x \u2208 V |\u2192 suc x ) , A ) ` \u2205 ) = A )",
+            "prop_expression": " \u22a2 ( A \u2208 C \u2192 ( rec ( F , A ) ` \u2205 ) = A )",
+            "step": 5,
+            "theorem": "rdg0g",
+            "ground_truth": "rdg0g \u22a2 ( A \u2208 On \u2192 ( rec ( ( x \u2208 V |\u2192 suc x ) , A ) ` \u2205 ) = A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.569201019903942,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9989644997839416,
+            "_thrs_weight": 0.3125,
+            "_thrs_complexity": 0.125,
+            "_thrs_surprisingness": 0.5454545454545451,
+            "_thrs_intensity": 0.09885172241637544,
+            "_thrs_interestingness": 0.4161541535309724,
+            "_thrs_logistic_regression": 0.9706723321691922,
+            "_thrs_random_forest": 0.905
+        }
+    ]
+}

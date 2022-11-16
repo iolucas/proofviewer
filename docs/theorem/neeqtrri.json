@@ -1,0 +1,96 @@
+{
+    "theorem": "neeqtrri",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "expression": "A \u2260 C",
+    "steps": [
+        {
+            "expression": "\u22a2 A \u2260 C",
+            "prop_expression": "A \u2260 B, B = C \u22a2 A \u2260 C",
+            "step": 1,
+            "theorem": "neeqtri",
+            "ground_truth": "neeqtri \u22a2 A \u2260 C",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.42667919055473746,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.9993729300984916,
+            "_thrs_random_forest": 0.825
+        },
+        {
+            "expression": "\u22a2 A \u2260 B",
+            "prop_expression": " \u22a2 A \u2260 B",
+            "step": 2,
+            "theorem": "neeqtrr.1",
+            "ground_truth": "neeqtrr.1 \u22a2 A \u2260 B",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7728500831889831,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.6702450283867224,
+            "_thrs_random_forest": 0.99
+        },
+        {
+            "expression": "\u22a2 B = C",
+            "prop_expression": "A = B \u22a2 B = A",
+            "step": 3,
+            "theorem": "eqcomi",
+            "ground_truth": "eqcomi \u22a2 B = C",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.1544310851936883,
+            "_thrs_reconstruct": 0.05335368151330168,
+            "_thrs_obviousness": 0.05065276766693914,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.41013055353338784,
+            "_thrs_logistic_regression": 0.6692860574135203,
+            "_thrs_random_forest": 0.82
+        },
+        {
+            "expression": "\u22a2 C = B",
+            "prop_expression": " \u22a2 C = B",
+            "step": 4,
+            "theorem": "neeqtrr.2",
+            "ground_truth": "neeqtrr.2 \u22a2 C = B",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9426539267048744,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.6702450283867224,
+            "_thrs_random_forest": 0.975
+        }
+    ]
+}

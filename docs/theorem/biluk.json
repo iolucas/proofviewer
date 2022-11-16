@@ -1,0 +1,188 @@
+{
+    "theorem": "biluk",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "expression": "( ( \ud835\udf11 \u2194 \ud835\udf13 ) \u2194 ( ( \ud835\udf12 \u2194 \ud835\udf13 ) \u2194 ( \ud835\udf11 \u2194 \ud835\udf12 ) ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( ( \ud835\udf11 \u2194 \ud835\udf13 ) \u2194 ( ( \ud835\udf12 \u2194 \ud835\udf13 ) \u2194 ( \ud835\udf11 \u2194 \ud835\udf12 ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ), ( \ud835\udf12 \u2194 \ud835\udf13 ) \u22a2 ( \ud835\udf11 \u2194 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "bitr4i",
+            "ground_truth": "bitr4i \u22a2 ( ( \ud835\udf11 \u2194 \ud835\udf13 ) \u2194 ( ( \ud835\udf12 \u2194 \ud835\udf13 ) \u2194 ( \ud835\udf11 \u2194 \ud835\udf12 ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5149614487768199,
+            "_thrs_reconstruct": 0.005908841009938472,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.75,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.7575757575757577,
+            "_thrs_interestingness": 0.7015151515151515,
+            "_thrs_logistic_regression": 0.9994418819990771,
+            "_thrs_random_forest": 0.995
+        },
+        {
+            "expression": "\u22a2 ( ( \ud835\udf11 \u2194 \ud835\udf13 ) \u2194 ( \ud835\udf12 \u2194 ( \ud835\udf13 \u2194 ( \ud835\udf11 \u2194 \ud835\udf12 ) ) ) )",
+            "prop_expression": "\ud835\udf11, ( \ud835\udf11 \u2194 \ud835\udf13 ) \u22a2 \ud835\udf13",
+            "step": 2,
+            "theorem": "mpbi",
+            "ground_truth": "mpbi \u22a2 ( ( \ud835\udf11 \u2194 \ud835\udf13 ) \u2194 ( \ud835\udf12 \u2194 ( \ud835\udf13 \u2194 ( \ud835\udf11 \u2194 \ud835\udf12 ) ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8134979529013803,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.6717219985533149,
+            "_thrs_weight": 0.75,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.684344399710663,
+            "_thrs_logistic_regression": 0.9998532338255907,
+            "_thrs_random_forest": 0.99
+        },
+        {
+            "expression": "\u22a2 ( ( ( \ud835\udf11 \u2194 \ud835\udf13 ) \u2194 \ud835\udf12 ) \u2194 ( \ud835\udf13 \u2194 ( \ud835\udf11 \u2194 \ud835\udf12 ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ), ( \ud835\udf13 \u2194 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2194 \ud835\udf12 )",
+            "step": 3,
+            "theorem": "bitri",
+            "ground_truth": "bitri \u22a2 ( ( ( \ud835\udf11 \u2194 \ud835\udf13 ) \u2194 \ud835\udf12 ) \u2194 ( \ud835\udf13 \u2194 ( \ud835\udf11 \u2194 \ud835\udf12 ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7223212594255006,
+            "_thrs_reconstruct": 0.004207982597342154,
+            "_thrs_obviousness": 0.3453716791078135,
+            "_thrs_weight": 0.75,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.6363636363636364,
+            "_thrs_interestingness": 0.5463470630942899,
+            "_thrs_logistic_regression": 0.9989855513813781,
+            "_thrs_random_forest": 0.845
+        },
+        {
+            "expression": "\u22a2 ( ( ( \ud835\udf11 \u2194 \ud835\udf13 ) \u2194 \ud835\udf12 ) \u2194 ( ( \ud835\udf13 \u2194 \ud835\udf11 ) \u2194 \ud835\udf12 ) )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ) \u22a2 ( ( \ud835\udf11 \u2194 \ud835\udf12 ) \u2194 ( \ud835\udf13 \u2194 \ud835\udf12 ) )",
+            "step": 4,
+            "theorem": "bibi1i",
+            "ground_truth": "bibi1i \u22a2 ( ( ( \ud835\udf11 \u2194 \ud835\udf13 ) \u2194 \ud835\udf12 ) \u2194 ( ( \ud835\udf13 \u2194 \ud835\udf11 ) \u2194 \ud835\udf12 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.15970454903367548,
+            "_thrs_reconstruct": 0.053923553095488706,
+            "_thrs_obviousness": 0.017648560444911074,
+            "_thrs_weight": 0.75,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.2727272727272727,
+            "_thrs_interestingness": 0.40807516663443677,
+            "_thrs_logistic_regression": 0.9930247302196139,
+            "_thrs_random_forest": 0.615
+        },
+        {
+            "expression": "\u22a2 ( ( \ud835\udf11 \u2194 \ud835\udf13 ) \u2194 ( \ud835\udf13 \u2194 \ud835\udf11 ) )",
+            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2194 \ud835\udf13 ) \u2194 ( \ud835\udf13 \u2194 \ud835\udf11 ) )",
+            "step": 5,
+            "theorem": "bicom",
+            "ground_truth": "bicom \u22a2 ( ( \ud835\udf11 \u2194 \ud835\udf13 ) \u2194 ( \ud835\udf13 \u2194 \ud835\udf11 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5293474572109532,
+            "_thrs_reconstruct": 0.0035081620254483296,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.09090909090909091,
+            "_thrs_interestingness": 0.41818181818181815,
+            "_thrs_logistic_regression": 0.6202278962652229,
+            "_thrs_random_forest": 0.785
+        },
+        {
+            "expression": "\u22a2 ( ( ( \ud835\udf13 \u2194 \ud835\udf11 ) \u2194 \ud835\udf12 ) \u2194 ( \ud835\udf13 \u2194 ( \ud835\udf11 \u2194 \ud835\udf12 ) ) )",
+            "prop_expression": " \u22a2 ( ( ( \ud835\udf11 \u2194 \ud835\udf13 ) \u2194 \ud835\udf12 ) \u2194 ( \ud835\udf11 \u2194 ( \ud835\udf13 \u2194 \ud835\udf12 ) ) )",
+            "step": 6,
+            "theorem": "biass",
+            "ground_truth": "biass \u22a2 ( ( ( \ud835\udf13 \u2194 \ud835\udf11 ) \u2194 \ud835\udf12 ) \u2194 ( \ud835\udf13 \u2194 ( \ud835\udf11 \u2194 \ud835\udf12 ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9042693912249059,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.3250924127352618,
+            "_thrs_weight": 0.75,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.09090909090909091,
+            "_thrs_interestingness": 0.4332003007288705,
+            "_thrs_logistic_regression": 0.9811282499429725,
+            "_thrs_random_forest": 0.695
+        },
+        {
+            "expression": "\u22a2 ( ( ( ( \ud835\udf11 \u2194 \ud835\udf13 ) \u2194 \ud835\udf12 ) \u2194 ( \ud835\udf13 \u2194 ( \ud835\udf11 \u2194 \ud835\udf12 ) ) ) \u2194 ( ( \ud835\udf11 \u2194 \ud835\udf13 ) \u2194 ( \ud835\udf12 \u2194 ( \ud835\udf13 \u2194 ( \ud835\udf11 \u2194 \ud835\udf12 ) ) ) ) )",
+            "prop_expression": " \u22a2 ( ( ( \ud835\udf11 \u2194 \ud835\udf13 ) \u2194 \ud835\udf12 ) \u2194 ( \ud835\udf11 \u2194 ( \ud835\udf13 \u2194 \ud835\udf12 ) ) )",
+            "step": 7,
+            "theorem": "biass",
+            "ground_truth": "biass \u22a2 ( ( ( ( \ud835\udf11 \u2194 \ud835\udf13 ) \u2194 \ud835\udf12 ) \u2194 ( \ud835\udf13 \u2194 ( \ud835\udf11 \u2194 \ud835\udf12 ) ) ) \u2194 ( ( \ud835\udf11 \u2194 \ud835\udf13 ) \u2194 ( \ud835\udf12 \u2194 ( \ud835\udf13 \u2194 ( \ud835\udf11 \u2194 \ud835\udf12 ) ) ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.10364598013025228,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.3250924127352618,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.26501848254705235,
+            "_thrs_logistic_regression": 0.939642634039829,
+            "_thrs_random_forest": 0.265
+        },
+        {
+            "expression": "\u22a2 ( ( ( \ud835\udf12 \u2194 \ud835\udf13 ) \u2194 ( \ud835\udf11 \u2194 \ud835\udf12 ) ) \u2194 ( \ud835\udf12 \u2194 ( \ud835\udf13 \u2194 ( \ud835\udf11 \u2194 \ud835\udf12 ) ) ) )",
+            "prop_expression": " \u22a2 ( ( ( \ud835\udf11 \u2194 \ud835\udf13 ) \u2194 \ud835\udf12 ) \u2194 ( \ud835\udf11 \u2194 ( \ud835\udf13 \u2194 \ud835\udf12 ) ) )",
+            "step": 8,
+            "theorem": "biass",
+            "ground_truth": "biass \u22a2 ( ( ( \ud835\udf12 \u2194 \ud835\udf13 ) \u2194 ( \ud835\udf11 \u2194 \ud835\udf12 ) ) \u2194 ( \ud835\udf12 \u2194 ( \ud835\udf13 \u2194 ( \ud835\udf11 \u2194 \ud835\udf12 ) ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.20798366145317637,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.3250924127352618,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.045454545454545456,
+            "_thrs_interestingness": 0.3741093916379614,
+            "_thrs_logistic_regression": 0.9697441972168445,
+            "_thrs_random_forest": 0.995
+        }
+    ]
+}

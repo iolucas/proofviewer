@@ -1,0 +1,119 @@
+{
+    "theorem": "sbt",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "expression": "[. y / x ]. \ud835\udf11",
+    "steps": [
+        {
+            "expression": "\u22a2 [. y / x ]. \ud835\udf11",
+            "prop_expression": "\ud835\udf13, ( \ud835\udf11 \u2194 \ud835\udf13 ) \u22a2 \ud835\udf11",
+            "step": 1,
+            "theorem": "mpbir",
+            "ground_truth": "mpbir \u22a2 [. y / x ]. \ud835\udf11",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8754000194197669,
+            "_thrs_reconstruct": 0.002487438809756772,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.33333333333333337,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.5666666666666667,
+            "_thrs_logistic_regression": 0.9998858930487735,
+            "_thrs_random_forest": 0.96
+        },
+        {
+            "expression": "\u22a2 \ud835\udf11",
+            "prop_expression": " \u22a2 \ud835\udf11",
+            "step": 2,
+            "theorem": "sbt.1",
+            "ground_truth": "sbt.1 \u22a2 \ud835\udf11",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8810164889705376,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.33333333333333337,
+            "_thrs_interestingness": 0.5666666666666667,
+            "_thrs_logistic_regression": 0.7542351658831055,
+            "_thrs_random_forest": 0.985
+        },
+        {
+            "expression": "\u22a2 ( [. y / x ]. \ud835\udf11 \u2194 \ud835\udf11 )",
+            "prop_expression": "( \ud835\udf11 \u2192 \u2200 x \ud835\udf11 ) \u22a2 ( [. y / x ]. \ud835\udf11 \u2194 \ud835\udf11 )",
+            "step": 3,
+            "theorem": "sbf",
+            "ground_truth": "sbf \u22a2 ( [. y / x ]. \ud835\udf11 \u2194 \ud835\udf11 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.17994682540701656,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9975172451015816,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.45833333333333337,
+            "_thrs_interestingness": 0.391170115686983,
+            "_thrs_logistic_regression": 0.9970935258177845,
+            "_thrs_random_forest": 0.975
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 \u2200 x \ud835\udf11 )",
+            "prop_expression": "\ud835\udf11 \u22a2 ( \ud835\udf11 \u2192 \u2200 x \ud835\udf11 )",
+            "step": 4,
+            "theorem": "hbth",
+            "ground_truth": "hbth \u22a2 ( \ud835\udf11 \u2192 \u2200 x \ud835\udf11 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5103954035956775,
+            "_thrs_reconstruct": 1.5029841750796206e-06,
+            "_thrs_obviousness": 2.2488721905964157e-06,
+            "_thrs_weight": 0.33333333333333337,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2666671164411048,
+            "_thrs_logistic_regression": 0.7733920953118351,
+            "_thrs_random_forest": 0.51
+        },
+        {
+            "expression": "\u22a2 \ud835\udf11",
+            "prop_expression": " \u22a2 \ud835\udf11",
+            "step": 5,
+            "theorem": "sbt.1",
+            "ground_truth": "sbt.1 \u22a2 \ud835\udf11",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6244613219051328,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.33333333333333337,
+            "_thrs_interestingness": 0.5666666666666667,
+            "_thrs_logistic_regression": 0.7542351658831055,
+            "_thrs_random_forest": 0.865
+        }
+    ]
+}

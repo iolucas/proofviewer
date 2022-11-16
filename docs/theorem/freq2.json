@@ -1,0 +1,165 @@
+{
+    "theorem": "freq2",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "expression": "( A = B \u2192 ( R Fr A \u2194 R Fr B ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( A = B \u2192 ( R Fr A \u2194 R Fr B ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf12 ) ), ( \ud835\udf11 \u2192 ( \ud835\udf12 \u2192 \ud835\udf13 ) ) \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) )",
+            "step": 1,
+            "theorem": "impbid",
+            "ground_truth": "impbid \u22a2 ( A = B \u2192 ( R Fr A \u2194 R Fr B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9654077311981584,
+            "_thrs_reconstruct": 1.5993215923854576e-05,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.25,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.6666666666666666,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6833333333333333,
+            "_thrs_logistic_regression": 0.9980391595439103,
+            "_thrs_random_forest": 0.895
+        },
+        {
+            "expression": "\u22a2 ( A = B \u2192 ( R Fr A \u2192 R Fr B ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf13 \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 2,
+            "theorem": "syl",
+            "ground_truth": "syl \u22a2 ( A = B \u2192 ( R Fr A \u2192 R Fr B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.45172810242594874,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.37231713148398576,
+            "_thrs_weight": 0.25,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.6666666666666666,
+            "_thrs_intensity": 0.5846153846153845,
+            "_thrs_interestingness": 0.4747198365532073,
+            "_thrs_logistic_regression": 0.9827893731677327,
+            "_thrs_random_forest": 0.935
+        },
+        {
+            "expression": "\u22a2 ( A = B \u2192 B \u2286 A )",
+            "prop_expression": " \u22a2 ( B = A \u2192 A \u2286 B )",
+            "step": 3,
+            "theorem": "eqimss2",
+            "ground_truth": "eqimss2 \u22a2 ( A = B \u2192 B \u2286 A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7489286386644596,
+            "_thrs_reconstruct": 0.6882059197904544,
+            "_thrs_obviousness": 0.00032404583472332976,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.030769230769230736,
+            "_thrs_interestingness": 0.4062186553207908,
+            "_thrs_logistic_regression": 0.5414032113038306,
+            "_thrs_random_forest": 0.805
+        },
+        {
+            "expression": "\u22a2 ( B \u2286 A \u2192 ( R Fr A \u2192 R Fr B ) )",
+            "prop_expression": " \u22a2 ( A \u2286 B \u2192 ( R Fr B \u2192 R Fr A ) )",
+            "step": 4,
+            "theorem": "frss",
+            "ground_truth": "frss \u22a2 ( B \u2286 A \u2192 ( R Fr A \u2192 R Fr B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7406225801822499,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.11630925214642181,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.22326185042928434,
+            "_thrs_logistic_regression": 0.9406482575800946,
+            "_thrs_random_forest": 0.62
+        },
+        {
+            "expression": "\u22a2 ( A = B \u2192 ( R Fr B \u2192 R Fr A ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf13 \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 5,
+            "theorem": "syl",
+            "ground_truth": "syl \u22a2 ( A = B \u2192 ( R Fr B \u2192 R Fr A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.44507633904731114,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.3719930856492624,
+            "_thrs_weight": 0.25,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.6666666666666666,
+            "_thrs_intensity": 0.5846153846153845,
+            "_thrs_interestingness": 0.47465502738626275,
+            "_thrs_logistic_regression": 0.9827898423213739,
+            "_thrs_random_forest": 0.935
+        },
+        {
+            "expression": "\u22a2 ( A = B \u2192 A \u2286 B )",
+            "prop_expression": " \u22a2 ( A = B \u2192 A \u2286 B )",
+            "step": 6,
+            "theorem": "eqimss",
+            "ground_truth": "eqimss \u22a2 ( A = B \u2192 A \u2286 B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3717574940068288,
+            "_thrs_reconstruct": 0.6873348123777403,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.030769230769230736,
+            "_thrs_interestingness": 0.40615384615384614,
+            "_thrs_logistic_regression": 0.541410098066314,
+            "_thrs_random_forest": 0.785
+        },
+        {
+            "expression": "\u22a2 ( A \u2286 B \u2192 ( R Fr B \u2192 R Fr A ) )",
+            "prop_expression": " \u22a2 ( A \u2286 B \u2192 ( R Fr B \u2192 R Fr A ) )",
+            "step": 7,
+            "theorem": "frss",
+            "ground_truth": "frss \u22a2 ( A \u2286 B \u2192 ( R Fr B \u2192 R Fr A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.2327406967843776,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.11630925214642181,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.22326185042928434,
+            "_thrs_logistic_regression": 0.9406482575800946,
+            "_thrs_random_forest": 0.62
+        }
+    ]
+}

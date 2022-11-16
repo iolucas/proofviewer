@@ -1,0 +1,188 @@
+{
+    "theorem": "prssg",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "expression": "( ( A \u2208 V \u2227 B \u2208 W ) \u2192 ( ( A \u2208 C \u2227 B \u2208 C ) \u2194 { A , B } \u2286 C ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( ( A \u2208 V \u2227 B \u2208 W ) \u2192 ( ( A \u2208 C \u2227 B \u2208 C ) \u2194 { A , B } \u2286 C ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ), ( \ud835\udf12 \u2194 \ud835\udf03 ) \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf03 ) )",
+            "step": 1,
+            "theorem": "syl6bb",
+            "ground_truth": "syl6bb \u22a2 ( ( A \u2208 V \u2227 B \u2208 W ) \u2192 ( ( A \u2208 C \u2227 B \u2208 C ) \u2194 { A , B } \u2286 C ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.18109039255756998,
+            "_thrs_reconstruct": 6.508957758506034e-06,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.15384615384615385,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6307692307692307,
+            "_thrs_logistic_regression": 0.9997334941855207,
+            "_thrs_random_forest": 0.91
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 V \u2227 B \u2208 W ) \u2192 ( ( A \u2208 C \u2227 B \u2208 C ) \u2194 ( { A } \u2286 C \u2227 { B } \u2286 C ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ), ( \ud835\udf03 \u2192 ( \ud835\udf0f \u2194 \u03b7 ) ) \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf03 ) \u2192 ( ( \ud835\udf13 \u2227 \ud835\udf0f ) \u2194 ( \ud835\udf12 \u2227 \u03b7 ) ) )",
+            "step": 2,
+            "theorem": "bi2anan9",
+            "ground_truth": "bi2anan9 \u22a2 ( ( A \u2208 V \u2227 B \u2208 W ) \u2192 ( ( A \u2208 C \u2227 B \u2208 C ) \u2194 ( { A } \u2286 C \u2227 { B } \u2286 C ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.818649527864611,
+            "_thrs_reconstruct": 0.00018029079621993436,
+            "_thrs_obviousness": 0.5057713128775242,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.42105263157894735,
+            "_thrs_interestingness": 0.3853647888912943,
+            "_thrs_logistic_regression": 0.9933178639452381,
+            "_thrs_random_forest": 0.835
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 V \u2192 ( A \u2208 C \u2194 { A } \u2286 C ) )",
+            "prop_expression": " \u22a2 ( A \u2208 V \u2192 ( A \u2208 B \u2194 { A } \u2286 B ) )",
+            "step": 3,
+            "theorem": "snssg",
+            "ground_truth": "snssg \u22a2 ( A \u2208 V \u2192 ( A \u2208 C \u2194 { A } \u2286 C ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.07290237956913359,
+            "_thrs_reconstruct": 0.5207443473574076,
+            "_thrs_obviousness": 0.25284188719865197,
+            "_thrs_weight": 0.6923076923076923,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.4411764705882352,
+            "_thrs_intensity": 0.07797270955165696,
+            "_thrs_interestingness": 0.39285975192924727,
+            "_thrs_logistic_regression": 0.8858141589522416,
+            "_thrs_random_forest": 0.67
+        },
+        {
+            "expression": "\u22a2 ( B \u2208 W \u2192 ( B \u2208 C \u2194 { B } \u2286 C ) )",
+            "prop_expression": " \u22a2 ( A \u2208 V \u2192 ( A \u2208 B \u2194 { A } \u2286 B ) )",
+            "step": 4,
+            "theorem": "snssg",
+            "ground_truth": "snssg \u22a2 ( B \u2208 W \u2192 ( B \u2208 C \u2194 { B } \u2286 C ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9143619600505092,
+            "_thrs_reconstruct": 0.5207443473574076,
+            "_thrs_obviousness": 0.25284188719865197,
+            "_thrs_weight": 0.6923076923076923,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.4411764705882352,
+            "_thrs_intensity": 0.07797270955165696,
+            "_thrs_interestingness": 0.39285975192924727,
+            "_thrs_logistic_regression": 0.8858141589522416,
+            "_thrs_random_forest": 0.67
+        },
+        {
+            "expression": "\u22a2 ( ( { A } \u2286 C \u2227 { B } \u2286 C ) \u2194 { A , B } \u2286 C )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ), ( \ud835\udf12 \u2194 \ud835\udf13 ) \u22a2 ( \ud835\udf11 \u2194 \ud835\udf12 )",
+            "step": 5,
+            "theorem": "bitr4i",
+            "ground_truth": "bitr4i \u22a2 ( ( { A } \u2286 C \u2227 { B } \u2286 C ) \u2194 { A , B } \u2286 C )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.48490432475159573,
+            "_thrs_reconstruct": 2.200516908222818e-06,
+            "_thrs_obviousness": 0.4942255265682386,
+            "_thrs_weight": 0.6153846153846154,
+            "_thrs_complexity": 0.75,
+            "_thrs_surprisingness": 0.15686274509803919,
+            "_thrs_intensity": 0.8842105263157896,
+            "_thrs_interestingness": 0.5801366826733365,
+            "_thrs_logistic_regression": 0.9955907386791435,
+            "_thrs_random_forest": 0.855
+        },
+        {
+            "expression": "\u22a2 ( ( { A } \u2286 C \u2227 { B } \u2286 C ) \u2194 ( { A } \u222a { B } ) \u2286 C )",
+            "prop_expression": " \u22a2 ( ( A \u2286 C \u2227 B \u2286 C ) \u2194 ( A \u222a B ) \u2286 C )",
+            "step": 6,
+            "theorem": "unss",
+            "ground_truth": "unss \u22a2 ( ( { A } \u2286 C \u2227 { B } \u2286 C ) \u2194 ( { A } \u222a { B } ) \u2286 C )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7601610852440398,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.48553937931680796,
+            "_thrs_weight": 0.5384615384615384,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.41176470588235287,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.38715312473213986,
+            "_thrs_logistic_regression": 0.8177465748806645,
+            "_thrs_random_forest": 0.465
+        },
+        {
+            "expression": "\u22a2 ( { A , B } \u2286 C \u2194 ( { A } \u222a { B } ) \u2286 C )",
+            "prop_expression": "A = B \u22a2 ( A \u2286 C \u2194 B \u2286 C )",
+            "step": 7,
+            "theorem": "sseq1i",
+            "ground_truth": "sseq1i \u22a2 ( { A , B } \u2286 C \u2194 ( { A } \u222a { B } ) \u2286 C )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6271057875238935,
+            "_thrs_reconstruct": 0.01788748531096837,
+            "_thrs_obviousness": 0.008685078614889668,
+            "_thrs_weight": 0.6923076923076923,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.41176470588235287,
+            "_thrs_intensity": 0.363872644574399,
+            "_thrs_interestingness": 0.39532602427586677,
+            "_thrs_logistic_regression": 0.9747175717761757,
+            "_thrs_random_forest": 0.54
+        },
+        {
+            "expression": "\u22a2 { A , B } = ( { A } \u222a { B } )",
+            "prop_expression": " \u22a2 { A , B } = ( { A } \u222a { B } )",
+            "step": 8,
+            "theorem": "df-pr",
+            "ground_truth": "df-pr \u22a2 { A , B } = ( { A } \u222a { B } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.11220847736080031,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.11228070175438597,
+            "_thrs_interestingness": 0.4224561403508772,
+            "_thrs_logistic_regression": 0.646988946866731,
+            "_thrs_random_forest": 0.655
+        }
+    ]
+}

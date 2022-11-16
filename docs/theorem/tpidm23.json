@@ -1,0 +1,96 @@
+{
+    "theorem": "tpidm23",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            1,
+            4
+        ]
+    ],
+    "expression": "{ A , B , B } = { A , B }",
+    "steps": [
+        {
+            "expression": "\u22a2 { A , B , B } = { A , B }",
+            "prop_expression": "A = B, B = C, C = D \u22a2 A = D",
+            "step": 1,
+            "theorem": "3eqtri",
+            "ground_truth": "3eqtri \u22a2 { A , B , B } = { A , B }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.2947237394347556,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.9987664158001925,
+            "_thrs_random_forest": 0.7925
+        },
+        {
+            "expression": "\u22a2 { A , B , B } = { B , B , A }",
+            "prop_expression": " \u22a2 { A , B , C } = { B , C , A }",
+            "step": 2,
+            "theorem": "tprot",
+            "ground_truth": "tprot \u22a2 { A , B , B } = { B , B , A }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6380722030706395,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.5457459352254054,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.30914918704508104,
+            "_thrs_logistic_regression": 0.703274076004139,
+            "_thrs_random_forest": 0.9
+        },
+        {
+            "expression": "\u22a2 { B , B , A } = { B , A }",
+            "prop_expression": " \u22a2 { A , A , B } = { A , B }",
+            "step": 3,
+            "theorem": "tpidm12",
+            "ground_truth": "tpidm12 \u22a2 { B , B , A } = { B , A }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.11257096229426566,
+            "_thrs_reconstruct": 0.37466311277274605,
+            "_thrs_obviousness": 0.09086387399466875,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.025000000000000015,
+            "_thrs_interestingness": 0.32317277479893375,
+            "_thrs_logistic_regression": 0.8195994209361006,
+            "_thrs_random_forest": 0.925
+        },
+        {
+            "expression": "\u22a2 { B , A } = { A , B }",
+            "prop_expression": " \u22a2 { A , B } = { B , A }",
+            "step": 4,
+            "theorem": "prcom",
+            "ground_truth": "prcom \u22a2 { B , A } = { A , B }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6945108165058997,
+            "_thrs_reconstruct": 0.24975044426368023,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.06250000000000001,
+            "_thrs_interestingness": 0.4125,
+            "_thrs_logistic_regression": 0.9003052741226832,
+            "_thrs_random_forest": 0.905
+        }
+    ]
+}

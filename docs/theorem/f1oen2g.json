@@ -1,0 +1,165 @@
+{
+    "theorem": "f1oen2g",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            6
+        ],
+        [
+            1,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "expression": "( ( A \u2208 V \u2227 B \u2208 W \u2227 F : A -1-1-onto\u2192 B ) \u2192 A \u2248 B )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( ( A \u2208 V \u2227 B \u2208 W \u2227 F : A -1-1-onto\u2192 B ) \u2192 A \u2248 B )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf11 \u2192 \ud835\udf12 ), ( ( \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf03 )",
+            "step": 1,
+            "theorem": "syl2anc",
+            "ground_truth": "syl2anc \u22a2 ( ( A \u2208 V \u2227 B \u2208 W \u2227 F : A -1-1-onto\u2192 B ) \u2192 A \u2248 B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6983882261468116,
+            "_thrs_reconstruct": 2.929679379394907e-11,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.16666666666666663,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.8773584905660379,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.608805031446541,
+            "_thrs_logistic_regression": 0.9997770161002025,
+            "_thrs_random_forest": 0.925
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 V \u2227 B \u2208 W \u2227 F : A -1-1-onto\u2192 B ) \u2192 F \u2208 V )",
+            "prop_expression": "( ( \ud835\udf11 \u2227 \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( ( \ud835\udf13 \u2227 \ud835\udf12 \u2227 \ud835\udf11 ) \u2192 \ud835\udf03 )",
+            "step": 2,
+            "theorem": "3coml",
+            "ground_truth": "3coml \u22a2 ( ( A \u2208 V \u2227 B \u2208 W \u2227 F : A -1-1-onto\u2192 B ) \u2192 F \u2208 V )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.833523018547962,
+            "_thrs_reconstruct": 9.990284137256248e-09,
+            "_thrs_obviousness": 0.24407293622349113,
+            "_thrs_weight": 0.16666666666666663,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.9150943396226415,
+            "_thrs_intensity": 0.2463157894736842,
+            "_thrs_interestingness": 0.3144299463972967,
+            "_thrs_logistic_regression": 0.9873222563976456,
+            "_thrs_random_forest": 0.91
+        },
+        {
+            "expression": "\u22a2 ( ( F : A -1-1-onto\u2192 B \u2227 A \u2208 V \u2227 B \u2208 W ) \u2192 F \u2208 V )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( ( \ud835\udf13 \u2227 \ud835\udf12 \u2227 \ud835\udf03 ) \u2192 \ud835\udf0f ) \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf12 \u2227 \ud835\udf03 ) \u2192 \ud835\udf0f )",
+            "step": 3,
+            "theorem": "syl3an1",
+            "ground_truth": "syl3an1 \u22a2 ( ( F : A -1-1-onto\u2192 B \u2227 A \u2208 V \u2227 B \u2208 W ) \u2192 F \u2208 V )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9000341756497294,
+            "_thrs_reconstruct": 1.21103612395072e-08,
+            "_thrs_obviousness": 0.24407292864271488,
+            "_thrs_weight": 0.16666666666666663,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.9150943396226415,
+            "_thrs_intensity": 0.4610526315789474,
+            "_thrs_interestingness": 0.35737731330219413,
+            "_thrs_logistic_regression": 0.9959854127726019,
+            "_thrs_random_forest": 0.745
+        },
+        {
+            "expression": "\u22a2 ( F : A -1-1-onto\u2192 B \u2192 F : A -\u2192 B )",
+            "prop_expression": " \u22a2 ( F : A -1-1-onto\u2192 B \u2192 F : A -\u2192 B )",
+            "step": 4,
+            "theorem": "f1of",
+            "ground_truth": "f1of \u22a2 ( F : A -1-1-onto\u2192 B \u2192 F : A -\u2192 B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9784838454797787,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.06157894736842105,
+            "_thrs_interestingness": 0.4123157894736842,
+            "_thrs_logistic_regression": 0.5823091201878249,
+            "_thrs_random_forest": 0.62
+        },
+        {
+            "expression": "\u22a2 ( ( F : A -\u2192 B \u2227 A \u2208 V \u2227 B \u2208 W ) \u2192 F \u2208 V )",
+            "prop_expression": " \u22a2 ( ( F : A -\u2192 B \u2227 A \u2208 V \u2227 B \u2208 W ) \u2192 F \u2208 V )",
+            "step": 5,
+            "theorem": "fex2",
+            "ground_truth": "fex2 \u22a2 ( ( F : A -\u2192 B \u2227 A \u2208 V \u2227 B \u2208 W ) \u2192 F \u2208 V )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7543950456758245,
+            "_thrs_reconstruct": 0.3228789276784002,
+            "_thrs_obviousness": 0.24407291943046483,
+            "_thrs_weight": 0.16666666666666663,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.056842105263157916,
+            "_thrs_interestingness": 0.2935163382720579,
+            "_thrs_logistic_regression": 0.9614990115374585,
+            "_thrs_random_forest": 0.715
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 V \u2227 B \u2208 W \u2227 F : A -1-1-onto\u2192 B ) \u2192 F : A -1-1-onto\u2192 B )",
+            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf12 )",
+            "step": 6,
+            "theorem": "simp3",
+            "ground_truth": "simp3 \u22a2 ( ( A \u2208 V \u2227 B \u2208 W \u2227 F : A -1-1-onto\u2192 B ) \u2192 F : A -1-1-onto\u2192 B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6026270346594611,
+            "_thrs_reconstruct": 1.186859007803248e-09,
+            "_thrs_obviousness": 8.971788436915776e-10,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.47169811320754707,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.16100628948761186,
+            "_thrs_logistic_regression": 0.8575219512851017,
+            "_thrs_random_forest": 0.675
+        },
+        {
+            "expression": "\u22a2 ( ( F \u2208 V \u2227 F : A -1-1-onto\u2192 B ) \u2192 A \u2248 B )",
+            "prop_expression": " \u22a2 ( ( F \u2208 V \u2227 F : A -1-1-onto\u2192 B ) \u2192 A \u2248 B )",
+            "step": 7,
+            "theorem": "f1oen3g",
+            "ground_truth": "f1oen3g \u22a2 ( ( F \u2208 V \u2227 F : A -1-1-onto\u2192 B ) \u2192 A \u2248 B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6386144918469326,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.7559270627706334,
+            "_thrs_weight": 0.6666666666666667,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.641509433962264,
+            "_thrs_intensity": 0.09852631578947367,
+            "_thrs_interestingness": 0.49919256250447425,
+            "_thrs_logistic_regression": 0.9350871460857378,
+            "_thrs_random_forest": 0.94
+        }
+    ]
+}

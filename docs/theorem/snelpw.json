@@ -1,0 +1,119 @@
+{
+    "theorem": "snelpw",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "expression": "( A \u2208 B \u2194 { A } \u2208 \ud835\udcab B )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( A \u2208 B \u2194 { A } \u2208 \ud835\udcab B )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ), ( \ud835\udf12 \u2194 \ud835\udf13 ) \u22a2 ( \ud835\udf11 \u2194 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "bitr4i",
+            "ground_truth": "bitr4i \u22a2 ( A \u2208 B \u2194 { A } \u2208 \ud835\udcab B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.19940754249898462,
+            "_thrs_reconstruct": 1.428178279204969e-07,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.9980141633190189,
+            "_thrs_random_forest": 0.915
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 B \u2194 { A } \u2286 B )",
+            "prop_expression": "A \u2208 V \u22a2 ( A \u2208 B \u2194 { A } \u2286 B )",
+            "step": 2,
+            "theorem": "snss",
+            "ground_truth": "snss \u22a2 ( A \u2208 B \u2194 { A } \u2286 B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.740701649564582,
+            "_thrs_reconstruct": 0.00021473470110002765,
+            "_thrs_obviousness": 0.0002014895639857916,
+            "_thrs_weight": 0.25,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2500402979127972,
+            "_thrs_logistic_regression": 0.7591581374626876,
+            "_thrs_random_forest": 0.75875
+        },
+        {
+            "expression": "\u22a2 A \u2208 V",
+            "prop_expression": " \u22a2 A \u2208 V",
+            "step": 3,
+            "theorem": "snelpw.1",
+            "ground_truth": "snelpw.1 \u22a2 A \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.42740443178077314,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.4069767441860465,
+            "_thrs_interestingness": 0.5813953488372092,
+            "_thrs_logistic_regression": 0.8203447265436016,
+            "_thrs_random_forest": 0.93
+        },
+        {
+            "expression": "\u22a2 ( { A } \u2208 \ud835\udcab B \u2194 { A } \u2286 B )",
+            "prop_expression": "A \u2208 V \u22a2 ( A \u2208 \ud835\udcab B \u2194 A \u2286 B )",
+            "step": 4,
+            "theorem": "elpw",
+            "ground_truth": "elpw \u22a2 ( { A } \u2208 \ud835\udcab B \u2194 { A } \u2286 B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.12008883453681019,
+            "_thrs_reconstruct": 0.06552128338580322,
+            "_thrs_obviousness": 0.9997983764024478,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.05813953488372099,
+            "_thrs_interestingness": 0.31158758225723376,
+            "_thrs_logistic_regression": 0.9753590052397548,
+            "_thrs_random_forest": 0.74
+        },
+        {
+            "expression": "\u22a2 { A } \u2208 V",
+            "prop_expression": " \u22a2 { A } \u2208 V",
+            "step": 5,
+            "theorem": "snex",
+            "ground_truth": "snex \u22a2 { A } \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5651334999366875,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9383185413368851,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.4069767441860465,
+            "_thrs_interestingness": 0.7690590571045863,
+            "_thrs_logistic_regression": 0.8082017619067631,
+            "_thrs_random_forest": 0.775
+        }
+    ]
+}

@@ -1,0 +1,142 @@
+{
+    "theorem": "equsb3",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            1,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "expression": "( [. x / y ]. y = z \u2194 x = z )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( [. x / y ]. y = z \u2194 x = z )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ), ( \ud835\udf11 \u2194 \ud835\udf12 ), ( \ud835\udf13 \u2194 \ud835\udf03 ) \u22a2 ( \ud835\udf12 \u2194 \ud835\udf03 )",
+            "step": 1,
+            "theorem": "3bitr3i",
+            "ground_truth": "3bitr3i \u22a2 ( [. x / y ]. y = z \u2194 x = z )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8225126305140616,
+            "_thrs_reconstruct": 6.0880851341274895e-05,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.8,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.86,
+            "_thrs_logistic_regression": 0.9883657451840925,
+            "_thrs_random_forest": 0.955
+        },
+        {
+            "expression": "\u22a2 ( [. x / w ]. [. w / y ]. y = z \u2194 [. x / w ]. w = z )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ) \u22a2 ( [. y / x ]. \ud835\udf11 \u2194 [. y / x ]. \ud835\udf13 )",
+            "step": 2,
+            "theorem": "sbbii",
+            "ground_truth": "sbbii \u22a2 ( [. x / w ]. [. w / y ]. y = z \u2194 [. x / w ]. w = z )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.25377473222077174,
+            "_thrs_reconstruct": 0.0015821246942088682,
+            "_thrs_obviousness": 0.004480809279721696,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.10909090909090911,
+            "_thrs_interestingness": 0.12271434367412618,
+            "_thrs_logistic_regression": 0.9826814523846246,
+            "_thrs_random_forest": 0.905
+        },
+        {
+            "expression": "\u22a2 ( [. w / y ]. y = z \u2194 w = z )",
+            "prop_expression": " \u22a2 ( [. x / y ]. y = z \u2194 x = z )",
+            "step": 3,
+            "theorem": "equsb3lem",
+            "ground_truth": "equsb3lem \u22a2 ( [. w / y ]. y = z \u2194 w = z )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7919128570636539,
+            "_thrs_reconstruct": 0.002932321708214765,
+            "_thrs_obviousness": 0.0029104708666946037,
+            "_thrs_weight": 0.8,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.46058209417333895,
+            "_thrs_logistic_regression": 0.29562370779507546,
+            "_thrs_random_forest": 0.735
+        },
+        {
+            "expression": "\u22a2 ( [. x / w ]. [. w / y ]. y = z \u2194 [. x / y ]. y = z )",
+            "prop_expression": "( \ud835\udf11 \u2192 \u2200 z \ud835\udf11 ) \u22a2 ( [. y / z ]. [. z / x ]. \ud835\udf11 \u2194 [. y / x ]. \ud835\udf11 )",
+            "step": 4,
+            "theorem": "sbco2",
+            "ground_truth": "sbco2 \u22a2 ( [. x / w ]. [. w / y ]. y = z \u2194 [. x / y ]. y = z )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.13343690479930082,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9925482828602479,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.060606060606060635,
+            "_thrs_interestingness": 0.3106308686932617,
+            "_thrs_logistic_regression": 0.9756915684376065,
+            "_thrs_random_forest": 0.98
+        },
+        {
+            "expression": "\u22a2 ( y = z \u2192 \u2200 w y = z )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \u2200 x \ud835\udf11 )",
+            "step": 5,
+            "theorem": "ax-17",
+            "ground_truth": "ax-17 \u22a2 ( y = z \u2192 \u2200 w y = z )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5308855438689479,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.036363636363636355,
+            "_thrs_interestingness": 0.5072727272727272,
+            "_thrs_logistic_regression": 0.3820108243863124,
+            "_thrs_random_forest": 0.723
+        },
+        {
+            "expression": "\u22a2 ( [. x / w ]. w = z \u2194 x = z )",
+            "prop_expression": " \u22a2 ( [. x / y ]. y = z \u2194 x = z )",
+            "step": 6,
+            "theorem": "equsb3lem",
+            "ground_truth": "equsb3lem \u22a2 ( [. x / w ]. w = z \u2194 x = z )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5172573669613805,
+            "_thrs_reconstruct": 0.002932321708214765,
+            "_thrs_obviousness": 0.0029104708666946037,
+            "_thrs_weight": 0.8,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.46058209417333895,
+            "_thrs_logistic_regression": 0.29562370779507546,
+            "_thrs_random_forest": 0.87
+        }
+    ]
+}

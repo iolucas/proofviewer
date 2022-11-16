@@ -1,0 +1,165 @@
+{
+    "theorem": "eqfnfvd",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            7
+        ]
+    ],
+    "expression": "( \ud835\udf11 \u2192 F = G )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 F = G )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf12 ), ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
+            "step": 1,
+            "theorem": "mpbird",
+            "ground_truth": "mpbird \u22a2 ( \ud835\udf11 \u2192 F = G )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3843499589982027,
+            "_thrs_reconstruct": 1.759082698645028e-12,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.9950827441511825,
+            "_thrs_random_forest": 0.985
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 \u2200 x \u2208 A ( F ` x ) = ( G ` x ) )",
+            "prop_expression": "( ( \ud835\udf11 \u2227 x \u2208 A ) \u2192 \ud835\udf13 ) \u22a2 ( \ud835\udf11 \u2192 \u2200 x \u2208 A \ud835\udf13 )",
+            "step": 2,
+            "theorem": "ralrimiva",
+            "ground_truth": "ralrimiva \u22a2 ( \ud835\udf11 \u2192 \u2200 x \u2208 A ( F ` x ) = ( G ` x ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5354412227986203,
+            "_thrs_reconstruct": 1.6613285916831848e-12,
+            "_thrs_obviousness": 1.6615742050101526e-12,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.21538461538461534,
+            "_thrs_interestingness": 0.34307692307725535,
+            "_thrs_logistic_regression": 0.9880151906424105,
+            "_thrs_random_forest": 0.915
+        },
+        {
+            "expression": "\u22a2 ( ( \ud835\udf11 \u2227 x \u2208 A ) \u2192 ( F ` x ) = ( G ` x ) )",
+            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 x \u2208 A ) \u2192 ( F ` x ) = ( G ` x ) )",
+            "step": 3,
+            "theorem": "eqfnfvd.3",
+            "ground_truth": "eqfnfvd.3 \u22a2 ( ( \ud835\udf11 \u2227 x \u2208 A ) \u2192 ( F ` x ) = ( G ` x ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.19824731827101683,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.10553846153846151,
+            "_thrs_interestingness": 0.3211076923076923,
+            "_thrs_logistic_regression": 0.9785293583310011,
+            "_thrs_random_forest": 0.825
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 ( F = G \u2194 \u2200 x \u2208 A ( F ` x ) = ( G ` x ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf11 \u2192 \ud835\udf12 ), ( ( \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf03 )",
+            "step": 4,
+            "theorem": "syl2anc",
+            "ground_truth": "syl2anc \u22a2 ( \ud835\udf11 \u2192 ( F = G \u2194 \u2200 x \u2208 A ( F ` x ) = ( G ` x ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.45399982846972986,
+            "_thrs_reconstruct": 8.554712425831656e-13,
+            "_thrs_obviousness": 0.9999999999965788,
+            "_thrs_weight": 0.3571428571428571,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.5166987179487179,
+            "_thrs_interestingness": 0.5747683150176307,
+            "_thrs_logistic_regression": 0.9970293661966094,
+            "_thrs_random_forest": 0.965
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 F Fn A )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 F Fn A )",
+            "step": 5,
+            "theorem": "eqfnfvd.1",
+            "ground_truth": "eqfnfvd.1 \u22a2 ( \ud835\udf11 \u2192 F Fn A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.252108156873464,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.9285714285714286,
+            "_thrs_complexity": 0.75,
+            "_thrs_surprisingness": 0.1636363636363636,
+            "_thrs_intensity": 0.21538461538461534,
+            "_thrs_interestingness": 0.41151848151848147,
+            "_thrs_logistic_regression": 0.8949839018650904,
+            "_thrs_random_forest": 0.9
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 G Fn A )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 G Fn A )",
+            "step": 6,
+            "theorem": "eqfnfvd.2",
+            "ground_truth": "eqfnfvd.2 \u22a2 ( \ud835\udf11 \u2192 G Fn A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9441319191404853,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.9285714285714286,
+            "_thrs_complexity": 0.75,
+            "_thrs_surprisingness": 0.1636363636363636,
+            "_thrs_intensity": 0.21538461538461534,
+            "_thrs_interestingness": 0.41151848151848147,
+            "_thrs_logistic_regression": 0.8949839018650904,
+            "_thrs_random_forest": 0.9
+        },
+        {
+            "expression": "\u22a2 ( ( F Fn A \u2227 G Fn A ) \u2192 ( F = G \u2194 \u2200 x \u2208 A ( F ` x ) = ( G ` x ) ) )",
+            "prop_expression": " \u22a2 ( ( F Fn A \u2227 G Fn A ) \u2192 ( F = G \u2194 \u2200 x \u2208 A ( F ` x ) = ( G ` x ) ) )",
+            "step": 7,
+            "theorem": "eqfnfv",
+            "ground_truth": "eqfnfv \u22a2 ( ( F Fn A \u2227 G Fn A ) \u2192 ( F = G \u2194 \u2200 x \u2208 A ( F ` x ) = ( G ` x ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.612540233680043,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9999999999957226,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.9999999999999998,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3999999999991445,
+            "_thrs_logistic_regression": 0.9362818278241607,
+            "_thrs_random_forest": 0.815
+        }
+    ]
+}

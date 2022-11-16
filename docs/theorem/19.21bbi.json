@@ -1,0 +1,73 @@
+{
+    "theorem": "19.21bbi",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( \ud835\udf11 \u2192 \ud835\udf13 )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
+            "prop_expression": "( \ud835\udf11 \u2192 \u2200 x \ud835\udf13 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
+            "step": 1,
+            "theorem": "19.21bi",
+            "ground_truth": "19.21bi \u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.20484206550139594,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.5,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.8738030255246855,
+            "_thrs_random_forest": 0.855
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 \u2200 y \ud835\udf13 )",
+            "prop_expression": "( \ud835\udf11 \u2192 \u2200 x \ud835\udf13 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
+            "step": 2,
+            "theorem": "19.21bi",
+            "ground_truth": "19.21bi \u22a2 ( \ud835\udf11 \u2192 \u2200 y \ud835\udf13 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6962286936647294,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.5,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.5,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.9827333237778101,
+            "_thrs_random_forest": 0.825
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 \u2200 x \u2200 y \ud835\udf13 )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \u2200 x \u2200 y \ud835\udf13 )",
+            "step": 3,
+            "theorem": "19.21bbi.1",
+            "ground_truth": "19.21bbi.1 \u22a2 ( \ud835\udf11 \u2192 \u2200 x \u2200 y \ud835\udf13 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5530221820432003,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.5,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.9978670366043363,
+            "_thrs_random_forest": 0.87
+        }
+    ]
+}

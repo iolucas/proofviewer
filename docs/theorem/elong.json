@@ -1,0 +1,73 @@
+{
+    "theorem": "elong",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( A \u2208 V \u2192 ( A \u2208 On \u2194 Ord A ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( A \u2208 V \u2192 ( A \u2208 On \u2194 Ord A ) )",
+            "prop_expression": "( x = A \u2192 ( \ud835\udf11 \u2194 \ud835\udf13 ) ), B = { x | \ud835\udf11 } \u22a2 ( A \u2208 V \u2192 ( A \u2208 B \u2194 \ud835\udf13 ) )",
+            "step": 1,
+            "theorem": "elab2g",
+            "ground_truth": "elab2g \u22a2 ( A \u2208 V \u2192 ( A \u2208 On \u2194 Ord A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.48389707922311365,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.9996913885209483,
+            "_thrs_random_forest": 0.735
+        },
+        {
+            "expression": "\u22a2 ( x = A \u2192 ( Ord x \u2194 Ord A ) )",
+            "prop_expression": " \u22a2 ( A = B \u2192 ( Ord A \u2194 Ord B ) )",
+            "step": 2,
+            "theorem": "ordeq",
+            "ground_truth": "ordeq \u22a2 ( x = A \u2192 ( Ord x \u2194 Ord A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7599018450529317,
+            "_thrs_reconstruct": 0.4307325948407186,
+            "_thrs_obviousness": 0.3010573717755338,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.36021147435510675,
+            "_thrs_logistic_regression": 0.3769205978745048,
+            "_thrs_random_forest": 0.625
+        },
+        {
+            "expression": "\u22a2 On = { x | Ord x }",
+            "prop_expression": " \u22a2 On = { x | Ord x }",
+            "step": 3,
+            "theorem": "df-on",
+            "ground_truth": "df-on \u22a2 On = { x | Ord x }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.07532997242871953,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.23529411764705882,
+            "_thrs_interestingness": 0.4470588235294118,
+            "_thrs_logistic_regression": 0.7806691112844681,
+            "_thrs_random_forest": 0.715
+        }
+    ]
+}

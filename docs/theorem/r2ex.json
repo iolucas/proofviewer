@@ -1,0 +1,211 @@
+{
+    "theorem": "r2ex",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "expression": "( \u2203 x \u2208 A \u2203 y \u2208 B \ud835\udf11 \u2194 \u2203 x \u2203 y ( ( x \u2208 A \u2227 y \u2208 B ) \u2227 \ud835\udf11 ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( \u2203 x \u2208 A \u2203 y \u2208 B \ud835\udf11 \u2194 \u2203 x \u2203 y ( ( x \u2208 A \u2227 y \u2208 B ) \u2227 \ud835\udf11 ) )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ), ( \ud835\udf12 \u2194 \ud835\udf13 ) \u22a2 ( \ud835\udf11 \u2194 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "bitr4i",
+            "ground_truth": "bitr4i \u22a2 ( \u2203 x \u2208 A \u2203 y \u2208 B \ud835\udf11 \u2194 \u2203 x \u2203 y ( ( x \u2208 A \u2227 y \u2208 B ) \u2227 \ud835\udf11 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4021130632172153,
+            "_thrs_reconstruct": 0.00809354821696315,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.125,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.5891238670694864,
+            "_thrs_interestingness": 0.5428247734138972,
+            "_thrs_logistic_regression": 0.997491061349513,
+            "_thrs_random_forest": 0.965
+        },
+        {
+            "expression": "\u22a2 ( \u2203 x \u2208 A \u2203 y \u2208 B \ud835\udf11 \u2194 \u2203 x ( x \u2208 A \u2227 \u2203 y \u2208 B \ud835\udf11 ) )",
+            "prop_expression": " \u22a2 ( \u2203 x \u2208 A \ud835\udf11 \u2194 \u2203 x ( x \u2208 A \u2227 \ud835\udf11 ) )",
+            "step": 2,
+            "theorem": "df-rex",
+            "ground_truth": "df-rex \u22a2 ( \u2203 x \u2208 A \u2203 y \u2208 B \ud835\udf11 \u2194 \u2203 x ( x \u2208 A \u2227 \u2203 y \u2208 B \ud835\udf11 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5738772512794337,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.25,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.009063444108761337,
+            "_thrs_interestingness": 0.2518126888217523,
+            "_thrs_logistic_regression": 0.9552286281778718,
+            "_thrs_random_forest": 0.945
+        },
+        {
+            "expression": "\u22a2 ( \u2203 x \u2203 y ( ( x \u2208 A \u2227 y \u2208 B ) \u2227 \ud835\udf11 ) \u2194 \u2203 x ( x \u2208 A \u2227 \u2203 y \u2208 B \ud835\udf11 ) )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ) \u22a2 ( \u2203 x \ud835\udf11 \u2194 \u2203 x \ud835\udf13 )",
+            "step": 3,
+            "theorem": "exbii",
+            "ground_truth": "exbii \u22a2 ( \u2203 x \u2203 y ( ( x \u2208 A \u2227 y \u2208 B ) \u2227 \ud835\udf11 ) \u2194 \u2203 x ( x \u2208 A \u2227 \u2203 y \u2208 B \ud835\udf11 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.027305800588611318,
+            "_thrs_reconstruct": 0.31586989444180735,
+            "_thrs_obviousness": 0.9958541961215279,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.1839346010307446,
+            "_thrs_interestingness": 0.4359577594304545,
+            "_thrs_logistic_regression": 0.9754036272676745,
+            "_thrs_random_forest": 0.995
+        },
+        {
+            "expression": "\u22a2 ( \u2203 y ( ( x \u2208 A \u2227 y \u2208 B ) \u2227 \ud835\udf11 ) \u2194 ( x \u2208 A \u2227 \u2203 y \u2208 B \ud835\udf11 ) )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ), ( \ud835\udf12 \u2194 \ud835\udf11 ), ( \ud835\udf03 \u2194 \ud835\udf13 ) \u22a2 ( \ud835\udf12 \u2194 \ud835\udf03 )",
+            "step": 4,
+            "theorem": "3bitr4i",
+            "ground_truth": "3bitr4i \u22a2 ( \u2203 y ( ( x \u2208 A \u2227 y \u2208 B ) \u2227 \ud835\udf11 ) \u2194 ( x \u2208 A \u2227 \u2203 y \u2208 B \ud835\udf11 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.43884191826220287,
+            "_thrs_reconstruct": 0.013924489349999623,
+            "_thrs_obviousness": 0.8340841107358725,
+            "_thrs_weight": 0.25,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6168168221471746,
+            "_thrs_logistic_regression": 0.9997602695336424,
+            "_thrs_random_forest": 0.95
+        },
+        {
+            "expression": "\u22a2 ( \u2203 y ( x \u2208 A \u2227 ( y \u2208 B \u2227 \ud835\udf11 ) ) \u2194 ( x \u2208 A \u2227 \u2203 y ( y \u2208 B \u2227 \ud835\udf11 ) ) )",
+            "prop_expression": " \u22a2 ( \u2203 x ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2194 ( \ud835\udf11 \u2227 \u2203 x \ud835\udf13 ) )",
+            "step": 5,
+            "theorem": "19.42v",
+            "ground_truth": "19.42v \u22a2 ( \u2203 y ( x \u2208 A \u2227 ( y \u2208 B \u2227 \ud835\udf11 ) ) \u2194 ( x \u2208 A \u2227 \u2203 y ( y \u2208 B \u2227 \ud835\udf11 ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.025879439558780026,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.5121402905458384,
+            "_thrs_weight": 0.125,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3274280581091677,
+            "_thrs_logistic_regression": 0.9452371295682503,
+            "_thrs_random_forest": 0.625
+        },
+        {
+            "expression": "\u22a2 ( \u2203 y ( ( x \u2208 A \u2227 y \u2208 B ) \u2227 \ud835\udf11 ) \u2194 \u2203 y ( x \u2208 A \u2227 ( y \u2208 B \u2227 \ud835\udf11 ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ) \u22a2 ( \u2203 x \ud835\udf11 \u2194 \u2203 x \ud835\udf13 )",
+            "step": 6,
+            "theorem": "exbii",
+            "ground_truth": "exbii \u22a2 ( \u2203 y ( ( x \u2208 A \u2227 y \u2208 B ) \u2227 \ud835\udf11 ) \u2194 \u2203 y ( x \u2208 A \u2227 ( y \u2208 B \u2227 \ud835\udf11 ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8840966872606053,
+            "_thrs_reconstruct": 0.31586989444180735,
+            "_thrs_obviousness": 0.16842019559056867,
+            "_thrs_weight": 0.125,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.18126888217522663,
+            "_thrs_interestingness": 0.29493781555315907,
+            "_thrs_logistic_regression": 0.9792839356849677,
+            "_thrs_random_forest": 0.725
+        },
+        {
+            "expression": "\u22a2 ( ( ( x \u2208 A \u2227 y \u2208 B ) \u2227 \ud835\udf11 ) \u2194 ( x \u2208 A \u2227 ( y \u2208 B \u2227 \ud835\udf11 ) ) )",
+            "prop_expression": " \u22a2 ( ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2227 \ud835\udf12 ) \u2194 ( \ud835\udf11 \u2227 ( \ud835\udf13 \u2227 \ud835\udf12 ) ) )",
+            "step": 7,
+            "theorem": "anass",
+            "ground_truth": "anass \u22a2 ( ( ( x \u2208 A \u2227 y \u2208 B ) \u2227 \ud835\udf11 ) \u2194 ( x \u2208 A \u2227 ( y \u2208 B \u2227 \ud835\udf11 ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.43270404192515544,
+            "_thrs_reconstruct": 0.012984938556241193,
+            "_thrs_obviousness": 0.006650110204913225,
+            "_thrs_weight": 0.375,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.019421665947345696,
+            "_thrs_interestingness": 0.2802143552304518,
+            "_thrs_logistic_regression": 0.962127422960196,
+            "_thrs_random_forest": 0.76
+        },
+        {
+            "expression": "\u22a2 ( ( x \u2208 A \u2227 \u2203 y \u2208 B \ud835\udf11 ) \u2194 ( x \u2208 A \u2227 \u2203 y ( y \u2208 B \u2227 \ud835\udf11 ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ) \u22a2 ( ( \ud835\udf12 \u2227 \ud835\udf11 ) \u2194 ( \ud835\udf12 \u2227 \ud835\udf13 ) )",
+            "step": 8,
+            "theorem": "anbi2i",
+            "ground_truth": "anbi2i \u22a2 ( ( x \u2208 A \u2227 \u2203 y \u2208 B \ud835\udf11 ) \u2194 ( x \u2208 A \u2227 \u2203 y ( y \u2208 B \u2227 \ud835\udf11 ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.25851077320791116,
+            "_thrs_reconstruct": 0.28584118803824504,
+            "_thrs_obviousness": 0.14639117496341938,
+            "_thrs_weight": 0.25,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.1903323262839879,
+            "_thrs_interestingness": 0.31734470024948147,
+            "_thrs_logistic_regression": 0.9824659094411133,
+            "_thrs_random_forest": 0.635
+        },
+        {
+            "expression": "\u22a2 ( \u2203 y \u2208 B \ud835\udf11 \u2194 \u2203 y ( y \u2208 B \u2227 \ud835\udf11 ) )",
+            "prop_expression": " \u22a2 ( \u2203 x \u2208 A \ud835\udf11 \u2194 \u2203 x ( x \u2208 A \u2227 \ud835\udf11 ) )",
+            "step": 9,
+            "theorem": "df-rex",
+            "ground_truth": "df-rex \u22a2 ( \u2203 y \u2208 B \ud835\udf11 \u2194 \u2203 y ( y \u2208 B \u2227 \ud835\udf11 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.08982748542978891,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.025176233635448127,
+            "_thrs_interestingness": 0.40503524672708957,
+            "_thrs_logistic_regression": 0.5339085474135469,
+            "_thrs_random_forest": 0.825
+        }
+    ]
+}

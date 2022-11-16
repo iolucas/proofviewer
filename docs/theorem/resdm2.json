@@ -1,0 +1,165 @@
+{
+    "theorem": "resdm2",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            1,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "expression": "( A |` dom A ) = `' `' A",
+    "steps": [
+        {
+            "expression": "\u22a2 ( A |` dom A ) = `' `' A",
+            "prop_expression": "A = B, A = C, B = D \u22a2 D = C",
+            "step": 1,
+            "theorem": "3eqtr3ri",
+            "ground_truth": "3eqtr3ri \u22a2 ( A |` dom A ) = `' `' A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.18675346220901778,
+            "_thrs_reconstruct": 3.288321033715166e-09,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.7272727272727273,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.35555555555555557,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7165656565656566,
+            "_thrs_logistic_regression": 0.9991829556239566,
+            "_thrs_random_forest": 0.8875
+        },
+        {
+            "expression": "\u22a2 ( `' `' A |` dom `' `' A ) = ( A |` dom `' `' A )",
+            "prop_expression": " \u22a2 ( `' `' A |` B ) = ( A |` B )",
+            "step": 2,
+            "theorem": "rescnvcnv",
+            "ground_truth": "rescnvcnv \u22a2 ( `' `' A |` dom `' `' A ) = ( A |` dom `' `' A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8267742140679408,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.8881097813932193,
+            "_thrs_weight": 0.09090909090909094,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.35555555555555557,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3669148855715732,
+            "_thrs_logistic_regression": 0.7532422643125299,
+            "_thrs_random_forest": 0.8894444444444445
+        },
+        {
+            "expression": "\u22a2 ( `' `' A |` dom `' `' A ) = `' `' A",
+            "prop_expression": "\ud835\udf11, ( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 \ud835\udf13",
+            "step": 3,
+            "theorem": "ax-mp",
+            "ground_truth": "ax-mp \u22a2 ( `' `' A |` dom `' `' A ) = `' `' A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9442979290321397,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.01849603368645149,
+            "_thrs_weight": 0.36363636363636365,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.35555555555555557,
+            "_thrs_intensity": 0.23250688705234163,
+            "_thrs_interestingness": 0.2940389679861425,
+            "_thrs_logistic_regression": 0.9373244312688542,
+            "_thrs_random_forest": 0.93
+        },
+        {
+            "expression": "\u22a2 Rel `' `' A",
+            "prop_expression": " \u22a2 Rel `' A",
+            "step": 4,
+            "theorem": "relcnv",
+            "ground_truth": "relcnv \u22a2 Rel `' `' A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4035305158077086,
+            "_thrs_reconstruct": 0.016820322757098577,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.13333333333333333,
+            "_thrs_intensity": 0.09848484848484848,
+            "_thrs_interestingness": 0.4463636363636364,
+            "_thrs_logistic_regression": 0.5868110158136627,
+            "_thrs_random_forest": 0.655
+        },
+        {
+            "expression": "\u22a2 ( Rel `' `' A \u2192 ( `' `' A |` dom `' `' A ) = `' `' A )",
+            "prop_expression": " \u22a2 ( Rel A \u2192 ( A |` dom A ) = A )",
+            "step": 5,
+            "theorem": "resdm",
+            "ground_truth": "resdm \u22a2 ( Rel `' `' A \u2192 ( `' `' A |` dom `' `' A ) = `' `' A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5807306675328547,
+            "_thrs_reconstruct": 0.02047598710328881,
+            "_thrs_obviousness": 0.003302174911147894,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0101010101010101,
+            "_thrs_interestingness": 0.2026806370024316,
+            "_thrs_logistic_regression": 0.9441313855060359,
+            "_thrs_random_forest": 0.6
+        },
+        {
+            "expression": "\u22a2 ( A |` dom `' `' A ) = ( A |` dom A )",
+            "prop_expression": "A = B \u22a2 ( C |` A ) = ( C |` B )",
+            "step": 6,
+            "theorem": "reseq2i",
+            "ground_truth": "reseq2i \u22a2 ( A |` dom `' `' A ) = ( A |` dom A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8824913464416189,
+            "_thrs_reconstruct": 0.00011487179854601834,
+            "_thrs_obviousness": 0.06300646439937327,
+            "_thrs_weight": 0.4545454545454546,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.35555555555555557,
+            "_thrs_intensity": 0.1090909090909091,
+            "_thrs_interestingness": 0.29643967671825855,
+            "_thrs_logistic_regression": 0.8930268972084539,
+            "_thrs_random_forest": 0.94
+        },
+        {
+            "expression": "\u22a2 dom `' `' A = dom A",
+            "prop_expression": " \u22a2 dom `' `' A = dom A",
+            "step": 7,
+            "theorem": "dmcnvcnv",
+            "ground_truth": "dmcnvcnv \u22a2 dom `' `' A = dom A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.23916342263859058,
+            "_thrs_reconstruct": 0.08645659730355737,
+            "_thrs_obviousness": 0.06290270028559039,
+            "_thrs_weight": 0.8181818181818181,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.045454545454545456,
+            "_thrs_interestingness": 0.3853078127843908,
+            "_thrs_logistic_regression": 0.516610466441307,
+            "_thrs_random_forest": 0.635
+        }
+    ]
+}

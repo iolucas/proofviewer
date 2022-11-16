@@ -1,0 +1,119 @@
+{
+    "theorem": "oi0",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ]
+    ],
+    "expression": "( \u00ac ( R We A \u2227 R Se A ) \u2192 F = \u2205 )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( \u00ac ( R We A \u2227 R Se A ) \u2192 F = \u2205 )",
+            "prop_expression": "A = B, ( \ud835\udf11 \u2192 B = C ) \u22a2 ( \ud835\udf11 \u2192 A = C )",
+            "step": 1,
+            "theorem": "syl5eq",
+            "ground_truth": "syl5eq \u22a2 ( \u00ac ( R We A \u2227 R Se A ) \u2192 F = \u2205 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3131038339925629,
+            "_thrs_reconstruct": 0.036281204772518526,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.9550561797752809,
+            "_thrs_complexity": 0.8947368421052632,
+            "_thrs_surprisingness": 0.058823529411764726,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7817233102584618,
+            "_thrs_logistic_regression": 0.9967388340368126,
+            "_thrs_random_forest": 0.655
+        },
+        {
+            "expression": "\u22a2 F = if ( ( R We A \u2227 R Se A ) , ( recs ( ( h \u2208 V |\u2192 ( io\ud835\udf0f_ v \u2208 { w \u2208 A | \u2200 j \u2208 ran h j R w } \u2200 u \u2208 { w \u2208 A | \u2200 j \u2208 ran h j R w } \u00ac u R v ) ) ) |` { x \u2208 On | \u2203 t \u2208 A \u2200 z \u2208 ( recs ( ( h \u2208 V |\u2192 ( io\ud835\udf0f_ v \u2208 { w \u2208 A | \u2200 j \u2208 ran h j R w } \u2200 u \u2208 { w \u2208 A | \u2200 j \u2208 ran h j R w } \u00ac u R v ) ) ) \u201c x ) z R t } ) , \u2205 )",
+            "prop_expression": "A = B, B = C \u22a2 A = C",
+            "step": 2,
+            "theorem": "eqtri",
+            "ground_truth": "eqtri \u22a2 F = if ( ( R We A \u2227 R Se A ) , ( recs ( ( h \u2208 V |\u2192 ( io\ud835\udf0f_ v \u2208 { w \u2208 A | \u2200 j \u2208 ran h j R w } \u2200 u \u2208 { w \u2208 A | \u2200 j \u2208 ran h j R w } \u00ac u R v ) ) ) |` { x \u2208 On | \u2203 t \u2208 A \u2200 z \u2208 ( recs ( ( h \u2208 V |\u2192 ( io\ud835\udf0f_ v \u2208 { w \u2208 A | \u2200 j \u2208 ran h j R w } \u2200 u \u2208 { w \u2208 A | \u2200 j \u2208 ran h j R w } \u00ac u R v ) ) ) \u201c x ) z R t } ) , \u2205 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7091381015039564,
+            "_thrs_reconstruct": 0.03628008364716279,
+            "_thrs_obviousness": 0.033825813267838525,
+            "_thrs_weight": 0.0674157303370787,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.4823529411764707,
+            "_thrs_intensity": 0.1398660212179577,
+            "_thrs_interestingness": 0.14469210119986914,
+            "_thrs_logistic_regression": 0.9864836511973128,
+            "_thrs_random_forest": 0.69
+        },
+        {
+            "expression": "\u22a2 F = OrdIso ( R , A )",
+            "prop_expression": " \u22a2 F = OrdIso ( R , A )",
+            "step": 3,
+            "theorem": "oicl.1",
+            "ground_truth": "oicl.1 \u22a2 F = OrdIso ( R , A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.673879315248432,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.13552991949539378,
+            "_thrs_interestingness": 0.4271059838990787,
+            "_thrs_logistic_regression": 0.6750849993388911,
+            "_thrs_random_forest": 0.52
+        },
+        {
+            "expression": "\u22a2 OrdIso ( R , A ) = if ( ( R We A \u2227 R Se A ) , ( recs ( ( h \u2208 V |\u2192 ( io\ud835\udf0f_ v \u2208 { w \u2208 A | \u2200 j \u2208 ran h j R w } \u2200 u \u2208 { w \u2208 A | \u2200 j \u2208 ran h j R w } \u00ac u R v ) ) ) |` { x \u2208 On | \u2203 t \u2208 A \u2200 z \u2208 ( recs ( ( h \u2208 V |\u2192 ( io\ud835\udf0f_ v \u2208 { w \u2208 A | \u2200 j \u2208 ran h j R w } \u2200 u \u2208 { w \u2208 A | \u2200 j \u2208 ran h j R w } \u00ac u R v ) ) ) \u201c x ) z R t } ) , \u2205 )",
+            "prop_expression": " \u22a2 OrdIso ( R , A ) = if ( ( R We A \u2227 R Se A ) , ( recs ( ( h \u2208 V |\u2192 ( io\ud835\udf0f_ v \u2208 { w \u2208 A | \u2200 j \u2208 ran h j R w } \u2200 u \u2208 { w \u2208 A | \u2200 j \u2208 ran h j R w } \u00ac u R v ) ) ) |` { x \u2208 On | \u2203 t \u2208 A \u2200 z \u2208 ( recs ( ( h \u2208 V |\u2192 ( io\ud835\udf0f_ v \u2208 { w \u2208 A | \u2200 j \u2208 ran h j R w } \u2200 u \u2208 { w \u2208 A | \u2200 j \u2208 ran h j R w } \u00ac u R v ) ) ) \u201c x ) z R t } ) , \u2205 )",
+            "step": 4,
+            "theorem": "df-oi",
+            "ground_truth": "df-oi \u22a2 OrdIso ( R , A ) = if ( ( R We A \u2227 R Se A ) , ( recs ( ( h \u2208 V |\u2192 ( io\ud835\udf0f_ v \u2208 { w \u2208 A | \u2200 j \u2208 ran h j R w } \u2200 u \u2208 { w \u2208 A | \u2200 j \u2208 ran h j R w } \u00ac u R v ) ) ) |` { x \u2208 On | \u2203 t \u2208 A \u2200 z \u2208 ( recs ( ( h \u2208 V |\u2192 ( io\ud835\udf0f_ v \u2208 { w \u2208 A | \u2200 j \u2208 ran h j R w } \u2200 u \u2208 { w \u2208 A | \u2200 j \u2208 ran h j R w } \u00ac u R v ) ) ) \u201c x ) z R t } ) , \u2205 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.40777537190494195,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0449438202247191,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0038820882146963632,
+            "_thrs_interestingness": 0.2097651816878831,
+            "_thrs_logistic_regression": 0.9446351928744939,
+            "_thrs_random_forest": 0.26
+        },
+        {
+            "expression": "\u22a2 ( \u00ac ( R We A \u2227 R Se A ) \u2192 if ( ( R We A \u2227 R Se A ) , ( recs ( ( h \u2208 V |\u2192 ( io\ud835\udf0f_ v \u2208 { w \u2208 A | \u2200 j \u2208 ran h j R w } \u2200 u \u2208 { w \u2208 A | \u2200 j \u2208 ran h j R w } \u00ac u R v ) ) ) |` { x \u2208 On | \u2203 t \u2208 A \u2200 z \u2208 ( recs ( ( h \u2208 V |\u2192 ( io\ud835\udf0f_ v \u2208 { w \u2208 A | \u2200 j \u2208 ran h j R w } \u2200 u \u2208 { w \u2208 A | \u2200 j \u2208 ran h j R w } \u00ac u R v ) ) ) \u201c x ) z R t } ) , \u2205 ) = \u2205 )",
+            "prop_expression": " \u22a2 ( \u00ac \ud835\udf11 \u2192 if ( \ud835\udf11 , A , B ) = B )",
+            "step": 5,
+            "theorem": "iffalse",
+            "ground_truth": "iffalse \u22a2 ( \u00ac ( R We A \u2227 R Se A ) \u2192 if ( ( R We A \u2227 R Se A ) , ( recs ( ( h \u2208 V |\u2192 ( io\ud835\udf0f_ v \u2208 { w \u2208 A | \u2200 j \u2208 ran h j R w } \u2200 u \u2208 { w \u2208 A | \u2200 j \u2208 ran h j R w } \u00ac u R v ) ) ) |` { x \u2208 On | \u2203 t \u2208 A \u2200 z \u2208 ( recs ( ( h \u2208 V |\u2192 ( io\ud835\udf0f_ v \u2208 { w \u2208 A | \u2200 j \u2208 ran h j R w } \u2200 u \u2208 { w \u2208 A | \u2200 j \u2208 ran h j R w } \u00ac u R v ) ) ) \u201c x ) z R t } ) , \u2205 ) = \u2205 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.06339227551463411,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.932347328186093,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.052631578947368474,
+            "_thrs_surprisingness": 0.38823529411764685,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2746428402502217,
+            "_thrs_logistic_regression": 0.9628313497267362,
+            "_thrs_random_forest": 0.9
+        }
+    ]
+}

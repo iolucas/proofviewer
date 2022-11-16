@@ -1,0 +1,96 @@
+{
+    "theorem": "smofvon",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( ( Smo B \u2227 A \u2208 dom B ) \u2192 ( B ` A ) \u2208 On )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( ( Smo B \u2227 A \u2208 dom B ) \u2192 ( B ` A ) \u2208 On )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( ( \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 )",
+            "step": 1,
+            "theorem": "sylan",
+            "ground_truth": "sylan \u22a2 ( ( Smo B \u2227 A \u2208 dom B ) \u2192 ( B ` A ) \u2208 On )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.18558510135206774,
+            "_thrs_reconstruct": 1.205801299155584e-11,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.8095238095238095,
+            "_thrs_complexity": 0.6,
+            "_thrs_surprisingness": 0.75,
+            "_thrs_intensity": 0.7994071146245059,
+            "_thrs_interestingness": 0.791786184829663,
+            "_thrs_logistic_regression": 0.9937115393790042,
+            "_thrs_random_forest": 0.9633333333333333
+        },
+        {
+            "expression": "\u22a2 ( Smo B \u2192 B : dom B -\u2192 On )",
+            "prop_expression": "( \ud835\udf11 \u2194 ( \ud835\udf13 \u2227 \ud835\udf12 \u2227 \ud835\udf03 ) ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
+            "step": 2,
+            "theorem": "simp1bi",
+            "ground_truth": "simp1bi \u22a2 ( Smo B \u2192 B : dom B -\u2192 On )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8660221702620194,
+            "_thrs_reconstruct": 5.6853993248020716e-12,
+            "_thrs_obviousness": 5.688286779919377e-12,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6000000000011376,
+            "_thrs_logistic_regression": 0.9954843130082932,
+            "_thrs_random_forest": 0.84
+        },
+        {
+            "expression": "\u22a2 ( Smo B \u2194 ( B : dom B -\u2192 On \u2227 Ord dom B \u2227 \u2200 x \u2208 dom B \u2200 y \u2208 dom B ( x \u2208 y \u2192 ( B ` x ) \u2208 ( B ` y ) ) ) )",
+            "prop_expression": " \u22a2 ( Smo A \u2194 ( A : dom A -\u2192 On \u2227 Ord dom A \u2227 \u2200 x \u2208 dom A \u2200 y \u2208 dom A ( x \u2208 y \u2192 ( A ` x ) \u2208 ( A ` y ) ) ) )",
+            "step": 3,
+            "theorem": "df-smo",
+            "ground_truth": "df-smo \u22a2 ( Smo B \u2194 ( B : dom B -\u2192 On \u2227 Ord dom B \u2227 \u2200 x \u2208 dom B \u2200 y \u2208 dom B ( x \u2208 y \u2192 ( B ` x ) \u2208 ( B ` y ) ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7226394480610507,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.941201642956695,
+            "_thrs_random_forest": 0.07
+        },
+        {
+            "expression": "\u22a2 ( ( B : dom B -\u2192 On \u2227 A \u2208 dom B ) \u2192 ( B ` A ) \u2208 On )",
+            "prop_expression": " \u22a2 ( ( F : A -\u2192 B \u2227 C \u2208 A ) \u2192 ( F ` C ) \u2208 B )",
+            "step": 4,
+            "theorem": "ffvelrn",
+            "ground_truth": "ffvelrn \u22a2 ( ( B : dom B -\u2192 On \u2227 A \u2208 dom B ) \u2192 ( B ` A ) \u2208 On )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.286723278366263,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.999999999982248,
+            "_thrs_weight": 0.6666666666666667,
+            "_thrs_complexity": 0.6,
+            "_thrs_surprisingness": 0.25,
+            "_thrs_intensity": 0.08695652173913043,
+            "_thrs_interestingness": 0.520724637677609,
+            "_thrs_logistic_regression": 0.8531546242924968,
+            "_thrs_random_forest": 0.92
+        }
+    ]
+}

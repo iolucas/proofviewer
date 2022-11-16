@@ -1,0 +1,119 @@
+{
+    "theorem": "elunirn",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "expression": "( Fun F \u2192 ( A \u2208 U. ran F \u2194 \u2203 x \u2208 dom F A \u2208 ( F ` x ) ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( Fun F \u2192 ( A \u2208 U. ran F \u2194 \u2203 x \u2208 dom F A \u2208 ( F ` x ) ) )",
+            "prop_expression": "( \ud835\udf13 \u2194 \ud835\udf11 ), ( \ud835\udf12 \u2192 ( \ud835\udf13 \u2194 \ud835\udf03 ) ) \u22a2 ( \ud835\udf12 \u2192 ( \ud835\udf11 \u2194 \ud835\udf03 ) )",
+            "step": 1,
+            "theorem": "syl5bbr",
+            "ground_truth": "syl5bbr \u22a2 ( Fun F \u2192 ( A \u2208 U. ran F \u2194 \u2203 x \u2208 dom F A \u2208 ( F ` x ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7474263199624418,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.16666666666666663,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.75,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.5833333333333333,
+            "_thrs_logistic_regression": 0.9998123397090601,
+            "_thrs_random_forest": 0.9
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 U. ( F \u201c dom F ) \u2194 A \u2208 U. ran F )",
+            "prop_expression": "A = B \u22a2 ( C \u2208 A \u2194 C \u2208 B )",
+            "step": 2,
+            "theorem": "eleq2i",
+            "ground_truth": "eleq2i \u22a2 ( A \u2208 U. ( F \u201c dom F ) \u2194 A \u2208 U. ran F )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7284026330876936,
+            "_thrs_reconstruct": 1.2827991748854215e-09,
+            "_thrs_obviousness": 2.5726278541864834e-06,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.4,
+            "_thrs_surprisingness": 0.75,
+            "_thrs_intensity": 0.36491228070175447,
+            "_thrs_interestingness": 0.40298297066592176,
+            "_thrs_logistic_regression": 0.9713901843034406,
+            "_thrs_random_forest": 0.875
+        },
+        {
+            "expression": "\u22a2 U. ( F \u201c dom F ) = U. ran F",
+            "prop_expression": "A = B \u22a2 U. A = U. B",
+            "step": 3,
+            "theorem": "unieqi",
+            "ground_truth": "unieqi \u22a2 U. ( F \u201c dom F ) = U. ran F",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.07761637613427153,
+            "_thrs_reconstruct": 2.571244262530215e-06,
+            "_thrs_obviousness": 2.571291352855663e-06,
+            "_thrs_weight": 0.8333333333333334,
+            "_thrs_complexity": 0.8,
+            "_thrs_surprisingness": 0.25,
+            "_thrs_intensity": 0.3684210526315789,
+            "_thrs_interestingness": 0.450351391451253,
+            "_thrs_logistic_regression": 0.9246001541324804,
+            "_thrs_random_forest": 0.615
+        },
+        {
+            "expression": "\u22a2 ( F \u201c dom F ) = ran F",
+            "prop_expression": " \u22a2 ( A \u201c dom A ) = ran A",
+            "step": 4,
+            "theorem": "imadmrn",
+            "ground_truth": "imadmrn \u22a2 ( F \u201c dom F ) = ran F",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7772806483649355,
+            "_thrs_reconstruct": 0.041335324420448565,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.14035087719298242,
+            "_thrs_interestingness": 0.4280701754385965,
+            "_thrs_logistic_regression": 0.6807644883473262,
+            "_thrs_random_forest": 0.6225
+        },
+        {
+            "expression": "\u22a2 ( Fun F \u2192 ( A \u2208 U. ( F \u201c dom F ) \u2194 \u2203 x \u2208 dom F A \u2208 ( F ` x ) ) )",
+            "prop_expression": " \u22a2 ( Fun F \u2192 ( B \u2208 U. ( F \u201c A ) \u2194 \u2203 x \u2208 A B \u2208 ( F ` x ) ) )",
+            "step": 5,
+            "theorem": "eluniima",
+            "ground_truth": "eluniima \u22a2 ( Fun F \u2192 ( A \u2208 U. ( F \u201c dom F ) \u2194 \u2203 x \u2208 dom F A \u2208 ( F ` x ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.706183299043448,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9586622091891331,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.39173244183782663,
+            "_thrs_logistic_regression": 0.9364925955553848,
+            "_thrs_random_forest": 0.805
+        }
+    ]
+}

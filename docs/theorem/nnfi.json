@@ -1,0 +1,96 @@
+{
+    "theorem": "nnfi",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ]
+    ],
+    "expression": "( A \u2208 _om \u2192 A \u2208 Fin )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( A \u2208 _om \u2192 A \u2208 Fin )",
+            "prop_expression": "A \u2286 B \u22a2 ( C \u2208 A \u2192 C \u2208 B )",
+            "step": 1,
+            "theorem": "sseli",
+            "ground_truth": "sseli \u22a2 ( A \u2208 _om \u2192 A \u2208 Fin )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8181558550811521,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.9827391575390395,
+            "_thrs_random_forest": 0.72
+        },
+        {
+            "expression": "\u22a2 _om \u2286 Fin",
+            "prop_expression": "A = B, B \u2286 C \u22a2 A \u2286 C",
+            "step": 2,
+            "theorem": "eqsstri",
+            "ground_truth": "eqsstri \u22a2 _om \u2286 Fin",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.19343171287122896,
+            "_thrs_reconstruct": 5.0229076919270805e-11,
+            "_thrs_obviousness": 0.9999999999927713,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8999999999985542,
+            "_thrs_logistic_regression": 0.9903666769802402,
+            "_thrs_random_forest": 0.885
+        },
+        {
+            "expression": "\u22a2 _om = ( On \u2229 Fin )",
+            "prop_expression": " \u22a2 _om = ( On \u2229 Fin )",
+            "step": 3,
+            "theorem": "onfin2",
+            "ground_truth": "onfin2 \u22a2 _om = ( On \u2229 Fin )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.37031276094474386,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9999999903018452,
+            "_thrs_weight": 0.6666666666666667,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.2941176470588236,
+            "_thrs_interestingness": 0.592156860805467,
+            "_thrs_logistic_regression": 0.9926831788623529,
+            "_thrs_random_forest": 0.855
+        },
+        {
+            "expression": "\u22a2 ( On \u2229 Fin ) \u2286 Fin",
+            "prop_expression": " \u22a2 ( A \u2229 B ) \u2286 B",
+            "step": 4,
+            "theorem": "inss2",
+            "ground_truth": "inss2 \u22a2 ( On \u2229 Fin ) \u2286 Fin",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5351072996622621,
+            "_thrs_reconstruct": 9.626239901476483e-09,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.33333333333333337,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.1176470588235295,
+            "_thrs_interestingness": 0.2901960784313726,
+            "_thrs_logistic_regression": 0.9764716969846379,
+            "_thrs_random_forest": 0.825
+        }
+    ]
+}

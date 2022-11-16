@@ -1,0 +1,119 @@
+{
+    "theorem": "ovmpt2a",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "expression": "( ( A \u2208 C \u2227 B \u2208 D ) \u2192 ( A F B ) = S )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( ( A \u2208 C \u2227 B \u2208 D ) \u2192 ( A F B ) = S )",
+            "prop_expression": "\ud835\udf12, ( ( \ud835\udf11 \u2227 \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf03 )",
+            "step": 1,
+            "theorem": "mp3an3",
+            "ground_truth": "mp3an3 \u22a2 ( ( A \u2208 C \u2227 B \u2208 D ) \u2192 ( A F B ) = S )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.07521168076896623,
+            "_thrs_reconstruct": 4.465188506077073e-11,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.30000000000000004,
+            "_thrs_complexity": 0.19999999999999996,
+            "_thrs_surprisingness": 0.5000000000000001,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.9996746296270397,
+            "_thrs_random_forest": 0.96
+        },
+        {
+            "expression": "\u22a2 S \u2208 V",
+            "prop_expression": " \u22a2 S \u2208 V",
+            "step": 2,
+            "theorem": "ovmpt2a.4",
+            "ground_truth": "ovmpt2a.4 \u22a2 S \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.2662336509386738,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.28678304239401514,
+            "_thrs_interestingness": 0.45735660847880305,
+            "_thrs_logistic_regression": 0.8245360478940154,
+            "_thrs_random_forest": 0.94
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 C \u2227 B \u2208 D \u2227 S \u2208 V ) \u2192 ( A F B ) = S )",
+            "prop_expression": "( ( x = A \u2227 y = B ) \u2192 R = S ), F = ( x \u2208 C , y \u2208 D |\u2192 R ) \u22a2 ( ( A \u2208 C \u2227 B \u2208 D \u2227 S \u2208 H ) \u2192 ( A F B ) = S )",
+            "step": 3,
+            "theorem": "ovmpt2ga",
+            "ground_truth": "ovmpt2ga \u22a2 ( ( A \u2208 C \u2227 B \u2208 D \u2227 S \u2208 V ) \u2192 ( A F B ) = S )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5703901045108981,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.99999999995534,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.8333333333333334,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3666666666577346,
+            "_thrs_logistic_regression": 0.9484946020248946,
+            "_thrs_random_forest": 0.885
+        },
+        {
+            "expression": "\u22a2 ( ( x = A \u2227 y = B ) \u2192 R = S )",
+            "prop_expression": " \u22a2 ( ( x = A \u2227 y = B ) \u2192 R = S )",
+            "step": 4,
+            "theorem": "ovmpt2ga.1",
+            "ground_truth": "ovmpt2ga.1 \u22a2 ( ( x = A \u2227 y = B ) \u2192 R = S )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.05590724650076184,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.7,
+            "_thrs_complexity": 0.4,
+            "_thrs_surprisingness": 0.3333333333333334,
+            "_thrs_intensity": 0.28678304239401514,
+            "_thrs_interestingness": 0.34402327514546976,
+            "_thrs_logistic_regression": 0.9793368484740853,
+            "_thrs_random_forest": 0.95
+        },
+        {
+            "expression": "\u22a2 F = ( x \u2208 C , y \u2208 D |\u2192 R )",
+            "prop_expression": " \u22a2 F = ( x \u2208 C , y \u2208 D |\u2192 R )",
+            "step": 5,
+            "theorem": "ovmpt2ga.2",
+            "ground_truth": "ovmpt2ga.2 \u22a2 F = ( x \u2208 C , y \u2208 D |\u2192 R )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.11862321926525532,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.4,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.088667220836797,
+            "_thrs_interestingness": 0.29773344416735936,
+            "_thrs_logistic_regression": 0.9742431081588719,
+            "_thrs_random_forest": 0.945
+        }
+    ]
+}

@@ -1,0 +1,188 @@
+{
+    "theorem": "soirriOLD",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "expression": "\u00ac A R A",
+    "steps": [
+        {
+            "expression": "\u22a2 \u00ac A R A",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \u00ac \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 \ud835\udf13",
+            "step": 1,
+            "theorem": "pm2.61i",
+            "ground_truth": "pm2.61i \u22a2 \u00ac A R A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6457703134255689,
+            "_thrs_reconstruct": 4.3655815811190444e-11,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.9950827441511825,
+            "_thrs_random_forest": 0.995
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 S \u2227 A \u2208 S ) \u2192 \u00ac A R A )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 ( ( \ud835\udf12 \u2227 \ud835\udf11 ) \u2192 \ud835\udf13 )",
+            "step": 2,
+            "theorem": "adantl",
+            "ground_truth": "adantl \u22a2 ( ( A \u2208 S \u2227 A \u2208 S ) \u2192 \u00ac A R A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.731772936611866,
+            "_thrs_reconstruct": 1.1273058244147726e-09,
+            "_thrs_obviousness": 0.35817368061303495,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.5454545454545454,
+            "_thrs_intensity": 0.04545454545454543,
+            "_thrs_interestingness": 0.25648322097109183,
+            "_thrs_logistic_regression": 0.8709695134174252,
+            "_thrs_random_forest": 0.955
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 S \u2192 \u00ac A R A )",
+            "prop_expression": "\ud835\udf11, ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf13 \u2192 \ud835\udf12 )",
+            "step": 3,
+            "theorem": "mpan",
+            "ground_truth": "mpan \u22a2 ( A \u2208 S \u2192 \u00ac A R A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4368235257263431,
+            "_thrs_reconstruct": 8.191333181777132e-10,
+            "_thrs_obviousness": 0.3581736798893498,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.5454545454545454,
+            "_thrs_intensity": 0.4272727272727272,
+            "_thrs_interestingness": 0.43284685718999116,
+            "_thrs_logistic_regression": 0.9884173166989753,
+            "_thrs_random_forest": 0.89
+        },
+        {
+            "expression": "\u22a2 R Or S",
+            "prop_expression": " \u22a2 R Or S",
+            "step": 4,
+            "theorem": "soiOLD.2",
+            "ground_truth": "soiOLD.2 \u22a2 R Or S",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9093124557185496,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.6666666666666667,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.1818181818181818,
+            "_thrs_interestingness": 0.36969696969696975,
+            "_thrs_logistic_regression": 0.9355218359372449,
+            "_thrs_random_forest": 0.99
+        },
+        {
+            "expression": "\u22a2 ( ( R Or S \u2227 A \u2208 S ) \u2192 \u00ac A R A )",
+            "prop_expression": " \u22a2 ( ( R Or A \u2227 B \u2208 A ) \u2192 \u00ac B R B )",
+            "step": 5,
+            "theorem": "sonr",
+            "ground_truth": "sonr \u22a2 ( ( R Or S \u2227 A \u2208 S ) \u2192 \u00ac A R A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6728268408150283,
+            "_thrs_reconstruct": 0.5580538980365465,
+            "_thrs_obviousness": 0.3581736793633072,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.27163473587266146,
+            "_thrs_logistic_regression": 0.9394818388136793,
+            "_thrs_random_forest": 0.83
+        },
+        {
+            "expression": "\u22a2 ( \u00ac ( A \u2208 S \u2227 A \u2208 S ) \u2192 \u00ac A R A )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 ( \u00ac \ud835\udf13 \u2192 \u00ac \ud835\udf11 )",
+            "step": 6,
+            "theorem": "con3i",
+            "ground_truth": "con3i \u22a2 ( \u00ac ( A \u2208 S \u2227 A \u2208 S ) \u2192 \u00ac A R A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5826053981480991,
+            "_thrs_reconstruct": 4.764586349285839e-11,
+            "_thrs_obviousness": 0.6418263193586443,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.5454545454545454,
+            "_thrs_intensity": 0.1818181818181818,
+            "_thrs_interestingness": 0.340486475992941,
+            "_thrs_logistic_regression": 0.9322042212916657,
+            "_thrs_random_forest": 0.985
+        },
+        {
+            "expression": "\u22a2 ( A R A \u2192 ( A \u2208 S \u2227 A \u2208 S ) )",
+            "prop_expression": "R \u2286 ( C \u00d7 D ) \u22a2 ( A R B \u2192 ( A \u2208 C \u2227 B \u2208 D ) )",
+            "step": 7,
+            "theorem": "brel",
+            "ground_truth": "brel \u22a2 ( A R A \u2192 ( A \u2208 S \u2227 A \u2208 S ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.48670162187469557,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.6418263193279133,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.5454545454545454,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.30412283962315845,
+            "_thrs_logistic_regression": 0.8375377542598685,
+            "_thrs_random_forest": 0.885
+        },
+        {
+            "expression": "\u22a2 R \u2286 ( S \u00d7 S )",
+            "prop_expression": " \u22a2 R \u2286 ( S \u00d7 S )",
+            "step": 8,
+            "theorem": "soiOLD.3",
+            "ground_truth": "soiOLD.3 \u22a2 R \u2286 ( S \u00d7 S )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5282476741814979,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.6666666666666667,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.5454545454545454,
+            "_thrs_intensity": 0.1,
+            "_thrs_interestingness": 0.3290909090909091,
+            "_thrs_logistic_regression": 0.9463612524302362,
+            "_thrs_random_forest": 0.99
+        }
+    ]
+}

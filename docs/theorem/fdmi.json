@@ -1,0 +1,73 @@
+{
+    "theorem": "fdmi",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "dom F = A",
+    "steps": [
+        {
+            "expression": "\u22a2 dom F = A",
+            "prop_expression": "\ud835\udf11, ( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 \ud835\udf13",
+            "step": 1,
+            "theorem": "ax-mp",
+            "ground_truth": "ax-mp \u22a2 dom F = A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6847767468074545,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.9903666769802343,
+            "_thrs_random_forest": 0.955
+        },
+        {
+            "expression": "\u22a2 F : A -\u2192 B",
+            "prop_expression": " \u22a2 F : A -\u2192 B",
+            "step": 2,
+            "theorem": "fdmi.1",
+            "ground_truth": "fdmi.1 \u22a2 F : A -\u2192 B",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5301993970109647,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.75,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.1923076923076923,
+            "_thrs_interestingness": 0.28846153846153844,
+            "_thrs_logistic_regression": 0.9657696996852537,
+            "_thrs_random_forest": 0.995
+        },
+        {
+            "expression": "\u22a2 ( F : A -\u2192 B \u2192 dom F = A )",
+            "prop_expression": " \u22a2 ( F : A -\u2192 B \u2192 dom F = A )",
+            "step": 3,
+            "theorem": "fdm",
+            "ground_truth": "fdm \u22a2 ( F : A -\u2192 B \u2192 dom F = A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.40439111713613785,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9998189389824371,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3999637877964874,
+            "_thrs_logistic_regression": 0.9362827524142566,
+            "_thrs_random_forest": 0.885
+        }
+    ]
+}

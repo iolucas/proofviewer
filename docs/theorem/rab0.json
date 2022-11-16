@@ -1,0 +1,211 @@
+{
+    "theorem": "rab0",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            8
+        ],
+        [
+            1,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "expression": "{ x \u2208 \u2205 | \ud835\udf11 } = \u2205",
+    "steps": [
+        {
+            "expression": "\u22a2 { x \u2208 \u2205 | \ud835\udf11 } = \u2205",
+            "prop_expression": "A = B, C = A, D = B \u22a2 C = D",
+            "step": 1,
+            "theorem": "3eqtr4i",
+            "ground_truth": "3eqtr4i \u22a2 { x \u2208 \u2205 | \ud835\udf11 } = \u2205",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.09402528086851936,
+            "_thrs_reconstruct": 8.594111531555605e-05,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5714285714285714,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7142857142857142,
+            "_thrs_logistic_regression": 0.9998210299158206,
+            "_thrs_random_forest": 0.93
+        },
+        {
+            "expression": "\u22a2 { x | ( x \u2208 \u2205 \u2227 \ud835\udf11 ) } = { x | \u00ac x = x }",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ) \u22a2 { x | \ud835\udf11 } = { x | \ud835\udf13 }",
+            "step": 2,
+            "theorem": "abbii",
+            "ground_truth": "abbii \u22a2 { x | ( x \u2208 \u2205 \u2227 \ud835\udf11 ) } = { x | \u00ac x = x }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.18695412079989904,
+            "_thrs_reconstruct": 0.001776505923422755,
+            "_thrs_obviousness": 0.6665257185679316,
+            "_thrs_weight": 0.1428571428571429,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.08136094674556214,
+            "_thrs_interestingness": 0.37814876163412736,
+            "_thrs_logistic_regression": 0.9641269468628394,
+            "_thrs_random_forest": 0.915
+        },
+        {
+            "expression": "\u22a2 ( ( x \u2208 \u2205 \u2227 \ud835\udf11 ) \u2194 \u00ac x = x )",
+            "prop_expression": "( \ud835\udf11 \u2194 \u00ac \ud835\udf13 ) \u22a2 ( \ud835\udf13 \u2194 \u00ac \ud835\udf11 )",
+            "step": 3,
+            "theorem": "con2bii",
+            "ground_truth": "con2bii \u22a2 ( ( x \u2208 \u2205 \u2227 \ud835\udf11 ) \u2194 \u00ac x = x )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4349733691674391,
+            "_thrs_reconstruct": 1.053099386138076e-05,
+            "_thrs_obviousness": 0.6653437441434868,
+            "_thrs_weight": 0.4285714285714286,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.14792899408284024,
+            "_thrs_interestingness": 0.44836883335955113,
+            "_thrs_logistic_regression": 0.9806023322129621,
+            "_thrs_random_forest": 0.805
+        },
+        {
+            "expression": "\u22a2 ( x = x \u2194 \u00ac ( x \u2208 \u2205 \u2227 \ud835\udf11 ) )",
+            "prop_expression": "\ud835\udf11, \ud835\udf13 \u22a2 ( \ud835\udf11 \u2194 \ud835\udf13 )",
+            "step": 4,
+            "theorem": "2th",
+            "ground_truth": "2th \u22a2 ( x = x \u2194 \u00ac ( x \u2208 \u2205 \u2227 \ud835\udf11 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.48866775773220694,
+            "_thrs_reconstruct": 5.1567412575682654e-08,
+            "_thrs_obviousness": 0.665336737419544,
+            "_thrs_weight": 0.4285714285714286,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.14792899408284024,
+            "_thrs_interestingness": 0.44836743201476265,
+            "_thrs_logistic_regression": 0.980602343621097,
+            "_thrs_random_forest": 0.765
+        },
+        {
+            "expression": "\u22a2 x = x",
+            "prop_expression": " \u22a2 x = x",
+            "step": 5,
+            "theorem": "equid",
+            "ground_truth": "equid \u22a2 x = x",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.417503103795975,
+            "_thrs_reconstruct": 8.116710739412449e-08,
+            "_thrs_obviousness": 5.400344474593257e-08,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.01479289940828403,
+            "_thrs_interestingness": 0.4029585906823458,
+            "_thrs_logistic_regression": 0.5199438201092068,
+            "_thrs_random_forest": 0.67125
+        },
+        {
+            "expression": "\u22a2 \u00ac ( x \u2208 \u2205 \u2227 \ud835\udf11 )",
+            "prop_expression": "\u00ac \ud835\udf11 \u22a2 \u00ac ( \ud835\udf11 \u2227 \ud835\udf13 )",
+            "step": 6,
+            "theorem": "intnanr",
+            "ground_truth": "intnanr \u22a2 \u00ac ( x \u2208 \u2205 \u2227 \ud835\udf11 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8535201105353605,
+            "_thrs_reconstruct": 1.2015207130134057e-07,
+            "_thrs_obviousness": 0.6653366489691751,
+            "_thrs_weight": 0.7142857142857143,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.14792899408284024,
+            "_thrs_interestingness": 0.505510271467546,
+            "_thrs_logistic_regression": 0.9851604973411027,
+            "_thrs_random_forest": 0.84
+        },
+        {
+            "expression": "\u22a2 \u00ac x \u2208 \u2205",
+            "prop_expression": " \u22a2 \u00ac A \u2208 \u2205",
+            "step": 7,
+            "theorem": "noel",
+            "ground_truth": "noel \u22a2 \u00ac x \u2208 \u2205",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9713579695555055,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.6653365689589888,
+            "_thrs_weight": 0.8571428571428572,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.22222222222222224,
+            "_thrs_intensity": 0.14792899408284024,
+            "_thrs_interestingness": 0.44519279514804844,
+            "_thrs_logistic_regression": 0.9756715600137872,
+            "_thrs_random_forest": 0.8816666666666667
+        },
+        {
+            "expression": "\u22a2 { x \u2208 \u2205 | \ud835\udf11 } = { x | ( x \u2208 \u2205 \u2227 \ud835\udf11 ) }",
+            "prop_expression": " \u22a2 { x \u2208 A | \ud835\udf11 } = { x | ( x \u2208 A \u2227 \ud835\udf11 ) }",
+            "step": 8,
+            "theorem": "df-rab",
+            "ground_truth": "df-rab \u22a2 { x \u2208 \u2205 | \ud835\udf11 } = { x | ( x \u2208 \u2205 \u2227 \ud835\udf11 ) }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.14300986112676684,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.941201642956695,
+            "_thrs_random_forest": 0.945
+        },
+        {
+            "expression": "\u22a2 \u2205 = { x | \u00ac x = x }",
+            "prop_expression": " \u22a2 \u2205 = { x | \u00ac x = x }",
+            "step": 9,
+            "theorem": "dfnul2",
+            "ground_truth": "dfnul2 \u22a2 \u2205 = { x | \u00ac x = x }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7744415207971374,
+            "_thrs_reconstruct": 0.5011254709493737,
+            "_thrs_obviousness": 0.3334171014594137,
+            "_thrs_weight": 0.7142857142857143,
+            "_thrs_complexity": 0.6666666666666667,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.01479289940828403,
+            "_thrs_interestingness": 0.34583247636401576,
+            "_thrs_logistic_regression": 0.813441283192296,
+            "_thrs_random_forest": 0.905
+        }
+    ]
+}

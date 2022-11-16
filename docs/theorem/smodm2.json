@@ -1,0 +1,142 @@
+{
+    "theorem": "smodm2",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "expression": "( ( F Fn A \u2227 Smo F ) \u2192 Ord A )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( ( F Fn A \u2227 Smo F ) \u2192 Ord A )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf12 ), ( ( \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( ( \ud835\udf13 \u2227 \ud835\udf11 ) \u2192 \ud835\udf03 )",
+            "step": 1,
+            "theorem": "sylan2",
+            "ground_truth": "sylan2 \u22a2 ( ( F Fn A \u2227 Smo F ) \u2192 Ord A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8405014582530786,
+            "_thrs_reconstruct": 4.306728292936706e-06,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.33333333333333337,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.9090909090909092,
+            "_thrs_intensity": 0.8380952380952383,
+            "_thrs_interestingness": 0.6161038961038962,
+            "_thrs_logistic_regression": 0.9995244578721405,
+            "_thrs_random_forest": 0.95
+        },
+        {
+            "expression": "\u22a2 ( Smo F \u2192 Ord dom F )",
+            "prop_expression": " \u22a2 ( Smo A \u2192 Ord dom A )",
+            "step": 2,
+            "theorem": "smodm",
+            "ground_truth": "smodm \u22a2 ( Smo F \u2192 Ord dom F )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3088718244467542,
+            "_thrs_reconstruct": 5.2946860082429e-06,
+            "_thrs_obviousness": 4.7383125375238506e-07,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.27272727272727254,
+            "_thrs_intensity": 0.24000000000000007,
+            "_thrs_interestingness": 0.5025455493117053,
+            "_thrs_logistic_regression": 0.7161744549540761,
+            "_thrs_random_forest": 0.92
+        },
+        {
+            "expression": "\u22a2 ( ( F Fn A \u2227 Ord dom F ) \u2192 Ord A )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ) \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 )",
+            "step": 3,
+            "theorem": "biimpa",
+            "ground_truth": "biimpa \u22a2 ( ( F Fn A \u2227 Ord dom F ) \u2192 Ord A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8963925387876108,
+            "_thrs_reconstruct": 4.676013458366691e-07,
+            "_thrs_obviousness": 0.9999903938866269,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.4000000000000001,
+            "_thrs_interestingness": 0.47999807877732537,
+            "_thrs_logistic_regression": 0.9921993452319122,
+            "_thrs_random_forest": 0.88
+        },
+        {
+            "expression": "\u22a2 ( F Fn A \u2192 ( Ord dom F \u2194 Ord A ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf13 \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 4,
+            "theorem": "syl",
+            "ground_truth": "syl \u22a2 ( F Fn A \u2192 ( Ord dom F \u2194 Ord A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.47448752961524,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.9999899238920634,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.5999979847784127,
+            "_thrs_logistic_regression": 0.9996913887870381,
+            "_thrs_random_forest": 0.805
+        },
+        {
+            "expression": "\u22a2 ( F Fn A \u2192 dom F = A )",
+            "prop_expression": " \u22a2 ( F Fn A \u2192 dom F = A )",
+            "step": 5,
+            "theorem": "fndm",
+            "ground_truth": "fndm \u22a2 ( F Fn A \u2192 dom F = A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3337586950301694,
+            "_thrs_reconstruct": 4.820849977795075e-06,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.6666666666666667,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.27272727272727254,
+            "_thrs_intensity": 0.13333333333333333,
+            "_thrs_interestingness": 0.41454545454545455,
+            "_thrs_logistic_regression": 0.5080274244785605,
+            "_thrs_random_forest": 0.655
+        },
+        {
+            "expression": "\u22a2 ( dom F = A \u2192 ( Ord dom F \u2194 Ord A ) )",
+            "prop_expression": " \u22a2 ( A = B \u2192 ( Ord A \u2194 Ord B ) )",
+            "step": 6,
+            "theorem": "ordeq",
+            "ground_truth": "ordeq \u22a2 ( dom F = A \u2192 ( Ord dom F \u2194 Ord A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.969415226372915,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9999850982948213,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3999970196589643,
+            "_thrs_logistic_regression": 0.2612782805966602,
+            "_thrs_random_forest": 0.38
+        }
+    ]
+}

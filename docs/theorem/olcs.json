@@ -1,0 +1,73 @@
+{
+    "theorem": "olcs",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( \ud835\udf13 \u2192 \ud835\udf12 )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( \ud835\udf13 \u2192 \ud835\udf12 )",
+            "prop_expression": "( ( \ud835\udf11 \u2228 \ud835\udf13 ) \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "orcs",
+            "ground_truth": "orcs \u22a2 ( \ud835\udf13 \u2192 \ud835\udf12 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9158975746522596,
+            "_thrs_reconstruct": 0.46824842986741105,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.5,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.8738030255246855,
+            "_thrs_random_forest": 0.965
+        },
+        {
+            "expression": "\u22a2 ( ( \ud835\udf13 \u2228 \ud835\udf11 ) \u2192 \ud835\udf12 )",
+            "prop_expression": "( ( \ud835\udf11 \u2228 \ud835\udf13 ) \u2192 \ud835\udf12 ) \u22a2 ( ( \ud835\udf13 \u2228 \ud835\udf11 ) \u2192 \ud835\udf12 )",
+            "step": 2,
+            "theorem": "orcoms",
+            "ground_truth": "orcoms \u22a2 ( ( \ud835\udf13 \u2228 \ud835\udf11 ) \u2192 \ud835\udf12 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.2976021810970151,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.6810492301843756,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.5,
+            "_thrs_interestingness": 0.3362098460368751,
+            "_thrs_logistic_regression": 0.9977392878922768,
+            "_thrs_random_forest": 0.885
+        },
+        {
+            "expression": "\u22a2 ( ( \ud835\udf11 \u2228 \ud835\udf13 ) \u2192 \ud835\udf12 )",
+            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2228 \ud835\udf13 ) \u2192 \ud835\udf12 )",
+            "step": 3,
+            "theorem": "olcs.1",
+            "ground_truth": "olcs.1 \u22a2 ( ( \ud835\udf11 \u2228 \ud835\udf13 ) \u2192 \ud835\udf12 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8059678200210334,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.5,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.9978670366043363,
+            "_thrs_random_forest": 0.93
+        }
+    ]
+}

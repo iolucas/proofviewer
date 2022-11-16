@@ -1,0 +1,211 @@
+{
+    "theorem": "nnacan",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            8
+        ],
+        [
+            1,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "expression": "( ( A \u2208 _om \u2227 B \u2208 _om \u2227 C \u2208 _om ) \u2192 ( ( A +o B ) = ( A +o C ) \u2194 B = C ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om \u2227 C \u2208 _om ) \u2192 ( ( A +o B ) = ( A +o C ) \u2194 B = C ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ), ( \ud835\udf03 \u2194 \ud835\udf13 ), ( \ud835\udf0f \u2194 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf03 \u2194 \ud835\udf0f ) )",
+            "step": 1,
+            "theorem": "3bitr4g",
+            "ground_truth": "3bitr4g \u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om \u2227 C \u2208 _om ) \u2192 ( ( A +o B ) = ( A +o C ) \u2194 B = C ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9836328126189515,
+            "_thrs_reconstruct": 5.9564241328648374e-15,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5714285714285714,
+            "_thrs_complexity": 0.25,
+            "_thrs_surprisingness": 0.7428571428571429,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7128571428571429,
+            "_thrs_logistic_regression": 0.9995501254364845,
+            "_thrs_random_forest": 0.955
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om \u2227 C \u2208 _om ) \u2192 ( ( ( A +o B ) \u2286 ( A +o C ) \u2227 ( A +o C ) \u2286 ( A +o B ) ) \u2194 ( B \u2286 C \u2227 C \u2286 B ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf12 \u2194 \ud835\udf13 ) )",
+            "step": 2,
+            "theorem": "bicomd",
+            "ground_truth": "bicomd \u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om \u2227 C \u2208 _om ) \u2192 ( ( ( A +o B ) \u2286 ( A +o C ) \u2227 ( A +o C ) \u2286 ( A +o B ) ) \u2194 ( B \u2286 C \u2227 C \u2286 B ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.231045022356007,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.9999999999977686,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.2858286629303443,
+            "_thrs_interestingness": 0.45716573258562254,
+            "_thrs_logistic_regression": 0.985651882069627,
+            "_thrs_random_forest": 0.86
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om \u2227 C \u2208 _om ) \u2192 ( ( B \u2286 C \u2227 C \u2286 B ) \u2194 ( ( A +o B ) \u2286 ( A +o C ) \u2227 ( A +o C ) \u2286 ( A +o B ) ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ), ( \ud835\udf11 \u2192 ( \ud835\udf03 \u2194 \ud835\udf0f ) ) \u22a2 ( \ud835\udf11 \u2192 ( ( \ud835\udf13 \u2227 \ud835\udf03 ) \u2194 ( \ud835\udf12 \u2227 \ud835\udf0f ) ) )",
+            "step": 3,
+            "theorem": "anbi12d",
+            "ground_truth": "anbi12d \u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om \u2227 C \u2208 _om ) \u2192 ( ( B \u2286 C \u2227 C \u2286 B ) \u2194 ( ( A +o B ) \u2286 ( A +o C ) \u2227 ( A +o C ) \u2286 ( A +o B ) ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.41635411790500276,
+            "_thrs_reconstruct": 8.652578478683575e-14,
+            "_thrs_obviousness": 0.9999999999977682,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.4041025924187627,
+            "_thrs_interestingness": 0.4808205184833062,
+            "_thrs_logistic_regression": 0.9923688157558136,
+            "_thrs_random_forest": 0.9
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om \u2227 C \u2208 _om ) \u2192 ( B \u2286 C \u2194 ( A +o B ) \u2286 ( A +o C ) ) )",
+            "prop_expression": "( ( \ud835\udf11 \u2227 \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( ( \ud835\udf12 \u2227 \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf03 )",
+            "step": 4,
+            "theorem": "3comr",
+            "ground_truth": "3comr \u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om \u2227 C \u2208 _om ) \u2192 ( B \u2286 C \u2194 ( A +o B ) \u2286 ( A +o C ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5250705190134646,
+            "_thrs_reconstruct": 1.0259746142561406e-13,
+            "_thrs_obviousness": 0.4999999999983185,
+            "_thrs_weight": 0.47619047619047616,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.2858286629303443,
+            "_thrs_interestingness": 0.45240382782382776,
+            "_thrs_logistic_regression": 0.9912216057140952,
+            "_thrs_random_forest": 0.84
+        },
+        {
+            "expression": "\u22a2 ( ( B \u2208 _om \u2227 C \u2208 _om \u2227 A \u2208 _om ) \u2192 ( B \u2286 C \u2194 ( A +o B ) \u2286 ( A +o C ) ) )",
+            "prop_expression": " \u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om \u2227 C \u2208 _om ) \u2192 ( A \u2286 B \u2194 ( C +o A ) \u2286 ( C +o B ) ) )",
+            "step": 5,
+            "theorem": "nnaword",
+            "ground_truth": "nnaword \u22a2 ( ( B \u2208 _om \u2227 C \u2208 _om \u2227 A \u2208 _om ) \u2192 ( B \u2286 C \u2194 ( A +o B ) \u2286 ( A +o C ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8872340115393498,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.49999999999826683,
+            "_thrs_weight": 0.47619047619047616,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.045130841515317516,
+            "_thrs_interestingness": 0.4042642635408121,
+            "_thrs_logistic_regression": 0.9685657442243983,
+            "_thrs_random_forest": 0.845
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om \u2227 C \u2208 _om ) \u2192 ( C \u2286 B \u2194 ( A +o C ) \u2286 ( A +o B ) ) )",
+            "prop_expression": "( ( \ud835\udf11 \u2227 \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( ( \ud835\udf12 \u2227 \ud835\udf13 \u2227 \ud835\udf11 ) \u2192 \ud835\udf03 )",
+            "step": 6,
+            "theorem": "3com13",
+            "ground_truth": "3com13 \u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om \u2227 C \u2208 _om ) \u2192 ( C \u2286 B \u2194 ( A +o C ) \u2286 ( A +o B ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.37696749705138655,
+            "_thrs_reconstruct": 4.976256354482831e-14,
+            "_thrs_obviousness": 0.4999999999982921,
+            "_thrs_weight": 0.47619047619047616,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.2858286629303443,
+            "_thrs_interestingness": 0.45240382782382255,
+            "_thrs_logistic_regression": 0.9912216057140952,
+            "_thrs_random_forest": 0.83
+        },
+        {
+            "expression": "\u22a2 ( ( C \u2208 _om \u2227 B \u2208 _om \u2227 A \u2208 _om ) \u2192 ( C \u2286 B \u2194 ( A +o C ) \u2286 ( A +o B ) ) )",
+            "prop_expression": " \u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om \u2227 C \u2208 _om ) \u2192 ( A \u2286 B \u2194 ( C +o A ) \u2286 ( C +o B ) ) )",
+            "step": 7,
+            "theorem": "nnaword",
+            "ground_truth": "nnaword \u22a2 ( ( C \u2208 _om \u2227 B \u2208 _om \u2227 A \u2208 _om ) \u2192 ( C \u2286 B \u2194 ( A +o C ) \u2286 ( A +o B ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9906413710832709,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.49999999999826683,
+            "_thrs_weight": 0.47619047619047616,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.045130841515317516,
+            "_thrs_interestingness": 0.4042642635408121,
+            "_thrs_logistic_regression": 0.9685657442243983,
+            "_thrs_random_forest": 0.84
+        },
+        {
+            "expression": "\u22a2 ( ( A +o B ) = ( A +o C ) \u2194 ( ( A +o B ) \u2286 ( A +o C ) \u2227 ( A +o C ) \u2286 ( A +o B ) ) )",
+            "prop_expression": " \u22a2 ( A = B \u2194 ( A \u2286 B \u2227 B \u2286 A ) )",
+            "step": 8,
+            "theorem": "eqss",
+            "ground_truth": "eqss \u22a2 ( ( A +o B ) = ( A +o C ) \u2194 ( ( A +o B ) \u2286 ( A +o C ) \u2227 ( A +o C ) \u2286 ( A +o B ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6079172586682194,
+            "_thrs_reconstruct": 2.2274340182824447e-12,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.4285714285714286,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.2571428571428571,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.23714285714285716,
+            "_thrs_logistic_regression": 0.8385308018342981,
+            "_thrs_random_forest": 0.825
+        },
+        {
+            "expression": "\u22a2 ( B = C \u2194 ( B \u2286 C \u2227 C \u2286 B ) )",
+            "prop_expression": " \u22a2 ( A = B \u2194 ( A \u2286 B \u2227 B \u2286 A ) )",
+            "step": 9,
+            "theorem": "eqss",
+            "ground_truth": "eqss \u22a2 ( B = C \u2194 ( B \u2286 C \u2227 C \u2286 B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8324232502052008,
+            "_thrs_reconstruct": 2.2274340182824447e-12,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.04763811048839072,
+            "_thrs_interestingness": 0.4095276220976781,
+            "_thrs_logistic_regression": 0.563908426192837,
+            "_thrs_random_forest": 0.8241666666666667
+        }
+    ]
+}

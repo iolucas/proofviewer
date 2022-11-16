@@ -1,0 +1,73 @@
+{
+    "theorem": "riotaiota",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( E! x \u2208 A \ud835\udf11 \u2192 ( io\ud835\udf0f_ x \u2208 A \ud835\udf11 ) = ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( E! x \u2208 A \ud835\udf11 \u2192 ( io\ud835\udf0f_ x \u2208 A \ud835\udf11 ) = ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) )",
+            "prop_expression": "A = B, ( \ud835\udf11 \u2192 B = C ) \u22a2 ( \ud835\udf11 \u2192 A = C )",
+            "step": 1,
+            "theorem": "syl5eq",
+            "ground_truth": "syl5eq \u22a2 ( E! x \u2208 A \ud835\udf11 \u2192 ( io\ud835\udf0f_ x \u2208 A \ud835\udf11 ) = ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7114026999336768,
+            "_thrs_reconstruct": 0.013620867720584509,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.9903666769802343,
+            "_thrs_random_forest": 0.79
+        },
+        {
+            "expression": "\u22a2 ( io\ud835\udf0f_ x \u2208 A \ud835\udf11 ) = if ( E! x \u2208 A \ud835\udf11 , ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) , ( Undef ` A ) )",
+            "prop_expression": " \u22a2 ( io\ud835\udf0f_ x \u2208 A \ud835\udf11 ) = if ( E! x \u2208 A \ud835\udf11 , ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) , ( Undef ` A ) )",
+            "step": 2,
+            "theorem": "df-riota",
+            "ground_truth": "df-riota \u22a2 ( io\ud835\udf0f_ x \u2208 A \ud835\udf11 ) = if ( E! x \u2208 A \ud835\udf11 , ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) , ( Undef ` A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.07687733971862498,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5555555555555556,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.06703146374829004,
+            "_thrs_interestingness": 0.22451740386076913,
+            "_thrs_logistic_regression": 0.9871541696599408,
+            "_thrs_random_forest": 0.795
+        },
+        {
+            "expression": "\u22a2 ( E! x \u2208 A \ud835\udf11 \u2192 if ( E! x \u2208 A \ud835\udf11 , ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) , ( Undef ` A ) ) = ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 if ( \ud835\udf11 , A , B ) = A )",
+            "step": 3,
+            "theorem": "iftrue",
+            "ground_truth": "iftrue \u22a2 ( E! x \u2208 A \ud835\udf11 \u2192 if ( E! x \u2208 A \ud835\udf11 , ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) , ( Undef ` A ) ) = ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.027186710915167556,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9865620989450629,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.29731241978901257,
+            "_thrs_logistic_regression": 0.9666192479465688,
+            "_thrs_random_forest": 0.82
+        }
+    ]
+}

@@ -1,0 +1,142 @@
+{
+    "theorem": "op1sta",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "expression": "U. dom { \u27e8 A , B \u27e9 } = A",
+    "steps": [
+        {
+            "expression": "\u22a2 U. dom { \u27e8 A , B \u27e9 } = A",
+            "prop_expression": "A = B, B = C \u22a2 A = C",
+            "step": 1,
+            "theorem": "eqtri",
+            "ground_truth": "eqtri \u22a2 U. dom { \u27e8 A , B \u27e9 } = A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6435443709899532,
+            "_thrs_reconstruct": 2.451246588201477e-07,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.33333333333333337,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.4666666666666667,
+            "_thrs_logistic_regression": 0.9999420277722922,
+            "_thrs_random_forest": 0.855
+        },
+        {
+            "expression": "\u22a2 U. dom { \u27e8 A , B \u27e9 } = U. { A }",
+            "prop_expression": "A = B \u22a2 U. A = U. B",
+            "step": 2,
+            "theorem": "unieqi",
+            "ground_truth": "unieqi \u22a2 U. dom { \u27e8 A , B \u27e9 } = U. { A }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.37072522144562636,
+            "_thrs_reconstruct": 0.0010510941538606365,
+            "_thrs_obviousness": 0.9809531069750681,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.19607843137254902,
+            "_thrs_interestingness": 0.23540630766952342,
+            "_thrs_logistic_regression": 0.9939492775442785,
+            "_thrs_random_forest": 0.735
+        },
+        {
+            "expression": "\u22a2 dom { \u27e8 A , B \u27e9 } = { A }",
+            "prop_expression": "B \u2208 V \u22a2 dom { \u27e8 A , B \u27e9 } = { A }",
+            "step": 3,
+            "theorem": "dmsnop",
+            "ground_truth": "dmsnop \u22a2 dom { \u27e8 A , B \u27e9 } = { A }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8541725603859851,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9799231155164979,
+            "_thrs_weight": 0.6666666666666667,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.07352941176470591,
+            "_thrs_interestingness": 0.44402383878957413,
+            "_thrs_logistic_regression": 0.9265980231190901,
+            "_thrs_random_forest": 0.815
+        },
+        {
+            "expression": "\u22a2 B \u2208 V",
+            "prop_expression": " \u22a2 B \u2208 V",
+            "step": 4,
+            "theorem": "cnvsn.2",
+            "ground_truth": "cnvsn.2 \u22a2 B \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7183919017567927,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.2941176470588236,
+            "_thrs_interestingness": 0.5588235294117647,
+            "_thrs_logistic_regression": 0.9412061941105273,
+            "_thrs_random_forest": 0.9620000000000001
+        },
+        {
+            "expression": "\u22a2 U. { A } = A",
+            "prop_expression": "A \u2208 V \u22a2 U. { A } = A",
+            "step": 5,
+            "theorem": "unisn",
+            "ground_truth": "unisn \u22a2 U. { A } = A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.01938660275406634,
+            "_thrs_reconstruct": 0.019436884912884003,
+            "_thrs_obviousness": 0.019046652820375445,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4038093305640751,
+            "_thrs_logistic_regression": 0.49959241715010866,
+            "_thrs_random_forest": 0.83
+        },
+        {
+            "expression": "\u22a2 A \u2208 V",
+            "prop_expression": " \u22a2 A \u2208 V",
+            "step": 6,
+            "theorem": "cnvsn.1",
+            "ground_truth": "cnvsn.1 \u22a2 A \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.1215426955625527,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.2941176470588236,
+            "_thrs_interestingness": 0.5588235294117647,
+            "_thrs_logistic_regression": 0.9412061941105273,
+            "_thrs_random_forest": 0.8433333333333334
+        }
+    ]
+}

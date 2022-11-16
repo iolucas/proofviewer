@@ -1,0 +1,96 @@
+{
+    "theorem": "elec",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            1,
+            4
+        ]
+    ],
+    "expression": "( A \u2208 [ B ] .~ \u2194 B .~ A )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( A \u2208 [ B ] .~ \u2194 B .~ A )",
+            "prop_expression": "\ud835\udf11, \ud835\udf13, ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 ) \u22a2 \ud835\udf12",
+            "step": 1,
+            "theorem": "mp2an",
+            "ground_truth": "mp2an \u22a2 ( A \u2208 [ B ] .~ \u2194 B .~ A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.06659684398340293,
+            "_thrs_reconstruct": 1.9811266277994467e-10,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.6,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.6363636363636366,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7472727272727273,
+            "_thrs_logistic_regression": 0.9986513106071788,
+            "_thrs_random_forest": 0.94
+        },
+        {
+            "expression": "\u22a2 A \u2208 V",
+            "prop_expression": " \u22a2 A \u2208 V",
+            "step": 2,
+            "theorem": "elec.1",
+            "ground_truth": "elec.1 \u22a2 A \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8677986568972089,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.3444034440344404,
+            "_thrs_interestingness": 0.4688806888068881,
+            "_thrs_logistic_regression": 0.8650972792938708,
+            "_thrs_random_forest": 0.98
+        },
+        {
+            "expression": "\u22a2 B \u2208 V",
+            "prop_expression": " \u22a2 B \u2208 V",
+            "step": 3,
+            "theorem": "elec.2",
+            "ground_truth": "elec.2 \u22a2 B \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.18870569371924006,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.3444034440344404,
+            "_thrs_interestingness": 0.4688806888068881,
+            "_thrs_logistic_regression": 0.8650972792938708,
+            "_thrs_random_forest": 0.98
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 V \u2227 B \u2208 V ) \u2192 ( A \u2208 [ B ] .~ \u2194 B .~ A ) )",
+            "prop_expression": " \u22a2 ( ( A \u2208 V \u2227 B \u2208 W ) \u2192 ( A \u2208 [ B ] .~ \u2194 B .~ A ) )",
+            "step": 4,
+            "theorem": "elecg",
+            "ground_truth": "elecg \u22a2 ( ( A \u2208 V \u2227 B \u2208 V ) \u2192 ( A \u2208 [ B ] .~ \u2194 B .~ A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6936603239961554,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.999999999801717,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3999999999603434,
+            "_thrs_logistic_regression": 0.9362818278251515,
+            "_thrs_random_forest": 0.765
+        }
+    ]
+}

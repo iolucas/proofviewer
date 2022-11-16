@@ -1,0 +1,211 @@
+{
+    "theorem": "cnvfi",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            5
+        ],
+        [
+            1,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            8
+        ]
+    ],
+    "expression": "( A \u2208 Fin \u2192 `' A \u2208 Fin )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( A \u2208 Fin \u2192 `' A \u2208 Fin )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf11 \u2192 \ud835\udf12 ), ( ( \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf03 )",
+            "step": 1,
+            "theorem": "syl2anc",
+            "ground_truth": "syl2anc \u22a2 ( A \u2208 Fin \u2192 `' A \u2208 Fin )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.1630389332554365,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.6666666666666667,
+            "_thrs_complexity": 0.6666666666666667,
+            "_thrs_surprisingness": 0.08177570093457945,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6830218068535826,
+            "_thrs_logistic_regression": 0.9986073412712663,
+            "_thrs_random_forest": 0.9
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 Fin \u2192 `' `' A \u2208 Fin )",
+            "prop_expression": "\ud835\udf13, ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 2,
+            "theorem": "mpan2",
+            "ground_truth": "mpan2 \u22a2 ( A \u2208 Fin \u2192 `' `' A \u2208 Fin )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8850656064153792,
+            "_thrs_reconstruct": 4.450370637386811e-17,
+            "_thrs_obviousness": 0.9056002056627538,
+            "_thrs_weight": 0.5833333333333333,
+            "_thrs_complexity": 0.6666666666666667,
+            "_thrs_surprisingness": 0.08177570093457945,
+            "_thrs_intensity": 0.44126074498567336,
+            "_thrs_interestingness": 0.5357273303166015,
+            "_thrs_logistic_regression": 0.9703724474611691,
+            "_thrs_random_forest": 0.935
+        },
+        {
+            "expression": "\u22a2 `' `' A \u2286 A",
+            "prop_expression": " \u22a2 `' `' A \u2286 A",
+            "step": 3,
+            "theorem": "cnvcnvss",
+            "ground_truth": "cnvcnvss \u22a2 `' `' A \u2286 A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.28673399252204246,
+            "_thrs_reconstruct": 0.0014930585291895913,
+            "_thrs_obviousness": 0.0013256298952564194,
+            "_thrs_weight": 0.8333333333333334,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.08022922636103151,
+            "_thrs_interestingness": 0.3829776379179243,
+            "_thrs_logistic_regression": 0.5680305900624089,
+            "_thrs_random_forest": 0.7
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 Fin \u2227 `' `' A \u2286 A ) \u2192 `' `' A \u2208 Fin )",
+            "prop_expression": " \u22a2 ( ( A \u2208 Fin \u2227 B \u2286 A ) \u2192 B \u2208 Fin )",
+            "step": 4,
+            "theorem": "ssfi",
+            "ground_truth": "ssfi \u22a2 ( ( A \u2208 Fin \u2227 `' `' A \u2286 A ) \u2192 `' `' A \u2208 Fin )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9305288311972038,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9042500707946348,
+            "_thrs_weight": 0.16666666666666663,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.48598130841121484,
+            "_thrs_intensity": 0.01542869737712144,
+            "_thrs_interestingness": 0.3811320153165942,
+            "_thrs_logistic_regression": 0.8743869440637843,
+            "_thrs_random_forest": 0.685
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 Fin \u2192 `' A \u2248 `' `' A )",
+            "prop_expression": "\ud835\udf13, ( \ud835\udf11 \u2192 \ud835\udf12 ), ( ( \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf03 )",
+            "step": 5,
+            "theorem": "sylancr",
+            "ground_truth": "sylancr \u22a2 ( A \u2208 Fin \u2192 `' A \u2248 `' `' A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9820265996479415,
+            "_thrs_reconstruct": 1.2715344678248031e-17,
+            "_thrs_obviousness": 0.05777822576066848,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.4439252336448597,
+            "_thrs_intensity": 0.448901623686724,
+            "_thrs_interestingness": 0.3567876832851171,
+            "_thrs_logistic_regression": 0.9912205750345077,
+            "_thrs_random_forest": 0.965
+        },
+        {
+            "expression": "\u22a2 Rel `' A",
+            "prop_expression": " \u22a2 Rel `' A",
+            "step": 6,
+            "theorem": "relcnv",
+            "ground_truth": "relcnv \u22a2 Rel `' A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6310332520749735,
+            "_thrs_reconstruct": 2.7099039914601747e-05,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.2005730659025788,
+            "_thrs_interestingness": 0.44011461318051576,
+            "_thrs_logistic_regression": 0.7469150931336946,
+            "_thrs_random_forest": 0.595
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 Fin \u2192 `' A \u2208 V )",
+            "prop_expression": " \u22a2 ( A \u2208 V \u2192 `' A \u2208 V )",
+            "step": 7,
+            "theorem": "cnvexg",
+            "ground_truth": "cnvexg \u22a2 ( A \u2208 Fin \u2192 `' A \u2208 V )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.16163204402165443,
+            "_thrs_reconstruct": 0.00045045681514527166,
+            "_thrs_obviousness": 0.00038283167259456856,
+            "_thrs_weight": 0.6666666666666667,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.4439252336448597,
+            "_thrs_intensity": 0.11461318051575932,
+            "_thrs_interestingness": 0.31178424916664277,
+            "_thrs_logistic_regression": 0.9563401549273026,
+            "_thrs_random_forest": 0.649
+        },
+        {
+            "expression": "\u22a2 ( ( Rel `' A \u2227 `' A \u2208 V ) \u2192 `' A \u2248 `' `' A )",
+            "prop_expression": " \u22a2 ( ( Rel A \u2227 A \u2208 V ) \u2192 A \u2248 `' A )",
+            "step": 8,
+            "theorem": "cnven",
+            "ground_truth": "cnven \u22a2 ( ( Rel `' A \u2227 `' A \u2208 V ) \u2192 `' A \u2248 `' `' A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.41173318578620755,
+            "_thrs_reconstruct": 0.0634441027676806,
+            "_thrs_obviousness": 0.05734638414236885,
+            "_thrs_weight": 0.16666666666666663,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.038571743442803626,
+            "_thrs_interestingness": 0.25251695885036785,
+            "_thrs_logistic_regression": 0.958322059949187,
+            "_thrs_random_forest": 0.64
+        },
+        {
+            "expression": "\u22a2 ( ( `' `' A \u2208 Fin \u2227 `' A \u2248 `' `' A ) \u2192 `' A \u2208 Fin )",
+            "prop_expression": " \u22a2 ( ( B \u2208 Fin \u2227 A \u2248 B ) \u2192 A \u2208 Fin )",
+            "step": 9,
+            "theorem": "enfii",
+            "ground_truth": "enfii \u22a2 ( ( `' `' A \u2208 Fin \u2227 `' A \u2248 `' `' A ) \u2192 `' A \u2208 Fin )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.12261741736232412,
+            "_thrs_reconstruct": 0.04047118495246342,
+            "_thrs_obviousness": 0.03657255863087268,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.4439252336448597,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.16276622512181316,
+            "_thrs_logistic_regression": 0.8616837386919958,
+            "_thrs_random_forest": 0.86
+        }
+    ]
+}

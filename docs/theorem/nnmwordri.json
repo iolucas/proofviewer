@@ -1,0 +1,165 @@
+{
+    "theorem": "nnmwordri",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "expression": "( ( A \u2208 _om \u2227 B \u2208 _om \u2227 C \u2208 _om ) \u2192 ( A \u2286 B \u2192 ( A .o C ) \u2286 ( B .o C ) ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om \u2227 C \u2208 _om ) \u2192 ( A \u2286 B \u2192 ( A .o C ) \u2286 ( B .o C ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf12 ) ), ( \ud835\udf11 \u2192 ( \ud835\udf03 \u2194 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf03 ) )",
+            "step": 1,
+            "theorem": "sylibrd",
+            "ground_truth": "sylibrd \u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om \u2227 C \u2208 _om ) \u2192 ( A \u2286 B \u2192 ( A .o C ) \u2286 ( B .o C ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6452798686083117,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.36363636363636365,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6727272727272727,
+            "_thrs_logistic_regression": 0.9997818115525243,
+            "_thrs_random_forest": 0.78
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om \u2227 C \u2208 _om ) \u2192 ( A \u2286 B \u2192 ( C .o A ) \u2286 ( C .o B ) ) )",
+            "prop_expression": " \u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om \u2227 C \u2208 _om ) \u2192 ( A \u2286 B \u2192 ( C .o A ) \u2286 ( C .o B ) ) )",
+            "step": 2,
+            "theorem": "nnmwordi",
+            "ground_truth": "nnmwordi \u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om \u2227 C \u2208 _om ) \u2192 ( A \u2286 B \u2192 ( C .o A ) \u2286 ( C .o B ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.08692119392607978,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.15343349598903133,
+            "_thrs_weight": 0.36363636363636365,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.303413971925079,
+            "_thrs_logistic_regression": 0.957169274895146,
+            "_thrs_random_forest": 0.91
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om \u2227 C \u2208 _om ) \u2192 ( ( A .o C ) \u2286 ( B .o C ) \u2194 ( C .o A ) \u2286 ( C .o B ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 A = B ), ( \ud835\udf11 \u2192 C = D ) \u22a2 ( \ud835\udf11 \u2192 ( A \u2286 C \u2194 B \u2286 D ) )",
+            "step": 3,
+            "theorem": "sseq12d",
+            "ground_truth": "sseq12d \u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om \u2227 C \u2208 _om ) \u2192 ( ( A .o C ) \u2286 ( B .o C ) \u2194 ( C .o A ) \u2286 ( C .o B ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6259219230084488,
+            "_thrs_reconstruct": 3.3898792742239314e-12,
+            "_thrs_obviousness": 0.42328325200646494,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.6260869565217393,
+            "_thrs_interestingness": 0.40987404170564085,
+            "_thrs_logistic_regression": 0.997795332988704,
+            "_thrs_random_forest": 0.9
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om \u2227 C \u2208 _om ) \u2192 ( A .o C ) = ( C .o A ) )",
+            "prop_expression": "( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 ) \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf03 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 )",
+            "step": 4,
+            "theorem": "3adant2",
+            "ground_truth": "3adant2 \u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om \u2227 C \u2208 _om ) \u2192 ( A .o C ) = ( C .o A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.40564454341886724,
+            "_thrs_reconstruct": 9.63908404033158e-15,
+            "_thrs_obviousness": 5.639320400155346e-15,
+            "_thrs_weight": 0.7272727272727273,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.3529411764705883,
+            "_thrs_intensity": 0.3211428571428572,
+            "_thrs_interestingness": 0.3802713521772357,
+            "_thrs_logistic_regression": 0.9716741884366746,
+            "_thrs_random_forest": 0.575
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 _om \u2227 C \u2208 _om ) \u2192 ( A .o C ) = ( C .o A ) )",
+            "prop_expression": " \u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om ) \u2192 ( A .o B ) = ( B .o A ) )",
+            "step": 5,
+            "theorem": "nnmcom",
+            "ground_truth": "nnmcom \u22a2 ( ( A \u2208 _om \u2227 C \u2208 _om ) \u2192 ( A .o C ) = ( C .o A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.24100159212877903,
+            "_thrs_reconstruct": 0.7339534589157599,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.026190476190476215,
+            "_thrs_interestingness": 0.40523809523809523,
+            "_thrs_logistic_regression": 0.5352701291536046,
+            "_thrs_random_forest": 0.698
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om \u2227 C \u2208 _om ) \u2192 ( B .o C ) = ( C .o B ) )",
+            "prop_expression": "( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 ) \u22a2 ( ( \ud835\udf03 \u2227 \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 )",
+            "step": 6,
+            "theorem": "3adant1",
+            "ground_truth": "3adant1 \u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om \u2227 C \u2208 _om ) \u2192 ( B .o C ) = ( C .o B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8910645265999334,
+            "_thrs_reconstruct": 8.993518439054172e-16,
+            "_thrs_obviousness": 5.989704694980554e-16,
+            "_thrs_weight": 0.7272727272727273,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.3529411764705883,
+            "_thrs_intensity": 0.3211428571428572,
+            "_thrs_interestingness": 0.3802713521772347,
+            "_thrs_logistic_regression": 0.9716741884366746,
+            "_thrs_random_forest": 0.58
+        },
+        {
+            "expression": "\u22a2 ( ( B \u2208 _om \u2227 C \u2208 _om ) \u2192 ( B .o C ) = ( C .o B ) )",
+            "prop_expression": " \u22a2 ( ( A \u2208 _om \u2227 B \u2208 _om ) \u2192 ( A .o B ) = ( B .o A ) )",
+            "step": 7,
+            "theorem": "nnmcom",
+            "ground_truth": "nnmcom \u22a2 ( ( B \u2208 _om \u2227 C \u2208 _om ) \u2192 ( B .o C ) = ( C .o B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3101885637237659,
+            "_thrs_reconstruct": 0.7339534589157599,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.026190476190476215,
+            "_thrs_interestingness": 0.40523809523809523,
+            "_thrs_logistic_regression": 0.5352701291536046,
+            "_thrs_random_forest": 0.703
+        }
+    ]
+}

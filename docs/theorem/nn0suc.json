@@ -1,0 +1,119 @@
+{
+    "theorem": "nn0suc",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "expression": "( A \u2208 _om \u2192 ( A = \u2205 \u2228 \u2203 x \u2208 _om A = suc x ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( A \u2208 _om \u2192 ( A = \u2205 \u2228 \u2203 x \u2208 _om A = suc x ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \u00ac \ud835\udf13 \u2192 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2228 \ud835\udf12 ) )",
+            "step": 1,
+            "theorem": "orrd",
+            "ground_truth": "orrd \u22a2 ( A \u2208 _om \u2192 ( A = \u2205 \u2228 \u2203 x \u2208 _om A = suc x ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7518732876363181,
+            "_thrs_reconstruct": 4.6354521930739426e-14,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.5789473684210525,
+            "_thrs_interestingness": 0.5157894736842106,
+            "_thrs_logistic_regression": 0.9970152701746459,
+            "_thrs_random_forest": 0.905
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 _om \u2192 ( \u00ac A = \u2205 \u2192 \u2203 x \u2208 _om A = suc x ) )",
+            "prop_expression": "( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf12 ) )",
+            "step": 2,
+            "theorem": "ex",
+            "ground_truth": "ex \u22a2 ( A \u2208 _om \u2192 ( \u00ac A = \u2205 \u2192 \u2203 x \u2208 _om A = suc x ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.40292535089713677,
+            "_thrs_reconstruct": 4.8088446732975224e-14,
+            "_thrs_obviousness": 0.9999999999999536,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.5789473684210525,
+            "_thrs_interestingness": 0.5157894736842012,
+            "_thrs_logistic_regression": 0.9970152701746459,
+            "_thrs_random_forest": 0.895
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 _om \u2227 \u00ac A = \u2205 ) \u2192 \u2203 x \u2208 _om A = suc x )",
+            "prop_expression": "( \ud835\udf12 \u2194 \ud835\udf11 ), ( ( \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( ( \ud835\udf13 \u2227 \ud835\udf11 ) \u2192 \ud835\udf03 )",
+            "step": 3,
+            "theorem": "sylan2br",
+            "ground_truth": "sylan2br \u22a2 ( ( A \u2208 _om \u2227 \u00ac A = \u2205 ) \u2192 \u2203 x \u2208 _om A = suc x )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5235931262283194,
+            "_thrs_reconstruct": 1.7191025418295943e-13,
+            "_thrs_obviousness": 0.9999999999999055,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.5999999999999811,
+            "_thrs_logistic_regression": 0.9996913885209483,
+            "_thrs_random_forest": 0.895
+        },
+        {
+            "expression": "\u22a2 ( A \u2260 \u2205 \u2194 \u00ac A = \u2205 )",
+            "prop_expression": " \u22a2 ( A \u2260 B \u2194 \u00ac A = B )",
+            "step": 4,
+            "theorem": "df-ne",
+            "ground_truth": "df-ne \u22a2 ( A \u2260 \u2205 \u2194 \u00ac A = \u2205 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.11733413677409554,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.5,
+            "_thrs_random_forest": 0.73
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 _om \u2227 A \u2260 \u2205 ) \u2192 \u2203 x \u2208 _om A = suc x )",
+            "prop_expression": " \u22a2 ( ( A \u2208 _om \u2227 A \u2260 \u2205 ) \u2192 \u2203 x \u2208 _om A = suc x )",
+            "step": 5,
+            "theorem": "nnsuc",
+            "ground_truth": "nnsuc \u22a2 ( ( A \u2208 _om \u2227 A \u2260 \u2205 ) \u2192 \u2203 x \u2208 _om A = suc x )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7974686162071356,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9999999999997335,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.052631578947368494,
+            "_thrs_interestingness": 0.41052631578942045,
+            "_thrs_logistic_regression": 0.9512665877300199,
+            "_thrs_random_forest": 0.8942857142857144
+        }
+    ]
+}

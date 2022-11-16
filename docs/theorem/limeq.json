@@ -1,0 +1,211 @@
+{
+    "theorem": "limeq",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            8
+        ],
+        [
+            1,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "expression": "( A = B \u2192 ( Lim A \u2194 Lim B ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( A = B \u2192 ( Lim A \u2194 Lim B ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ), ( \ud835\udf03 \u2194 \ud835\udf13 ), ( \ud835\udf0f \u2194 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf03 \u2194 \ud835\udf0f ) )",
+            "step": 1,
+            "theorem": "3bitr4g",
+            "ground_truth": "3bitr4g \u22a2 ( A = B \u2192 ( Lim A \u2194 Lim B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9336557812763046,
+            "_thrs_reconstruct": 3.191822801001827e-05,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.8333333333333334,
+            "_thrs_complexity": 0.6666666666666667,
+            "_thrs_surprisingness": 0.3030303030303029,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7606060606060605,
+            "_thrs_logistic_regression": 0.9983972396399876,
+            "_thrs_random_forest": 0.96
+        },
+        {
+            "expression": "\u22a2 ( A = B \u2192 ( ( Ord A \u2227 A \u2260 \u2205 \u2227 A = U. A ) \u2194 ( Ord B \u2227 B \u2260 \u2205 \u2227 B = U. B ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ), ( \ud835\udf11 \u2192 ( \ud835\udf03 \u2194 \ud835\udf0f ) ), ( \ud835\udf11 \u2192 ( \u03b7 \u2194 \ud835\udf01 ) ) \u22a2 ( \ud835\udf11 \u2192 ( ( \ud835\udf13 \u2227 \ud835\udf03 \u2227 \u03b7 ) \u2194 ( \ud835\udf12 \u2227 \ud835\udf0f \u2227 \ud835\udf01 ) ) )",
+            "step": 2,
+            "theorem": "3anbi123d",
+            "ground_truth": "3anbi123d \u22a2 ( A = B \u2192 ( ( Ord A \u2227 A \u2260 \u2205 \u2227 A = U. A ) \u2194 ( Ord B \u2227 B \u2260 \u2205 \u2227 B = U. B ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.10625056266930621,
+            "_thrs_reconstruct": 0.0008708439591262787,
+            "_thrs_obviousness": 0.9999822670116788,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.3214285714285714,
+            "_thrs_interestingness": 0.46428216768805,
+            "_thrs_logistic_regression": 0.9881296638587667,
+            "_thrs_random_forest": 0.815
+        },
+        {
+            "expression": "\u22a2 ( A = B \u2192 ( Ord A \u2194 Ord B ) )",
+            "prop_expression": " \u22a2 ( A = B \u2192 ( Ord A \u2194 Ord B ) )",
+            "step": 3,
+            "theorem": "ordeq",
+            "ground_truth": "ordeq \u22a2 ( A = B \u2192 ( Ord A \u2194 Ord B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.32312965355834533,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.5555505463602549,
+            "_thrs_weight": 0.8333333333333334,
+            "_thrs_complexity": 0.6666666666666667,
+            "_thrs_surprisingness": 0.24242424242424238,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.45959495775689946,
+            "_thrs_logistic_regression": 0.7611297888124403,
+            "_thrs_random_forest": 0.66
+        },
+        {
+            "expression": "\u22a2 ( A = B \u2192 ( A \u2260 \u2205 \u2194 B \u2260 \u2205 ) )",
+            "prop_expression": " \u22a2 ( A = B \u2192 ( A \u2260 C \u2194 B \u2260 C ) )",
+            "step": 4,
+            "theorem": "neeq1",
+            "ground_truth": "neeq1 \u22a2 ( A = B \u2192 ( A \u2260 \u2205 \u2194 B \u2260 \u2205 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4207338584845738,
+            "_thrs_reconstruct": 0.00019561274970862608,
+            "_thrs_obviousness": 0.00010867276997565902,
+            "_thrs_weight": 0.8333333333333334,
+            "_thrs_complexity": 0.6666666666666667,
+            "_thrs_surprisingness": 0.24242424242424238,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.34850658303884363,
+            "_thrs_logistic_regression": 0.7696662372135481,
+            "_thrs_random_forest": 0.62
+        },
+        {
+            "expression": "\u22a2 ( A = B \u2192 ( A = U. A \u2194 B = U. B ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 A = B ), ( \ud835\udf11 \u2192 C = D ) \u22a2 ( \ud835\udf11 \u2192 ( A = C \u2194 B = D ) )",
+            "step": 5,
+            "theorem": "eqeq12d",
+            "ground_truth": "eqeq12d \u22a2 ( A = B \u2192 ( A = U. A \u2194 B = U. B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6724508359058652,
+            "_thrs_reconstruct": 0.0003329292800502851,
+            "_thrs_obviousness": 0.4438392492448498,
+            "_thrs_weight": 0.6666666666666667,
+            "_thrs_complexity": 0.6666666666666667,
+            "_thrs_surprisingness": 0.24242424242424238,
+            "_thrs_intensity": 0.3214285714285715,
+            "_thrs_interestingness": 0.4682050792861994,
+            "_thrs_logistic_regression": 0.9395629328805858,
+            "_thrs_random_forest": 0.845
+        },
+        {
+            "expression": "\u22a2 ( A = B \u2192 A = B )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \ud835\udf11 )",
+            "step": 6,
+            "theorem": "id",
+            "ground_truth": "id \u22a2 ( A = B \u2192 A = B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.38861439538749065,
+            "_thrs_reconstruct": 1.9183644920600585e-09,
+            "_thrs_obviousness": 1.0657484416820784e-09,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4000000002131497,
+            "_thrs_logistic_regression": 0.4999999999771938,
+            "_thrs_random_forest": 0.48
+        },
+        {
+            "expression": "\u22a2 ( A = B \u2192 U. A = U. B )",
+            "prop_expression": " \u22a2 ( A = B \u2192 U. A = U. B )",
+            "step": 7,
+            "theorem": "unieq",
+            "ground_truth": "unieq \u22a2 ( A = B \u2192 U. A = U. B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9759843461849309,
+            "_thrs_reconstruct": 0.7985849199671234,
+            "_thrs_obviousness": 0.4436542886027959,
+            "_thrs_weight": 0.8333333333333334,
+            "_thrs_complexity": 0.6666666666666667,
+            "_thrs_surprisingness": 0.24242424242424238,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.43721570620540773,
+            "_thrs_logistic_regression": 0.7628668112711618,
+            "_thrs_random_forest": 0.69
+        },
+        {
+            "expression": "\u22a2 ( Lim A \u2194 ( Ord A \u2227 A \u2260 \u2205 \u2227 A = U. A ) )",
+            "prop_expression": " \u22a2 ( Lim A \u2194 ( Ord A \u2227 A \u2260 \u2205 \u2227 A = U. A ) )",
+            "step": 8,
+            "theorem": "df-lim",
+            "ground_truth": "df-lim \u22a2 ( Lim A \u2194 ( Ord A \u2227 A \u2260 \u2205 \u2227 A = U. A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.2010478047811337,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5833333333333333,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.9090909090909088,
+            "_thrs_intensity": 0.02380952380952382,
+            "_thrs_interestingness": 0.3032467532467532,
+            "_thrs_logistic_regression": 0.9729064560924569,
+            "_thrs_random_forest": 0.975
+        },
+        {
+            "expression": "\u22a2 ( Lim B \u2194 ( Ord B \u2227 B \u2260 \u2205 \u2227 B = U. B ) )",
+            "prop_expression": " \u22a2 ( Lim A \u2194 ( Ord A \u2227 A \u2260 \u2205 \u2227 A = U. A ) )",
+            "step": 9,
+            "theorem": "df-lim",
+            "ground_truth": "df-lim \u22a2 ( Lim B \u2194 ( Ord B \u2227 B \u2260 \u2205 \u2227 B = U. B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.27291384094975646,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5833333333333333,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.9090909090909088,
+            "_thrs_intensity": 0.02380952380952382,
+            "_thrs_interestingness": 0.3032467532467532,
+            "_thrs_logistic_regression": 0.9729064560924569,
+            "_thrs_random_forest": 0.975
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "theorem": "merco1lem15",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( ( \ud835\udf11 \u2192 \ud835\udf13 ) \u2192 ( \ud835\udf11 \u2192 ( \ud835\udf12 \u2192 \ud835\udf13 ) ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( ( \ud835\udf11 \u2192 \ud835\udf13 ) \u2192 ( \ud835\udf11 \u2192 ( \ud835\udf12 \u2192 \ud835\udf13 ) ) )",
+            "prop_expression": "\ud835\udf11, ( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 \ud835\udf13",
+            "step": 1,
+            "theorem": "ax-mp",
+            "ground_truth": "ax-mp \u22a2 ( ( \ud835\udf11 \u2192 \ud835\udf13 ) \u2192 ( \ud835\udf11 \u2192 ( \ud835\udf12 \u2192 \ud835\udf13 ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9772816904665758,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.9992339271291688,
+            "_thrs_random_forest": 0.775
+        },
+        {
+            "expression": "\u22a2 ( ( ( ( \ud835\udf11 \u2192 \ud835\udf13 ) \u2192 \ud835\udf13 ) \u2192 ( \ud835\udf12 \u2192 \ud835\udf13 ) ) \u2192 ( \ud835\udf11 \u2192 ( \ud835\udf12 \u2192 \ud835\udf13 ) ) )",
+            "prop_expression": " \u22a2 ( ( ( ( \ud835\udf11 \u2192 \ud835\udf13 ) \u2192 \ud835\udf13 ) \u2192 \ud835\udf12 ) \u2192 ( \ud835\udf11 \u2192 \ud835\udf12 ) )",
+            "step": 2,
+            "theorem": "merco1lem14",
+            "ground_truth": "merco1lem14 \u22a2 ( ( ( ( \ud835\udf11 \u2192 \ud835\udf13 ) \u2192 \ud835\udf13 ) \u2192 ( \ud835\udf12 \u2192 \ud835\udf13 ) ) \u2192 ( \ud835\udf11 \u2192 ( \ud835\udf12 \u2192 \ud835\udf13 ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4593444674662137,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.6657299103752089,
+            "_thrs_weight": 0.625,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.03633720930232558,
+            "_thrs_interestingness": 0.4654134239355069,
+            "_thrs_logistic_regression": 0.8381895330584761,
+            "_thrs_random_forest": 0.965
+        },
+        {
+            "expression": "\u22a2 ( ( ( ( ( \ud835\udf11 \u2192 \ud835\udf13 ) \u2192 \ud835\udf13 ) \u2192 ( \ud835\udf12 \u2192 \ud835\udf13 ) ) \u2192 ( \ud835\udf11 \u2192 ( \ud835\udf12 \u2192 \ud835\udf13 ) ) ) \u2192 ( ( \ud835\udf11 \u2192 \ud835\udf13 ) \u2192 ( \ud835\udf11 \u2192 ( \ud835\udf12 \u2192 \ud835\udf13 ) ) ) )",
+            "prop_expression": " \u22a2 ( ( ( ( \ud835\udf11 \u2192 \ud835\udf13 ) \u2192 ( \ud835\udf12 \u2192 \ud835\udf13 ) ) \u2192 \ud835\udf0f ) \u2192 ( \ud835\udf11 \u2192 \ud835\udf0f ) )",
+            "step": 3,
+            "theorem": "merco1lem13",
+            "ground_truth": "merco1lem13 \u22a2 ( ( ( ( ( \ud835\udf11 \u2192 \ud835\udf13 ) \u2192 \ud835\udf13 ) \u2192 ( \ud835\udf12 \u2192 \ud835\udf13 ) ) \u2192 ( \ud835\udf11 \u2192 ( \ud835\udf12 \u2192 \ud835\udf13 ) ) ) \u2192 ( ( \ud835\udf11 \u2192 \ud835\udf13 ) \u2192 ( \ud835\udf11 \u2192 ( \ud835\udf12 \u2192 \ud835\udf13 ) ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.017792374972236957,
+            "_thrs_reconstruct": 0.3342700810806333,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.7129289188481559,
+            "_thrs_random_forest": 0.885
+        }
+    ]
+}

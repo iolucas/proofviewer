@@ -1,0 +1,188 @@
+{
+    "theorem": "onpsssuc",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "expression": "( A \u2208 On \u2192 A \u228a suc A )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( A \u2208 On \u2192 A \u228a suc A )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "mpbid",
+            "ground_truth": "mpbid \u22a2 ( A \u2208 On \u2192 A \u228a suc A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6277418436511774,
+            "_thrs_reconstruct": 6.688901893258837e-16,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.75,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.88,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.726,
+            "_thrs_logistic_regression": 0.9998716932496128,
+            "_thrs_random_forest": 0.975
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 On \u2192 A \u2208 suc A )",
+            "prop_expression": " \u22a2 ( A \u2208 V \u2192 A \u2208 suc A )",
+            "step": 2,
+            "theorem": "sucidg",
+            "ground_truth": "sucidg \u22a2 ( A \u2208 On \u2192 A \u2208 suc A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4788037426407129,
+            "_thrs_reconstruct": 3.240961185959836e-06,
+            "_thrs_obviousness": 9.002054612253082e-07,
+            "_thrs_weight": 0.75,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.34800000000000003,
+            "_thrs_intensity": 0.08542713567839195,
+            "_thrs_interestingness": 0.33668560717677065,
+            "_thrs_logistic_regression": 0.908193203304338,
+            "_thrs_random_forest": 0.94
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 On \u2192 ( A \u2208 suc A \u2194 A \u228a suc A ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf11 \u2192 \ud835\udf12 ), ( ( \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf03 )",
+            "step": 3,
+            "theorem": "syl2anc",
+            "ground_truth": "syl2anc \u22a2 ( A \u2208 On \u2192 ( A \u2208 suc A \u2194 A \u228a suc A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5503974481860615,
+            "_thrs_reconstruct": 1.0611942853655144e-12,
+            "_thrs_obviousness": 0.9999968445814266,
+            "_thrs_weight": 0.25,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.88,
+            "_thrs_intensity": 0.6555504796710826,
+            "_thrs_interestingness": 0.5571094648505018,
+            "_thrs_logistic_regression": 0.9986757079683164,
+            "_thrs_random_forest": 0.96
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 On \u2192 Ord A )",
+            "prop_expression": " \u22a2 ( A \u2208 On \u2192 Ord A )",
+            "step": 4,
+            "theorem": "eloni",
+            "ground_truth": "eloni \u22a2 ( A \u2208 On \u2192 Ord A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8487261932591939,
+            "_thrs_reconstruct": 2.3163513190878044e-06,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.204,
+            "_thrs_intensity": 0.18994974874371862,
+            "_thrs_interestingness": 0.37878994974874375,
+            "_thrs_logistic_regression": 0.9640570423930234,
+            "_thrs_random_forest": 0.875
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 On \u2192 Ord suc A )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf13 \u2194 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 5,
+            "theorem": "sylib",
+            "ground_truth": "sylib \u22a2 ( A \u2208 On \u2192 Ord suc A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9445246825778447,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.9736057265654149,
+            "_thrs_weight": 0.875,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.7799999999999999,
+            "_thrs_intensity": 0.5862646566164154,
+            "_thrs_interestingness": 0.6429740766363661,
+            "_thrs_logistic_regression": 0.9990756551060009,
+            "_thrs_random_forest": 0.863
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 On \u2192 Ord A )",
+            "prop_expression": " \u22a2 ( A \u2208 On \u2192 Ord A )",
+            "step": 6,
+            "theorem": "eloni",
+            "ground_truth": "eloni \u22a2 ( A \u2208 On \u2192 Ord A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5135306391981768,
+            "_thrs_reconstruct": 2.3163513190878044e-06,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.204,
+            "_thrs_intensity": 0.18994974874371862,
+            "_thrs_interestingness": 0.37878994974874375,
+            "_thrs_logistic_regression": 0.9640570423930234,
+            "_thrs_random_forest": 0.74
+        },
+        {
+            "expression": "\u22a2 ( Ord A \u2194 Ord suc A )",
+            "prop_expression": " \u22a2 ( Ord A \u2194 Ord suc A )",
+            "step": 7,
+            "theorem": "ordsuc",
+            "ground_truth": "ordsuc \u22a2 ( Ord A \u2194 Ord suc A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3763549492026147,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9736034713523033,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.09849246231155778,
+            "_thrs_interestingness": 0.6144191867327722,
+            "_thrs_logistic_regression": 0.6101863795492297,
+            "_thrs_random_forest": 0.735
+        },
+        {
+            "expression": "\u22a2 ( ( Ord A \u2227 Ord suc A ) \u2192 ( A \u2208 suc A \u2194 A \u228a suc A ) )",
+            "prop_expression": " \u22a2 ( ( Ord A \u2227 Ord B ) \u2192 ( A \u2208 B \u2194 A \u228a B ) )",
+            "step": 8,
+            "theorem": "ordelpss",
+            "ground_truth": "ordelpss \u22a2 ( ( Ord A \u2227 Ord suc A ) \u2192 ( A \u2208 suc A \u2194 A \u228a suc A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6651703851777989,
+            "_thrs_reconstruct": 0.027104260052848227,
+            "_thrs_obviousness": 0.026386607588856758,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.20527732151777137,
+            "_thrs_logistic_regression": 0.9410765244490057,
+            "_thrs_random_forest": 0.825
+        }
+    ]
+}

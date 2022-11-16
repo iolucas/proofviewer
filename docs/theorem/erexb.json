@@ -1,0 +1,142 @@
+{
+    "theorem": "erexb",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "expression": "( .~ Er A \u2192 ( .~ \u2208 V \u2194 A \u2208 V ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( .~ Er A \u2192 ( .~ \u2208 V \u2194 A \u2208 V ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf12 ) ), ( \ud835\udf11 \u2192 ( \ud835\udf12 \u2192 \ud835\udf13 ) ) \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) )",
+            "step": 1,
+            "theorem": "impbid",
+            "ground_truth": "impbid \u22a2 ( .~ Er A \u2192 ( .~ \u2208 V \u2194 A \u2208 V ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.06791023707665822,
+            "_thrs_reconstruct": 2.8681975474517853e-12,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.25,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.3571428571428571,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6214285714285714,
+            "_thrs_logistic_regression": 0.9987097856523013,
+            "_thrs_random_forest": 0.85
+        },
+        {
+            "expression": "\u22a2 ( .~ Er A \u2192 ( .~ \u2208 V \u2192 A \u2208 V ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf12 \u2192 ( \ud835\udf13 \u2194 \ud835\udf03 ) ) \u22a2 ( \ud835\udf12 \u2192 ( \ud835\udf11 \u2192 \ud835\udf03 ) )",
+            "step": 2,
+            "theorem": "syl5ib",
+            "ground_truth": "syl5ib \u22a2 ( .~ Er A \u2192 ( .~ \u2208 V \u2192 A \u2208 V ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.441812632928285,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.17913211482609306,
+            "_thrs_weight": 0.25,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.3571428571428571,
+            "_thrs_intensity": 0.7051282051282052,
+            "_thrs_interestingness": 0.39828063541943104,
+            "_thrs_logistic_regression": 0.9941234293255713,
+            "_thrs_random_forest": 0.91
+        },
+        {
+            "expression": "\u22a2 ( .~ \u2208 V \u2192 dom .~ \u2208 V )",
+            "prop_expression": " \u22a2 ( A \u2208 V \u2192 dom A \u2208 V )",
+            "step": 3,
+            "theorem": "dmexg",
+            "ground_truth": "dmexg \u22a2 ( .~ \u2208 V \u2192 dom .~ \u2208 V )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.32513486940349534,
+            "_thrs_reconstruct": 0.21822281142141964,
+            "_thrs_obviousness": 0.17913209756882156,
+            "_thrs_weight": 0.75,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.01098901098901095,
+            "_thrs_interestingness": 0.3880242217115665,
+            "_thrs_logistic_regression": 0.45153391325296194,
+            "_thrs_random_forest": 0.585
+        },
+        {
+            "expression": "\u22a2 ( .~ Er A \u2192 ( dom .~ \u2208 V \u2194 A \u2208 V ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 A = B ) \u22a2 ( \ud835\udf11 \u2192 ( A \u2208 C \u2194 B \u2208 C ) )",
+            "step": 4,
+            "theorem": "eleq1d",
+            "ground_truth": "eleq1d \u22a2 ( .~ Er A \u2192 ( dom .~ \u2208 V \u2194 A \u2208 V ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.1684515134466863,
+            "_thrs_reconstruct": 2.0840401319935417e-08,
+            "_thrs_obviousness": 1.711157949568972e-08,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.2384615384615384,
+            "_thrs_interestingness": 0.24769231111462356,
+            "_thrs_logistic_regression": 0.9830385254521709,
+            "_thrs_random_forest": 0.55
+        },
+        {
+            "expression": "\u22a2 ( .~ Er A \u2192 dom .~ = A )",
+            "prop_expression": " \u22a2 ( .~ Er A \u2192 dom .~ = A )",
+            "step": 5,
+            "theorem": "erdm",
+            "ground_truth": "erdm \u22a2 ( .~ Er A \u2192 dom .~ = A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8191931846842667,
+            "_thrs_reconstruct": 1.6685427471697777e-10,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.07692307692307689,
+            "_thrs_interestingness": 0.4153846153846154,
+            "_thrs_logistic_regression": 0.6022985596710825,
+            "_thrs_random_forest": 0.6741666666666666
+        },
+        {
+            "expression": "\u22a2 ( .~ Er A \u2192 ( A \u2208 V \u2192 .~ \u2208 V ) )",
+            "prop_expression": " \u22a2 ( .~ Er A \u2192 ( A \u2208 V \u2192 .~ \u2208 V ) )",
+            "step": 6,
+            "theorem": "erex",
+            "ground_truth": "erex \u22a2 ( .~ Er A \u2192 ( A \u2208 V \u2192 .~ \u2208 V ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.1424300078084908,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.8208678850258605,
+            "_thrs_weight": 0.25,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.3571428571428571,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3856021484337435,
+            "_thrs_logistic_regression": 0.780968106739536,
+            "_thrs_random_forest": 0.845
+        }
+    ]
+}

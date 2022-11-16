@@ -1,0 +1,211 @@
+{
+    "theorem": "oaword1",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "expression": "( ( A \u2208 On \u2227 B \u2208 On ) \u2192 A \u2286 ( A +o B ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( ( A \u2208 On \u2227 B \u2208 On ) \u2192 A \u2286 ( A +o B ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 B = A ), ( \ud835\udf11 \u2192 B \u2286 C ) \u22a2 ( \ud835\udf11 \u2192 A \u2286 C )",
+            "step": 1,
+            "theorem": "eqsstr3d",
+            "ground_truth": "eqsstr3d \u22a2 ( ( A \u2208 On \u2227 B \u2208 On ) \u2192 A \u2286 ( A +o B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8699731034257688,
+            "_thrs_reconstruct": 8.017685661627707e-12,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.25,
+            "_thrs_surprisingness": 0.7222222222222223,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6944444444444444,
+            "_thrs_logistic_regression": 0.9995316923179474,
+            "_thrs_random_forest": 1.0
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 On \u2227 B \u2208 On ) \u2192 ( A +o \u2205 ) = A )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf12 ) \u2192 \ud835\udf13 )",
+            "step": 2,
+            "theorem": "adantr",
+            "ground_truth": "adantr \u22a2 ( ( A \u2208 On \u2227 B \u2208 On ) \u2192 ( A +o \u2205 ) = A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.32528742388467424,
+            "_thrs_reconstruct": 3.3133825561101875e-17,
+            "_thrs_obviousness": 0.021616710712440996,
+            "_thrs_weight": 0.5625,
+            "_thrs_complexity": 0.25,
+            "_thrs_surprisingness": 0.6296296296296297,
+            "_thrs_intensity": 0.33121459433509354,
+            "_thrs_interestingness": 0.3589921869354328,
+            "_thrs_logistic_regression": 0.9869539467643353,
+            "_thrs_random_forest": 0.975
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 On \u2192 ( A +o \u2205 ) = A )",
+            "prop_expression": " \u22a2 ( A \u2208 On \u2192 ( A +o \u2205 ) = A )",
+            "step": 3,
+            "theorem": "oa0",
+            "ground_truth": "oa0 \u22a2 ( A \u2208 On \u2192 ( A +o \u2205 ) = A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.1779086161133454,
+            "_thrs_reconstruct": 0.02209431823803164,
+            "_thrs_obviousness": 0.021616710712440933,
+            "_thrs_weight": 0.75,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.2592592592592593,
+            "_thrs_intensity": 0.24291886701872303,
+            "_thrs_interestingness": 0.35475896739808466,
+            "_thrs_logistic_regression": 0.9630268657749426,
+            "_thrs_random_forest": 0.955
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 On \u2227 B \u2208 On ) \u2192 ( A +o \u2205 ) \u2286 ( A +o B ) )",
+            "prop_expression": "\ud835\udf13, ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 4,
+            "theorem": "mpbii",
+            "ground_truth": "mpbii \u22a2 ( ( A \u2208 On \u2227 B \u2208 On ) \u2192 ( A +o \u2205 ) \u2286 ( A +o B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8864545088308629,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.9783832884080502,
+            "_thrs_weight": 0.375,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.7677536098083385,
+            "_thrs_interestingness": 0.6242273796432778,
+            "_thrs_logistic_regression": 0.9992460996217842,
+            "_thrs_random_forest": 0.99
+        },
+        {
+            "expression": "\u22a2 \u2205 \u2286 B",
+            "prop_expression": " \u22a2 \u2205 \u2286 A",
+            "step": 5,
+            "theorem": "0ss",
+            "ground_truth": "0ss \u22a2 \u2205 \u2286 B",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4100301077824785,
+            "_thrs_reconstruct": 8.909232155556778e-10,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.05555555555555555,
+            "_thrs_intensity": 0.44359097455592894,
+            "_thrs_interestingness": 0.4998293060222968,
+            "_thrs_logistic_regression": 0.9103751246696226,
+            "_thrs_random_forest": 0.935
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 On \u2227 B \u2208 On ) \u2192 ( \u2205 \u2286 B \u2194 ( A +o \u2205 ) \u2286 ( A +o B ) ) )",
+            "prop_expression": "\ud835\udf12, ( ( \ud835\udf11 \u2227 \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf03 )",
+            "step": 6,
+            "theorem": "mp3an3",
+            "ground_truth": "mp3an3 \u22a2 ( ( A \u2208 On \u2227 B \u2208 On ) \u2192 ( \u2205 \u2286 B \u2194 ( A +o \u2205 ) \u2286 ( A +o B ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3294136090718097,
+            "_thrs_reconstruct": 9.767594781751971e-16,
+            "_thrs_obviousness": 0.9783832875363858,
+            "_thrs_weight": 0.1875,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.7069731156985117,
+            "_thrs_interestingness": 0.5745712806469795,
+            "_thrs_logistic_regression": 0.9987491974677025,
+            "_thrs_random_forest": 0.905
+        },
+        {
+            "expression": "\u22a2 \u2205 \u2208 On",
+            "prop_expression": " \u22a2 \u2205 \u2208 On",
+            "step": 7,
+            "theorem": "0elon",
+            "ground_truth": "0elon \u22a2 \u2205 \u2208 On",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4198990592487768,
+            "_thrs_reconstruct": 6.8813896105682355e-09,
+            "_thrs_obviousness": 5.860972170318393e-09,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.44359097455592894,
+            "_thrs_interestingness": 0.4887181960833802,
+            "_thrs_logistic_regression": 0.9163281095683489,
+            "_thrs_random_forest": 0.905
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 On \u2227 B \u2208 On \u2227 \u2205 \u2208 On ) \u2192 ( \u2205 \u2286 B \u2194 ( A +o \u2205 ) \u2286 ( A +o B ) ) )",
+            "prop_expression": "( ( \ud835\udf11 \u2227 \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( ( \ud835\udf12 \u2227 \ud835\udf13 \u2227 \ud835\udf11 ) \u2192 \ud835\udf03 )",
+            "step": 8,
+            "theorem": "3com13",
+            "ground_truth": "3com13 \u22a2 ( ( A \u2208 On \u2227 B \u2208 On \u2227 \u2205 \u2208 On ) \u2192 ( \u2205 \u2286 B \u2194 ( A +o \u2205 ) \u2286 ( A +o B ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.1609642345651675,
+            "_thrs_reconstruct": 4.640506999145203e-14,
+            "_thrs_obviousness": 0.9783832808037483,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.44359097455592894,
+            "_thrs_interestingness": 0.4843948510719354,
+            "_thrs_logistic_regression": 0.9938355232599478,
+            "_thrs_random_forest": 0.81
+        },
+        {
+            "expression": "\u22a2 ( ( \u2205 \u2208 On \u2227 B \u2208 On \u2227 A \u2208 On ) \u2192 ( \u2205 \u2286 B \u2194 ( A +o \u2205 ) \u2286 ( A +o B ) ) )",
+            "prop_expression": " \u22a2 ( ( A \u2208 On \u2227 B \u2208 On \u2227 C \u2208 On ) \u2192 ( A \u2286 B \u2194 ( C +o A ) \u2286 ( C +o B ) ) )",
+            "step": 9,
+            "theorem": "oaword",
+            "ground_truth": "oaword \u22a2 ( ( \u2205 \u2208 On \u2227 B \u2208 On \u2227 A \u2208 On ) \u2192 ( \u2205 \u2286 B \u2194 ( A +o \u2205 ) \u2286 ( A +o B ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5028796279377509,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9783832808037027,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.39567665616074055,
+            "_thrs_logistic_regression": 0.9363921255190858,
+            "_thrs_random_forest": 0.965
+        }
+    ]
+}

@@ -1,0 +1,165 @@
+{
+    "theorem": "isoeq4",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            6
+        ],
+        [
+            1,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "expression": "( A = C \u2192 ( H Isom R , S ( A , B ) \u2194 H Isom R , S ( C , B ) ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( A = C \u2192 ( H Isom R , S ( A , B ) \u2194 H Isom R , S ( C , B ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ), ( \ud835\udf03 \u2194 \ud835\udf13 ), ( \ud835\udf0f \u2194 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf03 \u2194 \ud835\udf0f ) )",
+            "step": 1,
+            "theorem": "3bitr4g",
+            "ground_truth": "3bitr4g \u22a2 ( A = C \u2192 ( H Isom R , S ( A , B ) \u2194 H Isom R , S ( C , B ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6908486023632042,
+            "_thrs_reconstruct": 4.1331015264093606e-05,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.9375,
+            "_thrs_complexity": 0.8333333333333334,
+            "_thrs_surprisingness": 0.25,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8041666666666668,
+            "_thrs_logistic_regression": 0.9968547939240017,
+            "_thrs_random_forest": 0.96
+        },
+        {
+            "expression": "\u22a2 ( A = C \u2192 ( ( H : A -1-1-onto\u2192 B \u2227 \u2200 x \u2208 A \u2200 y \u2208 A ( x R y \u2194 ( H ` x ) S ( H ` y ) ) ) \u2194 ( H : C -1-1-onto\u2192 B \u2227 \u2200 x \u2208 C \u2200 y \u2208 C ( x R y \u2194 ( H ` x ) S ( H ` y ) ) ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ), ( \ud835\udf11 \u2192 ( \ud835\udf03 \u2194 \ud835\udf0f ) ) \u22a2 ( \ud835\udf11 \u2192 ( ( \ud835\udf13 \u2227 \ud835\udf03 ) \u2194 ( \ud835\udf12 \u2227 \ud835\udf0f ) ) )",
+            "step": 2,
+            "theorem": "anbi12d",
+            "ground_truth": "anbi12d \u22a2 ( A = C \u2192 ( ( H : A -1-1-onto\u2192 B \u2227 \u2200 x \u2208 A \u2200 y \u2208 A ( x R y \u2194 ( H ` x ) S ( H ` y ) ) ) \u2194 ( H : C -1-1-onto\u2192 B \u2227 \u2200 x \u2208 C \u2200 y \u2208 C ( x R y \u2194 ( H ` x ) S ( H ` y ) ) ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7201918051814442,
+            "_thrs_reconstruct": 0.0005431625605809296,
+            "_thrs_obviousness": 0.9999793657751797,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.18811326044294926,
+            "_thrs_interestingness": 0.4376185252436258,
+            "_thrs_logistic_regression": 0.9759305013717785,
+            "_thrs_random_forest": 0.78
+        },
+        {
+            "expression": "\u22a2 ( A = C \u2192 ( H : A -1-1-onto\u2192 B \u2194 H : C -1-1-onto\u2192 B ) )",
+            "prop_expression": " \u22a2 ( A = B \u2192 ( F : A -1-1-onto\u2192 C \u2194 F : B -1-1-onto\u2192 C ) )",
+            "step": 3,
+            "theorem": "f1oeq2",
+            "ground_truth": "f1oeq2 \u22a2 ( A = C \u2192 ( H : A -1-1-onto\u2192 B \u2194 H : C -1-1-onto\u2192 B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.12800634972963,
+            "_thrs_reconstruct": 0.0026077831809604808,
+            "_thrs_obviousness": 0.0013018591156607824,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.046257359125315395,
+            "_thrs_interestingness": 0.4095118436481953,
+            "_thrs_logistic_regression": 0.5620480403295716,
+            "_thrs_random_forest": 0.49
+        },
+        {
+            "expression": "\u22a2 ( A = C \u2192 ( \u2200 x \u2208 A \u2200 y \u2208 A ( x R y \u2194 ( H ` x ) S ( H ` y ) ) \u2194 \u2200 x \u2208 C \u2200 y \u2208 C ( x R y \u2194 ( H ` x ) S ( H ` y ) ) ) )",
+            "prop_expression": "( A = B \u2192 ( \ud835\udf11 \u2194 \ud835\udf13 ) ) \u22a2 ( A = B \u2192 ( \u2200 x \u2208 A \ud835\udf11 \u2194 \u2200 x \u2208 B \ud835\udf13 ) )",
+            "step": 4,
+            "theorem": "raleqbi1dv",
+            "ground_truth": "raleqbi1dv \u22a2 ( A = C \u2192 ( \u2200 x \u2208 A \u2200 y \u2208 A ( x R y \u2194 ( H ` x ) S ( H ` y ) ) \u2194 \u2200 x \u2208 C \u2200 y \u2208 C ( x R y \u2194 ( H ` x ) S ( H ` y ) ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6465498148126197,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9984063480935337,
+            "_thrs_weight": 0.25,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.2777777777777778,
+            "_thrs_intensity": 0.13006480977588683,
+            "_thrs_interestingness": 0.3979164537961063,
+            "_thrs_logistic_regression": 0.9484500136223891,
+            "_thrs_random_forest": 0.71
+        },
+        {
+            "expression": "\u22a2 ( A = C \u2192 ( \u2200 y \u2208 A ( x R y \u2194 ( H ` x ) S ( H ` y ) ) \u2194 \u2200 y \u2208 C ( x R y \u2194 ( H ` x ) S ( H ` y ) ) ) )",
+            "prop_expression": " \u22a2 ( A = B \u2192 ( \u2200 x \u2208 A \ud835\udf11 \u2194 \u2200 x \u2208 B \ud835\udf11 ) )",
+            "step": 5,
+            "theorem": "raleq",
+            "ground_truth": "raleq \u22a2 ( A = C \u2192 ( \u2200 y \u2208 A ( x R y \u2194 ( H ` x ) S ( H ` y ) ) \u2194 \u2200 y \u2208 C ( x R y \u2194 ( H ` x ) S ( H ` y ) ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4821823171929073,
+            "_thrs_reconstruct": 0.999930138517706,
+            "_thrs_obviousness": 0.49918573574577846,
+            "_thrs_weight": 0.4375,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.2777777777777778,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3095593693713779,
+            "_thrs_logistic_regression": 0.9192387013550749,
+            "_thrs_random_forest": 0.595
+        },
+        {
+            "expression": "\u22a2 ( H Isom R , S ( A , B ) \u2194 ( H : A -1-1-onto\u2192 B \u2227 \u2200 x \u2208 A \u2200 y \u2208 A ( x R y \u2194 ( H ` x ) S ( H ` y ) ) ) )",
+            "prop_expression": " \u22a2 ( H Isom R , S ( A , B ) \u2194 ( H : A -1-1-onto\u2192 B \u2227 \u2200 x \u2208 A \u2200 y \u2208 A ( x R y \u2194 ( H ` x ) S ( H ` y ) ) ) )",
+            "step": 6,
+            "theorem": "df-iso",
+            "ground_truth": "df-iso \u22a2 ( H Isom R , S ( A , B ) \u2194 ( H : A -1-1-onto\u2192 B \u2227 \u2200 x \u2208 A \u2200 y \u2208 A ( x R y \u2194 ( H ` x ) S ( H ` y ) ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.14260706363293685,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.53125,
+            "_thrs_complexity": 0.16666666666666663,
+            "_thrs_surprisingness": 0.5833333333333334,
+            "_thrs_intensity": 0.020353238015138785,
+            "_thrs_interestingness": 0.26032064760302775,
+            "_thrs_logistic_regression": 0.9571814155917829,
+            "_thrs_random_forest": 0.985
+        },
+        {
+            "expression": "\u22a2 ( H Isom R , S ( C , B ) \u2194 ( H : C -1-1-onto\u2192 B \u2227 \u2200 x \u2208 C \u2200 y \u2208 C ( x R y \u2194 ( H ` x ) S ( H ` y ) ) ) )",
+            "prop_expression": " \u22a2 ( H Isom R , S ( A , B ) \u2194 ( H : A -1-1-onto\u2192 B \u2227 \u2200 x \u2208 A \u2200 y \u2208 A ( x R y \u2194 ( H ` x ) S ( H ` y ) ) ) )",
+            "step": 7,
+            "theorem": "df-iso",
+            "ground_truth": "df-iso \u22a2 ( H Isom R , S ( C , B ) \u2194 ( H : C -1-1-onto\u2192 B \u2227 \u2200 x \u2208 C \u2200 y \u2208 C ( x R y \u2194 ( H ` x ) S ( H ` y ) ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3863386698423744,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.53125,
+            "_thrs_complexity": 0.16666666666666663,
+            "_thrs_surprisingness": 0.5833333333333334,
+            "_thrs_intensity": 0.020353238015138785,
+            "_thrs_interestingness": 0.26032064760302775,
+            "_thrs_logistic_regression": 0.9571814155917829,
+            "_thrs_random_forest": 0.985
+        }
+    ]
+}

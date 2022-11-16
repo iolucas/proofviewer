@@ -1,0 +1,119 @@
+{
+    "theorem": "elprg",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ]
+    ],
+    "expression": "( A \u2208 V \u2192 ( A \u2208 { B , C } \u2194 ( A = B \u2228 A = C ) ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( A \u2208 V \u2192 ( A \u2208 { B , C } \u2194 ( A = B \u2228 A = C ) ) )",
+            "prop_expression": "( x = A \u2192 ( \ud835\udf11 \u2194 \ud835\udf13 ) ), B = { x | \ud835\udf11 } \u22a2 ( A \u2208 V \u2192 ( A \u2208 B \u2194 \ud835\udf13 ) )",
+            "step": 1,
+            "theorem": "elab2g",
+            "ground_truth": "elab2g \u22a2 ( A \u2208 V \u2192 ( A \u2208 { B , C } \u2194 ( A = B \u2228 A = C ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.39984650705477975,
+            "_thrs_reconstruct": 0.9958416186308976,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.9996913885209483,
+            "_thrs_random_forest": 0.86
+        },
+        {
+            "expression": "\u22a2 ( x = A \u2192 ( ( x = B \u2228 x = C ) \u2194 ( A = B \u2228 A = C ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ), ( \ud835\udf11 \u2192 ( \ud835\udf03 \u2194 \ud835\udf0f ) ) \u22a2 ( \ud835\udf11 \u2192 ( ( \ud835\udf13 \u2228 \ud835\udf03 ) \u2194 ( \ud835\udf12 \u2228 \ud835\udf0f ) ) )",
+            "step": 2,
+            "theorem": "orbi12d",
+            "ground_truth": "orbi12d \u22a2 ( x = A \u2192 ( ( x = B \u2228 x = C ) \u2194 ( A = B \u2228 A = C ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8213511155860468,
+            "_thrs_reconstruct": 1.990827821523422e-06,
+            "_thrs_obviousness": 5.5713497103137984e-05,
+            "_thrs_weight": 0.19999999999999996,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.5131749460043197,
+            "_thrs_interestingness": 0.4426461319002845,
+            "_thrs_logistic_regression": 0.9605355414035327,
+            "_thrs_random_forest": 0.91
+        },
+        {
+            "expression": "\u22a2 ( x = A \u2192 ( x = B \u2194 A = B ) )",
+            "prop_expression": " \u22a2 ( A = B \u2192 ( A = C \u2194 B = C ) )",
+            "step": 3,
+            "theorem": "eqeq1",
+            "ground_truth": "eqeq1 \u22a2 ( x = A \u2192 ( x = B \u2194 A = B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.12513975607159922,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.047516198704103695,
+            "_thrs_interestingness": 0.40950323974082076,
+            "_thrs_logistic_regression": 0.5637466570245053,
+            "_thrs_random_forest": 0.51
+        },
+        {
+            "expression": "\u22a2 ( x = A \u2192 ( x = C \u2194 A = C ) )",
+            "prop_expression": " \u22a2 ( A = B \u2192 ( A = C \u2194 B = C ) )",
+            "step": 4,
+            "theorem": "eqeq1",
+            "ground_truth": "eqeq1 \u22a2 ( x = A \u2192 ( x = C \u2194 A = C ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3982358386217387,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.047516198704103695,
+            "_thrs_interestingness": 0.40950323974082076,
+            "_thrs_logistic_regression": 0.5637466570245053,
+            "_thrs_random_forest": 0.51
+        },
+        {
+            "expression": "\u22a2 { B , C } = { x | ( x = B \u2228 x = C ) }",
+            "prop_expression": " \u22a2 { A , B } = { x | ( x = A \u2228 x = B ) }",
+            "step": 5,
+            "theorem": "dfpr2",
+            "ground_truth": "dfpr2 \u22a2 { B , C } = { x | ( x = B \u2228 x = C ) }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5107407892663931,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.5009864315132488,
+            "_thrs_weight": 0.8,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.46019728630264983,
+            "_thrs_logistic_regression": 0.4418565402461756,
+            "_thrs_random_forest": 0.755
+        }
+    ]
+}

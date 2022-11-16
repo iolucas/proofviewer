@@ -1,0 +1,96 @@
+{
+    "theorem": "uneqri",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ]
+    ],
+    "expression": "( A \u222a B ) = C",
+    "steps": [
+        {
+            "expression": "\u22a2 ( A \u222a B ) = C",
+            "prop_expression": "( x \u2208 A \u2194 x \u2208 B ) \u22a2 A = B",
+            "step": 1,
+            "theorem": "eqriv",
+            "ground_truth": "eqriv \u22a2 ( A \u222a B ) = C",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.021596721551042086,
+            "_thrs_reconstruct": 6.833097074275403e-07,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.3333333333333333,
+            "_thrs_intensity": 0.4296296296296295,
+            "_thrs_interestingness": 0.7525925925925926,
+            "_thrs_logistic_regression": 0.8558274971936207,
+            "_thrs_random_forest": 0.95
+        },
+        {
+            "expression": "\u22a2 ( x \u2208 ( A \u222a B ) \u2194 x \u2208 C )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ), ( \ud835\udf13 \u2194 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2194 \ud835\udf12 )",
+            "step": 2,
+            "theorem": "bitri",
+            "ground_truth": "bitri \u22a2 ( x \u2208 ( A \u222a B ) \u2194 x \u2208 C )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3087191560449726,
+            "_thrs_reconstruct": 1.5959705753318164e-06,
+            "_thrs_obviousness": 0.9999993164855999,
+            "_thrs_weight": 0.4285714285714286,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6857141490114057,
+            "_thrs_logistic_regression": 0.9997949116178176,
+            "_thrs_random_forest": 0.895
+        },
+        {
+            "expression": "\u22a2 ( x \u2208 ( A \u222a B ) \u2194 ( x \u2208 A \u2228 x \u2208 B ) )",
+            "prop_expression": " \u22a2 ( A \u2208 ( B \u222a C ) \u2194 ( A \u2208 B \u2228 A \u2208 C ) )",
+            "step": 3,
+            "theorem": "elun",
+            "ground_truth": "elun \u22a2 ( x \u2208 ( A \u222a B ) \u2194 ( x \u2208 A \u2228 x \u2208 B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4438020228302014,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9999977201061621,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2999995440212324,
+            "_thrs_logistic_regression": 0.8177658361333711,
+            "_thrs_random_forest": 0.765
+        },
+        {
+            "expression": "\u22a2 ( ( x \u2208 A \u2228 x \u2208 B ) \u2194 x \u2208 C )",
+            "prop_expression": " \u22a2 ( ( x \u2208 A \u2228 x \u2208 B ) \u2194 x \u2208 C )",
+            "step": 4,
+            "theorem": "uneqri.1",
+            "ground_truth": "uneqri.1 \u22a2 ( ( x \u2208 A \u2228 x \u2208 B ) \u2194 x \u2208 C )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7372813973369284,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.2857142857142857,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.04938271604938273,
+            "_thrs_interestingness": 0.1670194003527337,
+            "_thrs_logistic_regression": 0.8933884983714112,
+            "_thrs_random_forest": 0.75
+        }
+    ]
+}

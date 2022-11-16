@@ -1,0 +1,211 @@
+{
+    "theorem": "fconst4",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "expression": "( F : A -\u2192 { B } \u2194 ( F Fn A \u2227 ( `' F \u201c { B } ) = A ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( F : A -\u2192 { B } \u2194 ( F Fn A \u2227 ( `' F \u201c { B } ) = A ) )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ), ( \ud835\udf13 \u2194 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2194 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "bitri",
+            "ground_truth": "bitri \u22a2 ( F : A -\u2192 { B } \u2194 ( F Fn A \u2227 ( `' F \u201c { B } ) = A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.16609450605815024,
+            "_thrs_reconstruct": 1.007615104612748e-12,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.6,
+            "_thrs_complexity": 0.25,
+            "_thrs_surprisingness": 0.7499999999999999,
+            "_thrs_intensity": 0.7769128113879004,
+            "_thrs_interestingness": 0.6753825622775801,
+            "_thrs_logistic_regression": 0.9985284428314025,
+            "_thrs_random_forest": 0.95
+        },
+        {
+            "expression": "\u22a2 ( F : A -\u2192 { B } \u2194 ( F Fn A \u2227 A \u2286 ( `' F \u201c { B } ) ) )",
+            "prop_expression": " \u22a2 ( F : A -\u2192 { B } \u2194 ( F Fn A \u2227 A \u2286 ( `' F \u201c { B } ) ) )",
+            "step": 2,
+            "theorem": "fconst3",
+            "ground_truth": "fconst3 \u22a2 ( F : A -\u2192 { B } \u2194 ( F Fn A \u2227 A \u2286 ( `' F \u201c { B } ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3507711112469717,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9845373773052946,
+            "_thrs_weight": 0.5333333333333333,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.1111415275116343,
+            "_thrs_interestingness": 0.5258024476300525,
+            "_thrs_logistic_regression": 0.9780568915220845,
+            "_thrs_random_forest": 0.97
+        },
+        {
+            "expression": "\u22a2 ( ( F Fn A \u2227 A \u2286 ( `' F \u201c { B } ) ) \u2194 ( F Fn A \u2227 ( `' F \u201c { B } ) = A ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ) \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2194 ( \ud835\udf11 \u2227 \ud835\udf12 ) )",
+            "step": 3,
+            "theorem": "pm5.32i",
+            "ground_truth": "pm5.32i \u22a2 ( ( F Fn A \u2227 A \u2286 ( `' F \u201c { B } ) ) \u2194 ( F Fn A \u2227 ( `' F \u201c { B } ) = A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8827303892704006,
+            "_thrs_reconstruct": 1.2239077706019386e-10,
+            "_thrs_obviousness": 0.01546262268898279,
+            "_thrs_weight": 0.2666666666666667,
+            "_thrs_complexity": 0.25,
+            "_thrs_surprisingness": 0.47115384615384615,
+            "_thrs_intensity": 0.19928825622775806,
+            "_thrs_interestingness": 0.24051427834745076,
+            "_thrs_logistic_regression": 0.9720049663021323,
+            "_thrs_random_forest": 0.95
+        },
+        {
+            "expression": "\u22a2 ( F Fn A \u2192 ( A \u2286 ( `' F \u201c { B } ) \u2194 ( `' F \u201c { B } ) = A ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ), ( \ud835\udf03 \u2194 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf03 ) )",
+            "step": 4,
+            "theorem": "syl6bbr",
+            "ground_truth": "syl6bbr \u22a2 ( F Fn A \u2192 ( A \u2286 ( `' F \u201c { B } ) \u2194 ( `' F \u201c { B } ) = A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9972147079284354,
+            "_thrs_reconstruct": 9.839353331105033e-12,
+            "_thrs_obviousness": 0.015462622566987922,
+            "_thrs_weight": 0.4666666666666667,
+            "_thrs_complexity": 0.25,
+            "_thrs_surprisingness": 0.47115384615384615,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.44065662707750014,
+            "_thrs_logistic_regression": 0.9996836862837288,
+            "_thrs_random_forest": 0.625
+        },
+        {
+            "expression": "\u22a2 ( F Fn A \u2192 ( A \u2286 ( `' F \u201c { B } ) \u2194 ( ( `' F \u201c { B } ) \u2286 A \u2227 A \u2286 ( `' F \u201c { B } ) ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf12 \u2194 ( \ud835\udf13 \u2227 \ud835\udf12 ) ) )",
+            "step": 5,
+            "theorem": "biantrurd",
+            "ground_truth": "biantrurd \u22a2 ( F Fn A \u2192 ( A \u2286 ( `' F \u201c { B } ) \u2194 ( ( `' F \u201c { B } ) \u2286 A \u2227 A \u2286 ( `' F \u201c { B } ) ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8870931772442527,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.015462615369781083,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.25,
+            "_thrs_surprisingness": 0.47115384615384615,
+            "_thrs_intensity": 0.03202846975088971,
+            "_thrs_interestingness": 0.1537289862549034,
+            "_thrs_logistic_regression": 0.9161018691812157,
+            "_thrs_random_forest": 0.42
+        },
+        {
+            "expression": "\u22a2 ( F Fn A \u2192 ( `' F \u201c { B } ) \u2286 A )",
+            "prop_expression": "B \u2286 A, ( \ud835\udf11 \u2192 A = C ) \u22a2 ( \ud835\udf11 \u2192 B \u2286 C )",
+            "step": 6,
+            "theorem": "syl5sseq",
+            "ground_truth": "syl5sseq \u22a2 ( F Fn A \u2192 ( `' F \u201c { B } ) \u2286 A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8549160803994434,
+            "_thrs_reconstruct": 2.852735126570234e-08,
+            "_thrs_obviousness": 0.01546261536828451,
+            "_thrs_weight": 0.8,
+            "_thrs_complexity": 0.25,
+            "_thrs_surprisingness": 0.47115384615384615,
+            "_thrs_intensity": 0.38577500988533014,
+            "_thrs_interestingness": 0.38447829428149216,
+            "_thrs_logistic_regression": 0.9937083247130989,
+            "_thrs_random_forest": 0.78
+        },
+        {
+            "expression": "\u22a2 ( `' F \u201c { B } ) \u2286 dom F",
+            "prop_expression": " \u22a2 ( `' A \u201c B ) \u2286 dom A",
+            "step": 7,
+            "theorem": "cnvimass",
+            "ground_truth": "cnvimass \u22a2 ( `' F \u201c { B } ) \u2286 dom F",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.0637948918347977,
+            "_thrs_reconstruct": 0.015705434486745436,
+            "_thrs_obviousness": 0.015462587277310338,
+            "_thrs_weight": 0.9333333333333333,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.17307692307692304,
+            "_thrs_intensity": 0.21352313167259784,
+            "_thrs_interestingness": 0.36707919507203296,
+            "_thrs_logistic_regression": 0.9674972946956071,
+            "_thrs_random_forest": 0.675
+        },
+        {
+            "expression": "\u22a2 ( F Fn A \u2192 dom F = A )",
+            "prop_expression": " \u22a2 ( F Fn A \u2192 dom F = A )",
+            "step": 8,
+            "theorem": "fndm",
+            "ground_truth": "fndm \u22a2 ( F Fn A \u2192 dom F = A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.666390215191617,
+            "_thrs_reconstruct": 1.7647145576086473e-12,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.132858837485172,
+            "_thrs_interestingness": 0.4265717674970344,
+            "_thrs_logistic_regression": 0.6719157914908277,
+            "_thrs_random_forest": 0.695
+        },
+        {
+            "expression": "\u22a2 ( ( `' F \u201c { B } ) = A \u2194 ( ( `' F \u201c { B } ) \u2286 A \u2227 A \u2286 ( `' F \u201c { B } ) ) )",
+            "prop_expression": " \u22a2 ( A = B \u2194 ( A \u2286 B \u2227 B \u2286 A ) )",
+            "step": 9,
+            "theorem": "eqss",
+            "ground_truth": "eqss \u22a2 ( ( `' F \u201c { B } ) = A \u2194 ( ( `' F \u201c { B } ) \u2286 A \u2227 A \u2286 ( `' F \u201c { B } ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.47369673973922066,
+            "_thrs_reconstruct": 7.297362848710423e-09,
+            "_thrs_obviousness": 7.182789052884889e-09,
+            "_thrs_weight": 0.2666666666666667,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.02884615384615384,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.15910256553912192,
+            "_thrs_logistic_regression": 0.8584092193826137,
+            "_thrs_random_forest": 0.44
+        }
+    ]
+}

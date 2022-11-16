@@ -1,0 +1,188 @@
+{
+    "theorem": "sbcbidg",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "expression": "( ( \ud835\udf11 \u2227 A \u2208 V ) \u2192 ( [. A / x ]. \ud835\udf13 \u2194 [. A / x ]. \ud835\udf12 ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( ( \ud835\udf11 \u2227 A \u2208 V ) \u2192 ( [. A / x ]. \ud835\udf13 \u2194 [. A / x ]. \ud835\udf12 ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf12 ) ) \u22a2 ( ( \ud835\udf13 \u2227 \ud835\udf11 ) \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "impcom",
+            "ground_truth": "impcom \u22a2 ( ( \ud835\udf11 \u2227 A \u2208 V ) \u2192 ( [. A / x ]. \ud835\udf13 \u2194 [. A / x ]. \ud835\udf12 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3890099268041164,
+            "_thrs_reconstruct": 2.7418650626645896e-07,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.30000000000000004,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.32863849765258213,
+            "_thrs_interestingness": 0.5257276995305163,
+            "_thrs_logistic_regression": 0.9913952098085644,
+            "_thrs_random_forest": 0.92
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 V \u2192 ( \ud835\udf11 \u2192 ( [. A / x ]. \ud835\udf13 \u2194 [. A / x ]. \ud835\udf12 ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf12 ) ), ( \ud835\udf11 \u2192 ( \ud835\udf12 \u2194 \ud835\udf03 ) ) \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf03 ) )",
+            "step": 2,
+            "theorem": "sylibd",
+            "ground_truth": "sylibd \u22a2 ( A \u2208 V \u2192 ( \ud835\udf11 \u2192 ( [. A / x ]. \ud835\udf13 \u2194 [. A / x ]. \ud835\udf12 ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.34264969114620014,
+            "_thrs_reconstruct": 1.2931066671081908e-07,
+            "_thrs_obviousness": 0.9999997259575201,
+            "_thrs_weight": 0.30000000000000004,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.659999945191504,
+            "_thrs_logistic_regression": 0.999768162201849,
+            "_thrs_random_forest": 0.975
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 V \u2192 ( \ud835\udf11 \u2192 [. A / x ]. ( \ud835\udf13 \u2194 \ud835\udf12 ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf12 \u2192 ( \ud835\udf13 \u2192 \ud835\udf03 ) ) \u22a2 ( \ud835\udf12 \u2192 ( \ud835\udf11 \u2192 \ud835\udf03 ) )",
+            "step": 3,
+            "theorem": "syl5",
+            "ground_truth": "syl5 \u22a2 ( A \u2208 V \u2192 ( \ud835\udf11 \u2192 [. A / x ]. ( \ud835\udf13 \u2194 \ud835\udf12 ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6955016518686544,
+            "_thrs_reconstruct": 1.1973209880631395e-08,
+            "_thrs_obviousness": 0.0019776068441969166,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.7863849765258215,
+            "_thrs_interestingness": 0.45767251667400366,
+            "_thrs_logistic_regression": 0.9994432400771562,
+            "_thrs_random_forest": 0.935
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 \u2200 x ( \ud835\udf13 \u2194 \ud835\udf12 ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 \u2200 x \ud835\udf11 ), ( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 ( \ud835\udf11 \u2192 \u2200 x \ud835\udf13 )",
+            "step": 4,
+            "theorem": "alrimi",
+            "ground_truth": "alrimi \u22a2 ( \ud835\udf11 \u2192 \u2200 x ( \ud835\udf13 \u2194 \ud835\udf12 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7248045033130139,
+            "_thrs_reconstruct": 2.7937489721473257e-09,
+            "_thrs_obviousness": 3.5848580228750323e-09,
+            "_thrs_weight": 0.9,
+            "_thrs_complexity": 0.6,
+            "_thrs_surprisingness": 0.4285714285714285,
+            "_thrs_intensity": 0.6338028169014084,
+            "_thrs_interestingness": 0.512474849811539,
+            "_thrs_logistic_regression": 0.9916444007874138,
+            "_thrs_random_forest": 0.6783333333333335
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 \u2200 x \ud835\udf11 )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \u2200 x \ud835\udf11 )",
+            "step": 5,
+            "theorem": "sbcbid.1",
+            "ground_truth": "sbcbid.1 \u22a2 ( \ud835\udf11 \u2192 \u2200 x \ud835\udf11 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.03298900292472484,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.1251956181533646,
+            "_thrs_interestingness": 0.4250391236306729,
+            "_thrs_logistic_regression": 0.662736845135981,
+            "_thrs_random_forest": 0.78
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) )",
+            "step": 6,
+            "theorem": "sbcbid.2",
+            "ground_truth": "sbcbid.2 \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8217398854119785,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.8,
+            "_thrs_surprisingness": 0.4285714285714285,
+            "_thrs_intensity": 0.32863849765258213,
+            "_thrs_interestingness": 0.5114419852448021,
+            "_thrs_logistic_regression": 0.9010541068115814,
+            "_thrs_random_forest": 0.905
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 V \u2192 ( \u2200 x ( \ud835\udf13 \u2194 \ud835\udf12 ) \u2192 [. A / x ]. ( \ud835\udf13 \u2194 \ud835\udf12 ) ) )",
+            "prop_expression": " \u22a2 ( A \u2208 V \u2192 ( \u2200 x \ud835\udf11 \u2192 [. A / x ]. \ud835\udf11 ) )",
+            "step": 7,
+            "theorem": "a4sbc",
+            "ground_truth": "a4sbc \u22a2 ( A \u2208 V \u2192 ( \u2200 x ( \ud835\udf13 \u2194 \ud835\udf12 ) \u2192 [. A / x ]. ( \ud835\udf13 \u2194 \ud835\udf12 ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.07409097046852287,
+            "_thrs_reconstruct": 0.001981509961158057,
+            "_thrs_obviousness": 0.0019775905131770347,
+            "_thrs_weight": 0.30000000000000004,
+            "_thrs_complexity": 0.19999999999999996,
+            "_thrs_surprisingness": 0.5714285714285715,
+            "_thrs_intensity": 0.0845070422535211,
+            "_thrs_interestingness": 0.23158264083905392,
+            "_thrs_logistic_regression": 0.9560266421856657,
+            "_thrs_random_forest": 0.655
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 V \u2192 ( [. A / x ]. ( \ud835\udf13 \u2194 \ud835\udf12 ) \u2194 ( [. A / x ]. \ud835\udf13 \u2194 [. A / x ]. \ud835\udf12 ) ) )",
+            "prop_expression": " \u22a2 ( A \u2208 V \u2192 ( [. A / x ]. ( \ud835\udf11 \u2194 \ud835\udf13 ) \u2194 ( [. A / x ]. \ud835\udf11 \u2194 [. A / x ]. \ud835\udf13 ) ) )",
+            "step": 8,
+            "theorem": "sbcbig",
+            "ground_truth": "sbcbig \u22a2 ( A \u2208 V \u2192 ( [. A / x ]. ( \ud835\udf13 \u2194 \ud835\udf12 ) \u2194 ( [. A / x ]. \ud835\udf13 \u2194 [. A / x ]. \ud835\udf12 ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9460140870675803,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9980219892617992,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.19999999999999996,
+            "_thrs_surprisingness": 0.5714285714285715,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3538901121380741,
+            "_thrs_logistic_regression": 0.9048099456241463,
+            "_thrs_random_forest": 0.765
+        }
+    ]
+}

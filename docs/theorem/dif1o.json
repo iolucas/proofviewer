@@ -1,0 +1,119 @@
+{
+    "theorem": "dif1o",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "expression": "( A \u2208 ( B \u2216 1o ) \u2194 ( A \u2208 B \u2227 A \u2260 \u2205 ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( A \u2208 ( B \u2216 1o ) \u2194 ( A \u2208 B \u2227 A \u2260 \u2205 ) )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ), ( \ud835\udf13 \u2194 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2194 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "bitri",
+            "ground_truth": "bitri \u22a2 ( A \u2208 ( B \u2216 1o ) \u2194 ( A \u2208 B \u2227 A \u2260 \u2205 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9546412783011248,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.9996913885209483,
+            "_thrs_random_forest": 0.855
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 ( B \u2216 1o ) \u2194 A \u2208 ( B \u2216 { \u2205 } ) )",
+            "prop_expression": "A = B \u22a2 ( C \u2208 A \u2194 C \u2208 B )",
+            "step": 2,
+            "theorem": "eleq2i",
+            "ground_truth": "eleq2i \u22a2 ( A \u2208 ( B \u2216 1o ) \u2194 A \u2208 ( B \u2216 { \u2205 } ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.827126702102912,
+            "_thrs_reconstruct": 3.5382400026736224e-05,
+            "_thrs_obviousness": 0.6006828775694717,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.2666666666666666,
+            "_thrs_interestingness": 0.37346990884722764,
+            "_thrs_logistic_regression": 0.9846394478482888,
+            "_thrs_random_forest": 0.85
+        },
+        {
+            "expression": "\u22a2 ( B \u2216 1o ) = ( B \u2216 { \u2205 } )",
+            "prop_expression": "A = B \u22a2 ( C \u2216 A ) = ( C \u2216 B )",
+            "step": 3,
+            "theorem": "difeq2i",
+            "ground_truth": "difeq2i \u22a2 ( B \u2216 1o ) = ( B \u2216 { \u2205 } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9608292201335106,
+            "_thrs_reconstruct": 0.0008624049521210097,
+            "_thrs_obviousness": 0.6006472080078443,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.11111111111111109,
+            "_thrs_interestingness": 0.4423516638237911,
+            "_thrs_logistic_regression": 0.8737607195632651,
+            "_thrs_random_forest": 0.78
+        },
+        {
+            "expression": "\u22a2 1o = { \u2205 }",
+            "prop_expression": " \u22a2 1o = { \u2205 }",
+            "step": 4,
+            "theorem": "df1o2",
+            "ground_truth": "df1o2 \u22a2 1o = { \u2205 }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.15006642346003984,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.5997852587726586,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.3333333333333333,
+            "_thrs_interestingness": 0.5866237184211984,
+            "_thrs_logistic_regression": 0.851601525034753,
+            "_thrs_random_forest": 0.76
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 ( B \u2216 { \u2205 } ) \u2194 ( A \u2208 B \u2227 A \u2260 \u2205 ) )",
+            "prop_expression": " \u22a2 ( A \u2208 ( B \u2216 { C } ) \u2194 ( A \u2208 B \u2227 A \u2260 C ) )",
+            "step": 5,
+            "theorem": "eldifsn",
+            "ground_truth": "eldifsn \u22a2 ( A \u2208 ( B \u2216 { \u2205 } ) \u2194 ( A \u2208 B \u2227 A \u2260 \u2205 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.731599176011036,
+            "_thrs_reconstruct": 0.3996754957282284,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.25,
+            "_thrs_surprisingness": 0.75,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.863108017043295,
+            "_thrs_random_forest": 0.72
+        }
+    ]
+}

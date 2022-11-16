@@ -1,0 +1,188 @@
+{
+    "theorem": "sbcth2",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "expression": "( A \u2208 B \u2192 [. A / x ]. \ud835\udf11 )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( A \u2208 B \u2192 [. A / x ]. \ud835\udf11 )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf11 \u2192 \ud835\udf13 ) ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
+            "step": 1,
+            "theorem": "pm2.43i",
+            "ground_truth": "pm2.43i \u22a2 ( A \u2208 B \u2192 [. A / x ]. \ud835\udf11 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4219718058965666,
+            "_thrs_reconstruct": 2.4882786665252348e-09,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.8461538461538461,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.5082644628099173,
+            "_thrs_interestingness": 0.6708836617927527,
+            "_thrs_logistic_regression": 0.9980478806786686,
+            "_thrs_random_forest": 0.99
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 B \u2192 ( A \u2208 B \u2192 [. A / x ]. \ud835\udf11 ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 2,
+            "theorem": "mpbid",
+            "ground_truth": "mpbid \u22a2 ( A \u2208 B \u2192 ( A \u2208 B \u2192 [. A / x ]. \ud835\udf11 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6637829390577246,
+            "_thrs_reconstruct": 1.1090613485083903e-07,
+            "_thrs_obviousness": 0.9999999984796957,
+            "_thrs_weight": 0.6153846153846154,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7230769227728622,
+            "_thrs_logistic_regression": 0.9998283764551248,
+            "_thrs_random_forest": 0.99
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 B \u2192 [. A / x ]. ( x \u2208 B \u2192 \ud835\udf11 ) )",
+            "prop_expression": "\ud835\udf11 \u22a2 ( A \u2208 V \u2192 [. A / x ]. \ud835\udf11 )",
+            "step": 3,
+            "theorem": "sbcth",
+            "ground_truth": "sbcth \u22a2 ( A \u2208 B \u2192 [. A / x ]. ( x \u2208 B \u2192 \ud835\udf11 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.00830519523940676,
+            "_thrs_reconstruct": 0.00176485252309683,
+            "_thrs_obviousness": 0.0009435133911400601,
+            "_thrs_weight": 0.6153846153846154,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.11019283746556474,
+            "_thrs_interestingness": 0.34530419324826406,
+            "_thrs_logistic_regression": 0.9811912260634182,
+            "_thrs_random_forest": 0.925
+        },
+        {
+            "expression": "\u22a2 ( x \u2208 B \u2192 \ud835\udf11 )",
+            "prop_expression": " \u22a2 ( x \u2208 B \u2192 \ud835\udf11 )",
+            "step": 4,
+            "theorem": "sbcth2.1",
+            "ground_truth": "sbcth2.1 \u22a2 ( x \u2208 B \u2192 \ud835\udf11 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.21588279671297161,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.29752066115702475,
+            "_thrs_interestingness": 0.45950413223140496,
+            "_thrs_logistic_regression": 0.832761160344159,
+            "_thrs_random_forest": 0.945
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 B \u2192 ( [. A / x ]. ( x \u2208 B \u2192 \ud835\udf11 ) \u2194 ( A \u2208 B \u2192 [. A / x ]. \ud835\udf11 ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ), ( \ud835\udf11 \u2192 ( \ud835\udf12 \u2194 \ud835\udf03 ) ) \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf03 ) )",
+            "step": 5,
+            "theorem": "bitrd",
+            "ground_truth": "bitrd \u22a2 ( A \u2208 B \u2192 ( [. A / x ]. ( x \u2208 B \u2192 \ud835\udf11 ) \u2194 ( A \u2208 B \u2192 [. A / x ]. \ud835\udf11 ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.47990959641821296,
+            "_thrs_reconstruct": 1.1293941398977108e-05,
+            "_thrs_obviousness": 0.9990564254166119,
+            "_thrs_weight": 0.15384615384615385,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.8314049586776859,
+            "_thrs_interestingness": 0.5968615075880903,
+            "_thrs_logistic_regression": 0.999338438067086,
+            "_thrs_random_forest": 0.98
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 B \u2192 ( [. A / x ]. ( x \u2208 B \u2192 \ud835\udf11 ) \u2194 ( [. A / x ]. x \u2208 B \u2192 [. A / x ]. \ud835\udf11 ) ) )",
+            "prop_expression": " \u22a2 ( A \u2208 V \u2192 ( [. A / x ]. ( \ud835\udf11 \u2192 \ud835\udf13 ) \u2194 ( [. A / x ]. \ud835\udf11 \u2192 [. A / x ]. \ud835\udf13 ) ) )",
+            "step": 6,
+            "theorem": "sbcimg",
+            "ground_truth": "sbcimg \u22a2 ( A \u2208 B \u2192 ( [. A / x ]. ( x \u2208 B \u2192 \ud835\udf11 ) \u2194 ( [. A / x ]. x \u2208 B \u2192 [. A / x ]. \ud835\udf11 ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.32343729449798386,
+            "_thrs_reconstruct": 0.868732597187844,
+            "_thrs_obviousness": 0.4644357887967307,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.29288715775934615,
+            "_thrs_logistic_regression": 0.9389626248217927,
+            "_thrs_random_forest": 0.7633333333333333
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 B \u2192 ( ( [. A / x ]. x \u2208 B \u2192 [. A / x ]. \ud835\udf11 ) \u2194 ( A \u2208 B \u2192 [. A / x ]. \ud835\udf11 ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2192 ( ( \ud835\udf13 \u2192 \ud835\udf03 ) \u2194 ( \ud835\udf12 \u2192 \ud835\udf03 ) ) )",
+            "step": 7,
+            "theorem": "imbi1d",
+            "ground_truth": "imbi1d \u22a2 ( A \u2208 B \u2192 ( ( [. A / x ]. x \u2208 B \u2192 [. A / x ]. \ud835\udf11 ) \u2194 ( A \u2208 B \u2192 [. A / x ]. \ud835\udf11 ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.23161208476816852,
+            "_thrs_reconstruct": 2.884270442883679e-06,
+            "_thrs_obviousness": 0.5346145983512773,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.21694214876033055,
+            "_thrs_interestingness": 0.35031134942232156,
+            "_thrs_logistic_regression": 0.9801174684762902,
+            "_thrs_random_forest": 0.66375
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 B \u2192 ( [. A / x ]. x \u2208 B \u2194 A \u2208 B ) )",
+            "prop_expression": " \u22a2 ( A \u2208 V \u2192 ( [. A / x ]. x \u2208 B \u2194 A \u2208 B ) )",
+            "step": 8,
+            "theorem": "sbcel1gv",
+            "ground_truth": "sbcel1gv \u22a2 ( A \u2208 B \u2192 ( [. A / x ]. x \u2208 B \u2194 A \u2208 B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.09109788898952098,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.5346130561926029,
+            "_thrs_weight": 0.46153846153846156,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.029301277235161533,
+            "_thrs_interestingness": 0.40509055899324525,
+            "_thrs_logistic_regression": 0.40102088129587443,
+            "_thrs_random_forest": 0.8720833333333333
+        }
+    ]
+}

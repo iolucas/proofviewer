@@ -1,0 +1,119 @@
+{
+    "theorem": "cvjust",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "expression": "x = { y | y \u2208 x }",
+    "steps": [
+        {
+            "expression": "\u22a2 x = { y | y \u2208 x }",
+            "prop_expression": "( \ud835\udf11 \u2194 \u2200 x \ud835\udf13 ), \ud835\udf13 \u22a2 \ud835\udf11",
+            "step": 1,
+            "theorem": "mpgbir",
+            "ground_truth": "mpgbir \u22a2 x = { y | y \u2208 x }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9730023086926988,
+            "_thrs_reconstruct": 8.483000800427875e-06,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.9903666769802343,
+            "_thrs_random_forest": 0.985
+        },
+        {
+            "expression": "\u22a2 ( x = { y | y \u2208 x } \u2194 \u2200 z ( z \u2208 x \u2194 z \u2208 { y | y \u2208 x } ) )",
+            "prop_expression": " \u22a2 ( A = B \u2194 \u2200 x ( x \u2208 A \u2194 x \u2208 B ) )",
+            "step": 2,
+            "theorem": "dfcleq",
+            "ground_truth": "dfcleq \u22a2 ( x = { y | y \u2208 x } \u2194 \u2200 z ( z \u2208 x \u2194 z \u2208 { y | y \u2208 x } ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3352437116838115,
+            "_thrs_reconstruct": 2.562066082883683e-09,
+            "_thrs_obviousness": 2.5619738069280603e-09,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.10000000051239477,
+            "_thrs_logistic_regression": 0.9692392435577329,
+            "_thrs_random_forest": 0.96
+        },
+        {
+            "expression": "\u22a2 ( z \u2208 x \u2194 z \u2208 { y | y \u2208 x } )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ), ( \ud835\udf13 \u2194 \ud835\udf12 ) \u22a2 ( \ud835\udf12 \u2194 \ud835\udf11 )",
+            "step": 3,
+            "theorem": "bitr2i",
+            "ground_truth": "bitr2i \u22a2 ( z \u2208 x \u2194 z \u2208 { y | y \u2208 x } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9258983853791343,
+            "_thrs_reconstruct": 2.7521713862336525e-05,
+            "_thrs_obviousness": 0.9999915096188038,
+            "_thrs_weight": 0.6,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.5533333333333335,
+            "_thrs_interestingness": 0.5306649685904274,
+            "_thrs_logistic_regression": 0.9990156308784779,
+            "_thrs_random_forest": 0.99
+        },
+        {
+            "expression": "\u22a2 ( z \u2208 { y | y \u2208 x } \u2194 [. z / y ]. y \u2208 x )",
+            "prop_expression": " \u22a2 ( x \u2208 { y | \ud835\udf11 } \u2194 [. x / y ]. \ud835\udf11 )",
+            "step": 4,
+            "theorem": "df-clab",
+            "ground_truth": "df-clab \u22a2 ( z \u2208 { y | y \u2208 x } \u2194 [. z / y ]. y \u2208 x )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4412444158757386,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.4,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.029090909090909098,
+            "_thrs_interestingness": 0.18581818181818183,
+            "_thrs_logistic_regression": 0.9818136935171357,
+            "_thrs_random_forest": 0.55
+        },
+        {
+            "expression": "\u22a2 ( [. z / y ]. y \u2208 x \u2194 z \u2208 x )",
+            "prop_expression": " \u22a2 ( [. x / y ]. y \u2208 z \u2194 x \u2208 z )",
+            "step": 5,
+            "theorem": "elsb3",
+            "ground_truth": "elsb3 \u22a2 ( [. z / y ]. y \u2208 x \u2194 z \u2208 x )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.025506785504057605,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9999639837722222,
+            "_thrs_weight": 0.7,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.07,
+            "_thrs_interestingness": 0.4539927967544444,
+            "_thrs_logistic_regression": 0.9879907118786696,
+            "_thrs_random_forest": 0.76
+        }
+    ]
+}

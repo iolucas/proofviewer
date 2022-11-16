@@ -1,0 +1,165 @@
+{
+    "theorem": "tbwlem5",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "expression": "( ( ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 F. ) ) \u2192 F. ) \u2192 \ud835\udf11 )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( ( ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 F. ) ) \u2192 F. ) \u2192 \ud835\udf11 )",
+            "prop_expression": "\ud835\udf11, ( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 \ud835\udf13",
+            "step": 1,
+            "theorem": "ax-mp",
+            "ground_truth": "ax-mp \u22a2 ( ( ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 F. ) ) \u2192 F. ) \u2192 \ud835\udf11 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.2076679035463943,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.7142857142857143,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7428571428571429,
+            "_thrs_logistic_regression": 0.999843822540039,
+            "_thrs_random_forest": 0.975
+        },
+        {
+            "expression": "\u22a2 ( ( \ud835\udf11 \u2192 F. ) \u2192 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 F. ) ) )",
+            "prop_expression": "\ud835\udf11, ( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 \ud835\udf13",
+            "step": 2,
+            "theorem": "ax-mp",
+            "ground_truth": "ax-mp \u22a2 ( ( \ud835\udf11 \u2192 F. ) \u2192 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 F. ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.10904216431541414,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.033983286908077996,
+            "_thrs_weight": 0.7142857142857143,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.5496538002387584,
+            "_thrs_logistic_regression": 0.9998562152457904,
+            "_thrs_random_forest": 0.975
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 ( ( \ud835\udf11 \u2192 F. ) \u2192 ( \ud835\udf13 \u2192 F. ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf13 \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 3,
+            "theorem": "tbwsyl",
+            "ground_truth": "tbwsyl \u22a2 ( \ud835\udf11 \u2192 ( ( \ud835\udf11 \u2192 F. ) \u2192 ( \ud835\udf13 \u2192 F. ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8357161597592844,
+            "_thrs_reconstruct": 0.0023790642347343376,
+            "_thrs_obviousness": 0.004596100278551532,
+            "_thrs_weight": 0.7142857142857143,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.5555555555555555,
+            "_thrs_interestingness": 0.45488747402396423,
+            "_thrs_logistic_regression": 0.9984243151260326,
+            "_thrs_random_forest": 0.585
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf11 ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf11 ) )",
+            "step": 4,
+            "theorem": "tbw-ax2",
+            "ground_truth": "tbw-ax2 \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf11 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7720843842485756,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.13580246913580246,
+            "_thrs_interestingness": 0.42716049382716054,
+            "_thrs_logistic_regression": 0.6754074828341788,
+            "_thrs_random_forest": 0.75
+        },
+        {
+            "expression": "\u22a2 ( ( \ud835\udf13 \u2192 \ud835\udf11 ) \u2192 ( ( \ud835\udf11 \u2192 F. ) \u2192 ( \ud835\udf13 \u2192 F. ) ) )",
+            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2192 \ud835\udf13 ) \u2192 ( ( \ud835\udf13 \u2192 \ud835\udf12 ) \u2192 ( \ud835\udf11 \u2192 \ud835\udf12 ) ) )",
+            "step": 5,
+            "theorem": "tbw-ax1",
+            "ground_truth": "tbw-ax1 \u22a2 ( ( \ud835\udf13 \u2192 \ud835\udf11 ) \u2192 ( ( \ud835\udf11 \u2192 F. ) \u2192 ( \ud835\udf13 \u2192 F. ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.21867080683356854,
+            "_thrs_reconstruct": 0.0023069713791363275,
+            "_thrs_obviousness": 0.0022284122562674096,
+            "_thrs_weight": 0.5714285714285714,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.07407407407407407,
+            "_thrs_interestingness": 0.3295462115517826,
+            "_thrs_logistic_regression": 0.9762822101073213,
+            "_thrs_random_forest": 0.33299999999999996
+        },
+        {
+            "expression": "\u22a2 ( ( \ud835\udf11 \u2192 ( ( \ud835\udf11 \u2192 F. ) \u2192 ( \ud835\udf13 \u2192 F. ) ) ) \u2192 ( ( \ud835\udf11 \u2192 F. ) \u2192 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 F. ) ) ) )",
+            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf12 ) ) \u2192 ( \ud835\udf13 \u2192 ( \ud835\udf11 \u2192 \ud835\udf12 ) ) )",
+            "step": 6,
+            "theorem": "tbwlem1",
+            "ground_truth": "tbwlem1 \u22a2 ( ( \ud835\udf11 \u2192 ( ( \ud835\udf11 \u2192 F. ) \u2192 ( \ud835\udf13 \u2192 F. ) ) ) \u2192 ( ( \ud835\udf11 \u2192 F. ) \u2192 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 F. ) ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.36379759597453076,
+            "_thrs_reconstruct": 0.03035109220676231,
+            "_thrs_obviousness": 0.029317548746518107,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.20586350974930362,
+            "_thrs_logistic_regression": 0.9410626112891037,
+            "_thrs_random_forest": 0.2
+        },
+        {
+            "expression": "\u22a2 ( ( ( \ud835\udf11 \u2192 F. ) \u2192 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 F. ) ) ) \u2192 ( ( ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 F. ) ) \u2192 F. ) \u2192 \ud835\udf11 ) )",
+            "prop_expression": " \u22a2 ( ( ( \ud835\udf11 \u2192 F. ) \u2192 \ud835\udf13 ) \u2192 ( ( \ud835\udf13 \u2192 F. ) \u2192 \ud835\udf11 ) )",
+            "step": 7,
+            "theorem": "tbwlem4",
+            "ground_truth": "tbwlem4 \u22a2 ( ( ( \ud835\udf11 \u2192 F. ) \u2192 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 F. ) ) ) \u2192 ( ( ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 F. ) ) \u2192 F. ) \u2192 \ud835\udf11 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5252193204223014,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9659470752089137,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.39318941504178273,
+            "_thrs_logistic_regression": 0.936455499663946,
+            "_thrs_random_forest": 0.885
+        }
+    ]
+}

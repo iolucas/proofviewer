@@ -1,0 +1,142 @@
+{
+    "theorem": "oveq123i",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "expression": "( A F B ) = ( C G D )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( A F B ) = ( C G D )",
+            "prop_expression": "A = B, B = C \u22a2 A = C",
+            "step": 1,
+            "theorem": "eqtri",
+            "ground_truth": "eqtri \u22a2 ( A F B ) = ( C G D )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.1072368932767277,
+            "_thrs_reconstruct": 1.2932190931765081e-07,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.9998431944152827,
+            "_thrs_random_forest": 0.86
+        },
+        {
+            "expression": "\u22a2 ( A F B ) = ( C F D )",
+            "prop_expression": "A = B, C = D \u22a2 ( A F C ) = ( B F D )",
+            "step": 2,
+            "theorem": "oveq12i",
+            "ground_truth": "oveq12i \u22a2 ( A F B ) = ( C F D )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7334344183369901,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.7164041267273575,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.25,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.12500000000000003,
+            "_thrs_interestingness": 0.31828082534547153,
+            "_thrs_logistic_regression": 0.9423017624546447,
+            "_thrs_random_forest": 0.925
+        },
+        {
+            "expression": "\u22a2 A = C",
+            "prop_expression": " \u22a2 A = C",
+            "step": 3,
+            "theorem": "oveq123i.1",
+            "ground_truth": "oveq123i.1 \u22a2 A = C",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4640761267519704,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.25,
+            "_thrs_interestingness": 0.55,
+            "_thrs_logistic_regression": 0.6618814202063259,
+            "_thrs_random_forest": 0.94
+        },
+        {
+            "expression": "\u22a2 B = D",
+            "prop_expression": " \u22a2 B = D",
+            "step": 4,
+            "theorem": "oveq123i.2",
+            "ground_truth": "oveq123i.2 \u22a2 B = D",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.556024684314932,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.25,
+            "_thrs_interestingness": 0.55,
+            "_thrs_logistic_regression": 0.6618814202063259,
+            "_thrs_random_forest": 0.94
+        },
+        {
+            "expression": "\u22a2 ( C F D ) = ( C G D )",
+            "prop_expression": "A = B \u22a2 ( C A D ) = ( C B D )",
+            "step": 5,
+            "theorem": "oveqi",
+            "ground_truth": "oveqi \u22a2 ( C F D ) = ( C G D )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.25686982721857343,
+            "_thrs_reconstruct": 0.39586006004861324,
+            "_thrs_obviousness": 0.2835957806254158,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.25671915612508317,
+            "_thrs_logistic_regression": 0.7079352246705343,
+            "_thrs_random_forest": 0.875
+        },
+        {
+            "expression": "\u22a2 F = G",
+            "prop_expression": " \u22a2 F = G",
+            "step": 6,
+            "theorem": "oveq123i.3",
+            "ground_truth": "oveq123i.3 \u22a2 F = G",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7442314653544339,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.25,
+            "_thrs_interestingness": 0.55,
+            "_thrs_logistic_regression": 0.6618814202063259,
+            "_thrs_random_forest": 0.905
+        }
+    ]
+}

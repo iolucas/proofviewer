@@ -1,0 +1,73 @@
+{
+    "theorem": "inss2",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( A \u2229 B ) \u2286 B",
+    "steps": [
+        {
+            "expression": "\u22a2 ( A \u2229 B ) \u2286 B",
+            "prop_expression": "B = A, B \u2286 C \u22a2 A \u2286 C",
+            "step": 1,
+            "theorem": "eqsstr3i",
+            "ground_truth": "eqsstr3i \u22a2 ( A \u2229 B ) \u2286 B",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.0790766242597748,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.9998810702354666,
+            "_thrs_random_forest": 0.825
+        },
+        {
+            "expression": "\u22a2 ( B \u2229 A ) = ( A \u2229 B )",
+            "prop_expression": " \u22a2 ( A \u2229 B ) = ( B \u2229 A )",
+            "step": 2,
+            "theorem": "incom",
+            "ground_truth": "incom \u22a2 ( B \u2229 A ) = ( A \u2229 B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.10436506474900542,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.4944378535691922,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2988875707138384,
+            "_thrs_logistic_regression": 0.26971637702856827,
+            "_thrs_random_forest": 0.79
+        },
+        {
+            "expression": "\u22a2 ( B \u2229 A ) \u2286 B",
+            "prop_expression": " \u22a2 ( A \u2229 B ) \u2286 A",
+            "step": 3,
+            "theorem": "inss1",
+            "ground_truth": "inss1 \u22a2 ( B \u2229 A ) \u2286 B",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5833631786183036,
+            "_thrs_reconstruct": 0.49657153201894955,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.17647058823529413,
+            "_thrs_interestingness": 0.4352941176470588,
+            "_thrs_logistic_regression": 0.9907968222717839,
+            "_thrs_random_forest": 0.825
+        }
+    ]
+}

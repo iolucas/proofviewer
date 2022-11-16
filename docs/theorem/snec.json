@@ -1,0 +1,188 @@
+{
+    "theorem": "snec",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            7
+        ],
+        [
+            1,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "expression": "{ [ A ] .~ } = ( { A } /. .~ )",
+    "steps": [
+        {
+            "expression": "\u22a2 { [ A ] .~ } = ( { A } /. .~ )",
+            "prop_expression": "A = B, C = A, D = B \u22a2 D = C",
+            "step": 1,
+            "theorem": "3eqtr4ri",
+            "ground_truth": "3eqtr4ri \u22a2 { [ A ] .~ } = ( { A } /. .~ )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7348579421943121,
+            "_thrs_reconstruct": 6.907080684630865e-07,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.75,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.4473684210526316,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8394736842105264,
+            "_thrs_logistic_regression": 0.9886340170367438,
+            "_thrs_random_forest": 0.96
+        },
+        {
+            "expression": "\u22a2 { y | \u2203 x \u2208 { A } y = [ x ] .~ } = { y | y = [ A ] .~ }",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ) \u22a2 { x | \ud835\udf11 } = { x | \ud835\udf13 }",
+            "step": 2,
+            "theorem": "abbii",
+            "ground_truth": "abbii \u22a2 { y | \u2203 x \u2208 { A } y = [ x ] .~ } = { y | y = [ A ] .~ }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3677641990095829,
+            "_thrs_reconstruct": 1.4277764146708223e-05,
+            "_thrs_obviousness": 0.9999993148329472,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.3947368421052631,
+            "_thrs_intensity": 0.1446280991735537,
+            "_thrs_interestingness": 0.3745395178890195,
+            "_thrs_logistic_regression": 0.930465930338657,
+            "_thrs_random_forest": 0.785
+        },
+        {
+            "expression": "\u22a2 ( \u2203 x \u2208 { A } y = [ x ] .~ \u2194 y = [ A ] .~ )",
+            "prop_expression": "A \u2208 V, ( x = A \u2192 ( \ud835\udf11 \u2194 \ud835\udf13 ) ) \u22a2 ( \u2203 x \u2208 { A } \ud835\udf11 \u2194 \ud835\udf13 )",
+            "step": 3,
+            "theorem": "rexsn",
+            "ground_truth": "rexsn \u22a2 ( \u2203 x \u2208 { A } y = [ x ] .~ \u2194 y = [ A ] .~ )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.12635571224201259,
+            "_thrs_reconstruct": 0.008075440952686617,
+            "_thrs_obviousness": 0.9999851516584077,
+            "_thrs_weight": 0.25,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.3947368421052631,
+            "_thrs_intensity": 0.23569023569023564,
+            "_thrs_interestingness": 0.442749112557448,
+            "_thrs_logistic_regression": 0.9652311653133572,
+            "_thrs_random_forest": 0.85
+        },
+        {
+            "expression": "\u22a2 A \u2208 V",
+            "prop_expression": " \u22a2 A \u2208 V",
+            "step": 4,
+            "theorem": "snec.1",
+            "ground_truth": "snec.1 \u22a2 A \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4759412062351317,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.47368421052631576,
+            "_thrs_intensity": 0.2272727272727273,
+            "_thrs_interestingness": 0.5401913875598087,
+            "_thrs_logistic_regression": 0.642149177333481,
+            "_thrs_random_forest": 0.9
+        },
+        {
+            "expression": "\u22a2 ( x = A \u2192 ( y = [ x ] .~ \u2194 y = [ A ] .~ ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 A = B ) \u22a2 ( \ud835\udf11 \u2192 ( C = A \u2194 C = B ) )",
+            "step": 5,
+            "theorem": "eqeq2d",
+            "ground_truth": "eqeq2d \u22a2 ( x = A \u2192 ( y = [ x ] .~ \u2194 y = [ A ] .~ ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3272456243687788,
+            "_thrs_reconstruct": 3.216290220333927e-07,
+            "_thrs_obviousness": 0.9919745225498003,
+            "_thrs_weight": 0.375,
+            "_thrs_complexity": 0.6666666666666667,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.2272727272727273,
+            "_thrs_interestingness": 0.45218278329783884,
+            "_thrs_logistic_regression": 0.9037008182931814,
+            "_thrs_random_forest": 0.735
+        },
+        {
+            "expression": "\u22a2 ( x = A \u2192 [ x ] .~ = [ A ] .~ )",
+            "prop_expression": " \u22a2 ( A = B \u2192 [ A ] C = [ B ] C )",
+            "step": 6,
+            "theorem": "eceq1",
+            "ground_truth": "eceq1 \u22a2 ( x = A \u2192 [ x ] .~ = [ A ] .~ )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9891173563474189,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9919742035012851,
+            "_thrs_weight": 0.625,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.523394840700257,
+            "_thrs_logistic_regression": 0.39113062148638794,
+            "_thrs_random_forest": 0.575
+        },
+        {
+            "expression": "\u22a2 ( { A } /. .~ ) = { y | \u2203 x \u2208 { A } y = [ x ] .~ }",
+            "prop_expression": " \u22a2 ( A /. .~ ) = { y | \u2203 x \u2208 A y = [ x ] .~ }",
+            "step": 7,
+            "theorem": "df-qs",
+            "ground_truth": "df-qs \u22a2 ( { A } /. .~ ) = { y | \u2203 x \u2208 { A } y = [ x ] .~ }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.2879170322953428,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.125,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.04545454545454545,
+            "_thrs_interestingness": 0.23409090909090907,
+            "_thrs_logistic_regression": 0.9584141002590245,
+            "_thrs_random_forest": 0.775
+        },
+        {
+            "expression": "\u22a2 { [ A ] .~ } = { y | y = [ A ] .~ }",
+            "prop_expression": " \u22a2 { A } = { x | x = A }",
+            "step": 8,
+            "theorem": "df-sn",
+            "ground_truth": "df-sn \u22a2 { [ A ] .~ } = { y | y = [ A ] .~ }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.15351149987456036,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.625,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.325,
+            "_thrs_logistic_regression": 0.411527970393596,
+            "_thrs_random_forest": 0.865
+        }
+    ]
+}

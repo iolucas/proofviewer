@@ -1,0 +1,165 @@
+{
+    "theorem": "soeq2",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "expression": "( A = B \u2192 ( R Or A \u2194 R Or B ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( A = B \u2192 ( R Or A \u2194 R Or B ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf12 \u2194 \ud835\udf13 ) )",
+            "step": 1,
+            "theorem": "bicomd",
+            "ground_truth": "bicomd \u22a2 ( A = B \u2192 ( R Or A \u2194 R Or B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8176226060976794,
+            "_thrs_reconstruct": 5.734405573640758e-05,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.25,
+            "_thrs_intensity": 0.18617021276595744,
+            "_thrs_interestingness": 0.5872340425531914,
+            "_thrs_logistic_regression": 0.9577475707996213,
+            "_thrs_random_forest": 0.945
+        },
+        {
+            "expression": "\u22a2 ( A = B \u2192 ( R Or B \u2194 R Or A ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf12 \u2194 \ud835\udf11 ), ( \ud835\udf03 \u2194 \ud835\udf13 ) \u22a2 ( \ud835\udf12 \u2192 \ud835\udf03 )",
+            "step": 2,
+            "theorem": "3imtr4i",
+            "ground_truth": "3imtr4i \u22a2 ( A = B \u2192 ( R Or B \u2194 R Or A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4223830518129924,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.9999489841172223,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.25,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7499897968234445,
+            "_thrs_logistic_regression": 0.999453858074588,
+            "_thrs_random_forest": 0.95
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2286 B \u2227 B \u2286 A ) \u2192 ( ( R Or B \u2192 R Or A ) \u2227 ( R Or A \u2192 R Or B ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf12 \u2192 \ud835\udf03 ) \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf12 ) \u2192 ( \ud835\udf13 \u2227 \ud835\udf03 ) )",
+            "step": 3,
+            "theorem": "anim12i",
+            "ground_truth": "anim12i \u22a2 ( ( A \u2286 B \u2227 B \u2286 A ) \u2192 ( ( R Or B \u2192 R Or A ) \u2227 ( R Or A \u2192 R Or B ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8152868802418628,
+            "_thrs_reconstruct": 0.00017161845538929258,
+            "_thrs_obviousness": 0.8325208538651235,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.18617021276595744,
+            "_thrs_interestingness": 0.40373821332621623,
+            "_thrs_logistic_regression": 0.9760207696361776,
+            "_thrs_random_forest": 0.63
+        },
+        {
+            "expression": "\u22a2 ( A \u2286 B \u2192 ( R Or B \u2192 R Or A ) )",
+            "prop_expression": " \u22a2 ( A \u2286 B \u2192 ( R Or B \u2192 R Or A ) )",
+            "step": 4,
+            "theorem": "soss",
+            "ground_truth": "soss \u22a2 ( A \u2286 B \u2192 ( R Or B \u2192 R Or A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8770870836119755,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.41616531308242866,
+            "_thrs_weight": 0.9,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0797872340425532,
+            "_thrs_interestingness": 0.4791905094249964,
+            "_thrs_logistic_regression": 0.9824723507934792,
+            "_thrs_random_forest": 0.8
+        },
+        {
+            "expression": "\u22a2 ( B \u2286 A \u2192 ( R Or A \u2192 R Or B ) )",
+            "prop_expression": " \u22a2 ( A \u2286 B \u2192 ( R Or B \u2192 R Or A ) )",
+            "step": 5,
+            "theorem": "soss",
+            "ground_truth": "soss \u22a2 ( B \u2286 A \u2192 ( R Or A \u2192 R Or B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9243531010459749,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.41616531308242866,
+            "_thrs_weight": 0.9,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0797872340425532,
+            "_thrs_interestingness": 0.4791905094249964,
+            "_thrs_logistic_regression": 0.9824723507934792,
+            "_thrs_random_forest": 0.8
+        },
+        {
+            "expression": "\u22a2 ( A = B \u2194 ( A \u2286 B \u2227 B \u2286 A ) )",
+            "prop_expression": " \u22a2 ( A = B \u2194 ( A \u2286 B \u2227 B \u2286 A ) )",
+            "step": 6,
+            "theorem": "eqss",
+            "ground_truth": "eqss \u22a2 ( A = B \u2194 ( A \u2286 B \u2227 B \u2286 A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9241017416547007,
+            "_thrs_reconstruct": 0.4018986206739999,
+            "_thrs_obviousness": 0.1672176878639107,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.036569148936170214,
+            "_thrs_interestingness": 0.44075736736001614,
+            "_thrs_logistic_regression": 0.5456232059757326,
+            "_thrs_random_forest": 0.565
+        },
+        {
+            "expression": "\u22a2 ( ( R Or B \u2194 R Or A ) \u2194 ( ( R Or B \u2192 R Or A ) \u2227 ( R Or A \u2192 R Or B ) ) )",
+            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2194 \ud835\udf13 ) \u2194 ( ( \ud835\udf11 \u2192 \ud835\udf13 ) \u2227 ( \ud835\udf13 \u2192 \ud835\udf11 ) ) )",
+            "step": 7,
+            "theorem": "dfbi2",
+            "ground_truth": "dfbi2 \u22a2 ( ( R Or B \u2194 R Or A ) \u2194 ( ( R Or B \u2192 R Or A ) \u2227 ( R Or A \u2192 R Or B ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7219257397778349,
+            "_thrs_reconstruct": 0.00015496205776949538,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.25,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.15,
+            "_thrs_logistic_regression": 0.7769995522048563,
+            "_thrs_random_forest": 0.495
+        }
+    ]
+}

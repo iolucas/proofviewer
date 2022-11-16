@@ -1,0 +1,119 @@
+{
+    "theorem": "indifcom",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            1,
+            5
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( A \u2229 ( B \u2216 C ) ) = ( B \u2229 ( A \u2216 C ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( A \u2229 ( B \u2216 C ) ) = ( B \u2229 ( A \u2216 C ) )",
+            "prop_expression": "A = B, C = A, D = B \u22a2 C = D",
+            "step": 1,
+            "theorem": "3eqtr4i",
+            "ground_truth": "3eqtr4i \u22a2 ( A \u2229 ( B \u2216 C ) ) = ( B \u2229 ( A \u2216 C ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.12670370522795915,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.9996913885209483,
+            "_thrs_random_forest": 0.915
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2229 B ) \u2216 C ) = ( ( B \u2229 A ) \u2216 C )",
+            "prop_expression": "A = B \u22a2 ( A \u2216 C ) = ( B \u2216 C )",
+            "step": 2,
+            "theorem": "difeq1i",
+            "ground_truth": "difeq1i \u22a2 ( ( A \u2229 B ) \u2216 C ) = ( ( B \u2229 A ) \u2216 C )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7498783480661846,
+            "_thrs_reconstruct": 0.01679687851695672,
+            "_thrs_obviousness": 0.008332610342047655,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.2,
+            "_thrs_interestingness": 0.2416665220684095,
+            "_thrs_logistic_regression": 0.9791935166180779,
+            "_thrs_random_forest": 0.875
+        },
+        {
+            "expression": "\u22a2 ( A \u2229 B ) = ( B \u2229 A )",
+            "prop_expression": " \u22a2 ( A \u2229 B ) = ( B \u2229 A )",
+            "step": 3,
+            "theorem": "incom",
+            "ground_truth": "incom \u22a2 ( A \u2229 B ) = ( B \u2229 A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.756808565697627,
+            "_thrs_reconstruct": 0.09993701579403245,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.5,
+            "_thrs_random_forest": 0.64
+        },
+        {
+            "expression": "\u22a2 ( A \u2229 ( B \u2216 C ) ) = ( ( A \u2229 B ) \u2216 C )",
+            "prop_expression": " \u22a2 ( A \u2229 ( B \u2216 C ) ) = ( ( A \u2229 B ) \u2216 C )",
+            "step": 4,
+            "theorem": "indif2",
+            "ground_truth": "indif2 \u22a2 ( A \u2229 ( B \u2216 C ) ) = ( ( A \u2229 B ) \u2216 C )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.15950844788537244,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.44627580455280175,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.28925516091056036,
+            "_thrs_logistic_regression": 0.9390516515930855,
+            "_thrs_random_forest": 0.885
+        },
+        {
+            "expression": "\u22a2 ( B \u2229 ( A \u2216 C ) ) = ( ( B \u2229 A ) \u2216 C )",
+            "prop_expression": " \u22a2 ( A \u2229 ( B \u2216 C ) ) = ( ( A \u2229 B ) \u2216 C )",
+            "step": 5,
+            "theorem": "indif2",
+            "ground_truth": "indif2 \u22a2 ( B \u2229 ( A \u2216 C ) ) = ( ( B \u2229 A ) \u2216 C )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3753217046019389,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.44627580455280175,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.28925516091056036,
+            "_thrs_logistic_regression": 0.9390516515930855,
+            "_thrs_random_forest": 0.885
+        }
+    ]
+}

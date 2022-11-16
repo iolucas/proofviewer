@@ -1,0 +1,142 @@
+{
+    "theorem": "en2sn",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            1,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "expression": "( ( A \u2208 C \u2227 B \u2208 D ) \u2192 { A } \u2248 { B } )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( ( A \u2208 C \u2227 B \u2208 D ) \u2192 { A } \u2248 { B } )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf0f \u2192 \ud835\udf12 ), ( ( \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf0f ) \u2192 \ud835\udf03 )",
+            "step": 1,
+            "theorem": "syl2an",
+            "ground_truth": "syl2an \u22a2 ( ( A \u2208 C \u2227 B \u2208 D ) \u2192 { A } \u2248 { B } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9687056861626298,
+            "_thrs_reconstruct": 6.205857686748195e-12,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.9996913885209483,
+            "_thrs_random_forest": 0.84
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 C \u2192 { A } \u2248 1o )",
+            "prop_expression": " \u22a2 ( A \u2208 V \u2192 { A } \u2248 1o )",
+            "step": 2,
+            "theorem": "ensn1g",
+            "ground_truth": "ensn1g \u22a2 ( A \u2208 C \u2192 { A } \u2248 1o )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5891069953668706,
+            "_thrs_reconstruct": 0.19069766699820911,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.7088607594936709,
+            "_thrs_intensity": 0.25000000000000006,
+            "_thrs_interestingness": 0.4584388185654008,
+            "_thrs_logistic_regression": 0.9776054843522025,
+            "_thrs_random_forest": 0.89
+        },
+        {
+            "expression": "\u22a2 ( B \u2208 D \u2192 1o \u2248 { B } )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf13 \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 3,
+            "theorem": "syl",
+            "ground_truth": "syl \u22a2 ( B \u2208 D \u2192 1o \u2248 { B } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6042251837994805,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.4570758966996191,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.6708860759493671,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.692259061196464,
+            "_thrs_logistic_regression": 0.9996046544622867,
+            "_thrs_random_forest": 0.93
+        },
+        {
+            "expression": "\u22a2 ( B \u2208 D \u2192 { B } \u2248 1o )",
+            "prop_expression": " \u22a2 ( A \u2208 V \u2192 { A } \u2248 1o )",
+            "step": 4,
+            "theorem": "ensn1g",
+            "ground_truth": "ensn1g \u22a2 ( B \u2208 D \u2192 { B } \u2248 1o )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7950161115576414,
+            "_thrs_reconstruct": 0.19069766699820911,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.6708860759493671,
+            "_thrs_intensity": 0.25000000000000006,
+            "_thrs_interestingness": 0.4508438818565401,
+            "_thrs_logistic_regression": 0.978704316346814,
+            "_thrs_random_forest": 0.675
+        },
+        {
+            "expression": "\u22a2 ( { B } \u2248 1o \u2192 1o \u2248 { B } )",
+            "prop_expression": " \u22a2 ( A \u2248 B \u2192 B \u2248 A )",
+            "step": 5,
+            "theorem": "ensym",
+            "ground_truth": "ensym \u22a2 ( { B } \u2248 1o \u2192 1o \u2248 { B } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.049231516603327585,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.3699125895578856,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.035714285714285726,
+            "_thrs_interestingness": 0.4811253750544342,
+            "_thrs_logistic_regression": 0.5401730314941502,
+            "_thrs_random_forest": 0.705
+        },
+        {
+            "expression": "\u22a2 ( ( { A } \u2248 1o \u2227 1o \u2248 { B } ) \u2192 { A } \u2248 { B } )",
+            "prop_expression": " \u22a2 ( ( A \u2248 B \u2227 B \u2248 C ) \u2192 A \u2248 C )",
+            "step": 6,
+            "theorem": "entr",
+            "ground_truth": "entr \u22a2 ( ( { A } \u2248 1o \u2227 1o \u2248 { B } ) \u2192 { A } \u2248 { B } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5810723581530391,
+            "_thrs_reconstruct": 0.9971227961191936,
+            "_thrs_obviousness": 0.36859748901407835,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.6666666666666667,
+            "_thrs_surprisingness": 0.26582278481012656,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2602173880981743,
+            "_thrs_logistic_regression": 0.5862321195782028,
+            "_thrs_random_forest": 0.85
+        }
+    ]
+}

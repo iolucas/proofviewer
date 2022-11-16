@@ -1,0 +1,188 @@
+{
+    "theorem": "hbriota1",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "expression": "( y \u2208 ( io\ud835\udf0f_ x \u2208 A \ud835\udf11 ) \u2192 \u2200 x y \u2208 ( io\ud835\udf0f_ x \u2208 A \ud835\udf11 ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( y \u2208 ( io\ud835\udf0f_ x \u2208 A \ud835\udf11 ) \u2192 \u2200 x y \u2208 ( io\ud835\udf0f_ x \u2208 A \ud835\udf11 ) )",
+            "prop_expression": "A = B, ( y \u2208 B \u2192 \u2200 x y \u2208 B ) \u22a2 ( y \u2208 A \u2192 \u2200 x y \u2208 A )",
+            "step": 1,
+            "theorem": "hbxfreq",
+            "ground_truth": "hbxfreq \u22a2 ( y \u2208 ( io\ud835\udf0f_ x \u2208 A \ud835\udf11 ) \u2192 \u2200 x y \u2208 ( io\ud835\udf0f_ x \u2208 A \ud835\udf11 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.13960638472050513,
+            "_thrs_reconstruct": 7.724060739248391e-08,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.75,
+            "_thrs_complexity": 0.75,
+            "_thrs_surprisingness": 0.07894736842105263,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7157894736842105,
+            "_thrs_logistic_regression": 0.9980442414756824,
+            "_thrs_random_forest": 0.97
+        },
+        {
+            "expression": "\u22a2 ( io\ud835\udf0f_ x \u2208 A \ud835\udf11 ) = if ( E! x \u2208 A \ud835\udf11 , ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) , ( Undef ` A ) )",
+            "prop_expression": " \u22a2 ( io\ud835\udf0f_ x \u2208 A \ud835\udf11 ) = if ( E! x \u2208 A \ud835\udf11 , ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) , ( Undef ` A ) )",
+            "step": 2,
+            "theorem": "df-riota",
+            "ground_truth": "df-riota \u22a2 ( io\ud835\udf0f_ x \u2208 A \ud835\udf11 ) = if ( E! x \u2208 A \ud835\udf11 , ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) , ( Undef ` A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6749993633816191,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5833333333333333,
+            "_thrs_complexity": 0.25,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.03972498090145152,
+            "_thrs_interestingness": 0.37461166284695696,
+            "_thrs_logistic_regression": 0.9066520390138045,
+            "_thrs_random_forest": 0.965
+        },
+        {
+            "expression": "\u22a2 ( y \u2208 if ( E! x \u2208 A \ud835\udf11 , ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) , ( Undef ` A ) ) \u2192 \u2200 x y \u2208 if ( E! x \u2208 A \ud835\udf11 , ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) , ( Undef ` A ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 \u2200 x \ud835\udf11 ), ( y \u2208 A \u2192 \u2200 x y \u2208 A ), ( y \u2208 B \u2192 \u2200 x y \u2208 B ) \u22a2 ( y \u2208 if ( \ud835\udf11 , A , B ) \u2192 \u2200 x y \u2208 if ( \ud835\udf11 , A , B ) )",
+            "step": 3,
+            "theorem": "hbif",
+            "ground_truth": "hbif \u22a2 ( y \u2208 if ( E! x \u2208 A \ud835\udf11 , ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) , ( Undef ` A ) ) \u2192 \u2200 x y \u2208 if ( E! x \u2208 A \ud835\udf11 , ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) , ( Undef ` A ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4440851699655415,
+            "_thrs_reconstruct": 0.0001458931493703517,
+            "_thrs_obviousness": 0.9999999228147382,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.4847088395475493,
+            "_thrs_interestingness": 0.4969417524724575,
+            "_thrs_logistic_regression": 0.9950469021558717,
+            "_thrs_random_forest": 0.87
+        },
+        {
+            "expression": "\u22a2 ( E! x \u2208 A \ud835\udf11 \u2192 \u2200 x E! x \u2208 A \ud835\udf11 )",
+            "prop_expression": " \u22a2 ( E! x \u2208 A \ud835\udf11 \u2192 \u2200 x E! x \u2208 A \ud835\udf11 )",
+            "step": 4,
+            "theorem": "hbreu1",
+            "ground_truth": "hbreu1 \u22a2 ( E! x \u2208 A \ud835\udf11 \u2192 \u2200 x E! x \u2208 A \ud835\udf11 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.15045505973050088,
+            "_thrs_reconstruct": 1.88285881231922e-09,
+            "_thrs_obviousness": 1.8815053645554926e-09,
+            "_thrs_weight": 0.9166666666666666,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.07894736842105263,
+            "_thrs_intensity": 0.05627705627705628,
+            "_thrs_interestingness": 0.4103782186492563,
+            "_thrs_logistic_regression": 0.5292773326251589,
+            "_thrs_random_forest": 0.695
+        },
+        {
+            "expression": "\u22a2 ( y \u2208 ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) \u2192 \u2200 x y \u2208 ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) )",
+            "prop_expression": " \u22a2 ( y \u2208 ( io\ud835\udf0f x \ud835\udf11 ) \u2192 \u2200 x y \u2208 ( io\ud835\udf0f x \ud835\udf11 ) )",
+            "step": 5,
+            "theorem": "hbiota1",
+            "ground_truth": "hbiota1 \u22a2 ( y \u2208 ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) \u2192 \u2200 x y \u2208 ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.11170060858566877,
+            "_thrs_reconstruct": 0.0005733707532627094,
+            "_thrs_obviousness": 0.0005729585994895677,
+            "_thrs_weight": 0.6666666666666667,
+            "_thrs_complexity": 0.75,
+            "_thrs_surprisingness": 0.07894736842105263,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2992373987374418,
+            "_thrs_logistic_regression": 0.6996048426424556,
+            "_thrs_random_forest": 0.655
+        },
+        {
+            "expression": "\u22a2 ( y \u2208 ( Undef ` A ) \u2192 \u2200 x y \u2208 ( Undef ` A ) )",
+            "prop_expression": "( y \u2208 F \u2192 \u2200 x y \u2208 F ), ( y \u2208 A \u2192 \u2200 x y \u2208 A ) \u22a2 ( y \u2208 ( F ` A ) \u2192 \u2200 x y \u2208 ( F ` A ) )",
+            "step": 6,
+            "theorem": "hbfv",
+            "ground_truth": "hbfv \u22a2 ( y \u2208 ( Undef ` A ) \u2192 \u2200 x y \u2208 ( Undef ` A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.15361291487461481,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9992811740558882,
+            "_thrs_weight": 0.8333333333333334,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.4190283400809716,
+            "_thrs_intensity": 0.6047225501770958,
+            "_thrs_interestingness": 0.6712730795294578,
+            "_thrs_logistic_regression": 0.9932501141014789,
+            "_thrs_random_forest": 0.95
+        },
+        {
+            "expression": "\u22a2 ( y \u2208 Undef \u2192 \u2200 x y \u2208 Undef )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \u2200 x \ud835\udf11 )",
+            "step": 7,
+            "theorem": "ax-17",
+            "ground_truth": "ax-17 \u22a2 ( y \u2208 Undef \u2192 \u2200 x y \u2208 Undef )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4029586891576725,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.048582995951417005,
+            "_thrs_intensity": 0.12059369202226346,
+            "_thrs_interestingness": 0.4338353375947361,
+            "_thrs_logistic_regression": 0.6421896244312247,
+            "_thrs_random_forest": 0.9
+        },
+        {
+            "expression": "\u22a2 ( y \u2208 A \u2192 \u2200 x y \u2208 A )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \u2200 x \ud835\udf11 )",
+            "step": 8,
+            "theorem": "ax-17",
+            "ground_truth": "ax-17 \u22a2 ( y \u2208 A \u2192 \u2200 x y \u2208 A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.24446499614752049,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.12059369202226346,
+            "_thrs_interestingness": 0.4241187384044527,
+            "_thrs_logistic_regression": 0.6571645865088263,
+            "_thrs_random_forest": 0.91
+        }
+    ]
+}

@@ -1,0 +1,119 @@
+{
+    "theorem": "inss",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "expression": "( ( A \u2286 C \u2228 B \u2286 C ) \u2192 ( A \u2229 B ) \u2286 C )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( ( A \u2286 C \u2228 B \u2286 C ) \u2192 ( A \u2229 B ) \u2286 C )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf12 \u2192 \ud835\udf13 ) \u22a2 ( ( \ud835\udf11 \u2228 \ud835\udf12 ) \u2192 \ud835\udf13 )",
+            "step": 1,
+            "theorem": "jaoi",
+            "ground_truth": "jaoi \u22a2 ( ( A \u2286 C \u2228 B \u2286 C ) \u2192 ( A \u2229 B ) \u2286 C )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8342917186603402,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.7636363636363638,
+            "_thrs_interestingness": 0.5527272727272727,
+            "_thrs_logistic_regression": 0.9988960743017091,
+            "_thrs_random_forest": 0.84
+        },
+        {
+            "expression": "\u22a2 ( A \u2286 C \u2192 ( A \u2229 B ) \u2286 C )",
+            "prop_expression": " \u22a2 ( A \u2286 C \u2192 ( A \u2229 B ) \u2286 C )",
+            "step": 2,
+            "theorem": "ssinss1",
+            "ground_truth": "ssinss1 \u22a2 ( A \u2286 C \u2192 ( A \u2229 B ) \u2286 C )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5481144774023177,
+            "_thrs_reconstruct": 0.504457789086227,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.6,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.10000000000000002,
+            "_thrs_interestingness": 0.34,
+            "_thrs_logistic_regression": 0.9798630137696864,
+            "_thrs_random_forest": 0.845
+        },
+        {
+            "expression": "\u22a2 ( B \u2286 C \u2192 ( A \u2229 B ) \u2286 C )",
+            "prop_expression": "A = B, ( \ud835\udf11 \u2192 B \u2286 C ) \u22a2 ( \ud835\udf11 \u2192 A \u2286 C )",
+            "step": 3,
+            "theorem": "syl5eqss",
+            "ground_truth": "syl5eqss \u22a2 ( B \u2286 C \u2192 ( A \u2229 B ) \u2286 C )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.12387665486821131,
+            "_thrs_reconstruct": 0.00900686755461471,
+            "_thrs_obviousness": 0.6666867503133969,
+            "_thrs_weight": 0.6,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6533373500626793,
+            "_thrs_logistic_regression": 0.9998307379454183,
+            "_thrs_random_forest": 0.98
+        },
+        {
+            "expression": "\u22a2 ( A \u2229 B ) = ( B \u2229 A )",
+            "prop_expression": " \u22a2 ( A \u2229 B ) = ( B \u2229 A )",
+            "step": 4,
+            "theorem": "incom",
+            "ground_truth": "incom \u22a2 ( A \u2229 B ) = ( B \u2229 A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.00981746877986689,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.3274223432577649,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.46548446865155296,
+            "_thrs_logistic_regression": 0.49299388569439584,
+            "_thrs_random_forest": 0.52
+        },
+        {
+            "expression": "\u22a2 ( B \u2286 C \u2192 ( B \u2229 A ) \u2286 C )",
+            "prop_expression": " \u22a2 ( A \u2286 C \u2192 ( A \u2229 B ) \u2286 C )",
+            "step": 5,
+            "theorem": "ssinss1",
+            "ground_truth": "ssinss1 \u22a2 ( B \u2286 C \u2192 ( B \u2229 A ) \u2286 C )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.06867416496686785,
+            "_thrs_reconstruct": 0.504457789086227,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.6,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.10000000000000002,
+            "_thrs_interestingness": 0.34,
+            "_thrs_logistic_regression": 0.9798630137696864,
+            "_thrs_random_forest": 0.565
+        }
+    ]
+}

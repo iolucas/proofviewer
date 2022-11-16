@@ -1,0 +1,119 @@
+{
+    "theorem": "nic-idel",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "expression": "( \ud835\udf11 \u22bc ( \ud835\udf12 \u22bc \ud835\udf12 ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u22bc ( \ud835\udf12 \u22bc \ud835\udf12 ) )",
+            "prop_expression": "\ud835\udf11, ( \ud835\udf11 \u22bc ( \ud835\udf12 \u22bc \ud835\udf13 ) ) \u22a2 \ud835\udf13",
+            "step": 1,
+            "theorem": "nic-mp",
+            "ground_truth": "nic-mp \u22a2 ( \ud835\udf11 \u22bc ( \ud835\udf12 \u22bc \ud835\udf12 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9169219617826255,
+            "_thrs_reconstruct": 0.018035280086741025,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.9992339271291688,
+            "_thrs_random_forest": 0.88
+        },
+        {
+            "expression": "\u22a2 ( ( \ud835\udf12 \u22bc \ud835\udf12 ) \u22bc \ud835\udf12 )",
+            "prop_expression": "( \ud835\udf03 \u22bc \ud835\udf11 ) \u22a2 ( \ud835\udf11 \u22bc \ud835\udf03 )",
+            "step": 2,
+            "theorem": "nic-isw1",
+            "ground_truth": "nic-isw1 \u22a2 ( ( \ud835\udf12 \u22bc \ud835\udf12 ) \u22bc \ud835\udf12 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.21858922924719726,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9409823306639362,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.2058823529411765,
+            "_thrs_interestingness": 0.6293729367210226,
+            "_thrs_logistic_regression": 0.7369795998446601,
+            "_thrs_random_forest": 0.935
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf12 \u22bc ( \ud835\udf12 \u22bc \ud835\udf12 ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf0f \u22bc ( \ud835\udf0f \u22bc \ud835\udf0f ) )",
+            "step": 3,
+            "theorem": "nic-id",
+            "ground_truth": "nic-id \u22a2 ( \ud835\udf12 \u22bc ( \ud835\udf12 \u22bc \ud835\udf12 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.2078384678159827,
+            "_thrs_reconstruct": 0.8819646873980852,
+            "_thrs_obviousness": 0.44098233066393616,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.029411764705882353,
+            "_thrs_interestingness": 0.49407881907396367,
+            "_thrs_logistic_regression": 0.5302005868814142,
+            "_thrs_random_forest": 0.695
+        },
+        {
+            "expression": "\u22a2 ( ( ( \ud835\udf12 \u22bc \ud835\udf12 ) \u22bc \ud835\udf12 ) \u22bc ( ( \ud835\udf11 \u22bc ( \ud835\udf12 \u22bc \ud835\udf12 ) ) \u22bc ( \ud835\udf11 \u22bc ( \ud835\udf12 \u22bc \ud835\udf12 ) ) ) )",
+            "prop_expression": "( \ud835\udf11 \u22bc ( \ud835\udf12 \u22bc \ud835\udf13 ) ) \u22a2 ( ( \ud835\udf03 \u22bc \ud835\udf12 ) \u22bc ( ( \ud835\udf11 \u22bc \ud835\udf03 ) \u22bc ( \ud835\udf11 \u22bc \ud835\udf03 ) ) )",
+            "step": 4,
+            "theorem": "nic-imp",
+            "ground_truth": "nic-imp \u22a2 ( ( ( \ud835\udf12 \u22bc \ud835\udf12 ) \u22bc \ud835\udf12 ) \u22bc ( ( \ud835\udf11 \u22bc ( \ud835\udf12 \u22bc \ud835\udf12 ) ) \u22bc ( \ud835\udf11 \u22bc ( \ud835\udf12 \u22bc \ud835\udf12 ) ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8328892087806293,
+            "_thrs_reconstruct": 0.09999997339667605,
+            "_thrs_obviousness": 0.05,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.21000000000000002,
+            "_thrs_logistic_regression": 0.7120522041362156,
+            "_thrs_random_forest": 0.885
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u22bc ( \ud835\udf12 \u22bc \ud835\udf13 ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u22bc ( \ud835\udf12 \u22bc \ud835\udf13 ) )",
+            "step": 5,
+            "theorem": "nic-idel.1",
+            "ground_truth": "nic-idel.1 \u22a2 ( \ud835\udf11 \u22bc ( \ud835\udf12 \u22bc \ud835\udf13 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.08824861995491529,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.2058823529411765,
+            "_thrs_interestingness": 0.44117647058823534,
+            "_thrs_logistic_regression": 0.9921367184303036,
+            "_thrs_random_forest": 0.89
+        }
+    ]
+}

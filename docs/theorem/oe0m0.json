@@ -1,0 +1,119 @@
+{
+    "theorem": "oe0m0",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "expression": "( \u2205 ^o \u2205 ) = 1o",
+    "steps": [
+        {
+            "expression": "\u22a2 ( \u2205 ^o \u2205 ) = 1o",
+            "prop_expression": "\ud835\udf11, ( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 \ud835\udf13",
+            "step": 1,
+            "theorem": "ax-mp",
+            "ground_truth": "ax-mp \u22a2 ( \u2205 ^o \u2205 ) = 1o",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.05486203799821754,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.8333333333333334,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.13888888888888887,
+            "_thrs_intensity": 0.9459459459459459,
+            "_thrs_interestingness": 0.7836336336336337,
+            "_thrs_logistic_regression": 0.9907270888852487,
+            "_thrs_random_forest": 0.885
+        },
+        {
+            "expression": "\u22a2 \u2205 \u2208 On",
+            "prop_expression": " \u22a2 \u2205 \u2208 On",
+            "step": 2,
+            "theorem": "0elon",
+            "ground_truth": "0elon \u22a2 \u2205 \u2208 On",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4380410184482423,
+            "_thrs_reconstruct": 2.3376212225998725e-05,
+            "_thrs_obviousness": 1.580365824185286e-05,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.3783783783783784,
+            "_thrs_interestingness": 0.475678836407324,
+            "_thrs_logistic_regression": 0.8850965252468602,
+            "_thrs_random_forest": 0.92
+        },
+        {
+            "expression": "\u22a2 ( \u2205 \u2208 On \u2192 ( \u2205 ^o \u2205 ) = 1o )",
+            "prop_expression": "( \ud835\udf11 \u2192 A = B ), B = C \u22a2 ( \ud835\udf11 \u2192 A = C )",
+            "step": 3,
+            "theorem": "syl6eq",
+            "ground_truth": "syl6eq \u22a2 ( \u2205 \u2208 On \u2192 ( \u2205 ^o \u2205 ) = 1o )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.34398386274328174,
+            "_thrs_reconstruct": 1.2107964613947392e-10,
+            "_thrs_obviousness": 0.9999766243342108,
+            "_thrs_weight": 0.33333333333333337,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.6388888888888888,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6611064359779533,
+            "_thrs_logistic_regression": 0.9992512801868156,
+            "_thrs_random_forest": 0.81
+        },
+        {
+            "expression": "\u22a2 ( \u2205 \u2208 On \u2192 ( \u2205 ^o \u2205 ) = ( 1o \u2216 \u2205 ) )",
+            "prop_expression": " \u22a2 ( A \u2208 On \u2192 ( \u2205 ^o A ) = ( 1o \u2216 A ) )",
+            "step": 4,
+            "theorem": "oe0m",
+            "ground_truth": "oe0m \u22a2 ( \u2205 \u2208 On \u2192 ( \u2205 ^o \u2205 ) = ( 1o \u2216 \u2205 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3117488079436611,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9999690522055865,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3999938104411173,
+            "_thrs_logistic_regression": 0.9362819858602841,
+            "_thrs_random_forest": 0.6
+        },
+        {
+            "expression": "\u22a2 ( 1o \u2216 \u2205 ) = 1o",
+            "prop_expression": " \u22a2 ( A \u2216 \u2205 ) = A",
+            "step": 5,
+            "theorem": "dif0",
+            "ground_truth": "dif0 \u22a2 ( 1o \u2216 \u2205 ) = 1o",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5687354935438316,
+            "_thrs_reconstruct": 7.572184552563334e-06,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.8333333333333334,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.09459459459459463,
+            "_thrs_interestingness": 0.38558558558558564,
+            "_thrs_logistic_regression": 0.5869678910935612,
+            "_thrs_random_forest": 0.61
+        }
+    ]
+}

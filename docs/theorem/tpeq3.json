@@ -1,0 +1,119 @@
+{
+    "theorem": "tpeq3",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            1,
+            5
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( A = B \u2192 { C , D , A } = { C , D , B } )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( A = B \u2192 { C , D , A } = { C , D , B } )",
+            "prop_expression": "( \ud835\udf11 \u2192 A = B ), C = A, D = B \u22a2 ( \ud835\udf11 \u2192 C = D )",
+            "step": 1,
+            "theorem": "3eqtr4g",
+            "ground_truth": "3eqtr4g \u22a2 ( A = B \u2192 { C , D , A } = { C , D , B } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.857371470360107,
+            "_thrs_reconstruct": 2.7669922252177366e-05,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.33333333333333337,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.6666666666666666,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6666666666666667,
+            "_thrs_logistic_regression": 0.9992225946365381,
+            "_thrs_random_forest": 0.99
+        },
+        {
+            "expression": "\u22a2 ( A = B \u2192 ( { C , D } \u222a { A } ) = ( { C , D } \u222a { B } ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 A = B ) \u22a2 ( \ud835\udf11 \u2192 ( C \u222a A ) = ( C \u222a B ) )",
+            "step": 2,
+            "theorem": "uneq2d",
+            "ground_truth": "uneq2d \u22a2 ( A = B \u2192 ( { C , D } \u222a { A } ) = ( { C , D } \u222a { B } ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7958615502968923,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9999723482455988,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.2631578947368421,
+            "_thrs_interestingness": 0.45262604859648814,
+            "_thrs_logistic_regression": 0.9838151561356847,
+            "_thrs_random_forest": 0.3
+        },
+        {
+            "expression": "\u22a2 ( A = B \u2192 { A } = { B } )",
+            "prop_expression": " \u22a2 ( A = B \u2192 { A } = { B } )",
+            "step": 3,
+            "theorem": "sneq",
+            "ground_truth": "sneq \u22a2 ( A = B \u2192 { A } = { B } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7724244298959794,
+            "_thrs_reconstruct": 0.0006330825717111562,
+            "_thrs_obviousness": 0.0006326645369535361,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4001265329073907,
+            "_thrs_logistic_regression": 0.4999864614914505,
+            "_thrs_random_forest": 0.185
+        },
+        {
+            "expression": "\u22a2 { C , D , A } = ( { C , D } \u222a { A } )",
+            "prop_expression": " \u22a2 { A , B , C } = ( { A , B } \u222a { C } )",
+            "step": 4,
+            "theorem": "df-tp",
+            "ground_truth": "df-tp \u22a2 { C , D , A } = ( { C , D } \u222a { A } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5380846299016521,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.33333333333333326,
+            "_thrs_intensity": 0.037593984962406,
+            "_thrs_interestingness": 0.2408521303258145,
+            "_thrs_logistic_regression": 0.9347457019257611,
+            "_thrs_random_forest": 0.53
+        },
+        {
+            "expression": "\u22a2 { C , D , B } = ( { C , D } \u222a { B } )",
+            "prop_expression": " \u22a2 { A , B , C } = ( { A , B } \u222a { C } )",
+            "step": 5,
+            "theorem": "df-tp",
+            "ground_truth": "df-tp \u22a2 { C , D , B } = ( { C , D } \u222a { B } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.21036897782203223,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.33333333333333326,
+            "_thrs_intensity": 0.037593984962406,
+            "_thrs_interestingness": 0.2408521303258145,
+            "_thrs_logistic_regression": 0.9347457019257611,
+            "_thrs_random_forest": 0.53
+        }
+    ]
+}

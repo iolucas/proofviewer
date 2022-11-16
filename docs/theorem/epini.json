@@ -1,0 +1,188 @@
+{
+    "theorem": "epini",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "expression": "( `' _E \u201c { A } ) = A",
+    "steps": [
+        {
+            "expression": "\u22a2 ( `' _E \u201c { A } ) = A",
+            "prop_expression": "( x \u2208 A \u2194 x \u2208 B ) \u22a2 A = B",
+            "step": 1,
+            "theorem": "eqriv",
+            "ground_truth": "eqriv \u22a2 ( `' _E \u201c { A } ) = A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7793408070230553,
+            "_thrs_reconstruct": 1.1593770752546315e-10,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.7777777777777778,
+            "_thrs_complexity": 0.75,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.5692307692307691,
+            "_thrs_interestingness": 0.6194017094017094,
+            "_thrs_logistic_regression": 0.9827772879857912,
+            "_thrs_random_forest": 0.91
+        },
+        {
+            "expression": "\u22a2 ( x \u2208 ( `' _E \u201c { A } ) \u2194 x \u2208 A )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ), ( \ud835\udf13 \u2194 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2194 \ud835\udf12 )",
+            "step": 2,
+            "theorem": "bitri",
+            "ground_truth": "bitri \u22a2 ( x \u2208 ( `' _E \u201c { A } ) \u2194 x \u2208 A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.34581254529445515,
+            "_thrs_reconstruct": 2.707896108759535e-10,
+            "_thrs_obviousness": 0.9999999999161087,
+            "_thrs_weight": 0.33333333333333337,
+            "_thrs_complexity": 0.25,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6166666666498883,
+            "_thrs_logistic_regression": 0.9995936748015042,
+            "_thrs_random_forest": 0.93
+        },
+        {
+            "expression": "\u22a2 ( x \u2208 ( `' _E \u201c { A } ) \u2194 x _E A )",
+            "prop_expression": "\ud835\udf11, ( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 \ud835\udf13",
+            "step": 3,
+            "theorem": "ax-mp",
+            "ground_truth": "ax-mp \u22a2 ( x \u2208 ( `' _E \u201c { A } ) \u2194 x _E A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9722738750133096,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.7233713315364986,
+            "_thrs_weight": 0.33333333333333337,
+            "_thrs_complexity": 0.25,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.7802197802197801,
+            "_thrs_interestingness": 0.5173848890179225,
+            "_thrs_logistic_regression": 0.9987021750485022,
+            "_thrs_random_forest": 0.93
+        },
+        {
+            "expression": "\u22a2 A \u2208 V",
+            "prop_expression": " \u22a2 A \u2208 V",
+            "step": 4,
+            "theorem": "epini.1",
+            "ground_truth": "epini.1 \u22a2 A \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6098906821095544,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.3846153846153845,
+            "_thrs_interestingness": 0.676923076923077,
+            "_thrs_logistic_regression": 0.6727835912076866,
+            "_thrs_random_forest": 0.86
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 V \u2192 ( x \u2208 ( `' _E \u201c { A } ) \u2194 x _E A ) )",
+            "prop_expression": "C \u2208 V \u22a2 ( B \u2208 V \u2192 ( C \u2208 ( `' A \u201c { B } ) \u2194 C A B ) )",
+            "step": 5,
+            "theorem": "eliniseg",
+            "ground_truth": "eliniseg \u22a2 ( A \u2208 V \u2192 ( x \u2208 ( `' _E \u201c { A } ) \u2194 x _E A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4766105592949381,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.723371331536448,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3446742663072896,
+            "_thrs_logistic_regression": 0.9376799362829296,
+            "_thrs_random_forest": 0.76
+        },
+        {
+            "expression": "\u22a2 x \u2208 V",
+            "prop_expression": " \u22a2 x \u2208 V",
+            "step": 6,
+            "theorem": "vex",
+            "ground_truth": "vex \u22a2 x \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7655149543193819,
+            "_thrs_reconstruct": 3.176843663753489e-08,
+            "_thrs_obviousness": 2.2980375581273477e-08,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.3846153846153845,
+            "_thrs_interestingness": 0.4769230815191521,
+            "_thrs_logistic_regression": 0.888475073643268,
+            "_thrs_random_forest": 0.785
+        },
+        {
+            "expression": "\u22a2 ( x _E A \u2194 x \u2208 A )",
+            "prop_expression": "B \u2208 V \u22a2 ( A _E B \u2194 A \u2208 B )",
+            "step": 7,
+            "theorem": "epelc",
+            "ground_truth": "epelc \u22a2 ( x _E A \u2194 x \u2208 A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.24433706187875892,
+            "_thrs_reconstruct": 0.3824158698467641,
+            "_thrs_obviousness": 0.27662866818367804,
+            "_thrs_weight": 0.6666666666666667,
+            "_thrs_complexity": 0.75,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.07692307692307684,
+            "_thrs_interestingness": 0.4540436823546843,
+            "_thrs_logistic_regression": 0.6607283358219685,
+            "_thrs_random_forest": 0.89
+        },
+        {
+            "expression": "\u22a2 A \u2208 V",
+            "prop_expression": " \u22a2 A \u2208 V",
+            "step": 8,
+            "theorem": "epini.1",
+            "ground_truth": "epini.1 \u22a2 A \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5186628137171245,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.3846153846153845,
+            "_thrs_interestingness": 0.676923076923077,
+            "_thrs_logistic_regression": 0.6727835912076866,
+            "_thrs_random_forest": 0.96
+        }
+    ]
+}

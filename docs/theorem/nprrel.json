@@ -1,0 +1,96 @@
+{
+    "theorem": "nprrel",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "expression": "\u00ac A R B",
+    "steps": [
+        {
+            "expression": "\u22a2 \u00ac A R B",
+            "prop_expression": "\u00ac \ud835\udf13, ( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 \u00ac \ud835\udf11",
+            "step": 1,
+            "theorem": "mto",
+            "ground_truth": "mto \u22a2 \u00ac A R B",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6269426527609884,
+            "_thrs_reconstruct": 1.1594609141955099e-10,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.75,
+            "_thrs_complexity": 0.6666666666666667,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7833333333333334,
+            "_thrs_logistic_regression": 0.9977355552124463,
+            "_thrs_random_forest": 0.92
+        },
+        {
+            "expression": "\u22a2 \u00ac A \u2208 V",
+            "prop_expression": " \u22a2 \u00ac A \u2208 V",
+            "step": 2,
+            "theorem": "nprrel.2",
+            "ground_truth": "nprrel.2 \u22a2 \u00ac A \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6000741595460637,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.75,
+            "_thrs_complexity": 0.6666666666666667,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.17241379310344823,
+            "_thrs_interestingness": 0.417816091954023,
+            "_thrs_logistic_regression": 0.8466249634337242,
+            "_thrs_random_forest": 0.965
+        },
+        {
+            "expression": "\u22a2 ( A R B \u2192 A \u2208 V )",
+            "prop_expression": "Rel R \u22a2 ( A R B \u2192 A \u2208 V )",
+            "step": 3,
+            "theorem": "brrelexi",
+            "ground_truth": "brrelexi \u22a2 ( A R B \u2192 A \u2208 V )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7081648122784358,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9999999998835845,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2999999999767169,
+            "_thrs_logistic_regression": 0.966582113801842,
+            "_thrs_random_forest": 0.78
+        },
+        {
+            "expression": "\u22a2 Rel R",
+            "prop_expression": " \u22a2 Rel R",
+            "step": 4,
+            "theorem": "nprrel.1",
+            "ground_truth": "nprrel.1 \u22a2 Rel R",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5628556394265074,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.17241379310344823,
+            "_thrs_interestingness": 0.5344827586206897,
+            "_thrs_logistic_regression": 0.5629295341909853,
+            "_thrs_random_forest": 0.935
+        }
+    ]
+}

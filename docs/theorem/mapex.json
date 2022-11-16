@@ -1,0 +1,211 @@
+{
+    "theorem": "mapex",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            6
+        ],
+        [
+            1,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "expression": "( ( A \u2208 C \u2227 B \u2208 D ) \u2192 { f | f : A -\u2192 B } \u2208 V )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( ( A \u2208 C \u2227 B \u2208 D ) \u2192 { f | f : A -\u2192 B } \u2208 V )",
+            "prop_expression": "\ud835\udf13, ( \ud835\udf11 \u2192 \ud835\udf12 ), ( ( \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf03 )",
+            "step": 1,
+            "theorem": "sylancr",
+            "ground_truth": "sylancr \u22a2 ( ( A \u2208 C \u2227 B \u2208 D ) \u2192 { f | f : A -\u2192 B } \u2208 V )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3512664614834582,
+            "_thrs_reconstruct": 2.1595150799538682e-10,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.7142857142857143,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.7744227353463583,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7644083565930813,
+            "_thrs_logistic_regression": 0.999374384920602,
+            "_thrs_random_forest": 0.965
+        },
+        {
+            "expression": "\u22a2 { f | f : A -\u2192 B } \u2286 \ud835\udcab ( A \u00d7 B )",
+            "prop_expression": "A \u2286 B, C = B \u22a2 A \u2286 C",
+            "step": 2,
+            "theorem": "sseqtr4i",
+            "ground_truth": "sseqtr4i \u22a2 { f | f : A -\u2192 B } \u2286 \ud835\udcab ( A \u00d7 B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6342562706136055,
+            "_thrs_reconstruct": 5.4140050621594126e-06,
+            "_thrs_obviousness": 0.9676541705078405,
+            "_thrs_weight": 0.9285714285714286,
+            "_thrs_complexity": 0.6666666666666667,
+            "_thrs_surprisingness": 0.30728241563055053,
+            "_thrs_intensity": 0.8506792506792505,
+            "_thrs_interestingness": 0.7441707864111475,
+            "_thrs_logistic_regression": 0.9967198475275283,
+            "_thrs_random_forest": 0.945
+        },
+        {
+            "expression": "\u22a2 { f | f : A -\u2192 B } \u2286 { f | f \u2286 ( A \u00d7 B ) }",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 { x | \ud835\udf11 } \u2286 { x | \ud835\udf13 }",
+            "step": 3,
+            "theorem": "ss2abi",
+            "ground_truth": "ss2abi \u22a2 { f | f : A -\u2192 B } \u2286 { f | f \u2286 ( A \u00d7 B ) }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3761799055682764,
+            "_thrs_reconstruct": 0.00010141660512082803,
+            "_thrs_obviousness": 0.9676489321827566,
+            "_thrs_weight": 0.7857142857142857,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.04618117229129658,
+            "_thrs_intensity": 0.16870441870441868,
+            "_thrs_interestingness": 0.5936497617785516,
+            "_thrs_logistic_regression": 0.6365735222683421,
+            "_thrs_random_forest": 0.6666666666666665
+        },
+        {
+            "expression": "\u22a2 ( f : A -\u2192 B \u2192 f \u2286 ( A \u00d7 B ) )",
+            "prop_expression": " \u22a2 ( F : A -\u2192 B \u2192 F \u2286 ( A \u00d7 B ) )",
+            "step": 4,
+            "theorem": "fssxp",
+            "ground_truth": "fssxp \u22a2 ( f : A -\u2192 B \u2192 f \u2286 ( A \u00d7 B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.018930906524860514,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9675508064646231,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.04618117229129658,
+            "_thrs_intensity": 0.12951046284379614,
+            "_thrs_interestingness": 0.6286484883199431,
+            "_thrs_logistic_regression": 0.6349301712291612,
+            "_thrs_random_forest": 0.69
+        },
+        {
+            "expression": "\u22a2 \ud835\udcab ( A \u00d7 B ) = { f | f \u2286 ( A \u00d7 B ) }",
+            "prop_expression": " \u22a2 \ud835\udcab A = { x | x \u2286 A }",
+            "step": 5,
+            "theorem": "df-pw",
+            "ground_truth": "df-pw \u22a2 \ud835\udcab ( A \u00d7 B ) = { f | f \u2286 ( A \u00d7 B ) }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.035489815572972816,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.9285714285714286,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.09815529815529814,
+            "_thrs_interestingness": 0.4053453453453454,
+            "_thrs_logistic_regression": 0.6133674742757534,
+            "_thrs_random_forest": 0.675
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 C \u2227 B \u2208 D ) \u2192 \ud835\udcab ( A \u00d7 B ) \u2208 V )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf13 \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 6,
+            "theorem": "syl",
+            "ground_truth": "syl \u22a2 ( ( A \u2208 C \u2227 B \u2208 D ) \u2192 \ud835\udcab ( A \u00d7 B ) \u2208 V )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.801527506733608,
+            "_thrs_reconstruct": 2.4786399769915275e-13,
+            "_thrs_obviousness": 0.03132314145424314,
+            "_thrs_weight": 0.7857142857142857,
+            "_thrs_complexity": 0.33333333333333337,
+            "_thrs_surprisingness": 0.9769094138543513,
+            "_thrs_intensity": 0.6782258448925115,
+            "_thrs_interestingness": 0.5611012038497449,
+            "_thrs_logistic_regression": 0.9959971672427907,
+            "_thrs_random_forest": 0.96
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 C \u2227 B \u2208 D ) \u2192 ( A \u00d7 B ) \u2208 V )",
+            "prop_expression": " \u22a2 ( ( A \u2208 V \u2227 B \u2208 W ) \u2192 ( A \u00d7 B ) \u2208 V )",
+            "step": 7,
+            "theorem": "xpexg",
+            "ground_truth": "xpexg \u22a2 ( ( A \u2208 C \u2227 B \u2208 D ) \u2192 ( A \u00d7 B ) \u2208 V )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.03339069692931318,
+            "_thrs_reconstruct": 0.03220863558267227,
+            "_thrs_obviousness": 0.031163491333139712,
+            "_thrs_weight": 0.8571428571428572,
+            "_thrs_complexity": 0.6666666666666667,
+            "_thrs_surprisingness": 0.7424511545293069,
+            "_thrs_intensity": 0.11525811525811525,
+            "_thrs_interestingness": 0.4825364569860171,
+            "_thrs_logistic_regression": 0.7633451874489235,
+            "_thrs_random_forest": 0.6275
+        },
+        {
+            "expression": "\u22a2 ( ( A \u00d7 B ) \u2208 V \u2192 \ud835\udcab ( A \u00d7 B ) \u2208 V )",
+            "prop_expression": " \u22a2 ( A \u2208 V \u2192 \ud835\udcab A \u2208 V )",
+            "step": 8,
+            "theorem": "pwexg",
+            "ground_truth": "pwexg \u22a2 ( ( A \u00d7 B ) \u2208 V \u2192 \ud835\udcab ( A \u00d7 B ) \u2208 V )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.04872767756390173,
+            "_thrs_reconstruct": 0.00016500437979794974,
+            "_thrs_obviousness": 0.00015965012074370123,
+            "_thrs_weight": 0.8571428571428572,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.1811722912966251,
+            "_thrs_intensity": 0.07250107250107253,
+            "_thrs_interestingness": 0.4221951742122597,
+            "_thrs_logistic_regression": 0.5023849365566885,
+            "_thrs_random_forest": 0.56
+        },
+        {
+            "expression": "\u22a2 ( ( { f | f : A -\u2192 B } \u2286 \ud835\udcab ( A \u00d7 B ) \u2227 \ud835\udcab ( A \u00d7 B ) \u2208 V ) \u2192 { f | f : A -\u2192 B } \u2208 V )",
+            "prop_expression": " \u22a2 ( ( A \u2286 B \u2227 B \u2208 C ) \u2192 A \u2208 V )",
+            "step": 9,
+            "theorem": "ssexg",
+            "ground_truth": "ssexg \u22a2 ( ( { f | f : A -\u2192 B } \u2286 \ud835\udcab ( A \u00d7 B ) \u2227 \ud835\udcab ( A \u00d7 B ) \u2208 V ) \u2192 { f | f : A -\u2192 B } \u2208 V )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.11135057526087533,
+            "_thrs_reconstruct": 0.0010569861778413538,
+            "_thrs_obviousness": 0.0010226878287923613,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.20020453756575848,
+            "_thrs_logistic_regression": 0.941196798277189,
+            "_thrs_random_forest": 0.9083333333333334
+        }
+    ]
+}

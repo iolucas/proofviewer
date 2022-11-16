@@ -1,0 +1,142 @@
+{
+    "theorem": "reueq",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "expression": "( B \u2208 A \u2194 E! x \u2208 A x = B )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( B \u2208 A \u2194 E! x \u2208 A x = B )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ), ( \ud835\udf12 \u2194 \ud835\udf13 ) \u22a2 ( \ud835\udf11 \u2194 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "bitr4i",
+            "ground_truth": "bitr4i \u22a2 ( B \u2208 A \u2194 E! x \u2208 A x = B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.82922201470115,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.6153846153846154,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7230769230769231,
+            "_thrs_logistic_regression": 0.9998283764551024,
+            "_thrs_random_forest": 0.98
+        },
+        {
+            "expression": "\u22a2 ( B \u2208 A \u2194 \u2203 x \u2208 A x = B )",
+            "prop_expression": " \u22a2 ( A \u2208 B \u2194 \u2203 x \u2208 B x = A )",
+            "step": 2,
+            "theorem": "risset",
+            "ground_truth": "risset \u22a2 ( B \u2208 A \u2194 \u2203 x \u2208 A x = B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6058172184206405,
+            "_thrs_reconstruct": 7.382372120698008e-05,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.6153846153846154,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.125,
+            "_thrs_interestingness": 0.34807692307692306,
+            "_thrs_logistic_regression": 0.9826117479164744,
+            "_thrs_random_forest": 0.95
+        },
+        {
+            "expression": "\u22a2 ( E! x \u2208 A x = B \u2194 \u2203 x \u2208 A x = B )",
+            "prop_expression": "\ud835\udf12, ( \ud835\udf11 \u2194 ( \ud835\udf13 \u2227 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2194 \ud835\udf13 )",
+            "step": 3,
+            "theorem": "mpbiran2",
+            "ground_truth": "mpbiran2 \u22a2 ( E! x \u2208 A x = B \u2194 \u2203 x \u2208 A x = B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8548690847906394,
+            "_thrs_reconstruct": 7.844404518085638e-07,
+            "_thrs_obviousness": 0.9999667005666196,
+            "_thrs_weight": 0.46153846153846156,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.9750000000000001,
+            "_thrs_interestingness": 0.6873010324210163,
+            "_thrs_logistic_regression": 0.9997725647218686,
+            "_thrs_random_forest": 0.975
+        },
+        {
+            "expression": "\u22a2 \u2203* x ( x \u2208 A \u2227 x = B )",
+            "prop_expression": "\u2203* x \ud835\udf11 \u22a2 \u2203* x ( \ud835\udf13 \u2227 \ud835\udf11 )",
+            "step": 4,
+            "theorem": "moani",
+            "ground_truth": "moani \u22a2 \u2203* x ( x \u2208 A \u2227 x = B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5941869202068293,
+            "_thrs_reconstruct": 0.6628453222149806,
+            "_thrs_obviousness": 0.7150066512681856,
+            "_thrs_weight": 0.7692307692307692,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.375,
+            "_thrs_interestingness": 0.571847484099791,
+            "_thrs_logistic_regression": 0.9958016822478682,
+            "_thrs_random_forest": 0.755
+        },
+        {
+            "expression": "\u22a2 \u2203* x x = B",
+            "prop_expression": " \u22a2 \u2203* x x = A",
+            "step": 5,
+            "theorem": "moeq",
+            "ground_truth": "moeq \u22a2 \u2203* x x = B",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7781678255996468,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.42997675280010483,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.20833333333333331,
+            "_thrs_interestingness": 0.5276620172266877,
+            "_thrs_logistic_regression": 0.747871769607258,
+            "_thrs_random_forest": 0.795
+        },
+        {
+            "expression": "\u22a2 ( E! x \u2208 A x = B \u2194 ( \u2203 x \u2208 A x = B \u2227 \u2203* x ( x \u2208 A \u2227 x = B ) ) )",
+            "prop_expression": " \u22a2 ( E! x \u2208 A \ud835\udf11 \u2194 ( \u2203 x \u2208 A \ud835\udf11 \u2227 \u2203* x ( x \u2208 A \u2227 \ud835\udf11 ) ) )",
+            "step": 6,
+            "theorem": "reu5",
+            "ground_truth": "reu5 \u22a2 ( E! x \u2208 A x = B \u2194 ( \u2203 x \u2208 A x = B \u2227 \u2203* x ( x \u2208 A \u2227 x = B ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.40262080627853325,
+            "_thrs_reconstruct": 0.6626802934095827,
+            "_thrs_obviousness": 0.28492641254899337,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2569852825097987,
+            "_thrs_logistic_regression": 0.9398373280195812,
+            "_thrs_random_forest": 0.51625
+        }
+    ]
+}

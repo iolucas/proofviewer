@@ -1,0 +1,96 @@
+{
+    "theorem": "elimel",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            1,
+            4
+        ]
+    ],
+    "expression": "if ( A \u2208 C , A , B ) \u2208 C",
+    "steps": [
+        {
+            "expression": "\u22a2 if ( A \u2208 C , A , B ) \u2208 C",
+            "prop_expression": "( A = if ( \ud835\udf11 , A , B ) \u2192 ( \ud835\udf11 \u2194 \ud835\udf13 ) ), ( B = if ( \ud835\udf11 , A , B ) \u2192 ( \ud835\udf12 \u2194 \ud835\udf13 ) ), \ud835\udf12 \u22a2 \ud835\udf13",
+            "step": 1,
+            "theorem": "elimhyp",
+            "ground_truth": "elimhyp \u22a2 if ( A \u2208 C , A , B ) \u2208 C",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5572227736060984,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.6666666666666667,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7333333333333334,
+            "_thrs_logistic_regression": 0.9998365672081465,
+            "_thrs_random_forest": 0.845
+        },
+        {
+            "expression": "\u22a2 ( A = if ( A \u2208 C , A , B ) \u2192 ( A \u2208 C \u2194 if ( A \u2208 C , A , B ) \u2208 C ) )",
+            "prop_expression": " \u22a2 ( A = B \u2192 ( A \u2208 C \u2194 B \u2208 C ) )",
+            "step": 2,
+            "theorem": "eleq1",
+            "ground_truth": "eleq1 \u22a2 ( A = if ( A \u2208 C , A , B ) \u2192 ( A \u2208 C \u2194 if ( A \u2208 C , A , B ) \u2208 C ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9800077414592792,
+            "_thrs_reconstruct": 0.03405231785032247,
+            "_thrs_obviousness": 0.031881066963581575,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.20637621339271633,
+            "_thrs_logistic_regression": 0.9410504397591332,
+            "_thrs_random_forest": 0.92
+        },
+        {
+            "expression": "\u22a2 ( B = if ( A \u2208 C , A , B ) \u2192 ( B \u2208 C \u2194 if ( A \u2208 C , A , B ) \u2208 C ) )",
+            "prop_expression": " \u22a2 ( A = B \u2192 ( A \u2208 C \u2194 B \u2208 C ) )",
+            "step": 3,
+            "theorem": "eleq1",
+            "ground_truth": "eleq1 \u22a2 ( B = if ( A \u2208 C , A , B ) \u2192 ( B \u2208 C \u2194 if ( A \u2208 C , A , B ) \u2208 C ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9763855268945826,
+            "_thrs_reconstruct": 0.03405231785032247,
+            "_thrs_obviousness": 0.031881066963581575,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.20637621339271633,
+            "_thrs_logistic_regression": 0.9410504397591332,
+            "_thrs_random_forest": 0.92
+        },
+        {
+            "expression": "\u22a2 B \u2208 C",
+            "prop_expression": " \u22a2 B \u2208 C",
+            "step": 4,
+            "theorem": "elimel.1",
+            "ground_truth": "elimel.1 \u22a2 B \u2208 C",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8466024721404372,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.15709969788519637,
+            "_thrs_interestingness": 0.4314199395770393,
+            "_thrs_logistic_regression": 0.700075717559668,
+            "_thrs_random_forest": 0.94
+        }
+    ]
+}

@@ -1,0 +1,142 @@
+{
+    "theorem": "om0",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "expression": "( A \u2208 On \u2192 ( A .o \u2205 ) = \u2205 )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( A \u2208 On \u2192 ( A .o \u2205 ) = \u2205 )",
+            "prop_expression": "( \ud835\udf11 \u2192 A = B ), B = C \u22a2 ( \ud835\udf11 \u2192 A = C )",
+            "step": 1,
+            "theorem": "syl6eq",
+            "ground_truth": "syl6eq \u22a2 ( A \u2208 On \u2192 ( A .o \u2205 ) = \u2205 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6149479452026221,
+            "_thrs_reconstruct": 1.6003917502058943e-12,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.7647058823529411,
+            "_thrs_complexity": 0.75,
+            "_thrs_surprisingness": 0.2391304347826087,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.75076726342711,
+            "_thrs_logistic_regression": 0.9976052625844667,
+            "_thrs_random_forest": 0.865
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 On \u2192 ( A .o \u2205 ) = ( rec ( ( x \u2208 V |\u2192 ( x +o A ) ) , \u2205 ) ` \u2205 ) )",
+            "prop_expression": "\ud835\udf13, ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 2,
+            "theorem": "mpan2",
+            "ground_truth": "mpan2 \u22a2 ( A \u2208 On \u2192 ( A .o \u2205 ) = ( rec ( ( x \u2208 V |\u2192 ( x +o A ) ) , \u2205 ) ` \u2205 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7669695995370387,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.00104722422776754,
+            "_thrs_weight": 0.17647058823529416,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.6023036589209478,
+            "_thrs_interestingness": 0.3559642942768019,
+            "_thrs_logistic_regression": 0.9979565983116941,
+            "_thrs_random_forest": 0.895
+        },
+        {
+            "expression": "\u22a2 \u2205 \u2208 On",
+            "prop_expression": " \u22a2 \u2205 \u2208 On",
+            "step": 3,
+            "theorem": "0elon",
+            "ground_truth": "0elon \u22a2 \u2205 \u2208 On",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.2862554578088051,
+            "_thrs_reconstruct": 3.1178121703465606e-07,
+            "_thrs_obviousness": 2.711531315442151e-07,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.3375547978567949,
+            "_thrs_interestingness": 0.46751101380198523,
+            "_thrs_logistic_regression": 0.8607262344442598,
+            "_thrs_random_forest": 0.61
+        },
+        {
+            "expression": "\u22a2 ( ( A \u2208 On \u2227 \u2205 \u2208 On ) \u2192 ( A .o \u2205 ) = ( rec ( ( x \u2208 V |\u2192 ( x +o A ) ) , \u2205 ) ` \u2205 ) )",
+            "prop_expression": " \u22a2 ( ( A \u2208 On \u2227 B \u2208 On ) \u2192 ( A .o B ) = ( rec ( ( x \u2208 V |\u2192 ( x +o A ) ) , \u2205 ) ` B ) )",
+            "step": 4,
+            "theorem": "omv",
+            "ground_truth": "omv \u22a2 ( ( A \u2208 On \u2227 \u2205 \u2208 On ) \u2192 ( A .o \u2205 ) = ( rec ( ( x \u2208 V |\u2192 ( x +o A ) ) , \u2205 ) ` \u2205 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3128654891358309,
+            "_thrs_reconstruct": 0.0010480506608908104,
+            "_thrs_obviousness": 0.0010469127730389112,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.20020938255460777,
+            "_thrs_logistic_regression": 0.9411966835141813,
+            "_thrs_random_forest": 0.55
+        },
+        {
+            "expression": "\u22a2 ( rec ( ( x \u2208 V |\u2192 ( x +o A ) ) , \u2205 ) ` \u2205 ) = \u2205",
+            "prop_expression": "A \u2208 V \u22a2 ( rec ( F , A ) ` \u2205 ) = A",
+            "step": 5,
+            "theorem": "rdg0",
+            "ground_truth": "rdg0 \u22a2 ( rec ( ( x \u2208 V |\u2192 ( x +o A ) ) , \u2205 ) ` \u2205 ) = \u2205",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.24872430666815382,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9989527354690366,
+            "_thrs_weight": 0.47058823529411764,
+            "_thrs_complexity": 0.25,
+            "_thrs_surprisingness": 0.5978260869565218,
+            "_thrs_intensity": 0.15002435460301994,
+            "_thrs_interestingness": 0.49347828246453923,
+            "_thrs_logistic_regression": 0.9615894130389222,
+            "_thrs_random_forest": 0.89
+        },
+        {
+            "expression": "\u22a2 \u2205 \u2208 V",
+            "prop_expression": " \u22a2 \u2205 \u2208 V",
+            "step": 6,
+            "theorem": "0ex",
+            "ground_truth": "0ex \u22a2 \u2205 \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.29777756338329,
+            "_thrs_reconstruct": 4.0343818730816475e-08,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.3375547978567949,
+            "_thrs_interestingness": 0.46751095957135896,
+            "_thrs_logistic_regression": 0.8607262372265749,
+            "_thrs_random_forest": 0.87
+        }
+    ]
+}

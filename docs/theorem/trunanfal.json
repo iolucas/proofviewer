@@ -1,0 +1,119 @@
+{
+    "theorem": "trunanfal",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            1,
+            5
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "expression": "( ( T. \u22bc F. ) \u2194 T. )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( ( T. \u22bc F. ) \u2194 T. )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ), ( \ud835\udf13 \u2194 \ud835\udf12 ), ( \ud835\udf12 \u2194 \ud835\udf03 ) \u22a2 ( \ud835\udf11 \u2194 \ud835\udf03 )",
+            "step": 1,
+            "theorem": "3bitri",
+            "ground_truth": "3bitri \u22a2 ( ( T. \u22bc F. ) \u2194 T. )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.782755300636013,
+            "_thrs_reconstruct": 0.13962110960757781,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.9987664158001925,
+            "_thrs_random_forest": 0.96
+        },
+        {
+            "expression": "\u22a2 ( ( T. \u22bc F. ) \u2194 \u00ac ( T. \u2227 F. ) )",
+            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u22bc \ud835\udf13 ) \u2194 \u00ac ( \ud835\udf11 \u2227 \ud835\udf13 ) )",
+            "step": 2,
+            "theorem": "df-nan",
+            "ground_truth": "df-nan \u22a2 ( ( T. \u22bc F. ) \u2194 \u00ac ( T. \u2227 F. ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7117201664848342,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.7129289188481559,
+            "_thrs_random_forest": 0.995
+        },
+        {
+            "expression": "\u22a2 ( \u00ac ( T. \u2227 F. ) \u2194 \u00ac F. )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ) \u22a2 ( \u00ac \ud835\udf11 \u2194 \u00ac \ud835\udf13 )",
+            "step": 3,
+            "theorem": "notbii",
+            "ground_truth": "notbii \u22a2 ( \u00ac ( T. \u2227 F. ) \u2194 \u00ac F. )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.863925250849293,
+            "_thrs_reconstruct": 0.764086603518268,
+            "_thrs_obviousness": 0.8649363516537955,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.2,
+            "_thrs_interestingness": 0.5129872703307592,
+            "_thrs_logistic_regression": 0.9161860813558305,
+            "_thrs_random_forest": 0.99
+        },
+        {
+            "expression": "\u22a2 ( ( T. \u2227 F. ) \u2194 F. )",
+            "prop_expression": " \u22a2 ( ( T. \u2227 F. ) \u2194 F. )",
+            "step": 4,
+            "theorem": "truanfal",
+            "ground_truth": "truanfal \u22a2 ( ( T. \u2227 F. ) \u2194 F. )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9243207435785782,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.49030015126987075,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.06666666666666665,
+            "_thrs_interestingness": 0.41139336358730744,
+            "_thrs_logistic_regression": 0.8460909621355103,
+            "_thrs_random_forest": 0.7
+        },
+        {
+            "expression": "\u22a2 ( \u00ac F. \u2194 T. )",
+            "prop_expression": " \u22a2 ( \u00ac F. \u2194 T. )",
+            "step": 5,
+            "theorem": "notfal",
+            "ground_truth": "notfal \u22a2 ( \u00ac F. \u2194 T. )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.19383209719935313,
+            "_thrs_reconstruct": 0.1358231844835363,
+            "_thrs_obviousness": 0.06659412789823342,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.2,
+            "_thrs_interestingness": 0.45331882557964676,
+            "_thrs_logistic_regression": 0.9496371319411289,
+            "_thrs_random_forest": 0.99
+        }
+    ]
+}

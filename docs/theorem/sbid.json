@@ -1,0 +1,96 @@
+{
+    "theorem": "sbid",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ]
+    ],
+    "expression": "( [. x / x ]. \ud835\udf11 \u2194 \ud835\udf11 )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( [. x / x ]. \ud835\udf11 \u2194 \ud835\udf11 )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ) \u22a2 ( \ud835\udf13 \u2194 \ud835\udf11 )",
+            "step": 1,
+            "theorem": "bicomi",
+            "ground_truth": "bicomi \u22a2 ( [. x / x ]. \ud835\udf11 \u2194 \ud835\udf11 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.059268155741206474,
+            "_thrs_reconstruct": 0.18889168448861493,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.4,
+            "_thrs_interestingness": 0.48,
+            "_thrs_logistic_regression": 0.997526917224387,
+            "_thrs_random_forest": 0.97
+        },
+        {
+            "expression": "\u22a2 ( \ud835\udf11 \u2194 [. x / x ]. \ud835\udf11 )",
+            "prop_expression": "\ud835\udf11, ( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 \ud835\udf13",
+            "step": 2,
+            "theorem": "ax-mp",
+            "ground_truth": "ax-mp \u22a2 ( \ud835\udf11 \u2194 [. x / x ]. \ud835\udf11 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9728933507220793,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.8410918324164198,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.5682183664832839,
+            "_thrs_logistic_regression": 0.9999039762446426,
+            "_thrs_random_forest": 0.95
+        },
+        {
+            "expression": "\u22a2 x = x",
+            "prop_expression": " \u22a2 x = x",
+            "step": 3,
+            "theorem": "equid",
+            "ground_truth": "equid \u22a2 x = x",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7706068588480538,
+            "_thrs_reconstruct": 0.04950308214869795,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.1,
+            "_thrs_interestingness": 0.52,
+            "_thrs_logistic_regression": 0.465638983684028,
+            "_thrs_random_forest": 0.72
+        },
+        {
+            "expression": "\u22a2 ( x = x \u2192 ( \ud835\udf11 \u2194 [. x / x ]. \ud835\udf11 ) )",
+            "prop_expression": " \u22a2 ( x = y \u2192 ( \ud835\udf11 \u2194 [. y / x ]. \ud835\udf11 ) )",
+            "step": 4,
+            "theorem": "sbequ12",
+            "ground_truth": "sbequ12 \u22a2 ( x = x \u2192 ( \ud835\udf11 \u2194 [. x / x ]. \ud835\udf11 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.014000122323642228,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.7993546339399069,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2598709267879814,
+            "_thrs_logistic_regression": 0.9671324490252479,
+            "_thrs_random_forest": 0.22
+        }
+    ]
+}

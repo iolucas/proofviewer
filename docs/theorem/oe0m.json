@@ -1,0 +1,165 @@
+{
+    "theorem": "oe0m",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "expression": "( A \u2208 On \u2192 ( \u2205 ^o A ) = ( 1o \u2216 A ) )",
+    "steps": [
+        {
+            "expression": "\u22a2 ( A \u2208 On \u2192 ( \u2205 ^o A ) = ( 1o \u2216 A ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 A = B ), B = C \u22a2 ( \ud835\udf11 \u2192 A = C )",
+            "step": 1,
+            "theorem": "syl6eq",
+            "ground_truth": "syl6eq \u22a2 ( A \u2208 On \u2192 ( \u2205 ^o A ) = ( 1o \u2216 A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.008336438091102516,
+            "_thrs_reconstruct": 1.2108247768044137e-10,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.7083333333333333,
+            "_thrs_complexity": 0.5384615384615384,
+            "_thrs_surprisingness": 0.4285714285714287,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7350732600732601,
+            "_thrs_logistic_regression": 0.9988836873827052,
+            "_thrs_random_forest": 0.935
+        },
+        {
+            "expression": "\u22a2 ( A \u2208 On \u2192 ( \u2205 ^o A ) = if ( \u2205 = \u2205 , ( 1o \u2216 A ) , ( rec ( ( x \u2208 V |\u2192 ( x .o \u2205 ) ) , 1o ) ` A ) ) )",
+            "prop_expression": "\ud835\udf11, ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf13 \u2192 \ud835\udf12 )",
+            "step": 2,
+            "theorem": "mpan",
+            "ground_truth": "mpan \u22a2 ( A \u2208 On \u2192 ( \u2205 ^o A ) = if ( \u2205 = \u2205 , ( 1o \u2216 A ) , ( rec ( ( x \u2208 V |\u2192 ( x .o \u2205 ) ) , 1o ) ` A ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.37156109450316477,
+            "_thrs_reconstruct": 1.0881730226703619e-12,
+            "_thrs_obviousness": 0.9999999909884525,
+            "_thrs_weight": 0.125,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.40281329923273673,
+            "_thrs_interestingness": 0.5055626580442378,
+            "_thrs_logistic_regression": 0.9931736313809014,
+            "_thrs_random_forest": 0.885
+        },
+        {
+            "expression": "\u22a2 \u2205 \u2208 On",
+            "prop_expression": " \u22a2 \u2205 \u2208 On",
+            "step": 3,
+            "theorem": "0elon",
+            "ground_truth": "0elon \u22a2 \u2205 \u2208 On",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8085498654242862,
+            "_thrs_reconstruct": 2.3376758896762073e-05,
+            "_thrs_obviousness": 2.3376211034988246e-05,
+            "_thrs_weight": 0.9583333333333334,
+            "_thrs_complexity": 0.8461538461538461,
+            "_thrs_surprisingness": 0.05158730158730161,
+            "_thrs_intensity": 0.2647058823529412,
+            "_thrs_interestingness": 0.42416074792769154,
+            "_thrs_logistic_regression": 0.8909402438206028,
+            "_thrs_random_forest": 0.83
+        },
+        {
+            "expression": "\u22a2 ( ( \u2205 \u2208 On \u2227 A \u2208 On ) \u2192 ( \u2205 ^o A ) = if ( \u2205 = \u2205 , ( 1o \u2216 A ) , ( rec ( ( x \u2208 V |\u2192 ( x .o \u2205 ) ) , 1o ) ` A ) ) )",
+            "prop_expression": " \u22a2 ( ( A \u2208 On \u2227 B \u2208 On ) \u2192 ( A ^o B ) = if ( A = \u2205 , ( 1o \u2216 B ) , ( rec ( ( x \u2208 V |\u2192 ( x .o A ) ) , 1o ) ` B ) ) )",
+            "step": 4,
+            "theorem": "oev",
+            "ground_truth": "oev \u22a2 ( ( \u2205 \u2208 On \u2227 A \u2208 On ) \u2192 ( \u2205 ^o A ) = if ( \u2205 = \u2205 , ( 1o \u2216 A ) , ( rec ( ( x \u2208 V |\u2192 ( x .o \u2205 ) ) , 1o ) ` A ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5985881127320286,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9999766147751378,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.02036199095022623,
+            "_thrs_interestingness": 0.4040677211450728,
+            "_thrs_logistic_regression": 0.9425305785105956,
+            "_thrs_random_forest": 0.74
+        },
+        {
+            "expression": "\u22a2 if ( \u2205 = \u2205 , ( 1o \u2216 A ) , ( rec ( ( x \u2208 V |\u2192 ( x .o \u2205 ) ) , 1o ) ` A ) ) = ( 1o \u2216 A )",
+            "prop_expression": "\ud835\udf11, ( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 \ud835\udf13",
+            "step": 5,
+            "theorem": "ax-mp",
+            "ground_truth": "ax-mp \u22a2 if ( \u2205 = \u2205 , ( 1o \u2216 A ) , ( rec ( ( x \u2208 V |\u2192 ( x .o \u2205 ) ) , 1o ) ` A ) ) = ( 1o \u2216 A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6204234253524789,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 8.8892761545831e-09,
+            "_thrs_weight": 0.25,
+            "_thrs_complexity": 0.15384615384615385,
+            "_thrs_surprisingness": 0.36904761904761907,
+            "_thrs_intensity": 0.3705882352941176,
+            "_thrs_interestingness": 0.22869640341543335,
+            "_thrs_logistic_regression": 0.9938425702350218,
+            "_thrs_random_forest": 0.87
+        },
+        {
+            "expression": "\u22a2 \u2205 = \u2205",
+            "prop_expression": " \u22a2 A = A",
+            "step": 6,
+            "theorem": "eqid",
+            "ground_truth": "eqid \u22a2 \u2205 = \u2205",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.732261878758826,
+            "_thrs_reconstruct": 1.1910661738111126e-12,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.5,
+            "_thrs_random_forest": 0.46
+        },
+        {
+            "expression": "\u22a2 ( \u2205 = \u2205 \u2192 if ( \u2205 = \u2205 , ( 1o \u2216 A ) , ( rec ( ( x \u2208 V |\u2192 ( x .o \u2205 ) ) , 1o ) ` A ) ) = ( 1o \u2216 A ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 if ( \ud835\udf11 , A , B ) = A )",
+            "step": 7,
+            "theorem": "iftrue",
+            "ground_truth": "iftrue \u22a2 ( \u2205 = \u2205 \u2192 if ( \u2205 = \u2205 , ( 1o \u2216 A ) , ( rec ( ( x \u2208 V |\u2192 ( x .o \u2205 ) ) , 1o ) ` A ) ) = ( 1o \u2216 A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5115759960619898,
+            "_thrs_reconstruct": 8.889483413560775e-09,
+            "_thrs_obviousness": 8.888084492682365e-09,
+            "_thrs_weight": 0.16666666666666663,
+            "_thrs_complexity": 0.15384615384615385,
+            "_thrs_surprisingness": 0.36904761904761907,
+            "_thrs_intensity": 0.02406417112299469,
+            "_thrs_interestingness": 0.14272492391430375,
+            "_thrs_logistic_regression": 0.9583020420655974,
+            "_thrs_random_forest": 0.52
+        }
+    ]
+}

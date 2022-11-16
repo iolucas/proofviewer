@@ -1,0 +1,188 @@
+{
+    "theorem": "seqomlem0",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "expression": "rec ( ( a \u2208 _om , b \u2208 V |\u2192 \u27e8 suc a , ( a F b ) \u27e9 ) , \u27e8 \u2205 , ( _I ` I ) \u27e9 ) = rec ( ( c \u2208 _om , d \u2208 V |\u2192 \u27e8 suc c , ( c F d ) \u27e9 ) , \u27e8 \u2205 , ( _I ` I ) \u27e9 )",
+    "steps": [
+        {
+            "expression": "\u22a2 rec ( ( a \u2208 _om , b \u2208 V |\u2192 \u27e8 suc a , ( a F b ) \u27e9 ) , \u27e8 \u2205 , ( _I ` I ) \u27e9 ) = rec ( ( c \u2208 _om , d \u2208 V |\u2192 \u27e8 suc c , ( c F d ) \u27e9 ) , \u27e8 \u2205 , ( _I ` I ) \u27e9 )",
+            "prop_expression": "\ud835\udf11, ( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 \ud835\udf13",
+            "step": 1,
+            "theorem": "ax-mp",
+            "ground_truth": "ax-mp \u22a2 rec ( ( a \u2208 _om , b \u2208 V |\u2192 \u27e8 suc a , ( a F b ) \u27e9 ) , \u27e8 \u2205 , ( _I ` I ) \u27e9 ) = rec ( ( c \u2208 _om , d \u2208 V |\u2192 \u27e8 suc c , ( c F d ) \u27e9 ) , \u27e8 \u2205 , ( _I ` I ) \u27e9 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5241956261928024,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.46153846153846156,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6923076923076923,
+            "_thrs_logistic_regression": 0.9998012584065574,
+            "_thrs_random_forest": 0.795
+        },
+        {
+            "expression": "\u22a2 ( a \u2208 _om , b \u2208 V |\u2192 \u27e8 suc a , ( a F b ) \u27e9 ) = ( c \u2208 _om , d \u2208 V |\u2192 \u27e8 suc c , ( c F d ) \u27e9 )",
+            "prop_expression": "( x = z \u2192 C = E ), ( y = w \u2192 E = D ) \u22a2 ( x \u2208 A , y \u2208 B |\u2192 C ) = ( z \u2208 A , w \u2208 B |\u2192 D )",
+            "step": 2,
+            "theorem": "cbvmpt2v",
+            "ground_truth": "cbvmpt2v \u22a2 ( a \u2208 _om , b \u2208 V |\u2192 \u27e8 suc a , ( a F b ) \u27e9 ) = ( c \u2208 _om , d \u2208 V |\u2192 \u27e8 suc c , ( c F d ) \u27e9 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9723969430345405,
+            "_thrs_reconstruct": 0.692459581487669,
+            "_thrs_obviousness": 0.6854300855962961,
+            "_thrs_weight": 0.6538461538461539,
+            "_thrs_complexity": 0.41666666666666663,
+            "_thrs_surprisingness": 0.48148148148148145,
+            "_thrs_intensity": 0.6539488145705762,
+            "_thrs_interestingness": 0.5782746404322349,
+            "_thrs_logistic_regression": 0.9957288541547595,
+            "_thrs_random_forest": 0.925
+        },
+        {
+            "expression": "\u22a2 ( a = c \u2192 \u27e8 suc a , ( a F b ) \u27e9 = \u27e8 suc c , ( c F b ) \u27e9 )",
+            "prop_expression": "( \ud835\udf11 \u2192 A = B ), ( \ud835\udf11 \u2192 C = D ) \u22a2 ( \ud835\udf11 \u2192 \u27e8 A , C \u27e9 = \u27e8 B , D \u27e9 )",
+            "step": 3,
+            "theorem": "opeq12d",
+            "ground_truth": "opeq12d \u22a2 ( a = c \u2192 \u27e8 suc a , ( a F b ) \u27e9 = \u27e8 suc c , ( c F b ) \u27e9 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7318249030335527,
+            "_thrs_reconstruct": 0.22428813352560137,
+            "_thrs_obviousness": 0.25056865087026337,
+            "_thrs_weight": 0.8846153846153846,
+            "_thrs_complexity": 0.8333333333333334,
+            "_thrs_surprisingness": 0.06666666666666665,
+            "_thrs_intensity": 0.42173025592714714,
+            "_thrs_interestingness": 0.4913828582825591,
+            "_thrs_logistic_regression": 0.947876068304462,
+            "_thrs_random_forest": 0.735
+        },
+        {
+            "expression": "\u22a2 ( a = c \u2192 suc a = suc c )",
+            "prop_expression": " \u22a2 ( A = B \u2192 suc A = suc B )",
+            "step": 4,
+            "theorem": "suceq",
+            "ground_truth": "suceq \u22a2 ( a = c \u2192 suc a = suc c )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9493091341804955,
+            "_thrs_reconstruct": 0.014840310928154344,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.11210551106924163,
+            "_thrs_interestingness": 0.4224211022138483,
+            "_thrs_logistic_regression": 0.6467730223109961,
+            "_thrs_random_forest": 0.665
+        },
+        {
+            "expression": "\u22a2 ( a = c \u2192 ( a F b ) = ( c F b ) )",
+            "prop_expression": " \u22a2 ( A = B \u2192 ( A F C ) = ( B F C ) )",
+            "step": 5,
+            "theorem": "oveq1",
+            "ground_truth": "oveq1 \u22a2 ( a = c \u2192 ( a F b ) = ( c F b ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.36245492287366887,
+            "_thrs_reconstruct": 0.5722554626577472,
+            "_thrs_obviousness": 0.17534603656677153,
+            "_thrs_weight": 0.9615384615384616,
+            "_thrs_complexity": 0.9166666666666666,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.11210551106924163,
+            "_thrs_interestingness": 0.4331313351682283,
+            "_thrs_logistic_regression": 0.7264389964906347,
+            "_thrs_random_forest": 0.715
+        },
+        {
+            "expression": "\u22a2 ( b = d \u2192 \u27e8 suc c , ( c F b ) \u27e9 = \u27e8 suc c , ( c F d ) \u27e9 )",
+            "prop_expression": "( \ud835\udf11 \u2192 A = B ) \u22a2 ( \ud835\udf11 \u2192 \u27e8 C , A \u27e9 = \u27e8 C , B \u27e9 )",
+            "step": 6,
+            "theorem": "opeq2d",
+            "ground_truth": "opeq2d \u22a2 ( b = d \u2192 \u27e8 suc c , ( c F b ) \u27e9 = \u27e8 suc c , ( c F d ) \u27e9 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5737720942909915,
+            "_thrs_reconstruct": 0.11399097700460983,
+            "_thrs_obviousness": 0.2123661681109679,
+            "_thrs_weight": 0.8846153846153846,
+            "_thrs_complexity": 0.8333333333333334,
+            "_thrs_surprisingness": 0.06666666666666665,
+            "_thrs_intensity": 0.26691788349819434,
+            "_thrs_interestingness": 0.4527798872449093,
+            "_thrs_logistic_regression": 0.8878088950106555,
+            "_thrs_random_forest": 0.785
+        },
+        {
+            "expression": "\u22a2 ( b = d \u2192 ( c F b ) = ( c F d ) )",
+            "prop_expression": " \u22a2 ( A = B \u2192 ( C F A ) = ( C F B ) )",
+            "step": 7,
+            "theorem": "oveq2",
+            "ground_truth": "oveq2 \u22a2 ( b = d \u2192 ( c F b ) = ( c F d ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3030839910630143,
+            "_thrs_reconstruct": 0.5759493939962619,
+            "_thrs_obviousness": 0.17650803623174036,
+            "_thrs_weight": 0.9615384615384616,
+            "_thrs_complexity": 0.9166666666666666,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.11210551106924163,
+            "_thrs_interestingness": 0.43336373510122206,
+            "_thrs_logistic_regression": 0.726419230142254,
+            "_thrs_random_forest": 0.83
+        },
+        {
+            "expression": "\u22a2 ( ( a \u2208 _om , b \u2208 V |\u2192 \u27e8 suc a , ( a F b ) \u27e9 ) = ( c \u2208 _om , d \u2208 V |\u2192 \u27e8 suc c , ( c F d ) \u27e9 ) \u2192 rec ( ( a \u2208 _om , b \u2208 V |\u2192 \u27e8 suc a , ( a F b ) \u27e9 ) , \u27e8 \u2205 , ( _I ` I ) \u27e9 ) = rec ( ( c \u2208 _om , d \u2208 V |\u2192 \u27e8 suc c , ( c F d ) \u27e9 ) , \u27e8 \u2205 , ( _I ` I ) \u27e9 ) )",
+            "prop_expression": " \u22a2 ( F = G \u2192 rec ( F , A ) = rec ( G , A ) )",
+            "step": 8,
+            "theorem": "rdgeq1",
+            "ground_truth": "rdgeq1 \u22a2 ( ( a \u2208 _om , b \u2208 V |\u2192 \u27e8 suc a , ( a F b ) \u27e9 ) = ( c \u2208 _om , d \u2208 V |\u2192 \u27e8 suc c , ( c F d ) \u27e9 ) \u2192 rec ( ( a \u2208 _om , b \u2208 V |\u2192 \u27e8 suc a , ( a F b ) \u27e9 ) , \u27e8 \u2205 , ( _I ` I ) \u27e9 ) = rec ( ( c \u2208 _om , d \u2208 V |\u2192 \u27e8 suc c , ( c F d ) \u27e9 ) , \u27e8 \u2205 , ( _I ` I ) \u27e9 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.10976799407241389,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.309901599065073,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2619803198130146,
+            "_thrs_logistic_regression": 0.9397163366881287,
+            "_thrs_random_forest": 0.605
+        }
+    ]
+}
