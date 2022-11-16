@@ -75,6 +75,8 @@
 
       theorem_name = window.location.hash.substr(1)
 
+      document.title = theorem_name + " - ProofViewer"
+
       d3.select("#original-proof")
         .attr("href", "http://us.metamath.org/mpeuni/" + theorem_name + ".html")
         .append("h1").text(theorem_name)
