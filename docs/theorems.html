@@ -37,11 +37,11 @@
                 .data(props_list)
                 .join("div")
                 .append("a")
-                .attr("href", (d) => "../#" + d[1])
+                .attr("href", (d) => "#" + d[1])
                 .text((d) => d[1] + " - "+ d[2])
         }
 
-        d3.json("filtered_props.json")// + window.location.search)
+        d3.json("filtered_props.json")
           .then(render_list)
           .catch(handle_error)
        
