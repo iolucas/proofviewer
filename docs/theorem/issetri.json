@@ -1,0 +1,77 @@
+{
+    "theorem": "issetri",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "A \u2208 V",
+    "steps": [
+        {
+            "number": 2478,
+            "expression": "\u22a2 A \u2208 V",
+            "prop_expression": "\ud835\udf13, ( \ud835\udf11 \u2194 \ud835\udf13 ) \u22a2 \ud835\udf11",
+            "step": 1,
+            "theorem": "mpbir",
+            "ground_truth": "mpbir \u22a2 A \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.62205,
+            "_thrs_reconstruct": 0.00247,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99849,
+            "_thrs_random_forest": 0.92
+        },
+        {
+            "number": 2478,
+            "expression": "\u22a2 \u2203 x x = A",
+            "prop_expression": " \u22a2 \u2203 x x = A",
+            "step": 2,
+            "theorem": "issetri.1",
+            "ground_truth": "issetri.1 \u22a2 \u2203 x x = A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.35881,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.5,
+            "_thrs_random_forest": 0.97
+        },
+        {
+            "number": 2478,
+            "expression": "\u22a2 ( A \u2208 V \u2194 \u2203 x x = A )",
+            "prop_expression": " \u22a2 ( A \u2208 V \u2194 \u2203 x x = A )",
+            "step": 3,
+            "theorem": "isset",
+            "ground_truth": "isset \u22a2 ( A \u2208 V \u2194 \u2203 x x = A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.91077,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.99754,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.39951,
+            "_thrs_logistic_regression": 0.93629,
+            "_thrs_random_forest": 0.975
+        }
+    ],
+    "is_train": false
+}

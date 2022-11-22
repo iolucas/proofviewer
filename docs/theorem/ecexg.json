@@ -1,0 +1,77 @@
+{
+    "theorem": "ecexg",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( .~ \u2208 B \u2192 [ A ] .~ \u2208 V )",
+    "steps": [
+        {
+            "number": 6114,
+            "expression": "\u22a2 ( .~ \u2208 B \u2192 [ A ] .~ \u2208 V )",
+            "prop_expression": "A = B, ( \ud835\udf11 \u2192 B \u2208 C ) \u22a2 ( \ud835\udf11 \u2192 A \u2208 C )",
+            "step": 1,
+            "theorem": "syl5eqel",
+            "ground_truth": "syl5eqel \u22a2 ( .~ \u2208 B \u2192 [ A ] .~ \u2208 V )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.16613,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.33333,
+            "_thrs_complexity": 0.33333,
+            "_thrs_surprisingness": 0.66667,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.66667,
+            "_thrs_logistic_regression": 0.99922,
+            "_thrs_random_forest": 0.9
+        },
+        {
+            "number": 6114,
+            "expression": "\u22a2 [ A ] .~ = ( .~ \u201c { A } )",
+            "prop_expression": " \u22a2 [ A ] .~ = ( .~ \u201c { A } )",
+            "step": 2,
+            "theorem": "df-ec",
+            "ground_truth": "df-ec \u22a2 [ A ] .~ = ( .~ \u201c { A } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.54718,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.5,
+            "_thrs_random_forest": 0.695
+        },
+        {
+            "number": 6114,
+            "expression": "\u22a2 ( .~ \u2208 B \u2192 ( .~ \u201c { A } ) \u2208 V )",
+            "prop_expression": " \u22a2 ( A \u2208 V \u2192 ( A \u201c B ) \u2208 V )",
+            "step": 3,
+            "theorem": "imaexg",
+            "ground_truth": "imaexg \u22a2 ( .~ \u2208 B \u2192 ( .~ \u201c { A } ) \u2208 V )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6308,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.15829,
+            "_thrs_interestingness": 0.43166,
+            "_thrs_logistic_regression": 0.97185,
+            "_thrs_random_forest": 0.85
+        }
+    ],
+    "is_train": false
+}

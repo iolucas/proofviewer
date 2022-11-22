@@ -1,0 +1,77 @@
+{
+    "theorem": "2eximi",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( \u2203 x \u2203 y \ud835\udf11 \u2192 \u2203 x \u2203 y \ud835\udf13 )",
+    "steps": [
+        {
+            "number": 1471,
+            "expression": "\u22a2 ( \u2203 x \u2203 y \ud835\udf11 \u2192 \u2203 x \u2203 y \ud835\udf13 )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 ( \u2203 x \ud835\udf11 \u2192 \u2203 x \ud835\udf13 )",
+            "step": 1,
+            "theorem": "eximi",
+            "ground_truth": "eximi \u22a2 ( \u2203 x \u2203 y \ud835\udf11 \u2192 \u2203 x \u2203 y \ud835\udf13 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.89429,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.55556,
+            "_thrs_interestingness": 0.41111,
+            "_thrs_logistic_regression": 0.99828,
+            "_thrs_random_forest": 0.87
+        },
+        {
+            "number": 1471,
+            "expression": "\u22a2 ( \u2203 y \ud835\udf11 \u2192 \u2203 y \ud835\udf13 )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 ( \u2203 x \ud835\udf11 \u2192 \u2203 x \ud835\udf13 )",
+            "step": 2,
+            "theorem": "eximi",
+            "ground_truth": "eximi \u22a2 ( \u2203 y \ud835\udf11 \u2192 \u2203 y \ud835\udf13 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.10718,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.5,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.7931,
+            "_thrs_random_forest": 0.915
+        },
+        {
+            "number": 1471,
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
+            "step": 3,
+            "theorem": "eximi.1",
+            "ground_truth": "eximi.1 \u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.92449,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99115,
+            "_thrs_random_forest": 0.94333
+        }
+    ],
+    "is_train": false
+}

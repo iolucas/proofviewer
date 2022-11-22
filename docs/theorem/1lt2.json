@@ -1,0 +1,101 @@
+{
+    "theorem": "1lt2",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "1 < 2",
+    "steps": [
+        {
+            "number": 8998,
+            "expression": "\u22a2 1 < 2",
+            "prop_expression": "A R B, C = B \u22a2 A R C",
+            "step": 1,
+            "theorem": "breqtrri",
+            "ground_truth": "breqtrri \u22a2 1 < 2",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.81593,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99961,
+            "_thrs_random_forest": 0.86
+        },
+        {
+            "number": 8998,
+            "expression": "\u22a2 1 < ( 1 + 1 )",
+            "prop_expression": "A \u2208 \u211d \u22a2 A < ( A + 1 )",
+            "step": 2,
+            "theorem": "ltp1i",
+            "ground_truth": "ltp1i \u22a2 1 < ( 1 + 1 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.24215,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.81777,
+            "_thrs_random_forest": 0.74
+        },
+        {
+            "number": 8998,
+            "expression": "\u22a2 1 \u2208 \u211d",
+            "prop_expression": " \u22a2 1 \u2208 \u211d",
+            "step": 3,
+            "theorem": "1re",
+            "ground_truth": "1re \u22a2 1 \u2208 \u211d",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.22425,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.24242,
+            "_thrs_interestingness": 0.54848,
+            "_thrs_logistic_regression": 0.92373,
+            "_thrs_random_forest": 0.69
+        },
+        {
+            "number": 8998,
+            "expression": "\u22a2 2 = ( 1 + 1 )",
+            "prop_expression": " \u22a2 2 = ( 1 + 1 )",
+            "step": 4,
+            "theorem": "df-2",
+            "ground_truth": "df-2 \u22a2 2 = ( 1 + 1 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.37833,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.09091,
+            "_thrs_interestingness": 0.41818,
+            "_thrs_logistic_regression": 0.76849,
+            "_thrs_random_forest": 0.87
+        }
+    ],
+    "is_train": false
+}

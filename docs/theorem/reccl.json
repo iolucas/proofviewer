@@ -1,0 +1,77 @@
+{
+    "theorem": "reccl",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( ( A \u2208 \u2102 \u2227 A \u2260 0 ) \u2192 ( 1 / A ) \u2208 \u2102 )",
+    "steps": [
+        {
+            "number": 8647,
+            "expression": "\u22a2 ( ( A \u2208 \u2102 \u2227 A \u2260 0 ) \u2192 ( 1 / A ) \u2208 \u2102 )",
+            "prop_expression": "\ud835\udf11, ( ( \ud835\udf11 \u2227 \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( ( \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 )",
+            "step": 1,
+            "theorem": "mp3an1",
+            "ground_truth": "mp3an1 \u22a2 ( ( A \u2208 \u2102 \u2227 A \u2260 0 ) \u2192 ( 1 / A ) \u2208 \u2102 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.21758,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.33333,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.66667,
+            "_thrs_logistic_regression": 0.99978,
+            "_thrs_random_forest": 0.765
+        },
+        {
+            "number": 8647,
+            "expression": "\u22a2 1 \u2208 \u2102",
+            "prop_expression": " \u22a2 1 \u2208 \u2102",
+            "step": 2,
+            "theorem": "ax-1cn",
+            "ground_truth": "ax-1cn \u22a2 1 \u2208 \u2102",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.2087,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.46667,
+            "_thrs_interestingness": 0.49333,
+            "_thrs_logistic_regression": 0.92539,
+            "_thrs_random_forest": 0.77
+        },
+        {
+            "number": 8647,
+            "expression": "\u22a2 ( ( 1 \u2208 \u2102 \u2227 A \u2208 \u2102 \u2227 A \u2260 0 ) \u2192 ( 1 / A ) \u2208 \u2102 )",
+            "prop_expression": " \u22a2 ( ( A \u2208 \u2102 \u2227 B \u2208 \u2102 \u2227 B \u2260 0 ) \u2192 ( A / B ) \u2208 \u2102 )",
+            "step": 3,
+            "theorem": "divcl",
+            "ground_truth": "divcl \u22a2 ( ( 1 \u2208 \u2102 \u2227 A \u2208 \u2102 \u2227 A \u2260 0 ) \u2192 ( 1 / A ) \u2208 \u2102 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.15078,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.93628,
+            "_thrs_random_forest": 0.855
+        }
+    ],
+    "is_train": false
+}

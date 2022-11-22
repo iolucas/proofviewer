@@ -1,0 +1,101 @@
+{
+    "theorem": "dmresv",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            1,
+            4
+        ]
+    ],
+    "expression": "dom ( A |` V ) = dom A",
+    "steps": [
+        {
+            "number": 4710,
+            "expression": "\u22a2 dom ( A |` V ) = dom A",
+            "prop_expression": "A = B, B = C, C = D \u22a2 A = D",
+            "step": 1,
+            "theorem": "3eqtri",
+            "ground_truth": "3eqtri \u22a2 dom ( A |` V ) = dom A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.93417,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.75,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.95,
+            "_thrs_logistic_regression": 0.98654,
+            "_thrs_random_forest": 0.81
+        },
+        {
+            "number": 4710,
+            "expression": "\u22a2 dom ( A |` V ) = ( V \u2229 dom A )",
+            "prop_expression": " \u22a2 dom ( A |` B ) = ( B \u2229 dom A )",
+            "step": 2,
+            "theorem": "dmres",
+            "ground_truth": "dmres \u22a2 dom ( A |` V ) = ( V \u2229 dom A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.50825,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.99601,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.05137,
+            "_thrs_interestingness": 0.40948,
+            "_thrs_logistic_regression": 0.95097,
+            "_thrs_random_forest": 0.975
+        },
+        {
+            "number": 4710,
+            "expression": "\u22a2 ( V \u2229 dom A ) = ( dom A \u2229 V )",
+            "prop_expression": " \u22a2 ( A \u2229 B ) = ( B \u2229 A )",
+            "step": 3,
+            "theorem": "incom",
+            "ground_truth": "incom \u22a2 ( V \u2229 dom A ) = ( dom A \u2229 V )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.54683,
+            "_thrs_reconstruct": 0.00199,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.27813,
+            "_thrs_random_forest": 0.914
+        },
+        {
+            "number": 4710,
+            "expression": "\u22a2 ( dom A \u2229 V ) = dom A",
+            "prop_expression": " \u22a2 ( A \u2229 V ) = A",
+            "step": 4,
+            "theorem": "inv1",
+            "ground_truth": "inv1 \u22a2 ( dom A \u2229 V ) = dom A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.07541,
+            "_thrs_reconstruct": 0.00201,
+            "_thrs_obviousness": 2e-05,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.06849,
+            "_thrs_interestingness": 0.4137,
+            "_thrs_logistic_regression": 0.59135,
+            "_thrs_random_forest": 0.965
+        }
+    ],
+    "is_train": false
+}

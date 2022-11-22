@@ -1,0 +1,53 @@
+{
+    "theorem": "reldom",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "Rel \u227a_",
+    "steps": [
+        {
+            "number": 6302,
+            "expression": "\u22a2 Rel \u227a_",
+            "prop_expression": "A = { \u27e8 x , y \u27e9 | \ud835\udf11 } \u22a2 Rel A",
+            "step": 1,
+            "theorem": "relopabi",
+            "ground_truth": "relopabi \u22a2 Rel \u227a_",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.93989,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.765
+        },
+        {
+            "number": 6302,
+            "expression": "\u22a2 \u227a_ = { \u27e8 x , y \u27e9 | \u2203 f f : x -1-1\u2192 y }",
+            "prop_expression": " \u22a2 \u227a_ = { \u27e8 x , y \u27e9 | \u2203 f f : x -1-1\u2192 y }",
+            "step": 2,
+            "theorem": "df-dom",
+            "ground_truth": "df-dom \u22a2 \u227a_ = { \u27e8 x , y \u27e9 | \u2203 f f : x -1-1\u2192 y }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.65721,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.72
+        }
+    ],
+    "is_train": false
+}

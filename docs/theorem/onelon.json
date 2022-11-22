@@ -1,0 +1,77 @@
+{
+    "theorem": "onelon",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( ( A \u2208 On \u2227 B \u2208 A ) \u2192 B \u2208 On )",
+    "steps": [
+        {
+            "number": 3967,
+            "expression": "\u22a2 ( ( A \u2208 On \u2227 B \u2208 A ) \u2192 B \u2208 On )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( ( \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 )",
+            "step": 1,
+            "theorem": "sylan",
+            "ground_truth": "sylan \u22a2 ( ( A \u2208 On \u2227 B \u2208 A ) \u2192 B \u2208 On )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.49474,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.75,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.75,
+            "_thrs_logistic_regression": 0.96579,
+            "_thrs_random_forest": 0.875
+        },
+        {
+            "number": 3967,
+            "expression": "\u22a2 ( A \u2208 On \u2192 Ord A )",
+            "prop_expression": " \u22a2 ( A \u2208 On \u2192 Ord A )",
+            "step": 2,
+            "theorem": "eloni",
+            "ground_truth": "eloni \u22a2 ( A \u2208 On \u2192 Ord A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.70286,
+            "_thrs_reconstruct": 0.0002,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.32984,
+            "_thrs_interestingness": 0.46597,
+            "_thrs_logistic_regression": 0.85566,
+            "_thrs_random_forest": 0.8075
+        },
+        {
+            "number": 3967,
+            "expression": "\u22a2 ( ( Ord A \u2227 B \u2208 A ) \u2192 B \u2208 On )",
+            "prop_expression": " \u22a2 ( ( Ord A \u2227 B \u2208 A ) \u2192 B \u2208 On )",
+            "step": 3,
+            "theorem": "ordelon",
+            "ground_truth": "ordelon \u22a2 ( ( Ord A \u2227 B \u2208 A ) \u2192 B \u2208 On )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7221,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9998,
+            "_thrs_weight": 0.25,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.44996,
+            "_thrs_logistic_regression": 0.94911,
+            "_thrs_random_forest": 0.825
+        }
+    ],
+    "is_train": false
+}

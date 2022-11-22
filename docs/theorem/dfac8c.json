@@ -1,0 +1,53 @@
+{
+    "theorem": "dfac8c",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( A \u2208 B \u2192 ( \u2203 r r We U. A \u2192 \u2203 f \u2200 z \u2208 A ( z \u2260 \u2205 \u2192 ( f ` z ) \u2208 z ) ) )",
+    "steps": [
+        {
+            "number": 7135,
+            "expression": "\u22a2 ( A \u2208 B \u2192 ( \u2203 r r We U. A \u2192 \u2203 f \u2200 z \u2208 A ( z \u2260 \u2205 \u2192 ( f ` z ) \u2208 z ) ) )",
+            "prop_expression": "F = ( s \u2208 ( A \u2216 { \u2205 } ) |\u2192 ( io\ud835\udf0f_ a \u2208 s \u2200 b \u2208 s \u00ac b r a ) ) \u22a2 ( A \u2208 B \u2192 ( \u2203 r r We U. A \u2192 \u2203 f \u2200 z \u2208 A ( z \u2260 \u2205 \u2192 ( f ` z ) \u2208 z ) ) )",
+            "step": 1,
+            "theorem": "dfac8clem",
+            "ground_truth": "dfac8clem \u22a2 ( A \u2208 B \u2192 ( \u2203 r r We U. A \u2192 \u2203 f \u2200 z \u2208 A ( z \u2260 \u2205 \u2192 ( f ` z ) \u2208 z ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.60789,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99994,
+            "_thrs_random_forest": 0.62
+        },
+        {
+            "number": 7135,
+            "expression": "\u22a2 ( x \u2208 ( A \u2216 { \u2205 } ) |\u2192 ( io\ud835\udf0f_ y \u2208 x \u2200 w \u2208 x \u00ac w r y ) ) = ( x \u2208 ( A \u2216 { \u2205 } ) |\u2192 ( io\ud835\udf0f_ y \u2208 x \u2200 w \u2208 x \u00ac w r y ) )",
+            "prop_expression": " \u22a2 A = A",
+            "step": 2,
+            "theorem": "eqid",
+            "ground_truth": "eqid \u22a2 ( x \u2208 ( A \u2216 { \u2205 } ) |\u2192 ( io\ud835\udf0f_ y \u2208 x \u2200 w \u2208 x \u00ac w r y ) ) = ( x \u2208 ( A \u2216 { \u2205 } ) |\u2192 ( io\ud835\udf0f_ y \u2208 x \u2200 w \u2208 x \u00ac w r y ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.12585,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.1637,
+            "_thrs_random_forest": 0.67
+        }
+    ],
+    "is_train": false
+}

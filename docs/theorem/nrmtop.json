@@ -1,0 +1,53 @@
+{
+    "theorem": "nrmtop",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( J \u2208 Nrm \u2192 J \u2208 Top )",
+    "steps": [
+        {
+            "number": 14885,
+            "expression": "\u22a2 ( J \u2208 Nrm \u2192 J \u2208 Top )",
+            "prop_expression": "( \ud835\udf11 \u2194 ( \ud835\udf13 \u2227 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
+            "step": 1,
+            "theorem": "simplbi",
+            "ground_truth": "simplbi \u22a2 ( J \u2208 Nrm \u2192 J \u2208 Top )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.60744,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.525
+        },
+        {
+            "number": 14885,
+            "expression": "\u22a2 ( J \u2208 Nrm \u2194 ( J \u2208 Top \u2227 \u2200 x \u2208 J \u2200 y \u2208 ( ( Clsd ` J ) \u2229 \ud835\udcab x ) \u2203 z \u2208 J ( y \u2286 z \u2227 ( ( cls ` J ) ` z ) \u2286 x ) ) )",
+            "prop_expression": " \u22a2 ( J \u2208 Nrm \u2194 ( J \u2208 Top \u2227 \u2200 x \u2208 J \u2200 y \u2208 ( ( Clsd ` J ) \u2229 \ud835\udcab x ) \u2203 z \u2208 J ( y \u2286 z \u2227 ( ( cls ` J ) ` z ) \u2286 x ) ) )",
+            "step": 2,
+            "theorem": "isnrm",
+            "ground_truth": "isnrm \u22a2 ( J \u2208 Nrm \u2194 ( J \u2208 Top \u2227 \u2200 x \u2208 J \u2200 y \u2208 ( ( Clsd ` J ) \u2229 \ud835\udcab x ) \u2203 z \u2208 J ( y \u2286 z \u2227 ( ( cls ` J ) ` z ) \u2286 x ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.97815,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.79
+        }
+    ],
+    "is_train": false
+}

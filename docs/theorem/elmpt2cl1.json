@@ -1,0 +1,77 @@
+{
+    "theorem": "elmpt2cl1",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( X \u2208 ( S F T ) \u2192 S \u2208 A )",
+    "steps": [
+        {
+            "number": 5550,
+            "expression": "\u22a2 ( X \u2208 ( S F T ) \u2192 S \u2208 A )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2227 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
+            "step": 1,
+            "theorem": "simpld",
+            "ground_truth": "simpld \u22a2 ( X \u2208 ( S F T ) \u2192 S \u2208 A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.21234,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.76333
+        },
+        {
+            "number": 5550,
+            "expression": "\u22a2 ( X \u2208 ( S F T ) \u2192 ( S \u2208 A \u2227 T \u2208 B ) )",
+            "prop_expression": "F = ( x \u2208 A , y \u2208 B |\u2192 C ) \u22a2 ( X \u2208 ( S F T ) \u2192 ( S \u2208 A \u2227 T \u2208 B ) )",
+            "step": 2,
+            "theorem": "elmpt2cl",
+            "ground_truth": "elmpt2cl \u22a2 ( X \u2208 ( S F T ) \u2192 ( S \u2208 A \u2227 T \u2208 B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.19982,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.6951,
+            "_thrs_random_forest": 0.885
+        },
+        {
+            "number": 5550,
+            "expression": "\u22a2 F = ( x \u2208 A , y \u2208 B |\u2192 C )",
+            "prop_expression": " \u22a2 F = ( x \u2208 A , y \u2208 B |\u2192 C )",
+            "step": 3,
+            "theorem": "elmpt2cl.f",
+            "ground_truth": "elmpt2cl.f \u22a2 F = ( x \u2208 A , y \u2208 B |\u2192 C )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.13039,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.66667,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.37388,
+            "_thrs_interestingness": 0.30811,
+            "_thrs_logistic_regression": 0.99777,
+            "_thrs_random_forest": 0.90167
+        }
+    ],
+    "is_train": false
+}

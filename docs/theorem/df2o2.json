@@ -1,0 +1,101 @@
+{
+    "theorem": "df2o2",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "expression": "2o = { \u2205 , { \u2205 } }",
+    "steps": [
+        {
+            "number": 5943,
+            "expression": "\u22a2 2o = { \u2205 , { \u2205 } }",
+            "prop_expression": "A = B, B = C \u22a2 A = C",
+            "step": 1,
+            "theorem": "eqtri",
+            "ground_truth": "eqtri \u22a2 2o = { \u2205 , { \u2205 } }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.89356,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.98457,
+            "_thrs_random_forest": 0.84
+        },
+        {
+            "number": 5943,
+            "expression": "\u22a2 2o = { \u2205 , 1o }",
+            "prop_expression": " \u22a2 2o = { \u2205 , 1o }",
+            "step": 2,
+            "theorem": "df2o3",
+            "ground_truth": "df2o3 \u22a2 2o = { \u2205 , 1o }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.59469,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.15382,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.47368,
+            "_thrs_interestingness": 0.4255,
+            "_thrs_logistic_regression": 0.99696,
+            "_thrs_random_forest": 0.915
+        },
+        {
+            "number": 5943,
+            "expression": "\u22a2 { \u2205 , 1o } = { \u2205 , { \u2205 } }",
+            "prop_expression": "A = B \u22a2 { C , A } = { C , B }",
+            "step": 3,
+            "theorem": "preq2i",
+            "ground_truth": "preq2i \u22a2 { \u2205 , 1o } = { \u2205 , { \u2205 } }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.36863,
+            "_thrs_reconstruct": 0.85775,
+            "_thrs_obviousness": 0.46171,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.29234,
+            "_thrs_logistic_regression": 0.27027,
+            "_thrs_random_forest": 0.705
+        },
+        {
+            "number": 5943,
+            "expression": "\u22a2 1o = { \u2205 }",
+            "prop_expression": " \u22a2 1o = { \u2205 }",
+            "step": 4,
+            "theorem": "df1o2",
+            "ground_truth": "df1o2 \u22a2 1o = { \u2205 }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.85979,
+            "_thrs_reconstruct": 0.71424,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.47368,
+            "_thrs_interestingness": 0.49474,
+            "_thrs_logistic_regression": 0.92797,
+            "_thrs_random_forest": 0.67283
+        }
+    ],
+    "is_train": false
+}

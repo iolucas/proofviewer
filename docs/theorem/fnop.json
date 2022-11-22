@@ -1,0 +1,77 @@
+{
+    "theorem": "fnop",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( ( F Fn A \u2227 \u27e8 B , C \u27e9 \u2208 F ) \u2192 B \u2208 A )",
+    "steps": [
+        {
+            "number": 4874,
+            "expression": "\u22a2 ( ( F Fn A \u2227 \u27e8 B , C \u27e9 \u2208 F ) \u2192 B \u2208 A )",
+            "prop_expression": "( \ud835\udf12 \u2194 \ud835\udf11 ), ( ( \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( ( \ud835\udf13 \u2227 \ud835\udf11 ) \u2192 \ud835\udf03 )",
+            "step": 1,
+            "theorem": "sylan2br",
+            "ground_truth": "sylan2br \u22a2 ( ( F Fn A \u2227 \u27e8 B , C \u27e9 \u2208 F ) \u2192 B \u2208 A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.1031,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.99969,
+            "_thrs_random_forest": 0.86
+        },
+        {
+            "number": 4874,
+            "expression": "\u22a2 ( B F C \u2194 \u27e8 B , C \u27e9 \u2208 F )",
+            "prop_expression": " \u22a2 ( A R B \u2194 \u27e8 A , B \u27e9 \u2208 R )",
+            "step": 2,
+            "theorem": "df-br",
+            "ground_truth": "df-br \u22a2 ( B F C \u2194 \u27e8 B , C \u27e9 \u2208 F )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.13935,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.5,
+            "_thrs_random_forest": 0.695
+        },
+        {
+            "number": 4874,
+            "expression": "\u22a2 ( ( F Fn A \u2227 B F C ) \u2192 B \u2208 A )",
+            "prop_expression": " \u22a2 ( ( F Fn A \u2227 B F C ) \u2192 B \u2208 A )",
+            "step": 3,
+            "theorem": "fnbr",
+            "ground_truth": "fnbr \u22a2 ( ( F Fn A \u2227 B F C ) \u2192 B \u2208 A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.78411,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.33333,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.09259,
+            "_thrs_interestingness": 0.48519,
+            "_thrs_logistic_regression": 0.97083,
+            "_thrs_random_forest": 0.865
+        }
+    ],
+    "is_train": false
+}

@@ -1,0 +1,77 @@
+{
+    "theorem": "19.35i",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( \u2200 x \ud835\udf11 \u2192 \u2203 x \ud835\udf13 )",
+    "steps": [
+        {
+            "number": 1496,
+            "expression": "\u22a2 ( \u2200 x \ud835\udf11 \u2192 \u2203 x \ud835\udf13 )",
+            "prop_expression": "\ud835\udf11, ( \ud835\udf11 \u2194 \ud835\udf13 ) \u22a2 \ud835\udf13",
+            "step": 1,
+            "theorem": "mpbi",
+            "ground_truth": "mpbi \u22a2 ( \u2200 x \ud835\udf11 \u2192 \u2203 x \ud835\udf13 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.20591,
+            "_thrs_reconstruct": 0.00026,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.75,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.75,
+            "_thrs_logistic_regression": 0.99903,
+            "_thrs_random_forest": 0.92
+        },
+        {
+            "number": 1496,
+            "expression": "\u22a2 \u2203 x ( \ud835\udf11 \u2192 \ud835\udf13 )",
+            "prop_expression": " \u22a2 \u2203 x ( \ud835\udf11 \u2192 \ud835\udf13 )",
+            "step": 2,
+            "theorem": "19.35i.1",
+            "ground_truth": "19.35i.1 \u22a2 \u2203 x ( \ud835\udf11 \u2192 \ud835\udf13 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.78689,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.27586,
+            "_thrs_interestingness": 0.45517,
+            "_thrs_logistic_regression": 0.96617,
+            "_thrs_random_forest": 0.985
+        },
+        {
+            "number": 1496,
+            "expression": "\u22a2 ( \u2203 x ( \ud835\udf11 \u2192 \ud835\udf13 ) \u2194 ( \u2200 x \ud835\udf11 \u2192 \u2203 x \ud835\udf13 ) )",
+            "prop_expression": " \u22a2 ( \u2203 x ( \ud835\udf11 \u2192 \ud835\udf13 ) \u2194 ( \u2200 x \ud835\udf11 \u2192 \u2203 x \ud835\udf13 ) )",
+            "step": 3,
+            "theorem": "19.35",
+            "ground_truth": "19.35 \u22a2 ( \u2203 x ( \ud835\udf11 \u2192 \ud835\udf13 ) \u2194 ( \u2200 x \ud835\udf11 \u2192 \u2203 x \ud835\udf13 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3767,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.99973,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.39995,
+            "_thrs_logistic_regression": 0.6951,
+            "_thrs_random_forest": 0.975
+        }
+    ],
+    "is_train": false
+}

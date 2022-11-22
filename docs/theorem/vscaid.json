@@ -1,0 +1,77 @@
+{
+    "theorem": "vscaid",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": ".s = Slot ( .s ` ndx )",
+    "steps": [
+        {
+            "number": 11746,
+            "expression": "\u22a2 .s = Slot ( .s ` ndx )",
+            "prop_expression": "E = Slot N, N \u2208 \u2115 \u22a2 E = Slot ( E ` ndx )",
+            "step": 1,
+            "theorem": "ndxid",
+            "ground_truth": "ndxid \u22a2 .s = Slot ( .s ` ndx )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.96278,
+            "_thrs_reconstruct": 0.17988,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.98274,
+            "_thrs_random_forest": 0.615
+        },
+        {
+            "number": 11746,
+            "expression": "\u22a2 .s = Slot 6",
+            "prop_expression": " \u22a2 .s = Slot 6",
+            "step": 2,
+            "theorem": "df-vsca",
+            "ground_truth": "df-vsca \u22a2 .s = Slot 6",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.83774,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.98273,
+            "_thrs_random_forest": 0.78667
+        },
+        {
+            "number": 11746,
+            "expression": "\u22a2 6 \u2208 \u2115",
+            "prop_expression": " \u22a2 6 \u2208 \u2115",
+            "step": 3,
+            "theorem": "6nn",
+            "ground_truth": "6nn \u22a2 6 \u2208 \u2115",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.181,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.84754,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.96951,
+            "_thrs_logistic_regression": 0.98145,
+            "_thrs_random_forest": 0.74667
+        }
+    ],
+    "is_train": false
+}

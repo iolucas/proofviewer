@@ -1,0 +1,53 @@
+{
+    "theorem": "zcn",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( N \u2208 \u2124 \u2192 N \u2208 \u2102 )",
+    "steps": [
+        {
+            "number": 9125,
+            "expression": "\u22a2 ( N \u2208 \u2124 \u2192 N \u2208 \u2102 )",
+            "prop_expression": "( \ud835\udf11 \u2192 A \u2208 \u211d ) \u22a2 ( \ud835\udf11 \u2192 A \u2208 \u2102 )",
+            "step": 1,
+            "theorem": "recnd",
+            "ground_truth": "recnd \u22a2 ( N \u2208 \u2124 \u2192 N \u2208 \u2102 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.54115,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99877,
+            "_thrs_random_forest": 0.645
+        },
+        {
+            "number": 9125,
+            "expression": "\u22a2 ( N \u2208 \u2124 \u2192 N \u2208 \u211d )",
+            "prop_expression": " \u22a2 ( N \u2208 \u2124 \u2192 N \u2208 \u211d )",
+            "step": 2,
+            "theorem": "zre",
+            "ground_truth": "zre \u22a2 ( N \u2208 \u2124 \u2192 N \u2208 \u211d )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.34117,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.80004,
+            "_thrs_random_forest": 0.805
+        }
+    ],
+    "is_train": false
+}

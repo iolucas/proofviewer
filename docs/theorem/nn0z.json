@@ -1,0 +1,53 @@
+{
+    "theorem": "nn0z",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( N \u2208 \u21150 \u2192 N \u2208 \u2124 )",
+    "steps": [
+        {
+            "number": 9142,
+            "expression": "\u22a2 ( N \u2208 \u21150 \u2192 N \u2208 \u2124 )",
+            "prop_expression": "A \u2286 B \u22a2 ( C \u2208 A \u2192 C \u2208 B )",
+            "step": 1,
+            "theorem": "sseli",
+            "ground_truth": "sseli \u22a2 ( N \u2208 \u21150 \u2192 N \u2208 \u2124 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.98587,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.96658,
+            "_thrs_random_forest": 0.465
+        },
+        {
+            "number": 9142,
+            "expression": "\u22a2 \u21150 \u2286 \u2124",
+            "prop_expression": " \u22a2 \u21150 \u2286 \u2124",
+            "step": 2,
+            "theorem": "nn0ssz",
+            "ground_truth": "nn0ssz \u22a2 \u21150 \u2286 \u2124",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.50411,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99115,
+            "_thrs_random_forest": 0.695
+        }
+    ],
+    "is_train": false
+}

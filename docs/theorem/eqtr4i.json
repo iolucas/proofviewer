@@ -17,6 +17,7 @@
     "expression": "A = C",
     "steps": [
         {
+            "number": 2083,
             "expression": "\u22a2 A = C",
             "prop_expression": "A = B, B = C \u22a2 A = C",
             "step": 1,
@@ -24,7 +25,7 @@
             "ground_truth": "eqtri \u22a2 A = C",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.41684,
+            "_thrs_random_uniform": 0.10519,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.5,
@@ -36,6 +37,7 @@
             "_thrs_random_forest": 0.84
         },
         {
+            "number": 2083,
             "expression": "\u22a2 A = B",
             "prop_expression": " \u22a2 A = B",
             "step": 2,
@@ -43,7 +45,7 @@
             "ground_truth": "eqtr4i.1 \u22a2 A = B",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.58972,
+            "_thrs_random_uniform": 0.29581,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.5,
@@ -55,6 +57,7 @@
             "_thrs_random_forest": 0.995
         },
         {
+            "number": 2083,
             "expression": "\u22a2 B = C",
             "prop_expression": "A = B \u22a2 B = A",
             "step": 3,
@@ -62,7 +65,7 @@
             "ground_truth": "eqcomi \u22a2 B = C",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.07945,
+            "_thrs_random_uniform": 0.30816,
             "_thrs_reconstruct": 0.07292,
             "_thrs_obviousness": 0.06797,
             "_thrs_weight": 0.5,
@@ -74,6 +77,7 @@
             "_thrs_random_forest": 0.815
         },
         {
+            "number": 2083,
             "expression": "\u22a2 C = B",
             "prop_expression": " \u22a2 C = B",
             "step": 4,
@@ -81,7 +85,7 @@
             "ground_truth": "eqtr4i.2 \u22a2 C = B",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.14824,
+            "_thrs_random_uniform": 0.12665,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.5,
@@ -92,5 +96,6 @@
             "_thrs_logistic_regression": 0.67025,
             "_thrs_random_forest": 0.99
         }
-    ]
+    ],
+    "is_train": true
 }

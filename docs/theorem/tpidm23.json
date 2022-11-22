@@ -17,6 +17,7 @@
     "expression": "{ A , B , B } = { A , B }",
     "steps": [
         {
+            "number": 3339,
             "expression": "\u22a2 { A , B , B } = { A , B }",
             "prop_expression": "A = B, B = C, C = D \u22a2 A = D",
             "step": 1,
@@ -24,7 +25,7 @@
             "ground_truth": "3eqtri \u22a2 { A , B , B } = { A , B }",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.06943,
+            "_thrs_random_uniform": 0.27369,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.5,
@@ -36,6 +37,7 @@
             "_thrs_random_forest": 0.7925
         },
         {
+            "number": 3339,
             "expression": "\u22a2 { A , B , B } = { B , B , A }",
             "prop_expression": " \u22a2 { A , B , C } = { B , C , A }",
             "step": 2,
@@ -43,7 +45,7 @@
             "ground_truth": "tprot \u22a2 { A , B , B } = { B , B , A }",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.05645,
+            "_thrs_random_uniform": 0.93285,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 0.54575,
             "_thrs_weight": 0.0,
@@ -55,6 +57,7 @@
             "_thrs_random_forest": 0.9
         },
         {
+            "number": 3339,
             "expression": "\u22a2 { B , B , A } = { B , A }",
             "prop_expression": " \u22a2 { A , A , B } = { A , B }",
             "step": 3,
@@ -62,7 +65,7 @@
             "ground_truth": "tpidm12 \u22a2 { B , B , A } = { B , A }",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.60742,
+            "_thrs_random_uniform": 0.82696,
             "_thrs_reconstruct": 0.37466,
             "_thrs_obviousness": 0.09086,
             "_thrs_weight": 0.5,
@@ -74,6 +77,7 @@
             "_thrs_random_forest": 0.925
         },
         {
+            "number": 3339,
             "expression": "\u22a2 { B , A } = { A , B }",
             "prop_expression": " \u22a2 { A , B } = { B , A }",
             "step": 4,
@@ -81,7 +85,7 @@
             "ground_truth": "prcom \u22a2 { B , A } = { A , B }",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.66425,
+            "_thrs_random_uniform": 0.21145,
             "_thrs_reconstruct": 0.24975,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
@@ -92,5 +96,6 @@
             "_thrs_logistic_regression": 0.90031,
             "_thrs_random_forest": 0.905
         }
-    ]
+    ],
+    "is_train": true
 }

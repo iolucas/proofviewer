@@ -1,0 +1,53 @@
+{
+    "theorem": "fin34i",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( ( A \u2208 Fin3 \u2227 G : om -\u2192 \ud835\udcab A \u2227 \u2200 x \u2208 om ( G ` x ) \u2286 ( G ` suc x ) ) \u2192 U. ran G \u2208 ran G )",
+    "steps": [
+        {
+            "number": 7463,
+            "expression": "\u22a2 ( ( A \u2208 Fin3 \u2227 G : om -\u2192 \ud835\udcab A \u2227 \u2200 x \u2208 om ( G ` x ) \u2286 ( G ` suc x ) ) \u2192 U. ran G \u2208 ran G )",
+            "prop_expression": "F = ( x \u2208 \ud835\udcab A |\u2192 ( A \u2216 x ) ) \u22a2 ( ( A \u2208 Fin3 \u2227 G : om -\u2192 \ud835\udcab A \u2227 \u2200 y \u2208 om ( G ` y ) \u2286 ( G ` suc y ) ) \u2192 U. ran G \u2208 ran G )",
+            "step": 1,
+            "theorem": "isf34lem7",
+            "ground_truth": "isf34lem7 \u22a2 ( ( A \u2208 Fin3 \u2227 G : om -\u2192 \ud835\udcab A \u2227 \u2200 x \u2208 om ( G ` x ) \u2286 ( G ` suc x ) ) \u2192 U. ran G \u2208 ran G )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.86765,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.99984,
+            "_thrs_random_forest": 0.625
+        },
+        {
+            "number": 7463,
+            "expression": "\u22a2 ( y \u2208 \ud835\udcab A |\u2192 ( A \u2216 y ) ) = ( y \u2208 \ud835\udcab A |\u2192 ( A \u2216 y ) )",
+            "prop_expression": " \u22a2 A = A",
+            "step": 2,
+            "theorem": "eqid",
+            "ground_truth": "eqid \u22a2 ( y \u2208 \ud835\udcab A |\u2192 ( A \u2216 y ) ) = ( y \u2208 \ud835\udcab A |\u2192 ( A \u2216 y ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.93227,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.33688,
+            "_thrs_random_forest": 0.65
+        }
+    ],
+    "is_train": false
+}

@@ -1,0 +1,77 @@
+{
+    "theorem": "r1val2",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( A \u2208 On \u2192 ( R1 ` A ) = { x | ( rank ` x ) \u2208 A } )",
+    "steps": [
+        {
+            "number": 6984,
+            "expression": "\u22a2 ( A \u2208 On \u2192 ( R1 ` A ) = { x | ( rank ` x ) \u2208 A } )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( x \u2208 A \u2194 \ud835\udf13 ) ) \u22a2 ( \ud835\udf11 \u2192 A = { x | \ud835\udf13 } )",
+            "step": 1,
+            "theorem": "abbi2dv",
+            "ground_truth": "abbi2dv \u22a2 ( A \u2208 On \u2192 ( R1 ` A ) = { x | ( rank ` x ) \u2208 A } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.02028,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.1,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.52,
+            "_thrs_logistic_regression": 0.99986,
+            "_thrs_random_forest": 0.745
+        },
+        {
+            "number": 6984,
+            "expression": "\u22a2 ( A \u2208 On \u2192 ( x \u2208 ( R1 ` A ) \u2194 ( rank ` x ) \u2208 A ) )",
+            "prop_expression": "A \u2208 V \u22a2 ( B \u2208 On \u2192 ( A \u2208 ( R1 ` B ) \u2194 ( rank ` A ) \u2208 B ) )",
+            "step": 2,
+            "theorem": "rankr1a",
+            "ground_truth": "rankr1a \u22a2 ( A \u2208 On \u2192 ( x \u2208 ( R1 ` A ) \u2194 ( rank ` x ) \u2208 A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.39075,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.96658,
+            "_thrs_random_forest": 0.815
+        },
+        {
+            "number": 6984,
+            "expression": "\u22a2 x \u2208 V",
+            "prop_expression": " \u22a2 x \u2208 V",
+            "step": 3,
+            "theorem": "vex",
+            "ground_truth": "vex \u22a2 x \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.40146,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.84706,
+            "_thrs_interestingness": 0.66941,
+            "_thrs_logistic_regression": 0.98003,
+            "_thrs_random_forest": 0.805
+        }
+    ],
+    "is_train": false
+}

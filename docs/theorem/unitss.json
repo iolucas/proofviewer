@@ -1,0 +1,101 @@
+{
+    "theorem": "unitss",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ]
+    ],
+    "expression": "U \u2286 B",
+    "steps": [
+        {
+            "number": 13177,
+            "expression": "\u22a2 U \u2286 B",
+            "prop_expression": "( x \u2208 A \u2192 x \u2208 B ) \u22a2 A \u2286 B",
+            "step": 1,
+            "theorem": "ssriv",
+            "ground_truth": "ssriv \u22a2 U \u2286 B",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.71401,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.99508,
+            "_thrs_random_forest": 0.76167
+        },
+        {
+            "number": 13177,
+            "expression": "\u22a2 ( x \u2208 U \u2192 x \u2208 B )",
+            "prop_expression": "B = ( Base ` R ), U = ( Unit ` R ) \u22a2 ( X \u2208 U \u2192 X \u2208 B )",
+            "step": 2,
+            "theorem": "unitcl",
+            "ground_truth": "unitcl \u22a2 ( x \u2208 U \u2192 x \u2208 B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.68833,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.98274,
+            "_thrs_random_forest": 0.84
+        },
+        {
+            "number": 13177,
+            "expression": "\u22a2 B = ( Base ` R )",
+            "prop_expression": " \u22a2 B = ( Base ` R )",
+            "step": 3,
+            "theorem": "unitcl.1",
+            "ground_truth": "unitcl.1 \u22a2 B = ( Base ` R )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.98443,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.66667,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.18182,
+            "_thrs_interestingness": 0.3697,
+            "_thrs_logistic_regression": 0.98775,
+            "_thrs_random_forest": 0.86167
+        },
+        {
+            "number": 13177,
+            "expression": "\u22a2 U = ( Unit ` R )",
+            "prop_expression": " \u22a2 U = ( Unit ` R )",
+            "step": 4,
+            "theorem": "unitcl.2",
+            "ground_truth": "unitcl.2 \u22a2 U = ( Unit ` R )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.89388,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.66667,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.18182,
+            "_thrs_interestingness": 0.3697,
+            "_thrs_logistic_regression": 0.98775,
+            "_thrs_random_forest": 0.86167
+        }
+    ],
+    "is_train": false
+}

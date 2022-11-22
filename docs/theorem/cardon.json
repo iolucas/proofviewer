@@ -1,0 +1,77 @@
+{
+    "theorem": "cardon",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( card ` A ) \u2208 On",
+    "steps": [
+        {
+            "number": 7052,
+            "expression": "\u22a2 ( card ` A ) \u2208 On",
+            "prop_expression": "F : A -\u2192 B, \u2205 \u2208 B \u22a2 ( F ` C ) \u2208 B",
+            "step": 1,
+            "theorem": "f0cli",
+            "ground_truth": "f0cli \u22a2 ( card ` A ) \u2208 On",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.99434,
+            "_thrs_reconstruct": 0.27884,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.71429,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.64286,
+            "_thrs_logistic_regression": 0.99949,
+            "_thrs_random_forest": 0.82
+        },
+        {
+            "number": 7052,
+            "expression": "\u22a2 card : { x | \u2203 y \u2208 On y \u2248 x } -\u2192 On",
+            "prop_expression": " \u22a2 card : { x | \u2203 y \u2208 On y \u2248 x } -\u2192 On",
+            "step": 2,
+            "theorem": "cardf2",
+            "ground_truth": "cardf2 \u22a2 card : { x | \u2203 y \u2208 On y \u2248 x } -\u2192 On",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.40077,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.78189,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.35638,
+            "_thrs_logistic_regression": 0.93739,
+            "_thrs_random_forest": 0.705
+        },
+        {
+            "number": 7052,
+            "expression": "\u22a2 \u2205 \u2208 On",
+            "prop_expression": " \u22a2 \u2205 \u2208 On",
+            "step": 3,
+            "theorem": "0elon",
+            "ground_truth": "0elon \u22a2 \u2205 \u2208 On",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.84662,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.32432,
+            "_thrs_interestingness": 0.46486,
+            "_thrs_logistic_regression": 0.85195,
+            "_thrs_random_forest": 0.885
+        }
+    ],
+    "is_train": false
+}

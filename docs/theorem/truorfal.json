@@ -13,6 +13,7 @@
     "expression": "( ( T. \u2228 F. ) \u2194 T. )",
     "steps": [
         {
+            "number": 1272,
             "expression": "\u22a2 ( ( T. \u2228 F. ) \u2194 T. )",
             "prop_expression": "\ud835\udf11 \u22a2 ( \ud835\udf11 \u2194 T. )",
             "step": 1,
@@ -20,7 +21,7 @@
             "ground_truth": "bitru \u22a2 ( ( T. \u2228 F. ) \u2194 T. )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.37264,
+            "_thrs_random_uniform": 0.83108,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.0,
@@ -32,6 +33,7 @@
             "_thrs_random_forest": 0.805
         },
         {
+            "number": 1272,
             "expression": "\u22a2 ( T. \u2228 F. )",
             "prop_expression": "\ud835\udf11 \u22a2 ( \ud835\udf11 \u2228 \ud835\udf13 )",
             "step": 2,
@@ -39,7 +41,7 @@
             "ground_truth": "orci \u22a2 ( T. \u2228 F. )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.14431,
+            "_thrs_random_uniform": 0.90099,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.44373,
             "_thrs_weight": 0.5,
@@ -51,6 +53,7 @@
             "_thrs_random_forest": 0.95
         },
         {
+            "number": 1272,
             "expression": "\u22a2 T.",
             "prop_expression": " \u22a2 T.",
             "step": 3,
@@ -58,7 +61,7 @@
             "ground_truth": "tru \u22a2 T.",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.09559,
+            "_thrs_random_uniform": 0.88724,
             "_thrs_reconstruct": 0.42677,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
@@ -69,5 +72,6 @@
             "_thrs_logistic_regression": 0.99115,
             "_thrs_random_forest": 0.605
         }
-    ]
+    ],
+    "is_train": true
 }

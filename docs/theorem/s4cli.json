@@ -1,0 +1,77 @@
+{
+    "theorem": "s4cli",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "<\u201c A B C D \u201c> \u2208 Word V",
+    "steps": [
+        {
+            "number": 12441,
+            "expression": "\u22a2 <\u201c A B C D \u201c> \u2208 Word V",
+            "prop_expression": "T = ( S concat <\u201c X \u201c> ), S \u2208 Word V \u22a2 T \u2208 Word V",
+            "step": 1,
+            "theorem": "cats1cli",
+            "ground_truth": "cats1cli \u22a2 <\u201c A B C D \u201c> \u2208 Word V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.59025,
+            "_thrs_reconstruct": 0.49552,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.85714,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.77143,
+            "_thrs_logistic_regression": 0.99986,
+            "_thrs_random_forest": 0.795
+        },
+        {
+            "number": 12441,
+            "expression": "\u22a2 <\u201c A B C D \u201c> = ( <\u201c A B C \u201c> concat <\u201c D \u201c> )",
+            "prop_expression": " \u22a2 <\u201c A B C D \u201c> = ( <\u201c A B C \u201c> concat <\u201c D \u201c> )",
+            "step": 2,
+            "theorem": "df-s4",
+            "ground_truth": "df-s4 \u22a2 <\u201c A B C D \u201c> = ( <\u201c A B C \u201c> concat <\u201c D \u201c> )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.39051,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.27813,
+            "_thrs_random_forest": 0.645
+        },
+        {
+            "number": 12441,
+            "expression": "\u22a2 <\u201c A B C \u201c> \u2208 Word V",
+            "prop_expression": " \u22a2 <\u201c A B C \u201c> \u2208 Word V",
+            "step": 3,
+            "theorem": "s3cli",
+            "ground_truth": "s3cli \u22a2 <\u201c A B C \u201c> \u2208 Word V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.67302,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.66866,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.29091,
+            "_thrs_interestingness": 0.59191,
+            "_thrs_logistic_regression": 0.96694,
+            "_thrs_random_forest": 0.845
+        }
+    ],
+    "is_train": false
+}

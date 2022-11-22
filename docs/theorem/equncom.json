@@ -1,0 +1,53 @@
+{
+    "theorem": "equncom",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( A = ( B \u222a C ) \u2194 A = ( C \u222a B ) )",
+    "steps": [
+        {
+            "number": 2938,
+            "expression": "\u22a2 ( A = ( B \u222a C ) \u2194 A = ( C \u222a B ) )",
+            "prop_expression": "A = B \u22a2 ( C = A \u2194 C = B )",
+            "step": 1,
+            "theorem": "eqeq2i",
+            "ground_truth": "eqeq2i \u22a2 ( A = ( B \u222a C ) \u2194 A = ( C \u222a B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.38418,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.99984,
+            "_thrs_random_forest": 0.6
+        },
+        {
+            "number": 2938,
+            "expression": "\u22a2 ( B \u222a C ) = ( C \u222a B )",
+            "prop_expression": " \u22a2 ( A \u222a B ) = ( B \u222a A )",
+            "step": 2,
+            "theorem": "uncom",
+            "ground_truth": "uncom \u22a2 ( B \u222a C ) = ( C \u222a B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.26986,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.33688,
+            "_thrs_random_forest": 0.7
+        }
+    ],
+    "is_train": false
+}

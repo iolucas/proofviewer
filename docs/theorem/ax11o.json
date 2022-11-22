@@ -1,0 +1,53 @@
+{
+    "theorem": "ax11o",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( \u00ac \u2200 x x = y \u2192 ( x = y \u2192 ( \ud835\udf11 \u2192 \u2200 x ( x = y \u2192 \ud835\udf11 ) ) ) )",
+    "steps": [
+        {
+            "number": 1782,
+            "expression": "\u22a2 ( \u00ac \u2200 x x = y \u2192 ( x = y \u2192 ( \ud835\udf11 \u2192 \u2200 x ( x = y \u2192 \ud835\udf11 ) ) ) )",
+            "prop_expression": "( x = z \u2192 ( \u2200 z \ud835\udf11 \u2192 \u2200 x ( x = z \u2192 \ud835\udf11 ) ) ) \u22a2 ( \u00ac \u2200 x x = y \u2192 ( x = y \u2192 ( \ud835\udf11 \u2192 \u2200 x ( x = y \u2192 \ud835\udf11 ) ) ) )",
+            "step": 1,
+            "theorem": "ax11a2",
+            "ground_truth": "ax11a2 \u22a2 ( \u00ac \u2200 x x = y \u2192 ( x = y \u2192 ( \ud835\udf11 \u2192 \u2200 x ( x = y \u2192 \ud835\udf11 ) ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.24929,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.99801,
+            "_thrs_random_forest": 0.585
+        },
+        {
+            "number": 1782,
+            "expression": "\u22a2 ( x = z \u2192 ( \u2200 z \ud835\udf11 \u2192 \u2200 x ( x = z \u2192 \ud835\udf11 ) ) )",
+            "prop_expression": " \u22a2 ( x = y \u2192 ( \u2200 y \ud835\udf11 \u2192 \u2200 x ( x = y \u2192 \ud835\udf11 ) ) )",
+            "step": 2,
+            "theorem": "ax-11",
+            "ground_truth": "ax-11 \u22a2 ( x = z \u2192 ( \u2200 z \ud835\udf11 \u2192 \u2200 x ( x = z \u2192 \ud835\udf11 ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.42922,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.86569,
+            "_thrs_random_forest": 0.815
+        }
+    ],
+    "is_train": false
+}

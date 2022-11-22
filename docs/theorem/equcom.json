@@ -1,0 +1,77 @@
+{
+    "theorem": "equcom",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( x = y \u2194 y = x )",
+    "steps": [
+        {
+            "number": 1682,
+            "expression": "\u22a2 ( x = y \u2194 y = x )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf13 \u2192 \ud835\udf11 ) \u22a2 ( \ud835\udf11 \u2194 \ud835\udf13 )",
+            "step": 1,
+            "theorem": "impbii",
+            "ground_truth": "impbii \u22a2 ( x = y \u2194 y = x )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.46885,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99877,
+            "_thrs_random_forest": 0.75
+        },
+        {
+            "number": 1682,
+            "expression": "\u22a2 ( x = y \u2192 y = x )",
+            "prop_expression": " \u22a2 ( x = y \u2192 y = x )",
+            "step": 2,
+            "theorem": "equcomi",
+            "ground_truth": "equcomi \u22a2 ( x = y \u2192 y = x )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.53297,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.80004,
+            "_thrs_random_forest": 0.95
+        },
+        {
+            "number": 1682,
+            "expression": "\u22a2 ( y = x \u2192 x = y )",
+            "prop_expression": " \u22a2 ( x = y \u2192 y = x )",
+            "step": 3,
+            "theorem": "equcomi",
+            "ground_truth": "equcomi \u22a2 ( y = x \u2192 x = y )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.56341,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.80004,
+            "_thrs_random_forest": 0.95
+        }
+    ],
+    "is_train": false
+}

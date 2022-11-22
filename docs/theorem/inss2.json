@@ -13,6 +13,7 @@
     "expression": "( A \u2229 B ) \u2286 B",
     "steps": [
         {
+            "number": 3009,
             "expression": "\u22a2 ( A \u2229 B ) \u2286 B",
             "prop_expression": "B = A, B \u2286 C \u22a2 A \u2286 C",
             "step": 1,
@@ -20,7 +21,7 @@
             "ground_truth": "eqsstr3i \u22a2 ( A \u2229 B ) \u2286 B",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.15103,
+            "_thrs_random_uniform": 0.84563,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 1.0,
@@ -32,6 +33,7 @@
             "_thrs_random_forest": 0.825
         },
         {
+            "number": 3009,
             "expression": "\u22a2 ( B \u2229 A ) = ( A \u2229 B )",
             "prop_expression": " \u22a2 ( A \u2229 B ) = ( B \u2229 A )",
             "step": 2,
@@ -39,7 +41,7 @@
             "ground_truth": "incom \u22a2 ( B \u2229 A ) = ( A \u2229 B )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.19897,
+            "_thrs_random_uniform": 0.11399,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 0.49444,
             "_thrs_weight": 0.0,
@@ -51,6 +53,7 @@
             "_thrs_random_forest": 0.79
         },
         {
+            "number": 3009,
             "expression": "\u22a2 ( B \u2229 A ) \u2286 B",
             "prop_expression": " \u22a2 ( A \u2229 B ) \u2286 A",
             "step": 3,
@@ -58,7 +61,7 @@
             "ground_truth": "inss1 \u22a2 ( B \u2229 A ) \u2286 B",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.72738,
+            "_thrs_random_uniform": 0.10257,
             "_thrs_reconstruct": 0.49657,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
@@ -69,5 +72,6 @@
             "_thrs_logistic_regression": 0.9908,
             "_thrs_random_forest": 0.825
         }
-    ]
+    ],
+    "is_train": true
 }

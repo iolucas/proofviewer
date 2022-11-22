@@ -1,0 +1,77 @@
+{
+    "theorem": "lerelxr",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "\u2264 \u2286 ( \u211d* \u00d7 \u211d* )",
+    "steps": [
+        {
+            "number": 8283,
+            "expression": "\u22a2 \u2264 \u2286 ( \u211d* \u00d7 \u211d* )",
+            "prop_expression": "A = B, B \u2286 C \u22a2 A \u2286 C",
+            "step": 1,
+            "theorem": "eqsstri",
+            "ground_truth": "eqsstri \u22a2 \u2264 \u2286 ( \u211d* \u00d7 \u211d* )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.85636,
+            "_thrs_reconstruct": 0.01797,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.99508,
+            "_thrs_random_forest": 0.92
+        },
+        {
+            "number": 8283,
+            "expression": "\u22a2 \u2264 = ( ( \u211d* \u00d7 \u211d* ) \u2216 `' < )",
+            "prop_expression": " \u22a2 \u2264 = ( ( \u211d* \u00d7 \u211d* ) \u2216 `' < )",
+            "step": 2,
+            "theorem": "df-le",
+            "ground_truth": "df-le \u22a2 \u2264 = ( ( \u211d* \u00d7 \u211d* ) \u2216 `' < )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.39381,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.6,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.19149,
+            "_thrs_interestingness": 0.3583,
+            "_thrs_logistic_regression": 0.98761,
+            "_thrs_random_forest": 0.91
+        },
+        {
+            "number": 8283,
+            "expression": "\u22a2 ( ( \u211d* \u00d7 \u211d* ) \u2216 `' < ) \u2286 ( \u211d* \u00d7 \u211d* )",
+            "prop_expression": " \u22a2 ( A \u2216 B ) \u2286 A",
+            "step": 3,
+            "theorem": "difss",
+            "ground_truth": "difss \u22a2 ( ( \u211d* \u00d7 \u211d* ) \u2216 `' < ) \u2286 ( \u211d* \u00d7 \u211d* )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.09052,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.98234,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.39647,
+            "_thrs_logistic_regression": 0.93637,
+            "_thrs_random_forest": 0.795
+        }
+    ],
+    "is_train": false
+}

@@ -13,6 +13,7 @@
     "expression": "( C \u222a A ) = ( C \u222a B )",
     "steps": [
         {
+            "number": 2944,
             "expression": "\u22a2 ( C \u222a A ) = ( C \u222a B )",
             "prop_expression": "\ud835\udf11, ( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 \ud835\udf13",
             "step": 1,
@@ -20,7 +21,7 @@
             "ground_truth": "ax-mp \u22a2 ( C \u222a A ) = ( C \u222a B )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.76768,
+            "_thrs_random_uniform": 0.69331,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.33333,
@@ -32,6 +33,7 @@
             "_thrs_random_forest": 0.92
         },
         {
+            "number": 2944,
             "expression": "\u22a2 A = B",
             "prop_expression": " \u22a2 A = B",
             "step": 2,
@@ -39,7 +41,7 @@
             "ground_truth": "uneq1i.1 \u22a2 A = B",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.53834,
+            "_thrs_random_uniform": 0.03299,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
@@ -51,6 +53,7 @@
             "_thrs_random_forest": 0.965
         },
         {
+            "number": 2944,
             "expression": "\u22a2 ( A = B \u2192 ( C \u222a A ) = ( C \u222a B ) )",
             "prop_expression": " \u22a2 ( A = B \u2192 ( C \u222a A ) = ( C \u222a B ) )",
             "step": 3,
@@ -58,7 +61,7 @@
             "ground_truth": "uneq2 \u22a2 ( A = B \u2192 ( C \u222a A ) = ( C \u222a B ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.72227,
+            "_thrs_random_uniform": 0.94583,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.0,
@@ -69,5 +72,6 @@
             "_thrs_logistic_regression": 0.93628,
             "_thrs_random_forest": 0.3
         }
-    ]
+    ],
+    "is_train": true
 }

@@ -1,0 +1,77 @@
+{
+    "theorem": "psasym",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( ( R \u2208 Pos\u03b7Rel \u2227 A R B \u2227 B R A ) \u2192 A = B )",
+    "steps": [
+        {
+            "number": 12186,
+            "expression": "\u22a2 ( ( R \u2208 Pos\u03b7Rel \u2227 A R B \u2227 B R A ) \u2192 A = B )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( ( \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) ) \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 )",
+            "step": 1,
+            "theorem": "3impib",
+            "ground_truth": "3impib \u22a2 ( ( R \u2208 Pos\u03b7Rel \u2227 A R B \u2227 B R A ) \u2192 A = B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.42159,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.41203,
+            "_thrs_interestingness": 0.78241,
+            "_thrs_logistic_regression": 0.81159,
+            "_thrs_random_forest": 0.67
+        },
+        {
+            "number": 12186,
+            "expression": "\u22a2 ( R \u2208 Pos\u03b7Rel \u2192 ( ( A R B \u2227 B R A ) \u2192 A = B ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2227 \ud835\udf12 \u2227 \ud835\udf03 ) ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf03 )",
+            "step": 2,
+            "theorem": "simp3d",
+            "ground_truth": "simp3d \u22a2 ( R \u2208 Pos\u03b7Rel \u2192 ( ( A R B \u2227 B R A ) \u2192 A = B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3353,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.92414,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.88483,
+            "_thrs_logistic_regression": 0.99043,
+            "_thrs_random_forest": 0.79
+        },
+        {
+            "number": 12186,
+            "expression": "\u22a2 ( R \u2208 Pos\u03b7Rel \u2192 ( ( ( A R B \u2227 B R A ) \u2192 A R A ) \u2227 ( A \u2208 U. U. R \u2192 A R A ) \u2227 ( ( A R B \u2227 B R A ) \u2192 A = B ) ) )",
+            "prop_expression": " \u22a2 ( R \u2208 Pos\u03b7Rel \u2192 ( ( ( A R B \u2227 B R C ) \u2192 A R C ) \u2227 ( A \u2208 U. U. R \u2192 A R A ) \u2227 ( ( A R B \u2227 B R A ) \u2192 A = B ) ) )",
+            "step": 3,
+            "theorem": "pslem",
+            "ground_truth": "pslem \u22a2 ( R \u2208 Pos\u03b7Rel \u2192 ( ( ( A R B \u2227 B R A ) \u2192 A R A ) \u2227 ( A \u2208 U. U. R \u2192 A R A ) \u2227 ( ( A R B \u2227 B R A ) \u2192 A = B ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.35034,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.39583
+        }
+    ],
+    "is_train": false
+}

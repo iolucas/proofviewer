@@ -1,0 +1,77 @@
+{
+    "theorem": "flidm",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( A \u2208 \u211d \u2192 ( |_ ` ( |_ ` A ) ) = ( |_ ` A ) )",
+    "steps": [
+        {
+            "number": 9946,
+            "expression": "\u22a2 ( A \u2208 \u211d \u2192 ( |_ ` ( |_ ` A ) ) = ( |_ ` A ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf13 \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "syl",
+            "ground_truth": "syl \u22a2 ( A \u2208 \u211d \u2192 ( |_ ` ( |_ ` A ) ) = ( |_ ` A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.23277,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.4,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.8,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.84,
+            "_thrs_logistic_regression": 0.97477,
+            "_thrs_random_forest": 0.66
+        },
+        {
+            "number": 9946,
+            "expression": "\u22a2 ( A \u2208 \u211d \u2192 ( |_ ` A ) \u2208 \u2124 )",
+            "prop_expression": " \u22a2 ( A \u2208 \u211d \u2192 ( |_ ` A ) \u2208 \u2124 )",
+            "step": 2,
+            "theorem": "flcl",
+            "ground_truth": "flcl \u22a2 ( A \u2208 \u211d \u2192 ( |_ ` A ) \u2208 \u2124 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.81302,
+            "_thrs_reconstruct": 0.09926,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.3029,
+            "_thrs_interestingness": 0.46058,
+            "_thrs_logistic_regression": 0.99533,
+            "_thrs_random_forest": 0.765
+        },
+        {
+            "number": 9946,
+            "expression": "\u22a2 ( ( |_ ` A ) \u2208 \u2124 \u2192 ( |_ ` ( |_ ` A ) ) = ( |_ ` A ) )",
+            "prop_expression": " \u22a2 ( A \u2208 \u2124 \u2192 ( |_ ` A ) = A )",
+            "step": 3,
+            "theorem": "flid",
+            "ground_truth": "flid \u22a2 ( ( |_ ` A ) \u2208 \u2124 \u2192 ( |_ ` ( |_ ` A ) ) = ( |_ ` A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.87545,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.90074,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.38015,
+            "_thrs_logistic_regression": 0.26292,
+            "_thrs_random_forest": 0.855
+        }
+    ],
+    "is_train": false
+}

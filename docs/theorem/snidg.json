@@ -1,0 +1,77 @@
+{
+    "theorem": "snidg",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( A \u2208 V \u2192 A \u2208 { A } )",
+    "steps": [
+        {
+            "number": 3279,
+            "expression": "\u22a2 ( A \u2208 V \u2192 A \u2208 { A } )",
+            "prop_expression": "\ud835\udf12, ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
+            "step": 1,
+            "theorem": "mpbiri",
+            "ground_truth": "mpbiri \u22a2 ( A \u2208 V \u2192 A \u2208 { A } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.69388,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.33333,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.66667,
+            "_thrs_logistic_regression": 0.99978,
+            "_thrs_random_forest": 0.86
+        },
+        {
+            "number": 3279,
+            "expression": "\u22a2 A = A",
+            "prop_expression": " \u22a2 A = A",
+            "step": 2,
+            "theorem": "eqid",
+            "ground_truth": "eqid \u22a2 A = A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.93223,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.09677,
+            "_thrs_interestingness": 0.41935,
+            "_thrs_logistic_regression": 0.62765,
+            "_thrs_random_forest": 0.78
+        },
+        {
+            "number": 3279,
+            "expression": "\u22a2 ( A \u2208 V \u2192 ( A \u2208 { A } \u2194 A = A ) )",
+            "prop_expression": " \u22a2 ( A \u2208 V \u2192 ( A \u2208 { B } \u2194 A = B ) )",
+            "step": 3,
+            "theorem": "elsncg",
+            "ground_truth": "elsncg \u22a2 ( A \u2208 V \u2192 ( A \u2208 { A } \u2194 A = A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.42688,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.93628,
+            "_thrs_random_forest": 0.825
+        }
+    ],
+    "is_train": false
+}

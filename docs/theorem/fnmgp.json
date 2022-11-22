@@ -1,0 +1,77 @@
+{
+    "theorem": "fnmgp",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "mulGrp Fn V",
+    "steps": [
+        {
+            "number": 13062,
+            "expression": "\u22a2 mulGrp Fn V",
+            "prop_expression": "B \u2208 V, F = ( x \u2208 A |\u2192 B ) \u22a2 F Fn A",
+            "step": 1,
+            "theorem": "fnmpti",
+            "ground_truth": "fnmpti \u22a2 mulGrp Fn V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.10978,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.07143,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.81429,
+            "_thrs_logistic_regression": 0.99459,
+            "_thrs_random_forest": 0.79
+        },
+        {
+            "number": 13062,
+            "expression": "\u22a2 ( x sS\u03b7 \u27e8 ( +g ` ndx ) , ( .r ` x ) \u27e9 ) \u2208 V",
+            "prop_expression": " \u22a2 ( A F B ) \u2208 V",
+            "step": 2,
+            "theorem": "ovex",
+            "ground_truth": "ovex \u22a2 ( x sS\u03b7 \u27e8 ( +g ` ndx ) , ( .r ` x ) \u27e9 ) \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.48675,
+            "_thrs_reconstruct": 0.00085,
+            "_thrs_obviousness": 0.00084,
+            "_thrs_weight": 0.3,
+            "_thrs_complexity": 0.28571,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0201,
+            "_thrs_interestingness": 0.12133,
+            "_thrs_logistic_regression": 0.95565,
+            "_thrs_random_forest": 0.87
+        },
+        {
+            "number": 13062,
+            "expression": "\u22a2 mulGrp = ( x \u2208 V |\u2192 ( x sS\u03b7 \u27e8 ( +g ` ndx ) , ( .r ` x ) \u27e9 ) )",
+            "prop_expression": " \u22a2 mulGrp = ( w \u2208 V |\u2192 ( w sS\u03b7 \u27e8 ( +g ` ndx ) , ( .r ` w ) \u27e9 ) )",
+            "step": 3,
+            "theorem": "df-mgp",
+            "ground_truth": "df-mgp \u22a2 mulGrp = ( x \u2208 V |\u2192 ( x sS\u03b7 \u27e8 ( +g ` ndx ) , ( .r ` x ) \u27e9 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.06055,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.9412,
+            "_thrs_random_forest": 0.84
+        }
+    ],
+    "is_train": false
+}

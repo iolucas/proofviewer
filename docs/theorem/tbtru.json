@@ -1,0 +1,53 @@
+{
+    "theorem": "tbtru",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( \ud835\udf11 \u2194 ( \ud835\udf11 \u2194 T. ) )",
+    "steps": [
+        {
+            "number": 1261,
+            "expression": "\u22a2 ( \ud835\udf11 \u2194 ( \ud835\udf11 \u2194 T. ) )",
+            "prop_expression": "\ud835\udf11 \u22a2 ( \ud835\udf13 \u2194 ( \ud835\udf13 \u2194 \ud835\udf11 ) )",
+            "step": 1,
+            "theorem": "tbt",
+            "ground_truth": "tbt \u22a2 ( \ud835\udf11 \u2194 ( \ud835\udf11 \u2194 T. ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.26766,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.96658,
+            "_thrs_random_forest": 0.64
+        },
+        {
+            "number": 1261,
+            "expression": "\u22a2 T.",
+            "prop_expression": " \u22a2 T.",
+            "step": 2,
+            "theorem": "tru",
+            "ground_truth": "tru \u22a2 T.",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.62792,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99115,
+            "_thrs_random_forest": 0.82
+        }
+    ],
+    "is_train": false
+}

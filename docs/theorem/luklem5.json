@@ -1,0 +1,77 @@
+{
+    "theorem": "luklem5",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf11 ) )",
+    "steps": [
+        {
+            "number": 1331,
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf11 ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf13 \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "luklem1",
+            "ground_truth": "luklem1 \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf11 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.98225,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.99923,
+            "_thrs_random_forest": 0.795
+        },
+        {
+            "number": 1331,
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 ( ( ( \u00ac \ud835\udf11 \u2192 \ud835\udf11 ) \u2192 \ud835\udf11 ) \u2192 ( \ud835\udf13 \u2192 \ud835\udf11 ) ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( ( ( \u00ac \ud835\udf11 \u2192 \ud835\udf13 ) \u2192 \ud835\udf12 ) \u2192 ( \ud835\udf03 \u2192 \ud835\udf12 ) ) )",
+            "step": 2,
+            "theorem": "luklem3",
+            "ground_truth": "luklem3 \u22a2 ( \ud835\udf11 \u2192 ( ( ( \u00ac \ud835\udf11 \u2192 \ud835\udf11 ) \u2192 \ud835\udf11 ) \u2192 ( \ud835\udf13 \u2192 \ud835\udf11 ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.35178,
+            "_thrs_reconstruct": 0.64976,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.25,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.01176,
+            "_thrs_interestingness": 0.25235,
+            "_thrs_logistic_regression": 0.77058,
+            "_thrs_random_forest": 0.955
+        },
+        {
+            "number": 1331,
+            "expression": "\u22a2 ( ( ( ( \u00ac \ud835\udf11 \u2192 \ud835\udf11 ) \u2192 \ud835\udf11 ) \u2192 ( \ud835\udf13 \u2192 \ud835\udf11 ) ) \u2192 ( \ud835\udf13 \u2192 \ud835\udf11 ) )",
+            "prop_expression": " \u22a2 ( ( ( ( \u00ac \ud835\udf11 \u2192 \ud835\udf11 ) \u2192 \ud835\udf11 ) \u2192 \ud835\udf13 ) \u2192 \ud835\udf13 )",
+            "step": 3,
+            "theorem": "luklem4",
+            "ground_truth": "luklem4 \u22a2 ( ( ( ( \u00ac \ud835\udf11 \u2192 \ud835\udf11 ) \u2192 \ud835\udf11 ) \u2192 ( \ud835\udf13 \u2192 \ud835\udf11 ) ) \u2192 ( \ud835\udf13 \u2192 \ud835\udf11 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.89093,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.28075,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.25615,
+            "_thrs_logistic_regression": 0.70799,
+            "_thrs_random_forest": 0.955
+        }
+    ],
+    "is_train": false
+}

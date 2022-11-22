@@ -10,17 +10,18 @@
             3
         ]
     ],
-    "expression": "( A \u2208 _om \u2192 \u00ac A \u2248 suc A )",
+    "expression": "( A \u2208 om \u2192 \u00ac A \u2248 suc A )",
     "steps": [
         {
-            "expression": "\u22a2 ( A \u2208 _om \u2192 \u00ac A \u2248 suc A )",
+            "number": 6528,
+            "expression": "\u22a2 ( A \u2208 om \u2192 \u00ac A \u2248 suc A )",
             "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf13 \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
             "step": 1,
             "theorem": "syl",
-            "ground_truth": "syl \u22a2 ( A \u2208 _om \u2192 \u00ac A \u2248 suc A )",
+            "ground_truth": "syl \u22a2 ( A \u2208 om \u2192 \u00ac A \u2248 suc A )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.75471,
+            "_thrs_random_uniform": 0.17307,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 1.0,
@@ -32,14 +33,15 @@
             "_thrs_random_forest": 0.89
         },
         {
-            "expression": "\u22a2 ( A \u2208 _om \u2192 A \u227a suc A )",
-            "prop_expression": " \u22a2 ( A \u2208 _om \u2192 A \u227a suc A )",
+            "number": 6528,
+            "expression": "\u22a2 ( A \u2208 om \u2192 A \u227a suc A )",
+            "prop_expression": " \u22a2 ( A \u2208 om \u2192 A \u227a suc A )",
             "step": 2,
             "theorem": "php4",
-            "ground_truth": "php4 \u22a2 ( A \u2208 _om \u2192 A \u227a suc A )",
+            "ground_truth": "php4 \u22a2 ( A \u2208 om \u2192 A \u227a suc A )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.32032,
+            "_thrs_random_uniform": 0.1472,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 1.0,
@@ -51,6 +53,7 @@
             "_thrs_random_forest": 0.91
         },
         {
+            "number": 6528,
             "expression": "\u22a2 ( A \u227a suc A \u2192 \u00ac A \u2248 suc A )",
             "prop_expression": " \u22a2 ( A \u227a B \u2192 \u00ac A \u2248 B )",
             "step": 3,
@@ -58,7 +61,7 @@
             "ground_truth": "sdomnen \u22a2 ( A \u227a suc A \u2192 \u00ac A \u2248 suc A )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.214,
+            "_thrs_random_uniform": 0.22125,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.0,
@@ -69,5 +72,6 @@
             "_thrs_logistic_regression": 0.27813,
             "_thrs_random_forest": 0.705
         }
-    ]
+    ],
+    "is_train": true
 }

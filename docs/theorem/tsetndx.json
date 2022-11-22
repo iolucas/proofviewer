@@ -1,0 +1,77 @@
+{
+    "theorem": "tsetndx",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( TopS\u03b7 ` ndx ) = 9",
+    "steps": [
+        {
+            "number": 11768,
+            "expression": "\u22a2 ( TopS\u03b7 ` ndx ) = 9",
+            "prop_expression": "E = Slot N, N \u2208 \u2115 \u22a2 ( E ` ndx ) = N",
+            "step": 1,
+            "theorem": "ndxarg",
+            "ground_truth": "ndxarg \u22a2 ( TopS\u03b7 ` ndx ) = 9",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.24521,
+            "_thrs_reconstruct": 0.11553,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.99992,
+            "_thrs_random_forest": 0.77
+        },
+        {
+            "number": 11768,
+            "expression": "\u22a2 TopS\u03b7 = Slot 9",
+            "prop_expression": " \u22a2 TopS\u03b7 = Slot 9",
+            "step": 2,
+            "theorem": "df-tset",
+            "ground_truth": "df-tset \u22a2 TopS\u03b7 = Slot 9",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.46189,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.20514,
+            "_thrs_random_forest": 0.79
+        },
+        {
+            "number": 11768,
+            "expression": "\u22a2 9 \u2208 \u2115",
+            "prop_expression": " \u22a2 9 \u2208 \u2115",
+            "step": 3,
+            "theorem": "9nn",
+            "ground_truth": "9nn \u22a2 9 \u2208 \u2115",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.26218,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.89644,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.77929,
+            "_thrs_logistic_regression": 0.19291,
+            "_thrs_random_forest": 0.8
+        }
+    ],
+    "is_train": false
+}

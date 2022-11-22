@@ -1,0 +1,77 @@
+{
+    "theorem": "harcl",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( har ` X ) \u2208 On",
+    "steps": [
+        {
+            "number": 6751,
+            "expression": "\u22a2 ( har ` X ) \u2208 On",
+            "prop_expression": "F : A -\u2192 B, \u2205 \u2208 B \u22a2 ( F ` C ) \u2208 B",
+            "step": 1,
+            "theorem": "f0cli",
+            "ground_truth": "f0cli \u22a2 ( har ` X ) \u2208 On",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.01048,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.99992,
+            "_thrs_random_forest": 0.79
+        },
+        {
+            "number": 6751,
+            "expression": "\u22a2 har : V -\u2192 On",
+            "prop_expression": " \u22a2 har : V -\u2192 On",
+            "step": 2,
+            "theorem": "harf",
+            "ground_truth": "harf \u22a2 har : V -\u2192 On",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9266,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.65106,
+            "_thrs_random_forest": 0.78
+        },
+        {
+            "number": 6751,
+            "expression": "\u22a2 \u2205 \u2208 On",
+            "prop_expression": " \u22a2 \u2205 \u2208 On",
+            "step": 3,
+            "theorem": "0elon",
+            "ground_truth": "0elon \u22a2 \u2205 \u2208 On",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.58239,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.5,
+            "_thrs_random_forest": 0.755
+        }
+    ],
+    "is_train": false
+}

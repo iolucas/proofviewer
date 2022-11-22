@@ -1,0 +1,53 @@
+{
+    "theorem": "isabl",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( G \u2208 Abel \u2194 ( G \u2208 Grp \u2227 G \u2208 CMnd ) )",
+    "steps": [
+        {
+            "number": 12955,
+            "expression": "\u22a2 ( G \u2208 Abel \u2194 ( G \u2208 Grp \u2227 G \u2208 CMnd ) )",
+            "prop_expression": "X = ( B \u2229 C ) \u22a2 ( A \u2208 X \u2194 ( A \u2208 B \u2227 A \u2208 C ) )",
+            "step": 1,
+            "theorem": "elin2",
+            "ground_truth": "elin2 \u22a2 ( G \u2208 Abel \u2194 ( G \u2208 Grp \u2227 G \u2208 CMnd ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.87436,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.96658,
+            "_thrs_random_forest": 0.665
+        },
+        {
+            "number": 12955,
+            "expression": "\u22a2 Abel = ( Grp \u2229 CMnd )",
+            "prop_expression": " \u22a2 Abel = ( Grp \u2229 CMnd )",
+            "step": 2,
+            "theorem": "df-abl",
+            "ground_truth": "df-abl \u22a2 Abel = ( Grp \u2229 CMnd )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.87901,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99115,
+            "_thrs_random_forest": 0.9
+        }
+    ],
+    "is_train": false
+}

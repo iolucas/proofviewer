@@ -1,0 +1,77 @@
+{
+    "theorem": "rngcmn",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( R \u2208 Ring \u2192 R \u2208 CMnd )",
+    "steps": [
+        {
+            "number": 13106,
+            "expression": "\u22a2 ( R \u2208 Ring \u2192 R \u2208 CMnd )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf13 \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "syl",
+            "ground_truth": "syl \u22a2 ( R \u2208 Ring \u2192 R \u2208 CMnd )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.1154,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.99757,
+            "_thrs_random_forest": 0.77
+        },
+        {
+            "number": 13106,
+            "expression": "\u22a2 ( R \u2208 Ring \u2192 R \u2208 Abel )",
+            "prop_expression": " \u22a2 ( R \u2208 Ring \u2192 R \u2208 Abel )",
+            "step": 2,
+            "theorem": "rngabl",
+            "ground_truth": "rngabl \u22a2 ( R \u2208 Ring \u2192 R \u2208 Abel )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4733,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.87848,
+            "_thrs_random_forest": 0.84
+        },
+        {
+            "number": 13106,
+            "expression": "\u22a2 ( R \u2208 Abel \u2192 R \u2208 CMnd )",
+            "prop_expression": " \u22a2 ( G \u2208 Abel \u2192 G \u2208 CMnd )",
+            "step": 3,
+            "theorem": "ablcmn",
+            "ground_truth": "ablcmn \u22a2 ( R \u2208 Abel \u2192 R \u2208 CMnd )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.59659,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.88733,
+            "_thrs_random_forest": 0.67
+        }
+    ],
+    "is_train": false
+}

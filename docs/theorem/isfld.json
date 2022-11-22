@@ -1,0 +1,53 @@
+{
+    "theorem": "isfld",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( R \u2208 Field \u2194 ( R \u2208 DivRing \u2227 R \u2208 CRing ) )",
+    "steps": [
+        {
+            "number": 13251,
+            "expression": "\u22a2 ( R \u2208 Field \u2194 ( R \u2208 DivRing \u2227 R \u2208 CRing ) )",
+            "prop_expression": "X = ( B \u2229 C ) \u22a2 ( A \u2208 X \u2194 ( A \u2208 B \u2227 A \u2208 C ) )",
+            "step": 1,
+            "theorem": "elin2",
+            "ground_truth": "elin2 \u22a2 ( R \u2208 Field \u2194 ( R \u2208 DivRing \u2227 R \u2208 CRing ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.37599,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.96658,
+            "_thrs_random_forest": 0.665
+        },
+        {
+            "number": 13251,
+            "expression": "\u22a2 Field = ( DivRing \u2229 CRing )",
+            "prop_expression": " \u22a2 Field = ( DivRing \u2229 CRing )",
+            "step": 2,
+            "theorem": "df-field",
+            "ground_truth": "df-field \u22a2 Field = ( DivRing \u2229 CRing )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.02181,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99115,
+            "_thrs_random_forest": 0.9
+        }
+    ],
+    "is_train": false
+}

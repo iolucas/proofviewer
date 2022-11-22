@@ -1,0 +1,53 @@
+{
+    "theorem": "icossxr",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( A [,) B ) \u2286 \u211d*",
+    "steps": [
+        {
+            "number": 9749,
+            "expression": "\u22a2 ( A [,) B ) \u2286 \u211d*",
+            "prop_expression": "O = ( x \u2208 \u211d* , y \u2208 \u211d* |\u2192 { z \u2208 \u211d* | ( x R z \u2227 z S y ) } ) \u22a2 ( A O B ) \u2286 \u211d*",
+            "step": 1,
+            "theorem": "ixxssxr",
+            "ground_truth": "ixxssxr \u22a2 ( A [,) B ) \u2286 \u211d*",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.48895,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.68
+        },
+        {
+            "number": 9749,
+            "expression": "\u22a2 [,) = ( x \u2208 \u211d* , y \u2208 \u211d* |\u2192 { z \u2208 \u211d* | ( x \u2264 z \u2227 z < y ) } )",
+            "prop_expression": " \u22a2 [,) = ( x \u2208 \u211d* , y \u2208 \u211d* |\u2192 { z \u2208 \u211d* | ( x \u2264 z \u2227 z < y ) } )",
+            "step": 2,
+            "theorem": "df-ico",
+            "ground_truth": "df-ico \u22a2 [,) = ( x \u2208 \u211d* , y \u2208 \u211d* |\u2192 { z \u2208 \u211d* | ( x \u2264 z \u2227 z < y ) } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.10424,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.77
+        }
+    ],
+    "is_train": false
+}

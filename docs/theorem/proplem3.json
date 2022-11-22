@@ -1,0 +1,77 @@
+{
+    "theorem": "proplem3",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( ( \ud835\udf11 \u2227 ( x \u2208 A \u2227 y \u2208 B ) ) \u2192 ( x F y ) = ( x G y ) )",
+    "steps": [
+        {
+            "number": 12264,
+            "expression": "\u22a2 ( ( \ud835\udf11 \u2227 ( x \u2208 A \u2227 y \u2208 B ) ) \u2192 ( x F y ) = ( x G y ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf12 ) \u2192 \ud835\udf13 )",
+            "step": 1,
+            "theorem": "adantr",
+            "ground_truth": "adantr \u22a2 ( ( \ud835\udf11 \u2227 ( x \u2208 A \u2227 y \u2208 B ) ) \u2192 ( x F y ) = ( x G y ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.17575,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.51538,
+            "_thrs_interestingness": 0.40308,
+            "_thrs_logistic_regression": 0.99786,
+            "_thrs_random_forest": 0.695
+        },
+        {
+            "number": 12264,
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 ( x F y ) = ( x G y ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 A = B ) \u22a2 ( \ud835\udf11 \u2192 ( C A D ) = ( C B D ) )",
+            "step": 2,
+            "theorem": "oveqd",
+            "ground_truth": "oveqd \u22a2 ( \ud835\udf11 \u2192 ( x F y ) = ( x G y ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.11148,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.6,
+            "_thrs_complexity": 0.6,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.54,
+            "_thrs_logistic_regression": 0.70851,
+            "_thrs_random_forest": 0.84
+        },
+        {
+            "number": 12264,
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 F = G )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 F = G )",
+            "step": 3,
+            "theorem": "proplem3.1",
+            "ground_truth": "proplem3.1 \u22a2 ( \ud835\udf11 \u2192 F = G )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.51137,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99115,
+            "_thrs_random_forest": 0.92
+        }
+    ],
+    "is_train": false
+}

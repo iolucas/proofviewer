@@ -1,0 +1,77 @@
+{
+    "theorem": "ltrelpr",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "<P \u2286 ( P. \u00d7 P. )",
+    "steps": [
+        {
+            "number": 8035,
+            "expression": "\u22a2 <P \u2286 ( P. \u00d7 P. )",
+            "prop_expression": "A = B, B \u2286 C \u22a2 A \u2286 C",
+            "step": 1,
+            "theorem": "eqsstri",
+            "ground_truth": "eqsstri \u22a2 <P \u2286 ( P. \u00d7 P. )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.13689,
+            "_thrs_reconstruct": 0.04598,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.99508,
+            "_thrs_random_forest": 0.865
+        },
+        {
+            "number": 8035,
+            "expression": "\u22a2 <P = { \u27e8 x , y \u27e9 | ( ( x \u2208 P. \u2227 y \u2208 P. ) \u2227 x \u228a y ) }",
+            "prop_expression": " \u22a2 <P = { \u27e8 x , y \u27e9 | ( ( x \u2208 P. \u2227 y \u2208 P. ) \u2227 x \u228a y ) }",
+            "step": 2,
+            "theorem": "df-ltp",
+            "ground_truth": "df-ltp \u22a2 <P = { \u27e8 x , y \u27e9 | ( ( x \u2208 P. \u2227 y \u2208 P. ) \u2227 x \u228a y ) }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.84486,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.3,
+            "_thrs_complexity": 0.33333,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.01493,
+            "_thrs_interestingness": 0.12965,
+            "_thrs_logistic_regression": 0.9427,
+            "_thrs_random_forest": 0.915
+        },
+        {
+            "number": 8035,
+            "expression": "\u22a2 { \u27e8 x , y \u27e9 | ( ( x \u2208 P. \u2227 y \u2208 P. ) \u2227 x \u228a y ) } \u2286 ( P. \u00d7 P. )",
+            "prop_expression": " \u22a2 { \u27e8 x , y \u27e9 | ( ( x \u2208 A \u2227 y \u2208 B ) \u2227 \ud835\udf11 ) } \u2286 ( A \u00d7 B )",
+            "step": 3,
+            "theorem": "opabssxp",
+            "ground_truth": "opabssxp \u22a2 { \u27e8 x , y \u27e9 | ( ( x \u2208 P. \u2227 y \u2208 P. ) \u2227 x \u228a y ) } \u2286 ( P. \u00d7 P. )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.599,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.95604,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.39121,
+            "_thrs_logistic_regression": 0.93651,
+            "_thrs_random_forest": 0.83
+        }
+    ],
+    "is_train": false
+}

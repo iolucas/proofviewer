@@ -1,0 +1,77 @@
+{
+    "theorem": "phllmod",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( W \u2208 PreHil \u2192 W \u2208 LMod )",
+    "steps": [
+        {
+            "number": 14288,
+            "expression": "\u22a2 ( W \u2208 PreHil \u2192 W \u2208 LMod )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf13 \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "syl",
+            "ground_truth": "syl \u22a2 ( W \u2208 PreHil \u2192 W \u2208 LMod )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.53516,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.99757,
+            "_thrs_random_forest": 0.815
+        },
+        {
+            "number": 14288,
+            "expression": "\u22a2 ( W \u2208 PreHil \u2192 W \u2208 LVec )",
+            "prop_expression": " \u22a2 ( W \u2208 PreHil \u2192 W \u2208 LVec )",
+            "step": 2,
+            "theorem": "phllvec",
+            "ground_truth": "phllvec \u22a2 ( W \u2208 PreHil \u2192 W \u2208 LVec )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.07771,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9577,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.39154,
+            "_thrs_logistic_regression": 0.87887,
+            "_thrs_random_forest": 0.8
+        },
+        {
+            "number": 14288,
+            "expression": "\u22a2 ( W \u2208 LVec \u2192 W \u2208 LMod )",
+            "prop_expression": " \u22a2 ( W \u2208 LVec \u2192 W \u2208 LMod )",
+            "step": 3,
+            "theorem": "lveclmod",
+            "ground_truth": "lveclmod \u22a2 ( W \u2208 LVec \u2192 W \u2208 LMod )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.10533,
+            "_thrs_reconstruct": 0.0423,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.88733,
+            "_thrs_random_forest": 0.705
+        }
+    ],
+    "is_train": false
+}

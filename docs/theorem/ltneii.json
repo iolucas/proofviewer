@@ -1,0 +1,101 @@
+{
+    "theorem": "ltneii",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ]
+    ],
+    "expression": "A \u2260 B",
+    "steps": [
+        {
+            "number": 8346,
+            "expression": "\u22a2 A \u2260 B",
+            "prop_expression": "A \u2260 B \u22a2 B \u2260 A",
+            "step": 1,
+            "theorem": "necomi",
+            "ground_truth": "necomi \u22a2 A \u2260 B",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.87712,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.47861,
+            "_thrs_random_forest": 0.875
+        },
+        {
+            "number": 8346,
+            "expression": "\u22a2 B \u2260 A",
+            "prop_expression": "A \u2208 \u211d, A < B \u22a2 B \u2260 A",
+            "step": 2,
+            "theorem": "gtneii",
+            "ground_truth": "gtneii \u22a2 B \u2260 A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.26208,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.99508,
+            "_thrs_random_forest": 0.88
+        },
+        {
+            "number": 8346,
+            "expression": "\u22a2 A \u2208 \u211d",
+            "prop_expression": " \u22a2 A \u2208 \u211d",
+            "step": 3,
+            "theorem": "ltneii.1",
+            "ground_truth": "ltneii.1 \u22a2 A \u2208 \u211d",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.28938,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.9412,
+            "_thrs_random_forest": 0.885
+        },
+        {
+            "number": 8346,
+            "expression": "\u22a2 A < B",
+            "prop_expression": " \u22a2 A < B",
+            "step": 4,
+            "theorem": "ltneii.2",
+            "ground_truth": "ltneii.2 \u22a2 A < B",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.30764,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.9412,
+            "_thrs_random_forest": 0.885
+        }
+    ],
+    "is_train": false
+}

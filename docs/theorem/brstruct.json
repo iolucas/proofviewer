@@ -1,0 +1,53 @@
+{
+    "theorem": "brstruct",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "Rel Struct",
+    "steps": [
+        {
+            "number": 11641,
+            "expression": "\u22a2 Rel Struct",
+            "prop_expression": "A = { \u27e8 x , y \u27e9 | \ud835\udf11 } \u22a2 Rel A",
+            "step": 1,
+            "theorem": "relopabi",
+            "ground_truth": "relopabi \u22a2 Rel Struct",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.48584,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.69
+        },
+        {
+            "number": 11641,
+            "expression": "\u22a2 Struct = { \u27e8 f , x \u27e9 | ( x \u2208 ( \u2264 \u2229 ( \u2115 \u00d7 \u2115 ) ) \u2227 Fun ( f \u2216 { \u2205 } ) \u2227 dom f \u2286 ( ... ` x ) ) }",
+            "prop_expression": " \u22a2 Struct = { \u27e8 f , x \u27e9 | ( x \u2208 ( \u2264 \u2229 ( \u2115 \u00d7 \u2115 ) ) \u2227 Fun ( f \u2216 { \u2205 } ) \u2227 dom f \u2286 ( ... ` x ) ) }",
+            "step": 2,
+            "theorem": "df-struct",
+            "ground_truth": "df-struct \u22a2 Struct = { \u27e8 f , x \u27e9 | ( x \u2208 ( \u2264 \u2229 ( \u2115 \u00d7 \u2115 ) ) \u2227 Fun ( f \u2216 { \u2205 } ) \u2227 dom f \u2286 ( ... ` x ) ) }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7281,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.765
+        }
+    ],
+    "is_train": false
+}

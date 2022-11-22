@@ -1,0 +1,53 @@
+{
+    "theorem": "axaddcl",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( ( A \u2208 \u2102 \u2227 B \u2208 \u2102 ) \u2192 ( A + B ) \u2208 \u2102 )",
+    "steps": [
+        {
+            "number": 8186,
+            "expression": "\u22a2 ( ( A \u2208 \u2102 \u2227 B \u2208 \u2102 ) \u2192 ( A + B ) \u2208 \u2102 )",
+            "prop_expression": "F : ( R \u00d7 S ) -\u2192 C \u22a2 ( ( A \u2208 R \u2227 B \u2208 S ) \u2192 ( A F B ) \u2208 C )",
+            "step": 1,
+            "theorem": "fovcl",
+            "ground_truth": "fovcl \u22a2 ( ( A \u2208 \u2102 \u2227 B \u2208 \u2102 ) \u2192 ( A + B ) \u2208 \u2102 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.01888,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.99984,
+            "_thrs_random_forest": 0.45
+        },
+        {
+            "number": 8186,
+            "expression": "\u22a2 + : ( \u2102 \u00d7 \u2102 ) -\u2192 \u2102",
+            "prop_expression": " \u22a2 + : ( \u2102 \u00d7 \u2102 ) -\u2192 \u2102",
+            "step": 2,
+            "theorem": "axaddf",
+            "ground_truth": "axaddf \u22a2 + : ( \u2102 \u00d7 \u2102 ) -\u2192 \u2102",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.10758,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.33688,
+            "_thrs_random_forest": 0.775
+        }
+    ],
+    "is_train": false
+}

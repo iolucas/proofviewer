@@ -1,0 +1,53 @@
+{
+    "theorem": "reldmmpl",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "Rel dom mPoly",
+    "steps": [
+        {
+            "number": 13940,
+            "expression": "\u22a2 Rel dom mPoly",
+            "prop_expression": "F = ( x \u2208 A , y \u2208 B |\u2192 C ) \u22a2 Rel dom F",
+            "step": 1,
+            "theorem": "reldmmpt2",
+            "ground_truth": "reldmmpt2 \u22a2 Rel dom mPoly",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.66229,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.625
+        },
+        {
+            "number": 13940,
+            "expression": "\u22a2 mPoly = ( i \u2208 V , r \u2208 V |\u2192 \u298b ( i mPwSer r ) / s \u298c ( s |`s { f \u2208 ( Base ` s ) | ( `' f \u201c ( V \u2216 { ( 0g ` r ) } ) ) \u2208 Fin } ) )",
+            "prop_expression": " \u22a2 mPoly = ( i \u2208 V , r \u2208 V |\u2192 \u298b ( i mPwSer r ) / w \u298c ( w |`s { f \u2208 ( Base ` w ) | ( `' f \u201c ( V \u2216 { ( 0g ` r ) } ) ) \u2208 Fin } ) )",
+            "step": 2,
+            "theorem": "df-mpl",
+            "ground_truth": "df-mpl \u22a2 mPoly = ( i \u2208 V , r \u2208 V |\u2192 \u298b ( i mPwSer r ) / s \u298c ( s |`s { f \u2208 ( Base ` s ) | ( `' f \u201c ( V \u2216 { ( 0g ` r ) } ) ) \u2208 Fin } ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7324,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.765
+        }
+    ],
+    "is_train": false
+}

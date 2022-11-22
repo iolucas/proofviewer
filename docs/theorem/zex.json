@@ -1,0 +1,77 @@
+{
+    "theorem": "zex",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "\u2124 \u2208 V",
+    "steps": [
+        {
+            "number": 9129,
+            "expression": "\u22a2 \u2124 \u2208 V",
+            "prop_expression": "B \u2208 V, A \u2286 B \u22a2 A \u2208 V",
+            "step": 1,
+            "theorem": "ssexi",
+            "ground_truth": "ssexi \u22a2 \u2124 \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.6688,
+            "_thrs_reconstruct": 0.00961,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.99937,
+            "_thrs_random_forest": 0.855
+        },
+        {
+            "number": 9129,
+            "expression": "\u22a2 \u2102 \u2208 V",
+            "prop_expression": " \u22a2 \u2102 \u2208 V",
+            "step": 2,
+            "theorem": "cnex",
+            "ground_truth": "cnex \u22a2 \u2102 \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.57526,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.67025,
+            "_thrs_random_forest": 0.795
+        },
+        {
+            "number": 9129,
+            "expression": "\u22a2 \u2124 \u2286 \u2102",
+            "prop_expression": " \u22a2 \u2124 \u2286 \u2102",
+            "step": 3,
+            "theorem": "zsscn",
+            "ground_truth": "zsscn \u22a2 \u2124 \u2286 \u2102",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.93717,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.99048,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.5981,
+            "_thrs_logistic_regression": 0.65124,
+            "_thrs_random_forest": 0.7825
+        }
+    ],
+    "is_train": false
+}

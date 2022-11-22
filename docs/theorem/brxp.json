@@ -1,0 +1,77 @@
+{
+    "theorem": "brxp",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( A ( C \u00d7 D ) B \u2194 ( A \u2208 C \u2227 B \u2208 D ) )",
+    "steps": [
+        {
+            "number": 4302,
+            "expression": "\u22a2 ( A ( C \u00d7 D ) B \u2194 ( A \u2208 C \u2227 B \u2208 D ) )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ), ( \ud835\udf13 \u2194 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2194 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "bitri",
+            "ground_truth": "bitri \u22a2 ( A ( C \u00d7 D ) B \u2194 ( A \u2208 C \u2227 B \u2208 D ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5947,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.99923,
+            "_thrs_random_forest": 0.865
+        },
+        {
+            "number": 4302,
+            "expression": "\u22a2 ( A ( C \u00d7 D ) B \u2194 \u27e8 A , B \u27e9 \u2208 ( C \u00d7 D ) )",
+            "prop_expression": " \u22a2 ( A R B \u2194 \u27e8 A , B \u27e9 \u2208 R )",
+            "step": 2,
+            "theorem": "df-br",
+            "ground_truth": "df-br \u22a2 ( A ( C \u00d7 D ) B \u2194 \u27e8 A , B \u27e9 \u2208 ( C \u00d7 D ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.57438,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.02857,
+            "_thrs_interestingness": 0.40571,
+            "_thrs_logistic_regression": 0.88263,
+            "_thrs_random_forest": 0.9
+        },
+        {
+            "number": 4302,
+            "expression": "\u22a2 ( \u27e8 A , B \u27e9 \u2208 ( C \u00d7 D ) \u2194 ( A \u2208 C \u2227 B \u2208 D ) )",
+            "prop_expression": " \u22a2 ( \u27e8 A , B \u27e9 \u2208 ( C \u00d7 D ) \u2194 ( A \u2208 C \u2227 B \u2208 D ) )",
+            "step": 3,
+            "theorem": "opelxp",
+            "ground_truth": "opelxp \u22a2 ( \u27e8 A , B \u27e9 \u2208 ( C \u00d7 D ) \u2194 ( A \u2208 C \u2227 B \u2208 D ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.75205,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.6951,
+            "_thrs_random_forest": 0.81
+        }
+    ],
+    "is_train": false
+}

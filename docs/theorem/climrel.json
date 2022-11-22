@@ -1,0 +1,53 @@
+{
+    "theorem": "climrel",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "Rel \u2248>",
+    "steps": [
+        {
+            "number": 10647,
+            "expression": "\u22a2 Rel \u2248>",
+            "prop_expression": "A = { \u27e8 x , y \u27e9 | \ud835\udf11 } \u22a2 Rel A",
+            "step": 1,
+            "theorem": "relopabi",
+            "ground_truth": "relopabi \u22a2 Rel \u2248>",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.17477,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.635
+        },
+        {
+            "number": 10647,
+            "expression": "\u22a2 \u2248> = { \u27e8 f , y \u27e9 | ( y \u2208 \u2102 \u2227 \u2200 x \u2208 \u211d+ \u2203 j \u2208 \u2124 \u2200 k \u2208 ( \u2124>= ` j ) ( ( f ` k ) \u2208 \u2102 \u2227 ( abs ` ( ( f ` k ) - y ) ) < x ) ) }",
+            "prop_expression": " \u22a2 \u2248> = { \u27e8 f , y \u27e9 | ( y \u2208 \u2102 \u2227 \u2200 x \u2208 \u211d+ \u2203 j \u2208 \u2124 \u2200 k \u2208 ( \u2124>= ` j ) ( ( f ` k ) \u2208 \u2102 \u2227 ( abs ` ( ( f ` k ) - y ) ) < x ) ) }",
+            "step": 2,
+            "theorem": "df-clim",
+            "ground_truth": "df-clim \u22a2 \u2248> = { \u27e8 f , y \u27e9 | ( y \u2208 \u2102 \u2227 \u2200 x \u2208 \u211d+ \u2203 j \u2208 \u2124 \u2200 k \u2208 ( \u2124>= ` j ) ( ( f ` k ) \u2208 \u2102 \u2227 ( abs ` ( ( f ` k ) - y ) ) < x ) ) }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.2355,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.76
+        }
+    ],
+    "is_train": false
+}

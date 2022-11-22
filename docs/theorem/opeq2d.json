@@ -1,0 +1,77 @@
+{
+    "theorem": "opeq2d",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( \ud835\udf11 \u2192 \u27e8 C , A \u27e9 = \u27e8 C , B \u27e9 )",
+    "steps": [
+        {
+            "number": 3404,
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 \u27e8 C , A \u27e9 = \u27e8 C , B \u27e9 )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf13 \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "syl",
+            "ground_truth": "syl \u22a2 ( \ud835\udf11 \u2192 \u27e8 C , A \u27e9 = \u27e8 C , B \u27e9 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.43194,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.33333,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.66667,
+            "_thrs_logistic_regression": 0.99978,
+            "_thrs_random_forest": 0.88
+        },
+        {
+            "number": 3404,
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 A = B )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 A = B )",
+            "step": 2,
+            "theorem": "opeq1d.1",
+            "ground_truth": "opeq1d.1 \u22a2 ( \ud835\udf11 \u2192 A = B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.58963,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.38462,
+            "_thrs_interestingness": 0.47692,
+            "_thrs_logistic_regression": 0.88848,
+            "_thrs_random_forest": 0.95
+        },
+        {
+            "number": 3404,
+            "expression": "\u22a2 ( A = B \u2192 \u27e8 C , A \u27e9 = \u27e8 C , B \u27e9 )",
+            "prop_expression": " \u22a2 ( A = B \u2192 \u27e8 C , A \u27e9 = \u27e8 C , B \u27e9 )",
+            "step": 3,
+            "theorem": "opeq2",
+            "ground_truth": "opeq2 \u22a2 ( A = B \u2192 \u27e8 C , A \u27e9 = \u27e8 C , B \u27e9 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.36807,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.26128,
+            "_thrs_random_forest": 0.34
+        }
+    ],
+    "is_train": false
+}

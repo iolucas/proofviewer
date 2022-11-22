@@ -1,0 +1,77 @@
+{
+    "theorem": "cnvcnvss",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "`' `' A \u2286 A",
+    "steps": [
+        {
+            "number": 4707,
+            "expression": "\u22a2 `' `' A \u2286 A",
+            "prop_expression": "A = B, B \u2286 C \u22a2 A \u2286 C",
+            "step": 1,
+            "theorem": "eqsstri",
+            "ground_truth": "eqsstri \u22a2 `' `' A \u2286 A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.97638,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.99508,
+            "_thrs_random_forest": 0.86
+        },
+        {
+            "number": 4707,
+            "expression": "\u22a2 `' `' A = ( A \u2229 ( V \u00d7 V ) )",
+            "prop_expression": " \u22a2 `' `' A = ( A \u2229 ( V \u00d7 V ) )",
+            "step": 2,
+            "theorem": "cnvcnv",
+            "ground_truth": "cnvcnv \u22a2 `' `' A = ( A \u2229 ( V \u00d7 V ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.14609,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.99998,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.93628,
+            "_thrs_random_forest": 0.73
+        },
+        {
+            "number": 4707,
+            "expression": "\u22a2 ( A \u2229 ( V \u00d7 V ) ) \u2286 A",
+            "prop_expression": " \u22a2 ( A \u2229 B ) \u2286 A",
+            "step": 3,
+            "theorem": "inss1",
+            "ground_truth": "inss1 \u22a2 ( A \u2229 ( V \u00d7 V ) ) \u2286 A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.76988,
+            "_thrs_reconstruct": 2e-05,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.33333,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.10204,
+            "_thrs_interestingness": 0.28707,
+            "_thrs_logistic_regression": 0.97446,
+            "_thrs_random_forest": 0.83
+        }
+    ],
+    "is_train": false
+}

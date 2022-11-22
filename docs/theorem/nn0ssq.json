@@ -1,0 +1,77 @@
+{
+    "theorem": "nn0ssq",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "\u21150 \u2286 \u211a",
+    "steps": [
+        {
+            "number": 9410,
+            "expression": "\u22a2 \u21150 \u2286 \u211a",
+            "prop_expression": "A \u2286 B, B \u2286 C \u22a2 A \u2286 C",
+            "step": 1,
+            "theorem": "sstri",
+            "ground_truth": "sstri \u22a2 \u21150 \u2286 \u211a",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.99342,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99877,
+            "_thrs_random_forest": 0.615
+        },
+        {
+            "number": 9410,
+            "expression": "\u22a2 \u21150 \u2286 \u2124",
+            "prop_expression": " \u22a2 \u21150 \u2286 \u2124",
+            "step": 2,
+            "theorem": "nn0ssz",
+            "ground_truth": "nn0ssz \u22a2 \u21150 \u2286 \u2124",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.51228,
+            "_thrs_reconstruct": 0.3181,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.80004,
+            "_thrs_random_forest": 0.8
+        },
+        {
+            "number": 9410,
+            "expression": "\u22a2 \u2124 \u2286 \u211a",
+            "prop_expression": " \u22a2 \u2124 \u2286 \u211a",
+            "step": 3,
+            "theorem": "zssq",
+            "ground_truth": "zssq \u22a2 \u2124 \u2286 \u211a",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.37385,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.6819,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.43638,
+            "_thrs_logistic_regression": 0.79053,
+            "_thrs_random_forest": 0.79
+        }
+    ],
+    "is_train": false
+}

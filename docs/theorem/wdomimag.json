@@ -1,0 +1,77 @@
+{
+    "theorem": "wdomimag",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( ( Fun F \u2227 A \u2208 V ) \u2192 ( F \u201c A ) \u227a_* A )",
+    "steps": [
+        {
+            "number": 6777,
+            "expression": "\u22a2 ( ( Fun F \u2227 A \u2208 V ) \u2192 ( F \u201c A ) \u227a_* A )",
+            "prop_expression": "( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 ), ( ( \ud835\udf11 \u2227 \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf03 )",
+            "step": 1,
+            "theorem": "mpd3an3",
+            "ground_truth": "mpd3an3 \u22a2 ( ( Fun F \u2227 A \u2208 V ) \u2192 ( F \u201c A ) \u227a_* A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.71241,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.85714,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.97143,
+            "_thrs_logistic_regression": 0.98447,
+            "_thrs_random_forest": 0.795
+        },
+        {
+            "number": 6777,
+            "expression": "\u22a2 ( ( Fun F \u2227 A \u2208 V ) \u2192 ( F \u201c A ) \u2208 V )",
+            "prop_expression": " \u22a2 ( ( Fun A \u2227 B \u2208 C ) \u2192 ( A \u201c B ) \u2208 V )",
+            "step": 2,
+            "theorem": "funimaexg",
+            "ground_truth": "funimaexg \u22a2 ( ( Fun F \u2227 A \u2208 V ) \u2192 ( F \u201c A ) \u2208 V )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.88589,
+            "_thrs_reconstruct": 0.00399,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.10076,
+            "_thrs_interestingness": 0.42015,
+            "_thrs_logistic_regression": 0.63266,
+            "_thrs_random_forest": 0.935
+        },
+        {
+            "number": 6777,
+            "expression": "\u22a2 ( ( Fun F \u2227 A \u2208 V \u2227 ( F \u201c A ) \u2208 V ) \u2192 ( F \u201c A ) \u227a_* A )",
+            "prop_expression": " \u22a2 ( ( Fun F \u2227 A \u2208 V \u2227 ( F \u201c A ) \u2208 W ) \u2192 ( F \u201c A ) \u227a_* A )",
+            "step": 3,
+            "theorem": "wdomima2g",
+            "ground_truth": "wdomima2g \u22a2 ( ( Fun F \u2227 A \u2208 V \u2227 ( F \u201c A ) \u2208 V ) \u2192 ( F \u201c A ) \u227a_* A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.84527,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.99601,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3992,
+            "_thrs_logistic_regression": 0.9363,
+            "_thrs_random_forest": 0.8625
+        }
+    ],
+    "is_train": false
+}

@@ -1,0 +1,77 @@
+{
+    "theorem": "qsscn",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "\u211a \u2286 \u2102",
+    "steps": [
+        {
+            "number": 9413,
+            "expression": "\u22a2 \u211a \u2286 \u2102",
+            "prop_expression": "A \u2286 B, B \u2286 C \u22a2 A \u2286 C",
+            "step": 1,
+            "theorem": "sstri",
+            "ground_truth": "sstri \u22a2 \u211a \u2286 \u2102",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.52087,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99877,
+            "_thrs_random_forest": 0.795
+        },
+        {
+            "number": 9413,
+            "expression": "\u22a2 \u211a \u2286 \u211d",
+            "prop_expression": " \u22a2 \u211a \u2286 \u211d",
+            "step": 2,
+            "theorem": "qssre",
+            "ground_truth": "qssre \u22a2 \u211a \u2286 \u211d",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.45857,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.78599,
+            "_thrs_random_forest": 0.785
+        },
+        {
+            "number": 9413,
+            "expression": "\u22a2 \u211d \u2286 \u2102",
+            "prop_expression": " \u22a2 \u211d \u2286 \u2102",
+            "step": 3,
+            "theorem": "ax-resscn",
+            "ground_truth": "ax-resscn \u22a2 \u211d \u2286 \u2102",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3333,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.80004,
+            "_thrs_random_forest": 0.75
+        }
+    ],
+    "is_train": false
+}

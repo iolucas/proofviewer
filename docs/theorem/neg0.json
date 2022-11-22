@@ -1,0 +1,101 @@
+{
+    "theorem": "neg0",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "expression": "- 0 = 0",
+    "steps": [
+        {
+            "number": 8467,
+            "expression": "\u22a2 - 0 = 0",
+            "prop_expression": "A = B, B = C \u22a2 A = C",
+            "step": 1,
+            "theorem": "eqtri",
+            "ground_truth": "eqtri \u22a2 - 0 = 0",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.25245,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.99508,
+            "_thrs_random_forest": 0.775
+        },
+        {
+            "number": 8467,
+            "expression": "\u22a2 - 0 = ( 0 - 0 )",
+            "prop_expression": " \u22a2 - A = ( 0 - A )",
+            "step": 2,
+            "theorem": "df-neg",
+            "ground_truth": "df-neg \u22a2 - 0 = ( 0 - 0 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.52092,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.06667,
+            "_thrs_interestingness": 0.21333,
+            "_thrs_logistic_regression": 0.95822,
+            "_thrs_random_forest": 0.83
+        },
+        {
+            "number": 8467,
+            "expression": "\u22a2 ( 0 - 0 ) = 0",
+            "prop_expression": "A \u2208 \u2102 \u22a2 ( A - A ) = 0",
+            "step": 3,
+            "theorem": "subidi",
+            "ground_truth": "subidi \u22a2 ( 0 - 0 ) = 0",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.90509,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.36298,
+            "_thrs_random_forest": 0.75318
+        },
+        {
+            "number": 8467,
+            "expression": "\u22a2 0 \u2208 \u2102",
+            "prop_expression": " \u22a2 0 \u2208 \u2102",
+            "step": 4,
+            "theorem": "0cn",
+            "ground_truth": "0cn \u22a2 0 \u2208 \u2102",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.80678,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.33333,
+            "_thrs_interestingness": 0.46667,
+            "_thrs_logistic_regression": 0.99603,
+            "_thrs_random_forest": 0.705
+        }
+    ],
+    "is_train": false
+}

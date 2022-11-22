@@ -1,0 +1,101 @@
+{
+    "theorem": "syl6eqbrr",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( \ud835\udf11 \u2192 A R C )",
+    "steps": [
+        {
+            "number": 3623,
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 A R C )",
+            "prop_expression": "( \ud835\udf11 \u2192 A = B ), B R C \u22a2 ( \ud835\udf11 \u2192 A R C )",
+            "step": 1,
+            "theorem": "syl6eqbr",
+            "ground_truth": "syl6eqbr \u22a2 ( \ud835\udf11 \u2192 A R C )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.01125,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.99992,
+            "_thrs_random_forest": 0.675
+        },
+        {
+            "number": 3623,
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 A = B )",
+            "prop_expression": "( \ud835\udf11 \u2192 A = B ) \u22a2 ( \ud835\udf11 \u2192 B = A )",
+            "step": 2,
+            "theorem": "eqcomd",
+            "ground_truth": "eqcomd \u22a2 ( \ud835\udf11 \u2192 A = B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3932,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.20514,
+            "_thrs_random_forest": 0.79
+        },
+        {
+            "number": 3623,
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 B = A )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 B = A )",
+            "step": 3,
+            "theorem": "syl6eqbrr.1",
+            "ground_truth": "syl6eqbrr.1 \u22a2 ( \ud835\udf11 \u2192 B = A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.56045,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.20514,
+            "_thrs_random_forest": 0.91
+        },
+        {
+            "number": 3623,
+            "expression": "\u22a2 B R C",
+            "prop_expression": " \u22a2 B R C",
+            "step": 4,
+            "theorem": "syl6eqbrr.2",
+            "ground_truth": "syl6eqbrr.2 \u22a2 B R C",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.09109,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.20514,
+            "_thrs_random_forest": 0.905
+        }
+    ],
+    "is_train": false
+}

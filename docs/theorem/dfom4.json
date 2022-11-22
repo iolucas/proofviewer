@@ -1,0 +1,53 @@
+{
+    "theorem": "dfom4",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "om = { x | \u2200 y ( Lim y \u2192 x \u2208 y ) }",
+    "steps": [
+        {
+            "number": 6826,
+            "expression": "\u22a2 om = { x | \u2200 y ( Lim y \u2192 x \u2208 y ) }",
+            "prop_expression": "( x \u2208 A \u2194 \ud835\udf11 ) \u22a2 A = { x | \ud835\udf11 }",
+            "step": 1,
+            "theorem": "abbi2i",
+            "ground_truth": "abbi2i \u22a2 om = { x | \u2200 y ( Lim y \u2192 x \u2208 y ) }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.19154,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.99923,
+            "_thrs_random_forest": 0.56167
+        },
+        {
+            "number": 6826,
+            "expression": "\u22a2 ( x \u2208 om \u2194 \u2200 y ( Lim y \u2192 x \u2208 y ) )",
+            "prop_expression": " \u22a2 ( A \u2208 om \u2194 \u2200 x ( Lim x \u2192 A \u2208 x ) )",
+            "step": 2,
+            "theorem": "elom3",
+            "ground_truth": "elom3 \u22a2 ( x \u2208 om \u2194 \u2200 y ( Lim y \u2192 x \u2208 y ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.98758,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.71293,
+            "_thrs_random_forest": 0.79
+        }
+    ],
+    "is_train": false
+}

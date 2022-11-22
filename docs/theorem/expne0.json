@@ -1,0 +1,53 @@
+{
+    "theorem": "expne0",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( ( A \u2208 \u2102 \u2227 N \u2208 \u2115 ) \u2192 ( ( A ^ N ) \u2260 0 \u2194 A \u2260 0 ) )",
+    "steps": [
+        {
+            "number": 10121,
+            "expression": "\u22a2 ( ( A \u2208 \u2102 \u2227 N \u2208 \u2115 ) \u2192 ( ( A ^ N ) \u2260 0 \u2194 A \u2260 0 ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( A = B \u2194 C = D ) ) \u22a2 ( \ud835\udf11 \u2192 ( A \u2260 B \u2194 C \u2260 D ) )",
+            "step": 1,
+            "theorem": "necon3bid",
+            "ground_truth": "necon3bid \u22a2 ( ( A \u2208 \u2102 \u2227 N \u2208 \u2115 ) \u2192 ( ( A ^ N ) \u2260 0 \u2194 A \u2260 0 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.2031,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99877,
+            "_thrs_random_forest": 0.42667
+        },
+        {
+            "number": 10121,
+            "expression": "\u22a2 ( ( A \u2208 \u2102 \u2227 N \u2208 \u2115 ) \u2192 ( ( A ^ N ) = 0 \u2194 A = 0 ) )",
+            "prop_expression": " \u22a2 ( ( A \u2208 \u2102 \u2227 N \u2208 \u2115 ) \u2192 ( ( A ^ N ) = 0 \u2194 A = 0 ) )",
+            "step": 2,
+            "theorem": "expeq0",
+            "ground_truth": "expeq0 \u22a2 ( ( A \u2208 \u2102 \u2227 N \u2208 \u2115 ) \u2192 ( ( A ^ N ) = 0 \u2194 A = 0 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.77882,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.80004,
+            "_thrs_random_forest": 0.73
+        }
+    ],
+    "is_train": false
+}

@@ -1,0 +1,77 @@
+{
+    "theorem": "mpteq2i",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( x \u2208 A |\u2192 B ) = ( x \u2208 A |\u2192 C )",
+    "steps": [
+        {
+            "number": 3662,
+            "expression": "\u22a2 ( x \u2208 A |\u2192 B ) = ( x \u2208 A |\u2192 C )",
+            "prop_expression": "( x \u2208 A \u2192 B = C ) \u22a2 ( x \u2208 A |\u2192 B ) = ( x \u2208 A |\u2192 C )",
+            "step": 1,
+            "theorem": "mpteq2ia",
+            "ground_truth": "mpteq2ia \u22a2 ( x \u2208 A |\u2192 B ) = ( x \u2208 A |\u2192 C )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.83632,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.96658,
+            "_thrs_random_forest": 0.78
+        },
+        {
+            "number": 3662,
+            "expression": "\u22a2 ( x \u2208 A \u2192 B = C )",
+            "prop_expression": "\ud835\udf11 \u22a2 ( \ud835\udf13 \u2192 \ud835\udf11 )",
+            "step": 2,
+            "theorem": "a1i",
+            "ground_truth": "a1i \u22a2 ( x \u2208 A \u2192 B = C )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.57495,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.625,
+            "_thrs_complexity": 0.25,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.475,
+            "_thrs_logistic_regression": 0.99972,
+            "_thrs_random_forest": 0.935
+        },
+        {
+            "number": 3662,
+            "expression": "\u22a2 B = C",
+            "prop_expression": " \u22a2 B = C",
+            "step": 3,
+            "theorem": "mpteq2i.1",
+            "ground_truth": "mpteq2i.1 \u22a2 B = C",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.45514,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99115,
+            "_thrs_random_forest": 0.935
+        }
+    ],
+    "is_train": false
+}

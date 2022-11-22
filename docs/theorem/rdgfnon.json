@@ -1,0 +1,53 @@
+{
+    "theorem": "rdgfnon",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "rec ( F , A ) Fn On",
+    "steps": [
+        {
+            "number": 5881,
+            "expression": "\u22a2 rec ( F , A ) Fn On",
+            "prop_expression": "F = recs ( G ) \u22a2 F Fn On",
+            "step": 1,
+            "theorem": "tfr1",
+            "ground_truth": "tfr1 \u22a2 rec ( F , A ) Fn On",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.86352,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.66
+        },
+        {
+            "number": 5881,
+            "expression": "\u22a2 rec ( F , A ) = recs ( ( g \u2208 V |\u2192 if ( g = \u2205 , A , if ( Lim dom g , U. ran g , ( F ` ( g ` U. dom g ) ) ) ) ) )",
+            "prop_expression": " \u22a2 rec ( F , I ) = recs ( ( g \u2208 V |\u2192 if ( g = \u2205 , I , if ( Lim dom g , U. ran g , ( F ` ( g ` U. dom g ) ) ) ) ) )",
+            "step": 2,
+            "theorem": "df-rdg",
+            "ground_truth": "df-rdg \u22a2 rec ( F , A ) = recs ( ( g \u2208 V |\u2192 if ( g = \u2205 , A , if ( Lim dom g , U. ran g , ( F ` ( g ` U. dom g ) ) ) ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.84125,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.75
+        }
+    ],
+    "is_train": false
+}

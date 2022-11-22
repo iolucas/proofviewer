@@ -1,0 +1,77 @@
+{
+    "theorem": "ssrexv",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( A \u2286 B \u2192 ( \u2203 x \u2208 A \ud835\udf11 \u2192 \u2203 x \u2208 B \ud835\udf11 ) )",
+    "steps": [
+        {
+            "number": 2868,
+            "expression": "\u22a2 ( A \u2286 B \u2192 ( \u2203 x \u2208 A \ud835\udf11 \u2192 \u2203 x \u2208 B \ud835\udf11 ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( ( x \u2208 A \u2227 \ud835\udf13 ) \u2192 ( x \u2208 B \u2227 \ud835\udf12 ) ) ) \u22a2 ( \ud835\udf11 \u2192 ( \u2203 x \u2208 A \ud835\udf13 \u2192 \u2203 x \u2208 B \ud835\udf12 ) )",
+            "step": 1,
+            "theorem": "reximdv2",
+            "ground_truth": "reximdv2 \u22a2 ( A \u2286 B \u2192 ( \u2203 x \u2208 A \ud835\udf11 \u2192 \u2203 x \u2208 B \ud835\udf11 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.80828,
+            "_thrs_reconstruct": 0.01686,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.99984,
+            "_thrs_random_forest": 0.755
+        },
+        {
+            "number": 2868,
+            "expression": "\u22a2 ( A \u2286 B \u2192 ( ( x \u2208 A \u2227 \ud835\udf11 ) \u2192 ( x \u2208 B \u2227 \ud835\udf11 ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2192 ( ( \ud835\udf13 \u2227 \ud835\udf03 ) \u2192 ( \ud835\udf12 \u2227 \ud835\udf03 ) ) )",
+            "step": 2,
+            "theorem": "anim1d",
+            "ground_truth": "anim1d \u22a2 ( A \u2286 B \u2192 ( ( x \u2208 A \u2227 \ud835\udf11 ) \u2192 ( x \u2208 B \u2227 \ud835\udf11 ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.86114,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.11322,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.95909,
+            "_thrs_interestingness": 0.31446,
+            "_thrs_logistic_regression": 0.99982,
+            "_thrs_random_forest": 0.88
+        },
+        {
+            "number": 2868,
+            "expression": "\u22a2 ( A \u2286 B \u2192 ( x \u2208 A \u2192 x \u2208 B ) )",
+            "prop_expression": " \u22a2 ( A \u2286 B \u2192 ( C \u2208 A \u2192 C \u2208 B ) )",
+            "step": 3,
+            "theorem": "ssel",
+            "ground_truth": "ssel \u22a2 ( A \u2286 B \u2192 ( x \u2208 A \u2192 x \u2208 B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.79261,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.33688,
+            "_thrs_random_forest": 0.475
+        }
+    ],
+    "is_train": false
+}

@@ -1,0 +1,53 @@
+{
+    "theorem": "n0",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( A \u2260 \u2205 \u2194 \u2203 x x \u2208 A )",
+    "steps": [
+        {
+            "number": 3081,
+            "expression": "\u22a2 ( A \u2260 \u2205 \u2194 \u2203 x x \u2208 A )",
+            "prop_expression": "( y \u2208 A \u2192 \u2200 x y \u2208 A ) \u22a2 ( A \u2260 \u2205 \u2194 \u2203 x x \u2208 A )",
+            "step": 1,
+            "theorem": "n0f",
+            "ground_truth": "n0f \u22a2 ( A \u2260 \u2205 \u2194 \u2203 x x \u2208 A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.08342,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.99923,
+            "_thrs_random_forest": 0.755
+        },
+        {
+            "number": 3081,
+            "expression": "\u22a2 ( y \u2208 A \u2192 \u2200 x y \u2208 A )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \u2200 x \ud835\udf11 )",
+            "step": 2,
+            "theorem": "ax-17",
+            "ground_truth": "ax-17 \u22a2 ( y \u2208 A \u2192 \u2200 x y \u2208 A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.94651,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.71293,
+            "_thrs_random_forest": 0.67
+        }
+    ],
+    "is_train": false
+}

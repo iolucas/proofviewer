@@ -1,0 +1,77 @@
+{
+    "theorem": "sumeq1d",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( \ud835\udf11 \u2192 sum_ k \u2208 A C = sum_ k \u2208 B C )",
+    "steps": [
+        {
+            "number": 10795,
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 sum_ k \u2208 A C = sum_ k \u2208 B C )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf13 \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "syl",
+            "ground_truth": "syl \u22a2 ( \ud835\udf11 \u2192 sum_ k \u2208 A C = sum_ k \u2208 B C )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.24022,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.11111,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.62222,
+            "_thrs_logistic_regression": 0.99972,
+            "_thrs_random_forest": 0.865
+        },
+        {
+            "number": 10795,
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 A = B )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 A = B )",
+            "step": 2,
+            "theorem": "sumeq1d.1",
+            "ground_truth": "sumeq1d.1 \u22a2 ( \ud835\udf11 \u2192 A = B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.96304,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.57895,
+            "_thrs_interestingness": 0.51579,
+            "_thrs_logistic_regression": 0.95786,
+            "_thrs_random_forest": 0.865
+        },
+        {
+            "number": 10795,
+            "expression": "\u22a2 ( A = B \u2192 sum_ k \u2208 A C = sum_ k \u2208 B C )",
+            "prop_expression": " \u22a2 ( A = B \u2192 sum_ k \u2208 A C = sum_ k \u2208 B C )",
+            "step": 3,
+            "theorem": "sumeq1",
+            "ground_truth": "sumeq1 \u22a2 ( A = B \u2192 sum_ k \u2208 A C = sum_ k \u2208 B C )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.2897,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.25,
+            "_thrs_surprisingness": 0.66667,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.38333,
+            "_thrs_logistic_regression": 0.8663,
+            "_thrs_random_forest": 0.59
+        }
+    ],
+    "is_train": false
+}

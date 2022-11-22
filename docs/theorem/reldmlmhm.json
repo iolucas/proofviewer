@@ -1,0 +1,53 @@
+{
+    "theorem": "reldmlmhm",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "Rel dom LMHom",
+    "steps": [
+        {
+            "number": 13508,
+            "expression": "\u22a2 Rel dom LMHom",
+            "prop_expression": "F = ( x \u2208 A , y \u2208 B |\u2192 C ) \u22a2 Rel dom F",
+            "step": 1,
+            "theorem": "reldmmpt2",
+            "ground_truth": "reldmmpt2 \u22a2 Rel dom LMHom",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.38022,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.595
+        },
+        {
+            "number": 13508,
+            "expression": "\u22a2 LMHom = ( s \u2208 LMod , t \u2208 LMod |\u2192 { f \u2208 ( s GrpHom t ) | [ ( Scalar ` s ) / w ] ( ( Scalar ` t ) = w \u2227 \u2200 x \u2208 ( Base ` w ) \u2200 y \u2208 ( Base ` s ) ( f ` ( x ( .s ` s ) y ) ) = ( x ( .s ` t ) ( f ` y ) ) ) } )",
+            "prop_expression": " \u22a2 LMHom = ( s \u2208 LMod , t \u2208 LMod |\u2192 { f \u2208 ( s GrpHom t ) | [ ( Scalar ` s ) / w ] ( ( Scalar ` t ) = w \u2227 \u2200 x \u2208 ( Base ` w ) \u2200 y \u2208 ( Base ` s ) ( f ` ( x ( .s ` s ) y ) ) = ( x ( .s ` t ) ( f ` y ) ) ) } )",
+            "step": 2,
+            "theorem": "df-lmhm",
+            "ground_truth": "df-lmhm \u22a2 LMHom = ( s \u2208 LMod , t \u2208 LMod |\u2192 { f \u2208 ( s GrpHom t ) | [ ( Scalar ` s ) / w ] ( ( Scalar ` t ) = w \u2227 \u2200 x \u2208 ( Base ` w ) \u2200 y \u2208 ( Base ` s ) ( f ` ( x ( .s ` s ) y ) ) = ( x ( .s ` t ) ( f ` y ) ) ) } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.67556,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.805
+        }
+    ],
+    "is_train": false
+}

@@ -1,0 +1,101 @@
+{
+    "theorem": "axaci",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ]
+    ],
+    "expression": "\ud835\udf11",
+    "steps": [
+        {
+            "number": 7546,
+            "expression": "\u22a2 \ud835\udf11",
+            "prop_expression": "\u2200 x \ud835\udf11 \u22a2 \ud835\udf11",
+            "step": 1,
+            "theorem": "a4i",
+            "ground_truth": "a4i \u22a2 \ud835\udf11",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.37997,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.47861,
+            "_thrs_random_forest": 0.74
+        },
+        {
+            "number": 7546,
+            "expression": "\u22a2 \u2200 x \ud835\udf11",
+            "prop_expression": "\ud835\udf11, ( \ud835\udf11 \u2194 \ud835\udf13 ) \u22a2 \ud835\udf13",
+            "step": 2,
+            "theorem": "mpbi",
+            "ground_truth": "mpbi \u22a2 \u2200 x \ud835\udf11",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.78516,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.99937,
+            "_thrs_random_forest": 0.87
+        },
+        {
+            "number": 7546,
+            "expression": "\u22a2 CHOICE",
+            "prop_expression": " \u22a2 CHOICE",
+            "step": 3,
+            "theorem": "axac",
+            "ground_truth": "axac \u22a2 CHOICE",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.72662,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.47861,
+            "_thrs_random_forest": 0.775
+        },
+        {
+            "number": 7546,
+            "expression": "\u22a2 ( CHOICE \u2194 \u2200 x \ud835\udf11 )",
+            "prop_expression": " \u22a2 ( CHOICE \u2194 \u2200 x \ud835\udf11 )",
+            "step": 4,
+            "theorem": "axaci.1",
+            "ground_truth": "axaci.1 \u22a2 ( CHOICE \u2194 \u2200 x \ud835\udf11 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9603,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.9412,
+            "_thrs_random_forest": 0.715
+        }
+    ],
+    "is_train": false
+}

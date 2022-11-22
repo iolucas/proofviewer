@@ -1,0 +1,53 @@
+{
+    "theorem": "xrsstr",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "\u211d*s Struct \u27e8 1 , ; 1 2 \u27e9",
+    "steps": [
+        {
+            "number": 14150,
+            "expression": "\u22a2 \u211d*s Struct \u27e8 1 , ; 1 2 \u27e9",
+            "prop_expression": "W = ( { \u27e8 ( Base ` ndx ) , B \u27e9 , \u27e8 ( +g ` ndx ) , .+ \u27e9 , \u27e8 ( .r ` ndx ) , .\u00b7 \u27e9 } \u222a { \u27e8 ( TopS\u03b7 ` ndx ) , J \u27e9 , \u27e8 ( le ` ndx ) , .\u2264 \u27e9 , \u27e8 ( dist ` ndx ) , D \u27e9 } ) \u22a2 W Struct \u27e8 1 , ; 1 2 \u27e9",
+            "step": 1,
+            "theorem": "odrngstr",
+            "ground_truth": "odrngstr \u22a2 \u211d*s Struct \u27e8 1 , ; 1 2 \u27e9",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3839,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.605
+        },
+        {
+            "number": 14150,
+            "expression": "\u22a2 \u211d*s = ( { \u27e8 ( Base ` ndx ) , \u211d* \u27e9 , \u27e8 ( +g ` ndx ) , +e \u27e9 , \u27e8 ( .r ` ndx ) , *e \u27e9 } \u222a { \u27e8 ( TopS\u03b7 ` ndx ) , ( ordTop ` \u2264 ) \u27e9 , \u27e8 ( le ` ndx ) , \u2264 \u27e9 , \u27e8 ( dist ` ndx ) , ( x \u2208 \u211d* , y \u2208 \u211d* |\u2192 if ( x \u2264 y , ( y +e -e x ) , ( x +e -e y ) ) ) \u27e9 } )",
+            "prop_expression": " \u22a2 \u211d*s = ( { \u27e8 ( Base ` ndx ) , \u211d* \u27e9 , \u27e8 ( +g ` ndx ) , +e \u27e9 , \u27e8 ( .r ` ndx ) , *e \u27e9 } \u222a { \u27e8 ( TopS\u03b7 ` ndx ) , ( ordTop ` \u2264 ) \u27e9 , \u27e8 ( le ` ndx ) , \u2264 \u27e9 , \u27e8 ( dist ` ndx ) , ( x \u2208 \u211d* , y \u2208 \u211d* |\u2192 if ( x \u2264 y , ( y +e -e x ) , ( x +e -e y ) ) ) \u27e9 } )",
+            "step": 2,
+            "theorem": "df-xrs",
+            "ground_truth": "df-xrs \u22a2 \u211d*s = ( { \u27e8 ( Base ` ndx ) , \u211d* \u27e9 , \u27e8 ( +g ` ndx ) , +e \u27e9 , \u27e8 ( .r ` ndx ) , *e \u27e9 } \u222a { \u27e8 ( TopS\u03b7 ` ndx ) , ( ordTop ` \u2264 ) \u27e9 , \u27e8 ( le ` ndx ) , \u2264 \u27e9 , \u27e8 ( dist ` ndx ) , ( x \u2208 \u211d* , y \u2208 \u211d* |\u2192 if ( x \u2264 y , ( y +e -e x ) , ( x +e -e y ) ) ) \u27e9 } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.66953,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.705
+        }
+    ],
+    "is_train": false
+}

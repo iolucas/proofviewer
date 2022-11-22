@@ -1,0 +1,53 @@
+{
+    "theorem": "elioo3g",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( C \u2208 ( A (,) B ) \u2194 ( ( A \u2208 \u211d* \u2227 B \u2208 \u211d* \u2227 C \u2208 \u211d* ) \u2227 ( A < C \u2227 C < B ) ) )",
+    "steps": [
+        {
+            "number": 9703,
+            "expression": "\u22a2 ( C \u2208 ( A (,) B ) \u2194 ( ( A \u2208 \u211d* \u2227 B \u2208 \u211d* \u2227 C \u2208 \u211d* ) \u2227 ( A < C \u2227 C < B ) ) )",
+            "prop_expression": "O = ( x \u2208 \u211d* , y \u2208 \u211d* |\u2192 { z \u2208 \u211d* | ( x R z \u2227 z S y ) } ) \u22a2 ( C \u2208 ( A O B ) \u2194 ( ( A \u2208 \u211d* \u2227 B \u2208 \u211d* \u2227 C \u2208 \u211d* ) \u2227 ( A R C \u2227 C S B ) ) )",
+            "step": 1,
+            "theorem": "elixx3g",
+            "ground_truth": "elixx3g \u22a2 ( C \u2208 ( A (,) B ) \u2194 ( ( A \u2208 \u211d* \u2227 B \u2208 \u211d* \u2227 C \u2208 \u211d* ) \u2227 ( A < C \u2227 C < B ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5486,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.97538,
+            "_thrs_random_forest": 0.56
+        },
+        {
+            "number": 9703,
+            "expression": "\u22a2 (,) = ( x \u2208 \u211d* , y \u2208 \u211d* |\u2192 { z \u2208 \u211d* | ( x < z \u2227 z < y ) } )",
+            "prop_expression": " \u22a2 (,) = ( x \u2208 \u211d* , y \u2208 \u211d* |\u2192 { z \u2208 \u211d* | ( x < z \u2227 z < y ) } )",
+            "step": 2,
+            "theorem": "df-ioo",
+            "ground_truth": "df-ioo \u22a2 (,) = ( x \u2208 \u211d* , y \u2208 \u211d* |\u2192 { z \u2208 \u211d* | ( x < z \u2227 z < y ) } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.62771,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.98792,
+            "_thrs_random_forest": 0.765
+        }
+    ],
+    "is_train": false
+}

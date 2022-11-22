@@ -1,0 +1,53 @@
+{
+    "theorem": "iooex",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "(,) \u2208 V",
+    "steps": [
+        {
+            "number": 9697,
+            "expression": "\u22a2 (,) \u2208 V",
+            "prop_expression": "O = ( x \u2208 \u211d* , y \u2208 \u211d* |\u2192 { z \u2208 \u211d* | ( x R z \u2227 z S y ) } ) \u22a2 O \u2208 V",
+            "step": 1,
+            "theorem": "ixxex",
+            "ground_truth": "ixxex \u22a2 (,) \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7946,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.69
+        },
+        {
+            "number": 9697,
+            "expression": "\u22a2 (,) = ( x \u2208 \u211d* , y \u2208 \u211d* |\u2192 { z \u2208 \u211d* | ( x < z \u2227 z < y ) } )",
+            "prop_expression": " \u22a2 (,) = ( x \u2208 \u211d* , y \u2208 \u211d* |\u2192 { z \u2208 \u211d* | ( x < z \u2227 z < y ) } )",
+            "step": 2,
+            "theorem": "df-ioo",
+            "ground_truth": "df-ioo \u22a2 (,) = ( x \u2208 \u211d* , y \u2208 \u211d* |\u2192 { z \u2208 \u211d* | ( x < z \u2227 z < y ) } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.16798,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.745
+        }
+    ],
+    "is_train": false
+}

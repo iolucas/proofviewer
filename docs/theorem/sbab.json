@@ -1,0 +1,53 @@
+{
+    "theorem": "sbab",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( x = y \u2192 A = { z | [ y / x ] z \u2208 A } )",
+    "steps": [
+        {
+            "number": 2176,
+            "expression": "\u22a2 ( x = y \u2192 A = { z | [ y / x ] z \u2208 A } )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( x \u2208 A \u2194 \ud835\udf13 ) ) \u22a2 ( \ud835\udf11 \u2192 A = { x | \ud835\udf13 } )",
+            "step": 1,
+            "theorem": "abbi2dv",
+            "ground_truth": "abbi2dv \u22a2 ( x = y \u2192 A = { z | [ y / x ] z \u2208 A } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.47164,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.99923,
+            "_thrs_random_forest": 0.655
+        },
+        {
+            "number": 2176,
+            "expression": "\u22a2 ( x = y \u2192 ( z \u2208 A \u2194 [ y / x ] z \u2208 A ) )",
+            "prop_expression": " \u22a2 ( x = y \u2192 ( \ud835\udf11 \u2194 [ y / x ] \ud835\udf11 ) )",
+            "step": 2,
+            "theorem": "sbequ12",
+            "ground_truth": "sbequ12 \u22a2 ( x = y \u2192 ( z \u2208 A \u2194 [ y / x ] z \u2208 A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.34863,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.71293,
+            "_thrs_random_forest": 0.88
+        }
+    ],
+    "is_train": false
+}

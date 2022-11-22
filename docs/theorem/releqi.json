@@ -1,0 +1,77 @@
+{
+    "theorem": "releqi",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( Rel A \u2194 Rel B )",
+    "steps": [
+        {
+            "number": 4354,
+            "expression": "\u22a2 ( Rel A \u2194 Rel B )",
+            "prop_expression": "\ud835\udf11, ( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 \ud835\udf13",
+            "step": 1,
+            "theorem": "ax-mp",
+            "ground_truth": "ax-mp \u22a2 ( Rel A \u2194 Rel B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.39458,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99981,
+            "_thrs_random_forest": 0.975
+        },
+        {
+            "number": 4354,
+            "expression": "\u22a2 A = B",
+            "prop_expression": " \u22a2 A = B",
+            "step": 2,
+            "theorem": "releqi.1",
+            "ground_truth": "releqi.1 \u22a2 A = B",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.60214,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.33333,
+            "_thrs_interestingness": 0.46667,
+            "_thrs_logistic_regression": 0.85797,
+            "_thrs_random_forest": 0.945
+        },
+        {
+            "number": 4354,
+            "expression": "\u22a2 ( A = B \u2192 ( Rel A \u2194 Rel B ) )",
+            "prop_expression": " \u22a2 ( A = B \u2192 ( Rel A \u2194 Rel B ) )",
+            "step": 3,
+            "theorem": "releq",
+            "ground_truth": "releq \u22a2 ( A = B \u2192 ( Rel A \u2194 Rel B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.94519,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.93628,
+            "_thrs_random_forest": 0.71
+        }
+    ],
+    "is_train": false
+}

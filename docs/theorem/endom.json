@@ -1,0 +1,53 @@
+{
+    "theorem": "endom",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( A \u2248 B \u2192 A \u227a_ B )",
+    "steps": [
+        {
+            "number": 6321,
+            "expression": "\u22a2 ( A \u2248 B \u2192 A \u227a_ B )",
+            "prop_expression": "A \u2286 B \u22a2 ( C A D \u2192 C B D )",
+            "step": 1,
+            "theorem": "ssbri",
+            "ground_truth": "ssbri \u22a2 ( A \u2248 B \u2192 A \u227a_ B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.40659,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.96658,
+            "_thrs_random_forest": 0.465
+        },
+        {
+            "number": 6321,
+            "expression": "\u22a2 \u2248 \u2286 \u227a_",
+            "prop_expression": " \u22a2 \u2248 \u2286 \u227a_",
+            "step": 2,
+            "theorem": "enssdom",
+            "ground_truth": "enssdom \u22a2 \u2248 \u2286 \u227a_",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.15059,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99115,
+            "_thrs_random_forest": 0.685
+        }
+    ],
+    "is_train": false
+}

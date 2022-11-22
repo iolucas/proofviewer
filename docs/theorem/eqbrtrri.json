@@ -1,0 +1,101 @@
+{
+    "theorem": "eqbrtrri",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "B R C",
+    "steps": [
+        {
+            "number": 3606,
+            "expression": "\u22a2 B R C",
+            "prop_expression": "A = B, B R C \u22a2 A R C",
+            "step": 1,
+            "theorem": "eqbrtri",
+            "ground_truth": "eqbrtri \u22a2 B R C",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.05928,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.99992,
+            "_thrs_random_forest": 0.71
+        },
+        {
+            "number": 3606,
+            "expression": "\u22a2 B = A",
+            "prop_expression": "A = B \u22a2 B = A",
+            "step": 2,
+            "theorem": "eqcomi",
+            "ground_truth": "eqcomi \u22a2 B = A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.24785,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.33688,
+            "_thrs_random_forest": 0.72
+        },
+        {
+            "number": 3606,
+            "expression": "\u22a2 A = B",
+            "prop_expression": " \u22a2 A = B",
+            "step": 3,
+            "theorem": "eqbrtrr.1",
+            "ground_truth": "eqbrtrr.1 \u22a2 A = B",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.40143,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.33688,
+            "_thrs_random_forest": 0.935
+        },
+        {
+            "number": 3606,
+            "expression": "\u22a2 A R C",
+            "prop_expression": " \u22a2 A R C",
+            "step": 4,
+            "theorem": "eqbrtrr.2",
+            "ground_truth": "eqbrtrr.2 \u22a2 A R C",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.44401,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.9412,
+            "_thrs_random_forest": 0.875
+        }
+    ],
+    "is_train": false
+}

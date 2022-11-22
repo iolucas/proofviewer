@@ -13,6 +13,7 @@
     "expression": "( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 )",
     "steps": [
         {
+            "number": 1193,
             "expression": "\u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 )",
             "prop_expression": "( \ud835\udf11 \u2192 ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 ) ) \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 )",
             "step": 1,
@@ -20,7 +21,7 @@
             "ground_truth": "anabsi5 \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.74696,
+            "_thrs_random_uniform": 0.38973,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 1.0,
@@ -32,6 +33,7 @@
             "_thrs_random_forest": 0.945
         },
         {
+            "number": 1193,
             "expression": "\u22a2 ( \ud835\udf11 \u2192 ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 ) )",
             "prop_expression": "( ( \ud835\udf11 \u2227 \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( \ud835\udf11 \u2192 ( ( \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) )",
             "step": 2,
@@ -39,7 +41,7 @@
             "ground_truth": "3expib \u22a2 ( \ud835\udf11 \u2192 ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.18532,
+            "_thrs_random_uniform": 0.07817,
             "_thrs_reconstruct": 0.18109,
             "_thrs_obviousness": 0.15333,
             "_thrs_weight": 0.0,
@@ -51,6 +53,7 @@
             "_thrs_random_forest": 0.97
         },
         {
+            "number": 1193,
             "expression": "\u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 )",
             "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 )",
             "step": 3,
@@ -58,7 +61,7 @@
             "ground_truth": "3anidm12.1 \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.24387,
+            "_thrs_random_uniform": 0.6907,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.0,
@@ -69,5 +72,6 @@
             "_thrs_logistic_regression": 0.71293,
             "_thrs_random_forest": 0.51
         }
-    ]
+    ],
+    "is_train": true
 }

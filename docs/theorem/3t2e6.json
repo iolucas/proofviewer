@@ -1,0 +1,101 @@
+{
+    "theorem": "3t2e6",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( 3 \u00b7 2 ) = 6",
+    "steps": [
+        {
+            "number": 8984,
+            "expression": "\u22a2 ( 3 \u00b7 2 ) = 6",
+            "prop_expression": "A = B, B = C \u22a2 A = C",
+            "step": 1,
+            "theorem": "eqtri",
+            "ground_truth": "eqtri \u22a2 ( 3 \u00b7 2 ) = 6",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.79745,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.66667,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.53333,
+            "_thrs_logistic_regression": 0.99996,
+            "_thrs_random_forest": 0.825
+        },
+        {
+            "number": 8984,
+            "expression": "\u22a2 ( 3 \u00b7 2 ) = ( 3 + 3 )",
+            "prop_expression": "A \u2208 \u2102 \u22a2 ( A \u00b7 2 ) = ( A + A )",
+            "step": 2,
+            "theorem": "times2i",
+            "ground_truth": "times2i \u22a2 ( 3 \u00b7 2 ) = ( 3 + 3 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.12448,
+            "_thrs_reconstruct": 0.92608,
+            "_thrs_obviousness": 0.48081,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.09616,
+            "_thrs_logistic_regression": 0.98348,
+            "_thrs_random_forest": 0.765
+        },
+        {
+            "number": 8984,
+            "expression": "\u22a2 3 \u2208 \u2102",
+            "prop_expression": " \u22a2 3 \u2208 \u2102",
+            "step": 3,
+            "theorem": "3cn",
+            "ground_truth": "3cn \u22a2 3 \u2208 \u2102",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.08473,
+            "_thrs_reconstruct": 0.32163,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.25,
+            "_thrs_interestingness": 0.65,
+            "_thrs_logistic_regression": 0.49862,
+            "_thrs_random_forest": 0.59875
+        },
+        {
+            "number": 8984,
+            "expression": "\u22a2 ( 3 + 3 ) = 6",
+            "prop_expression": " \u22a2 ( 3 + 3 ) = 6",
+            "step": 4,
+            "theorem": "3p3e6",
+            "ground_truth": "3p3e6 \u22a2 ( 3 + 3 ) = 6",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.02923,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.3522,
+            "_thrs_weight": 0.66667,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0625,
+            "_thrs_interestingness": 0.61627,
+            "_thrs_logistic_regression": 0.20338,
+            "_thrs_random_forest": 0.815
+        }
+    ],
+    "is_train": false
+}

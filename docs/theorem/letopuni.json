@@ -1,0 +1,53 @@
+{
+    "theorem": "letopuni",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "\u211d* = U. ( ordTop ` \u2264 )",
+    "steps": [
+        {
+            "number": 14759,
+            "expression": "\u22a2 \u211d* = U. ( ordTop ` \u2264 )",
+            "prop_expression": "J \u2208 ( TopOn ` B ) \u22a2 B = U. J",
+            "step": 1,
+            "theorem": "toponunii",
+            "ground_truth": "toponunii \u22a2 \u211d* = U. ( ordTop ` \u2264 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.26287,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.56667
+        },
+        {
+            "number": 14759,
+            "expression": "\u22a2 ( ordTop ` \u2264 ) \u2208 ( TopOn ` \u211d* )",
+            "prop_expression": " \u22a2 ( ordTop ` \u2264 ) \u2208 ( TopOn ` \u211d* )",
+            "step": 2,
+            "theorem": "letopon",
+            "ground_truth": "letopon \u22a2 ( ordTop ` \u2264 ) \u2208 ( TopOn ` \u211d* )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.40804,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.725
+        }
+    ],
+    "is_train": false
+}

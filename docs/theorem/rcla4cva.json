@@ -13,6 +13,7 @@
     "expression": "( ( \u2200 x \u2208 B \ud835\udf11 \u2227 A \u2208 B ) \u2192 \ud835\udf13 )",
     "steps": [
         {
+            "number": 2556,
             "expression": "\u22a2 ( ( \u2200 x \u2208 B \ud835\udf11 \u2227 A \u2208 B ) \u2192 \ud835\udf13 )",
             "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf12 ) ) \u22a2 ( ( \ud835\udf13 \u2227 \ud835\udf11 ) \u2192 \ud835\udf12 )",
             "step": 1,
@@ -20,7 +21,7 @@
             "ground_truth": "impcom \u22a2 ( ( \u2200 x \u2208 B \ud835\udf11 \u2227 A \u2208 B ) \u2192 \ud835\udf13 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.12979,
+            "_thrs_random_uniform": 0.33809,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.0,
@@ -32,6 +33,7 @@
             "_thrs_random_forest": 0.725
         },
         {
+            "number": 2556,
             "expression": "\u22a2 ( A \u2208 B \u2192 ( \u2200 x \u2208 B \ud835\udf11 \u2192 \ud835\udf13 ) )",
             "prop_expression": "( x = A \u2192 ( \ud835\udf11 \u2194 \ud835\udf13 ) ) \u22a2 ( A \u2208 B \u2192 ( \u2200 x \u2208 B \ud835\udf11 \u2192 \ud835\udf13 ) )",
             "step": 2,
@@ -39,7 +41,7 @@
             "ground_truth": "rcla4v \u22a2 ( A \u2208 B \u2192 ( \u2200 x \u2208 B \ud835\udf11 \u2192 \ud835\udf13 ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.13838,
+            "_thrs_random_uniform": 0.18212,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.0,
@@ -51,6 +53,7 @@
             "_thrs_random_forest": 0.86
         },
         {
+            "number": 2556,
             "expression": "\u22a2 ( x = A \u2192 ( \ud835\udf11 \u2194 \ud835\udf13 ) )",
             "prop_expression": " \u22a2 ( x = A \u2192 ( \ud835\udf11 \u2194 \ud835\udf13 ) )",
             "step": 3,
@@ -58,7 +61,7 @@
             "ground_truth": "rcla4v.1 \u22a2 ( x = A \u2192 ( \ud835\udf11 \u2194 \ud835\udf13 ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.87945,
+            "_thrs_random_uniform": 0.78264,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
@@ -69,5 +72,6 @@
             "_thrs_logistic_regression": 0.99115,
             "_thrs_random_forest": 0.97
         }
-    ]
+    ],
+    "is_train": true
 }

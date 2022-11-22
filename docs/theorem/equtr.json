@@ -1,0 +1,53 @@
+{
+    "theorem": "equtr",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( x = y \u2192 ( y = z \u2192 x = z ) )",
+    "steps": [
+        {
+            "number": 1684,
+            "expression": "\u22a2 ( x = y \u2192 ( y = z \u2192 x = z ) )",
+            "prop_expression": "( x = y \u2192 \ud835\udf11 ) \u22a2 ( y = x \u2192 \ud835\udf11 )",
+            "step": 1,
+            "theorem": "equcoms",
+            "ground_truth": "equcoms \u22a2 ( x = y \u2192 ( y = z \u2192 x = z ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4603,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99877,
+            "_thrs_random_forest": 0.645
+        },
+        {
+            "number": 1684,
+            "expression": "\u22a2 ( y = x \u2192 ( y = z \u2192 x = z ) )",
+            "prop_expression": " \u22a2 ( x = y \u2192 ( x = z \u2192 y = z ) )",
+            "step": 2,
+            "theorem": "ax-8",
+            "ground_truth": "ax-8 \u22a2 ( y = x \u2192 ( y = z \u2192 x = z ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.0118,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.80004,
+            "_thrs_random_forest": 0.975
+        }
+    ],
+    "is_train": false
+}

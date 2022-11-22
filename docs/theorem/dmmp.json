@@ -1,0 +1,77 @@
+{
+    "theorem": "dmmp",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "dom .P. = ( P. \u00d7 P. )",
+    "steps": [
+        {
+            "number": 8050,
+            "expression": "\u22a2 dom .P. = ( P. \u00d7 P. )",
+            "prop_expression": "F = ( w \u2208 P. , v \u2208 P. |\u2192 { x | \u2203 y \u2208 w \u2203 z \u2208 v x = ( y G z ) } ), ( ( y \u2208 Q. \u2227 z \u2208 Q. ) \u2192 ( y G z ) \u2208 Q. ) \u22a2 dom F = ( P. \u00d7 P. )",
+            "step": 1,
+            "theorem": "genpdm",
+            "ground_truth": "genpdm \u22a2 dom .P. = ( P. \u00d7 P. )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.83042,
+            "_thrs_reconstruct": 9e-05,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.99508,
+            "_thrs_random_forest": 0.77625
+        },
+        {
+            "number": 8050,
+            "expression": "\u22a2 .P. = ( x \u2208 P. , y \u2208 P. |\u2192 { z | \u2203 u \u2208 x \u2203 v \u2208 y z = ( u .Q v ) } )",
+            "prop_expression": " \u22a2 .P. = ( x \u2208 P. , y \u2208 P. |\u2192 { w | \u2203 v \u2208 x \u2203 u \u2208 y w = ( v .Q u ) } )",
+            "step": 2,
+            "theorem": "df-mp",
+            "ground_truth": "df-mp \u22a2 .P. = ( x \u2208 P. , y \u2208 P. |\u2192 { z | \u2203 u \u2208 x \u2203 v \u2208 y z = ( u .Q v ) } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.44778,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.04155,
+            "_thrs_interestingness": 0.20831,
+            "_thrs_logistic_regression": 0.95245,
+            "_thrs_random_forest": 0.86
+        },
+        {
+            "number": 8050,
+            "expression": "\u22a2 ( ( u \u2208 Q. \u2227 v \u2208 Q. ) \u2192 ( u .Q v ) \u2208 Q. )",
+            "prop_expression": " \u22a2 ( ( A \u2208 Q. \u2227 B \u2208 Q. ) \u2192 ( A .Q B ) \u2208 Q. )",
+            "step": 3,
+            "theorem": "mulclnq",
+            "ground_truth": "mulclnq \u22a2 ( ( u \u2208 Q. \u2227 v \u2208 Q. ) \u2192 ( u .Q v ) \u2208 Q. )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.72091,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.99991,
+            "_thrs_weight": 0.57143,
+            "_thrs_complexity": 0.83333,
+            "_thrs_surprisingness": 0.33333,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.5476,
+            "_thrs_logistic_regression": 0.47528,
+            "_thrs_random_forest": 0.795
+        }
+    ],
+    "is_train": false
+}

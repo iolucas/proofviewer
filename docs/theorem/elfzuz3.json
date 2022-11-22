@@ -1,0 +1,53 @@
+{
+    "theorem": "elfzuz3",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( K \u2208 ( M ... N ) \u2192 N \u2208 ( \u2124>= ` K ) )",
+    "steps": [
+        {
+            "number": 9808,
+            "expression": "\u22a2 ( K \u2208 ( M ... N ) \u2192 N \u2208 ( \u2124>= ` K ) )",
+            "prop_expression": "( \ud835\udf11 \u2194 ( \ud835\udf13 \u2227 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "simprbi",
+            "ground_truth": "simprbi \u22a2 ( K \u2208 ( M ... N ) \u2192 N \u2208 ( \u2124>= ` K ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.02386,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.99923,
+            "_thrs_random_forest": 0.55
+        },
+        {
+            "number": 9808,
+            "expression": "\u22a2 ( K \u2208 ( M ... N ) \u2194 ( K \u2208 ( \u2124>= ` M ) \u2227 N \u2208 ( \u2124>= ` K ) ) )",
+            "prop_expression": " \u22a2 ( K \u2208 ( M ... N ) \u2194 ( K \u2208 ( \u2124>= ` M ) \u2227 N \u2208 ( \u2124>= ` K ) ) )",
+            "step": 2,
+            "theorem": "elfzuzb",
+            "ground_truth": "elfzuzb \u22a2 ( K \u2208 ( M ... N ) \u2194 ( K \u2208 ( \u2124>= ` M ) \u2227 N \u2208 ( \u2124>= ` K ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.54053,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.71293,
+            "_thrs_random_forest": 0.755
+        }
+    ],
+    "is_train": false
+}

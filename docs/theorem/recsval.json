@@ -1,0 +1,53 @@
+{
+    "theorem": "recsval",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( A \u2208 On \u2192 ( recs ( F ) ` A ) = ( F ` ( recs ( F ) |` A ) ) )",
+    "steps": [
+        {
+            "number": 5867,
+            "expression": "\u22a2 ( A \u2208 On \u2192 ( recs ( F ) ` A ) = ( F ` ( recs ( F ) |` A ) ) )",
+            "prop_expression": "F = recs ( G ) \u22a2 ( A \u2208 On \u2192 ( F ` A ) = ( G ` ( F |` A ) ) )",
+            "step": 1,
+            "theorem": "tfr2",
+            "ground_truth": "tfr2 \u22a2 ( A \u2208 On \u2192 ( recs ( F ) ` A ) = ( F ` ( recs ( F ) |` A ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.01132,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.99984,
+            "_thrs_random_forest": 0.625
+        },
+        {
+            "number": 5867,
+            "expression": "\u22a2 recs ( F ) = recs ( F )",
+            "prop_expression": " \u22a2 A = A",
+            "step": 2,
+            "theorem": "eqid",
+            "ground_truth": "eqid \u22a2 recs ( F ) = recs ( F )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.16978,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.33688,
+            "_thrs_random_forest": 0.79
+        }
+    ],
+    "is_train": false
+}

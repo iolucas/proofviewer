@@ -1,0 +1,77 @@
+{
+    "theorem": "1e0p1",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "1 = ( 0 + 1 )",
+    "steps": [
+        {
+            "number": 9239,
+            "expression": "\u22a2 1 = ( 0 + 1 )",
+            "prop_expression": "A = B \u22a2 B = A",
+            "step": 1,
+            "theorem": "eqcomi",
+            "ground_truth": "eqcomi \u22a2 1 = ( 0 + 1 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.04875,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.99801,
+            "_thrs_random_forest": 0.72167
+        },
+        {
+            "number": 9239,
+            "expression": "\u22a2 ( 0 + 1 ) = 1",
+            "prop_expression": "A \u2208 \u2102 \u22a2 ( 0 + A ) = A",
+            "step": 2,
+            "theorem": "addid2i",
+            "ground_truth": "addid2i \u22a2 ( 0 + 1 ) = 1",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.78167,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.6951,
+            "_thrs_random_forest": 0.77
+        },
+        {
+            "number": 9239,
+            "expression": "\u22a2 1 \u2208 \u2102",
+            "prop_expression": " \u22a2 1 \u2208 \u2102",
+            "step": 3,
+            "theorem": "ax-1cn",
+            "ground_truth": "ax-1cn \u22a2 1 \u2208 \u2102",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.39118,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.9993,
+            "_thrs_random_forest": 0.80833
+        }
+    ],
+    "is_train": false
+}

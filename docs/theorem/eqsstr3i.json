@@ -1,0 +1,101 @@
+{
+    "theorem": "eqsstr3i",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "A \u2286 C",
+    "steps": [
+        {
+            "number": 2841,
+            "expression": "\u22a2 A \u2286 C",
+            "prop_expression": "A = B, B \u2286 C \u22a2 A \u2286 C",
+            "step": 1,
+            "theorem": "eqsstri",
+            "ground_truth": "eqsstri \u22a2 A \u2286 C",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.94773,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.99992,
+            "_thrs_random_forest": 0.76
+        },
+        {
+            "number": 2841,
+            "expression": "\u22a2 A = B",
+            "prop_expression": "A = B \u22a2 B = A",
+            "step": 2,
+            "theorem": "eqcomi",
+            "ground_truth": "eqcomi \u22a2 A = B",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.65108,
+            "_thrs_reconstruct": 0.00032,
+            "_thrs_obviousness": 0.00032,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.50006,
+            "_thrs_logistic_regression": 0.33687,
+            "_thrs_random_forest": 0.805
+        },
+        {
+            "number": 2841,
+            "expression": "\u22a2 B = A",
+            "prop_expression": " \u22a2 B = A",
+            "step": 3,
+            "theorem": "eqsstr3.1",
+            "ground_truth": "eqsstr3.1 \u22a2 B = A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.82018,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.33688,
+            "_thrs_random_forest": 0.895
+        },
+        {
+            "number": 2841,
+            "expression": "\u22a2 B \u2286 C",
+            "prop_expression": " \u22a2 B \u2286 C",
+            "step": 4,
+            "theorem": "eqsstr3.2",
+            "ground_truth": "eqsstr3.2 \u22a2 B \u2286 C",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.27773,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.9412,
+            "_thrs_random_forest": 0.91
+        }
+    ],
+    "is_train": false
+}

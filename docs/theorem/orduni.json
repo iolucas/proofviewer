@@ -1,0 +1,77 @@
+{
+    "theorem": "orduni",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( Ord A \u2192 Ord U. A )",
+    "steps": [
+        {
+            "number": 4151,
+            "expression": "\u22a2 ( Ord A \u2192 Ord U. A )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf13 \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "syl",
+            "ground_truth": "syl \u22a2 ( Ord A \u2192 Ord U. A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.43223,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.69
+        },
+        {
+            "number": 4151,
+            "expression": "\u22a2 ( Ord A \u2192 A \u2286 On )",
+            "prop_expression": " \u22a2 ( Ord A \u2192 A \u2286 On )",
+            "step": 2,
+            "theorem": "ordsson",
+            "ground_truth": "ordsson \u22a2 ( Ord A \u2192 A \u2286 On )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.19814,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.81993,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.46399,
+            "_thrs_logistic_regression": 0.92204,
+            "_thrs_random_forest": 0.81
+        },
+        {
+            "number": 4151,
+            "expression": "\u22a2 ( A \u2286 On \u2192 Ord U. A )",
+            "prop_expression": " \u22a2 ( A \u2286 On \u2192 Ord U. A )",
+            "step": 3,
+            "theorem": "ssorduni",
+            "ground_truth": "ssorduni \u22a2 ( A \u2286 On \u2192 Ord U. A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.55675,
+            "_thrs_reconstruct": 0.18007,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0641,
+            "_thrs_interestingness": 0.21282,
+            "_thrs_logistic_regression": 0.95767,
+            "_thrs_random_forest": 0.78
+        }
+    ],
+    "is_train": false
+}

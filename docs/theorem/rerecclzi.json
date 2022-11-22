@@ -1,0 +1,77 @@
+{
+    "theorem": "rerecclzi",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( A \u2260 0 \u2192 ( 1 / A ) \u2208 \u211d )",
+    "steps": [
+        {
+            "number": 8727,
+            "expression": "\u22a2 ( A \u2260 0 \u2192 ( 1 / A ) \u2208 \u211d )",
+            "prop_expression": "A \u2208 \u211d, B \u2208 \u211d \u22a2 ( B \u2260 0 \u2192 ( A / B ) \u2208 \u211d )",
+            "step": 1,
+            "theorem": "redivclzi",
+            "ground_truth": "redivclzi \u22a2 ( A \u2260 0 \u2192 ( 1 / A ) \u2208 \u211d )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.98675,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.99969,
+            "_thrs_random_forest": 0.55667
+        },
+        {
+            "number": 8727,
+            "expression": "\u22a2 1 \u2208 \u211d",
+            "prop_expression": " \u22a2 1 \u2208 \u211d",
+            "step": 2,
+            "theorem": "1re",
+            "ground_truth": "1re \u22a2 1 \u2208 \u211d",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.10791,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.5,
+            "_thrs_random_forest": 0.695
+        },
+        {
+            "number": 8727,
+            "expression": "\u22a2 A \u2208 \u211d",
+            "prop_expression": " \u22a2 A \u2208 \u211d",
+            "step": 3,
+            "theorem": "rerecclz.1",
+            "ground_truth": "rerecclz.1 \u22a2 A \u2208 \u211d",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.35965,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.5,
+            "_thrs_random_forest": 0.67
+        }
+    ],
+    "is_train": false
+}

@@ -1,0 +1,53 @@
+{
+    "theorem": "prmnn",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( P \u2208 Prime \u2192 P \u2208 \u2115 )",
+    "steps": [
+        {
+            "number": 11279,
+            "expression": "\u22a2 ( P \u2208 Prime \u2192 P \u2208 \u2115 )",
+            "prop_expression": "( \ud835\udf11 \u2194 ( \ud835\udf13 \u2227 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
+            "step": 1,
+            "theorem": "simplbi",
+            "ground_truth": "simplbi \u22a2 ( P \u2208 Prime \u2192 P \u2208 \u2115 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.11501,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.59
+        },
+        {
+            "number": 11279,
+            "expression": "\u22a2 ( P \u2208 Prime \u2194 ( P \u2208 \u2115 \u2227 { z \u2208 \u2115 | z || P } \u2248 2o ) )",
+            "prop_expression": " \u22a2 ( P \u2208 Prime \u2194 ( P \u2208 \u2115 \u2227 { n \u2208 \u2115 | n || P } \u2248 2o ) )",
+            "step": 2,
+            "theorem": "isprm",
+            "ground_truth": "isprm \u22a2 ( P \u2208 Prime \u2194 ( P \u2208 \u2115 \u2227 { z \u2208 \u2115 | z || P } \u2248 2o ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.56502,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.75
+        }
+    ],
+    "is_train": false
+}

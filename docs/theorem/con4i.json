@@ -1,0 +1,77 @@
+{
+    "theorem": "con4i",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( \ud835\udf13 \u2192 \ud835\udf11 )",
+    "steps": [
+        {
+            "number": 119,
+            "expression": "\u22a2 ( \ud835\udf13 \u2192 \ud835\udf11 )",
+            "prop_expression": "( \ud835\udf11 \u2192 \u00ac \ud835\udf13 ), ( \u00ac \ud835\udf12 \u2192 \ud835\udf13 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "nsyl2",
+            "ground_truth": "nsyl2 \u22a2 ( \ud835\udf13 \u2192 \ud835\udf11 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.18589,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99981,
+            "_thrs_random_forest": 0.885
+        },
+        {
+            "number": 119,
+            "expression": "\u22a2 ( \ud835\udf13 \u2192 \u00ac \u00ac \ud835\udf13 )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \u00ac \u00ac \ud835\udf11 )",
+            "step": 2,
+            "theorem": "notnot1",
+            "ground_truth": "notnot1 \u22a2 ( \ud835\udf13 \u2192 \u00ac \u00ac \ud835\udf13 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.41283,
+            "_thrs_reconstruct": 0.84127,
+            "_thrs_obviousness": 0.45299,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3906,
+            "_thrs_logistic_regression": 0.37387,
+            "_thrs_random_forest": 0.97
+        },
+        {
+            "number": 119,
+            "expression": "\u22a2 ( \u00ac \ud835\udf11 \u2192 \u00ac \ud835\udf13 )",
+            "prop_expression": " \u22a2 ( \u00ac \ud835\udf11 \u2192 \u00ac \ud835\udf13 )",
+            "step": 3,
+            "theorem": "con4i.1",
+            "ground_truth": "con4i.1 \u22a2 ( \u00ac \ud835\udf11 \u2192 \u00ac \ud835\udf13 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.97376,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.33333,
+            "_thrs_interestingness": 0.36667,
+            "_thrs_logistic_regression": 0.99362,
+            "_thrs_random_forest": 1.0
+        }
+    ],
+    "is_train": false
+}

@@ -1,0 +1,53 @@
+{
+    "theorem": "fin2inf",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( A \u227a om \u2192 om \u2208 V )",
+    "steps": [
+        {
+            "number": 6596,
+            "expression": "\u22a2 ( A \u227a om \u2192 om \u2208 V )",
+            "prop_expression": "Rel R \u22a2 ( A R B \u2192 B \u2208 V )",
+            "step": 1,
+            "theorem": "brrelex2i",
+            "ground_truth": "brrelex2i \u22a2 ( A \u227a om \u2192 om \u2208 V )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.2317,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.96658,
+            "_thrs_random_forest": 0.44
+        },
+        {
+            "number": 6596,
+            "expression": "\u22a2 Rel \u227a",
+            "prop_expression": " \u22a2 Rel \u227a",
+            "step": 2,
+            "theorem": "relsdom",
+            "ground_truth": "relsdom \u22a2 Rel \u227a",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.23095,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99115,
+            "_thrs_random_forest": 0.725
+        }
+    ],
+    "is_train": false
+}

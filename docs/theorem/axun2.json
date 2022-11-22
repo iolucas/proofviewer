@@ -1,0 +1,53 @@
+{
+    "theorem": "axun2",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "\u2203 y \u2200 z ( z \u2208 y \u2194 \u2203 w ( z \u2208 w \u2227 w \u2208 x ) )",
+    "steps": [
+        {
+            "number": 4062,
+            "expression": "\u22a2 \u2203 y \u2200 z ( z \u2208 y \u2194 \u2203 w ( z \u2208 w \u2227 w \u2208 x ) )",
+            "prop_expression": "\u2203 x \u2200 y ( \ud835\udf11 \u2192 y \u2208 x ) \u22a2 \u2203 x \u2200 y ( y \u2208 x \u2194 \ud835\udf11 )",
+            "step": 1,
+            "theorem": "bm1.3ii",
+            "ground_truth": "bm1.3ii \u22a2 \u2203 y \u2200 z ( z \u2208 y \u2194 \u2203 w ( z \u2208 w \u2227 w \u2208 x ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.67314,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99877,
+            "_thrs_random_forest": 0.665
+        },
+        {
+            "number": 4062,
+            "expression": "\u22a2 \u2203 y \u2200 z ( \u2203 w ( z \u2208 w \u2227 w \u2208 x ) \u2192 z \u2208 y )",
+            "prop_expression": " \u22a2 \u2203 y \u2200 z ( \u2203 w ( z \u2208 w \u2227 w \u2208 x ) \u2192 z \u2208 y )",
+            "step": 2,
+            "theorem": "ax-un",
+            "ground_truth": "ax-un \u22a2 \u2203 y \u2200 z ( \u2203 w ( z \u2208 w \u2227 w \u2208 x ) \u2192 z \u2208 y )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9638,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.80004,
+            "_thrs_random_forest": 0.89
+        }
+    ],
+    "is_train": false
+}

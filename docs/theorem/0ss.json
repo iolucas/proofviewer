@@ -13,6 +13,7 @@
     "expression": "\u2205 \u2286 A",
     "steps": [
         {
+            "number": 3100,
             "expression": "\u22a2 \u2205 \u2286 A",
             "prop_expression": "( x \u2208 A \u2192 x \u2208 B ) \u22a2 A \u2286 B",
             "step": 1,
@@ -20,7 +21,7 @@
             "ground_truth": "ssriv \u22a2 \u2205 \u2286 A",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.29847,
+            "_thrs_random_uniform": 0.58928,
             "_thrs_reconstruct": 0.00111,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 1.0,
@@ -32,6 +33,7 @@
             "_thrs_random_forest": 0.655
         },
         {
+            "number": 3100,
             "expression": "\u22a2 ( x \u2208 \u2205 \u2192 x \u2208 A )",
             "prop_expression": "\u00ac \ud835\udf11 \u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
             "step": 2,
@@ -39,7 +41,7 @@
             "ground_truth": "pm2.21i \u22a2 ( x \u2208 \u2205 \u2192 x \u2208 A )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.94216,
+            "_thrs_random_uniform": 0.56253,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 2e-05,
             "_thrs_weight": 0.0,
@@ -51,6 +53,7 @@
             "_thrs_random_forest": 0.64
         },
         {
+            "number": 3100,
             "expression": "\u22a2 \u00ac x \u2208 \u2205",
             "prop_expression": " \u22a2 \u00ac A \u2208 \u2205",
             "step": 3,
@@ -58,7 +61,7 @@
             "ground_truth": "noel \u22a2 \u00ac x \u2208 \u2205",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.10298,
+            "_thrs_random_uniform": 0.50935,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
@@ -69,5 +72,6 @@
             "_thrs_logistic_regression": 0.81473,
             "_thrs_random_forest": 0.585
         }
-    ]
+    ],
+    "is_train": true
 }

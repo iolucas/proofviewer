@@ -1,0 +1,101 @@
+{
+    "theorem": "ord0",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            1,
+            4
+        ]
+    ],
+    "expression": "Ord \u2205",
+    "steps": [
+        {
+            "number": 3994,
+            "expression": "\u22a2 Ord \u2205",
+            "prop_expression": "\ud835\udf13, \ud835\udf12, ( \ud835\udf11 \u2194 ( \ud835\udf13 \u2227 \ud835\udf12 ) ) \u22a2 \ud835\udf11",
+            "step": 1,
+            "theorem": "mpbir2an",
+            "ground_truth": "mpbir2an \u22a2 Ord \u2205",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.35215,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.08,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.816,
+            "_thrs_logistic_regression": 0.99452,
+            "_thrs_random_forest": 0.94
+        },
+        {
+            "number": 3994,
+            "expression": "\u22a2 Tr \u2205",
+            "prop_expression": " \u22a2 Tr \u2205",
+            "step": 2,
+            "theorem": "tr0",
+            "ground_truth": "tr0 \u22a2 Tr \u2205",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.38131,
+            "_thrs_reconstruct": 0.50255,
+            "_thrs_obviousness": 0.33447,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.16949,
+            "_thrs_interestingness": 0.50079,
+            "_thrs_logistic_regression": 0.70804,
+            "_thrs_random_forest": 0.945
+        },
+        {
+            "number": 3994,
+            "expression": "\u22a2 _E We \u2205",
+            "prop_expression": " \u22a2 R We \u2205",
+            "step": 3,
+            "theorem": "we0",
+            "ground_truth": "we0 \u22a2 _E We \u2205",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.84426,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.66553,
+            "_thrs_weight": 0.8,
+            "_thrs_complexity": 0.66667,
+            "_thrs_surprisingness": 0.08,
+            "_thrs_intensity": 0.16949,
+            "_thrs_interestingness": 0.47634,
+            "_thrs_logistic_regression": 0.90484,
+            "_thrs_random_forest": 0.935
+        },
+        {
+            "number": 3994,
+            "expression": "\u22a2 ( Ord \u2205 \u2194 ( Tr \u2205 \u2227 _E We \u2205 ) )",
+            "prop_expression": " \u22a2 ( Ord A \u2194 ( Tr A \u2227 _E We A ) )",
+            "step": 4,
+            "theorem": "df-ord",
+            "ground_truth": "df-ord \u22a2 ( Ord \u2205 \u2194 ( Tr \u2205 \u2227 _E We \u2205 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.735,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.9412,
+            "_thrs_random_forest": 0.92
+        }
+    ],
+    "is_train": false
+}

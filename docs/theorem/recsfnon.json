@@ -1,0 +1,53 @@
+{
+    "theorem": "recsfnon",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "recs ( F ) Fn On",
+    "steps": [
+        {
+            "number": 5866,
+            "expression": "\u22a2 recs ( F ) Fn On",
+            "prop_expression": "F = recs ( G ) \u22a2 F Fn On",
+            "step": 1,
+            "theorem": "tfr1",
+            "ground_truth": "tfr1 \u22a2 recs ( F ) Fn On",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.48168,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.9999,
+            "_thrs_random_forest": 0.72
+        },
+        {
+            "number": 5866,
+            "expression": "\u22a2 recs ( F ) = recs ( F )",
+            "prop_expression": " \u22a2 A = A",
+            "step": 2,
+            "theorem": "eqid",
+            "ground_truth": "eqid \u22a2 recs ( F ) = recs ( F )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.11667,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.23974,
+            "_thrs_random_forest": 0.805
+        }
+    ],
+    "is_train": false
+}

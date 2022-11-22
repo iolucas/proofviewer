@@ -1,0 +1,77 @@
+{
+    "theorem": "dmeqd",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( \ud835\udf11 \u2192 dom A = dom B )",
+    "steps": [
+        {
+            "number": 4462,
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 dom A = dom B )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf13 \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "syl",
+            "ground_truth": "syl \u22a2 ( \ud835\udf11 \u2192 dom A = dom B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.76832,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.33333,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.66667,
+            "_thrs_logistic_regression": 0.99978,
+            "_thrs_random_forest": 0.855
+        },
+        {
+            "number": 4462,
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 A = B )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 A = B )",
+            "step": 2,
+            "theorem": "dmeqd.1",
+            "ground_truth": "dmeqd.1 \u22a2 ( \ud835\udf11 \u2192 A = B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.32089,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.38462,
+            "_thrs_interestingness": 0.47692,
+            "_thrs_logistic_regression": 0.88848,
+            "_thrs_random_forest": 0.93
+        },
+        {
+            "number": 4462,
+            "expression": "\u22a2 ( A = B \u2192 dom A = dom B )",
+            "prop_expression": " \u22a2 ( A = B \u2192 dom A = dom B )",
+            "step": 3,
+            "theorem": "dmeq",
+            "ground_truth": "dmeq \u22a2 ( A = B \u2192 dom A = dom B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.62684,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.26128,
+            "_thrs_random_forest": 0.305
+        }
+    ],
+    "is_train": false
+}

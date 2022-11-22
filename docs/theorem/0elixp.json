@@ -1,0 +1,101 @@
+{
+    "theorem": "0elixp",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "\u2205 \u2208 X_ x \u2208 \u2205 A",
+    "steps": [
+        {
+            "number": 6281,
+            "expression": "\u22a2 \u2205 \u2208 X_ x \u2208 \u2205 A",
+            "prop_expression": "A \u2208 B, C = B \u22a2 A \u2208 C",
+            "step": 1,
+            "theorem": "eleqtrri",
+            "ground_truth": "eleqtrri \u22a2 \u2205 \u2208 X_ x \u2208 \u2205 A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.72391,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.99969,
+            "_thrs_random_forest": 0.88
+        },
+        {
+            "number": 6281,
+            "expression": "\u22a2 \u2205 \u2208 { \u2205 }",
+            "prop_expression": "A \u2208 V \u22a2 A \u2208 { A }",
+            "step": 2,
+            "theorem": "snid",
+            "ground_truth": "snid \u22a2 \u2205 \u2208 { \u2205 }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.94826,
+            "_thrs_reconstruct": 4e-05,
+            "_thrs_obviousness": 4e-05,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.40001,
+            "_thrs_logistic_regression": 0.5,
+            "_thrs_random_forest": 0.795
+        },
+        {
+            "number": 6281,
+            "expression": "\u22a2 \u2205 \u2208 V",
+            "prop_expression": " \u22a2 \u2205 \u2208 V",
+            "step": 3,
+            "theorem": "0ex",
+            "ground_truth": "0ex \u22a2 \u2205 \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.83131,
+            "_thrs_reconstruct": 7e-05,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.66667,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.53846,
+            "_thrs_interestingness": 0.54103,
+            "_thrs_logistic_regression": 0.98058,
+            "_thrs_random_forest": 0.69
+        },
+        {
+            "number": 6281,
+            "expression": "\u22a2 X_ x \u2208 \u2205 A = { \u2205 }",
+            "prop_expression": " \u22a2 X_ x \u2208 \u2205 A = { \u2205 }",
+            "step": 4,
+            "theorem": "ixp0x",
+            "ground_truth": "ixp0x \u22a2 X_ x \u2208 \u2205 A = { \u2205 }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.06088,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.99989,
+            "_thrs_weight": 0.25,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.26923,
+            "_thrs_interestingness": 0.50382,
+            "_thrs_logistic_regression": 0.98761,
+            "_thrs_random_forest": 0.86
+        }
+    ],
+    "is_train": false
+}

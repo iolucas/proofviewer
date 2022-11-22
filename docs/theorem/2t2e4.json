@@ -1,0 +1,101 @@
+{
+    "theorem": "2t2e4",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( 2 \u00b7 2 ) = 4",
+    "steps": [
+        {
+            "number": 8983,
+            "expression": "\u22a2 ( 2 \u00b7 2 ) = 4",
+            "prop_expression": "A = B, B = C \u22a2 A = C",
+            "step": 1,
+            "theorem": "eqtri",
+            "ground_truth": "eqtri \u22a2 ( 2 \u00b7 2 ) = 4",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.55901,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.66667,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.63333,
+            "_thrs_logistic_regression": 0.99947,
+            "_thrs_random_forest": 0.85
+        },
+        {
+            "number": 8983,
+            "expression": "\u22a2 ( 2 \u00b7 2 ) = ( 2 + 2 )",
+            "prop_expression": "A \u2208 \u2102 \u22a2 ( 2 \u00b7 A ) = ( A + A )",
+            "step": 2,
+            "theorem": "2timesi",
+            "ground_truth": "2timesi \u22a2 ( 2 \u00b7 2 ) = ( 2 + 2 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.19189,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.67926,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.23585,
+            "_thrs_logistic_regression": 0.82182,
+            "_thrs_random_forest": 0.76
+        },
+        {
+            "number": 8983,
+            "expression": "\u22a2 2 \u2208 \u2102",
+            "prop_expression": " \u22a2 2 \u2208 \u2102",
+            "step": 3,
+            "theorem": "2cn",
+            "ground_truth": "2cn \u22a2 2 \u2208 \u2102",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.84378,
+            "_thrs_reconstruct": 0.35453,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.36364,
+            "_thrs_interestingness": 0.57273,
+            "_thrs_logistic_regression": 0.95884,
+            "_thrs_random_forest": 0.62875
+        },
+        {
+            "number": 8983,
+            "expression": "\u22a2 ( 2 + 2 ) = 4",
+            "prop_expression": " \u22a2 ( 2 + 2 ) = 4",
+            "step": 4,
+            "theorem": "2p2e4",
+            "ground_truth": "2p2e4 \u22a2 ( 2 + 2 ) = 4",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.54509,
+            "_thrs_reconstruct": 0.47219,
+            "_thrs_obviousness": 0.07993,
+            "_thrs_weight": 0.66667,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.18182,
+            "_thrs_interestingness": 0.48568,
+            "_thrs_logistic_regression": 0.86324,
+            "_thrs_random_forest": 0.86
+        }
+    ],
+    "is_train": false
+}

@@ -1,0 +1,77 @@
+{
+    "theorem": "f1odm",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( F : A -1-1-onto\u2192 B \u2192 dom F = A )",
+    "steps": [
+        {
+            "number": 4998,
+            "expression": "\u22a2 ( F : A -1-1-onto\u2192 B \u2192 dom F = A )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf13 \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "syl",
+            "ground_truth": "syl \u22a2 ( F : A -1-1-onto\u2192 B \u2192 dom F = A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.11318,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.99969,
+            "_thrs_random_forest": 0.805
+        },
+        {
+            "number": 4998,
+            "expression": "\u22a2 ( F : A -1-1-onto\u2192 B \u2192 F Fn A )",
+            "prop_expression": " \u22a2 ( F : A -1-1-onto\u2192 B \u2192 F Fn A )",
+            "step": 2,
+            "theorem": "f1ofn",
+            "ground_truth": "f1ofn \u22a2 ( F : A -1-1-onto\u2192 B \u2192 F Fn A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.33036,
+            "_thrs_reconstruct": 0.29387,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.05405,
+            "_thrs_interestingness": 0.21081,
+            "_thrs_logistic_regression": 0.95541,
+            "_thrs_random_forest": 0.91
+        },
+        {
+            "number": 4998,
+            "expression": "\u22a2 ( F Fn A \u2192 dom F = A )",
+            "prop_expression": " \u22a2 ( F Fn A \u2192 dom F = A )",
+            "step": 3,
+            "theorem": "fndm",
+            "ground_truth": "fndm \u22a2 ( F Fn A \u2192 dom F = A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.39501,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.70543,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.54109,
+            "_thrs_logistic_regression": 0.48491,
+            "_thrs_random_forest": 0.905
+        }
+    ],
+    "is_train": false
+}

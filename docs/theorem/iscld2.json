@@ -1,0 +1,77 @@
+{
+    "theorem": "iscld2",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( ( J \u2208 Top \u2227 S \u2286 X ) \u2192 ( S \u2208 ( Clsd ` J ) \u2194 ( X \u2216 S ) \u2208 J ) )",
+    "steps": [
+        {
+            "number": 14602,
+            "expression": "\u22a2 ( ( J \u2208 Top \u2227 S \u2286 X ) \u2192 ( S \u2208 ( Clsd ` J ) \u2194 ( X \u2216 S ) \u2208 J ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 ( \ud835\udf12 \u2227 \ud835\udf03 ) ) ) \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf12 ) \u2192 ( \ud835\udf13 \u2194 \ud835\udf03 ) )",
+            "step": 1,
+            "theorem": "baibd",
+            "ground_truth": "baibd \u22a2 ( ( J \u2208 Top \u2227 S \u2286 X ) \u2192 ( S \u2208 ( Clsd ` J ) \u2194 ( X \u2216 S ) \u2208 J ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.25088,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.99984,
+            "_thrs_random_forest": 0.77167
+        },
+        {
+            "number": 14602,
+            "expression": "\u22a2 ( J \u2208 Top \u2192 ( S \u2208 ( Clsd ` J ) \u2194 ( S \u2286 X \u2227 ( X \u2216 S ) \u2208 J ) ) )",
+            "prop_expression": "X = U. J \u22a2 ( J \u2208 Top \u2192 ( S \u2208 ( Clsd ` J ) \u2194 ( S \u2286 X \u2227 ( X \u2216 S ) \u2208 J ) ) )",
+            "step": 2,
+            "theorem": "iscld",
+            "ground_truth": "iscld \u22a2 ( J \u2208 Top \u2192 ( S \u2208 ( Clsd ` J ) \u2194 ( S \u2286 X \u2227 ( X \u2216 S ) \u2208 J ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.09568,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.96658,
+            "_thrs_random_forest": 0.845
+        },
+        {
+            "number": 14602,
+            "expression": "\u22a2 X = U. J",
+            "prop_expression": " \u22a2 X = U. J",
+            "step": 3,
+            "theorem": "iscld.1",
+            "ground_truth": "iscld.1 \u22a2 X = U. J",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.74606,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99115,
+            "_thrs_random_forest": 0.92667
+        }
+    ],
+    "is_train": false
+}

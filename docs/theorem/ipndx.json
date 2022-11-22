@@ -1,0 +1,77 @@
+{
+    "theorem": "ipndx",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( .i ` ndx ) = 8",
+    "steps": [
+        {
+            "number": 11760,
+            "expression": "\u22a2 ( .i ` ndx ) = 8",
+            "prop_expression": "E = Slot N, N \u2208 \u2115 \u22a2 ( E ` ndx ) = N",
+            "step": 1,
+            "theorem": "ndxarg",
+            "ground_truth": "ndxarg \u22a2 ( .i ` ndx ) = 8",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.78313,
+            "_thrs_reconstruct": 0.13117,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.99992,
+            "_thrs_random_forest": 0.77
+        },
+        {
+            "number": 11760,
+            "expression": "\u22a2 .i = Slot 8",
+            "prop_expression": " \u22a2 .i = Slot 8",
+            "step": 2,
+            "theorem": "df-ip",
+            "ground_truth": "df-ip \u22a2 .i = Slot 8",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.85182,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.20514,
+            "_thrs_random_forest": 0.79
+        },
+        {
+            "number": 11760,
+            "expression": "\u22a2 8 \u2208 \u2115",
+            "prop_expression": " \u22a2 8 \u2208 \u2115",
+            "step": 3,
+            "theorem": "8nn",
+            "ground_truth": "8nn \u22a2 8 \u2208 \u2115",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.26222,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.88404,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.77681,
+            "_thrs_logistic_regression": 0.19308,
+            "_thrs_random_forest": 0.8
+        }
+    ],
+    "is_train": false
+}

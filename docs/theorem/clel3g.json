@@ -1,0 +1,77 @@
+{
+    "theorem": "clel3g",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( B \u2208 V \u2192 ( A \u2208 B \u2194 \u2203 x ( x = B \u2227 A \u2208 x ) ) )",
+    "steps": [
+        {
+            "number": 2576,
+            "expression": "\u22a2 ( B \u2208 V \u2192 ( A \u2208 B \u2194 \u2203 x ( x = B \u2227 A \u2208 x ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf12 \u2194 \ud835\udf13 ) )",
+            "step": 1,
+            "theorem": "bicomd",
+            "ground_truth": "bicomd \u22a2 ( B \u2208 V \u2192 ( A \u2208 B \u2194 \u2203 x ( x = B \u2227 A \u2208 x ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.93732,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.99984,
+            "_thrs_random_forest": 0.83
+        },
+        {
+            "number": 2576,
+            "expression": "\u22a2 ( B \u2208 V \u2192 ( \u2203 x ( x = B \u2227 A \u2208 x ) \u2194 A \u2208 B ) )",
+            "prop_expression": "( x = A \u2192 ( \ud835\udf11 \u2194 \ud835\udf13 ) ) \u22a2 ( A \u2208 V \u2192 ( \u2203 x ( x = A \u2227 \ud835\udf11 ) \u2194 \ud835\udf13 ) )",
+            "step": 2,
+            "theorem": "ceqsexgv",
+            "ground_truth": "ceqsexgv \u22a2 ( B \u2208 V \u2192 ( \u2203 x ( x = B \u2227 A \u2208 x ) \u2194 A \u2208 B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.26504,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.66667,
+            "_thrs_interestingness": 0.43333,
+            "_thrs_logistic_regression": 0.99905,
+            "_thrs_random_forest": 0.87
+        },
+        {
+            "number": 2576,
+            "expression": "\u22a2 ( x = B \u2192 ( A \u2208 x \u2194 A \u2208 B ) )",
+            "prop_expression": " \u22a2 ( A = B \u2192 ( C \u2208 A \u2194 C \u2208 B ) )",
+            "step": 3,
+            "theorem": "eleq2",
+            "ground_truth": "eleq2 \u22a2 ( x = B \u2192 ( A \u2208 x \u2194 A \u2208 B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.05893,
+            "_thrs_reconstruct": 0.00018,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.33688,
+            "_thrs_random_forest": 0.65
+        }
+    ],
+    "is_train": false
+}

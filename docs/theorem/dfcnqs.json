@@ -1,0 +1,77 @@
+{
+    "theorem": "dfcnqs",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "\u2102 = ( ( R. \u00d7 R. ) /. `' _E )",
+    "steps": [
+        {
+            "number": 8177,
+            "expression": "\u22a2 \u2102 = ( ( R. \u00d7 R. ) /. `' _E )",
+            "prop_expression": "A = B, C = B \u22a2 A = C",
+            "step": 1,
+            "theorem": "eqtr4i",
+            "ground_truth": "eqtr4i \u22a2 \u2102 = ( ( R. \u00d7 R. ) /. `' _E )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.35971,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.4,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.68,
+            "_thrs_logistic_regression": 0.99979,
+            "_thrs_random_forest": 0.94
+        },
+        {
+            "number": 8177,
+            "expression": "\u22a2 \u2102 = ( R. \u00d7 R. )",
+            "prop_expression": " \u22a2 \u2102 = ( R. \u00d7 R. )",
+            "step": 2,
+            "theorem": "df-c",
+            "ground_truth": "df-c \u22a2 \u2102 = ( R. \u00d7 R. )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.71687,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.14939,
+            "_thrs_interestingness": 0.42988,
+            "_thrs_logistic_regression": 0.69127,
+            "_thrs_random_forest": 0.835
+        },
+        {
+            "number": 8177,
+            "expression": "\u22a2 ( ( R. \u00d7 R. ) /. `' _E ) = ( R. \u00d7 R. )",
+            "prop_expression": " \u22a2 ( A /. `' _E ) = A",
+            "step": 3,
+            "theorem": "qsid",
+            "ground_truth": "qsid \u22a2 ( ( R. \u00d7 R. ) /. `' _E ) = ( R. \u00d7 R. )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7507,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.33333,
+            "_thrs_surprisingness": 0.66667,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.80926,
+            "_thrs_random_forest": 0.645
+        }
+    ],
+    "is_train": false
+}

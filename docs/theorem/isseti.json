@@ -13,6 +13,7 @@
     "expression": "\u2203 x x = A",
     "steps": [
         {
+            "number": 2477,
             "expression": "\u22a2 \u2203 x x = A",
             "prop_expression": "\ud835\udf11, ( \ud835\udf11 \u2194 \ud835\udf13 ) \u22a2 \ud835\udf13",
             "step": 1,
@@ -20,7 +21,7 @@
             "ground_truth": "mpbi \u22a2 \u2203 x x = A",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.48035,
+            "_thrs_random_uniform": 0.37784,
             "_thrs_reconstruct": 0.00023,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 1.0,
@@ -32,6 +33,7 @@
             "_thrs_random_forest": 0.89
         },
         {
+            "number": 2477,
             "expression": "\u22a2 A \u2208 V",
             "prop_expression": " \u22a2 A \u2208 V",
             "step": 2,
@@ -39,7 +41,7 @@
             "ground_truth": "isseti.1 \u22a2 A \u2208 V",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.19829,
+            "_thrs_random_uniform": 0.01016,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
@@ -51,6 +53,7 @@
             "_thrs_random_forest": 0.94
         },
         {
+            "number": 2477,
             "expression": "\u22a2 ( A \u2208 V \u2194 \u2203 x x = A )",
             "prop_expression": " \u22a2 ( A \u2208 V \u2194 \u2203 x x = A )",
             "step": 3,
@@ -58,7 +61,7 @@
             "ground_truth": "isset \u22a2 ( A \u2208 V \u2194 \u2203 x x = A )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.28983,
+            "_thrs_random_uniform": 0.93581,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 0.99977,
             "_thrs_weight": 0.0,
@@ -69,5 +72,6 @@
             "_thrs_logistic_regression": 0.96658,
             "_thrs_random_forest": 0.92
         }
-    ]
+    ],
+    "is_train": true
 }

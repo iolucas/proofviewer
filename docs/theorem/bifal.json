@@ -1,0 +1,77 @@
+{
+    "theorem": "bifal",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( \ud835\udf11 \u2194 F. )",
+    "steps": [
+        {
+            "number": 1264,
+            "expression": "\u22a2 ( \ud835\udf11 \u2194 F. )",
+            "prop_expression": "\u00ac \ud835\udf11, \u00ac \ud835\udf13 \u22a2 ( \ud835\udf11 \u2194 \ud835\udf13 )",
+            "step": 1,
+            "theorem": "2false",
+            "ground_truth": "2false \u22a2 ( \ud835\udf11 \u2194 F. )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.37817,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.5,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.99768,
+            "_thrs_random_forest": 0.84
+        },
+        {
+            "number": 1264,
+            "expression": "\u22a2 \u00ac \ud835\udf11",
+            "prop_expression": " \u22a2 \u00ac \ud835\udf11",
+            "step": 2,
+            "theorem": "bifal.1",
+            "ground_truth": "bifal.1 \u22a2 \u00ac \ud835\udf11",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.41105,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.5,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.88294,
+            "_thrs_random_forest": 0.99
+        },
+        {
+            "number": 1264,
+            "expression": "\u22a2 \u00ac F.",
+            "prop_expression": " \u22a2 \u00ac F.",
+            "step": 3,
+            "theorem": "fal",
+            "ground_truth": "fal \u22a2 \u00ac F.",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.04986,
+            "_thrs_reconstruct": 0.12172,
+            "_thrs_obviousness": 0.10851,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.5,
+            "_thrs_interestingness": 0.6217,
+            "_thrs_logistic_regression": 0.88198,
+            "_thrs_random_forest": 0.955
+        }
+    ],
+    "is_train": false
+}

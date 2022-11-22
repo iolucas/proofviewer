@@ -1,0 +1,53 @@
+{
+    "theorem": "slwsubg",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( H \u2208 ( P pSyl G ) \u2192 H \u2208 ( SubGrp ` G ) )",
+    "steps": [
+        {
+            "number": 12857,
+            "expression": "\u22a2 ( H \u2208 ( P pSyl G ) \u2192 H \u2208 ( SubGrp ` G ) )",
+            "prop_expression": "( \ud835\udf11 \u2194 ( \ud835\udf13 \u2227 \ud835\udf12 \u2227 \ud835\udf03 ) ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "simp2bi",
+            "ground_truth": "simp2bi \u22a2 ( H \u2208 ( P pSyl G ) \u2192 H \u2208 ( SubGrp ` G ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.93527,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.555
+        },
+        {
+            "number": 12857,
+            "expression": "\u22a2 ( H \u2208 ( P pSyl G ) \u2194 ( P \u2208 Prime \u2227 H \u2208 ( SubGrp ` G ) \u2227 \u2200 k \u2208 ( SubGrp ` G ) ( ( H \u2286 k \u2227 P pGrp ( G |`s k ) ) \u2194 H = k ) ) )",
+            "prop_expression": " \u22a2 ( H \u2208 ( P pSyl G ) \u2194 ( P \u2208 Prime \u2227 H \u2208 ( SubGrp ` G ) \u2227 \u2200 k \u2208 ( SubGrp ` G ) ( ( H \u2286 k \u2227 P pGrp ( G |`s k ) ) \u2194 H = k ) ) )",
+            "step": 2,
+            "theorem": "isslw",
+            "ground_truth": "isslw \u22a2 ( H \u2208 ( P pSyl G ) \u2194 ( P \u2208 Prime \u2227 H \u2208 ( SubGrp ` G ) \u2227 \u2200 k \u2208 ( SubGrp ` G ) ( ( H \u2286 k \u2227 P pGrp ( G |`s k ) ) \u2194 H = k ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.2182,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.71
+        }
+    ],
+    "is_train": false
+}

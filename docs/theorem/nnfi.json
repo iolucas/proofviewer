@@ -14,17 +14,18 @@
             4
         ]
     ],
-    "expression": "( A \u2208 _om \u2192 A \u2208 Fin )",
+    "expression": "( A \u2208 om \u2192 A \u2208 Fin )",
     "steps": [
         {
-            "expression": "\u22a2 ( A \u2208 _om \u2192 A \u2208 Fin )",
+            "number": 6532,
+            "expression": "\u22a2 ( A \u2208 om \u2192 A \u2208 Fin )",
             "prop_expression": "A \u2286 B \u22a2 ( C \u2208 A \u2192 C \u2208 B )",
             "step": 1,
             "theorem": "sseli",
-            "ground_truth": "sseli \u22a2 ( A \u2208 _om \u2192 A \u2208 Fin )",
+            "ground_truth": "sseli \u22a2 ( A \u2208 om \u2192 A \u2208 Fin )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.0326,
+            "_thrs_random_uniform": 0.19372,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.0,
@@ -36,14 +37,15 @@
             "_thrs_random_forest": 0.72
         },
         {
-            "expression": "\u22a2 _om \u2286 Fin",
+            "number": 6532,
+            "expression": "\u22a2 om \u2286 Fin",
             "prop_expression": "A = B, B \u2286 C \u22a2 A \u2286 C",
             "step": 2,
             "theorem": "eqsstri",
-            "ground_truth": "eqsstri \u22a2 _om \u2286 Fin",
+            "ground_truth": "eqsstri \u22a2 om \u2286 Fin",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.12719,
+            "_thrs_random_uniform": 0.76137,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 1.0,
@@ -55,14 +57,15 @@
             "_thrs_random_forest": 0.885
         },
         {
-            "expression": "\u22a2 _om = ( On \u2229 Fin )",
-            "prop_expression": " \u22a2 _om = ( On \u2229 Fin )",
+            "number": 6532,
+            "expression": "\u22a2 om = ( On \u2229 Fin )",
+            "prop_expression": " \u22a2 om = ( On \u2229 Fin )",
             "step": 3,
             "theorem": "onfin2",
-            "ground_truth": "onfin2 \u22a2 _om = ( On \u2229 Fin )",
+            "ground_truth": "onfin2 \u22a2 om = ( On \u2229 Fin )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.19579,
+            "_thrs_random_uniform": 0.54616,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.66667,
@@ -74,6 +77,7 @@
             "_thrs_random_forest": 0.855
         },
         {
+            "number": 6532,
             "expression": "\u22a2 ( On \u2229 Fin ) \u2286 Fin",
             "prop_expression": " \u22a2 ( A \u2229 B ) \u2286 B",
             "step": 4,
@@ -81,7 +85,7 @@
             "ground_truth": "inss2 \u22a2 ( On \u2229 Fin ) \u2286 Fin",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.899,
+            "_thrs_random_uniform": 0.77518,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.33333,
@@ -92,5 +96,6 @@
             "_thrs_logistic_regression": 0.97647,
             "_thrs_random_forest": 0.825
         }
-    ]
+    ],
+    "is_train": true
 }

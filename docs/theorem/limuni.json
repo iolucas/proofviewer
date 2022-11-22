@@ -1,0 +1,53 @@
+{
+    "theorem": "limuni",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( Lim A \u2192 A = U. A )",
+    "steps": [
+        {
+            "number": 4002,
+            "expression": "\u22a2 ( Lim A \u2192 A = U. A )",
+            "prop_expression": "( \ud835\udf11 \u2194 ( \ud835\udf13 \u2227 \ud835\udf12 \u2227 \ud835\udf03 ) ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf03 )",
+            "step": 1,
+            "theorem": "simp3bi",
+            "ground_truth": "simp3bi \u22a2 ( Lim A \u2192 A = U. A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8173,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.78
+        },
+        {
+            "number": 4002,
+            "expression": "\u22a2 ( Lim A \u2194 ( Ord A \u2227 A \u2260 \u2205 \u2227 A = U. A ) )",
+            "prop_expression": " \u22a2 ( Lim A \u2194 ( Ord A \u2227 A \u2260 \u2205 \u2227 A = U. A ) )",
+            "step": 2,
+            "theorem": "df-lim",
+            "ground_truth": "df-lim \u22a2 ( Lim A \u2194 ( Ord A \u2227 A \u2260 \u2205 \u2227 A = U. A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.02095,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.885
+        }
+    ],
+    "is_train": false
+}

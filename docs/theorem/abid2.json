@@ -1,0 +1,77 @@
+{
+    "theorem": "abid2",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "{ x | x \u2208 A } = A",
+    "steps": [
+        {
+            "number": 2172,
+            "expression": "\u22a2 { x | x \u2208 A } = A",
+            "prop_expression": "A = B \u22a2 B = A",
+            "step": 1,
+            "theorem": "eqcomi",
+            "ground_truth": "eqcomi \u22a2 { x | x \u2208 A } = A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.24403,
+            "_thrs_reconstruct": 0.00271,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.71429,
+            "_thrs_interestingness": 0.74286,
+            "_thrs_logistic_regression": 0.99643,
+            "_thrs_random_forest": 0.96
+        },
+        {
+            "number": 2172,
+            "expression": "\u22a2 A = { x | x \u2208 A }",
+            "prop_expression": "( x \u2208 A \u2194 \ud835\udf11 ) \u22a2 A = { x | \ud835\udf11 }",
+            "step": 2,
+            "theorem": "abbi2i",
+            "ground_truth": "abbi2i \u22a2 A = { x | x \u2208 A }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.36153,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.99724,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.79945,
+            "_thrs_logistic_regression": 0.99923,
+            "_thrs_random_forest": 0.955
+        },
+        {
+            "number": 2172,
+            "expression": "\u22a2 ( x \u2208 A \u2194 x \u2208 A )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2194 \ud835\udf11 )",
+            "step": 3,
+            "theorem": "biid",
+            "ground_truth": "biid \u22a2 ( x \u2208 A \u2194 x \u2208 A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.60687,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.71293,
+            "_thrs_random_forest": 0.22
+        }
+    ],
+    "is_train": false
+}

@@ -1,0 +1,77 @@
+{
+    "theorem": "reuen1",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( E! x \u2208 A \ud835\udf11 \u2194 { x \u2208 A | \ud835\udf11 } \u2248 1o )",
+    "steps": [
+        {
+            "number": 6362,
+            "expression": "\u22a2 ( E! x \u2208 A \ud835\udf11 \u2194 { x \u2208 A | \ud835\udf11 } \u2248 1o )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ), ( \ud835\udf12 \u2194 \ud835\udf13 ) \u22a2 ( \ud835\udf11 \u2194 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "bitr4i",
+            "ground_truth": "bitr4i \u22a2 ( E! x \u2208 A \ud835\udf11 \u2194 { x \u2208 A | \ud835\udf11 } \u2248 1o )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.85882,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99849,
+            "_thrs_random_forest": 0.845
+        },
+        {
+            "number": 6362,
+            "expression": "\u22a2 ( E! x \u2208 A \ud835\udf11 \u2194 \u2203 y { x \u2208 A | \ud835\udf11 } = { y } )",
+            "prop_expression": " \u22a2 ( E! x \u2208 A \ud835\udf11 \u2194 \u2203 y { x \u2208 A | \ud835\udf11 } = { y } )",
+            "step": 2,
+            "theorem": "reusn",
+            "ground_truth": "reusn \u22a2 ( E! x \u2208 A \ud835\udf11 \u2194 \u2203 y { x \u2208 A | \ud835\udf11 } = { y } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.44583,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.5,
+            "_thrs_random_forest": 0.815
+        },
+        {
+            "number": 6362,
+            "expression": "\u22a2 ( { x \u2208 A | \ud835\udf11 } \u2248 1o \u2194 \u2203 y { x \u2208 A | \ud835\udf11 } = { y } )",
+            "prop_expression": " \u22a2 ( A \u2248 1o \u2194 \u2203 x A = { x } )",
+            "step": 3,
+            "theorem": "en1",
+            "ground_truth": "en1 \u22a2 ( { x \u2208 A | \ud835\udf11 } \u2248 1o \u2194 \u2203 y { x \u2208 A | \ud835\udf11 } = { y } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.54628,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.06014,
+            "_thrs_interestingness": 0.41203,
+            "_thrs_logistic_regression": 0.95311,
+            "_thrs_random_forest": 0.925
+        }
+    ],
+    "is_train": false
+}

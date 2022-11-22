@@ -1,0 +1,77 @@
+{
+    "theorem": "absvalsq2",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( A \u2208 \u2102 \u2192 ( ( abs ` A ) ^ 2 ) = ( ( ( Re ` A ) ^ 2 ) + ( ( Im ` A ) ^ 2 ) ) )",
+    "steps": [
+        {
+            "number": 10521,
+            "expression": "\u22a2 ( A \u2208 \u2102 \u2192 ( ( abs ` A ) ^ 2 ) = ( ( ( Re ` A ) ^ 2 ) + ( ( Im ` A ) ^ 2 ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 A = B ), ( \ud835\udf11 \u2192 B = C ) \u22a2 ( \ud835\udf11 \u2192 A = C )",
+            "step": 1,
+            "theorem": "eqtrd",
+            "ground_truth": "eqtrd \u22a2 ( A \u2208 \u2102 \u2192 ( ( abs ` A ) ^ 2 ) = ( ( ( Re ` A ) ^ 2 ) + ( ( Im ` A ) ^ 2 ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.28053,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.9961,
+            "_thrs_random_forest": 0.705
+        },
+        {
+            "number": 10521,
+            "expression": "\u22a2 ( A \u2208 \u2102 \u2192 ( ( abs ` A ) ^ 2 ) = ( A \u00b7 ( * ` A ) ) )",
+            "prop_expression": " \u22a2 ( A \u2208 \u2102 \u2192 ( ( abs ` A ) ^ 2 ) = ( A \u00b7 ( * ` A ) ) )",
+            "step": 2,
+            "theorem": "absvalsq",
+            "ground_truth": "absvalsq \u22a2 ( A \u2208 \u2102 \u2192 ( ( abs ` A ) ^ 2 ) = ( A \u00b7 ( * ` A ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.43525,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.99846,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.13748,
+            "_thrs_interestingness": 0.62719,
+            "_thrs_logistic_regression": 0.65844,
+            "_thrs_random_forest": 0.735
+        },
+        {
+            "number": 10521,
+            "expression": "\u22a2 ( A \u2208 \u2102 \u2192 ( A \u00b7 ( * ` A ) ) = ( ( ( Re ` A ) ^ 2 ) + ( ( Im ` A ) ^ 2 ) ) )",
+            "prop_expression": " \u22a2 ( A \u2208 \u2102 \u2192 ( A \u00b7 ( * ` A ) ) = ( ( ( Re ` A ) ^ 2 ) + ( ( Im ` A ) ^ 2 ) ) )",
+            "step": 3,
+            "theorem": "cjmulval",
+            "ground_truth": "cjmulval \u22a2 ( A \u2208 \u2102 \u2192 ( A \u00b7 ( * ` A ) ) = ( ( ( Re ` A ) ^ 2 ) + ( ( Im ` A ) ^ 2 ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.03466,
+            "_thrs_reconstruct": 0.00154,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.9412,
+            "_thrs_random_forest": 0.69
+        }
+    ],
+    "is_train": false
+}

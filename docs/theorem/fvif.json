@@ -1,0 +1,77 @@
+{
+    "theorem": "fvif",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( F ` if ( \ud835\udf11 , A , B ) ) = if ( \ud835\udf11 , ( F ` A ) , ( F ` B ) )",
+    "steps": [
+        {
+            "number": 5056,
+            "expression": "\u22a2 ( F ` if ( \ud835\udf11 , A , B ) ) = if ( \ud835\udf11 , ( F ` A ) , ( F ` B ) )",
+            "prop_expression": "( if ( \ud835\udf11 , A , B ) = A \u2192 C = D ), ( if ( \ud835\udf11 , A , B ) = B \u2192 C = E ) \u22a2 C = if ( \ud835\udf11 , D , E )",
+            "step": 1,
+            "theorem": "ifsb",
+            "ground_truth": "ifsb \u22a2 ( F ` if ( \ud835\udf11 , A , B ) ) = if ( \ud835\udf11 , ( F ` A ) , ( F ` B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.52565,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99877,
+            "_thrs_random_forest": 0.62
+        },
+        {
+            "number": 5056,
+            "expression": "\u22a2 ( if ( \ud835\udf11 , A , B ) = A \u2192 ( F ` if ( \ud835\udf11 , A , B ) ) = ( F ` A ) )",
+            "prop_expression": " \u22a2 ( A = B \u2192 ( F ` A ) = ( F ` B ) )",
+            "step": 2,
+            "theorem": "fveq2",
+            "ground_truth": "fveq2 \u22a2 ( if ( \ud835\udf11 , A , B ) = A \u2192 ( F ` if ( \ud835\udf11 , A , B ) ) = ( F ` A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.45612,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.80004,
+            "_thrs_random_forest": 0.85
+        },
+        {
+            "number": 5056,
+            "expression": "\u22a2 ( if ( \ud835\udf11 , A , B ) = B \u2192 ( F ` if ( \ud835\udf11 , A , B ) ) = ( F ` B ) )",
+            "prop_expression": " \u22a2 ( A = B \u2192 ( F ` A ) = ( F ` B ) )",
+            "step": 3,
+            "theorem": "fveq2",
+            "ground_truth": "fveq2 \u22a2 ( if ( \ud835\udf11 , A , B ) = B \u2192 ( F ` if ( \ud835\udf11 , A , B ) ) = ( F ` B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.28373,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.80004,
+            "_thrs_random_forest": 0.85
+        }
+    ],
+    "is_train": false
+}

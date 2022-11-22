@@ -1,0 +1,77 @@
+{
+    "theorem": "ltnsym2",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( ( A \u2208 \u211d \u2227 B \u2208 \u211d ) \u2192 \u00ac ( A < B \u2227 B < A ) )",
+    "steps": [
+        {
+            "number": 8319,
+            "expression": "\u22a2 ( ( A \u2208 \u211d \u2227 B \u2208 \u211d ) \u2192 \u00ac ( A < B \u2227 B < A ) )",
+            "prop_expression": "\ud835\udf11, ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf13 \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "mpan",
+            "ground_truth": "mpan \u22a2 ( ( A \u2208 \u211d \u2227 B \u2208 \u211d ) \u2192 \u00ac ( A < B \u2227 B < A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.99753,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.25,
+            "_thrs_complexity": 0.33333,
+            "_thrs_surprisingness": 0.66667,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.65,
+            "_thrs_logistic_regression": 0.99916,
+            "_thrs_random_forest": 0.83
+        },
+        {
+            "number": 8319,
+            "expression": "\u22a2 < Or \u211d",
+            "prop_expression": " \u22a2 < Or \u211d",
+            "step": 2,
+            "theorem": "ltso",
+            "ground_truth": "ltso \u22a2 < Or \u211d",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.98926,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.99998,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.70588,
+            "_thrs_interestingness": 0.74117,
+            "_thrs_logistic_regression": 0.97641,
+            "_thrs_random_forest": 0.845
+        },
+        {
+            "number": 8319,
+            "expression": "\u22a2 ( ( < Or \u211d \u2227 ( A \u2208 \u211d \u2227 B \u2208 \u211d ) ) \u2192 \u00ac ( A < B \u2227 B < A ) )",
+            "prop_expression": " \u22a2 ( ( R Or A \u2227 ( B \u2208 A \u2227 C \u2208 A ) ) \u2192 \u00ac ( B R C \u2227 C R B ) )",
+            "step": 3,
+            "theorem": "so2nr",
+            "ground_truth": "so2nr \u22a2 ( ( < Or \u211d \u2227 ( A \u2208 \u211d \u2227 B \u2208 \u211d ) ) \u2192 \u00ac ( A < B \u2227 B < A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.31481,
+            "_thrs_reconstruct": 2e-05,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.9412,
+            "_thrs_random_forest": 0.85
+        }
+    ],
+    "is_train": false
+}

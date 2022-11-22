@@ -1,0 +1,77 @@
+{
+    "theorem": "endomtr",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( ( A \u2248 B \u2227 B \u227a_ C ) \u2192 A \u227a_ C )",
+    "steps": [
+        {
+            "number": 6351,
+            "expression": "\u22a2 ( ( A \u2248 B \u2227 B \u227a_ C ) \u2192 A \u227a_ C )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( ( \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 )",
+            "step": 1,
+            "theorem": "sylan",
+            "ground_truth": "sylan \u22a2 ( ( A \u2248 B \u2227 B \u227a_ C ) \u2192 A \u227a_ C )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.46967,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.99969,
+            "_thrs_random_forest": 0.785
+        },
+        {
+            "number": 6351,
+            "expression": "\u22a2 ( A \u2248 B \u2192 A \u227a_ B )",
+            "prop_expression": " \u22a2 ( A \u2248 B \u2192 A \u227a_ B )",
+            "step": 2,
+            "theorem": "endom",
+            "ground_truth": "endom \u22a2 ( A \u2248 B \u2192 A \u227a_ B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.63789,
+            "_thrs_reconstruct": 0.03456,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.18182,
+            "_thrs_interestingness": 0.43636,
+            "_thrs_logistic_regression": 0.72731,
+            "_thrs_random_forest": 0.85
+        },
+        {
+            "number": 6351,
+            "expression": "\u22a2 ( ( A \u227a_ B \u2227 B \u227a_ C ) \u2192 A \u227a_ C )",
+            "prop_expression": " \u22a2 ( ( A \u227a_ B \u2227 B \u227a_ C ) \u2192 A \u227a_ C )",
+            "step": 3,
+            "theorem": "domtr",
+            "ground_truth": "domtr \u22a2 ( ( A \u227a_ B \u2227 B \u227a_ C ) \u2192 A \u227a_ C )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.371,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.96544,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.39309,
+            "_thrs_logistic_regression": 0.26185,
+            "_thrs_random_forest": 0.89
+        }
+    ],
+    "is_train": false
+}

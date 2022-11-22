@@ -1,0 +1,77 @@
+{
+    "theorem": "repos",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( A \u2208 ( 0 (,) +oo ) \u2194 ( A \u2208 \u211d \u2227 0 < A ) )",
+    "steps": [
+        {
+            "number": 9755,
+            "expression": "\u22a2 ( A \u2208 ( 0 (,) +oo ) \u2194 ( A \u2208 \u211d \u2227 0 < A ) )",
+            "prop_expression": "( x = A \u2192 ( \ud835\udf11 \u2194 \ud835\udf13 ) ), C = { x \u2208 B | \ud835\udf11 } \u22a2 ( A \u2208 C \u2194 ( A \u2208 B \u2227 \ud835\udf13 ) )",
+            "step": 1,
+            "theorem": "elrab2",
+            "ground_truth": "elrab2 \u22a2 ( A \u2208 ( 0 (,) +oo ) \u2194 ( A \u2208 \u211d \u2227 0 < A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.57487,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.99969,
+            "_thrs_random_forest": 0.78
+        },
+        {
+            "number": 9755,
+            "expression": "\u22a2 ( x = A \u2192 ( 0 < x \u2194 0 < A ) )",
+            "prop_expression": " \u22a2 ( A = B \u2192 ( C R A \u2194 C R B ) )",
+            "step": 2,
+            "theorem": "breq2",
+            "ground_truth": "breq2 \u22a2 ( x = A \u2192 ( 0 < x \u2194 0 < A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.80651,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.5,
+            "_thrs_random_forest": 0.805
+        },
+        {
+            "number": 9755,
+            "expression": "\u22a2 ( 0 (,) +oo ) = { x \u2208 \u211d | 0 < x }",
+            "prop_expression": " \u22a2 ( 0 (,) +oo ) = { x \u2208 \u211d | 0 < x }",
+            "step": 3,
+            "theorem": "ioopos",
+            "ground_truth": "ioopos \u22a2 ( 0 (,) +oo ) = { x \u2208 \u211d | 0 < x }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.16221,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.66667,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.75,
+            "_thrs_intensity": 0.32593,
+            "_thrs_interestingness": 0.54852,
+            "_thrs_logistic_regression": 0.99559,
+            "_thrs_random_forest": 0.86
+        }
+    ],
+    "is_train": false
+}

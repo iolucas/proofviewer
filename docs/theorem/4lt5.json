@@ -1,0 +1,101 @@
+{
+    "theorem": "4lt5",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "4 < 5",
+    "steps": [
+        {
+            "number": 9004,
+            "expression": "\u22a2 4 < 5",
+            "prop_expression": "A R B, C = B \u22a2 A R C",
+            "step": 1,
+            "theorem": "breqtrri",
+            "ground_truth": "breqtrri \u22a2 4 < 5",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.88321,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.99508,
+            "_thrs_random_forest": 0.845
+        },
+        {
+            "number": 9004,
+            "expression": "\u22a2 4 < ( 4 + 1 )",
+            "prop_expression": "A \u2208 \u211d \u22a2 A < ( A + 1 )",
+            "step": 2,
+            "theorem": "ltp1i",
+            "ground_truth": "ltp1i \u22a2 4 < ( 4 + 1 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.00625,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.96658,
+            "_thrs_random_forest": 0.73
+        },
+        {
+            "number": 9004,
+            "expression": "\u22a2 4 \u2208 \u211d",
+            "prop_expression": " \u22a2 4 \u2208 \u211d",
+            "step": 3,
+            "theorem": "4re",
+            "ground_truth": "4re \u22a2 4 \u2208 \u211d",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.61002,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.2,
+            "_thrs_interestingness": 0.54,
+            "_thrs_logistic_regression": 0.59915,
+            "_thrs_random_forest": 0.6
+        },
+        {
+            "number": 9004,
+            "expression": "\u22a2 5 = ( 4 + 1 )",
+            "prop_expression": " \u22a2 5 = ( 4 + 1 )",
+            "step": 4,
+            "theorem": "df-5",
+            "ground_truth": "df-5 \u22a2 5 = ( 4 + 1 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.22113,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.2,
+            "_thrs_interestingness": 0.34,
+            "_thrs_logistic_regression": 0.98699,
+            "_thrs_random_forest": 0.875
+        }
+    ],
+    "is_train": false
+}

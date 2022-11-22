@@ -1,0 +1,77 @@
+{
+    "theorem": "nn0cni",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "A \u2208 \u2102",
+    "steps": [
+        {
+            "number": 9080,
+            "expression": "\u22a2 A \u2208 \u2102",
+            "prop_expression": "A \u2208 \u211d \u22a2 A \u2208 \u2102",
+            "step": 1,
+            "theorem": "recni",
+            "ground_truth": "recni \u22a2 A \u2208 \u2102",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.81366,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.5,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.98199,
+            "_thrs_random_forest": 0.885
+        },
+        {
+            "number": 9080,
+            "expression": "\u22a2 A \u2208 \u211d",
+            "prop_expression": "A \u2208 \u21150 \u22a2 A \u2208 \u211d",
+            "step": 2,
+            "theorem": "nn0rei",
+            "ground_truth": "nn0rei \u22a2 A \u2208 \u211d",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.42589,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.5,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.98199,
+            "_thrs_random_forest": 0.825
+        },
+        {
+            "number": 9080,
+            "expression": "\u22a2 A \u2208 \u21150",
+            "prop_expression": " \u22a2 A \u2208 \u21150",
+            "step": 3,
+            "theorem": "nn0re.1",
+            "ground_truth": "nn0re.1 \u22a2 A \u2208 \u21150",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.86752,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.5,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.98344,
+            "_thrs_random_forest": 0.83
+        }
+    ],
+    "is_train": false
+}

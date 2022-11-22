@@ -1,0 +1,77 @@
+{
+    "theorem": "rnresi",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "ran ( _I |` A ) = A",
+    "steps": [
+        {
+            "number": 4607,
+            "expression": "\u22a2 ran ( _I |` A ) = A",
+            "prop_expression": "A = B, A = C \u22a2 B = C",
+            "step": 1,
+            "theorem": "eqtr3i",
+            "ground_truth": "eqtr3i \u22a2 ran ( _I |` A ) = A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.0851,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.66667,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.66667,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.76667,
+            "_thrs_logistic_regression": 0.99868,
+            "_thrs_random_forest": 0.915
+        },
+        {
+            "number": 4607,
+            "expression": "\u22a2 ( _I \u201c A ) = ran ( _I |` A )",
+            "prop_expression": " \u22a2 ( A \u201c B ) = ran ( A |` B )",
+            "step": 2,
+            "theorem": "df-ima",
+            "ground_truth": "df-ima \u22a2 ( _I \u201c A ) = ran ( _I |` A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.33775,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.9412,
+            "_thrs_random_forest": 0.87
+        },
+        {
+            "number": 4607,
+            "expression": "\u22a2 ( _I \u201c A ) = A",
+            "prop_expression": " \u22a2 ( _I \u201c A ) = A",
+            "step": 3,
+            "theorem": "imai",
+            "ground_truth": "imai \u22a2 ( _I \u201c A ) = A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.88818,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.03415,
+            "_thrs_interestingness": 0.60683,
+            "_thrs_logistic_regression": 0.52465,
+            "_thrs_random_forest": 0.889
+        }
+    ],
+    "is_train": false
+}

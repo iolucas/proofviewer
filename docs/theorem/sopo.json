@@ -1,0 +1,53 @@
+{
+    "theorem": "sopo",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( R Or A \u2192 R Po A )",
+    "steps": [
+        {
+            "number": 3881,
+            "expression": "\u22a2 ( R Or A \u2192 R Po A )",
+            "prop_expression": "( \ud835\udf11 \u2194 ( \ud835\udf13 \u2227 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
+            "step": 1,
+            "theorem": "simplbi",
+            "ground_truth": "simplbi \u22a2 ( R Or A \u2192 R Po A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.70494,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.72167
+        },
+        {
+            "number": 3881,
+            "expression": "\u22a2 ( R Or A \u2194 ( R Po A \u2227 \u2200 x \u2208 A \u2200 y \u2208 A ( x R y \u2228 x = y \u2228 y R x ) ) )",
+            "prop_expression": " \u22a2 ( R Or A \u2194 ( R Po A \u2227 \u2200 x \u2208 A \u2200 y \u2208 A ( x R y \u2228 x = y \u2228 y R x ) ) )",
+            "step": 2,
+            "theorem": "df-so",
+            "ground_truth": "df-so \u22a2 ( R Or A \u2194 ( R Po A \u2227 \u2200 x \u2208 A \u2200 y \u2208 A ( x R y \u2228 x = y \u2228 y R x ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.65545,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.945
+        }
+    ],
+    "is_train": false
+}

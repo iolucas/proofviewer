@@ -1,0 +1,77 @@
+{
+    "theorem": "ss2rabi",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "{ x \u2208 A | \ud835\udf11 } \u2286 { x \u2208 A | \ud835\udf13 }",
+    "steps": [
+        {
+            "number": 2885,
+            "expression": "\u22a2 { x \u2208 A | \ud835\udf11 } \u2286 { x \u2208 A | \ud835\udf13 }",
+            "prop_expression": "( \ud835\udf11 \u2194 \u2200 x \u2208 A \ud835\udf13 ), ( x \u2208 A \u2192 \ud835\udf13 ) \u22a2 \ud835\udf11",
+            "step": 1,
+            "theorem": "mprgbir",
+            "ground_truth": "mprgbir \u22a2 { x \u2208 A | \ud835\udf11 } \u2286 { x \u2208 A | \ud835\udf13 }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.02381,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.55556,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.71111,
+            "_thrs_logistic_regression": 0.99982,
+            "_thrs_random_forest": 0.96
+        },
+        {
+            "number": 2885,
+            "expression": "\u22a2 ( { x \u2208 A | \ud835\udf11 } \u2286 { x \u2208 A | \ud835\udf13 } \u2194 \u2200 x \u2208 A ( \ud835\udf11 \u2192 \ud835\udf13 ) )",
+            "prop_expression": " \u22a2 ( { x \u2208 A | \ud835\udf11 } \u2286 { x \u2208 A | \ud835\udf13 } \u2194 \u2200 x \u2208 A ( \ud835\udf11 \u2192 \ud835\udf13 ) )",
+            "step": 2,
+            "theorem": "ss2rab",
+            "ground_truth": "ss2rab \u22a2 ( { x \u2208 A | \ud835\udf11 } \u2286 { x \u2208 A | \ud835\udf13 } \u2194 \u2200 x \u2208 A ( \ud835\udf11 \u2192 \ud835\udf13 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.37025,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.93628,
+            "_thrs_random_forest": 0.855
+        },
+        {
+            "number": 2885,
+            "expression": "\u22a2 ( x \u2208 A \u2192 ( \ud835\udf11 \u2192 \ud835\udf13 ) )",
+            "prop_expression": " \u22a2 ( x \u2208 A \u2192 ( \ud835\udf11 \u2192 \ud835\udf13 ) )",
+            "step": 3,
+            "theorem": "ss2rabi.1",
+            "ground_truth": "ss2rabi.1 \u22a2 ( x \u2208 A \u2192 ( \ud835\udf11 \u2192 \ud835\udf13 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8123,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.33962,
+            "_thrs_interestingness": 0.46792,
+            "_thrs_logistic_regression": 0.86206,
+            "_thrs_random_forest": 0.95
+        }
+    ],
+    "is_train": false
+}

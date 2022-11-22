@@ -1,0 +1,77 @@
+{
+    "theorem": "tcid",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( A \u2208 V \u2192 A \u2286 ( TC ` A ) )",
+    "steps": [
+        {
+            "number": 6900,
+            "expression": "\u22a2 ( A \u2208 V \u2192 A \u2286 ( TC ` A ) )",
+            "prop_expression": "B \u2286 A, ( \ud835\udf11 \u2192 C = A ) \u22a2 ( \ud835\udf11 \u2192 B \u2286 C )",
+            "step": 1,
+            "theorem": "syl5sseqr",
+            "ground_truth": "syl5sseqr \u22a2 ( A \u2208 V \u2192 A \u2286 ( TC ` A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.87155,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.75,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.85,
+            "_thrs_logistic_regression": 0.99728,
+            "_thrs_random_forest": 0.825
+        },
+        {
+            "number": 6900,
+            "expression": "\u22a2 A \u2286 \u2229 { x | ( A \u2286 x \u2227 Tr x ) }",
+            "prop_expression": " \u22a2 A \u2286 \u2229 { x | ( A \u2286 x \u2227 \ud835\udf11 ) }",
+            "step": 2,
+            "theorem": "ssmin",
+            "ground_truth": "ssmin \u22a2 A \u2286 \u2229 { x | ( A \u2286 x \u2227 Tr x ) }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.37339,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.8,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.36,
+            "_thrs_logistic_regression": 0.45246,
+            "_thrs_random_forest": 0.775
+        },
+        {
+            "number": 6900,
+            "expression": "\u22a2 ( A \u2208 V \u2192 ( TC ` A ) = \u2229 { x | ( A \u2286 x \u2227 Tr x ) } )",
+            "prop_expression": " \u22a2 ( A \u2208 V \u2192 ( TC ` A ) = \u2229 { x | ( A \u2286 x \u2227 Tr x ) } )",
+            "step": 3,
+            "theorem": "tcvalg",
+            "ground_truth": "tcvalg \u22a2 ( A \u2208 V \u2192 ( TC ` A ) = \u2229 { x | ( A \u2286 x \u2227 Tr x ) } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.79972,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.10702,
+            "_thrs_interestingness": 0.4214,
+            "_thrs_logistic_regression": 0.96321,
+            "_thrs_random_forest": 0.835
+        }
+    ],
+    "is_train": false
+}

@@ -1,0 +1,101 @@
+{
+    "theorem": "pinn",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ]
+    ],
+    "expression": "( A \u2208 N. \u2192 A \u2208 om )",
+    "steps": [
+        {
+            "number": 7915,
+            "expression": "\u22a2 ( A \u2208 N. \u2192 A \u2208 om )",
+            "prop_expression": "A \u2286 B \u22a2 ( C \u2208 A \u2192 C \u2208 B )",
+            "step": 1,
+            "theorem": "sseli",
+            "ground_truth": "sseli \u22a2 ( A \u2208 N. \u2192 A \u2208 om )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.33958,
+            "_thrs_reconstruct": 0.00226,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.98274,
+            "_thrs_random_forest": 0.475
+        },
+        {
+            "number": 7915,
+            "expression": "\u22a2 N. \u2286 om",
+            "prop_expression": "A = B, B \u2286 C \u22a2 A \u2286 C",
+            "step": 2,
+            "theorem": "eqsstri",
+            "ground_truth": "eqsstri \u22a2 N. \u2286 om",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.48671,
+            "_thrs_reconstruct": 0.01797,
+            "_thrs_obviousness": 0.99778,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.89956,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.935
+        },
+        {
+            "number": 7915,
+            "expression": "\u22a2 N. = ( om \u2216 { \u2205 } )",
+            "prop_expression": " \u22a2 N. = ( om \u2216 { \u2205 } )",
+            "step": 3,
+            "theorem": "df-ni",
+            "ground_truth": "df-ni \u22a2 N. = ( om \u2216 { \u2205 } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.38531,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.66667,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.29412,
+            "_thrs_interestingness": 0.39216,
+            "_thrs_logistic_regression": 0.99328,
+            "_thrs_random_forest": 0.73
+        },
+        {
+            "number": 7915,
+            "expression": "\u22a2 ( om \u2216 { \u2205 } ) \u2286 om",
+            "prop_expression": " \u22a2 ( A \u2216 B ) \u2286 A",
+            "step": 4,
+            "theorem": "difss",
+            "ground_truth": "difss \u22a2 ( om \u2216 { \u2205 } ) \u2286 om",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.74314,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.98017,
+            "_thrs_weight": 0.33333,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.11765,
+            "_thrs_interestingness": 0.48623,
+            "_thrs_logistic_regression": 0.97447,
+            "_thrs_random_forest": 0.455
+        }
+    ],
+    "is_train": false
+}

@@ -1,0 +1,77 @@
+{
+    "theorem": "psrbagf",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( ( I \u2208 V \u2227 F \u2208 D ) \u2192 F : I -\u2192 \u21150 )",
+    "steps": [
+        {
+            "number": 13881,
+            "expression": "\u22a2 ( ( I \u2208 V \u2227 F \u2208 D ) \u2192 F : I -\u2192 \u21150 )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 ( \ud835\udf12 \u2227 \ud835\udf03 ) ) ) \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "simprbda",
+            "ground_truth": "simprbda \u22a2 ( ( I \u2208 V \u2227 F \u2208 D ) \u2192 F : I -\u2192 \u21150 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.31247,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.76167
+        },
+        {
+            "number": 13881,
+            "expression": "\u22a2 ( I \u2208 V \u2192 ( F \u2208 D \u2194 ( F : I -\u2192 \u21150 \u2227 ( `' F \u201c \u2115 ) \u2208 Fin ) ) )",
+            "prop_expression": "D = { f \u2208 ( \u21150 ^m I ) | ( `' f \u201c \u2115 ) \u2208 Fin } \u22a2 ( I \u2208 V \u2192 ( F \u2208 D \u2194 ( F : I -\u2192 \u21150 \u2227 ( `' F \u201c \u2115 ) \u2208 Fin ) ) )",
+            "step": 2,
+            "theorem": "psrbag",
+            "ground_truth": "psrbag \u22a2 ( I \u2208 V \u2192 ( F \u2208 D \u2194 ( F : I -\u2192 \u21150 \u2227 ( `' F \u201c \u2115 ) \u2208 Fin ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.36224,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.96658,
+            "_thrs_random_forest": 0.78
+        },
+        {
+            "number": 13881,
+            "expression": "\u22a2 D = { f \u2208 ( \u21150 ^m I ) | ( `' f \u201c \u2115 ) \u2208 Fin }",
+            "prop_expression": " \u22a2 D = { f \u2208 ( \u21150 ^m I ) | ( `' f \u201c \u2115 ) \u2208 Fin }",
+            "step": 3,
+            "theorem": "psrbag.d",
+            "ground_truth": "psrbag.d \u22a2 D = { f \u2208 ( \u21150 ^m I ) | ( `' f \u201c \u2115 ) \u2208 Fin }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.13591,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.66667,
+            "_thrs_complexity": 0.25,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.04314,
+            "_thrs_interestingness": 0.29196,
+            "_thrs_logistic_regression": 0.95472,
+            "_thrs_random_forest": 0.83167
+        }
+    ],
+    "is_train": false
+}

@@ -1,0 +1,53 @@
+{
+    "theorem": "tgval3",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( B \u2208 V \u2192 ( topGen ` B ) = { x | \u2203 y ( y \u2286 B \u2227 x = U. y ) } )",
+    "steps": [
+        {
+            "number": 14538,
+            "expression": "\u22a2 ( B \u2208 V \u2192 ( topGen ` B ) = { x | \u2203 y ( y \u2286 B \u2227 x = U. y ) } )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( x \u2208 A \u2194 \ud835\udf13 ) ) \u22a2 ( \ud835\udf11 \u2192 A = { x | \ud835\udf13 } )",
+            "step": 1,
+            "theorem": "abbi2dv",
+            "ground_truth": "abbi2dv \u22a2 ( B \u2208 V \u2192 ( topGen ` B ) = { x | \u2203 y ( y \u2286 B \u2227 x = U. y ) } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.48905,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.99923,
+            "_thrs_random_forest": 0.63167
+        },
+        {
+            "number": 14538,
+            "expression": "\u22a2 ( B \u2208 V \u2192 ( x \u2208 ( topGen ` B ) \u2194 \u2203 y ( y \u2286 B \u2227 x = U. y ) ) )",
+            "prop_expression": " \u22a2 ( B \u2208 V \u2192 ( A \u2208 ( topGen ` B ) \u2194 \u2203 x ( x \u2286 B \u2227 A = U. x ) ) )",
+            "step": 2,
+            "theorem": "eltg3",
+            "ground_truth": "eltg3 \u22a2 ( B \u2208 V \u2192 ( x \u2208 ( topGen ` B ) \u2194 \u2203 y ( y \u2286 B \u2227 x = U. y ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.61487,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.71293,
+            "_thrs_random_forest": 0.675
+        }
+    ],
+    "is_train": false
+}

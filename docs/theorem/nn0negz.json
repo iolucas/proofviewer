@@ -1,0 +1,77 @@
+{
+    "theorem": "nn0negz",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( N \u2208 \u21150 \u2192 - N \u2208 \u2124 )",
+    "steps": [
+        {
+            "number": 9152,
+            "expression": "\u22a2 ( N \u2208 \u21150 \u2192 - N \u2208 \u2124 )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf13 \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "syl",
+            "ground_truth": "syl \u22a2 ( N \u2208 \u21150 \u2192 - N \u2208 \u2124 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.90978,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.99969,
+            "_thrs_random_forest": 0.53
+        },
+        {
+            "number": 9152,
+            "expression": "\u22a2 ( N \u2208 \u21150 \u2192 N \u2208 \u2124 )",
+            "prop_expression": " \u22a2 ( N \u2208 \u21150 \u2192 N \u2208 \u2124 )",
+            "step": 2,
+            "theorem": "nn0z",
+            "ground_truth": "nn0z \u22a2 ( N \u2208 \u21150 \u2192 N \u2208 \u2124 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.99443,
+            "_thrs_reconstruct": 0.91945,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.07407,
+            "_thrs_interestingness": 0.41481,
+            "_thrs_logistic_regression": 0.59861,
+            "_thrs_random_forest": 0.79
+        },
+        {
+            "number": 9152,
+            "expression": "\u22a2 ( N \u2208 \u2124 \u2192 - N \u2208 \u2124 )",
+            "prop_expression": " \u22a2 ( N \u2208 \u2124 \u2192 - N \u2208 \u2124 )",
+            "step": 3,
+            "theorem": "znegcl",
+            "ground_truth": "znegcl \u22a2 ( N \u2208 \u2124 \u2192 - N \u2208 \u2124 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.715,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.08055,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.21611,
+            "_thrs_logistic_regression": 0.27675,
+            "_thrs_random_forest": 0.745
+        }
+    ],
+    "is_train": false
+}

@@ -17,6 +17,7 @@
     "expression": "\u00ac A \u2208 A",
     "steps": [
         {
+            "number": 4047,
             "expression": "\u22a2 \u00ac A \u2208 A",
             "prop_expression": "\ud835\udf11, ( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 \ud835\udf13",
             "step": 1,
@@ -24,7 +25,7 @@
             "ground_truth": "ax-mp \u22a2 \u00ac A \u2208 A",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.94991,
+            "_thrs_random_uniform": 0.16017,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.66667,
@@ -36,6 +37,7 @@
             "_thrs_random_forest": 0.85
         },
         {
+            "number": 4047,
             "expression": "\u22a2 Ord A",
             "prop_expression": "A \u2208 On \u22a2 Ord A",
             "step": 2,
@@ -43,7 +45,7 @@
             "ground_truth": "onordi \u22a2 Ord A",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.6067,
+            "_thrs_random_uniform": 0.39503,
             "_thrs_reconstruct": 0.00059,
             "_thrs_obviousness": 0.00059,
             "_thrs_weight": 1.0,
@@ -55,6 +57,7 @@
             "_thrs_random_forest": 0.88
         },
         {
+            "number": 4047,
             "expression": "\u22a2 A \u2208 On",
             "prop_expression": " \u22a2 A \u2208 On",
             "step": 3,
@@ -62,7 +65,7 @@
             "ground_truth": "on.1 \u22a2 A \u2208 On",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.87699,
+            "_thrs_random_uniform": 0.2415,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.66667,
@@ -74,6 +77,7 @@
             "_thrs_random_forest": 0.89
         },
         {
+            "number": 4047,
             "expression": "\u22a2 ( Ord A \u2192 \u00ac A \u2208 A )",
             "prop_expression": " \u22a2 ( Ord A \u2192 \u00ac A \u2208 A )",
             "step": 4,
@@ -81,7 +85,7 @@
             "ground_truth": "ordirr \u22a2 ( Ord A \u2192 \u00ac A \u2208 A )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.23237,
+            "_thrs_random_uniform": 0.46664,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 0.99941,
             "_thrs_weight": 0.0,
@@ -92,5 +96,6 @@
             "_thrs_logistic_regression": 0.93628,
             "_thrs_random_forest": 0.735
         }
-    ]
+    ],
+    "is_train": true
 }

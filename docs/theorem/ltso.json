@@ -1,0 +1,77 @@
+{
+    "theorem": "ltso",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "< Or \u211d",
+    "steps": [
+        {
+            "number": 8298,
+            "expression": "\u22a2 < Or \u211d",
+            "prop_expression": "( ( x \u2208 A \u2227 y \u2208 A ) \u2192 ( x R y \u2194 \u00ac ( x = y \u2228 y R x ) ) ), ( ( x \u2208 A \u2227 y \u2208 A \u2227 z \u2208 A ) \u2192 ( ( x R y \u2227 y R z ) \u2192 x R z ) ) \u22a2 R Or A",
+            "step": 1,
+            "theorem": "isso2i",
+            "ground_truth": "isso2i \u22a2 < Or \u211d",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.2187,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.655
+        },
+        {
+            "number": 8298,
+            "expression": "\u22a2 ( ( x \u2208 \u211d \u2227 y \u2208 \u211d ) \u2192 ( x < y \u2194 \u00ac ( x = y \u2228 y < x ) ) )",
+            "prop_expression": " \u22a2 ( ( A \u2208 \u211d \u2227 B \u2208 \u211d ) \u2192 ( A < B \u2194 \u00ac ( A = B \u2228 B < A ) ) )",
+            "step": 2,
+            "theorem": "axlttri",
+            "ground_truth": "axlttri \u22a2 ( ( x \u2208 \u211d \u2227 y \u2208 \u211d ) \u2192 ( x < y \u2194 \u00ac ( x = y \u2228 y < x ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.91419,
+            "_thrs_reconstruct": 0.66667,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.26667,
+            "_thrs_complexity": 0.33333,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.00476,
+            "_thrs_interestingness": 0.22095,
+            "_thrs_logistic_regression": 0.88458,
+            "_thrs_random_forest": 0.79
+        },
+        {
+            "number": 8298,
+            "expression": "\u22a2 ( ( x \u2208 \u211d \u2227 y \u2208 \u211d \u2227 z \u2208 \u211d ) \u2192 ( ( x < y \u2227 y < z ) \u2192 x < z ) )",
+            "prop_expression": " \u22a2 ( ( A \u2208 \u211d \u2227 B \u2208 \u211d \u2227 C \u2208 \u211d ) \u2192 ( ( A < B \u2227 B < C ) \u2192 A < C ) )",
+            "step": 3,
+            "theorem": "axlttrn",
+            "ground_truth": "axlttrn \u22a2 ( ( x \u2208 \u211d \u2227 y \u2208 \u211d \u2227 z \u2208 \u211d ) \u2192 ( ( x < y \u2227 y < z ) \u2192 x < z ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.70984,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.33333,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.16667,
+            "_thrs_logistic_regression": 0.96838,
+            "_thrs_random_forest": 0.75
+        }
+    ],
+    "is_train": false
+}

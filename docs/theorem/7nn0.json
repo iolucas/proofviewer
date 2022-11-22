@@ -1,0 +1,53 @@
+{
+    "theorem": "7nn0",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "7 \u2208 \u21150",
+    "steps": [
+        {
+            "number": 9090,
+            "expression": "\u22a2 7 \u2208 \u21150",
+            "prop_expression": "N \u2208 \u2115 \u22a2 N \u2208 \u21150",
+            "step": 1,
+            "theorem": "nnnn0i",
+            "ground_truth": "nnnn0i \u22a2 7 \u2208 \u21150",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.26149,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.5,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.98199,
+            "_thrs_random_forest": 0.55
+        },
+        {
+            "number": 9090,
+            "expression": "\u22a2 7 \u2208 \u2115",
+            "prop_expression": " \u22a2 7 \u2208 \u2115",
+            "step": 2,
+            "theorem": "7nn",
+            "ground_truth": "7nn \u22a2 7 \u2208 \u2115",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.87626,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.5,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.98344,
+            "_thrs_random_forest": 0.77
+        }
+    ],
+    "is_train": false
+}

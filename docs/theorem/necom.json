@@ -1,0 +1,53 @@
+{
+    "theorem": "necom",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( A \u2260 B \u2194 B \u2260 A )",
+    "steps": [
+        {
+            "number": 2256,
+            "expression": "\u22a2 ( A \u2260 B \u2194 B \u2260 A )",
+            "prop_expression": "( A = B \u2194 C = D ) \u22a2 ( A \u2260 B \u2194 C \u2260 D )",
+            "step": 1,
+            "theorem": "necon3bii",
+            "ground_truth": "necon3bii \u22a2 ( A \u2260 B \u2194 B \u2260 A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5755,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99877,
+            "_thrs_random_forest": 0.66
+        },
+        {
+            "number": 2256,
+            "expression": "\u22a2 ( A = B \u2194 B = A )",
+            "prop_expression": " \u22a2 ( A = B \u2194 B = A )",
+            "step": 2,
+            "theorem": "eqcom",
+            "ground_truth": "eqcom \u22a2 ( A = B \u2194 B = A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.23671,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.80004,
+            "_thrs_random_forest": 0.945
+        }
+    ],
+    "is_train": false
+}

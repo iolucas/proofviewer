@@ -1,0 +1,77 @@
+{
+    "theorem": "mpteq12",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( ( A = C \u2227 \u2200 x \u2208 A B = D ) \u2192 ( x \u2208 A |\u2192 B ) = ( x \u2208 C |\u2192 D ) )",
+    "steps": [
+        {
+            "number": 3659,
+            "expression": "\u22a2 ( ( A = C \u2227 \u2200 x \u2208 A B = D ) \u2192 ( x \u2208 A |\u2192 B ) = ( x \u2208 C |\u2192 D ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( ( \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 )",
+            "step": 1,
+            "theorem": "sylan",
+            "ground_truth": "sylan \u22a2 ( ( A = C \u2227 \u2200 x \u2208 A B = D ) \u2192 ( x \u2208 A |\u2192 B ) = ( x \u2208 C |\u2192 D ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.51074,
+            "_thrs_reconstruct": 0.00019,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.07692,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.61538,
+            "_thrs_logistic_regression": 0.99971,
+            "_thrs_random_forest": 0.855
+        },
+        {
+            "number": 3659,
+            "expression": "\u22a2 ( A = C \u2192 \u2200 x A = C )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \u2200 x \ud835\udf11 )",
+            "step": 2,
+            "theorem": "ax-17",
+            "ground_truth": "ax-17 \u22a2 ( A = C \u2192 \u2200 x A = C )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.72151,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.21898,
+            "_thrs_interestingness": 0.4438,
+            "_thrs_logistic_regression": 0.76523,
+            "_thrs_random_forest": 0.73
+        },
+        {
+            "number": 3659,
+            "expression": "\u22a2 ( ( \u2200 x A = C \u2227 \u2200 x \u2208 A B = D ) \u2192 ( x \u2208 A |\u2192 B ) = ( x \u2208 C |\u2192 D ) )",
+            "prop_expression": " \u22a2 ( ( \u2200 x A = C \u2227 \u2200 x \u2208 A B = D ) \u2192 ( x \u2208 A |\u2192 B ) = ( x \u2208 C |\u2192 D ) )",
+            "step": 3,
+            "theorem": "mpteq12f",
+            "ground_truth": "mpteq12f \u22a2 ( ( \u2200 x A = C \u2227 \u2200 x \u2208 A B = D ) \u2192 ( x \u2208 A |\u2192 B ) = ( x \u2208 C |\u2192 D ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.58929,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.99981,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.39996,
+            "_thrs_logistic_regression": 0.93628,
+            "_thrs_random_forest": 0.8
+        }
+    ],
+    "is_train": false
+}

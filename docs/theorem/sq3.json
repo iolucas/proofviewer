@@ -1,0 +1,101 @@
+{
+    "theorem": "sq3",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( 3 ^ 2 ) = 9",
+    "steps": [
+        {
+            "number": 10185,
+            "expression": "\u22a2 ( 3 ^ 2 ) = 9",
+            "prop_expression": "A = B, B = C \u22a2 A = C",
+            "step": 1,
+            "theorem": "eqtri",
+            "ground_truth": "eqtri \u22a2 ( 3 ^ 2 ) = 9",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.44777,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.66667,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.53333,
+            "_thrs_logistic_regression": 0.99996,
+            "_thrs_random_forest": 0.79
+        },
+        {
+            "number": 10185,
+            "expression": "\u22a2 ( 3 ^ 2 ) = ( 3 \u00b7 3 )",
+            "prop_expression": "A \u2208 \u2102 \u22a2 ( A ^ 2 ) = ( A \u00b7 A )",
+            "step": 2,
+            "theorem": "sqvali",
+            "ground_truth": "sqvali \u22a2 ( 3 ^ 2 ) = ( 3 \u00b7 3 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.98282,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.98274,
+            "_thrs_random_forest": 0.77
+        },
+        {
+            "number": 10185,
+            "expression": "\u22a2 3 \u2208 \u2102",
+            "prop_expression": " \u22a2 3 \u2208 \u2102",
+            "step": 3,
+            "theorem": "3cn",
+            "ground_truth": "3cn \u22a2 3 \u2208 \u2102",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.58338,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.25,
+            "_thrs_interestingness": 0.65,
+            "_thrs_logistic_regression": 0.49862,
+            "_thrs_random_forest": 0.715
+        },
+        {
+            "number": 10185,
+            "expression": "\u22a2 ( 3 \u00b7 3 ) = 9",
+            "prop_expression": " \u22a2 ( 3 \u00b7 3 ) = 9",
+            "step": 4,
+            "theorem": "3t3e9",
+            "ground_truth": "3t3e9 \u22a2 ( 3 \u00b7 3 ) = 9",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.40579,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.66667,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0625,
+            "_thrs_interestingness": 0.54583,
+            "_thrs_logistic_regression": 0.20831,
+            "_thrs_random_forest": 0.85
+        }
+    ],
+    "is_train": false
+}

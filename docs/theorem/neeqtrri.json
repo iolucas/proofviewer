@@ -17,6 +17,7 @@
     "expression": "A \u2260 C",
     "steps": [
         {
+            "number": 2200,
             "expression": "\u22a2 A \u2260 C",
             "prop_expression": "A \u2260 B, B = C \u22a2 A \u2260 C",
             "step": 1,
@@ -24,7 +25,7 @@
             "ground_truth": "neeqtri \u22a2 A \u2260 C",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.23534,
+            "_thrs_random_uniform": 0.11498,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.5,
@@ -36,6 +37,7 @@
             "_thrs_random_forest": 0.825
         },
         {
+            "number": 2200,
             "expression": "\u22a2 A \u2260 B",
             "prop_expression": " \u22a2 A \u2260 B",
             "step": 2,
@@ -43,7 +45,7 @@
             "ground_truth": "neeqtrr.1 \u22a2 A \u2260 B",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.39317,
+            "_thrs_random_uniform": 0.95996,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.5,
@@ -55,6 +57,7 @@
             "_thrs_random_forest": 0.99
         },
         {
+            "number": 2200,
             "expression": "\u22a2 B = C",
             "prop_expression": "A = B \u22a2 B = A",
             "step": 3,
@@ -62,7 +65,7 @@
             "ground_truth": "eqcomi \u22a2 B = C",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.17157,
+            "_thrs_random_uniform": 0.48781,
             "_thrs_reconstruct": 0.05335,
             "_thrs_obviousness": 0.05065,
             "_thrs_weight": 0.5,
@@ -74,6 +77,7 @@
             "_thrs_random_forest": 0.82
         },
         {
+            "number": 2200,
             "expression": "\u22a2 C = B",
             "prop_expression": " \u22a2 C = B",
             "step": 4,
@@ -81,7 +85,7 @@
             "ground_truth": "neeqtrr.2 \u22a2 C = B",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.39635,
+            "_thrs_random_uniform": 0.59544,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.5,
@@ -92,5 +96,6 @@
             "_thrs_logistic_regression": 0.67025,
             "_thrs_random_forest": 0.975
         }
-    ]
+    ],
+    "is_train": true
 }

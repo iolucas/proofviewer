@@ -1,0 +1,77 @@
+{
+    "theorem": "eqriv",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "A = B",
+    "steps": [
+        {
+            "number": 2057,
+            "expression": "\u22a2 A = B",
+            "prop_expression": "( \ud835\udf11 \u2194 \u2200 x \ud835\udf13 ), \ud835\udf13 \u22a2 \ud835\udf11",
+            "step": 1,
+            "theorem": "mpgbir",
+            "ground_truth": "mpgbir \u22a2 A = B",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.47341,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.82
+        },
+        {
+            "number": 2057,
+            "expression": "\u22a2 ( A = B \u2194 \u2200 x ( x \u2208 A \u2194 x \u2208 B ) )",
+            "prop_expression": " \u22a2 ( A = B \u2194 \u2200 x ( x \u2208 A \u2194 x \u2208 B ) )",
+            "step": 2,
+            "theorem": "dfcleq",
+            "ground_truth": "dfcleq \u22a2 ( A = B \u2194 \u2200 x ( x \u2208 A \u2194 x \u2208 B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.40934,
+            "_thrs_reconstruct": 0.0003,
+            "_thrs_obviousness": 0.0003,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.10006,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.985
+        },
+        {
+            "number": 2057,
+            "expression": "\u22a2 ( x \u2208 A \u2194 x \u2208 B )",
+            "prop_expression": " \u22a2 ( x \u2208 A \u2194 x \u2208 B )",
+            "step": 3,
+            "theorem": "eqriv.1",
+            "ground_truth": "eqriv.1 \u22a2 ( x \u2208 A \u2194 x \u2208 B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.14333,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.42857,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.06723,
+            "_thrs_interestingness": 0.19916,
+            "_thrs_logistic_regression": 0.98554,
+            "_thrs_random_forest": 0.955
+        }
+    ],
+    "is_train": false
+}

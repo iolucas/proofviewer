@@ -1,0 +1,53 @@
+{
+    "theorem": "4p1e5",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( 4 + 1 ) = 5",
+    "steps": [
+        {
+            "number": 8962,
+            "expression": "\u22a2 ( 4 + 1 ) = 5",
+            "prop_expression": "A = B \u22a2 B = A",
+            "step": 1,
+            "theorem": "eqcomi",
+            "ground_truth": "eqcomi \u22a2 ( 4 + 1 ) = 5",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.29616,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.5,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.98199,
+            "_thrs_random_forest": 0.76
+        },
+        {
+            "number": 8962,
+            "expression": "\u22a2 5 = ( 4 + 1 )",
+            "prop_expression": " \u22a2 5 = ( 4 + 1 )",
+            "step": 2,
+            "theorem": "df-5",
+            "ground_truth": "df-5 \u22a2 5 = ( 4 + 1 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.8992,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.5,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.98344,
+            "_thrs_random_forest": 0.99
+        }
+    ],
+    "is_train": false
+}

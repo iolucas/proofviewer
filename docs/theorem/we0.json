@@ -1,0 +1,101 @@
+{
+    "theorem": "we0",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            1,
+            4
+        ]
+    ],
+    "expression": "R We \u2205",
+    "steps": [
+        {
+            "number": 3938,
+            "expression": "\u22a2 R We \u2205",
+            "prop_expression": "\ud835\udf13, \ud835\udf12, ( \ud835\udf11 \u2194 ( \ud835\udf13 \u2227 \ud835\udf12 ) ) \u22a2 \ud835\udf11",
+            "step": 1,
+            "theorem": "mpbir2an",
+            "ground_truth": "mpbir2an \u22a2 R We \u2205",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.63133,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.18182,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.83636,
+            "_thrs_logistic_regression": 0.99372,
+            "_thrs_random_forest": 0.945
+        },
+        {
+            "number": 3938,
+            "expression": "\u22a2 R Fr \u2205",
+            "prop_expression": " \u22a2 R Fr \u2205",
+            "step": 2,
+            "theorem": "fr0",
+            "ground_truth": "fr0 \u22a2 R Fr \u2205",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.26198,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.50061,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.18182,
+            "_thrs_interestingness": 0.53649,
+            "_thrs_logistic_regression": 0.71873,
+            "_thrs_random_forest": 0.94
+        },
+        {
+            "number": 3938,
+            "expression": "\u22a2 R Or \u2205",
+            "prop_expression": " \u22a2 R Or \u2205",
+            "step": 3,
+            "theorem": "so0",
+            "ground_truth": "so0 \u22a2 R Or \u2205",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.59301,
+            "_thrs_reconstruct": 0.99756,
+            "_thrs_obviousness": 0.49939,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.18182,
+            "_thrs_interestingness": 0.53624,
+            "_thrs_logistic_regression": 0.71875,
+            "_thrs_random_forest": 0.935
+        },
+        {
+            "number": 3938,
+            "expression": "\u22a2 ( R We \u2205 \u2194 ( R Fr \u2205 \u2227 R Or \u2205 ) )",
+            "prop_expression": " \u22a2 ( R We A \u2194 ( R Fr A \u2227 R Or A ) )",
+            "step": 4,
+            "theorem": "df-we",
+            "ground_truth": "df-we \u22a2 ( R We \u2205 \u2194 ( R Fr \u2205 \u2227 R Or \u2205 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.62196,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.9412,
+            "_thrs_random_forest": 0.965
+        }
+    ],
+    "is_train": false
+}

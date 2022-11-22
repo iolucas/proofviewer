@@ -1,0 +1,77 @@
+{
+    "theorem": "rex0",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "\u00ac \u2203 x \u2208 \u2205 \ud835\udf11",
+    "steps": [
+        {
+            "number": 3085,
+            "expression": "\u22a2 \u00ac \u2203 x \u2208 \u2205 \ud835\udf11",
+            "prop_expression": "( x \u2208 A \u2192 \u00ac \ud835\udf13 ) \u22a2 \u00ac \u2203 x \u2208 A \ud835\udf13",
+            "step": 1,
+            "theorem": "nrex",
+            "ground_truth": "nrex \u22a2 \u00ac \u2203 x \u2208 \u2205 \ud835\udf11",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.536,
+            "_thrs_reconstruct": 3e-05,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.5,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.99768,
+            "_thrs_random_forest": 0.74375
+        },
+        {
+            "number": 3085,
+            "expression": "\u22a2 ( x \u2208 \u2205 \u2192 \u00ac \ud835\udf11 )",
+            "prop_expression": "\u00ac \ud835\udf11 \u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
+            "step": 2,
+            "theorem": "pm2.21i",
+            "ground_truth": "pm2.21i \u22a2 ( x \u2208 \u2205 \u2192 \u00ac \ud835\udf11 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.29746,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.00073,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.5,
+            "_thrs_interestingness": 0.20015,
+            "_thrs_logistic_regression": 0.99787,
+            "_thrs_random_forest": 0.82714
+        },
+        {
+            "number": 3085,
+            "expression": "\u22a2 \u00ac x \u2208 \u2205",
+            "prop_expression": " \u22a2 \u00ac A \u2208 \u2205",
+            "step": 3,
+            "theorem": "noel",
+            "ground_truth": "noel \u22a2 \u00ac x \u2208 \u2205",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.49437,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.5,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.88294,
+            "_thrs_random_forest": 0.6
+        }
+    ],
+    "is_train": false
+}

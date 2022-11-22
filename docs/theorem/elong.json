@@ -13,6 +13,7 @@
     "expression": "( A \u2208 V \u2192 ( A \u2208 On \u2194 Ord A ) )",
     "steps": [
         {
+            "number": 3950,
             "expression": "\u22a2 ( A \u2208 V \u2192 ( A \u2208 On \u2194 Ord A ) )",
             "prop_expression": "( x = A \u2192 ( \ud835\udf11 \u2194 \ud835\udf13 ) ), B = { x | \ud835\udf11 } \u22a2 ( A \u2208 V \u2192 ( A \u2208 B \u2194 \ud835\udf13 ) )",
             "step": 1,
@@ -20,7 +21,7 @@
             "ground_truth": "elab2g \u22a2 ( A \u2208 V \u2192 ( A \u2208 On \u2194 Ord A ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.29338,
+            "_thrs_random_uniform": 0.71152,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.0,
@@ -32,6 +33,7 @@
             "_thrs_random_forest": 0.735
         },
         {
+            "number": 3950,
             "expression": "\u22a2 ( x = A \u2192 ( Ord x \u2194 Ord A ) )",
             "prop_expression": " \u22a2 ( A = B \u2192 ( Ord A \u2194 Ord B ) )",
             "step": 2,
@@ -39,7 +41,7 @@
             "ground_truth": "ordeq \u22a2 ( x = A \u2192 ( Ord x \u2194 Ord A ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.49228,
+            "_thrs_random_uniform": 0.34717,
             "_thrs_reconstruct": 0.43073,
             "_thrs_obviousness": 0.30106,
             "_thrs_weight": 0.5,
@@ -51,6 +53,7 @@
             "_thrs_random_forest": 0.625
         },
         {
+            "number": 3950,
             "expression": "\u22a2 On = { x | Ord x }",
             "prop_expression": " \u22a2 On = { x | Ord x }",
             "step": 3,
@@ -58,7 +61,7 @@
             "ground_truth": "df-on \u22a2 On = { x | Ord x }",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.76138,
+            "_thrs_random_uniform": 0.33961,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
@@ -69,5 +72,6 @@
             "_thrs_logistic_regression": 0.78067,
             "_thrs_random_forest": 0.715
         }
-    ]
+    ],
+    "is_train": true
 }

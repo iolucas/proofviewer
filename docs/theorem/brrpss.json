@@ -1,0 +1,77 @@
+{
+    "theorem": "brrpss",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( A [\u228a] B \u2194 A \u228a B )",
+    "steps": [
+        {
+            "number": 5754,
+            "expression": "\u22a2 ( A [\u228a] B \u2194 A \u228a B )",
+            "prop_expression": "\ud835\udf11, ( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 \ud835\udf13",
+            "step": 1,
+            "theorem": "ax-mp",
+            "ground_truth": "ax-mp \u22a2 ( A [\u228a] B \u2194 A \u228a B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.49031,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.66667,
+            "_thrs_surprisingness": 0.33333,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99771,
+            "_thrs_random_forest": 0.925
+        },
+        {
+            "number": 5754,
+            "expression": "\u22a2 B \u2208 V",
+            "prop_expression": " \u22a2 B \u2208 V",
+            "step": 2,
+            "theorem": "brrpss.a",
+            "ground_truth": "brrpss.a \u22a2 B \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.52029,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.5,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.9369,
+            "_thrs_random_forest": 0.845
+        },
+        {
+            "number": 5754,
+            "expression": "\u22a2 ( B \u2208 V \u2192 ( A [\u228a] B \u2194 A \u228a B ) )",
+            "prop_expression": " \u22a2 ( B \u2208 V \u2192 ( A [\u228a] B \u2194 A \u228a B ) )",
+            "step": 3,
+            "theorem": "brrpssg",
+            "ground_truth": "brrpssg \u22a2 ( B \u2208 V \u2192 ( A [\u228a] B \u2194 A \u228a B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.67821,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.93628,
+            "_thrs_random_forest": 0.725
+        }
+    ],
+    "is_train": false
+}

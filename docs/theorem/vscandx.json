@@ -1,0 +1,77 @@
+{
+    "theorem": "vscandx",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( .s ` ndx ) = 6",
+    "steps": [
+        {
+            "number": 11745,
+            "expression": "\u22a2 ( .s ` ndx ) = 6",
+            "prop_expression": "E = Slot N, N \u2208 \u2115 \u22a2 ( E ` ndx ) = N",
+            "step": 1,
+            "theorem": "ndxarg",
+            "ground_truth": "ndxarg \u22a2 ( .s ` ndx ) = 6",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.01964,
+            "_thrs_reconstruct": 0.17988,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.99992,
+            "_thrs_random_forest": 0.77
+        },
+        {
+            "number": 11745,
+            "expression": "\u22a2 .s = Slot 6",
+            "prop_expression": " \u22a2 .s = Slot 6",
+            "step": 2,
+            "theorem": "df-vsca",
+            "ground_truth": "df-vsca \u22a2 .s = Slot 6",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.66486,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.20514,
+            "_thrs_random_forest": 0.795
+        },
+        {
+            "number": 11745,
+            "expression": "\u22a2 6 \u2208 \u2115",
+            "prop_expression": " \u22a2 6 \u2208 \u2115",
+            "step": 3,
+            "theorem": "6nn",
+            "ground_truth": "6nn \u22a2 6 \u2208 \u2115",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.99661,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.84754,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.76951,
+            "_thrs_logistic_regression": 0.19357,
+            "_thrs_random_forest": 0.8
+        }
+    ],
+    "is_train": false
+}

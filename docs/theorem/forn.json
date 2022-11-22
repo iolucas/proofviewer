@@ -1,0 +1,53 @@
+{
+    "theorem": "forn",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( F : A -onto\u2192 B \u2192 ran F = B )",
+    "steps": [
+        {
+            "number": 4979,
+            "expression": "\u22a2 ( F : A -onto\u2192 B \u2192 ran F = B )",
+            "prop_expression": "( \ud835\udf11 \u2194 ( \ud835\udf13 \u2227 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "simprbi",
+            "ground_truth": "simprbi \u22a2 ( F : A -onto\u2192 B \u2192 ran F = B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.3267,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.775
+        },
+        {
+            "number": 4979,
+            "expression": "\u22a2 ( F : A -onto\u2192 B \u2194 ( F Fn A \u2227 ran F = B ) )",
+            "prop_expression": " \u22a2 ( F : A -onto\u2192 B \u2194 ( F Fn A \u2227 ran F = B ) )",
+            "step": 2,
+            "theorem": "df-fo",
+            "ground_truth": "df-fo \u22a2 ( F : A -onto\u2192 B \u2194 ( F Fn A \u2227 ran F = B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.26846,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.905
+        }
+    ],
+    "is_train": false
+}

@@ -1,0 +1,77 @@
+{
+    "theorem": "reubii",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( E! x \u2208 A \ud835\udf11 \u2194 E! x \u2208 A \ud835\udf13 )",
+    "steps": [
+        {
+            "number": 2435,
+            "expression": "\u22a2 ( E! x \u2208 A \ud835\udf11 \u2194 E! x \u2208 A \ud835\udf13 )",
+            "prop_expression": "( x \u2208 A \u2192 ( \ud835\udf11 \u2194 \ud835\udf13 ) ) \u22a2 ( E! x \u2208 A \ud835\udf11 \u2194 E! x \u2208 A \ud835\udf13 )",
+            "step": 1,
+            "theorem": "reubiia",
+            "ground_truth": "reubiia \u22a2 ( E! x \u2208 A \ud835\udf11 \u2194 E! x \u2208 A \ud835\udf13 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.46243,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.96658,
+            "_thrs_random_forest": 0.785
+        },
+        {
+            "number": 2435,
+            "expression": "\u22a2 ( x \u2208 A \u2192 ( \ud835\udf11 \u2194 \ud835\udf13 ) )",
+            "prop_expression": "\ud835\udf11 \u22a2 ( \ud835\udf13 \u2192 \ud835\udf11 )",
+            "step": 2,
+            "theorem": "a1i",
+            "ground_truth": "a1i \u22a2 ( x \u2208 A \u2192 ( \ud835\udf11 \u2194 \ud835\udf13 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.22101,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.99991,
+            "_thrs_random_forest": 0.93
+        },
+        {
+            "number": 2435,
+            "expression": "\u22a2 ( \ud835\udf11 \u2194 \ud835\udf13 )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2194 \ud835\udf13 )",
+            "step": 3,
+            "theorem": "reubii.1",
+            "ground_truth": "reubii.1 \u22a2 ( \ud835\udf11 \u2194 \ud835\udf13 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.69393,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99115,
+            "_thrs_random_forest": 0.94
+        }
+    ],
+    "is_train": false
+}

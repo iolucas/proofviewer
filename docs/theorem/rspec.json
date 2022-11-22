@@ -13,6 +13,7 @@
     "expression": "( x \u2208 A \u2192 \ud835\udf11 )",
     "steps": [
         {
+            "number": 2325,
             "expression": "\u22a2 ( x \u2208 A \u2192 \ud835\udf11 )",
             "prop_expression": "\ud835\udf11, ( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 \ud835\udf13",
             "step": 1,
@@ -20,7 +21,7 @@
             "ground_truth": "ax-mp \u22a2 ( x \u2208 A \u2192 \ud835\udf11 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.12756,
+            "_thrs_random_uniform": 0.77582,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 1.0,
@@ -32,6 +33,7 @@
             "_thrs_random_forest": 0.945
         },
         {
+            "number": 2325,
             "expression": "\u22a2 \u2200 x \u2208 A \ud835\udf11",
             "prop_expression": " \u22a2 \u2200 x \u2208 A \ud835\udf11",
             "step": 2,
@@ -39,7 +41,7 @@
             "ground_truth": "rspec.1 \u22a2 \u2200 x \u2208 A \ud835\udf11",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.9511,
+            "_thrs_random_uniform": 0.24126,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
@@ -51,6 +53,7 @@
             "_thrs_random_forest": 1.0
         },
         {
+            "number": 2325,
             "expression": "\u22a2 ( \u2200 x \u2208 A \ud835\udf11 \u2192 ( x \u2208 A \u2192 \ud835\udf11 ) )",
             "prop_expression": " \u22a2 ( \u2200 x \u2208 A \ud835\udf11 \u2192 ( x \u2208 A \u2192 \ud835\udf11 ) )",
             "step": 3,
@@ -58,7 +61,7 @@
             "ground_truth": "ra4 \u22a2 ( \u2200 x \u2208 A \ud835\udf11 \u2192 ( x \u2208 A \u2192 \ud835\udf11 ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.12228,
+            "_thrs_random_uniform": 0.17713,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 0.99363,
             "_thrs_weight": 0.0,
@@ -69,5 +72,6 @@
             "_thrs_logistic_regression": 0.69521,
             "_thrs_random_forest": 0.905
         }
-    ]
+    ],
+    "is_train": true
 }

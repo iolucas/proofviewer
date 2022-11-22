@@ -1,0 +1,53 @@
+{
+    "theorem": "rdgvalg",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( B \u2208 dom rec ( F , A ) \u2192 ( rec ( F , A ) ` B ) = ( ( g \u2208 V |\u2192 if ( g = \u2205 , A , if ( Lim dom g , U. ran g , ( F ` ( g ` U. dom g ) ) ) ) ) ` ( rec ( F , A ) |` B ) ) )",
+    "steps": [
+        {
+            "number": 5882,
+            "expression": "\u22a2 ( B \u2208 dom rec ( F , A ) \u2192 ( rec ( F , A ) ` B ) = ( ( g \u2208 V |\u2192 if ( g = \u2205 , A , if ( Lim dom g , U. ran g , ( F ` ( g ` U. dom g ) ) ) ) ) ` ( rec ( F , A ) |` B ) ) )",
+            "prop_expression": "F = recs ( G ) \u22a2 ( A \u2208 dom F \u2192 ( F ` A ) = ( G ` ( F |` A ) ) )",
+            "step": 1,
+            "theorem": "tfr2a",
+            "ground_truth": "tfr2a \u22a2 ( B \u2208 dom rec ( F , A ) \u2192 ( rec ( F , A ) ` B ) = ( ( g \u2208 V |\u2192 if ( g = \u2205 , A , if ( Lim dom g , U. ran g , ( F ` ( g ` U. dom g ) ) ) ) ) ` ( rec ( F , A ) |` B ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.29395,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.99984,
+            "_thrs_random_forest": 0.4575
+        },
+        {
+            "number": 5882,
+            "expression": "\u22a2 rec ( F , A ) = recs ( ( g \u2208 V |\u2192 if ( g = \u2205 , A , if ( Lim dom g , U. ran g , ( F ` ( g ` U. dom g ) ) ) ) ) )",
+            "prop_expression": " \u22a2 rec ( F , I ) = recs ( ( g \u2208 V |\u2192 if ( g = \u2205 , I , if ( Lim dom g , U. ran g , ( F ` ( g ` U. dom g ) ) ) ) ) )",
+            "step": 2,
+            "theorem": "df-rdg",
+            "ground_truth": "df-rdg \u22a2 rec ( F , A ) = recs ( ( g \u2208 V |\u2192 if ( g = \u2205 , A , if ( Lim dom g , U. ran g , ( F ` ( g ` U. dom g ) ) ) ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.40755,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.33688,
+            "_thrs_random_forest": 0.745
+        }
+    ],
+    "is_train": false
+}

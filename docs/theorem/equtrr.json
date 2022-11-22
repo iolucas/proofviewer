@@ -9,6 +9,7 @@
     "expression": "( x = y \u2192 ( z = x \u2192 z = y ) )",
     "steps": [
         {
+            "number": 1685,
             "expression": "\u22a2 ( x = y \u2192 ( z = x \u2192 z = y ) )",
             "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf12 ) ) \u22a2 ( \ud835\udf13 \u2192 ( \ud835\udf11 \u2192 \ud835\udf12 ) )",
             "step": 1,
@@ -16,7 +17,7 @@
             "ground_truth": "com12 \u22a2 ( x = y \u2192 ( z = x \u2192 z = y ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.41431,
+            "_thrs_random_uniform": 0.64676,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.5,
@@ -28,6 +29,7 @@
             "_thrs_random_forest": 0.65
         },
         {
+            "number": 1685,
             "expression": "\u22a2 ( z = x \u2192 ( x = y \u2192 z = y ) )",
             "prop_expression": " \u22a2 ( x = y \u2192 ( y = z \u2192 x = z ) )",
             "step": 2,
@@ -35,7 +37,7 @@
             "ground_truth": "equtr \u22a2 ( z = x \u2192 ( x = y \u2192 z = y ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.49706,
+            "_thrs_random_uniform": 0.9313,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.5,
@@ -46,5 +48,6 @@
             "_thrs_logistic_regression": 0.80004,
             "_thrs_random_forest": 0.88
         }
-    ]
+    ],
+    "is_train": true
 }

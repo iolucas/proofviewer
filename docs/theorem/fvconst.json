@@ -1,0 +1,77 @@
+{
+    "theorem": "fvconst",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( ( F : A -\u2192 { B } \u2227 C \u2208 A ) \u2192 ( F ` C ) = B )",
+    "steps": [
+        {
+            "number": 5232,
+            "expression": "\u22a2 ( ( F : A -\u2192 { B } \u2227 C \u2208 A ) \u2192 ( F ` C ) = B )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf13 \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "syl",
+            "ground_truth": "syl \u22a2 ( ( F : A -\u2192 { B } \u2227 C \u2208 A ) \u2192 ( F ` C ) = B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.48336,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.33333,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.66667,
+            "_thrs_logistic_regression": 0.99978,
+            "_thrs_random_forest": 0.85
+        },
+        {
+            "number": 5232,
+            "expression": "\u22a2 ( ( F : A -\u2192 { B } \u2227 C \u2208 A ) \u2192 ( F ` C ) \u2208 { B } )",
+            "prop_expression": " \u22a2 ( ( F : A -\u2192 B \u2227 C \u2208 A ) \u2192 ( F ` C ) \u2208 B )",
+            "step": 2,
+            "theorem": "ffvelrn",
+            "ground_truth": "ffvelrn \u22a2 ( ( F : A -\u2192 { B } \u2227 C \u2208 A ) \u2192 ( F ` C ) \u2208 { B } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.24234,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.99999,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.02052,
+            "_thrs_interestingness": 0.4041,
+            "_thrs_logistic_regression": 0.94258,
+            "_thrs_random_forest": 0.905
+        },
+        {
+            "number": 5232,
+            "expression": "\u22a2 ( ( F ` C ) \u2208 { B } \u2192 ( F ` C ) = B )",
+            "prop_expression": " \u22a2 ( A \u2208 { B } \u2192 A = B )",
+            "step": 3,
+            "theorem": "elsni",
+            "ground_truth": "elsni \u22a2 ( ( F ` C ) \u2208 { B } \u2192 ( F ` C ) = B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.38117,
+            "_thrs_reconstruct": 1e-05,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.5,
+            "_thrs_random_forest": 0.76
+        }
+    ],
+    "is_train": false
+}

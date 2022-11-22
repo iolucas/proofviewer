@@ -1,0 +1,101 @@
+{
+    "theorem": "univ",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "U. V = V",
+    "steps": [
+        {
+            "number": 4131,
+            "expression": "\u22a2 U. V = V",
+            "prop_expression": "A = B, A = C \u22a2 B = C",
+            "step": 1,
+            "theorem": "eqtr3i",
+            "ground_truth": "eqtr3i \u22a2 U. V = V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.07743,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.9
+        },
+        {
+            "number": 4131,
+            "expression": "\u22a2 U. \ud835\udcab V = U. V",
+            "prop_expression": "A = B \u22a2 U. A = U. B",
+            "step": 2,
+            "theorem": "unieqi",
+            "ground_truth": "unieqi \u22a2 U. \ud835\udcab V = U. V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9762,
+            "_thrs_reconstruct": 0.01555,
+            "_thrs_obviousness": 0.01531,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.175,
+            "_thrs_interestingness": 0.23806,
+            "_thrs_logistic_regression": 0.97625,
+            "_thrs_random_forest": 0.805
+        },
+        {
+            "number": 4131,
+            "expression": "\u22a2 \ud835\udcab V = V",
+            "prop_expression": " \u22a2 \ud835\udcab V = V",
+            "step": 3,
+            "theorem": "pwv",
+            "ground_truth": "pwv \u22a2 \ud835\udcab V = V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.74905,
+            "_thrs_reconstruct": 0.04615,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.5,
+            "_thrs_random_forest": 0.59
+        },
+        {
+            "number": 4131,
+            "expression": "\u22a2 U. \ud835\udcab V = V",
+            "prop_expression": " \u22a2 U. \ud835\udcab A = A",
+            "step": 4,
+            "theorem": "unipw",
+            "ground_truth": "unipw \u22a2 U. \ud835\udcab V = V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.57967,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.93924,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0625,
+            "_thrs_interestingness": 0.50035,
+            "_thrs_logistic_regression": 0.97088,
+            "_thrs_random_forest": 0.88
+        }
+    ],
+    "is_train": false
+}

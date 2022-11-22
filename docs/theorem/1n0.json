@@ -1,0 +1,101 @@
+{
+    "theorem": "1n0",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "expression": "1o \u2260 \u2205",
+    "steps": [
+        {
+            "number": 5944,
+            "expression": "\u22a2 1o \u2260 \u2205",
+            "prop_expression": "A = B, B \u2260 C \u22a2 A \u2260 C",
+            "step": 1,
+            "theorem": "eqnetri",
+            "ground_truth": "eqnetri \u22a2 1o \u2260 \u2205",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.50616,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.99923,
+            "_thrs_random_forest": 0.885
+        },
+        {
+            "number": 5944,
+            "expression": "\u22a2 1o = { \u2205 }",
+            "prop_expression": " \u22a2 1o = { \u2205 }",
+            "step": 2,
+            "theorem": "df1o2",
+            "ground_truth": "df1o2 \u22a2 1o = { \u2205 }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9232,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.37495,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.33333,
+            "_thrs_interestingness": 0.54166,
+            "_thrs_logistic_regression": 0.97417,
+            "_thrs_random_forest": 0.94
+        },
+        {
+            "number": 5944,
+            "expression": "\u22a2 { \u2205 } \u2260 \u2205",
+            "prop_expression": "A \u2208 V \u22a2 { A } \u2260 \u2205",
+            "step": 3,
+            "theorem": "snnz",
+            "ground_truth": "snnz \u22a2 { \u2205 } \u2260 \u2205",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.58083,
+            "_thrs_reconstruct": 0.59968,
+            "_thrs_obviousness": 0.37487,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.47497,
+            "_thrs_logistic_regression": 0.49198,
+            "_thrs_random_forest": 0.83
+        },
+        {
+            "number": 5944,
+            "expression": "\u22a2 \u2205 \u2208 V",
+            "prop_expression": " \u22a2 \u2205 \u2208 V",
+            "step": 4,
+            "theorem": "0ex",
+            "ground_truth": "0ex \u22a2 \u2205 \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.46209,
+            "_thrs_reconstruct": 0.40017,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.33333,
+            "_thrs_interestingness": 0.26667,
+            "_thrs_logistic_regression": 0.98976,
+            "_thrs_random_forest": 0.71
+        }
+    ],
+    "is_train": false
+}

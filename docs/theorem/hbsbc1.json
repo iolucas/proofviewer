@@ -1,0 +1,53 @@
+{
+    "theorem": "hbsbc1",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( [ A / x ] \ud835\udf11 \u2192 \u2200 x [ A / x ] \ud835\udf11 )",
+    "steps": [
+        {
+            "number": 2656,
+            "expression": "\u22a2 ( [ A / x ] \ud835\udf11 \u2192 \u2200 x [ A / x ] \ud835\udf11 )",
+            "prop_expression": "( y \u2208 A \u2192 \u2200 x y \u2208 A ) \u22a2 ( [ A / x ] \ud835\udf11 \u2192 \u2200 x [ A / x ] \ud835\udf11 )",
+            "step": 1,
+            "theorem": "hbsbc1f",
+            "ground_truth": "hbsbc1f \u22a2 ( [ A / x ] \ud835\udf11 \u2192 \u2200 x [ A / x ] \ud835\udf11 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.73787,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.98457,
+            "_thrs_random_forest": 0.67
+        },
+        {
+            "number": 2656,
+            "expression": "\u22a2 ( y \u2208 A \u2192 \u2200 x y \u2208 A )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \u2200 x \ud835\udf11 )",
+            "step": 2,
+            "theorem": "ax-17",
+            "ground_truth": "ax-17 \u22a2 ( y \u2208 A \u2192 \u2200 x y \u2208 A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.07257,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.98068,
+            "_thrs_random_forest": 0.485
+        }
+    ],
+    "is_train": false
+}

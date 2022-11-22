@@ -1,0 +1,77 @@
+{
+    "theorem": "2ralbii",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( \u2200 x \u2208 A \u2200 y \u2208 B \ud835\udf11 \u2194 \u2200 x \u2208 A \u2200 y \u2208 B \ud835\udf13 )",
+    "steps": [
+        {
+            "number": 2294,
+            "expression": "\u22a2 ( \u2200 x \u2208 A \u2200 y \u2208 B \ud835\udf11 \u2194 \u2200 x \u2208 A \u2200 y \u2208 B \ud835\udf13 )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ) \u22a2 ( \u2200 x \u2208 A \ud835\udf11 \u2194 \u2200 x \u2208 A \ud835\udf13 )",
+            "step": 1,
+            "theorem": "ralbii",
+            "ground_truth": "ralbii \u22a2 ( \u2200 x \u2208 A \u2200 y \u2208 B \ud835\udf11 \u2194 \u2200 x \u2208 A \u2200 y \u2208 B \ud835\udf13 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.22431,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.46667,
+            "_thrs_interestingness": 0.39333,
+            "_thrs_logistic_regression": 0.99722,
+            "_thrs_random_forest": 0.85
+        },
+        {
+            "number": 2294,
+            "expression": "\u22a2 ( \u2200 y \u2208 B \ud835\udf11 \u2194 \u2200 y \u2208 B \ud835\udf13 )",
+            "prop_expression": "( \ud835\udf11 \u2194 \ud835\udf13 ) \u22a2 ( \u2200 x \u2208 A \ud835\udf11 \u2194 \u2200 x \u2208 A \ud835\udf13 )",
+            "step": 2,
+            "theorem": "ralbii",
+            "ground_truth": "ralbii \u22a2 ( \u2200 y \u2208 B \ud835\udf11 \u2194 \u2200 y \u2208 B \ud835\udf13 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.68217,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.5,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.4,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.38,
+            "_thrs_logistic_regression": 0.86434,
+            "_thrs_random_forest": 0.9
+        },
+        {
+            "number": 2294,
+            "expression": "\u22a2 ( \ud835\udf11 \u2194 \ud835\udf13 )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2194 \ud835\udf13 )",
+            "step": 3,
+            "theorem": "ralbii.1",
+            "ground_truth": "ralbii.1 \u22a2 ( \ud835\udf11 \u2194 \ud835\udf13 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.51259,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99115,
+            "_thrs_random_forest": 0.91333
+        }
+    ],
+    "is_train": false
+}

@@ -1,0 +1,77 @@
+{
+    "theorem": "sumeq2dv",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( \ud835\udf11 \u2192 sum_ k \u2208 A B = sum_ k \u2208 A C )",
+    "steps": [
+        {
+            "number": 10797,
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 sum_ k \u2208 A B = sum_ k \u2208 A C )",
+            "prop_expression": "( \ud835\udf11 \u2192 \u2200 k \u2208 A B = C ) \u22a2 ( \ud835\udf11 \u2192 sum_ k \u2208 A B = sum_ k \u2208 A C )",
+            "step": 1,
+            "theorem": "sumeq2d",
+            "ground_truth": "sumeq2d \u22a2 ( \ud835\udf11 \u2192 sum_ k \u2208 A B = sum_ k \u2208 A C )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.99061,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.96658,
+            "_thrs_random_forest": 0.715
+        },
+        {
+            "number": 10797,
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 \u2200 k \u2208 A B = C )",
+            "prop_expression": "( ( \ud835\udf11 \u2227 x \u2208 A ) \u2192 \ud835\udf13 ) \u22a2 ( \ud835\udf11 \u2192 \u2200 x \u2208 A \ud835\udf13 )",
+            "step": 2,
+            "theorem": "ralrimiva",
+            "ground_truth": "ralrimiva \u22a2 ( \ud835\udf11 \u2192 \u2200 k \u2208 A B = C )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.19174,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99115,
+            "_thrs_random_forest": 0.785
+        },
+        {
+            "number": 10797,
+            "expression": "\u22a2 ( ( \ud835\udf11 \u2227 k \u2208 A ) \u2192 B = C )",
+            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 k \u2208 A ) \u2192 B = C )",
+            "step": 3,
+            "theorem": "sumeq2dv.1",
+            "ground_truth": "sumeq2dv.1 \u22a2 ( ( \ud835\udf11 \u2227 k \u2208 A ) \u2192 B = C )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.43944,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99115,
+            "_thrs_random_forest": 0.665
+        }
+    ],
+    "is_train": false
+}

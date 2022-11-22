@@ -1,0 +1,53 @@
+{
+    "theorem": "nn0re",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( A \u2208 \u21150 \u2192 A \u2208 \u211d )",
+    "steps": [
+        {
+            "number": 9077,
+            "expression": "\u22a2 ( A \u2208 \u21150 \u2192 A \u2208 \u211d )",
+            "prop_expression": "A \u2286 B \u22a2 ( C \u2208 A \u2192 C \u2208 B )",
+            "step": 1,
+            "theorem": "sseli",
+            "ground_truth": "sseli \u22a2 ( A \u2208 \u21150 \u2192 A \u2208 \u211d )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.9561,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.96658,
+            "_thrs_random_forest": 0.505
+        },
+        {
+            "number": 9077,
+            "expression": "\u22a2 \u21150 \u2286 \u211d",
+            "prop_expression": " \u22a2 \u21150 \u2286 \u211d",
+            "step": 2,
+            "theorem": "nn0ssre",
+            "ground_truth": "nn0ssre \u22a2 \u21150 \u2286 \u211d",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.77226,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99115,
+            "_thrs_random_forest": 0.725
+        }
+    ],
+    "is_train": false
+}

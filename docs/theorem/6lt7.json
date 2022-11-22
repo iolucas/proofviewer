@@ -1,0 +1,101 @@
+{
+    "theorem": "6lt7",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "6 < 7",
+    "steps": [
+        {
+            "number": 9013,
+            "expression": "\u22a2 6 < 7",
+            "prop_expression": "A R B, C = B \u22a2 A R C",
+            "step": 1,
+            "theorem": "breqtrri",
+            "ground_truth": "breqtrri \u22a2 6 < 7",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.23869,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.99508,
+            "_thrs_random_forest": 0.845
+        },
+        {
+            "number": 9013,
+            "expression": "\u22a2 6 < ( 6 + 1 )",
+            "prop_expression": "A \u2208 \u211d \u22a2 A < ( A + 1 )",
+            "step": 2,
+            "theorem": "ltp1i",
+            "ground_truth": "ltp1i \u22a2 6 < ( 6 + 1 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.19463,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.96658,
+            "_thrs_random_forest": 0.735
+        },
+        {
+            "number": 9013,
+            "expression": "\u22a2 6 \u2208 \u211d",
+            "prop_expression": " \u22a2 6 \u2208 \u211d",
+            "step": 3,
+            "theorem": "6re",
+            "ground_truth": "6re \u22a2 6 \u2208 \u211d",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.80619,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.2,
+            "_thrs_interestingness": 0.54,
+            "_thrs_logistic_regression": 0.59915,
+            "_thrs_random_forest": 0.6
+        },
+        {
+            "number": 9013,
+            "expression": "\u22a2 7 = ( 6 + 1 )",
+            "prop_expression": " \u22a2 7 = ( 6 + 1 )",
+            "step": 4,
+            "theorem": "df-7",
+            "ground_truth": "df-7 \u22a2 7 = ( 6 + 1 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.42558,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.2,
+            "_thrs_interestingness": 0.34,
+            "_thrs_logistic_regression": 0.98699,
+            "_thrs_random_forest": 0.875
+        }
+    ],
+    "is_train": false
+}

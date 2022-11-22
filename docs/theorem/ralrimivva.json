@@ -13,6 +13,7 @@
     "expression": "( \ud835\udf11 \u2192 \u2200 x \u2208 A \u2200 y \u2208 B \ud835\udf13 )",
     "steps": [
         {
+            "number": 2353,
             "expression": "\u22a2 ( \ud835\udf11 \u2192 \u2200 x \u2208 A \u2200 y \u2208 B \ud835\udf13 )",
             "prop_expression": "( \ud835\udf11 \u2192 ( ( x \u2208 A \u2227 y \u2208 B ) \u2192 \ud835\udf13 ) ) \u22a2 ( \ud835\udf11 \u2192 \u2200 x \u2208 A \u2200 y \u2208 B \ud835\udf13 )",
             "step": 1,
@@ -20,7 +21,7 @@
             "ground_truth": "ralrimivv \u22a2 ( \ud835\udf11 \u2192 \u2200 x \u2208 A \u2200 y \u2208 B \ud835\udf13 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.4877,
+            "_thrs_random_uniform": 0.09257,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.5,
@@ -32,6 +33,7 @@
             "_thrs_random_forest": 0.925
         },
         {
+            "number": 2353,
             "expression": "\u22a2 ( \ud835\udf11 \u2192 ( ( x \u2208 A \u2227 y \u2208 B ) \u2192 \ud835\udf13 ) )",
             "prop_expression": "( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf12 ) )",
             "step": 2,
@@ -39,7 +41,7 @@
             "ground_truth": "ex \u22a2 ( \ud835\udf11 \u2192 ( ( x \u2208 A \u2227 y \u2208 B ) \u2192 \ud835\udf13 ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.81011,
+            "_thrs_random_uniform": 0.48354,
             "_thrs_reconstruct": 0.33607,
             "_thrs_obviousness": 0.25157,
             "_thrs_weight": 0.5,
@@ -51,6 +53,7 @@
             "_thrs_random_forest": 0.805
         },
         {
+            "number": 2353,
             "expression": "\u22a2 ( ( \ud835\udf11 \u2227 ( x \u2208 A \u2227 y \u2208 B ) ) \u2192 \ud835\udf13 )",
             "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 ( x \u2208 A \u2227 y \u2208 B ) ) \u2192 \ud835\udf13 )",
             "step": 3,
@@ -58,7 +61,7 @@
             "ground_truth": "ralrimivva.1 \u22a2 ( ( \ud835\udf11 \u2227 ( x \u2208 A \u2227 y \u2208 B ) ) \u2192 \ud835\udf13 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.45767,
+            "_thrs_random_uniform": 0.26221,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.5,
@@ -69,5 +72,6 @@
             "_thrs_logistic_regression": 0.80004,
             "_thrs_random_forest": 0.76
         }
-    ]
+    ],
+    "is_train": true
 }

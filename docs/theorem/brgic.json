@@ -1,0 +1,77 @@
+{
+    "theorem": "brgic",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( R ~=g S \u2194 ( R GrpIso S ) \u2260 \u2205 )",
+    "steps": [
+        {
+            "number": 12748,
+            "expression": "\u22a2 ( R ~=g S \u2194 ( R GrpIso S ) \u2260 \u2205 )",
+            "prop_expression": "R = ( `' O \u201c ( V \u2216 1o ) ), O Fn X \u22a2 ( A R B \u2194 ( A O B ) \u2260 \u2205 )",
+            "step": 1,
+            "theorem": "brwitnlem",
+            "ground_truth": "brwitnlem \u22a2 ( R ~=g S \u2194 ( R GrpIso S ) \u2260 \u2205 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.2474,
+            "_thrs_reconstruct": 0.69247,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.66667,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.28571,
+            "_thrs_interestingness": 0.39048,
+            "_thrs_logistic_regression": 0.89989,
+            "_thrs_random_forest": 0.735
+        },
+        {
+            "number": 12748,
+            "expression": "\u22a2 ~=g = ( `' GrpIso \u201c ( V \u2216 1o ) )",
+            "prop_expression": " \u22a2 ~=g = ( `' GrpIso \u201c ( V \u2216 1o ) )",
+            "step": 2,
+            "theorem": "df-gic",
+            "ground_truth": "df-gic \u22a2 ~=g = ( `' GrpIso \u201c ( V \u2216 1o ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.69741,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.99972,
+            "_thrs_random_forest": 0.82
+        },
+        {
+            "number": 12748,
+            "expression": "\u22a2 GrpIso Fn ( Grp \u00d7 Grp )",
+            "prop_expression": " \u22a2 GrpIso Fn ( Grp \u00d7 Grp )",
+            "step": 3,
+            "theorem": "gimfn",
+            "ground_truth": "gimfn \u22a2 GrpIso Fn ( Grp \u00d7 Grp )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.63298,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.59085,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.4,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.59817,
+            "_thrs_logistic_regression": 0.35609,
+            "_thrs_random_forest": 0.72
+        }
+    ],
+    "is_train": false
+}

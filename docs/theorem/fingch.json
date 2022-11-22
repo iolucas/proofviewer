@@ -1,0 +1,77 @@
+{
+    "theorem": "fingch",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "Fin \u2286 GCH",
+    "steps": [
+        {
+            "number": 7710,
+            "expression": "\u22a2 Fin \u2286 GCH",
+            "prop_expression": "A \u2286 B, C = B \u22a2 A \u2286 C",
+            "step": 1,
+            "theorem": "sseqtr4i",
+            "ground_truth": "sseqtr4i \u22a2 Fin \u2286 GCH",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.00796,
+            "_thrs_reconstruct": 0.01798,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.99508,
+            "_thrs_random_forest": 0.86
+        },
+        {
+            "number": 7710,
+            "expression": "\u22a2 Fin \u2286 ( Fin \u222a { x | \u2200 y \u00ac ( x \u227a y \u2227 y \u227a \ud835\udcab x ) } )",
+            "prop_expression": " \u22a2 A \u2286 ( A \u222a B )",
+            "step": 2,
+            "theorem": "ssun1",
+            "ground_truth": "ssun1 \u22a2 Fin \u2286 ( Fin \u222a { x | \u2200 y \u00ac ( x \u227a y \u2227 y \u227a \ud835\udcab x ) } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.71662,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.98234,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.39647,
+            "_thrs_logistic_regression": 0.93637,
+            "_thrs_random_forest": 0.84
+        },
+        {
+            "number": 7710,
+            "expression": "\u22a2 GCH = ( Fin \u222a { x | \u2200 y \u00ac ( x \u227a y \u2227 y \u227a \ud835\udcab x ) } )",
+            "prop_expression": " \u22a2 GCH = ( Fin \u222a { x | \u2200 y \u00ac ( x \u227a y \u2227 y \u227a \ud835\udcab x ) } )",
+            "step": 3,
+            "theorem": "df-gch",
+            "ground_truth": "df-gch \u22a2 GCH = ( Fin \u222a { x | \u2200 y \u00ac ( x \u227a y \u2227 y \u227a \ud835\udcab x ) } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.21534,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.1,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.01735,
+            "_thrs_interestingness": 0.22347,
+            "_thrs_logistic_regression": 0.95083,
+            "_thrs_random_forest": 0.91
+        }
+    ],
+    "is_train": false
+}

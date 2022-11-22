@@ -17,6 +17,7 @@
     "expression": "( \ud835\udf11 \u2192 A = C )",
     "steps": [
         {
+            "number": 2106,
             "expression": "\u22a2 ( \ud835\udf11 \u2192 A = C )",
             "prop_expression": "A = B, ( \ud835\udf11 \u2192 B = C ) \u22a2 ( \ud835\udf11 \u2192 A = C )",
             "step": 1,
@@ -24,7 +25,7 @@
             "ground_truth": "syl5eq \u22a2 ( \ud835\udf11 \u2192 A = C )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.18823,
+            "_thrs_random_uniform": 0.26789,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.0,
@@ -36,6 +37,7 @@
             "_thrs_random_forest": 0.81
         },
         {
+            "number": 2106,
             "expression": "\u22a2 A = B",
             "prop_expression": "A = B \u22a2 B = A",
             "step": 2,
@@ -43,7 +45,7 @@
             "ground_truth": "eqcomi \u22a2 A = B",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.49986,
+            "_thrs_random_uniform": 0.36968,
             "_thrs_reconstruct": 0.07292,
             "_thrs_obviousness": 0.06797,
             "_thrs_weight": 1.0,
@@ -55,6 +57,7 @@
             "_thrs_random_forest": 0.85
         },
         {
+            "number": 2106,
             "expression": "\u22a2 B = A",
             "prop_expression": " \u22a2 B = A",
             "step": 3,
@@ -62,7 +65,7 @@
             "ground_truth": "syl5eqr.1 \u22a2 B = A",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.99208,
+            "_thrs_random_uniform": 0.6351,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
@@ -74,6 +77,7 @@
             "_thrs_random_forest": 0.915
         },
         {
+            "number": 2106,
             "expression": "\u22a2 ( \ud835\udf11 \u2192 B = C )",
             "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 B = C )",
             "step": 4,
@@ -81,7 +85,7 @@
             "ground_truth": "syl5eqr.2 \u22a2 ( \ud835\udf11 \u2192 B = C )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.19023,
+            "_thrs_random_uniform": 0.97647,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.0,
@@ -92,5 +96,6 @@
             "_thrs_logistic_regression": 0.9412,
             "_thrs_random_forest": 0.99
         }
-    ]
+    ],
+    "is_train": true
 }

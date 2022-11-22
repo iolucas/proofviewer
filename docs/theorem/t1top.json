@@ -1,0 +1,77 @@
+{
+    "theorem": "t1top",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( J \u2208 Fre \u2192 J \u2208 Top )",
+    "steps": [
+        {
+            "number": 14879,
+            "expression": "\u22a2 ( J \u2208 Fre \u2192 J \u2208 Top )",
+            "prop_expression": "( \ud835\udf11 \u2194 ( \ud835\udf13 \u2227 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
+            "step": 1,
+            "theorem": "simplbi",
+            "ground_truth": "simplbi \u22a2 ( J \u2208 Fre \u2192 J \u2208 Top )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.62183,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.81818,
+            "_thrs_complexity": 0.66667,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.79697,
+            "_thrs_logistic_regression": 0.99788,
+            "_thrs_random_forest": 0.845
+        },
+        {
+            "number": 14879,
+            "expression": "\u22a2 ( J \u2208 Fre \u2194 ( J \u2208 Top \u2227 \u2200 x \u2208 U. J { x } \u2208 ( Clsd ` J ) ) )",
+            "prop_expression": "X = U. J \u22a2 ( J \u2208 Fre \u2194 ( J \u2208 Top \u2227 \u2200 a \u2208 X { a } \u2208 ( Clsd ` J ) ) )",
+            "step": 2,
+            "theorem": "ist1",
+            "ground_truth": "ist1 \u22a2 ( J \u2208 Fre \u2194 ( J \u2208 Top \u2227 \u2200 x \u2208 U. J { x } \u2208 ( Clsd ` J ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.61222,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.75556,
+            "_thrs_interestingness": 0.45111,
+            "_thrs_logistic_regression": 0.99941,
+            "_thrs_random_forest": 0.805
+        },
+        {
+            "number": 14879,
+            "expression": "\u22a2 U. J = U. J",
+            "prop_expression": " \u22a2 A = A",
+            "step": 3,
+            "theorem": "eqid",
+            "ground_truth": "eqid \u22a2 U. J = U. J",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.25582,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.33688,
+            "_thrs_random_forest": 0.74
+        }
+    ],
+    "is_train": false
+}

@@ -1,0 +1,77 @@
+{
+    "theorem": "psrel",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( A \u2208 Pos\u03b7Rel \u2192 Rel A )",
+    "steps": [
+        {
+            "number": 12179,
+            "expression": "\u22a2 ( A \u2208 Pos\u03b7Rel \u2192 Rel A )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2227 \ud835\udf12 \u2227 \ud835\udf03 ) ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
+            "step": 1,
+            "theorem": "simp1d",
+            "ground_truth": "simp1d \u22a2 ( A \u2208 Pos\u03b7Rel \u2192 Rel A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.05401,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.765
+        },
+        {
+            "number": 12179,
+            "expression": "\u22a2 ( A \u2208 Pos\u03b7Rel \u2192 ( Rel A \u2227 ( A \u2218 A ) \u2286 A \u2227 ( A \u2229 `' A ) = ( _I |` U. U. A ) ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf11 \u2194 \ud835\udf13 ) ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
+            "step": 2,
+            "theorem": "ibi",
+            "ground_truth": "ibi \u22a2 ( A \u2208 Pos\u03b7Rel \u2192 ( Rel A \u2227 ( A \u2218 A ) \u2286 A \u2227 ( A \u2229 `' A ) = ( _I |` U. U. A ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.96154,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.16044,
+            "_thrs_weight": 0.17647,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.74607,
+            "_thrs_interestingness": 0.3166,
+            "_thrs_logistic_regression": 0.99951,
+            "_thrs_random_forest": 0.7675
+        },
+        {
+            "number": 12179,
+            "expression": "\u22a2 ( A \u2208 Pos\u03b7Rel \u2192 ( A \u2208 Pos\u03b7Rel \u2194 ( Rel A \u2227 ( A \u2218 A ) \u2286 A \u2227 ( A \u2229 `' A ) = ( _I |` U. U. A ) ) ) )",
+            "prop_expression": " \u22a2 ( R \u2208 A \u2192 ( R \u2208 Pos\u03b7Rel \u2194 ( Rel R \u2227 ( R \u2218 R ) \u2286 R \u2227 ( R \u2229 `' R ) = ( _I |` U. U. R ) ) ) )",
+            "step": 3,
+            "theorem": "isps",
+            "ground_truth": "isps \u22a2 ( A \u2208 Pos\u03b7Rel \u2192 ( A \u2208 Pos\u03b7Rel \u2194 ( Rel A \u2227 ( A \u2218 A ) \u2286 A \u2227 ( A \u2229 `' A ) = ( _I |` U. U. A ) ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.21422,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.49
+        }
+    ],
+    "is_train": false
+}

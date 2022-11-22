@@ -1,0 +1,53 @@
+{
+    "theorem": "dfcleq",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( A = B \u2194 \u2200 x ( x \u2208 A \u2194 x \u2208 B ) )",
+    "steps": [
+        {
+            "number": 2054,
+            "expression": "\u22a2 ( A = B \u2194 \u2200 x ( x \u2208 A \u2194 x \u2208 B ) )",
+            "prop_expression": "( \u2200 x ( x \u2208 y \u2194 x \u2208 z ) \u2192 y = z ) \u22a2 ( A = B \u2194 \u2200 x ( x \u2208 A \u2194 x \u2208 B ) )",
+            "step": 1,
+            "theorem": "df-cleq",
+            "ground_truth": "df-cleq \u22a2 ( A = B \u2194 \u2200 x ( x \u2208 A \u2194 x \u2208 B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5018,
+            "_thrs_reconstruct": 0.5,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99877,
+            "_thrs_random_forest": 0.65
+        },
+        {
+            "number": 2054,
+            "expression": "\u22a2 ( \u2200 x ( x \u2208 y \u2194 x \u2208 z ) \u2192 y = z )",
+            "prop_expression": " \u22a2 ( \u2200 z ( z \u2208 x \u2194 z \u2208 y ) \u2192 x = y )",
+            "step": 2,
+            "theorem": "ax-ext",
+            "ground_truth": "ax-ext \u22a2 ( \u2200 x ( x \u2208 y \u2194 x \u2208 z ) \u2192 y = z )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.43199,
+            "_thrs_reconstruct": 0.5,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.80004,
+            "_thrs_random_forest": 0.935
+        }
+    ],
+    "is_train": false
+}

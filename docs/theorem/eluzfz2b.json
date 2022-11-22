@@ -1,0 +1,77 @@
+{
+    "theorem": "eluzfz2b",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( N \u2208 ( \u2124>= ` M ) \u2194 N \u2208 ( M ... N ) )",
+    "steps": [
+        {
+            "number": 9818,
+            "expression": "\u22a2 ( N \u2208 ( \u2124>= ` M ) \u2194 N \u2208 ( M ... N ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf13 \u2192 \ud835\udf11 ) \u22a2 ( \ud835\udf11 \u2194 \ud835\udf13 )",
+            "step": 1,
+            "theorem": "impbii",
+            "ground_truth": "impbii \u22a2 ( N \u2208 ( \u2124>= ` M ) \u2194 N \u2208 ( M ... N ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.75474,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99877,
+            "_thrs_random_forest": 0.835
+        },
+        {
+            "number": 9818,
+            "expression": "\u22a2 ( N \u2208 ( \u2124>= ` M ) \u2192 N \u2208 ( M ... N ) )",
+            "prop_expression": " \u22a2 ( N \u2208 ( \u2124>= ` M ) \u2192 N \u2208 ( M ... N ) )",
+            "step": 2,
+            "theorem": "eluzfz2",
+            "ground_truth": "eluzfz2 \u22a2 ( N \u2208 ( \u2124>= ` M ) \u2192 N \u2208 ( M ... N ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.25617,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9407,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.48814,
+            "_thrs_logistic_regression": 0.78684,
+            "_thrs_random_forest": 0.89
+        },
+        {
+            "number": 9818,
+            "expression": "\u22a2 ( N \u2208 ( M ... N ) \u2192 N \u2208 ( \u2124>= ` M ) )",
+            "prop_expression": " \u22a2 ( K \u2208 ( M ... N ) \u2192 K \u2208 ( \u2124>= ` M ) )",
+            "step": 3,
+            "theorem": "elfzuz",
+            "ground_truth": "elfzuz \u22a2 ( N \u2208 ( M ... N ) \u2192 N \u2208 ( \u2124>= ` M ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.11666,
+            "_thrs_reconstruct": 0.0593,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.80004,
+            "_thrs_random_forest": 0.845
+        }
+    ],
+    "is_train": false
+}

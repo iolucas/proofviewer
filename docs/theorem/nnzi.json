@@ -1,0 +1,77 @@
+{
+    "theorem": "nnzi",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "N \u2208 \u2124",
+    "steps": [
+        {
+            "number": 9143,
+            "expression": "\u22a2 N \u2208 \u2124",
+            "prop_expression": "A \u2286 B, C \u2208 A \u22a2 C \u2208 B",
+            "step": 1,
+            "theorem": "sselii",
+            "ground_truth": "sselii \u22a2 N \u2208 \u2124",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.84945,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.99937,
+            "_thrs_random_forest": 0.82
+        },
+        {
+            "number": 9143,
+            "expression": "\u22a2 \u2115 \u2286 \u2124",
+            "prop_expression": " \u22a2 \u2115 \u2286 \u2124",
+            "step": 2,
+            "theorem": "nnssz",
+            "ground_truth": "nnssz \u22a2 \u2115 \u2286 \u2124",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.43544,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.65106,
+            "_thrs_random_forest": 0.805
+        },
+        {
+            "number": 9143,
+            "expression": "\u22a2 N \u2208 \u2115",
+            "prop_expression": " \u22a2 N \u2208 \u2115",
+            "step": 3,
+            "theorem": "nnzi.1",
+            "ground_truth": "nnzi.1 \u22a2 N \u2208 \u2115",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.27342,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.67025,
+            "_thrs_random_forest": 0.85
+        }
+    ],
+    "is_train": false
+}

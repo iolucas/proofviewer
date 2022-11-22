@@ -1,0 +1,77 @@
+{
+    "theorem": "crngmgp",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( R \u2208 CRing \u2192 G \u2208 CMnd )",
+    "steps": [
+        {
+            "number": 13084,
+            "expression": "\u22a2 ( R \u2208 CRing \u2192 G \u2208 CMnd )",
+            "prop_expression": "( \ud835\udf11 \u2194 ( \ud835\udf13 \u2227 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "simprbi",
+            "ground_truth": "simprbi \u22a2 ( R \u2208 CRing \u2192 G \u2208 CMnd )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.85432,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.6,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.72,
+            "_thrs_logistic_regression": 0.99888,
+            "_thrs_random_forest": 0.74
+        },
+        {
+            "number": 13084,
+            "expression": "\u22a2 ( R \u2208 CRing \u2194 ( R \u2208 Ring \u2227 G \u2208 CMnd ) )",
+            "prop_expression": "G = ( mulGrp ` R ) \u22a2 ( R \u2208 CRing \u2194 ( R \u2208 Ring \u2227 G \u2208 CMnd ) )",
+            "step": 2,
+            "theorem": "iscrng",
+            "ground_truth": "iscrng \u22a2 ( R \u2208 CRing \u2194 ( R \u2208 Ring \u2227 G \u2208 CMnd ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.38817,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.96658,
+            "_thrs_random_forest": 0.835
+        },
+        {
+            "number": 13084,
+            "expression": "\u22a2 G = ( mulGrp ` R )",
+            "prop_expression": " \u22a2 G = ( mulGrp ` R )",
+            "step": 3,
+            "theorem": "rngmgp.g",
+            "ground_truth": "rngmgp.g \u22a2 G = ( mulGrp ` R )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.42813,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.57143,
+            "_thrs_interestingness": 0.61429,
+            "_thrs_logistic_regression": 0.91728,
+            "_thrs_random_forest": 0.905
+        }
+    ],
+    "is_train": false
+}

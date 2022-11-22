@@ -1,0 +1,77 @@
+{
+    "theorem": "simp1i",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "\ud835\udf11",
+    "steps": [
+        {
+            "number": 919,
+            "expression": "\u22a2 \ud835\udf11",
+            "prop_expression": "\ud835\udf11, ( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 \ud835\udf13",
+            "step": 1,
+            "theorem": "ax-mp",
+            "ground_truth": "ax-mp \u22a2 \ud835\udf11",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.99949,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.965
+        },
+        {
+            "number": 919,
+            "expression": "\u22a2 ( \ud835\udf11 \u2227 \ud835\udf13 \u2227 \ud835\udf12 )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2227 \ud835\udf13 \u2227 \ud835\udf12 )",
+            "step": 2,
+            "theorem": "3simp1i.1",
+            "ground_truth": "3simp1i.1 \u22a2 ( \ud835\udf11 \u2227 \ud835\udf13 \u2227 \ud835\udf12 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.28551,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.33333,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.15789,
+            "_thrs_interestingness": 0.19825,
+            "_thrs_logistic_regression": 0.99024,
+            "_thrs_random_forest": 0.99
+        },
+        {
+            "number": 919,
+            "expression": "\u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf11 )",
+            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf11 )",
+            "step": 3,
+            "theorem": "simp1",
+            "ground_truth": "simp1 \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf11 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.55571,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.9988,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.29976,
+            "_thrs_logistic_regression": 0.96659,
+            "_thrs_random_forest": 0.925
+        }
+    ],
+    "is_train": false
+}

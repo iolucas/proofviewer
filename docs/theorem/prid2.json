@@ -1,0 +1,101 @@
+{
+    "theorem": "prid2",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "B \u2208 { A , B }",
+    "steps": [
+        {
+            "number": 3344,
+            "expression": "\u22a2 B \u2208 { A , B }",
+            "prop_expression": "A \u2208 B, B = C \u22a2 A \u2208 C",
+            "step": 1,
+            "theorem": "eleqtri",
+            "ground_truth": "eleqtri \u22a2 B \u2208 { A , B }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.68026,
+            "_thrs_reconstruct": 9e-05,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.99969,
+            "_thrs_random_forest": 0.885
+        },
+        {
+            "number": 3344,
+            "expression": "\u22a2 B \u2208 { B , A }",
+            "prop_expression": "A \u2208 V \u22a2 A \u2208 { A , B }",
+            "step": 2,
+            "theorem": "prid1",
+            "ground_truth": "prid1 \u22a2 B \u2208 { B , A }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5325,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.5001,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.16667,
+            "_thrs_interestingness": 0.33335,
+            "_thrs_logistic_regression": 0.97416,
+            "_thrs_random_forest": 0.9
+        },
+        {
+            "number": 3344,
+            "expression": "\u22a2 B \u2208 V",
+            "prop_expression": " \u22a2 B \u2208 V",
+            "step": 3,
+            "theorem": "prid2.1",
+            "ground_truth": "prid2.1 \u22a2 B \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.20639,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.33333,
+            "_thrs_interestingness": 0.46667,
+            "_thrs_logistic_regression": 0.99603,
+            "_thrs_random_forest": 0.965
+        },
+        {
+            "number": 3344,
+            "expression": "\u22a2 { B , A } = { A , B }",
+            "prop_expression": " \u22a2 { A , B } = { B , A }",
+            "step": 4,
+            "theorem": "prcom",
+            "ground_truth": "prcom \u22a2 { B , A } = { A , B }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.26095,
+            "_thrs_reconstruct": 0.99949,
+            "_thrs_obviousness": 0.49985,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.29997,
+            "_thrs_logistic_regression": 0.26963,
+            "_thrs_random_forest": 0.65
+        }
+    ],
+    "is_train": false
+}

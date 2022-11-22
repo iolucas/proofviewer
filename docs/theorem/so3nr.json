@@ -13,6 +13,7 @@
     "expression": "( ( R Or A \u2227 ( B \u2208 A \u2227 C \u2208 A \u2227 D \u2208 A ) ) \u2192 \u00ac ( B R C \u2227 C R D \u2227 D R B ) )",
     "steps": [
         {
+            "number": 3889,
             "expression": "\u22a2 ( ( R Or A \u2227 ( B \u2208 A \u2227 C \u2208 A \u2227 D \u2208 A ) ) \u2192 \u00ac ( B R C \u2227 C R D \u2227 D R B ) )",
             "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( ( \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 )",
             "step": 1,
@@ -20,7 +21,7 @@
             "ground_truth": "sylan \u22a2 ( ( R Or A \u2227 ( B \u2208 A \u2227 C \u2208 A \u2227 D \u2208 A ) ) \u2192 \u00ac ( B R C \u2227 C R D \u2227 D R B ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.40392,
+            "_thrs_random_uniform": 0.00945,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.0,
@@ -32,6 +33,7 @@
             "_thrs_random_forest": 0.89
         },
         {
+            "number": 3889,
             "expression": "\u22a2 ( R Or A \u2192 R Po A )",
             "prop_expression": " \u22a2 ( R Or A \u2192 R Po A )",
             "step": 2,
@@ -39,7 +41,7 @@
             "ground_truth": "sopo \u22a2 ( R Or A \u2192 R Po A )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.45962,
+            "_thrs_random_uniform": 0.93097,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
@@ -51,6 +53,7 @@
             "_thrs_random_forest": 0.79
         },
         {
+            "number": 3889,
             "expression": "\u22a2 ( ( R Po A \u2227 ( B \u2208 A \u2227 C \u2208 A \u2227 D \u2208 A ) ) \u2192 \u00ac ( B R C \u2227 C R D \u2227 D R B ) )",
             "prop_expression": " \u22a2 ( ( R Po A \u2227 ( B \u2208 A \u2227 C \u2208 A \u2227 D \u2208 A ) ) \u2192 \u00ac ( B R C \u2227 C R D \u2227 D R B ) )",
             "step": 3,
@@ -58,7 +61,7 @@
             "ground_truth": "po3nr \u22a2 ( ( R Po A \u2227 ( B \u2208 A \u2227 C \u2208 A \u2227 D \u2208 A ) ) \u2192 \u00ac ( B R C \u2227 C R D \u2227 D R B ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.4535,
+            "_thrs_random_uniform": 0.20902,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.0,
@@ -69,5 +72,6 @@
             "_thrs_logistic_regression": 0.93628,
             "_thrs_random_forest": 0.73
         }
-    ]
+    ],
+    "is_train": true
 }

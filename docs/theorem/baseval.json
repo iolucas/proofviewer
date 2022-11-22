@@ -1,0 +1,77 @@
+{
+    "theorem": "baseval",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( Base ` K ) = ( K ` 1 )",
+    "steps": [
+        {
+            "number": 11669,
+            "expression": "\u22a2 ( Base ` K ) = ( K ` 1 )",
+            "prop_expression": "S \u2208 V, E = Slot N \u22a2 ( E ` S ) = ( S ` N )",
+            "step": 1,
+            "theorem": "strfvn",
+            "ground_truth": "strfvn \u22a2 ( Base ` K ) = ( K ` 1 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.30115,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.96658,
+            "_thrs_random_forest": 0.735
+        },
+        {
+            "number": 11669,
+            "expression": "\u22a2 K \u2208 V",
+            "prop_expression": " \u22a2 K \u2208 V",
+            "step": 2,
+            "theorem": "baseval.k",
+            "ground_truth": "baseval.k \u22a2 K \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.12319,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99115,
+            "_thrs_random_forest": 0.91167
+        },
+        {
+            "number": 11669,
+            "expression": "\u22a2 Base = Slot 1",
+            "prop_expression": " \u22a2 Base = Slot 1",
+            "step": 3,
+            "theorem": "df-base",
+            "ground_truth": "df-base \u22a2 Base = Slot 1",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.30697,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99115,
+            "_thrs_random_forest": 0.91167
+        }
+    ],
+    "is_train": false
+}

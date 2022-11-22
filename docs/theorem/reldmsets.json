@@ -1,0 +1,53 @@
+{
+    "theorem": "reldmsets",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "Rel dom sS\u03b7",
+    "steps": [
+        {
+            "number": 11653,
+            "expression": "\u22a2 Rel dom sS\u03b7",
+            "prop_expression": "F = ( x \u2208 A , y \u2208 B |\u2192 C ) \u22a2 Rel dom F",
+            "step": 1,
+            "theorem": "reldmmpt2",
+            "ground_truth": "reldmmpt2 \u22a2 Rel dom sS\u03b7",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.17222,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.7
+        },
+        {
+            "number": 11653,
+            "expression": "\u22a2 sS\u03b7 = ( s \u2208 V , e \u2208 V |\u2192 ( ( s |` ( V \u2216 dom { e } ) ) \u222a { e } ) )",
+            "prop_expression": " \u22a2 sS\u03b7 = ( s \u2208 V , e \u2208 V |\u2192 ( ( s |` ( V \u2216 dom { e } ) ) \u222a { e } ) )",
+            "step": 2,
+            "theorem": "df-sets",
+            "ground_truth": "df-sets \u22a2 sS\u03b7 = ( s \u2208 V , e \u2208 V |\u2192 ( ( s |` ( V \u2216 dom { e } ) ) \u222a { e } ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.32411,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.785
+        }
+    ],
+    "is_train": false
+}

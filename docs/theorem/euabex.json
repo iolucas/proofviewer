@@ -1,0 +1,77 @@
+{
+    "theorem": "euabex",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( E! x \ud835\udf11 \u2192 { x | \ud835\udf11 } \u2208 V )",
+    "steps": [
+        {
+            "number": 3787,
+            "expression": "\u22a2 ( E! x \ud835\udf11 \u2192 { x | \ud835\udf11 } \u2208 V )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf13 \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "syl",
+            "ground_truth": "syl \u22a2 ( E! x \ud835\udf11 \u2192 { x | \ud835\udf11 } \u2208 V )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.07249,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.99969,
+            "_thrs_random_forest": 0.885
+        },
+        {
+            "number": 3787,
+            "expression": "\u22a2 ( E! x \ud835\udf11 \u2192 \u2203* x \ud835\udf11 )",
+            "prop_expression": " \u22a2 ( E! x \ud835\udf11 \u2192 \u2203* x \ud835\udf11 )",
+            "step": 2,
+            "theorem": "eumo",
+            "ground_truth": "eumo \u22a2 ( E! x \ud835\udf11 \u2192 \u2203* x \ud835\udf11 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.78766,
+            "_thrs_reconstruct": 0.04217,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.5,
+            "_thrs_random_forest": 0.62
+        },
+        {
+            "number": 3787,
+            "expression": "\u22a2 ( \u2203* x \ud835\udf11 \u2192 { x | \ud835\udf11 } \u2208 V )",
+            "prop_expression": " \u22a2 ( \u2203* x \ud835\udf11 \u2192 { x | \ud835\udf11 } \u2208 V )",
+            "step": 3,
+            "theorem": "moabex",
+            "ground_truth": "moabex \u22a2 ( \u2203* x \ud835\udf11 \u2192 { x | \ud835\udf11 } \u2208 V )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.35988,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.95783,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.14286,
+            "_thrs_interestingness": 0.42014,
+            "_thrs_logistic_regression": 0.96958,
+            "_thrs_random_forest": 0.8925
+        }
+    ],
+    "is_train": false
+}

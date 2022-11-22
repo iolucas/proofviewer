@@ -1,0 +1,53 @@
+{
+    "theorem": "toponuni",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( J \u2208 ( TopOn ` B ) \u2192 B = U. J )",
+    "steps": [
+        {
+            "number": 14502,
+            "expression": "\u22a2 ( J \u2208 ( TopOn ` B ) \u2192 B = U. J )",
+            "prop_expression": "( \ud835\udf11 \u2194 ( \ud835\udf13 \u2227 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "simprbi",
+            "ground_truth": "simprbi \u22a2 ( J \u2208 ( TopOn ` B ) \u2192 B = U. J )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.78817,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.61667
+        },
+        {
+            "number": 14502,
+            "expression": "\u22a2 ( J \u2208 ( TopOn ` B ) \u2194 ( J \u2208 Top \u2227 B = U. J ) )",
+            "prop_expression": " \u22a2 ( J \u2208 ( TopOn ` B ) \u2194 ( J \u2208 Top \u2227 B = U. J ) )",
+            "step": 2,
+            "theorem": "istopon",
+            "ground_truth": "istopon \u22a2 ( J \u2208 ( TopOn ` B ) \u2194 ( J \u2208 Top \u2227 B = U. J ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.5029,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.78
+        }
+    ],
+    "is_train": false
+}

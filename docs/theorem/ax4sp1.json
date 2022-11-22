@@ -1,0 +1,53 @@
+{
+    "theorem": "ax4sp1",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( \u2200 y \u00ac x = x \u2192 \u00ac x = x )",
+    "steps": [
+        {
+            "number": 1583,
+            "expression": "\u22a2 ( \u2200 y \u00ac x = x \u2192 \u00ac x = x )",
+            "prop_expression": "\u00ac \ud835\udf11 \u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
+            "step": 1,
+            "theorem": "pm2.21i",
+            "ground_truth": "pm2.21i \u22a2 ( \u2200 y \u00ac x = x \u2192 \u00ac x = x )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.96466,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.6951,
+            "_thrs_random_forest": 0.54
+        },
+        {
+            "number": 1583,
+            "expression": "\u22a2 \u00ac \u2200 y \u00ac x = x",
+            "prop_expression": " \u22a2 \u00ac \u2200 y \u00ac x = x",
+            "step": 2,
+            "theorem": "equidqe",
+            "ground_truth": "equidqe \u22a2 \u00ac \u2200 y \u00ac x = x",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.92313,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.9993,
+            "_thrs_random_forest": 0.825
+        }
+    ],
+    "is_train": false
+}

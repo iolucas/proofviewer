@@ -1,0 +1,77 @@
+{
+    "theorem": "fv4",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( F ` A ) = ( io\ud835\udf0f x A F x )",
+    "steps": [
+        {
+            "number": 5798,
+            "expression": "\u22a2 ( F ` A ) = ( io\ud835\udf0f x A F x )",
+            "prop_expression": "A = B, C = B \u22a2 A = C",
+            "step": 1,
+            "theorem": "eqtr4i",
+            "ground_truth": "eqtr4i \u22a2 ( F ` A ) = ( io\ud835\udf0f x A F x )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.02458,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.66667,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.93333,
+            "_thrs_logistic_regression": 0.98796,
+            "_thrs_random_forest": 0.835
+        },
+        {
+            "number": 5798,
+            "expression": "\u22a2 ( F ` A ) = U. { y | \u2200 x ( A F x \u2194 x = y ) }",
+            "prop_expression": " \u22a2 ( F ` A ) = U. { x | \u2200 y ( A F y \u2194 y = x ) }",
+            "step": 2,
+            "theorem": "fv2",
+            "ground_truth": "fv2 \u22a2 ( F ` A ) = U. { y | \u2200 x ( A F x \u2194 x = y ) }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.21923,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.99994,
+            "_thrs_weight": 0.2,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.07261,
+            "_thrs_interestingness": 0.45451,
+            "_thrs_logistic_regression": 0.96338,
+            "_thrs_random_forest": 0.95
+        },
+        {
+            "number": 5798,
+            "expression": "\u22a2 ( io\ud835\udf0f x A F x ) = U. { y | \u2200 x ( A F x \u2194 x = y ) }",
+            "prop_expression": " \u22a2 ( io\ud835\udf0f x \ud835\udf11 ) = U. { y | \u2200 x ( \ud835\udf11 \u2194 x = y ) }",
+            "step": 3,
+            "theorem": "dfiota2",
+            "ground_truth": "dfiota2 \u22a2 ( io\ud835\udf0f x A F x ) = U. { y | \u2200 x ( A F x \u2194 x = y ) }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.75938,
+            "_thrs_reconstruct": 6e-05,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.83018,
+            "_thrs_random_forest": 0.845
+        }
+    ],
+    "is_train": false
+}

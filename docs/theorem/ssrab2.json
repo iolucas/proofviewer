@@ -1,0 +1,77 @@
+{
+    "theorem": "ssrab2",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "{ x \u2208 A | \ud835\udf11 } \u2286 A",
+    "steps": [
+        {
+            "number": 2888,
+            "expression": "\u22a2 { x \u2208 A | \ud835\udf11 } \u2286 A",
+            "prop_expression": "A = B, B \u2286 C \u22a2 A \u2286 C",
+            "step": 1,
+            "theorem": "eqsstri",
+            "ground_truth": "eqsstri \u22a2 { x \u2208 A | \ud835\udf11 } \u2286 A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.25511,
+            "_thrs_reconstruct": 0.05035,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.99988,
+            "_thrs_random_forest": 0.975
+        },
+        {
+            "number": 2888,
+            "expression": "\u22a2 { x \u2208 A | \ud835\udf11 } = { x | ( x \u2208 A \u2227 \ud835\udf11 ) }",
+            "prop_expression": " \u22a2 { x \u2208 A | \ud835\udf11 } = { x | ( x \u2208 A \u2227 \ud835\udf11 ) }",
+            "step": 2,
+            "theorem": "df-rab",
+            "ground_truth": "df-rab \u22a2 { x \u2208 A | \ud835\udf11 } = { x | ( x \u2208 A \u2227 \ud835\udf11 ) }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.72454,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.27813,
+            "_thrs_random_forest": 0.94
+        },
+        {
+            "number": 2888,
+            "expression": "\u22a2 { x | ( x \u2208 A \u2227 \ud835\udf11 ) } \u2286 A",
+            "prop_expression": " \u22a2 { x | ( x \u2208 A \u2227 \ud835\udf11 ) } \u2286 A",
+            "step": 3,
+            "theorem": "ssab2",
+            "ground_truth": "ssab2 \u22a2 { x | ( x \u2208 A \u2227 \ud835\udf11 ) } \u2286 A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.92812,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.95206,
+            "_thrs_weight": 0.66667,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.12143,
+            "_thrs_interestingness": 0.54803,
+            "_thrs_logistic_regression": 0.9817,
+            "_thrs_random_forest": 0.875
+        }
+    ],
+    "is_train": false
+}

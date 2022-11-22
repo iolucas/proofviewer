@@ -1,0 +1,77 @@
+{
+    "theorem": "tru",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "T.",
+    "steps": [
+        {
+            "number": 1257,
+            "expression": "\u22a2 T.",
+            "prop_expression": "\ud835\udf13, ( \ud835\udf11 \u2194 \ud835\udf13 ) \u22a2 \ud835\udf11",
+            "step": 1,
+            "theorem": "mpbir",
+            "ground_truth": "mpbir \u22a2 T.",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.07923,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.99508,
+            "_thrs_random_forest": 0.915
+        },
+        {
+            "number": 1257,
+            "expression": "\u22a2 ( \ud835\udf11 \u2194 \ud835\udf11 )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2194 \ud835\udf11 )",
+            "step": 2,
+            "theorem": "biid",
+            "ground_truth": "biid \u22a2 ( \ud835\udf11 \u2194 \ud835\udf11 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.45415,
+            "_thrs_reconstruct": 0.15287,
+            "_thrs_obviousness": 0.13253,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.32651,
+            "_thrs_logistic_regression": 0.38031,
+            "_thrs_random_forest": 0.895
+        },
+        {
+            "number": 1257,
+            "expression": "\u22a2 ( T. \u2194 ( \ud835\udf11 \u2194 \ud835\udf11 ) )",
+            "prop_expression": " \u22a2 ( T. \u2194 ( \ud835\udf11 \u2194 \ud835\udf11 ) )",
+            "step": 3,
+            "theorem": "df-tru",
+            "ground_truth": "df-tru \u22a2 ( T. \u2194 ( \ud835\udf11 \u2194 \ud835\udf11 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.87981,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.08333,
+            "_thrs_interestingness": 0.21667,
+            "_thrs_logistic_regression": 0.96168,
+            "_thrs_random_forest": 0.915
+        }
+    ],
+    "is_train": false
+}

@@ -1,0 +1,53 @@
+{
+    "theorem": "enqbreq",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( ( ( A \u2208 N. \u2227 B \u2208 N. ) \u2227 ( C \u2208 N. \u2227 D \u2208 N. ) ) \u2192 ( \u27e8 A , B \u27e9 ~Q \u27e8 C , D \u27e9 \u2194 ( A .N D ) = ( B .N C ) ) )",
+    "steps": [
+        {
+            "number": 7956,
+            "expression": "\u22a2 ( ( ( A \u2208 N. \u2227 B \u2208 N. ) \u2227 ( C \u2208 N. \u2227 D \u2208 N. ) ) \u2192 ( \u27e8 A , B \u27e9 ~Q \u27e8 C , D \u27e9 \u2194 ( A .N D ) = ( B .N C ) ) )",
+            "prop_expression": ".~ = { \u27e8 x , y \u27e9 | ( ( x \u2208 ( S \u00d7 S ) \u2227 y \u2208 ( S \u00d7 S ) ) \u2227 \u2203 z \u2203 w \u2203 v \u2203 u ( ( x = \u27e8 z , w \u27e9 \u2227 y = \u27e8 v , u \u27e9 ) \u2227 ( z .+ u ) = ( w .+ v ) ) ) } \u22a2 ( ( ( A \u2208 S \u2227 B \u2208 S ) \u2227 ( C \u2208 S \u2227 D \u2208 S ) ) \u2192 ( \u27e8 A , B \u27e9 .~ \u27e8 C , D \u27e9 \u2194 ( A .+ D ) = ( B .+ C ) ) )",
+            "step": 1,
+            "theorem": "ecopoveq",
+            "ground_truth": "ecopoveq \u22a2 ( ( ( A \u2208 N. \u2227 B \u2208 N. ) \u2227 ( C \u2208 N. \u2227 D \u2208 N. ) ) \u2192 ( \u27e8 A , B \u27e9 ~Q \u27e8 C , D \u27e9 \u2194 ( A .N D ) = ( B .N C ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.60105,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.525
+        },
+        {
+            "number": 7956,
+            "expression": "\u22a2 ~Q = { \u27e8 x , y \u27e9 | ( ( x \u2208 ( N. \u00d7 N. ) \u2227 y \u2208 ( N. \u00d7 N. ) ) \u2227 \u2203 z \u2203 w \u2203 v \u2203 u ( ( x = \u27e8 z , w \u27e9 \u2227 y = \u27e8 v , u \u27e9 ) \u2227 ( z .N u ) = ( w .N v ) ) ) }",
+            "prop_expression": " \u22a2 ~Q = { \u27e8 x , y \u27e9 | ( ( x \u2208 ( N. \u00d7 N. ) \u2227 y \u2208 ( N. \u00d7 N. ) ) \u2227 \u2203 z \u2203 w \u2203 v \u2203 u ( ( x = \u27e8 z , w \u27e9 \u2227 y = \u27e8 v , u \u27e9 ) \u2227 ( z .N u ) = ( w .N v ) ) ) }",
+            "step": 2,
+            "theorem": "df-enq",
+            "ground_truth": "df-enq \u22a2 ~Q = { \u27e8 x , y \u27e9 | ( ( x \u2208 ( N. \u00d7 N. ) \u2227 y \u2208 ( N. \u00d7 N. ) ) \u2227 \u2203 z \u2203 w \u2203 v \u2203 u ( ( x = \u27e8 z , w \u27e9 \u2227 y = \u27e8 v , u \u27e9 ) \u2227 ( z .N u ) = ( w .N v ) ) ) }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.98983,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.78
+        }
+    ],
+    "is_train": false
+}

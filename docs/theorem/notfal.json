@@ -1,0 +1,53 @@
+{
+    "theorem": "notfal",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( \u00ac F. \u2194 T. )",
+    "steps": [
+        {
+            "number": 1280,
+            "expression": "\u22a2 ( \u00ac F. \u2194 T. )",
+            "prop_expression": "\ud835\udf11 \u22a2 ( \ud835\udf11 \u2194 T. )",
+            "step": 1,
+            "theorem": "bitru",
+            "ground_truth": "bitru \u22a2 ( \u00ac F. \u2194 T. )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.42191,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.5,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.99768,
+            "_thrs_random_forest": 0.735
+        },
+        {
+            "number": 1280,
+            "expression": "\u22a2 \u00ac F.",
+            "prop_expression": " \u22a2 \u00ac F.",
+            "step": 2,
+            "theorem": "fal",
+            "ground_truth": "fal \u22a2 \u00ac F.",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.24057,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.5,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.88294,
+            "_thrs_random_forest": 0.88
+        }
+    ],
+    "is_train": false
+}

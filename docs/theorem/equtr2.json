@@ -1,0 +1,77 @@
+{
+    "theorem": "equtr2",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( ( x = z \u2227 y = z ) \u2192 x = y )",
+    "steps": [
+        {
+            "number": 1686,
+            "expression": "\u22a2 ( ( x = z \u2227 y = z ) \u2192 x = y )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf12 ) ) \u22a2 ( ( \ud835\udf13 \u2227 \ud835\udf11 ) \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "impcom",
+            "ground_truth": "impcom \u22a2 ( ( x = z \u2227 y = z ) \u2192 x = y )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4894,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99877,
+            "_thrs_random_forest": 0.98
+        },
+        {
+            "number": 1686,
+            "expression": "\u22a2 ( y = z \u2192 ( x = z \u2192 x = y ) )",
+            "prop_expression": "( x = y \u2192 \ud835\udf11 ) \u22a2 ( y = x \u2192 \ud835\udf11 )",
+            "step": 2,
+            "theorem": "equcoms",
+            "ground_truth": "equcoms \u22a2 ( y = z \u2192 ( x = z \u2192 x = y ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.65874,
+            "_thrs_reconstruct": 0.99992,
+            "_thrs_obviousness": 0.997,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6994,
+            "_thrs_logistic_regression": 0.99877,
+            "_thrs_random_forest": 0.995
+        },
+        {
+            "number": 1686,
+            "expression": "\u22a2 ( z = y \u2192 ( x = z \u2192 x = y ) )",
+            "prop_expression": " \u22a2 ( x = y \u2192 ( z = x \u2192 z = y ) )",
+            "step": 3,
+            "theorem": "equtrr",
+            "ground_truth": "equtrr \u22a2 ( z = y \u2192 ( x = z \u2192 x = y ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.2258,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.80004,
+            "_thrs_random_forest": 0.255
+        }
+    ],
+    "is_train": false
+}

@@ -1,0 +1,53 @@
+{
+    "theorem": "reldmmap",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "Rel dom ^m",
+    "steps": [
+        {
+            "number": 6221,
+            "expression": "\u22a2 Rel dom ^m",
+            "prop_expression": "F = ( x \u2208 A , y \u2208 B |\u2192 C ) \u22a2 Rel dom F",
+            "step": 1,
+            "theorem": "reldmmpt2",
+            "ground_truth": "reldmmpt2 \u22a2 Rel dom ^m",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.90691,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.705
+        },
+        {
+            "number": 6221,
+            "expression": "\u22a2 ^m = ( x \u2208 V , y \u2208 V |\u2192 { f | f : y -\u2192 x } )",
+            "prop_expression": " \u22a2 ^m = ( x \u2208 V , y \u2208 V |\u2192 { f | f : y -\u2192 x } )",
+            "step": 2,
+            "theorem": "df-map",
+            "ground_truth": "df-map \u22a2 ^m = ( x \u2208 V , y \u2208 V |\u2192 { f | f : y -\u2192 x } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.75626,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.77
+        }
+    ],
+    "is_train": false
+}

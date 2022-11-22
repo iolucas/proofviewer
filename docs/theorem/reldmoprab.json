@@ -1,0 +1,53 @@
+{
+    "theorem": "reldmoprab",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "Rel dom { \u27e8 \u27e8 x , y \u27e9 , z \u27e9 | \ud835\udf11 }",
+    "steps": [
+        {
+            "number": 5424,
+            "expression": "\u22a2 Rel dom { \u27e8 \u27e8 x , y \u27e9 , z \u27e9 | \ud835\udf11 }",
+            "prop_expression": "A = { \u27e8 x , y \u27e9 | \ud835\udf11 } \u22a2 Rel A",
+            "step": 1,
+            "theorem": "relopabi",
+            "ground_truth": "relopabi \u22a2 Rel dom { \u27e8 \u27e8 x , y \u27e9 , z \u27e9 | \ud835\udf11 }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.03381,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99994,
+            "_thrs_random_forest": 0.57167
+        },
+        {
+            "number": 5424,
+            "expression": "\u22a2 dom { \u27e8 \u27e8 x , y \u27e9 , z \u27e9 | \ud835\udf11 } = { \u27e8 x , y \u27e9 | \u2203 z \ud835\udf11 }",
+            "prop_expression": " \u22a2 dom { \u27e8 \u27e8 x , y \u27e9 , z \u27e9 | \ud835\udf11 } = { \u27e8 x , y \u27e9 | \u2203 z \ud835\udf11 }",
+            "step": 2,
+            "theorem": "dmoprab",
+            "ground_truth": "dmoprab \u22a2 dom { \u27e8 \u27e8 x , y \u27e9 , z \u27e9 | \ud835\udf11 } = { \u27e8 x , y \u27e9 | \u2203 z \ud835\udf11 }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.96862,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.1637,
+            "_thrs_random_forest": 0.745
+        }
+    ],
+    "is_train": false
+}

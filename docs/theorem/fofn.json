@@ -1,0 +1,77 @@
+{
+    "theorem": "fofn",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( F : A -onto\u2192 B \u2192 F Fn A )",
+    "steps": [
+        {
+            "number": 4978,
+            "expression": "\u22a2 ( F : A -onto\u2192 B \u2192 F Fn A )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf13 \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "syl",
+            "ground_truth": "syl \u22a2 ( F : A -onto\u2192 B \u2192 F Fn A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.00685,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99849,
+            "_thrs_random_forest": 0.84
+        },
+        {
+            "number": 4978,
+            "expression": "\u22a2 ( F : A -onto\u2192 B \u2192 F : A -\u2192 B )",
+            "prop_expression": " \u22a2 ( F : A -onto\u2192 B \u2192 F : A -\u2192 B )",
+            "step": 2,
+            "theorem": "fof",
+            "ground_truth": "fof \u22a2 ( F : A -onto\u2192 B \u2192 F : A -\u2192 B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.13061,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.99996,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.29999,
+            "_thrs_logistic_regression": 0.81777,
+            "_thrs_random_forest": 0.865
+        },
+        {
+            "number": 4978,
+            "expression": "\u22a2 ( F : A -\u2192 B \u2192 F Fn A )",
+            "prop_expression": " \u22a2 ( F : A -\u2192 B \u2192 F Fn A )",
+            "step": 3,
+            "theorem": "ffn",
+            "ground_truth": "ffn \u22a2 ( F : A -\u2192 B \u2192 F Fn A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.14097,
+            "_thrs_reconstruct": 4e-05,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.07692,
+            "_thrs_interestingness": 0.31538,
+            "_thrs_logistic_regression": 0.95053,
+            "_thrs_random_forest": 0.88
+        }
+    ],
+    "is_train": false
+}

@@ -1,0 +1,53 @@
+{
+    "theorem": "unidm",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( A \u222a A ) = A",
+    "steps": [
+        {
+            "number": 2936,
+            "expression": "\u22a2 ( A \u222a A ) = A",
+            "prop_expression": "( ( x \u2208 A \u2228 x \u2208 B ) \u2194 x \u2208 C ) \u22a2 ( A \u222a B ) = C",
+            "step": 1,
+            "theorem": "uneqri",
+            "ground_truth": "uneqri \u22a2 ( A \u222a A ) = A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.04537,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.665
+        },
+        {
+            "number": 2936,
+            "expression": "\u22a2 ( ( x \u2208 A \u2228 x \u2208 A ) \u2194 x \u2208 A )",
+            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2228 \ud835\udf11 ) \u2194 \ud835\udf11 )",
+            "step": 2,
+            "theorem": "oridm",
+            "ground_truth": "oridm \u22a2 ( ( x \u2208 A \u2228 x \u2208 A ) \u2194 x \u2208 A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.11244,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.66
+        }
+    ],
+    "is_train": false
+}

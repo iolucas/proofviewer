@@ -1,0 +1,77 @@
+{
+    "theorem": "inton",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "\u2229 On = \u2205",
+    "steps": [
+        {
+            "number": 3999,
+            "expression": "\u22a2 \u2229 On = \u2205",
+            "prop_expression": "\ud835\udf11, ( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 \ud835\udf13",
+            "step": 1,
+            "theorem": "ax-mp",
+            "ground_truth": "ax-mp \u22a2 \u2229 On = \u2205",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.39762,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.66667,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.93333,
+            "_thrs_logistic_regression": 0.98796,
+            "_thrs_random_forest": 0.9
+        },
+        {
+            "number": 3999,
+            "expression": "\u22a2 \u2205 \u2208 On",
+            "prop_expression": " \u22a2 \u2205 \u2208 On",
+            "step": 2,
+            "theorem": "0elon",
+            "ground_truth": "0elon \u22a2 \u2205 \u2208 On",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.42274,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.7732,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.21053,
+            "_thrs_interestingness": 0.59675,
+            "_thrs_logistic_regression": 0.74455,
+            "_thrs_random_forest": 0.985
+        },
+        {
+            "number": 3999,
+            "expression": "\u22a2 ( \u2205 \u2208 On \u2192 \u2229 On = \u2205 )",
+            "prop_expression": " \u22a2 ( \u2205 \u2208 A \u2192 \u2229 A = \u2205 )",
+            "step": 3,
+            "theorem": "int0el",
+            "ground_truth": "int0el \u22a2 ( \u2205 \u2208 On \u2192 \u2229 On = \u2205 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.1416,
+            "_thrs_reconstruct": 0.2268,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.9412,
+            "_thrs_random_forest": 0.865
+        }
+    ],
+    "is_train": false
+}

@@ -1,0 +1,77 @@
+{
+    "theorem": "ssun",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( ( A \u2286 B \u2228 A \u2286 C ) \u2192 A \u2286 ( B \u222a C ) )",
+    "steps": [
+        {
+            "number": 2970,
+            "expression": "\u22a2 ( ( A \u2286 B \u2228 A \u2286 C ) \u2192 A \u2286 ( B \u222a C ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf12 \u2192 \ud835\udf13 ) \u22a2 ( ( \ud835\udf11 \u2228 \ud835\udf12 ) \u2192 \ud835\udf13 )",
+            "step": 1,
+            "theorem": "jaoi",
+            "ground_truth": "jaoi \u22a2 ( ( A \u2286 B \u2228 A \u2286 C ) \u2192 A \u2286 ( B \u222a C ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4623,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.99801,
+            "_thrs_random_forest": 0.715
+        },
+        {
+            "number": 2970,
+            "expression": "\u22a2 ( A \u2286 B \u2192 A \u2286 ( B \u222a C ) )",
+            "prop_expression": " \u22a2 ( A \u2286 B \u2192 A \u2286 ( B \u222a C ) )",
+            "step": 2,
+            "theorem": "ssun3",
+            "ground_truth": "ssun3 \u22a2 ( A \u2286 B \u2192 A \u2286 ( B \u222a C ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.89839,
+            "_thrs_reconstruct": 0.33331,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.86569,
+            "_thrs_random_forest": 0.775
+        },
+        {
+            "number": 2970,
+            "expression": "\u22a2 ( A \u2286 C \u2192 A \u2286 ( B \u222a C ) )",
+            "prop_expression": " \u22a2 ( A \u2286 B \u2192 A \u2286 ( C \u222a B ) )",
+            "step": 3,
+            "theorem": "ssun4",
+            "ground_truth": "ssun4 \u22a2 ( A \u2286 C \u2192 A \u2286 ( B \u222a C ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.86753,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.66669,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.53334,
+            "_thrs_logistic_regression": 0.85892,
+            "_thrs_random_forest": 0.8
+        }
+    ],
+    "is_train": false
+}

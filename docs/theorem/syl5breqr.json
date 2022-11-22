@@ -1,0 +1,101 @@
+{
+    "theorem": "syl5breqr",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "expression": "( \ud835\udf11 \u2192 A R C )",
+    "steps": [
+        {
+            "number": 3621,
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 A R C )",
+            "prop_expression": "A R B, ( \ud835\udf11 \u2192 B = C ) \u22a2 ( \ud835\udf11 \u2192 A R C )",
+            "step": 1,
+            "theorem": "syl5breq",
+            "ground_truth": "syl5breq \u22a2 ( \ud835\udf11 \u2192 A R C )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.62914,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.99992,
+            "_thrs_random_forest": 0.67
+        },
+        {
+            "number": 3621,
+            "expression": "\u22a2 A R B",
+            "prop_expression": " \u22a2 A R B",
+            "step": 2,
+            "theorem": "syl5breqr.1",
+            "ground_truth": "syl5breqr.1 \u22a2 A R B",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.40766,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.20514,
+            "_thrs_random_forest": 0.91
+        },
+        {
+            "number": 3621,
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 B = C )",
+            "prop_expression": "( \ud835\udf11 \u2192 A = B ) \u22a2 ( \ud835\udf11 \u2192 B = A )",
+            "step": 3,
+            "theorem": "eqcomd",
+            "ground_truth": "eqcomd \u22a2 ( \ud835\udf11 \u2192 B = C )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.62769,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.20514,
+            "_thrs_random_forest": 0.79
+        },
+        {
+            "number": 3621,
+            "expression": "\u22a2 ( \ud835\udf11 \u2192 C = B )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 C = B )",
+            "step": 4,
+            "theorem": "syl5breqr.2",
+            "ground_truth": "syl5breqr.2 \u22a2 ( \ud835\udf11 \u2192 C = B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.27877,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.20514,
+            "_thrs_random_forest": 0.91
+        }
+    ],
+    "is_train": false
+}

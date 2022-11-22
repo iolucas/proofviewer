@@ -1,0 +1,77 @@
+{
+    "theorem": "ssun4",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( A \u2286 B \u2192 A \u2286 ( C \u222a B ) )",
+    "steps": [
+        {
+            "number": 2959,
+            "expression": "\u22a2 ( A \u2286 B \u2192 A \u2286 ( C \u222a B ) )",
+            "prop_expression": "\ud835\udf13, ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "mpi",
+            "ground_truth": "mpi \u22a2 ( A \u2286 B \u2192 A \u2286 ( C \u222a B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.96338,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.625,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.725,
+            "_thrs_logistic_regression": 0.99983,
+            "_thrs_random_forest": 0.88
+        },
+        {
+            "number": 2959,
+            "expression": "\u22a2 B \u2286 ( C \u222a B )",
+            "prop_expression": " \u22a2 A \u2286 ( B \u222a A )",
+            "step": 2,
+            "theorem": "ssun2",
+            "ground_truth": "ssun2 \u22a2 B \u2286 ( C \u222a B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.81142,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.99778,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.22268,
+            "_thrs_interestingness": 0.64409,
+            "_thrs_logistic_regression": 0.75327,
+            "_thrs_random_forest": 0.845
+        },
+        {
+            "number": 2959,
+            "expression": "\u22a2 ( A \u2286 B \u2192 ( B \u2286 ( C \u222a B ) \u2192 A \u2286 ( C \u222a B ) ) )",
+            "prop_expression": " \u22a2 ( A \u2286 B \u2192 ( B \u2286 C \u2192 A \u2286 C ) )",
+            "step": 3,
+            "theorem": "sstr2",
+            "ground_truth": "sstr2 \u22a2 ( A \u2286 B \u2192 ( B \u2286 ( C \u222a B ) \u2192 A \u2286 ( C \u222a B ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.04393,
+            "_thrs_reconstruct": 0.00222,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.9412,
+            "_thrs_random_forest": 0.81
+        }
+    ],
+    "is_train": false
+}

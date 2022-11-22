@@ -1,0 +1,53 @@
+{
+    "theorem": "isfin3-4",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( A \u2208 V \u2192 ( A \u2208 Fin3 \u2194 \u2200 f \u2208 ( \ud835\udcab A ^m om ) ( \u2200 x \u2208 om ( f ` x ) \u2286 ( f ` suc x ) \u2192 U. ran f \u2208 ran f ) ) )",
+    "steps": [
+        {
+            "number": 7464,
+            "expression": "\u22a2 ( A \u2208 V \u2192 ( A \u2208 Fin3 \u2194 \u2200 f \u2208 ( \ud835\udcab A ^m om ) ( \u2200 x \u2208 om ( f ` x ) \u2286 ( f ` suc x ) \u2192 U. ran f \u2208 ran f ) ) )",
+            "prop_expression": "F = ( x \u2208 \ud835\udcab A |\u2192 ( A \u2216 x ) ) \u22a2 ( A \u2208 V \u2192 ( A \u2208 Fin3 \u2194 \u2200 f \u2208 ( \ud835\udcab A ^m om ) ( \u2200 y \u2208 om ( f ` y ) \u2286 ( f ` suc y ) \u2192 U. ran f \u2208 ran f ) ) )",
+            "step": 1,
+            "theorem": "isf34lem6",
+            "ground_truth": "isf34lem6 \u22a2 ( A \u2208 V \u2192 ( A \u2208 Fin3 \u2194 \u2200 f \u2208 ( \ud835\udcab A ^m om ) ( \u2200 x \u2208 om ( f ` x ) \u2286 ( f ` suc x ) \u2192 U. ran f \u2208 ran f ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.56478,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.99984,
+            "_thrs_random_forest": 0.63
+        },
+        {
+            "number": 7464,
+            "expression": "\u22a2 ( y \u2208 \ud835\udcab A |\u2192 ( A \u2216 y ) ) = ( y \u2208 \ud835\udcab A |\u2192 ( A \u2216 y ) )",
+            "prop_expression": " \u22a2 A = A",
+            "step": 2,
+            "theorem": "eqid",
+            "ground_truth": "eqid \u22a2 ( y \u2208 \ud835\udcab A |\u2192 ( A \u2216 y ) ) = ( y \u2208 \ud835\udcab A |\u2192 ( A \u2216 y ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.36391,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.33688,
+            "_thrs_random_forest": 0.63
+        }
+    ],
+    "is_train": false
+}

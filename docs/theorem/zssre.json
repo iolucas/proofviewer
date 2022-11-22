@@ -1,0 +1,53 @@
+{
+    "theorem": "zssre",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "\u2124 \u2286 \u211d",
+    "steps": [
+        {
+            "number": 9127,
+            "expression": "\u22a2 \u2124 \u2286 \u211d",
+            "prop_expression": "( x \u2208 A \u2192 x \u2208 B ) \u22a2 A \u2286 B",
+            "step": 1,
+            "theorem": "ssriv",
+            "ground_truth": "ssriv \u22a2 \u2124 \u2286 \u211d",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.06059,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.636
+        },
+        {
+            "number": 9127,
+            "expression": "\u22a2 ( x \u2208 \u2124 \u2192 x \u2208 \u211d )",
+            "prop_expression": " \u22a2 ( N \u2208 \u2124 \u2192 N \u2208 \u211d )",
+            "step": 2,
+            "theorem": "zre",
+            "ground_truth": "zre \u22a2 ( x \u2208 \u2124 \u2192 x \u2208 \u211d )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.12631,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.76
+        }
+    ],
+    "is_train": false
+}

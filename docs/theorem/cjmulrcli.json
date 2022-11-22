@@ -1,0 +1,77 @@
+{
+    "theorem": "cjmulrcli",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( A \u00b7 ( * ` A ) ) \u2208 \u211d",
+    "steps": [
+        {
+            "number": 10438,
+            "expression": "\u22a2 ( A \u00b7 ( * ` A ) ) \u2208 \u211d",
+            "prop_expression": "\ud835\udf11, ( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 \ud835\udf13",
+            "step": 1,
+            "theorem": "ax-mp",
+            "ground_truth": "ax-mp \u22a2 ( A \u00b7 ( * ` A ) ) \u2208 \u211d",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.17707,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.42857,
+            "_thrs_complexity": 0.25,
+            "_thrs_surprisingness": 0.66667,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.66905,
+            "_thrs_logistic_regression": 0.99954,
+            "_thrs_random_forest": 0.815
+        },
+        {
+            "number": 10438,
+            "expression": "\u22a2 A \u2208 \u2102",
+            "prop_expression": " \u22a2 A \u2208 \u2102",
+            "step": 2,
+            "theorem": "cjcji.1",
+            "ground_truth": "cjcji.1 \u22a2 A \u2208 \u2102",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.45875,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.33638,
+            "_thrs_interestingness": 0.46728,
+            "_thrs_logistic_regression": 0.85997,
+            "_thrs_random_forest": 0.77
+        },
+        {
+            "number": 10438,
+            "expression": "\u22a2 ( A \u2208 \u2102 \u2192 ( A \u00b7 ( * ` A ) ) \u2208 \u211d )",
+            "prop_expression": " \u22a2 ( A \u2208 \u2102 \u2192 ( A \u00b7 ( * ` A ) ) \u2208 \u211d )",
+            "step": 3,
+            "theorem": "cjmulrcl",
+            "ground_truth": "cjmulrcl \u22a2 ( A \u2208 \u2102 \u2192 ( A \u00b7 ( * ` A ) ) \u2208 \u211d )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.95695,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.93628,
+            "_thrs_random_forest": 0.82
+        }
+    ],
+    "is_train": false
+}

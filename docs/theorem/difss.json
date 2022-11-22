@@ -1,0 +1,53 @@
+{
+    "theorem": "difss",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( A \u2216 B ) \u2286 A",
+    "steps": [
+        {
+            "number": 2928,
+            "expression": "\u22a2 ( A \u2216 B ) \u2286 A",
+            "prop_expression": "( x \u2208 A \u2192 x \u2208 B ) \u22a2 A \u2286 B",
+            "step": 1,
+            "theorem": "ssriv",
+            "ground_truth": "ssriv \u22a2 ( A \u2216 B ) \u2286 A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.76193,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.63813
+        },
+        {
+            "number": 2928,
+            "expression": "\u22a2 ( x \u2208 ( A \u2216 B ) \u2192 x \u2208 A )",
+            "prop_expression": " \u22a2 ( A \u2208 ( B \u2216 C ) \u2192 A \u2208 B )",
+            "step": 2,
+            "theorem": "eldifi",
+            "ground_truth": "eldifi \u22a2 ( x \u2208 ( A \u2216 B ) \u2192 x \u2208 A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.88989,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.82
+        }
+    ],
+    "is_train": false
+}

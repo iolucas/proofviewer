@@ -1,0 +1,77 @@
+{
+    "theorem": "tsrps",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( R \u2208 Tos\u03b7Rel \u2192 R \u2208 Pos\u03b7Rel )",
+    "steps": [
+        {
+            "number": 12197,
+            "expression": "\u22a2 ( R \u2208 Tos\u03b7Rel \u2192 R \u2208 Pos\u03b7Rel )",
+            "prop_expression": "( \ud835\udf11 \u2194 ( \ud835\udf13 \u2227 \ud835\udf12 ) ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
+            "step": 1,
+            "theorem": "simplbi",
+            "ground_truth": "simplbi \u22a2 ( R \u2208 Tos\u03b7Rel \u2192 R \u2208 Pos\u03b7Rel )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.06805,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.83333,
+            "_thrs_complexity": 0.71429,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.80952,
+            "_thrs_logistic_regression": 0.99734,
+            "_thrs_random_forest": 0.875
+        },
+        {
+            "number": 12197,
+            "expression": "\u22a2 ( R \u2208 Tos\u03b7Rel \u2194 ( R \u2208 Pos\u03b7Rel \u2227 ( dom R \u00d7 dom R ) \u2286 ( R \u222a `' R ) ) )",
+            "prop_expression": "X = dom R \u22a2 ( R \u2208 Tos\u03b7Rel \u2194 ( R \u2208 Pos\u03b7Rel \u2227 ( X \u00d7 X ) \u2286 ( R \u222a `' R ) ) )",
+            "step": 2,
+            "theorem": "istsr",
+            "ground_truth": "istsr \u22a2 ( R \u2208 Tos\u03b7Rel \u2194 ( R \u2208 Pos\u03b7Rel \u2227 ( dom R \u00d7 dom R ) \u2286 ( R \u222a `' R ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.96951,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.91216,
+            "_thrs_interestingness": 0.48243,
+            "_thrs_logistic_regression": 0.99975,
+            "_thrs_random_forest": 0.825
+        },
+        {
+            "number": 12197,
+            "expression": "\u22a2 dom R = dom R",
+            "prop_expression": " \u22a2 A = A",
+            "step": 3,
+            "theorem": "eqid",
+            "ground_truth": "eqid \u22a2 dom R = dom R",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.00806,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.33688,
+            "_thrs_random_forest": 0.685
+        }
+    ],
+    "is_train": false
+}

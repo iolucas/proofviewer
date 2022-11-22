@@ -1,0 +1,101 @@
+{
+    "theorem": "eqnetrri",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "B \u2260 C",
+    "steps": [
+        {
+            "number": 2196,
+            "expression": "\u22a2 B \u2260 C",
+            "prop_expression": "A = B, B \u2260 C \u22a2 A \u2260 C",
+            "step": 1,
+            "theorem": "eqnetri",
+            "ground_truth": "eqnetri \u22a2 B \u2260 C",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7123,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.99937,
+            "_thrs_random_forest": 0.84
+        },
+        {
+            "number": 2196,
+            "expression": "\u22a2 B = A",
+            "prop_expression": "A = B \u22a2 B = A",
+            "step": 2,
+            "theorem": "eqcomi",
+            "ground_truth": "eqcomi \u22a2 B = A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.45568,
+            "_thrs_reconstruct": 0.06887,
+            "_thrs_obviousness": 0.06443,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.41289,
+            "_thrs_logistic_regression": 0.66902,
+            "_thrs_random_forest": 0.815
+        },
+        {
+            "number": 2196,
+            "expression": "\u22a2 A = B",
+            "prop_expression": " \u22a2 A = B",
+            "step": 3,
+            "theorem": "eqnetrr.1",
+            "ground_truth": "eqnetrr.1 \u22a2 A = B",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.81193,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.67025,
+            "_thrs_random_forest": 0.99
+        },
+        {
+            "number": 2196,
+            "expression": "\u22a2 A \u2260 C",
+            "prop_expression": " \u22a2 A \u2260 C",
+            "step": 4,
+            "theorem": "eqnetrr.2",
+            "ground_truth": "eqnetrr.2 \u22a2 A \u2260 C",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.12492,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.67025,
+            "_thrs_random_forest": 0.995
+        }
+    ],
+    "is_train": false
+}

@@ -1,0 +1,53 @@
+{
+    "theorem": "1z",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "1 \u2208 \u2124",
+    "steps": [
+        {
+            "number": 9149,
+            "expression": "\u22a2 1 \u2208 \u2124",
+            "prop_expression": "N \u2208 \u2115 \u22a2 N \u2208 \u2124",
+            "step": 1,
+            "theorem": "nnzi",
+            "ground_truth": "nnzi \u22a2 1 \u2208 \u2124",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.59524,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.5,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.98199,
+            "_thrs_random_forest": 0.585
+        },
+        {
+            "number": 9149,
+            "expression": "\u22a2 1 \u2208 \u2115",
+            "prop_expression": " \u22a2 1 \u2208 \u2115",
+            "step": 2,
+            "theorem": "1nn",
+            "ground_truth": "1nn \u22a2 1 \u2208 \u2115",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.79799,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.5,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.98344,
+            "_thrs_random_forest": 0.795
+        }
+    ],
+    "is_train": false
+}

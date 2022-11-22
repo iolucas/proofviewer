@@ -1,0 +1,77 @@
+{
+    "theorem": "fneq1i",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( F Fn A \u2194 G Fn A )",
+    "steps": [
+        {
+            "number": 4865,
+            "expression": "\u22a2 ( F Fn A \u2194 G Fn A )",
+            "prop_expression": "\ud835\udf11, ( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 \ud835\udf13",
+            "step": 1,
+            "theorem": "ax-mp",
+            "ground_truth": "ax-mp \u22a2 ( F Fn A \u2194 G Fn A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.76162,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.33333,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.66667,
+            "_thrs_logistic_regression": 0.99978,
+            "_thrs_random_forest": 0.905
+        },
+        {
+            "number": 4865,
+            "expression": "\u22a2 F = G",
+            "prop_expression": " \u22a2 F = G",
+            "step": 2,
+            "theorem": "fneq1i.1",
+            "ground_truth": "fneq1i.1 \u22a2 F = G",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.06762,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.42857,
+            "_thrs_interestingness": 0.48571,
+            "_thrs_logistic_regression": 0.9099,
+            "_thrs_random_forest": 0.945
+        },
+        {
+            "number": 4865,
+            "expression": "\u22a2 ( F = G \u2192 ( F Fn A \u2194 G Fn A ) )",
+            "prop_expression": " \u22a2 ( F = G \u2192 ( F Fn A \u2194 G Fn A ) )",
+            "step": 3,
+            "theorem": "fneq1",
+            "ground_truth": "fneq1 \u22a2 ( F = G \u2192 ( F Fn A \u2194 G Fn A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.64383,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.93628,
+            "_thrs_random_forest": 0.22
+        }
+    ],
+    "is_train": false
+}

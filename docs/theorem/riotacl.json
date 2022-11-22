@@ -13,6 +13,7 @@
     "expression": "( E! x \u2208 A \ud835\udf11 \u2192 ( io\ud835\udf0f_ x \u2208 A \ud835\udf11 ) \u2208 A )",
     "steps": [
         {
+            "number": 6477,
             "expression": "\u22a2 ( E! x \u2208 A \ud835\udf11 \u2192 ( io\ud835\udf0f_ x \u2208 A \ud835\udf11 ) \u2208 A )",
             "prop_expression": "( \ud835\udf11 \u2192 A = B ), ( \ud835\udf11 \u2192 B \u2208 C ) \u22a2 ( \ud835\udf11 \u2192 A \u2208 C )",
             "step": 1,
@@ -20,7 +21,7 @@
             "ground_truth": "eqeltrd \u22a2 ( E! x \u2208 A \ud835\udf11 \u2192 ( io\ud835\udf0f_ x \u2208 A \ud835\udf11 ) \u2208 A )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.23062,
+            "_thrs_random_uniform": 0.85452,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 1.0,
@@ -32,6 +33,7 @@
             "_thrs_random_forest": 0.82
         },
         {
+            "number": 6477,
             "expression": "\u22a2 ( E! x \u2208 A \ud835\udf11 \u2192 ( io\ud835\udf0f_ x \u2208 A \ud835\udf11 ) = ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) )",
             "prop_expression": " \u22a2 ( E! x \u2208 A \ud835\udf11 \u2192 ( io\ud835\udf0f_ x \u2208 A \ud835\udf11 ) = ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) )",
             "step": 2,
@@ -39,7 +41,7 @@
             "ground_truth": "riotaiota \u22a2 ( E! x \u2208 A \ud835\udf11 \u2192 ( io\ud835\udf0f_ x \u2208 A \ud835\udf11 ) = ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.17077,
+            "_thrs_random_uniform": 0.05447,
             "_thrs_reconstruct": 0.00018,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.0,
@@ -51,6 +53,7 @@
             "_thrs_random_forest": 0.92
         },
         {
+            "number": 6477,
             "expression": "\u22a2 ( E! x \u2208 A \ud835\udf11 \u2192 ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) \u2208 A )",
             "prop_expression": " \u22a2 ( E! x \u2208 A \ud835\udf11 \u2192 ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) \u2208 A )",
             "step": 3,
@@ -58,7 +61,7 @@
             "ground_truth": "reiotacl \u22a2 ( E! x \u2208 A \ud835\udf11 \u2192 ( io\ud835\udf0f x ( x \u2208 A \u2227 \ud835\udf11 ) ) \u2208 A )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.05861,
+            "_thrs_random_uniform": 0.20698,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 0.9998,
             "_thrs_weight": 0.66667,
@@ -69,5 +72,6 @@
             "_thrs_logistic_regression": 0.8326,
             "_thrs_random_forest": 0.96
         }
-    ]
+    ],
+    "is_train": true
 }

@@ -1,0 +1,77 @@
+{
+    "theorem": "2domtsk",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( ( T \u2208 Tarski \u2227 T \u2260 \u2205 ) \u2192 2o \u227a T )",
+    "steps": [
+        {
+            "number": 7804,
+            "expression": "\u22a2 ( ( T \u2208 Tarski \u2227 T \u2260 \u2205 ) \u2192 2o \u227a T )",
+            "prop_expression": "( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 ), ( ( \ud835\udf11 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf03 )",
+            "step": 1,
+            "theorem": "syldan",
+            "ground_truth": "syldan \u22a2 ( ( T \u2208 Tarski \u2227 T \u2260 \u2205 ) \u2192 2o \u227a T )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.44319,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.99988,
+            "_thrs_random_forest": 0.595
+        },
+        {
+            "number": 7804,
+            "expression": "\u22a2 ( ( T \u2208 Tarski \u2227 T \u2260 \u2205 ) \u2192 2o \u2208 T )",
+            "prop_expression": " \u22a2 ( ( T \u2208 Tarski \u2227 T \u2260 \u2205 ) \u2192 2o \u2208 T )",
+            "step": 2,
+            "theorem": "tsk2",
+            "ground_truth": "tsk2 \u22a2 ( ( T \u2208 Tarski \u2227 T \u2260 \u2205 ) \u2192 2o \u2208 T )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.64001,
+            "_thrs_reconstruct": 0.46508,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.04425,
+            "_thrs_interestingness": 0.40885,
+            "_thrs_logistic_regression": 0.5594,
+            "_thrs_random_forest": 0.905
+        },
+        {
+            "number": 7804,
+            "expression": "\u22a2 ( ( T \u2208 Tarski \u2227 2o \u2208 T ) \u2192 2o \u227a T )",
+            "prop_expression": " \u22a2 ( ( T \u2208 Tarski \u2227 A \u2208 T ) \u2192 A \u227a T )",
+            "step": 3,
+            "theorem": "tsksdom",
+            "ground_truth": "tsksdom \u22a2 ( ( T \u2208 Tarski \u2227 2o \u2208 T ) \u2192 2o \u227a T )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.73263,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.53492,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.30698,
+            "_thrs_logistic_regression": 0.26903,
+            "_thrs_random_forest": 0.845
+        }
+    ],
+    "is_train": false
+}

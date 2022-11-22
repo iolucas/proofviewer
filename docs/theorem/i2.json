@@ -1,0 +1,101 @@
+{
+    "theorem": "i2",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( i ^ 2 ) = - 1",
+    "steps": [
+        {
+            "number": 10188,
+            "expression": "\u22a2 ( i ^ 2 ) = - 1",
+            "prop_expression": "A = B, B = C \u22a2 A = C",
+            "step": 1,
+            "theorem": "eqtri",
+            "ground_truth": "eqtri \u22a2 ( i ^ 2 ) = - 1",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.17013,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.33333,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.56667,
+            "_thrs_logistic_regression": 0.99989,
+            "_thrs_random_forest": 0.75
+        },
+        {
+            "number": 10188,
+            "expression": "\u22a2 ( i ^ 2 ) = ( i \u00b7 i )",
+            "prop_expression": "A \u2208 \u2102 \u22a2 ( A ^ 2 ) = ( A \u00b7 A )",
+            "step": 2,
+            "theorem": "sqvali",
+            "ground_truth": "sqvali \u22a2 ( i ^ 2 ) = ( i \u00b7 i )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.16392,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.81777,
+            "_thrs_random_forest": 0.795
+        },
+        {
+            "number": 10188,
+            "expression": "\u22a2 i \u2208 \u2102",
+            "prop_expression": " \u22a2 i \u2208 \u2102",
+            "step": 3,
+            "theorem": "ax-icn",
+            "ground_truth": "ax-icn \u22a2 i \u2208 \u2102",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.57026,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.28571,
+            "_thrs_interestingness": 0.55714,
+            "_thrs_logistic_regression": 0.70358,
+            "_thrs_random_forest": 0.835
+        },
+        {
+            "number": 10188,
+            "expression": "\u22a2 ( i \u00b7 i ) = - 1",
+            "prop_expression": " \u22a2 ( i \u00b7 i ) = - 1",
+            "step": 4,
+            "theorem": "ixi",
+            "ground_truth": "ixi \u22a2 ( i \u00b7 i ) = - 1",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.68093,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.33333,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.11429,
+            "_thrs_interestingness": 0.38952,
+            "_thrs_logistic_regression": 0.7626,
+            "_thrs_random_forest": 0.79438
+        }
+    ],
+    "is_train": false
+}

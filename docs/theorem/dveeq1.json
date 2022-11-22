@@ -1,0 +1,77 @@
+{
+    "theorem": "dveeq1",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( \u00ac \u2200 x x = y \u2192 ( y = z \u2192 \u2200 x y = z ) )",
+    "steps": [
+        {
+            "number": 1931,
+            "expression": "\u22a2 ( \u00ac \u2200 x x = y \u2192 ( y = z \u2192 \u2200 x y = z ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 \u2200 x \ud835\udf11 ), ( z = y \u2192 ( \ud835\udf11 \u2194 \ud835\udf13 ) ) \u22a2 ( \u00ac \u2200 x x = y \u2192 ( \ud835\udf13 \u2192 \u2200 x \ud835\udf13 ) )",
+            "step": 1,
+            "theorem": "dvelim",
+            "ground_truth": "dvelim \u22a2 ( \u00ac \u2200 x x = y \u2192 ( y = z \u2192 \u2200 x y = z ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.7362,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.99801,
+            "_thrs_random_forest": 0.73
+        },
+        {
+            "number": 1931,
+            "expression": "\u22a2 ( w = z \u2192 \u2200 x w = z )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \u2200 x \ud835\udf11 )",
+            "step": 2,
+            "theorem": "ax-17",
+            "ground_truth": "ax-17 \u22a2 ( w = z \u2192 \u2200 x w = z )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.43399,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.18824,
+            "_thrs_interestingness": 0.43765,
+            "_thrs_logistic_regression": 0.9468,
+            "_thrs_random_forest": 0.795
+        },
+        {
+            "number": 1931,
+            "expression": "\u22a2 ( w = y \u2192 ( w = z \u2194 y = z ) )",
+            "prop_expression": " \u22a2 ( x = y \u2192 ( x = z \u2194 y = z ) )",
+            "step": 3,
+            "theorem": "equequ1",
+            "ground_truth": "equequ1 \u22a2 ( w = y \u2192 ( w = z \u2194 y = z ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.53471,
+            "_thrs_reconstruct": 0.01098,
+            "_thrs_obviousness": 0.01086,
+            "_thrs_weight": 0.66667,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.33551,
+            "_thrs_logistic_regression": 0.82413,
+            "_thrs_random_forest": 0.765
+        }
+    ],
+    "is_train": false
+}

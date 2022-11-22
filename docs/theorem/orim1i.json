@@ -13,6 +13,7 @@
     "expression": "( ( \ud835\udf11 \u2228 \ud835\udf12 ) \u2192 ( \ud835\udf13 \u2228 \ud835\udf12 ) )",
     "steps": [
         {
+            "number": 495,
             "expression": "\u22a2 ( ( \ud835\udf11 \u2228 \ud835\udf12 ) \u2192 ( \ud835\udf13 \u2228 \ud835\udf12 ) )",
             "prop_expression": "( \ud835\udf11 \u2192 \ud835\udf13 ), ( \ud835\udf12 \u2192 \ud835\udf03 ) \u22a2 ( ( \ud835\udf11 \u2228 \ud835\udf12 ) \u2192 ( \ud835\udf13 \u2228 \ud835\udf03 ) )",
             "step": 1,
@@ -20,7 +21,7 @@
             "ground_truth": "orim12i \u22a2 ( ( \ud835\udf11 \u2228 \ud835\udf12 ) \u2192 ( \ud835\udf13 \u2228 \ud835\udf12 ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.52781,
+            "_thrs_random_uniform": 0.62547,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.0,
@@ -32,6 +33,7 @@
             "_thrs_random_forest": 0.715
         },
         {
+            "number": 495,
             "expression": "\u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
             "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
             "step": 2,
@@ -39,7 +41,7 @@
             "ground_truth": "orim1i.1 \u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.59195,
+            "_thrs_random_uniform": 0.31405,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
@@ -51,6 +53,7 @@
             "_thrs_random_forest": 0.995
         },
         {
+            "number": 495,
             "expression": "\u22a2 ( \ud835\udf12 \u2192 \ud835\udf12 )",
             "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \ud835\udf11 )",
             "step": 3,
@@ -58,7 +61,7 @@
             "ground_truth": "id \u22a2 ( \ud835\udf12 \u2192 \ud835\udf12 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.90537,
+            "_thrs_random_uniform": 0.47133,
             "_thrs_reconstruct": 0.00018,
             "_thrs_obviousness": 0.00018,
             "_thrs_weight": 1.0,
@@ -69,5 +72,6 @@
             "_thrs_logistic_regression": 0.33688,
             "_thrs_random_forest": 0.955
         }
-    ]
+    ],
+    "is_train": true
 }

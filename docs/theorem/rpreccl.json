@@ -1,0 +1,77 @@
+{
+    "theorem": "rpreccl",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( A \u2208 \u211d+ \u2192 ( 1 / A ) \u2208 \u211d+ )",
+    "steps": [
+        {
+            "number": 9461,
+            "expression": "\u22a2 ( A \u2208 \u211d+ \u2192 ( 1 / A ) \u2208 \u211d+ )",
+            "prop_expression": "\ud835\udf11, ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf13 \u2192 \ud835\udf12 )",
+            "step": 1,
+            "theorem": "mpan",
+            "ground_truth": "mpan \u22a2 ( A \u2208 \u211d+ \u2192 ( 1 / A ) \u2208 \u211d+ )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.63115,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.42857,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.68571,
+            "_thrs_logistic_regression": 0.99979,
+            "_thrs_random_forest": 0.71
+        },
+        {
+            "number": 9461,
+            "expression": "\u22a2 1 \u2208 \u211d+",
+            "prop_expression": " \u22a2 1 \u2208 \u211d+",
+            "step": 2,
+            "theorem": "1rp",
+            "ground_truth": "1rp \u22a2 1 \u2208 \u211d+",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.33285,
+            "_thrs_reconstruct": 0.00101,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.41176,
+            "_thrs_interestingness": 0.48235,
+            "_thrs_logistic_regression": 0.90219,
+            "_thrs_random_forest": 0.865
+        },
+        {
+            "number": 9461,
+            "expression": "\u22a2 ( ( 1 \u2208 \u211d+ \u2227 A \u2208 \u211d+ ) \u2192 ( 1 / A ) \u2208 \u211d+ )",
+            "prop_expression": " \u22a2 ( ( A \u2208 \u211d+ \u2227 B \u2208 \u211d+ ) \u2192 ( A / B ) \u2208 \u211d+ )",
+            "step": 3,
+            "theorem": "rpdivcl",
+            "ground_truth": "rpdivcl \u22a2 ( ( 1 \u2208 \u211d+ \u2227 A \u2208 \u211d+ ) \u2192 ( 1 / A ) \u2208 \u211d+ )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.53955,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.99899,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3998,
+            "_thrs_logistic_regression": 0.93629,
+            "_thrs_random_forest": 0.915
+        }
+    ],
+    "is_train": false
+}

@@ -1,0 +1,77 @@
+{
+    "theorem": "rdgfun",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "Fun rec ( F , A )",
+    "steps": [
+        {
+            "number": 5879,
+            "expression": "\u22a2 Fun rec ( F , A )",
+            "prop_expression": "( \ud835\udf11 \u2227 \ud835\udf13 ) \u22a2 \ud835\udf11",
+            "step": 1,
+            "theorem": "simpli",
+            "ground_truth": "simpli \u22a2 Fun rec ( F , A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.18209,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.87167
+        },
+        {
+            "number": 5879,
+            "expression": "\u22a2 ( Fun rec ( F , A ) \u2227 Lim dom rec ( F , A ) )",
+            "prop_expression": "F = recs ( G ) \u22a2 ( Fun F \u2227 Lim dom F )",
+            "step": 2,
+            "theorem": "tfr1a",
+            "ground_truth": "tfr1a \u22a2 ( Fun rec ( F , A ) \u2227 Lim dom rec ( F , A ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.21429,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.77273,
+            "_thrs_complexity": 0.81818,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.62685,
+            "_thrs_interestingness": 0.74355,
+            "_thrs_logistic_regression": 0.96533,
+            "_thrs_random_forest": 0.8
+        },
+        {
+            "number": 5879,
+            "expression": "\u22a2 rec ( F , A ) = recs ( ( g \u2208 V |\u2192 if ( g = \u2205 , A , if ( Lim dom g , U. ran g , ( F ` ( g ` U. dom g ) ) ) ) ) )",
+            "prop_expression": " \u22a2 rec ( F , I ) = recs ( ( g \u2208 V |\u2192 if ( g = \u2205 , I , if ( Lim dom g , U. ran g , ( F ` ( g ` U. dom g ) ) ) ) ) )",
+            "step": 3,
+            "theorem": "df-rdg",
+            "ground_truth": "df-rdg \u22a2 rec ( F , A ) = recs ( ( g \u2208 V |\u2192 if ( g = \u2205 , A , if ( Lim dom g , U. ran g , ( F ` ( g ` U. dom g ) ) ) ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.97008,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.705
+        }
+    ],
+    "is_train": false
+}

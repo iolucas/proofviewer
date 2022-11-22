@@ -1,0 +1,53 @@
+{
+    "theorem": "jao",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( ( \ud835\udf11 \u2192 \ud835\udf13 ) \u2192 ( ( \ud835\udf12 \u2192 \ud835\udf13 ) \u2192 ( ( \ud835\udf11 \u2228 \ud835\udf12 ) \u2192 \ud835\udf13 ) ) )",
+    "steps": [
+        {
+            "number": 490,
+            "expression": "\u22a2 ( ( \ud835\udf11 \u2192 \ud835\udf13 ) \u2192 ( ( \ud835\udf12 \u2192 \ud835\udf13 ) \u2192 ( ( \ud835\udf11 \u2228 \ud835\udf12 ) \u2192 \ud835\udf13 ) ) )",
+            "prop_expression": "( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 ) \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf12 ) )",
+            "step": 1,
+            "theorem": "ex",
+            "ground_truth": "ex \u22a2 ( ( \ud835\udf11 \u2192 \ud835\udf13 ) \u2192 ( ( \ud835\udf12 \u2192 \ud835\udf13 ) \u2192 ( ( \ud835\udf11 \u2228 \ud835\udf12 ) \u2192 \ud835\udf13 ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.98646,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99877,
+            "_thrs_random_forest": 0.695
+        },
+        {
+            "number": 490,
+            "expression": "\u22a2 ( ( ( \ud835\udf11 \u2192 \ud835\udf13 ) \u2227 ( \ud835\udf12 \u2192 \ud835\udf13 ) ) \u2192 ( ( \ud835\udf11 \u2228 \ud835\udf12 ) \u2192 \ud835\udf13 ) )",
+            "prop_expression": " \u22a2 ( ( ( \ud835\udf13 \u2192 \ud835\udf11 ) \u2227 ( \ud835\udf12 \u2192 \ud835\udf11 ) ) \u2192 ( ( \ud835\udf13 \u2228 \ud835\udf12 ) \u2192 \ud835\udf11 ) )",
+            "step": 2,
+            "theorem": "pm3.44",
+            "ground_truth": "pm3.44 \u22a2 ( ( ( \ud835\udf11 \u2192 \ud835\udf13 ) \u2227 ( \ud835\udf12 \u2192 \ud835\udf13 ) ) \u2192 ( ( \ud835\udf11 \u2228 \ud835\udf12 ) \u2192 \ud835\udf13 ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.17251,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.80004,
+            "_thrs_random_forest": 0.9
+        }
+    ],
+    "is_train": false
+}

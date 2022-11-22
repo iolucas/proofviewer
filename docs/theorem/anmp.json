@@ -17,6 +17,7 @@
     "expression": "\ud835\udf13",
     "steps": [
         {
+            "number": 1420,
             "expression": "\u22a2 \ud835\udf13",
             "prop_expression": "\ud835\udf11, ( \ud835\udf11 \u2192 \ud835\udf13 ) \u22a2 \ud835\udf13",
             "step": 1,
@@ -24,7 +25,7 @@
             "ground_truth": "ax-mp \u22a2 \ud835\udf13",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.58013,
+            "_thrs_random_uniform": 0.74725,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 1.0,
@@ -36,6 +37,7 @@
             "_thrs_random_forest": 0.905
         },
         {
+            "number": 1420,
             "expression": "\u22a2 \ud835\udf11",
             "prop_expression": " \u22a2 \ud835\udf11",
             "step": 2,
@@ -43,7 +45,7 @@
             "ground_truth": "anmp.min \u22a2 \ud835\udf11",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.86284,
+            "_thrs_random_uniform": 0.53867,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
@@ -55,6 +57,7 @@
             "_thrs_random_forest": 0.94
         },
         {
+            "number": 1420,
             "expression": "\u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
             "prop_expression": "( \u00ac \ud835\udf11 \u2228 \ud835\udf13 ) \u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
             "step": 3,
@@ -62,7 +65,7 @@
             "ground_truth": "imorri \u22a2 ( \ud835\udf11 \u2192 \ud835\udf13 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.22222,
+            "_thrs_random_uniform": 0.41342,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 0.99991,
             "_thrs_weight": 0.0,
@@ -74,6 +77,7 @@
             "_thrs_random_forest": 0.855
         },
         {
+            "number": 1420,
             "expression": "\u22a2 ( \u00ac \ud835\udf11 \u2228 \ud835\udf13 )",
             "prop_expression": " \u22a2 ( \u00ac \ud835\udf11 \u2228 \ud835\udf13 )",
             "step": 4,
@@ -81,7 +85,7 @@
             "ground_truth": "anmp.maj \u22a2 ( \u00ac \ud835\udf11 \u2228 \ud835\udf13 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.54145,
+            "_thrs_random_uniform": 0.41783,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.0,
@@ -92,5 +96,6 @@
             "_thrs_logistic_regression": 0.9412,
             "_thrs_random_forest": 0.92
         }
-    ]
+    ],
+    "is_train": true
 }

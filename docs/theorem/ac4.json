@@ -1,0 +1,53 @@
+{
+    "theorem": "ac4",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "\u2203 f \u2200 z \u2208 x ( z \u2260 \u2205 \u2192 ( f ` z ) \u2208 z )",
+    "steps": [
+        {
+            "number": 7553,
+            "expression": "\u22a2 \u2203 f \u2200 z \u2208 x ( z \u2260 \u2205 \u2192 ( f ` z ) \u2208 z )",
+            "prop_expression": "( CHOICE \u2194 \u2200 x \ud835\udf11 ) \u22a2 \ud835\udf11",
+            "step": 1,
+            "theorem": "axaci",
+            "ground_truth": "axaci \u22a2 \u2203 f \u2200 z \u2208 x ( z \u2260 \u2205 \u2192 ( f ` z ) \u2208 z )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.29093,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.53
+        },
+        {
+            "number": 7553,
+            "expression": "\u22a2 ( CHOICE \u2194 \u2200 x \u2203 f \u2200 z \u2208 x ( z \u2260 \u2205 \u2192 ( f ` z ) \u2208 z ) )",
+            "prop_expression": " \u22a2 ( CHOICE \u2194 \u2200 x \u2203 f \u2200 z \u2208 x ( z \u2260 \u2205 \u2192 ( f ` z ) \u2208 z ) )",
+            "step": 2,
+            "theorem": "dfac3",
+            "ground_truth": "dfac3 \u22a2 ( CHOICE \u2194 \u2200 x \u2203 f \u2200 z \u2208 x ( z \u2260 \u2205 \u2192 ( f ` z ) \u2208 z ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.51262,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.68
+        }
+    ],
+    "is_train": false
+}

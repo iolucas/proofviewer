@@ -1,0 +1,77 @@
+{
+    "theorem": "fzosn",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( A \u2208 \u2124 \u2192 ( A ..^ ( A + 1 ) ) = { A } )",
+    "steps": [
+        {
+            "number": 9921,
+            "expression": "\u22a2 ( A \u2208 \u2124 \u2192 ( A ..^ ( A + 1 ) ) = { A } )",
+            "prop_expression": "( \ud835\udf11 \u2192 A = B ), ( \ud835\udf11 \u2192 A = C ) \u22a2 ( \ud835\udf11 \u2192 B = C )",
+            "step": 1,
+            "theorem": "eqtr3d",
+            "ground_truth": "eqtr3d \u22a2 ( A \u2208 \u2124 \u2192 ( A ..^ ( A + 1 ) ) = { A } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.24433,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 0.33333,
+            "_thrs_surprisingness": 0.75,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.71667,
+            "_thrs_logistic_regression": 0.99926,
+            "_thrs_random_forest": 0.75
+        },
+        {
+            "number": 9921,
+            "expression": "\u22a2 ( A \u2208 \u2124 \u2192 ( A ... A ) = ( A ..^ ( A + 1 ) ) )",
+            "prop_expression": " \u22a2 ( N \u2208 \u2124 \u2192 ( M ... N ) = ( M ..^ ( N + 1 ) ) )",
+            "step": 2,
+            "theorem": "fzval3",
+            "ground_truth": "fzval3 \u22a2 ( A \u2208 \u2124 \u2192 ( A ... A ) = ( A ..^ ( A + 1 ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.66795,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.05682,
+            "_thrs_interestingness": 0.41136,
+            "_thrs_logistic_regression": 0.9523,
+            "_thrs_random_forest": 0.883
+        },
+        {
+            "number": 9921,
+            "expression": "\u22a2 ( A \u2208 \u2124 \u2192 ( A ... A ) = { A } )",
+            "prop_expression": " \u22a2 ( M \u2208 \u2124 \u2192 ( M ... M ) = { M } )",
+            "step": 3,
+            "theorem": "fzsn",
+            "ground_truth": "fzsn \u22a2 ( A \u2208 \u2124 \u2192 ( A ... A ) = { A } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.27306,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.5,
+            "_thrs_random_forest": 0.84
+        }
+    ],
+    "is_train": false
+}

@@ -10,17 +10,18 @@
             3
         ]
     ],
-    "expression": "( x = A \u2192 ( \ud835\udf11 \u2194 [. A / x ]. \ud835\udf11 ) )",
+    "expression": "( x = A \u2192 ( \ud835\udf11 \u2194 [ A / x ] \ud835\udf11 ) )",
     "steps": [
         {
-            "expression": "\u22a2 ( x = A \u2192 ( \ud835\udf11 \u2194 [. A / x ]. \ud835\udf11 ) )",
+            "number": 2649,
+            "expression": "\u22a2 ( x = A \u2192 ( \ud835\udf11 \u2194 [ A / x ] \ud835\udf11 ) )",
             "prop_expression": "( \ud835\udf13 \u2194 \ud835\udf11 ), ( \ud835\udf12 \u2192 ( \ud835\udf13 \u2194 \ud835\udf03 ) ) \u22a2 ( \ud835\udf12 \u2192 ( \ud835\udf11 \u2194 \ud835\udf03 ) )",
             "step": 1,
             "theorem": "syl5bbr",
-            "ground_truth": "syl5bbr \u22a2 ( x = A \u2192 ( \ud835\udf11 \u2194 [. A / x ]. \ud835\udf11 ) )",
+            "ground_truth": "syl5bbr \u22a2 ( x = A \u2192 ( \ud835\udf11 \u2194 [ A / x ] \ud835\udf11 ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.46065,
+            "_thrs_random_uniform": 0.60521,
             "_thrs_reconstruct": 0.0109,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.5,
@@ -32,14 +33,15 @@
             "_thrs_random_forest": 0.885
         },
         {
-            "expression": "\u22a2 ( [. x / x ]. \ud835\udf11 \u2194 \ud835\udf11 )",
-            "prop_expression": " \u22a2 ( [. x / x ]. \ud835\udf11 \u2194 \ud835\udf11 )",
+            "number": 2649,
+            "expression": "\u22a2 ( [ x / x ] \ud835\udf11 \u2194 \ud835\udf11 )",
+            "prop_expression": " \u22a2 ( [ x / x ] \ud835\udf11 \u2194 \ud835\udf11 )",
             "step": 2,
             "theorem": "sbid",
-            "ground_truth": "sbid \u22a2 ( [. x / x ]. \ud835\udf11 \u2194 \ud835\udf11 )",
+            "ground_truth": "sbid \u22a2 ( [ x / x ] \ud835\udf11 \u2194 \ud835\udf11 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.82354,
+            "_thrs_random_uniform": 0.92759,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
@@ -51,14 +53,15 @@
             "_thrs_random_forest": 0.95
         },
         {
-            "expression": "\u22a2 ( x = A \u2192 ( [. x / x ]. \ud835\udf11 \u2194 [. A / x ]. \ud835\udf11 ) )",
-            "prop_expression": " \u22a2 ( A = B \u2192 ( [. A / x ]. \ud835\udf11 \u2194 [. B / x ]. \ud835\udf11 ) )",
+            "number": 2649,
+            "expression": "\u22a2 ( x = A \u2192 ( [ x / x ] \ud835\udf11 \u2194 [ A / x ] \ud835\udf11 ) )",
+            "prop_expression": " \u22a2 ( A = B \u2192 ( [ A / x ] \ud835\udf11 \u2194 [ B / x ] \ud835\udf11 ) )",
             "step": 3,
             "theorem": "dfsbcq",
-            "ground_truth": "dfsbcq \u22a2 ( x = A \u2192 ( [. x / x ]. \ud835\udf11 \u2194 [. A / x ]. \ud835\udf11 ) )",
+            "ground_truth": "dfsbcq \u22a2 ( x = A \u2192 ( [ x / x ] \ud835\udf11 \u2194 [ A / x ] \ud835\udf11 ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.87456,
+            "_thrs_random_uniform": 0.91734,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 0.96214,
             "_thrs_weight": 0.0,
@@ -69,5 +72,6 @@
             "_thrs_logistic_regression": 0.93647,
             "_thrs_random_forest": 0.965
         }
-    ]
+    ],
+    "is_train": true
 }

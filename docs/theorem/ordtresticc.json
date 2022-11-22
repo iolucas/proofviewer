@@ -1,0 +1,77 @@
+{
+    "theorem": "ordtresticc",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( ( ordTop ` \u2264 ) |`t ( A [,] B ) ) = ( ordTop ` ( \u2264 \u2229 ( ( A [,] B ) \u00d7 ( A [,] B ) ) ) )",
+    "steps": [
+        {
+            "number": 14775,
+            "expression": "\u22a2 ( ( ordTop ` \u2264 ) |`t ( A [,] B ) ) = ( ordTop ` ( \u2264 \u2229 ( ( A [,] B ) \u00d7 ( A [,] B ) ) ) )",
+            "prop_expression": "A \u2286 \u211d*, ( ( x \u2208 A \u2227 y \u2208 A ) \u2192 ( x [,] y ) \u2286 A ) \u22a2 ( ( ordTop ` \u2264 ) |`t A ) = ( ordTop ` ( \u2264 \u2229 ( A \u00d7 A ) ) )",
+            "step": 1,
+            "theorem": "ordtrestixx",
+            "ground_truth": "ordtrestixx \u22a2 ( ( ordTop ` \u2264 ) |`t ( A [,] B ) ) = ( ordTop ` ( \u2264 \u2229 ( ( A [,] B ) \u00d7 ( A [,] B ) ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.48614,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.99992,
+            "_thrs_random_forest": 0.505
+        },
+        {
+            "number": 14775,
+            "expression": "\u22a2 ( A [,] B ) \u2286 \u211d*",
+            "prop_expression": " \u22a2 ( A [,] B ) \u2286 \u211d*",
+            "step": 2,
+            "theorem": "iccssxr",
+            "ground_truth": "iccssxr \u22a2 ( A [,] B ) \u2286 \u211d*",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.56017,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.61069,
+            "_thrs_interestingness": 0.72214,
+            "_thrs_logistic_regression": 0.87442,
+            "_thrs_random_forest": 0.68
+        },
+        {
+            "number": 14775,
+            "expression": "\u22a2 ( ( x \u2208 ( A [,] B ) \u2227 y \u2208 ( A [,] B ) ) \u2192 ( x [,] y ) \u2286 ( A [,] B ) )",
+            "prop_expression": " \u22a2 ( ( C \u2208 ( A [,] B ) \u2227 D \u2208 ( A [,] B ) ) \u2192 ( C [,] D ) \u2286 ( A [,] B ) )",
+            "step": 3,
+            "theorem": "iccss2",
+            "ground_truth": "iccss2 \u22a2 ( ( x \u2208 ( A [,] B ) \u2227 y \u2208 ( A [,] B ) ) \u2192 ( x [,] y ) \u2286 ( A [,] B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.48331,
+            "_thrs_reconstruct": 0.00037,
+            "_thrs_obviousness": 0.00037,
+            "_thrs_weight": 0.07692,
+            "_thrs_complexity": 0.5,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.31546,
+            "_thrs_logistic_regression": 0.57585,
+            "_thrs_random_forest": 0.705
+        }
+    ],
+    "is_train": false
+}

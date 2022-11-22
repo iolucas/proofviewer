@@ -17,6 +17,7 @@
     "expression": "B \u2208 C",
     "steps": [
         {
+            "number": 2131,
             "expression": "\u22a2 B \u2208 C",
             "prop_expression": "A = B, B \u2208 C \u22a2 A \u2208 C",
             "step": 1,
@@ -24,7 +25,7 @@
             "ground_truth": "eqeltri \u22a2 B \u2208 C",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.9268,
+            "_thrs_random_uniform": 0.28312,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.0,
@@ -36,6 +37,7 @@
             "_thrs_random_forest": 0.765
         },
         {
+            "number": 2131,
             "expression": "\u22a2 B = A",
             "prop_expression": "A = B \u22a2 B = A",
             "step": 2,
@@ -43,7 +45,7 @@
             "ground_truth": "eqcomi \u22a2 B = A",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.58922,
+            "_thrs_random_uniform": 0.43833,
             "_thrs_reconstruct": 0.02112,
             "_thrs_obviousness": 0.02069,
             "_thrs_weight": 1.0,
@@ -55,6 +57,7 @@
             "_thrs_random_forest": 0.825
         },
         {
+            "number": 2131,
             "expression": "\u22a2 A = B",
             "prop_expression": " \u22a2 A = B",
             "step": 3,
@@ -62,7 +65,7 @@
             "ground_truth": "eqeltrr.1 \u22a2 A = B",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.47536,
+            "_thrs_random_uniform": 0.06044,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
@@ -74,6 +77,7 @@
             "_thrs_random_forest": 0.91
         },
         {
+            "number": 2131,
             "expression": "\u22a2 A \u2208 C",
             "prop_expression": " \u22a2 A \u2208 C",
             "step": 4,
@@ -81,7 +85,7 @@
             "ground_truth": "eqeltrr.2 \u22a2 A \u2208 C",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.16205,
+            "_thrs_random_uniform": 0.25976,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.0,
@@ -92,5 +96,6 @@
             "_thrs_logistic_regression": 0.9412,
             "_thrs_random_forest": 0.975
         }
-    ]
+    ],
+    "is_train": true
 }

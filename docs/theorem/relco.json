@@ -1,0 +1,53 @@
+{
+    "theorem": "relco",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "Rel ( A \u2218 B )",
+    "steps": [
+        {
+            "number": 4749,
+            "expression": "\u22a2 Rel ( A \u2218 B )",
+            "prop_expression": "A = { \u27e8 x , y \u27e9 | \ud835\udf11 } \u22a2 Rel A",
+            "step": 1,
+            "theorem": "relopabi",
+            "ground_truth": "relopabi \u22a2 Rel ( A \u2218 B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.60875,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.715
+        },
+        {
+            "number": 4749,
+            "expression": "\u22a2 ( A \u2218 B ) = { \u27e8 x , y \u27e9 | \u2203 z ( x B z \u2227 z A y ) }",
+            "prop_expression": " \u22a2 ( A \u2218 B ) = { \u27e8 x , y \u27e9 | \u2203 z ( x B z \u2227 z A y ) }",
+            "step": 2,
+            "theorem": "df-co",
+            "ground_truth": "df-co \u22a2 ( A \u2218 B ) = { \u27e8 x , y \u27e9 | \u2203 z ( x B z \u2227 z A y ) }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.10098,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.775
+        }
+    ],
+    "is_train": false
+}

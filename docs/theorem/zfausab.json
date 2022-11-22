@@ -13,6 +13,7 @@
     "expression": "{ x | ( x \u2208 A \u2227 \ud835\udf11 ) } \u2208 V",
     "steps": [
         {
+            "number": 3721,
             "expression": "\u22a2 { x | ( x \u2208 A \u2227 \ud835\udf11 ) } \u2208 V",
             "prop_expression": "B \u2208 V, A \u2286 B \u22a2 A \u2208 V",
             "step": 1,
@@ -20,7 +21,7 @@
             "ground_truth": "ssexi \u22a2 { x | ( x \u2208 A \u2227 \ud835\udf11 ) } \u2208 V",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.54362,
+            "_thrs_random_uniform": 0.24626,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.0,
@@ -32,6 +33,7 @@
             "_thrs_random_forest": 0.845
         },
         {
+            "number": 3721,
             "expression": "\u22a2 A \u2208 V",
             "prop_expression": " \u22a2 A \u2208 V",
             "step": 2,
@@ -39,7 +41,7 @@
             "ground_truth": "zfausab.1 \u22a2 A \u2208 V",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.01214,
+            "_thrs_random_uniform": 0.83381,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
@@ -51,6 +53,7 @@
             "_thrs_random_forest": 0.8
         },
         {
+            "number": 3721,
             "expression": "\u22a2 { x | ( x \u2208 A \u2227 \ud835\udf11 ) } \u2286 A",
             "prop_expression": " \u22a2 { x | ( x \u2208 A \u2227 \ud835\udf11 ) } \u2286 A",
             "step": 3,
@@ -58,7 +61,7 @@
             "ground_truth": "ssab2 \u22a2 { x | ( x \u2208 A \u2227 \ud835\udf11 ) } \u2286 A",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.73022,
+            "_thrs_random_uniform": 0.88103,
             "_thrs_reconstruct": 0.11918,
             "_thrs_obviousness": 0.10649,
             "_thrs_weight": 0.0,
@@ -69,5 +72,6 @@
             "_thrs_logistic_regression": 0.9407,
             "_thrs_random_forest": 0.42
         }
-    ]
+    ],
+    "is_train": true
 }

@@ -1,0 +1,53 @@
+{
+    "theorem": "rhmrcl2",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( F \u2208 ( R RingHom S ) \u2192 S \u2208 Ring )",
+    "steps": [
+        {
+            "number": 13230,
+            "expression": "\u22a2 ( F \u2208 ( R RingHom S ) \u2192 S \u2208 Ring )",
+            "prop_expression": "F = ( x \u2208 A , y \u2208 B |\u2192 C ) \u22a2 ( X \u2208 ( S F T ) \u2192 T \u2208 B )",
+            "step": 1,
+            "theorem": "elmpt2cl2",
+            "ground_truth": "elmpt2cl2 \u22a2 ( F \u2208 ( R RingHom S ) \u2192 S \u2208 Ring )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.34203,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.9,
+            "_thrs_logistic_regression": 0.99037,
+            "_thrs_random_forest": 0.48667
+        },
+        {
+            "number": 13230,
+            "expression": "\u22a2 RingHom = ( r \u2208 Ring , s \u2208 Ring |\u2192 ( ( r GrpHom s ) \u2229 ( ( mulGrp ` r ) MndHom ( mulGrp ` s ) ) ) )",
+            "prop_expression": " \u22a2 RingHom = ( r \u2208 Ring , s \u2208 Ring |\u2192 ( ( r GrpHom s ) \u2229 ( ( mulGrp ` r ) MndHom ( mulGrp ` s ) ) ) )",
+            "step": 2,
+            "theorem": "dfrhm2",
+            "ground_truth": "dfrhm2 \u22a2 RingHom = ( r \u2208 Ring , s \u2208 Ring |\u2192 ( ( r GrpHom s ) \u2229 ( ( mulGrp ` r ) MndHom ( mulGrp ` s ) ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.97022,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.1,
+            "_thrs_logistic_regression": 0.96924,
+            "_thrs_random_forest": 0.78
+        }
+    ],
+    "is_train": false
+}

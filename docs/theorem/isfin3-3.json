@@ -1,0 +1,53 @@
+{
+    "theorem": "isfin3-3",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "( A \u2208 V \u2192 ( A \u2208 Fin3 \u2194 \u2200 f \u2208 ( \ud835\udcab A ^m om ) ( \u2200 x \u2208 om ( f ` suc x ) \u2286 ( f ` x ) \u2192 \u2229 ran f \u2208 ran f ) ) )",
+    "steps": [
+        {
+            "number": 7450,
+            "expression": "\u22a2 ( A \u2208 V \u2192 ( A \u2208 Fin3 \u2194 \u2200 f \u2208 ( \ud835\udcab A ^m om ) ( \u2200 x \u2208 om ( f ` suc x ) \u2286 ( f ` x ) \u2192 \u2229 ran f \u2208 ran f ) ) )",
+            "prop_expression": "F = { g | \u2200 a \u2208 ( \ud835\udcab g ^m om ) ( \u2200 b \u2208 om ( a ` suc b ) \u2286 ( a ` b ) \u2192 \u2229 ran a \u2208 ran a ) } \u22a2 ( A \u2208 V \u2192 ( A \u2208 F \u2194 \u2200 f \u2208 ( \ud835\udcab A ^m om ) ( \u2200 x \u2208 om ( f ` suc x ) \u2286 ( f ` x ) \u2192 \u2229 ran f \u2208 ran f ) ) )",
+            "step": 1,
+            "theorem": "isfin3ds",
+            "ground_truth": "isfin3ds \u22a2 ( A \u2208 V \u2192 ( A \u2208 Fin3 \u2194 \u2200 f \u2208 ( \ud835\udcab A ^m om ) ( \u2200 x \u2208 om ( f ` suc x ) \u2286 ( f ` x ) \u2192 \u2229 ran f \u2208 ran f ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.84665,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.99984,
+            "_thrs_random_forest": 0.445
+        },
+        {
+            "number": 7450,
+            "expression": "\u22a2 Fin3 = { g | \u2200 a \u2208 ( \ud835\udcab g ^m om ) ( \u2200 b \u2208 om ( a ` suc b ) \u2286 ( a ` b ) \u2192 \u2229 ran a \u2208 ran a ) }",
+            "prop_expression": " \u22a2 Fin3 = { g | \u2200 a \u2208 ( \ud835\udcab g ^m om ) ( \u2200 x \u2208 om ( a ` suc x ) \u2286 ( a ` x ) \u2192 \u2229 ran a \u2208 ran a ) }",
+            "step": 2,
+            "theorem": "isf33lem",
+            "ground_truth": "isf33lem \u22a2 Fin3 = { g | \u2200 a \u2208 ( \ud835\udcab g ^m om ) ( \u2200 b \u2208 om ( a ` suc b ) \u2286 ( a ` b ) \u2192 \u2229 ran a \u2208 ran a ) }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.80673,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.33688,
+            "_thrs_random_forest": 0.67
+        }
+    ],
+    "is_train": false
+}

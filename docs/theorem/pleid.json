@@ -1,0 +1,77 @@
+{
+    "theorem": "pleid",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "le = Slot ( le ` ndx )",
+    "steps": [
+        {
+            "number": 11776,
+            "expression": "\u22a2 le = Slot ( le ` ndx )",
+            "prop_expression": "E = Slot N, N \u2208 \u2115 \u22a2 E = Slot ( E ` ndx )",
+            "step": 1,
+            "theorem": "ndxid",
+            "ground_truth": "ndxid \u22a2 le = Slot ( le ` ndx )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.40954,
+            "_thrs_reconstruct": 0.10322,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.2,
+            "_thrs_logistic_regression": 0.98274,
+            "_thrs_random_forest": 0.635
+        },
+        {
+            "number": 11776,
+            "expression": "\u22a2 le = Slot 10",
+            "prop_expression": " \u22a2 le = Slot 10",
+            "step": 2,
+            "theorem": "df-ple",
+            "ground_truth": "df-ple \u22a2 le = Slot 10",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.94443,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.98273,
+            "_thrs_random_forest": 0.78167
+        },
+        {
+            "number": 11776,
+            "expression": "\u22a2 10 \u2208 \u2115",
+            "prop_expression": " \u22a2 10 \u2208 \u2115",
+            "step": 3,
+            "theorem": "10nn",
+            "ground_truth": "10nn \u22a2 10 \u2208 \u2115",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.52732,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.90644,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.98129,
+            "_thrs_logistic_regression": 0.98136,
+            "_thrs_random_forest": 0.74667
+        }
+    ],
+    "is_train": false
+}

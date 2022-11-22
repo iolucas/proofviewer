@@ -1,0 +1,77 @@
+{
+    "theorem": "acsfiel2",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( ( C \u2208 ( ACS ` X ) \u2227 S \u2286 X ) \u2192 ( S \u2208 C \u2194 \u2200 y \u2208 ( \ud835\udcab S \u2229 Fin ) ( F ` y ) \u2286 S ) )",
+    "steps": [
+        {
+            "number": 14434,
+            "expression": "\u22a2 ( ( C \u2208 ( ACS ` X ) \u2227 S \u2286 X ) \u2192 ( S \u2208 C \u2194 \u2200 y \u2208 ( \ud835\udcab S \u2229 Fin ) ( F ` y ) \u2286 S ) )",
+            "prop_expression": "( \ud835\udf11 \u2192 ( \ud835\udf13 \u2194 ( \ud835\udf12 \u2227 \ud835\udf03 ) ) ) \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf12 ) \u2192 ( \ud835\udf13 \u2194 \ud835\udf03 ) )",
+            "step": 1,
+            "theorem": "baibd",
+            "ground_truth": "baibd \u22a2 ( ( C \u2208 ( ACS ` X ) \u2227 S \u2286 X ) \u2192 ( S \u2208 C \u2194 \u2200 y \u2208 ( \ud835\udcab S \u2229 Fin ) ( F ` y ) \u2286 S ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.93618,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.5,
+            "_thrs_logistic_regression": 0.99984,
+            "_thrs_random_forest": 0.655
+        },
+        {
+            "number": 14434,
+            "expression": "\u22a2 ( C \u2208 ( ACS ` X ) \u2192 ( S \u2208 C \u2194 ( S \u2286 X \u2227 \u2200 y \u2208 ( \ud835\udcab S \u2229 Fin ) ( F ` y ) \u2286 S ) ) )",
+            "prop_expression": "F = ( mrCls ` C ) \u22a2 ( C \u2208 ( ACS ` X ) \u2192 ( S \u2208 C \u2194 ( S \u2286 X \u2227 \u2200 y \u2208 ( \ud835\udcab S \u2229 Fin ) ( F ` y ) \u2286 S ) ) )",
+            "step": 2,
+            "theorem": "acsfiel",
+            "ground_truth": "acsfiel \u22a2 ( C \u2208 ( ACS ` X ) \u2192 ( S \u2208 C \u2194 ( S \u2286 X \u2227 \u2200 y \u2208 ( \ud835\udcab S \u2229 Fin ) ( F ` y ) \u2286 S ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.76169,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.96658,
+            "_thrs_random_forest": 0.75
+        },
+        {
+            "number": 14434,
+            "expression": "\u22a2 F = ( mrCls ` C )",
+            "prop_expression": " \u22a2 F = ( mrCls ` C )",
+            "step": 3,
+            "theorem": "isacs2.f",
+            "ground_truth": "isacs2.f \u22a2 F = ( mrCls ` C )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.03766,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99115,
+            "_thrs_random_forest": 0.845
+        }
+    ],
+    "is_train": false
+}

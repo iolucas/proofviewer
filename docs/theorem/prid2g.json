@@ -1,0 +1,77 @@
+{
+    "theorem": "prid2g",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ]
+    ],
+    "expression": "( B \u2208 V \u2192 B \u2208 { A , B } )",
+    "steps": [
+        {
+            "number": 3342,
+            "expression": "\u22a2 ( B \u2208 V \u2192 B \u2208 { A , B } )",
+            "prop_expression": "( \ud835\udf11 \u2192 A \u2208 B ), B = C \u22a2 ( \ud835\udf11 \u2192 A \u2208 C )",
+            "step": 1,
+            "theorem": "syl6eleq",
+            "ground_truth": "syl6eleq \u22a2 ( B \u2208 V \u2192 B \u2208 { A , B } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.4973,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.6,
+            "_thrs_logistic_regression": 0.99969,
+            "_thrs_random_forest": 0.725
+        },
+        {
+            "number": 3342,
+            "expression": "\u22a2 ( B \u2208 V \u2192 B \u2208 { B , A } )",
+            "prop_expression": " \u22a2 ( A \u2208 V \u2192 A \u2208 { A , B } )",
+            "step": 2,
+            "theorem": "prid1g",
+            "ground_truth": "prid1g \u22a2 ( B \u2208 V \u2192 B \u2208 { B , A } )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.27953,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.00051,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.06667,
+            "_thrs_interestingness": 0.21343,
+            "_thrs_logistic_regression": 0.95822,
+            "_thrs_random_forest": 0.84
+        },
+        {
+            "number": 3342,
+            "expression": "\u22a2 { B , A } = { A , B }",
+            "prop_expression": " \u22a2 { A , B } = { B , A }",
+            "step": 3,
+            "theorem": "prcom",
+            "ground_truth": "prcom \u22a2 { B , A } = { A , B }",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.17114,
+            "_thrs_reconstruct": 0.99949,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.4,
+            "_thrs_logistic_regression": 0.5,
+            "_thrs_random_forest": 0.72
+        }
+    ],
+    "is_train": false
+}

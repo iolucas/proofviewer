@@ -13,6 +13,7 @@
     "expression": "A \u2286 suc A",
     "steps": [
         {
+            "number": 4019,
             "expression": "\u22a2 A \u2286 suc A",
             "prop_expression": "A \u2286 B, C = B \u22a2 A \u2286 C",
             "step": 1,
@@ -20,7 +21,7 @@
             "ground_truth": "sseqtr4i \u22a2 A \u2286 suc A",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.52577,
+            "_thrs_random_uniform": 0.40149,
             "_thrs_reconstruct": 0.01798,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 1.0,
@@ -32,6 +33,7 @@
             "_thrs_random_forest": 0.91
         },
         {
+            "number": 4019,
             "expression": "\u22a2 A \u2286 ( A \u222a { A } )",
             "prop_expression": " \u22a2 A \u2286 ( A \u222a B )",
             "step": 2,
@@ -39,7 +41,7 @@
             "ground_truth": "ssun1 \u22a2 A \u2286 ( A \u222a { A } )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.55521,
+            "_thrs_random_uniform": 0.7859,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 0.98234,
             "_thrs_weight": 0.0,
@@ -51,6 +53,7 @@
             "_thrs_random_forest": 0.805
         },
         {
+            "number": 4019,
             "expression": "\u22a2 suc A = ( A \u222a { A } )",
             "prop_expression": " \u22a2 suc A = ( A \u222a { A } )",
             "step": 3,
@@ -58,7 +61,7 @@
             "ground_truth": "df-suc \u22a2 suc A = ( A \u222a { A } )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.08871,
+            "_thrs_random_uniform": 0.99199,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.0,
@@ -69,5 +72,6 @@
             "_thrs_logistic_regression": 0.71293,
             "_thrs_random_forest": 0.9
         }
-    ]
+    ],
+    "is_train": true
 }

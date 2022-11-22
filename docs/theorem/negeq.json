@@ -1,0 +1,101 @@
+{
+    "theorem": "negeq",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            1,
+            4
+        ]
+    ],
+    "expression": "( A = B \u2192 - A = - B )",
+    "steps": [
+        {
+            "number": 8408,
+            "expression": "\u22a2 ( A = B \u2192 - A = - B )",
+            "prop_expression": "( \ud835\udf11 \u2192 A = B ), C = A, D = B \u22a2 ( \ud835\udf11 \u2192 C = D )",
+            "step": 1,
+            "theorem": "3eqtr4g",
+            "ground_truth": "3eqtr4g \u22a2 ( A = B \u2192 - A = - B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.47342,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.66667,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.83333,
+            "_thrs_logistic_regression": 0.98681,
+            "_thrs_random_forest": 0.915
+        },
+        {
+            "number": 8408,
+            "expression": "\u22a2 ( A = B \u2192 ( 0 - A ) = ( 0 - B ) )",
+            "prop_expression": " \u22a2 ( A = B \u2192 ( C F A ) = ( C F B ) )",
+            "step": 2,
+            "theorem": "oveq2",
+            "ground_truth": "oveq2 \u22a2 ( A = B \u2192 ( 0 - A ) = ( 0 - B ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.74373,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.96658,
+            "_thrs_random_forest": 0.555
+        },
+        {
+            "number": 8408,
+            "expression": "\u22a2 - A = ( 0 - A )",
+            "prop_expression": " \u22a2 - A = ( 0 - A )",
+            "step": 3,
+            "theorem": "df-neg",
+            "ground_truth": "df-neg \u22a2 - A = ( 0 - A )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.78058,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.23077,
+            "_thrs_interestingness": 0.34615,
+            "_thrs_logistic_regression": 0.99649,
+            "_thrs_random_forest": 0.785
+        },
+        {
+            "number": 8408,
+            "expression": "\u22a2 - B = ( 0 - B )",
+            "prop_expression": " \u22a2 - A = ( 0 - A )",
+            "step": 4,
+            "theorem": "df-neg",
+            "ground_truth": "df-neg \u22a2 - B = ( 0 - B )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.37967,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.23077,
+            "_thrs_interestingness": 0.34615,
+            "_thrs_logistic_regression": 0.99649,
+            "_thrs_random_forest": 0.785
+        }
+    ],
+    "is_train": false
+}

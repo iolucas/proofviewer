@@ -1,0 +1,53 @@
+{
+    "theorem": "axinf",
+    "hyps": [
+        [
+            1,
+            2
+        ]
+    ],
+    "expression": "\u2203 y ( x \u2208 y \u2227 \u2200 z ( z \u2208 y \u2192 \u2203 w ( z \u2208 w \u2227 w \u2208 y ) ) )",
+    "steps": [
+        {
+            "number": 6821,
+            "expression": "\u22a2 \u2203 y ( x \u2208 y \u2227 \u2200 z ( z \u2208 y \u2192 \u2203 w ( z \u2208 w \u2227 w \u2208 y ) ) )",
+            "prop_expression": "om \u2208 V \u22a2 \u2203 y ( x \u2208 y \u2227 \u2200 z ( z \u2208 y \u2192 \u2203 w ( z \u2208 w \u2227 w \u2208 y ) ) )",
+            "step": 1,
+            "theorem": "inf0",
+            "ground_truth": "inf0 \u22a2 \u2203 y ( x \u2208 y \u2227 \u2200 z ( z \u2208 y \u2192 \u2203 w ( z \u2208 w \u2227 w \u2208 y ) ) )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.42386,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.96658,
+            "_thrs_random_forest": 0.54
+        },
+        {
+            "number": 6821,
+            "expression": "\u22a2 om \u2208 V",
+            "prop_expression": " \u22a2 om \u2208 V",
+            "step": 2,
+            "theorem": "omex",
+            "ground_truth": "omex \u22a2 om \u2208 V",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.48579,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.5,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.7,
+            "_thrs_logistic_regression": 0.99115,
+            "_thrs_random_forest": 0.75
+        }
+    ],
+    "is_train": false
+}

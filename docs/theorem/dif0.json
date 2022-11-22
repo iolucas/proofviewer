@@ -1,0 +1,101 @@
+{
+    "theorem": "dif0",
+    "hyps": [
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "expression": "( A \u2216 \u2205 ) = A",
+    "steps": [
+        {
+            "number": 3140,
+            "expression": "\u22a2 ( A \u2216 \u2205 ) = A",
+            "prop_expression": "A = B, A = C \u22a2 B = C",
+            "step": 1,
+            "theorem": "eqtr3i",
+            "ground_truth": "eqtr3i \u22a2 ( A \u2216 \u2205 ) = A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.50751,
+            "_thrs_reconstruct": 0.0,
+            "_thrs_obviousness": 1.0,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 1.0,
+            "_thrs_interestingness": 0.8,
+            "_thrs_logistic_regression": 0.99988,
+            "_thrs_random_forest": 0.785
+        },
+        {
+            "number": 3140,
+            "expression": "\u22a2 ( A \u2216 ( A \u2216 A ) ) = ( A \u2216 \u2205 )",
+            "prop_expression": "A = B \u22a2 ( C \u2216 A ) = ( C \u2216 B )",
+            "step": 2,
+            "theorem": "difeq2i",
+            "ground_truth": "difeq2i \u22a2 ( A \u2216 ( A \u2216 A ) ) = ( A \u2216 \u2205 )",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.56902,
+            "_thrs_reconstruct": 0.00141,
+            "_thrs_obviousness": 0.33544,
+            "_thrs_weight": 0.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.05263,
+            "_thrs_interestingness": 0.27761,
+            "_thrs_logistic_regression": 0.95384,
+            "_thrs_random_forest": 0.845
+        },
+        {
+            "number": 3140,
+            "expression": "\u22a2 ( A \u2216 A ) = \u2205",
+            "prop_expression": " \u22a2 ( A \u2216 A ) = \u2205",
+            "step": 3,
+            "theorem": "difid",
+            "ground_truth": "difid \u22a2 ( A \u2216 A ) = \u2205",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.08753,
+            "_thrs_reconstruct": 1.0,
+            "_thrs_obviousness": 0.33401,
+            "_thrs_weight": 1.0,
+            "_thrs_complexity": 0.0,
+            "_thrs_surprisingness": 1.0,
+            "_thrs_intensity": 0.13158,
+            "_thrs_interestingness": 0.49312,
+            "_thrs_logistic_regression": 0.98797,
+            "_thrs_random_forest": 0.645
+        },
+        {
+            "number": 3140,
+            "expression": "\u22a2 ( A \u2216 ( A \u2216 A ) ) = A",
+            "prop_expression": " \u22a2 ( A \u2216 ( B \u2216 A ) ) = A",
+            "step": 4,
+            "theorem": "difdif",
+            "ground_truth": "difdif \u22a2 ( A \u2216 ( A \u2216 A ) ) = A",
+            "ground_truth_display": false,
+            "statement_depth": 0,
+            "_thrs_random_uniform": 0.2506,
+            "_thrs_reconstruct": 0.6655,
+            "_thrs_obviousness": 0.0,
+            "_thrs_weight": 0.5,
+            "_thrs_complexity": 1.0,
+            "_thrs_surprisingness": 0.0,
+            "_thrs_intensity": 0.0,
+            "_thrs_interestingness": 0.3,
+            "_thrs_logistic_regression": 0.38299,
+            "_thrs_random_forest": 0.96
+        }
+    ],
+    "is_train": false
+}
