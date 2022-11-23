@@ -2,313 +2,313 @@
     "theorem": "opoeALTV",
     "hyps": [
         [
-            4,
-            1
-        ],
-        [
-            4,
-            2
-        ],
-        [
-            4,
-            3
-        ],
-        [
-            6,
-            5
-        ],
-        [
-            8,
-            6
-        ],
-        [
-            8,
-            7
-        ],
-        [
-            10,
-            9
-        ],
-        [
-            12,
-            10
-        ],
-        [
-            12,
-            11
-        ],
-        [
-            14,
-            13
-        ],
-        [
-            15,
-            14
-        ],
-        [
-            16,
-            15
-        ],
-        [
-            17,
-            16
-        ],
-        [
-            18,
-            17
-        ],
-        [
-            20,
-            19
-        ],
-        [
-            21,
-            20
-        ],
-        [
-            23,
-            22
-        ],
-        [
-            24,
-            23
-        ],
-        [
-            25,
-            24
-        ],
-        [
-            29,
-            28
-        ],
-        [
-            30,
-            29
-        ],
-        [
-            32,
-            30
-        ],
-        [
-            32,
-            31
-        ],
-        [
-            36,
-            34
-        ],
-        [
-            36,
-            35
-        ],
-        [
-            37,
-            32
-        ],
-        [
-            37,
-            33
-        ],
-        [
-            37,
-            36
-        ],
-        [
-            37,
-            33
-        ],
-        [
-            41,
-            38
-        ],
-        [
-            41,
-            39
-        ],
-        [
-            41,
-            40
-        ],
-        [
-            42,
-            41
-        ],
-        [
-            44,
-            38
-        ],
-        [
-            44,
-            43
-        ],
-        [
-            44,
-            33
-        ],
-        [
-            47,
-            45
-        ],
-        [
-            47,
-            46
-        ],
-        [
-            48,
-            47
-        ],
-        [
-            49,
-            48
-        ],
-        [
-            50,
-            42
-        ],
-        [
-            50,
-            44
-        ],
-        [
-            50,
-            49
-        ],
-        [
-            51,
-            37
-        ],
-        [
-            51,
-            50
-        ],
-        [
-            52,
-            26
-        ],
-        [
-            52,
-            27
-        ],
-        [
-            52,
-            51
-        ],
-        [
-            53,
-            52
-        ],
-        [
-            54,
-            53
-        ],
-        [
-            55,
-            54
-        ],
-        [
-            56,
-            55
-        ],
-        [
-            57,
-            25
-        ],
-        [
-            57,
-            56
-        ],
-        [
-            58,
-            18
-        ],
-        [
-            58,
-            21
-        ],
-        [
-            58,
-            57
-        ],
-        [
-            59,
-            58
-        ],
-        [
-            60,
-            59
-        ],
-        [
-            61,
-            60
-        ],
-        [
-            62,
-            61
-        ],
-        [
-            63,
-            62
-        ],
-        [
-            64,
-            63
-        ],
-        [
-            65,
-            12
-        ],
-        [
-            65,
-            64
-        ],
-        [
-            66,
-            8
-        ],
-        [
-            66,
-            65
-        ],
-        [
-            67,
-            66
+            69,
+            72
         ],
         [
             69,
-            68
+            71
         ],
         [
-            71,
-            69
-        ],
-        [
-            71,
+            69,
             70
         ],
         [
-            72,
-            4
+            67,
+            68
         ],
         [
-            72,
+            65,
             67
         ],
         [
-            72,
-            71
+            65,
+            66
+        ],
+        [
+            63,
+            64
+        ],
+        [
+            61,
+            63
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            41,
+            43
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            37,
+            39
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            36,
+            41
+        ],
+        [
+            36,
+            40
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            36,
+            40
+        ],
+        [
+            32,
+            35
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            29,
+            35
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            29,
+            40
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            23,
+            31
+        ],
+        [
+            23,
+            29
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            22,
+            36
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            21,
+            47
+        ],
+        [
+            21,
+            46
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            16,
+            48
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            15,
+            55
+        ],
+        [
+            15,
+            52
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            8,
+            61
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            7,
+            65
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            1,
+            69
+        ],
+        [
+            1,
+            6
+        ],
+        [
+            1,
+            2
         ]
     ],
     "expression": "\u22a2 ( ( \ud835\udc34 \u2208 O d d \u2227 \ud835\udc35 \u2208 O d d ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) \u2208 E v e n )",
     "steps": [
         {
-            "expression": "\u22a2 ( \ud835\udc34 \u2208 O d d \u2192 \ud835\udc34 \u2208 \u2124 )",
-            "prop_expression": " \u22a2 ( \ud835\udc4d \u2208 O d d \u2192 \ud835\udc4d \u2208 \u2124 )",
+            "expression": "\u22a2 ( ( \ud835\udc34 \u2208 O d d \u2227 \ud835\udc35 \u2208 O d d ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) \u2208 E v e n )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \ud835\udf03 )",
             "step": 1,
-            "theorem": "oddz",
-            "ground_truth": "oddz \u22a2 ( \ud835\udc34 \u2208 O d d \u2192 \ud835\udc34 \u2208 \u2124 )",
+            "theorem": "sylanbrc",
+            "ground_truth": "sylanbrc \u22a2 ( ( \ud835\udc34 \u2208 O d d \u2227 \ud835\udc35 \u2208 O d d ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) \u2208 E v e n )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.73428,
+            "_thrs_random_uniform": 0.66889,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.94,
@@ -320,14 +320,14 @@
             "_thrs_random_forest": 0.7
         },
         {
-            "expression": "\u22a2 ( \ud835\udc35 \u2208 O d d \u2192 \ud835\udc35 \u2208 \u2124 )",
-            "prop_expression": " \u22a2 ( \ud835\udc4d \u2208 O d d \u2192 \ud835\udc4d \u2208 \u2124 )",
+            "expression": "\u22a2 ( ( \ud835\udc34 + \ud835\udc35 ) \u2208 E v e n \u2194 ( ( \ud835\udc34 + \ud835\udc35 ) \u2208 \u2124 \u2227 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
+            "prop_expression": " \u22a2 ( \ud835\udc34 \u2208 \ud835\udc36 \u2194 ( \ud835\udc34 \u2208 \ud835\udc35 \u2227 \ud835\udf13 ) )",
             "step": 2,
-            "theorem": "oddz",
-            "ground_truth": "oddz \u22a2 ( \ud835\udc35 \u2208 O d d \u2192 \ud835\udc35 \u2208 \u2124 )",
+            "theorem": "elrab2",
+            "ground_truth": "elrab2 \u22a2 ( ( \ud835\udc34 + \ud835\udc35 ) \u2208 E v e n \u2194 ( ( \ud835\udc34 + \ud835\udc35 ) \u2208 \u2124 \u2227 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.77499,
+            "_thrs_random_uniform": 0.65253,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.94,
@@ -339,14 +339,14 @@
             "_thrs_random_forest": 0.7
         },
         {
-            "expression": "\u22a2 ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc35 \u2208 \u2124 ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) \u2208 \u2124 )",
-            "prop_expression": " \u22a2 ( ( \ud835\udc40 \u2208 \u2124 \u2227 \ud835\udc41 \u2208 \u2124 ) \u2192 ( \ud835\udc40 + \ud835\udc41 ) \u2208 \u2124 )",
+            "expression": "\u22a2 E v e n = { \ud835\udc67 \u2208 \u2124 \u2223 \u2203 \ud835\udc5b \u2208 \u2124 \ud835\udc67 = ( 2 \u00b7 \ud835\udc5b ) }",
+            "prop_expression": " \u22a2 E v e n = { \ud835\udc67 \u2208 \u2124 \u2223 \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc67 = ( 2 \u00b7 \ud835\udc56 ) }",
             "step": 3,
-            "theorem": "zaddcl",
-            "ground_truth": "zaddcl \u22a2 ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc35 \u2208 \u2124 ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) \u2208 \u2124 )",
+            "theorem": "dfeven4",
+            "ground_truth": "dfeven4 \u22a2 E v e n = { \ud835\udc67 \u2208 \u2124 \u2223 \u2203 \ud835\udc5b \u2208 \u2124 \ud835\udc67 = ( 2 \u00b7 \ud835\udc5b ) }",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.66096,
+            "_thrs_random_uniform": 0.82352,
             "_thrs_reconstruct": 0.15658,
             "_thrs_obviousness": 0.06132,
             "_thrs_weight": 0.82,
@@ -358,14 +358,14 @@
             "_thrs_random_forest": 0.715
         },
         {
-            "expression": "\u22a2 ( ( \ud835\udc34 \u2208 O d d \u2227 \ud835\udc35 \u2208 O d d ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) \u2208 \u2124 )",
-            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf0f ) \u2192 \ud835\udf03 )",
+            "expression": "\u22a2 ( \ud835\udc67 = ( \ud835\udc34 + \ud835\udc35 ) \u2192 ( \u2203 \ud835\udc5b \u2208 \u2124 \ud835\udc67 = ( 2 \u00b7 \ud835\udc5b ) \u2194 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \u2203 \ud835\udc65 \u2208 \ud835\udc34 \ud835\udf13 \u2194 \u2203 \ud835\udc65 \u2208 \ud835\udc34 \ud835\udf12 ) )",
             "step": 4,
-            "theorem": "syl2an",
-            "ground_truth": "syl2an \u22a2 ( ( \ud835\udc34 \u2208 O d d \u2227 \ud835\udc35 \u2208 O d d ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) \u2208 \u2124 )",
+            "theorem": "rexbidv",
+            "ground_truth": "rexbidv \u22a2 ( \ud835\udc67 = ( \ud835\udc34 + \ud835\udc35 ) \u2192 ( \u2203 \ud835\udc5b \u2208 \u2124 \ud835\udc67 = ( 2 \u00b7 \ud835\udc5b ) \u2194 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.71596,
+            "_thrs_random_uniform": 0.76106,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.06132,
             "_thrs_weight": 0.82,
@@ -377,14 +377,14 @@
             "_thrs_random_forest": 0.745
         },
         {
-            "expression": "\u22a2 ( \ud835\udc4e = \ud835\udc34 \u2192 ( \ud835\udc4e = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) \u2194 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) )",
+            "expression": "\u22a2 ( \ud835\udc67 = ( \ud835\udc34 + \ud835\udc35 ) \u2192 ( \ud835\udc67 = ( 2 \u00b7 \ud835\udc5b ) \u2194 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
             "prop_expression": " \u22a2 ( \ud835\udc34 = \ud835\udc35 \u2192 ( \ud835\udc34 = \ud835\udc36 \u2194 \ud835\udc35 = \ud835\udc36 ) )",
             "step": 5,
             "theorem": "eqeq1",
-            "ground_truth": "eqeq1 \u22a2 ( \ud835\udc4e = \ud835\udc34 \u2192 ( \ud835\udc4e = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) \u2194 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) )",
+            "ground_truth": "eqeq1 \u22a2 ( \ud835\udc67 = ( \ud835\udc34 + \ud835\udc35 ) \u2192 ( \ud835\udc67 = ( 2 \u00b7 \ud835\udc5b ) \u2194 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.36048,
+            "_thrs_random_uniform": 0.41128,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.76,
@@ -396,14 +396,14 @@
             "_thrs_random_forest": 0.585
         },
         {
-            "expression": "\u22a2 ( \ud835\udc4e = \ud835\udc34 \u2192 ( \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc4e = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) \u2194 \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) )",
-            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \u2203 \ud835\udc65 \u2208 \ud835\udc34 \ud835\udf13 \u2194 \u2203 \ud835\udc65 \u2208 \ud835\udc34 \ud835\udf12 ) )",
+            "expression": "\u22a2 ( ( \ud835\udc34 \u2208 O d d \u2227 \ud835\udc35 \u2208 O d d ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) )",
+            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 )",
             "step": 6,
-            "theorem": "rexbidv",
-            "ground_truth": "rexbidv \u22a2 ( \ud835\udc4e = \ud835\udc34 \u2192 ( \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc4e = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) \u2194 \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) )",
+            "theorem": "imp",
+            "ground_truth": "imp \u22a2 ( ( \ud835\udc34 \u2208 O d d \u2227 \ud835\udc35 \u2208 O d d ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.77225,
+            "_thrs_random_uniform": 0.93414,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.64,
@@ -415,14 +415,14 @@
             "_thrs_random_forest": 0.61
         },
         {
-            "expression": "\u22a2 O d d = { \ud835\udc4e \u2208 \u2124 \u2223 \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc4e = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) }",
-            "prop_expression": " \u22a2 O d d = { \ud835\udc67 \u2208 \u2124 \u2223 \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc67 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) }",
+            "expression": "\u22a2 ( \ud835\udc34 \u2208 O d d \u2192 ( \ud835\udc35 \u2208 O d d \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
             "step": 7,
-            "theorem": "dfodd6",
-            "ground_truth": "dfodd6 \u22a2 O d d = { \ud835\udc4e \u2208 \u2124 \u2223 \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc4e = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) }",
+            "theorem": "sylbi",
+            "ground_truth": "sylbi \u22a2 ( \ud835\udc34 \u2208 O d d \u2192 ( \ud835\udc35 \u2208 O d d \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.86322,
+            "_thrs_random_uniform": 0.36613,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 0.39164,
             "_thrs_weight": 0.8,
@@ -434,14 +434,14 @@
             "_thrs_random_forest": 0.7
         },
         {
-            "expression": "\u22a2 ( \ud835\udc34 \u2208 O d d \u2194 ( \ud835\udc34 \u2208 \u2124 \u2227 \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) )",
-            "prop_expression": " \u22a2 ( \ud835\udc34 \u2208 \ud835\udc36 \u2194 ( \ud835\udc34 \u2208 \ud835\udc35 \u2227 \ud835\udf13 ) )",
+            "expression": "\u22a2 ( ( \ud835\udc34 \u2208 \u2124 \u2227 \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2192 ( \ud835\udc35 \u2208 O d d \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf12 \u2192 ( \ud835\udf11 \u2192 \ud835\udf03 ) )",
             "step": 8,
-            "theorem": "elrab2",
-            "ground_truth": "elrab2 \u22a2 ( \ud835\udc34 \u2208 O d d \u2194 ( \ud835\udc34 \u2208 \u2124 \u2227 \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) )",
+            "theorem": "syl5bi",
+            "ground_truth": "syl5bi \u22a2 ( ( \ud835\udc34 \u2208 \u2124 \u2227 \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2192 ( \ud835\udc35 \u2208 O d d \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.11692,
+            "_thrs_random_uniform": 0.61483,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.39164,
             "_thrs_weight": 0.74,
@@ -453,14 +453,14 @@
             "_thrs_random_forest": 0.77
         },
         {
-            "expression": "\u22a2 ( \ud835\udc4f = \ud835\udc35 \u2192 ( \ud835\udc4f = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) \u2194 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) )",
-            "prop_expression": " \u22a2 ( \ud835\udc34 = \ud835\udc35 \u2192 ( \ud835\udc34 = \ud835\udc36 \u2194 \ud835\udc35 = \ud835\udc36 ) )",
+            "expression": "\u22a2 ( ( \ud835\udc34 \u2208 \u2124 \u2227 \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2192 ( ( \ud835\udc35 \u2208 \u2124 \u2227 \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
+            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 )",
             "step": 9,
-            "theorem": "eqeq1",
-            "ground_truth": "eqeq1 \u22a2 ( \ud835\udc4f = \ud835\udc35 \u2192 ( \ud835\udc4f = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) \u2194 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) )",
+            "theorem": "imp",
+            "ground_truth": "imp \u22a2 ( ( \ud835\udc34 \u2208 \u2124 \u2227 \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2192 ( ( \ud835\udc35 \u2208 \u2124 \u2227 \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.68925,
+            "_thrs_random_uniform": 0.41603,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.76,
@@ -472,14 +472,14 @@
             "_thrs_random_forest": 0.59
         },
         {
-            "expression": "\u22a2 ( \ud835\udc4f = \ud835\udc35 \u2192 ( \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc4f = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) \u2194 \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) )",
-            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \u2203 \ud835\udc65 \u2208 \ud835\udc34 \ud835\udf13 \u2194 \u2203 \ud835\udc65 \u2208 \ud835\udc34 \ud835\udf12 ) )",
+            "expression": "\u22a2 ( \ud835\udc34 \u2208 \u2124 \u2192 ( \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) \u2192 ( ( \ud835\udc35 \u2208 \u2124 \u2227 \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \u2203 \ud835\udc65 \u2208 \ud835\udc34 \ud835\udf13 \u2192 \ud835\udf12 ) )",
             "step": 10,
-            "theorem": "rexbidv",
-            "ground_truth": "rexbidv \u22a2 ( \ud835\udc4f = \ud835\udc35 \u2192 ( \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc4f = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) \u2194 \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) )",
+            "theorem": "rexlimdva",
+            "ground_truth": "rexlimdva \u22a2 ( \ud835\udc34 \u2208 \u2124 \u2192 ( \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) \u2192 ( ( \ud835\udc35 \u2208 \u2124 \u2227 \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.79193,
+            "_thrs_random_uniform": 0.74312,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.64,
@@ -491,14 +491,14 @@
             "_thrs_random_forest": 0.61
         },
         {
-            "expression": "\u22a2 O d d = { \ud835\udc4f \u2208 \u2124 \u2223 \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc4f = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) }",
-            "prop_expression": " \u22a2 O d d = { \ud835\udc67 \u2208 \u2124 \u2223 \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc67 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) }",
+            "expression": "\u22a2 ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2192 ( \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) \u2192 ( ( \ud835\udc35 \u2208 \u2124 \u2227 \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf12 ) )",
             "step": 11,
-            "theorem": "dfodd6",
-            "ground_truth": "dfodd6 \u22a2 O d d = { \ud835\udc4f \u2208 \u2124 \u2223 \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc4f = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) }",
+            "theorem": "ex",
+            "ground_truth": "ex \u22a2 ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2192 ( \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) \u2192 ( ( \ud835\udc35 \u2208 \u2124 \u2227 \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.06551,
+            "_thrs_random_uniform": 0.49693,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 0.39164,
             "_thrs_weight": 0.8,
@@ -510,14 +510,14 @@
             "_thrs_random_forest": 0.71
         },
         {
-            "expression": "\u22a2 ( \ud835\udc35 \u2208 O d d \u2194 ( \ud835\udc35 \u2208 \u2124 \u2227 \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) )",
-            "prop_expression": " \u22a2 ( \ud835\udc34 \u2208 \ud835\udc36 \u2194 ( \ud835\udc34 \u2208 \ud835\udc35 \u2227 \ud835\udf13 ) )",
+            "expression": "\u22a2 ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2192 ( ( \ud835\udc35 \u2208 \u2124 \u2227 \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( ( \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) )",
             "step": 12,
-            "theorem": "elrab2",
-            "ground_truth": "elrab2 \u22a2 ( \ud835\udc35 \u2208 O d d \u2194 ( \ud835\udc35 \u2208 \u2124 \u2227 \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) )",
+            "theorem": "expimpd",
+            "ground_truth": "expimpd \u22a2 ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2192 ( ( \ud835\udc35 \u2208 \u2124 \u2227 \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.58777,
+            "_thrs_random_uniform": 0.55446,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.39164,
             "_thrs_weight": 0.74,
@@ -529,14 +529,14 @@
             "_thrs_random_forest": 0.745
         },
         {
-            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2124 \u2227 \ud835\udc57 \u2208 \u2124 ) \u2192 ( \ud835\udc56 + \ud835\udc57 ) \u2208 \u2124 )",
-            "prop_expression": " \u22a2 ( ( \ud835\udc40 \u2208 \u2124 \u2227 \ud835\udc41 \u2208 \u2124 ) \u2192 ( \ud835\udc40 + \ud835\udc41 ) \u2208 \u2124 )",
+            "expression": "\u22a2 ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2192 ( \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \u2203 \ud835\udc65 \u2208 \ud835\udc34 \ud835\udf13 \u2192 \ud835\udf12 ) )",
             "step": 13,
-            "theorem": "zaddcl",
-            "ground_truth": "zaddcl \u22a2 ( ( \ud835\udc56 \u2208 \u2124 \u2227 \ud835\udc57 \u2208 \u2124 ) \u2192 ( \ud835\udc56 + \ud835\udc57 ) \u2208 \u2124 )",
+            "theorem": "rexlimdva",
+            "ground_truth": "rexlimdva \u22a2 ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2192 ( \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.92774,
+            "_thrs_random_uniform": 0.96844,
             "_thrs_reconstruct": 0.15658,
             "_thrs_obviousness": 0.06132,
             "_thrs_weight": 0.82,
@@ -548,14 +548,14 @@
             "_thrs_random_forest": 0.62
         },
         {
-            "expression": "\u22a2 ( \ud835\udc56 \u2208 \u2124 \u2192 ( \ud835\udc57 \u2208 \u2124 \u2192 ( \ud835\udc56 + \ud835\udc57 ) \u2208 \u2124 ) )",
+            "expression": "\u22a2 ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2192 ( \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
             "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf12 ) )",
             "step": 14,
             "theorem": "ex",
-            "ground_truth": "ex \u22a2 ( \ud835\udc56 \u2208 \u2124 \u2192 ( \ud835\udc57 \u2208 \u2124 \u2192 ( \ud835\udc56 + \ud835\udc57 ) \u2208 \u2124 ) )",
+            "ground_truth": "ex \u22a2 ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2192 ( \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.1619,
+            "_thrs_random_uniform": 0.69713,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.06132,
             "_thrs_weight": 0.82,
@@ -567,14 +567,14 @@
             "_thrs_random_forest": 0.675
         },
         {
-            "expression": "\u22a2 ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2192 ( \ud835\udc57 \u2208 \u2124 \u2192 ( \ud835\udc56 + \ud835\udc57 ) \u2208 \u2124 ) )",
-            "prop_expression": " \u22a2 ( ( ( ( \ud835\udf12 \u2227 \ud835\udf11 ) \u2227 \ud835\udf03 ) \u2227 \ud835\udf0f ) \u2192 \ud835\udf13 )",
+            "expression": "\u22a2 ( ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \u2203 \ud835\udc65 \u2208 \ud835\udc35 \ud835\udf13 )",
             "step": 15,
-            "theorem": "ad3antlr",
-            "ground_truth": "ad3antlr \u22a2 ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2192 ( \ud835\udc57 \u2208 \u2124 \u2192 ( \ud835\udc56 + \ud835\udc57 ) \u2208 \u2124 ) )",
+            "theorem": "rspcedvd",
+            "ground_truth": "rspcedvd \u22a2 ( ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.78651,
+            "_thrs_random_uniform": 0.39025,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.06132,
             "_thrs_weight": 0.52,
@@ -586,14 +586,14 @@
             "_thrs_random_forest": 0.62375
         },
         {
-            "expression": "\u22a2 ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2192 ( \ud835\udc56 + \ud835\udc57 ) \u2208 \u2124 )",
-            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 )",
+            "expression": "\u22a2 ( ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \ud835\udc34 = \ud835\udc36 )",
             "step": 16,
-            "theorem": "imp",
-            "ground_truth": "imp \u22a2 ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2192 ( \ud835\udc56 + \ud835\udc57 ) \u2208 \u2124 )",
+            "theorem": "eqtrd",
+            "ground_truth": "eqtrd \u22a2 ( ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.21617,
+            "_thrs_random_uniform": 0.91377,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.06132,
             "_thrs_weight": 0.52,
@@ -605,14 +605,14 @@
             "_thrs_random_forest": 0.585
         },
         {
-            "expression": "\u22a2 ( ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 ( \ud835\udc56 + \ud835\udc57 ) \u2208 \u2124 )",
+            "expression": "\u22a2 ( ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) )",
             "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf12 ) \u2192 \ud835\udf13 )",
             "step": 17,
             "theorem": "adantr",
-            "ground_truth": "adantr \u22a2 ( ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 ( \ud835\udc56 + \ud835\udc57 ) \u2208 \u2124 )",
+            "ground_truth": "adantr \u22a2 ( ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.87588,
+            "_thrs_random_uniform": 0.90557,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.06132,
             "_thrs_weight": 0.38,
@@ -624,14 +624,14 @@
             "_thrs_random_forest": 0.525
         },
         {
-            "expression": "\u22a2 ( ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) \u2208 \u2124 )",
-            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udc34 + 1 ) \u2208 \u2124 )",
+            "expression": "\u22a2 ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) )",
+            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 )",
             "step": 18,
-            "theorem": "peano2zd",
-            "ground_truth": "peano2zd \u22a2 ( ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) \u2208 \u2124 )",
+            "theorem": "imp",
+            "ground_truth": "imp \u22a2 ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.74029,
+            "_thrs_random_uniform": 0.30459,
             "_thrs_reconstruct": 0.1681,
             "_thrs_obviousness": 0.12716,
             "_thrs_weight": 0.34,
@@ -643,14 +643,14 @@
             "_thrs_random_forest": 0.625
         },
         {
-            "expression": "\u22a2 ( \ud835\udc5b = ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) \u2192 ( 2 \u00b7 \ud835\udc5b ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) )",
-            "prop_expression": " \u22a2 ( \ud835\udc34 = \ud835\udc35 \u2192 ( \ud835\udc36 \ud835\udc39 \ud835\udc34 ) = ( \ud835\udc36 \ud835\udc39 \ud835\udc35 ) )",
+            "expression": "\u22a2 ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2192 ( \ud835\udc57 \u2208 \u2124 \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) ) )",
+            "prop_expression": " \u22a2 ( ( ( ( \ud835\udf12 \u2227 \ud835\udf11 ) \u2227 \ud835\udf03 ) \u2227 \ud835\udf0f ) \u2192 \ud835\udf13 )",
             "step": 19,
-            "theorem": "oveq2",
-            "ground_truth": "oveq2 \u22a2 ( \ud835\udc5b = ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) \u2192 ( 2 \u00b7 \ud835\udc5b ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) )",
+            "theorem": "ad3antlr",
+            "ground_truth": "ad3antlr \u22a2 ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2192 ( \ud835\udc57 \u2208 \u2124 \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.33789,
+            "_thrs_random_uniform": 0.52019,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.74,
@@ -662,14 +662,14 @@
             "_thrs_random_forest": 0.625
         },
         {
-            "expression": "\u22a2 ( \ud835\udc5b = ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) \u2192 ( ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) \u2194 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) ) )",
-            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udc36 = \ud835\udc34 \u2194 \ud835\udc36 = \ud835\udc35 ) )",
+            "expression": "\u22a2 ( \ud835\udc56 \u2208 \u2124 \u2192 ( \ud835\udc57 \u2208 \u2124 \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf12 ) )",
             "step": 20,
-            "theorem": "eqeq2d",
-            "ground_truth": "eqeq2d \u22a2 ( \ud835\udc5b = ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) \u2192 ( ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) \u2194 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) ) )",
+            "theorem": "ex",
+            "ground_truth": "ex \u22a2 ( \ud835\udc56 \u2208 \u2124 \u2192 ( \ud835\udc57 \u2208 \u2124 \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.42786,
+            "_thrs_random_uniform": 0.94538,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.6,
@@ -681,14 +681,14 @@
             "_thrs_random_forest": 0.755
         },
         {
-            "expression": "\u22a2 ( ( ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2227 \ud835\udc5b = ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) \u2192 ( ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) \u2194 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) ) )",
-            "prop_expression": " \u22a2 ( ( \ud835\udf12 \u2227 \ud835\udf11 ) \u2192 \ud835\udf13 )",
+            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2124 \u2227 \ud835\udc57 \u2208 \u2124 ) \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) )",
+            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf0f ) \u2192 \ud835\udf03 )",
             "step": 21,
-            "theorem": "adantl",
-            "ground_truth": "adantl \u22a2 ( ( ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2227 \ud835\udc5b = ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) \u2192 ( ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) \u2194 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) ) )",
+            "theorem": "syl2an",
+            "ground_truth": "syl2an \u22a2 ( ( \ud835\udc56 \u2208 \u2124 \u2227 \ud835\udc57 \u2208 \u2124 ) \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.99725,
+            "_thrs_random_uniform": 0.44483,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.0,
@@ -700,14 +700,14 @@
             "_thrs_random_forest": 0.605
         },
         {
-            "expression": "\u22a2 ( ( \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) = ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) )",
-            "prop_expression": " \u22a2 ( ( \ud835\udc34 = \ud835\udc35 \u2227 \ud835\udc36 = \ud835\udc37 ) \u2192 ( \ud835\udc34 \ud835\udc39 \ud835\udc36 ) = ( \ud835\udc35 \ud835\udc39 \ud835\udc37 ) )",
+            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \ud835\udc34 = \ud835\udc36 )",
             "step": 22,
-            "theorem": "oveq12",
-            "ground_truth": "oveq12 \u22a2 ( ( \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) = ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) )",
+            "theorem": "eqtrd",
+            "ground_truth": "eqtrd \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.20421,
+            "_thrs_random_uniform": 0.25395,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.52,
@@ -719,14 +719,14 @@
             "_thrs_random_forest": 0.59
         },
         {
-            "expression": "\u22a2 ( \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) \u2192 ( \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) = ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) ) )",
-            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf12 ) )",
+            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + ( 2 \u00b7 \ud835\udc57 ) ) + ( 1 + 1 ) ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \ud835\udc37 = \ud835\udc36 )",
             "step": 23,
-            "theorem": "ex",
-            "ground_truth": "ex \u22a2 ( \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) \u2192 ( \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) = ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) ) )",
+            "theorem": "3eqtr4rd",
+            "ground_truth": "3eqtr4rd \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + ( 2 \u00b7 \ud835\udc57 ) ) + ( 1 + 1 ) ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.10186,
+            "_thrs_random_uniform": 0.93317,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.52,
@@ -738,14 +738,14 @@
             "_thrs_random_forest": 0.625
         },
         {
-            "expression": "\u22a2 ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2192 ( \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) = ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) ) )",
-            "prop_expression": " \u22a2 ( ( ( ( \ud835\udf12 \u2227 \ud835\udf11 ) \u2227 \ud835\udf03 ) \u2227 \ud835\udf0f ) \u2192 \ud835\udf13 )",
+            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + ( 2 \u00b7 \ud835\udc57 ) ) + ( 1 + 1 ) ) = ( ( ( 2 \u00b7 \ud835\udc56 ) + ( 2 \u00b7 \ud835\udc57 ) ) + ( 2 \u00b7 1 ) ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udc36 \ud835\udc39 \ud835\udc34 ) = ( \ud835\udc36 \ud835\udc39 \ud835\udc35 ) )",
             "step": 24,
-            "theorem": "ad3antlr",
-            "ground_truth": "ad3antlr \u22a2 ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2192 ( \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) = ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) ) )",
+            "theorem": "oveq2d",
+            "ground_truth": "oveq2d \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + ( 2 \u00b7 \ud835\udc57 ) ) + ( 1 + 1 ) ) = ( ( ( 2 \u00b7 \ud835\udc56 ) + ( 2 \u00b7 \ud835\udc57 ) ) + ( 2 \u00b7 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.18444,
+            "_thrs_random_uniform": 0.43554,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.2,
@@ -757,14 +757,14 @@
             "_thrs_random_forest": 0.65
         },
         {
-            "expression": "\u22a2 ( ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) = ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) )",
-            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 )",
+            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( 1 + 1 ) = ( 2 \u00b7 1 ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf13 \u2192 \ud835\udf11 )",
             "step": 25,
-            "theorem": "imp",
-            "ground_truth": "imp \u22a2 ( ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) = ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) )",
+            "theorem": "a1i",
+            "ground_truth": "a1i \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( 1 + 1 ) = ( 2 \u00b7 1 ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.3394,
+            "_thrs_random_uniform": 0.3908,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.2,
@@ -776,14 +776,14 @@
             "_thrs_random_forest": 0.6
         },
         {
-            "expression": "\u22a2 ( \ud835\udc56 \u2208 \u2124 \u2192 \ud835\udc56 \u2208 \u2102 )",
-            "prop_expression": " \u22a2 ( \ud835\udc41 \u2208 \u2124 \u2192 \ud835\udc41 \u2208 \u2102 )",
+            "expression": "\u22a2 ( 1 + 1 ) = ( 2 \u00b7 1 )",
+            "prop_expression": " \u22a2 \ud835\udc34 = \ud835\udc36",
             "step": 26,
-            "theorem": "zcn",
-            "ground_truth": "zcn \u22a2 ( \ud835\udc56 \u2208 \u2124 \u2192 \ud835\udc56 \u2208 \u2102 )",
+            "theorem": "eqtr4i",
+            "ground_truth": "eqtr4i \u22a2 ( 1 + 1 ) = ( 2 \u00b7 1 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.12362,
+            "_thrs_random_uniform": 0.30252,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.94,
@@ -795,14 +795,14 @@
             "_thrs_random_forest": 0.635
         },
         {
-            "expression": "\u22a2 ( \ud835\udc57 \u2208 \u2124 \u2192 \ud835\udc57 \u2208 \u2102 )",
-            "prop_expression": " \u22a2 ( \ud835\udc41 \u2208 \u2124 \u2192 \ud835\udc41 \u2208 \u2102 )",
+            "expression": "\u22a2 ( 2 \u00b7 1 ) = 2",
+            "prop_expression": " \u22a2 ( 2 \u00b7 1 ) = 2",
             "step": 27,
-            "theorem": "zcn",
-            "ground_truth": "zcn \u22a2 ( \ud835\udc57 \u2208 \u2124 \u2192 \ud835\udc57 \u2208 \u2102 )",
+            "theorem": "2t1e2",
+            "ground_truth": "2t1e2 \u22a2 ( 2 \u00b7 1 ) = 2",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.70993,
+            "_thrs_random_uniform": 0.22112,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.94,
@@ -814,14 +814,14 @@
             "_thrs_random_forest": 0.64
         },
         {
-            "expression": "\u22a2 ( \ud835\udc57 \u2208 \u2102 \u2192 2 \u2208 \u2102 )",
-            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 2 \u2208 \u2102 )",
+            "expression": "\u22a2 ( 1 + 1 ) = 2",
+            "prop_expression": " \u22a2 ( 1 + 1 ) = 2",
             "step": 28,
-            "theorem": "2cnd",
-            "ground_truth": "2cnd \u22a2 ( \ud835\udc57 \u2208 \u2102 \u2192 2 \u2208 \u2102 )",
+            "theorem": "1p1e2",
+            "ground_truth": "1p1e2 \u22a2 ( 1 + 1 ) = 2",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.92136,
+            "_thrs_random_uniform": 0.19015,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.94,
@@ -833,14 +833,14 @@
             "_thrs_random_forest": 0.51
         },
         {
-            "expression": "\u22a2 ( ( \ud835\udc57 \u2208 \u2102 \u2227 \ud835\udc56 \u2208 \u2102 ) \u2192 ( 2 \u2208 \u2102 \u2227 \ud835\udc56 \u2208 \u2102 ) )",
-            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf12 ) \u2192 ( \ud835\udf13 \u2227 \ud835\udf12 ) )",
+            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) = ( ( 2 \u00b7 ( \ud835\udc56 + \ud835\udc57 ) ) + ( 2 \u00b7 1 ) ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udc34 \u00b7 ( \ud835\udc35 + \ud835\udc36 ) ) = ( ( \ud835\udc34 \u00b7 \ud835\udc35 ) + ( \ud835\udc34 \u00b7 \ud835\udc36 ) ) )",
             "step": 29,
-            "theorem": "anim1i",
-            "ground_truth": "anim1i \u22a2 ( ( \ud835\udc57 \u2208 \u2102 \u2227 \ud835\udc56 \u2208 \u2102 ) \u2192 ( 2 \u2208 \u2102 \u2227 \ud835\udc56 \u2208 \u2102 ) )",
+            "theorem": "adddid",
+            "ground_truth": "adddid \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) = ( ( 2 \u00b7 ( \ud835\udc56 + \ud835\udc57 ) ) + ( 2 \u00b7 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.96708,
+            "_thrs_random_uniform": 0.08967,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.78,
@@ -852,14 +852,14 @@
             "_thrs_random_forest": 0.5
         },
         {
-            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( 2 \u2208 \u2102 \u2227 \ud835\udc56 \u2208 \u2102 ) )",
-            "prop_expression": " \u22a2 ( ( \ud835\udf13 \u2227 \ud835\udf11 ) \u2192 \ud835\udf12 )",
+            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( \ud835\udc56 + \ud835\udc57 ) \u2208 \u2102 )",
+            "prop_expression": " \u22a2 ( ( \ud835\udc34 \u2208 \u2102 \u2227 \ud835\udc35 \u2208 \u2102 ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) \u2208 \u2102 )",
             "step": 30,
-            "theorem": "ancoms",
-            "ground_truth": "ancoms \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( 2 \u2208 \u2102 \u2227 \ud835\udc56 \u2208 \u2102 ) )",
+            "theorem": "addcl",
+            "ground_truth": "addcl \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( \ud835\udc56 + \ud835\udc57 ) \u2208 \u2102 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.77008,
+            "_thrs_random_uniform": 0.21341,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.78,
@@ -871,14 +871,14 @@
             "_thrs_random_forest": 0.487
         },
         {
-            "expression": "\u22a2 ( ( 2 \u2208 \u2102 \u2227 \ud835\udc56 \u2208 \u2102 ) \u2192 ( 2 \u00b7 \ud835\udc56 ) \u2208 \u2102 )",
-            "prop_expression": " \u22a2 ( ( \ud835\udc34 \u2208 \u2102 \u2227 \ud835\udc35 \u2208 \u2102 ) \u2192 ( \ud835\udc34 \u00b7 \ud835\udc35 ) \u2208 \u2102 )",
+            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( ( 2 \u00b7 ( \ud835\udc56 + \ud835\udc57 ) ) + ( 2 \u00b7 1 ) ) = ( ( ( 2 \u00b7 \ud835\udc56 ) + ( 2 \u00b7 \ud835\udc57 ) ) + ( 2 \u00b7 1 ) ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udc34 \ud835\udc39 \ud835\udc36 ) = ( \ud835\udc35 \ud835\udc39 \ud835\udc36 ) )",
             "step": 31,
-            "theorem": "mulcl",
-            "ground_truth": "mulcl \u22a2 ( ( 2 \u2208 \u2102 \u2227 \ud835\udc56 \u2208 \u2102 ) \u2192 ( 2 \u00b7 \ud835\udc56 ) \u2208 \u2102 )",
+            "theorem": "oveq1d",
+            "ground_truth": "oveq1d \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( ( 2 \u00b7 ( \ud835\udc56 + \ud835\udc57 ) ) + ( 2 \u00b7 1 ) ) = ( ( ( 2 \u00b7 \ud835\udc56 ) + ( 2 \u00b7 \ud835\udc57 ) ) + ( 2 \u00b7 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.58488,
+            "_thrs_random_uniform": 0.95139,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.82,
@@ -890,14 +890,14 @@
             "_thrs_random_forest": 0.505
         },
         {
-            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( 2 \u00b7 \ud835\udc56 ) \u2208 \u2102 )",
-            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( 2 \u00b7 ( \ud835\udc56 + \ud835\udc57 ) ) = ( ( 2 \u00b7 \ud835\udc56 ) + ( 2 \u00b7 \ud835\udc57 ) ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udc34 \u00b7 ( \ud835\udc35 + \ud835\udc36 ) ) = ( ( \ud835\udc34 \u00b7 \ud835\udc35 ) + ( \ud835\udc34 \u00b7 \ud835\udc36 ) ) )",
             "step": 32,
-            "theorem": "syl",
-            "ground_truth": "syl \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( 2 \u00b7 \ud835\udc56 ) \u2208 \u2102 )",
+            "theorem": "adddid",
+            "ground_truth": "adddid \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( 2 \u00b7 ( \ud835\udc56 + \ud835\udc57 ) ) = ( ( 2 \u00b7 \ud835\udc56 ) + ( 2 \u00b7 \ud835\udc57 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.00538,
+            "_thrs_random_uniform": 0.52366,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.82,
@@ -909,14 +909,14 @@
             "_thrs_random_forest": 0.63
         },
         {
-            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 1 \u2208 \u2102 )",
-            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 1 \u2208 \u2102 )",
+            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 \ud835\udc57 \u2208 \u2102 )",
+            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf13 )",
             "step": 33,
-            "theorem": "1cnd",
-            "ground_truth": "1cnd \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 1 \u2208 \u2102 )",
+            "theorem": "simpr",
+            "ground_truth": "simpr \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 \ud835\udc57 \u2208 \u2102 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.61749,
+            "_thrs_random_uniform": 0.32163,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.86,
@@ -928,14 +928,14 @@
             "_thrs_random_forest": 0.52
         },
         {
-            "expression": "\u22a2 ( \ud835\udc56 \u2208 \u2102 \u2192 2 \u2208 \u2102 )",
-            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 2 \u2208 \u2102 )",
+            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 \ud835\udc56 \u2208 \u2102 )",
+            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf11 )",
             "step": 34,
-            "theorem": "2cnd",
-            "ground_truth": "2cnd \u22a2 ( \ud835\udc56 \u2208 \u2102 \u2192 2 \u2208 \u2102 )",
+            "theorem": "simpl",
+            "ground_truth": "simpl \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 \ud835\udc56 \u2208 \u2102 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.33455,
+            "_thrs_random_uniform": 0.68919,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.94,
@@ -947,14 +947,14 @@
             "_thrs_random_forest": 0.58542
         },
         {
-            "expression": "\u22a2 ( ( 2 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( 2 \u00b7 \ud835\udc57 ) \u2208 \u2102 )",
-            "prop_expression": " \u22a2 ( ( \ud835\udc34 \u2208 \u2102 \u2227 \ud835\udc35 \u2208 \u2102 ) \u2192 ( \ud835\udc34 \u00b7 \ud835\udc35 ) \u2208 \u2102 )",
+            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 2 \u2208 \u2102 )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 2 \u2208 \u2102 )",
             "step": 35,
-            "theorem": "mulcl",
-            "ground_truth": "mulcl \u22a2 ( ( 2 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( 2 \u00b7 \ud835\udc57 ) \u2208 \u2102 )",
+            "theorem": "2cnd",
+            "ground_truth": "2cnd \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 2 \u2208 \u2102 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.21918,
+            "_thrs_random_uniform": 0.28805,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.82,
@@ -966,14 +966,14 @@
             "_thrs_random_forest": 0.5225
         },
         {
-            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( 2 \u00b7 \ud835\udc57 ) \u2208 \u2102 )",
-            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 )",
+            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) = ( ( ( 2 \u00b7 \ud835\udc56 ) + ( 2 \u00b7 \ud835\udc57 ) ) + ( 1 + 1 ) ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( ( \ud835\udc34 + \ud835\udc35 ) + ( \ud835\udc36 + \ud835\udc37 ) ) = ( ( \ud835\udc34 + \ud835\udc36 ) + ( \ud835\udc35 + \ud835\udc37 ) ) )",
             "step": 36,
-            "theorem": "sylan",
-            "ground_truth": "sylan \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( 2 \u00b7 \ud835\udc57 ) \u2208 \u2102 )",
+            "theorem": "add4d",
+            "ground_truth": "add4d \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) = ( ( ( 2 \u00b7 \ud835\udc56 ) + ( 2 \u00b7 \ud835\udc57 ) ) + ( 1 + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.22099,
+            "_thrs_random_uniform": 0.59741,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.82,
@@ -985,14 +985,14 @@
             "_thrs_random_forest": 0.595
         },
         {
-            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) = ( ( ( 2 \u00b7 \ud835\udc56 ) + ( 2 \u00b7 \ud835\udc57 ) ) + ( 1 + 1 ) ) )",
-            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( ( \ud835\udc34 + \ud835\udc35 ) + ( \ud835\udc36 + \ud835\udc37 ) ) = ( ( \ud835\udc34 + \ud835\udc36 ) + ( \ud835\udc35 + \ud835\udc37 ) ) )",
+            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( 2 \u00b7 \ud835\udc57 ) \u2208 \u2102 )",
+            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 )",
             "step": 37,
-            "theorem": "add4d",
-            "ground_truth": "add4d \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) = ( ( ( 2 \u00b7 \ud835\udc56 ) + ( 2 \u00b7 \ud835\udc57 ) ) + ( 1 + 1 ) ) )",
+            "theorem": "sylan",
+            "ground_truth": "sylan \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( 2 \u00b7 \ud835\udc57 ) \u2208 \u2102 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.96718,
+            "_thrs_random_uniform": 0.01798,
             "_thrs_reconstruct": 1e-05,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.48,
@@ -1004,14 +1004,14 @@
             "_thrs_random_forest": 0.655
         },
         {
-            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 2 \u2208 \u2102 )",
-            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 2 \u2208 \u2102 )",
+            "expression": "\u22a2 ( ( 2 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( 2 \u00b7 \ud835\udc57 ) \u2208 \u2102 )",
+            "prop_expression": " \u22a2 ( ( \ud835\udc34 \u2208 \u2102 \u2227 \ud835\udc35 \u2208 \u2102 ) \u2192 ( \ud835\udc34 \u00b7 \ud835\udc35 ) \u2208 \u2102 )",
             "step": 38,
-            "theorem": "2cnd",
-            "ground_truth": "2cnd \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 2 \u2208 \u2102 )",
+            "theorem": "mulcl",
+            "ground_truth": "mulcl \u22a2 ( ( 2 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( 2 \u00b7 \ud835\udc57 ) \u2208 \u2102 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.60647,
+            "_thrs_random_uniform": 0.78969,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.86,
@@ -1023,14 +1023,14 @@
             "_thrs_random_forest": 0.735
         },
         {
-            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 \ud835\udc56 \u2208 \u2102 )",
-            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf11 )",
+            "expression": "\u22a2 ( \ud835\udc56 \u2208 \u2102 \u2192 2 \u2208 \u2102 )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 2 \u2208 \u2102 )",
             "step": 39,
-            "theorem": "simpl",
-            "ground_truth": "simpl \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 \ud835\udc56 \u2208 \u2102 )",
+            "theorem": "2cnd",
+            "ground_truth": "2cnd \u22a2 ( \ud835\udc56 \u2208 \u2102 \u2192 2 \u2208 \u2102 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.96583,
+            "_thrs_random_uniform": 0.44348,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.86,
@@ -1042,14 +1042,14 @@
             "_thrs_random_forest": 0.565
         },
         {
-            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 \ud835\udc57 \u2208 \u2102 )",
-            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf13 )",
+            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 1 \u2208 \u2102 )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 1 \u2208 \u2102 )",
             "step": 40,
-            "theorem": "simpr",
-            "ground_truth": "simpr \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 \ud835\udc57 \u2208 \u2102 )",
+            "theorem": "1cnd",
+            "ground_truth": "1cnd \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 1 \u2208 \u2102 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.64109,
+            "_thrs_random_uniform": 0.04038,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.86,
@@ -1061,14 +1061,14 @@
             "_thrs_random_forest": 0.54
         },
         {
-            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( 2 \u00b7 ( \ud835\udc56 + \ud835\udc57 ) ) = ( ( 2 \u00b7 \ud835\udc56 ) + ( 2 \u00b7 \ud835\udc57 ) ) )",
-            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udc34 \u00b7 ( \ud835\udc35 + \ud835\udc36 ) ) = ( ( \ud835\udc34 \u00b7 \ud835\udc35 ) + ( \ud835\udc34 \u00b7 \ud835\udc36 ) ) )",
+            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( 2 \u00b7 \ud835\udc56 ) \u2208 \u2102 )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
             "step": 41,
-            "theorem": "adddid",
-            "ground_truth": "adddid \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( 2 \u00b7 ( \ud835\udc56 + \ud835\udc57 ) ) = ( ( 2 \u00b7 \ud835\udc56 ) + ( 2 \u00b7 \ud835\udc57 ) ) )",
+            "theorem": "syl",
+            "ground_truth": "syl \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( 2 \u00b7 \ud835\udc56 ) \u2208 \u2102 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.7146,
+            "_thrs_random_uniform": 0.78985,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.68,
@@ -1080,14 +1080,14 @@
             "_thrs_random_forest": 0.72
         },
         {
-            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( ( 2 \u00b7 ( \ud835\udc56 + \ud835\udc57 ) ) + ( 2 \u00b7 1 ) ) = ( ( ( 2 \u00b7 \ud835\udc56 ) + ( 2 \u00b7 \ud835\udc57 ) ) + ( 2 \u00b7 1 ) ) )",
-            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udc34 \ud835\udc39 \ud835\udc36 ) = ( \ud835\udc35 \ud835\udc39 \ud835\udc36 ) )",
+            "expression": "\u22a2 ( ( 2 \u2208 \u2102 \u2227 \ud835\udc56 \u2208 \u2102 ) \u2192 ( 2 \u00b7 \ud835\udc56 ) \u2208 \u2102 )",
+            "prop_expression": " \u22a2 ( ( \ud835\udc34 \u2208 \u2102 \u2227 \ud835\udc35 \u2208 \u2102 ) \u2192 ( \ud835\udc34 \u00b7 \ud835\udc35 ) \u2208 \u2102 )",
             "step": 42,
-            "theorem": "oveq1d",
-            "ground_truth": "oveq1d \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( ( 2 \u00b7 ( \ud835\udc56 + \ud835\udc57 ) ) + ( 2 \u00b7 1 ) ) = ( ( ( 2 \u00b7 \ud835\udc56 ) + ( 2 \u00b7 \ud835\udc57 ) ) + ( 2 \u00b7 1 ) ) )",
+            "theorem": "mulcl",
+            "ground_truth": "mulcl \u22a2 ( ( 2 \u2208 \u2102 \u2227 \ud835\udc56 \u2208 \u2102 ) \u2192 ( 2 \u00b7 \ud835\udc56 ) \u2208 \u2102 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.48687,
+            "_thrs_random_uniform": 0.15539,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.52,
@@ -1099,14 +1099,14 @@
             "_thrs_random_forest": 0.645
         },
         {
-            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( \ud835\udc56 + \ud835\udc57 ) \u2208 \u2102 )",
-            "prop_expression": " \u22a2 ( ( \ud835\udc34 \u2208 \u2102 \u2227 \ud835\udc35 \u2208 \u2102 ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) \u2208 \u2102 )",
+            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( 2 \u2208 \u2102 \u2227 \ud835\udc56 \u2208 \u2102 ) )",
+            "prop_expression": " \u22a2 ( ( \ud835\udf13 \u2227 \ud835\udf11 ) \u2192 \ud835\udf12 )",
             "step": 43,
-            "theorem": "addcl",
-            "ground_truth": "addcl \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( \ud835\udc56 + \ud835\udc57 ) \u2208 \u2102 )",
+            "theorem": "ancoms",
+            "ground_truth": "ancoms \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( 2 \u2208 \u2102 \u2227 \ud835\udc56 \u2208 \u2102 ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.7366,
+            "_thrs_random_uniform": 0.25974,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.82,
@@ -1118,14 +1118,14 @@
             "_thrs_random_forest": 0.535
         },
         {
-            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) = ( ( 2 \u00b7 ( \ud835\udc56 + \ud835\udc57 ) ) + ( 2 \u00b7 1 ) ) )",
-            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udc34 \u00b7 ( \ud835\udc35 + \ud835\udc36 ) ) = ( ( \ud835\udc34 \u00b7 \ud835\udc35 ) + ( \ud835\udc34 \u00b7 \ud835\udc36 ) ) )",
+            "expression": "\u22a2 ( ( \ud835\udc57 \u2208 \u2102 \u2227 \ud835\udc56 \u2208 \u2102 ) \u2192 ( 2 \u2208 \u2102 \u2227 \ud835\udc56 \u2208 \u2102 ) )",
+            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf12 ) \u2192 ( \ud835\udf13 \u2227 \ud835\udf12 ) )",
             "step": 44,
-            "theorem": "adddid",
-            "ground_truth": "adddid \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) = ( ( 2 \u00b7 ( \ud835\udc56 + \ud835\udc57 ) ) + ( 2 \u00b7 1 ) ) )",
+            "theorem": "anim1i",
+            "ground_truth": "anim1i \u22a2 ( ( \ud835\udc57 \u2208 \u2102 \u2227 \ud835\udc56 \u2208 \u2102 ) \u2192 ( 2 \u2208 \u2102 \u2227 \ud835\udc56 \u2208 \u2102 ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.97348,
+            "_thrs_random_uniform": 0.76045,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.6,
@@ -1137,14 +1137,14 @@
             "_thrs_random_forest": 0.7
         },
         {
-            "expression": "\u22a2 ( 1 + 1 ) = 2",
-            "prop_expression": " \u22a2 ( 1 + 1 ) = 2",
+            "expression": "\u22a2 ( \ud835\udc57 \u2208 \u2102 \u2192 2 \u2208 \u2102 )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 2 \u2208 \u2102 )",
             "step": 45,
-            "theorem": "1p1e2",
-            "ground_truth": "1p1e2 \u22a2 ( 1 + 1 ) = 2",
+            "theorem": "2cnd",
+            "ground_truth": "2cnd \u22a2 ( \ud835\udc57 \u2208 \u2102 \u2192 2 \u2208 \u2102 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.67791,
+            "_thrs_random_uniform": 0.82895,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
@@ -1156,14 +1156,14 @@
             "_thrs_random_forest": 0.455
         },
         {
-            "expression": "\u22a2 ( 2 \u00b7 1 ) = 2",
-            "prop_expression": " \u22a2 ( 2 \u00b7 1 ) = 2",
+            "expression": "\u22a2 ( \ud835\udc57 \u2208 \u2124 \u2192 \ud835\udc57 \u2208 \u2102 )",
+            "prop_expression": " \u22a2 ( \ud835\udc41 \u2208 \u2124 \u2192 \ud835\udc41 \u2208 \u2102 )",
             "step": 46,
-            "theorem": "2t1e2",
-            "ground_truth": "2t1e2 \u22a2 ( 2 \u00b7 1 ) = 2",
+            "theorem": "zcn",
+            "ground_truth": "zcn \u22a2 ( \ud835\udc57 \u2208 \u2124 \u2192 \ud835\udc57 \u2208 \u2102 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.4991,
+            "_thrs_random_uniform": 0.59242,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
@@ -1175,14 +1175,14 @@
             "_thrs_random_forest": 0.495
         },
         {
-            "expression": "\u22a2 ( 1 + 1 ) = ( 2 \u00b7 1 )",
-            "prop_expression": " \u22a2 \ud835\udc34 = \ud835\udc36",
+            "expression": "\u22a2 ( \ud835\udc56 \u2208 \u2124 \u2192 \ud835\udc56 \u2208 \u2102 )",
+            "prop_expression": " \u22a2 ( \ud835\udc41 \u2208 \u2124 \u2192 \ud835\udc41 \u2208 \u2102 )",
             "step": 47,
-            "theorem": "eqtr4i",
-            "ground_truth": "eqtr4i \u22a2 ( 1 + 1 ) = ( 2 \u00b7 1 )",
+            "theorem": "zcn",
+            "ground_truth": "zcn \u22a2 ( \ud835\udc56 \u2208 \u2124 \u2192 \ud835\udc56 \u2208 \u2102 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.92006,
+            "_thrs_random_uniform": 0.01339,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.96,
@@ -1194,14 +1194,14 @@
             "_thrs_random_forest": 0.71
         },
         {
-            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( 1 + 1 ) = ( 2 \u00b7 1 ) )",
-            "prop_expression": " \u22a2 ( \ud835\udf13 \u2192 \ud835\udf11 )",
+            "expression": "\u22a2 ( ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) = ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) )",
+            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 )",
             "step": 48,
-            "theorem": "a1i",
-            "ground_truth": "a1i \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( 1 + 1 ) = ( 2 \u00b7 1 ) )",
+            "theorem": "imp",
+            "ground_truth": "imp \u22a2 ( ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) = ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.21719,
+            "_thrs_random_uniform": 0.28262,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.8,
@@ -1213,14 +1213,14 @@
             "_thrs_random_forest": 0.595
         },
         {
-            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + ( 2 \u00b7 \ud835\udc57 ) ) + ( 1 + 1 ) ) = ( ( ( 2 \u00b7 \ud835\udc56 ) + ( 2 \u00b7 \ud835\udc57 ) ) + ( 2 \u00b7 1 ) ) )",
-            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udc36 \ud835\udc39 \ud835\udc34 ) = ( \ud835\udc36 \ud835\udc39 \ud835\udc35 ) )",
+            "expression": "\u22a2 ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2192 ( \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) = ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) ) )",
+            "prop_expression": " \u22a2 ( ( ( ( \ud835\udf12 \u2227 \ud835\udf11 ) \u2227 \ud835\udf03 ) \u2227 \ud835\udf0f ) \u2192 \ud835\udf13 )",
             "step": 49,
-            "theorem": "oveq2d",
-            "ground_truth": "oveq2d \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + ( 2 \u00b7 \ud835\udc57 ) ) + ( 1 + 1 ) ) = ( ( ( 2 \u00b7 \ud835\udc56 ) + ( 2 \u00b7 \ud835\udc57 ) ) + ( 2 \u00b7 1 ) ) )",
+            "theorem": "ad3antlr",
+            "ground_truth": "ad3antlr \u22a2 ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2192 ( \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) = ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.73968,
+            "_thrs_random_uniform": 0.72721,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.48,
@@ -1232,14 +1232,14 @@
             "_thrs_random_forest": 0.64
         },
         {
-            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + ( 2 \u00b7 \ud835\udc57 ) ) + ( 1 + 1 ) ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) )",
-            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \ud835\udc37 = \ud835\udc36 )",
+            "expression": "\u22a2 ( \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) \u2192 ( \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) = ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf12 ) )",
             "step": 50,
-            "theorem": "3eqtr4rd",
-            "ground_truth": "3eqtr4rd \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + ( 2 \u00b7 \ud835\udc57 ) ) + ( 1 + 1 ) ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) )",
+            "theorem": "ex",
+            "ground_truth": "ex \u22a2 ( \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) \u2192 ( \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) = ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.87657,
+            "_thrs_random_uniform": 0.08633,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.56,
@@ -1251,14 +1251,14 @@
             "_thrs_random_forest": 0.67
         },
         {
-            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) )",
-            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \ud835\udc34 = \ud835\udc36 )",
+            "expression": "\u22a2 ( ( \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) = ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) )",
+            "prop_expression": " \u22a2 ( ( \ud835\udc34 = \ud835\udc35 \u2227 \ud835\udc36 = \ud835\udc37 ) \u2192 ( \ud835\udc34 \ud835\udc39 \ud835\udc36 ) = ( \ud835\udc35 \ud835\udc39 \ud835\udc37 ) )",
             "step": 51,
-            "theorem": "eqtrd",
-            "ground_truth": "eqtrd \u22a2 ( ( \ud835\udc56 \u2208 \u2102 \u2227 \ud835\udc57 \u2208 \u2102 ) \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) )",
+            "theorem": "oveq12",
+            "ground_truth": "oveq12 \u22a2 ( ( \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) = ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.53482,
+            "_thrs_random_uniform": 0.26874,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.56,
@@ -1270,14 +1270,14 @@
             "_thrs_random_forest": 0.72
         },
         {
-            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2124 \u2227 \ud835\udc57 \u2208 \u2124 ) \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) )",
-            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf0f ) \u2192 \ud835\udf03 )",
+            "expression": "\u22a2 ( ( ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2227 \ud835\udc5b = ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) \u2192 ( ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) \u2194 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) ) )",
+            "prop_expression": " \u22a2 ( ( \ud835\udf12 \u2227 \ud835\udf11 ) \u2192 \ud835\udf13 )",
             "step": 52,
-            "theorem": "syl2an",
-            "ground_truth": "syl2an \u22a2 ( ( \ud835\udc56 \u2208 \u2124 \u2227 \ud835\udc57 \u2208 \u2124 ) \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) )",
+            "theorem": "adantl",
+            "ground_truth": "adantl \u22a2 ( ( ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2227 \ud835\udc5b = ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) \u2192 ( ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) \u2194 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.65847,
+            "_thrs_random_uniform": 0.61388,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.56,
@@ -1289,14 +1289,14 @@
             "_thrs_random_forest": 0.645
         },
         {
-            "expression": "\u22a2 ( \ud835\udc56 \u2208 \u2124 \u2192 ( \ud835\udc57 \u2208 \u2124 \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) ) )",
-            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf12 ) )",
+            "expression": "\u22a2 ( \ud835\udc5b = ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) \u2192 ( ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) \u2194 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udc36 = \ud835\udc34 \u2194 \ud835\udc36 = \ud835\udc35 ) )",
             "step": 53,
-            "theorem": "ex",
-            "ground_truth": "ex \u22a2 ( \ud835\udc56 \u2208 \u2124 \u2192 ( \ud835\udc57 \u2208 \u2124 \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) ) )",
+            "theorem": "eqeq2d",
+            "ground_truth": "eqeq2d \u22a2 ( \ud835\udc5b = ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) \u2192 ( ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) \u2194 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.31328,
+            "_thrs_random_uniform": 0.29007,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.56,
@@ -1308,14 +1308,14 @@
             "_thrs_random_forest": 0.635
         },
         {
-            "expression": "\u22a2 ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2192 ( \ud835\udc57 \u2208 \u2124 \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) ) )",
-            "prop_expression": " \u22a2 ( ( ( ( \ud835\udf12 \u2227 \ud835\udf11 ) \u2227 \ud835\udf03 ) \u2227 \ud835\udf0f ) \u2192 \ud835\udf13 )",
+            "expression": "\u22a2 ( \ud835\udc5b = ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) \u2192 ( 2 \u00b7 \ud835\udc5b ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) )",
+            "prop_expression": " \u22a2 ( \ud835\udc34 = \ud835\udc35 \u2192 ( \ud835\udc36 \ud835\udc39 \ud835\udc34 ) = ( \ud835\udc36 \ud835\udc39 \ud835\udc35 ) )",
             "step": 54,
-            "theorem": "ad3antlr",
-            "ground_truth": "ad3antlr \u22a2 ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2192 ( \ud835\udc57 \u2208 \u2124 \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) ) )",
+            "theorem": "oveq2",
+            "ground_truth": "oveq2 \u22a2 ( \ud835\udc5b = ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) \u2192 ( 2 \u00b7 \ud835\udc5b ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.87863,
+            "_thrs_random_uniform": 0.39641,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.26,
@@ -1327,14 +1327,14 @@
             "_thrs_random_forest": 0.595
         },
         {
-            "expression": "\u22a2 ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) )",
-            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 )",
+            "expression": "\u22a2 ( ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) \u2208 \u2124 )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udc34 + 1 ) \u2208 \u2124 )",
             "step": 55,
-            "theorem": "imp",
-            "ground_truth": "imp \u22a2 ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) )",
+            "theorem": "peano2zd",
+            "ground_truth": "peano2zd \u22a2 ( ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) \u2208 \u2124 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.48629,
+            "_thrs_random_uniform": 0.6033,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.26,
@@ -1346,14 +1346,14 @@
             "_thrs_random_forest": 0.565
         },
         {
-            "expression": "\u22a2 ( ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) )",
+            "expression": "\u22a2 ( ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 ( \ud835\udc56 + \ud835\udc57 ) \u2208 \u2124 )",
             "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf12 ) \u2192 \ud835\udf13 )",
             "step": 56,
             "theorem": "adantr",
-            "ground_truth": "adantr \u22a2 ( ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 ( ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) + ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) )",
+            "ground_truth": "adantr \u22a2 ( ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 ( \ud835\udc56 + \ud835\udc57 ) \u2208 \u2124 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.23999,
+            "_thrs_random_uniform": 0.58093,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.12,
@@ -1365,14 +1365,14 @@
             "_thrs_random_forest": 0.605
         },
         {
-            "expression": "\u22a2 ( ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) )",
-            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \ud835\udc34 = \ud835\udc36 )",
+            "expression": "\u22a2 ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2192 ( \ud835\udc56 + \ud835\udc57 ) \u2208 \u2124 )",
+            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 )",
             "step": 57,
-            "theorem": "eqtrd",
-            "ground_truth": "eqtrd \u22a2 ( ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 ( ( \ud835\udc56 + \ud835\udc57 ) + 1 ) ) )",
+            "theorem": "imp",
+            "ground_truth": "imp \u22a2 ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2192 ( \ud835\udc56 + \ud835\udc57 ) \u2208 \u2124 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.34359,
+            "_thrs_random_uniform": 0.23455,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.28,
@@ -1384,14 +1384,14 @@
             "_thrs_random_forest": 0.745
         },
         {
-            "expression": "\u22a2 ( ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) )",
-            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \u2203 \ud835\udc65 \u2208 \ud835\udc35 \ud835\udf13 )",
+            "expression": "\u22a2 ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2192 ( \ud835\udc57 \u2208 \u2124 \u2192 ( \ud835\udc56 + \ud835\udc57 ) \u2208 \u2124 ) )",
+            "prop_expression": " \u22a2 ( ( ( ( \ud835\udf12 \u2227 \ud835\udf11 ) \u2227 \ud835\udf03 ) \u2227 \ud835\udf0f ) \u2192 \ud835\udf13 )",
             "step": 58,
-            "theorem": "rspcedvd",
-            "ground_truth": "rspcedvd \u22a2 ( ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2227 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) )",
+            "theorem": "ad3antlr",
+            "ground_truth": "ad3antlr \u22a2 ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2192 ( \ud835\udc57 \u2208 \u2124 \u2192 ( \ud835\udc56 + \ud835\udc57 ) \u2208 \u2124 ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.81925,
+            "_thrs_random_uniform": 0.98323,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.12716,
             "_thrs_weight": 0.3,
@@ -1403,14 +1403,14 @@
             "_thrs_random_forest": 0.77
         },
         {
-            "expression": "\u22a2 ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2192 ( \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
+            "expression": "\u22a2 ( \ud835\udc56 \u2208 \u2124 \u2192 ( \ud835\udc57 \u2208 \u2124 \u2192 ( \ud835\udc56 + \ud835\udc57 ) \u2208 \u2124 ) )",
             "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf12 ) )",
             "step": 59,
             "theorem": "ex",
-            "ground_truth": "ex \u22a2 ( ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2227 \ud835\udc57 \u2208 \u2124 ) \u2192 ( \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
+            "ground_truth": "ex \u22a2 ( \ud835\udc56 \u2208 \u2124 \u2192 ( \ud835\udc57 \u2208 \u2124 \u2192 ( \ud835\udc56 + \ud835\udc57 ) \u2208 \u2124 ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.9399,
+            "_thrs_random_uniform": 0.68327,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.12716,
             "_thrs_weight": 0.3,
@@ -1422,14 +1422,14 @@
             "_thrs_random_forest": 0.645
         },
         {
-            "expression": "\u22a2 ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2192 ( \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
-            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \u2203 \ud835\udc65 \u2208 \ud835\udc34 \ud835\udf13 \u2192 \ud835\udf12 ) )",
+            "expression": "\u22a2 ( ( \ud835\udc56 \u2208 \u2124 \u2227 \ud835\udc57 \u2208 \u2124 ) \u2192 ( \ud835\udc56 + \ud835\udc57 ) \u2208 \u2124 )",
+            "prop_expression": " \u22a2 ( ( \ud835\udc40 \u2208 \u2124 \u2227 \ud835\udc41 \u2208 \u2124 ) \u2192 ( \ud835\udc40 + \ud835\udc41 ) \u2208 \u2124 )",
             "step": 60,
-            "theorem": "rexlimdva",
-            "ground_truth": "rexlimdva \u22a2 ( ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2227 \ud835\udc35 \u2208 \u2124 ) \u2192 ( \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
+            "theorem": "zaddcl",
+            "ground_truth": "zaddcl \u22a2 ( ( \ud835\udc56 \u2208 \u2124 \u2227 \ud835\udc57 \u2208 \u2124 ) \u2192 ( \ud835\udc56 + \ud835\udc57 ) \u2208 \u2124 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.56459,
+            "_thrs_random_uniform": 0.96147,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.12716,
             "_thrs_weight": 0.32,
@@ -1441,14 +1441,14 @@
             "_thrs_random_forest": 0.625
         },
         {
-            "expression": "\u22a2 ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2192 ( ( \ud835\udc35 \u2208 \u2124 \u2227 \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
-            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( ( \ud835\udf13 \u2227 \ud835\udf12 ) \u2192 \ud835\udf03 ) )",
+            "expression": "\u22a2 ( \ud835\udc35 \u2208 O d d \u2194 ( \ud835\udc35 \u2208 \u2124 \u2227 \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) )",
+            "prop_expression": " \u22a2 ( \ud835\udc34 \u2208 \ud835\udc36 \u2194 ( \ud835\udc34 \u2208 \ud835\udc35 \u2227 \ud835\udf13 ) )",
             "step": 61,
-            "theorem": "expimpd",
-            "ground_truth": "expimpd \u22a2 ( ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2227 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2192 ( ( \ud835\udc35 \u2208 \u2124 \u2227 \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
+            "theorem": "elrab2",
+            "ground_truth": "elrab2 \u22a2 ( \ud835\udc35 \u2208 O d d \u2194 ( \ud835\udc35 \u2208 \u2124 \u2227 \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.80801,
+            "_thrs_random_uniform": 0.27256,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.12716,
             "_thrs_weight": 0.32,
@@ -1460,14 +1460,14 @@
             "_thrs_random_forest": 0.625
         },
         {
-            "expression": "\u22a2 ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2192 ( \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) \u2192 ( ( \ud835\udc35 \u2208 \u2124 \u2227 \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) ) )",
-            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \ud835\udf13 \u2192 \ud835\udf12 ) )",
+            "expression": "\u22a2 O d d = { \ud835\udc4f \u2208 \u2124 \u2223 \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc4f = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) }",
+            "prop_expression": " \u22a2 O d d = { \ud835\udc67 \u2208 \u2124 \u2223 \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc67 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) }",
             "step": 62,
-            "theorem": "ex",
-            "ground_truth": "ex \u22a2 ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc56 \u2208 \u2124 ) \u2192 ( \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) \u2192 ( ( \ud835\udc35 \u2208 \u2124 \u2227 \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) ) )",
+            "theorem": "dfodd6",
+            "ground_truth": "dfodd6 \u22a2 O d d = { \ud835\udc4f \u2208 \u2124 \u2223 \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc4f = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) }",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.78992,
+            "_thrs_random_uniform": 0.57347,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.12716,
             "_thrs_weight": 0.32,
@@ -1479,14 +1479,14 @@
             "_thrs_random_forest": 0.585
         },
         {
-            "expression": "\u22a2 ( \ud835\udc34 \u2208 \u2124 \u2192 ( \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) \u2192 ( ( \ud835\udc35 \u2208 \u2124 \u2227 \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) ) )",
-            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \u2203 \ud835\udc65 \u2208 \ud835\udc34 \ud835\udf13 \u2192 \ud835\udf12 ) )",
+            "expression": "\u22a2 ( \ud835\udc4f = \ud835\udc35 \u2192 ( \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc4f = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) \u2194 \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \u2203 \ud835\udc65 \u2208 \ud835\udc34 \ud835\udf13 \u2194 \u2203 \ud835\udc65 \u2208 \ud835\udc34 \ud835\udf12 ) )",
             "step": 63,
-            "theorem": "rexlimdva",
-            "ground_truth": "rexlimdva \u22a2 ( \ud835\udc34 \u2208 \u2124 \u2192 ( \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) \u2192 ( ( \ud835\udc35 \u2208 \u2124 \u2227 \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) ) )",
+            "theorem": "rexbidv",
+            "ground_truth": "rexbidv \u22a2 ( \ud835\udc4f = \ud835\udc35 \u2192 ( \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc4f = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) \u2194 \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.56465,
+            "_thrs_random_uniform": 0.87833,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.12716,
             "_thrs_weight": 0.34,
@@ -1498,14 +1498,14 @@
             "_thrs_random_forest": 0.545
         },
         {
-            "expression": "\u22a2 ( ( \ud835\udc34 \u2208 \u2124 \u2227 \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2192 ( ( \ud835\udc35 \u2208 \u2124 \u2227 \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
-            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 )",
+            "expression": "\u22a2 ( \ud835\udc4f = \ud835\udc35 \u2192 ( \ud835\udc4f = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) \u2194 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) )",
+            "prop_expression": " \u22a2 ( \ud835\udc34 = \ud835\udc35 \u2192 ( \ud835\udc34 = \ud835\udc36 \u2194 \ud835\udc35 = \ud835\udc36 ) )",
             "step": 64,
-            "theorem": "imp",
-            "ground_truth": "imp \u22a2 ( ( \ud835\udc34 \u2208 \u2124 \u2227 \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2192 ( ( \ud835\udc35 \u2208 \u2124 \u2227 \u2203 \ud835\udc57 \u2208 \u2124 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
+            "theorem": "eqeq1",
+            "ground_truth": "eqeq1 \u22a2 ( \ud835\udc4f = \ud835\udc35 \u2192 ( \ud835\udc4f = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) \u2194 \ud835\udc35 = ( ( 2 \u00b7 \ud835\udc57 ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.89385,
+            "_thrs_random_uniform": 0.39772,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.12716,
             "_thrs_weight": 0.34,
@@ -1517,14 +1517,14 @@
             "_thrs_random_forest": 0.62
         },
         {
-            "expression": "\u22a2 ( ( \ud835\udc34 \u2208 \u2124 \u2227 \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2192 ( \ud835\udc35 \u2208 O d d \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
-            "prop_expression": " \u22a2 ( \ud835\udf12 \u2192 ( \ud835\udf11 \u2192 \ud835\udf03 ) )",
+            "expression": "\u22a2 ( \ud835\udc34 \u2208 O d d \u2194 ( \ud835\udc34 \u2208 \u2124 \u2227 \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) )",
+            "prop_expression": " \u22a2 ( \ud835\udc34 \u2208 \ud835\udc36 \u2194 ( \ud835\udc34 \u2208 \ud835\udc35 \u2227 \ud835\udf13 ) )",
             "step": 65,
-            "theorem": "syl5bi",
-            "ground_truth": "syl5bi \u22a2 ( ( \ud835\udc34 \u2208 \u2124 \u2227 \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) \u2192 ( \ud835\udc35 \u2208 O d d \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
+            "theorem": "elrab2",
+            "ground_truth": "elrab2 \u22a2 ( \ud835\udc34 \u2208 O d d \u2194 ( \ud835\udc34 \u2208 \u2124 \u2227 \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.94694,
+            "_thrs_random_uniform": 0.28716,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.5188,
             "_thrs_weight": 0.54,
@@ -1536,14 +1536,14 @@
             "_thrs_random_forest": 0.665
         },
         {
-            "expression": "\u22a2 ( \ud835\udc34 \u2208 O d d \u2192 ( \ud835\udc35 \u2208 O d d \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
-            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \ud835\udf12 )",
+            "expression": "\u22a2 O d d = { \ud835\udc4e \u2208 \u2124 \u2223 \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc4e = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) }",
+            "prop_expression": " \u22a2 O d d = { \ud835\udc67 \u2208 \u2124 \u2223 \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc67 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) }",
             "step": 66,
-            "theorem": "sylbi",
-            "ground_truth": "sylbi \u22a2 ( \ud835\udc34 \u2208 O d d \u2192 ( \ud835\udc35 \u2208 O d d \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
+            "theorem": "dfodd6",
+            "ground_truth": "dfodd6 \u22a2 O d d = { \ud835\udc4e \u2208 \u2124 \u2223 \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc4e = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) }",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.10553,
+            "_thrs_random_uniform": 0.14363,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.91044,
             "_thrs_weight": 0.74,
@@ -1555,14 +1555,14 @@
             "_thrs_random_forest": 0.7
         },
         {
-            "expression": "\u22a2 ( ( \ud835\udc34 \u2208 O d d \u2227 \ud835\udc35 \u2208 O d d ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) )",
-            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf13 ) \u2192 \ud835\udf12 )",
+            "expression": "\u22a2 ( \ud835\udc4e = \ud835\udc34 \u2192 ( \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc4e = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) \u2194 \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) )",
+            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \u2203 \ud835\udc65 \u2208 \ud835\udc34 \ud835\udf13 \u2194 \u2203 \ud835\udc65 \u2208 \ud835\udc34 \ud835\udf12 ) )",
             "step": 67,
-            "theorem": "imp",
-            "ground_truth": "imp \u22a2 ( ( \ud835\udc34 \u2208 O d d \u2227 \ud835\udc35 \u2208 O d d ) \u2192 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) )",
+            "theorem": "rexbidv",
+            "ground_truth": "rexbidv \u22a2 ( \ud835\udc4e = \ud835\udc34 \u2192 ( \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc4e = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) \u2194 \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.28435,
+            "_thrs_random_uniform": 0.07224,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.91044,
             "_thrs_weight": 0.74,
@@ -1574,14 +1574,14 @@
             "_thrs_random_forest": 0.7
         },
         {
-            "expression": "\u22a2 ( \ud835\udc67 = ( \ud835\udc34 + \ud835\udc35 ) \u2192 ( \ud835\udc67 = ( 2 \u00b7 \ud835\udc5b ) \u2194 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
+            "expression": "\u22a2 ( \ud835\udc4e = \ud835\udc34 \u2192 ( \ud835\udc4e = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) \u2194 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) )",
             "prop_expression": " \u22a2 ( \ud835\udc34 = \ud835\udc35 \u2192 ( \ud835\udc34 = \ud835\udc36 \u2194 \ud835\udc35 = \ud835\udc36 ) )",
             "step": 68,
             "theorem": "eqeq1",
-            "ground_truth": "eqeq1 \u22a2 ( \ud835\udc67 = ( \ud835\udc34 + \ud835\udc35 ) \u2192 ( \ud835\udc67 = ( 2 \u00b7 \ud835\udc5b ) \u2194 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
+            "ground_truth": "eqeq1 \u22a2 ( \ud835\udc4e = \ud835\udc34 \u2192 ( \ud835\udc4e = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) \u2194 \ud835\udc34 = ( ( 2 \u00b7 \ud835\udc56 ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.14414,
+            "_thrs_random_uniform": 0.65708,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.76,
@@ -1593,14 +1593,14 @@
             "_thrs_random_forest": 0.585
         },
         {
-            "expression": "\u22a2 ( \ud835\udc67 = ( \ud835\udc34 + \ud835\udc35 ) \u2192 ( \u2203 \ud835\udc5b \u2208 \u2124 \ud835\udc67 = ( 2 \u00b7 \ud835\udc5b ) \u2194 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
-            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 ( \u2203 \ud835\udc65 \u2208 \ud835\udc34 \ud835\udf13 \u2194 \u2203 \ud835\udc65 \u2208 \ud835\udc34 \ud835\udf12 ) )",
+            "expression": "\u22a2 ( ( \ud835\udc34 \u2208 O d d \u2227 \ud835\udc35 \u2208 O d d ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) \u2208 \u2124 )",
+            "prop_expression": " \u22a2 ( ( \ud835\udf11 \u2227 \ud835\udf0f ) \u2192 \ud835\udf03 )",
             "step": 69,
-            "theorem": "rexbidv",
-            "ground_truth": "rexbidv \u22a2 ( \ud835\udc67 = ( \ud835\udc34 + \ud835\udc35 ) \u2192 ( \u2203 \ud835\udc5b \u2208 \u2124 \ud835\udc67 = ( 2 \u00b7 \ud835\udc5b ) \u2194 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
+            "theorem": "syl2an",
+            "ground_truth": "syl2an \u22a2 ( ( \ud835\udc34 \u2208 O d d \u2227 \ud835\udc35 \u2208 O d d ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) \u2208 \u2124 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.45783,
+            "_thrs_random_uniform": 0.74591,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.64,
@@ -1612,14 +1612,14 @@
             "_thrs_random_forest": 0.48875
         },
         {
-            "expression": "\u22a2 E v e n = { \ud835\udc67 \u2208 \u2124 \u2223 \u2203 \ud835\udc5b \u2208 \u2124 \ud835\udc67 = ( 2 \u00b7 \ud835\udc5b ) }",
-            "prop_expression": " \u22a2 E v e n = { \ud835\udc67 \u2208 \u2124 \u2223 \u2203 \ud835\udc56 \u2208 \u2124 \ud835\udc67 = ( 2 \u00b7 \ud835\udc56 ) }",
+            "expression": "\u22a2 ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc35 \u2208 \u2124 ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) \u2208 \u2124 )",
+            "prop_expression": " \u22a2 ( ( \ud835\udc40 \u2208 \u2124 \u2227 \ud835\udc41 \u2208 \u2124 ) \u2192 ( \ud835\udc40 + \ud835\udc41 ) \u2208 \u2124 )",
             "step": 70,
-            "theorem": "dfeven4",
-            "ground_truth": "dfeven4 \u22a2 E v e n = { \ud835\udc67 \u2208 \u2124 \u2223 \u2203 \ud835\udc5b \u2208 \u2124 \ud835\udc67 = ( 2 \u00b7 \ud835\udc5b ) }",
+            "theorem": "zaddcl",
+            "ground_truth": "zaddcl \u22a2 ( ( \ud835\udc34 \u2208 \u2124 \u2227 \ud835\udc35 \u2208 \u2124 ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) \u2208 \u2124 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.58204,
+            "_thrs_random_uniform": 0.86964,
             "_thrs_reconstruct": 0.07211,
             "_thrs_obviousness": 0.02824,
             "_thrs_weight": 0.84,
@@ -1631,14 +1631,14 @@
             "_thrs_random_forest": 0.545
         },
         {
-            "expression": "\u22a2 ( ( \ud835\udc34 + \ud835\udc35 ) \u2208 E v e n \u2194 ( ( \ud835\udc34 + \ud835\udc35 ) \u2208 \u2124 \u2227 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
-            "prop_expression": " \u22a2 ( \ud835\udc34 \u2208 \ud835\udc36 \u2194 ( \ud835\udc34 \u2208 \ud835\udc35 \u2227 \ud835\udf13 ) )",
+            "expression": "\u22a2 ( \ud835\udc35 \u2208 O d d \u2192 \ud835\udc35 \u2208 \u2124 )",
+            "prop_expression": " \u22a2 ( \ud835\udc4d \u2208 O d d \u2192 \ud835\udc4d \u2208 \u2124 )",
             "step": 71,
-            "theorem": "elrab2",
-            "ground_truth": "elrab2 \u22a2 ( ( \ud835\udc34 + \ud835\udc35 ) \u2208 E v e n \u2194 ( ( \ud835\udc34 + \ud835\udc35 ) \u2208 \u2124 \u2227 \u2203 \ud835\udc5b \u2208 \u2124 ( \ud835\udc34 + \ud835\udc35 ) = ( 2 \u00b7 \ud835\udc5b ) ) )",
+            "theorem": "oddz",
+            "ground_truth": "oddz \u22a2 ( \ud835\udc35 \u2208 O d d \u2192 \ud835\udc35 \u2208 \u2124 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.99185,
+            "_thrs_random_uniform": 0.75496,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.02824,
             "_thrs_weight": 0.66,
@@ -1650,14 +1650,14 @@
             "_thrs_random_forest": 0.715
         },
         {
-            "expression": "\u22a2 ( ( \ud835\udc34 \u2208 O d d \u2227 \ud835\udc35 \u2208 O d d ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) \u2208 E v e n )",
-            "prop_expression": " \u22a2 ( \ud835\udf11 \u2192 \ud835\udf03 )",
+            "expression": "\u22a2 ( \ud835\udc34 \u2208 O d d \u2192 \ud835\udc34 \u2208 \u2124 )",
+            "prop_expression": " \u22a2 ( \ud835\udc4d \u2208 O d d \u2192 \ud835\udc4d \u2208 \u2124 )",
             "step": 72,
-            "theorem": "sylanbrc",
-            "ground_truth": "sylanbrc \u22a2 ( ( \ud835\udc34 \u2208 O d d \u2227 \ud835\udc35 \u2208 O d d ) \u2192 ( \ud835\udc34 + \ud835\udc35 ) \u2208 E v e n )",
+            "theorem": "oddz",
+            "ground_truth": "oddz \u22a2 ( \ud835\udc34 \u2208 O d d \u2192 \ud835\udc34 \u2208 \u2124 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.92333,
+            "_thrs_random_uniform": 0.97458,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.82,
