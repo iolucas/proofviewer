@@ -3,32 +3,32 @@
     "theorem": "dfss2",
     "hyps": [
         [
-            2,
-            3
-        ],
-        [
-            1,
-            5
-        ],
-        [
             3,
-            5
-        ],
-        [
-            4,
-            5
-        ],
-        [
-            6,
-            7
+            2
         ],
         [
             5,
-            8
+            1
+        ],
+        [
+            5,
+            3
+        ],
+        [
+            5,
+            4
         ],
         [
             7,
-            8
+            6
+        ],
+        [
+            8,
+            5
+        ],
+        [
+            8,
+            7
         ]
     ],
     "expression": "\u22a2 (\ud835\udc34 \u2286 \ud835\udc35 \u2194 \u2200\ud835\udc65(\ud835\udc65 \u2208 \ud835\udc34 \u2192 \ud835\udc65 \u2208 \ud835\udc35))",
@@ -41,7 +41,7 @@
             "ground_truth": "dfss \u22a2 (\ud835\udc34 \u2286 \ud835\udc35 \u2194 \ud835\udc34 = (\ud835\udc34 \u2229 \ud835\udc35))",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.35293,
+            "_thrs_random_uniform": 0.45619,
             "_thrs_reconstruct": 0.00351,
             "_thrs_obviousness": 0.00347,
             "_thrs_weight": 1.0,
@@ -60,7 +60,7 @@
             "ground_truth": "df-in \u22a2 (\ud835\udc34 \u2229 \ud835\udc35) = {\ud835\udc65 \u2223 (\ud835\udc65 \u2208 \ud835\udc34 \u2227 \ud835\udc65 \u2208 \ud835\udc35)}",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.05748,
+            "_thrs_random_uniform": 0.86426,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.71429,
@@ -79,7 +79,7 @@
             "ground_truth": "eqeq2i \u22a2 (\ud835\udc34 = (\ud835\udc34 \u2229 \ud835\udc35) \u2194 \ud835\udc34 = {\ud835\udc65 \u2223 (\ud835\udc65 \u2208 \ud835\udc34 \u2227 \ud835\udc65 \u2208 \ud835\udc35)})",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.9171,
+            "_thrs_random_uniform": 0.16289,
             "_thrs_reconstruct": 0.00906,
             "_thrs_obviousness": 0.00894,
             "_thrs_weight": 0.5,
@@ -98,7 +98,7 @@
             "ground_truth": "abeq2 \u22a2 (\ud835\udc34 = {\ud835\udc65 \u2223 (\ud835\udc65 \u2208 \ud835\udc34 \u2227 \ud835\udc65 \u2208 \ud835\udc35)} \u2194 \u2200\ud835\udc65(\ud835\udc65 \u2208 \ud835\udc34 \u2194 (\ud835\udc65 \u2208 \ud835\udc34 \u2227 \ud835\udc65 \u2208 \ud835\udc35)))",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.24685,
+            "_thrs_random_uniform": 0.24654,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 0.9871,
             "_thrs_weight": 0.0,
@@ -117,7 +117,7 @@
             "ground_truth": "3bitri \u22a2 (\ud835\udc34 \u2286 \ud835\udc35 \u2194 \u2200\ud835\udc65(\ud835\udc65 \u2208 \ud835\udc34 \u2194 (\ud835\udc65 \u2208 \ud835\udc34 \u2227 \ud835\udc65 \u2208 \ud835\udc35)))",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.06402,
+            "_thrs_random_uniform": 0.08059,
             "_thrs_reconstruct": 0.0001,
             "_thrs_obviousness": 0.99961,
             "_thrs_weight": 0.5,
@@ -136,7 +136,7 @@
             "ground_truth": "pm4.71 \u22a2 ((\ud835\udc65 \u2208 \ud835\udc34 \u2192 \ud835\udc65 \u2208 \ud835\udc35) \u2194 (\ud835\udc65 \u2208 \ud835\udc34 \u2194 (\ud835\udc65 \u2208 \ud835\udc34 \u2227 \ud835\udc65 \u2208 \ud835\udc35)))",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.13003,
+            "_thrs_random_uniform": 0.68414,
             "_thrs_reconstruct": 0.00031,
             "_thrs_obviousness": 0.0003,
             "_thrs_weight": 0.21429,
@@ -155,7 +155,7 @@
             "ground_truth": "albii \u22a2 (\u2200\ud835\udc65(\ud835\udc65 \u2208 \ud835\udc34 \u2192 \ud835\udc65 \u2208 \ud835\udc35) \u2194 \u2200\ud835\udc65(\ud835\udc65 \u2208 \ud835\udc34 \u2194 (\ud835\udc65 \u2208 \ud835\udc34 \u2227 \ud835\udc65 \u2208 \ud835\udc35)))",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.51063,
+            "_thrs_random_uniform": 0.25492,
             "_thrs_reconstruct": 2e-05,
             "_thrs_obviousness": 0.00032,
             "_thrs_weight": 0.21429,
@@ -174,7 +174,7 @@
             "ground_truth": "bitr4i \u22a2 (\ud835\udc34 \u2286 \ud835\udc35 \u2194 \u2200\ud835\udc65(\ud835\udc65 \u2208 \ud835\udc34 \u2192 \ud835\udc65 \u2208 \ud835\udc35))",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.13331,
+            "_thrs_random_uniform": 0.20757,
             "_thrs_reconstruct": 7e-05,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.78571,
