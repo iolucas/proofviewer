@@ -2,12 +2,20 @@
     "theorem": "dfss2",
     "hyps": [
         [
-            6,
-            7
+            1,
+            2
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            2,
+            3
         ],
         [
             4,
-            8
+            5
         ],
         [
             4,
@@ -15,22 +23,14 @@
         ],
         [
             4,
-            5
+            8
         ],
         [
-            2,
-            3
-        ],
-        [
-            1,
-            4
-        ],
-        [
-            1,
-            2
+            6,
+            7
         ]
     ],
-    "expression": "\u22a2 ( A \u2286 B \u2194 \u2200 x ( x \u2208 A \u2192 x \u2208 B ) )",
+    "expression": "( A \u2286 B \u2194 \u2200 x ( x \u2208 A \u2192 x \u2208 B ) )",
     "steps": [
         {
             "expression": "\u22a2 ( A \u2286 B \u2194 \u2200 x ( x \u2208 A \u2192 x \u2208 B ) )",
@@ -40,7 +40,7 @@
             "ground_truth": "bitr4i \u22a2 ( A \u2286 B \u2194 \u2200 x ( x \u2208 A \u2192 x \u2208 B ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.89214,
+            "_thrs_random_uniform": 0.70495,
             "_thrs_reconstruct": 7e-05,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.66667,
@@ -59,7 +59,7 @@
             "ground_truth": "albii \u22a2 ( \u2200 x ( x \u2208 A \u2192 x \u2208 B ) \u2194 \u2200 x ( x \u2208 A \u2194 ( x \u2208 A \u2227 x \u2208 B ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.45257,
+            "_thrs_random_uniform": 0.35321,
             "_thrs_reconstruct": 2e-05,
             "_thrs_obviousness": 0.00032,
             "_thrs_weight": 0.0,
@@ -78,7 +78,7 @@
             "ground_truth": "pm4.71 \u22a2 ( ( x \u2208 A \u2192 x \u2208 B ) \u2194 ( x \u2208 A \u2194 ( x \u2208 A \u2227 x \u2208 B ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.63247,
+            "_thrs_random_uniform": 0.49254,
             "_thrs_reconstruct": 0.00031,
             "_thrs_obviousness": 0.0003,
             "_thrs_weight": 0.26667,
@@ -97,7 +97,7 @@
             "ground_truth": "3bitri \u22a2 ( A \u2286 B \u2194 \u2200 x ( x \u2208 A \u2194 ( x \u2208 A \u2227 x \u2208 B ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.06344,
+            "_thrs_random_uniform": 0.49195,
             "_thrs_reconstruct": 0.0001,
             "_thrs_obviousness": 0.99961,
             "_thrs_weight": 0.4,
@@ -116,7 +116,7 @@
             "ground_truth": "abeq2 \u22a2 ( A = { x | ( x \u2208 A \u2227 x \u2208 B ) } \u2194 \u2200 x ( x \u2208 A \u2194 ( x \u2208 A \u2227 x \u2208 B ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.68911,
+            "_thrs_random_uniform": 0.26043,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 0.9871,
             "_thrs_weight": 0.0,
@@ -135,7 +135,7 @@
             "ground_truth": "eqeq2i \u22a2 ( A = ( A \u2229 B ) \u2194 A = { x | ( x \u2208 A \u2227 x \u2208 B ) } )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.69949,
+            "_thrs_random_uniform": 0.00016,
             "_thrs_reconstruct": 0.00906,
             "_thrs_obviousness": 0.00894,
             "_thrs_weight": 0.6,
@@ -154,7 +154,7 @@
             "ground_truth": "df-in \u22a2 ( A \u2229 B ) = { x | ( x \u2208 A \u2227 x \u2208 B ) }",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.01742,
+            "_thrs_random_uniform": 0.86075,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.8,
@@ -173,7 +173,7 @@
             "ground_truth": "dfss \u22a2 ( A \u2286 B \u2194 A = ( A \u2229 B ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.26692,
+            "_thrs_random_uniform": 0.83132,
             "_thrs_reconstruct": 0.00351,
             "_thrs_obviousness": 0.00347,
             "_thrs_weight": 1.0,

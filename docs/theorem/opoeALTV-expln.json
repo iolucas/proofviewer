@@ -2,108 +2,184 @@
     "theorem": "opoeALTV",
     "hyps": [
         [
-            137,
-            140
+            1,
+            2
         ],
         [
-            137,
-            139
+            1,
+            11
         ],
         [
-            137,
-            138
+            1,
+            137
         ],
         [
-            121,
-            122
+            2,
+            3
         ],
         [
-            119,
-            121
+            2,
+            4
         ],
         [
-            119,
-            120
+            4,
+            5
         ],
         [
-            105,
-            106
+            11,
+            12
         ],
         [
-            103,
-            105
+            12,
+            13
         ],
         [
-            103,
-            104
+            12,
+            119
         ],
         [
-            87,
-            88
+            13,
+            14
         ],
         [
-            86,
-            87
+            13,
+            103
         ],
         [
-            85,
-            86
+            14,
+            15
         ],
         [
-            84,
-            85
+            15,
+            16
         ],
         [
-            83,
-            84
+            16,
+            17
         ],
         [
-            79,
-            80
+            17,
+            18
         ],
         [
-            78,
-            79
+            18,
+            19
         ],
         [
-            73,
-            74
+            19,
+            20
         ],
         [
-            72,
-            73
+            20,
+            21
         ],
         [
-            71,
-            72
+            20,
+            78
         ],
         [
-            55,
-            56
+            20,
+            83
         ],
         [
-            54,
-            55
+            21,
+            22
         ],
         [
-            52,
-            54
+            21,
+            71
         ],
         [
-            52,
-            53
+            22,
+            23
         ],
         [
-            47,
-            49
+            23,
+            24
         ],
         [
-            47,
-            48
+            24,
+            25
         ],
         [
-            46,
-            52
+            25,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            64
+        ],
+        [
+            26,
+            65
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            46
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            28,
+            35
+        ],
+        [
+            28,
+            37
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            35,
+            51
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            35,
+            41
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            38,
+            40
+        ],
+        [
+            38,
+            41
         ],
         [
             46,
@@ -118,187 +194,111 @@
             51
         ],
         [
-            38,
-            41
+            46,
+            52
         ],
         [
-            38,
-            40
+            47,
+            48
         ],
         [
-            38,
-            39
+            47,
+            49
         ],
         [
-            37,
-            38
+            52,
+            53
         ],
         [
-            35,
-            41
+            52,
+            54
         ],
         [
-            35,
-            36
+            54,
+            55
         ],
         [
-            35,
-            51
+            55,
+            56
         ],
         [
-            31,
-            33
+            71,
+            72
         ],
         [
-            31,
-            32
+            72,
+            73
         ],
         [
-            30,
-            31
+            73,
+            74
         ],
         [
-            29,
-            30
+            78,
+            79
         ],
         [
-            28,
-            37
+            79,
+            80
         ],
         [
-            28,
-            35
+            83,
+            84
         ],
         [
-            28,
-            29
+            84,
+            85
         ],
         [
-            27,
-            46
+            85,
+            86
         ],
         [
-            27,
-            28
+            86,
+            87
         ],
         [
-            26,
-            65
+            87,
+            88
         ],
         [
-            26,
-            64
+            103,
+            104
         ],
         [
-            26,
-            27
+            103,
+            105
         ],
         [
-            25,
-            26
+            105,
+            106
         ],
         [
-            24,
-            25
+            119,
+            120
         ],
         [
-            23,
-            24
+            119,
+            121
         ],
         [
-            22,
-            23
+            121,
+            122
         ],
         [
-            21,
-            71
+            137,
+            138
         ],
         [
-            21,
-            22
+            137,
+            139
         ],
         [
-            20,
-            83
-        ],
-        [
-            20,
-            78
-        ],
-        [
-            20,
-            21
-        ],
-        [
-            19,
-            20
-        ],
-        [
-            18,
-            19
-        ],
-        [
-            17,
-            18
-        ],
-        [
-            16,
-            17
-        ],
-        [
-            15,
-            16
-        ],
-        [
-            14,
-            15
-        ],
-        [
-            13,
-            103
-        ],
-        [
-            13,
-            14
-        ],
-        [
-            12,
-            119
-        ],
-        [
-            12,
-            13
-        ],
-        [
-            11,
-            12
-        ],
-        [
-            4,
-            5
-        ],
-        [
-            2,
-            4
-        ],
-        [
-            2,
-            3
-        ],
-        [
-            1,
-            137
-        ],
-        [
-            1,
-            11
-        ],
-        [
-            1,
-            2
+            137,
+            140
         ]
     ],
-    "expression": "\u22a2 ( ( A \u2208 Odd \u2227 B \u2208 Odd ) \u2192 ( A + B ) \u2208 Even )",
+    "expression": "( ( A \u2208 Odd \u2227 B \u2208 Odd ) \u2192 ( A + B ) \u2208 Even )",
     "steps": [
         {
             "expression": "\u22a2 ( ( A \u2208 Odd \u2227 B \u2208 Odd ) \u2192 ( A + B ) \u2208 Even )",
@@ -308,7 +308,7 @@
             "ground_truth": "sylanbrc \u22a2 ( ( A \u2208 Odd \u2227 B \u2208 Odd ) \u2192 ( A + B ) \u2208 Even )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.34239,
+            "_thrs_random_uniform": 0.19989,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 1.0,
             "_thrs_weight": 0.82,
@@ -327,7 +327,7 @@
             "ground_truth": "elrab2 \u22a2 ( ( A + B ) \u2208 Even \u2194 ( ( A + B ) \u2208 \u2124 \u2227 \u2203 n \u2208 \u2124 ( A + B ) = ( 2 \u00b7 n ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.27864,
+            "_thrs_random_uniform": 0.74035,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.02824,
             "_thrs_weight": 0.64,
@@ -346,7 +346,7 @@
             "ground_truth": "dfeven4 \u22a2 Even = { z \u2208 \u2124 | \u2203 n \u2208 \u2124 z = ( 2 \u00b7 n ) }",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.35428,
+            "_thrs_random_uniform": 0.49754,
             "_thrs_reconstruct": 0.07211,
             "_thrs_obviousness": 0.02824,
             "_thrs_weight": 0.84,
@@ -365,7 +365,7 @@
             "ground_truth": "rexbidv \u22a2 ( z = ( A + B ) \u2192 ( \u2203 n \u2208 \u2124 z = ( 2 \u00b7 n ) \u2194 \u2203 n \u2208 \u2124 ( A + B ) = ( 2 \u00b7 n ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.29925,
+            "_thrs_random_uniform": 0.37405,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.6,
@@ -384,7 +384,7 @@
             "ground_truth": "eqeq1 \u22a2 ( z = ( A + B ) \u2192 ( z = ( 2 \u00b7 n ) \u2194 ( A + B ) = ( 2 \u00b7 n ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.47884,
+            "_thrs_random_uniform": 0.14599,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.76,
@@ -403,7 +403,7 @@
             "ground_truth": "imp \u22a2 ( ( A \u2208 Odd \u2227 B \u2208 Odd ) \u2192 \u2203 n \u2208 \u2124 ( A + B ) = ( 2 \u00b7 n ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.58246,
+            "_thrs_random_uniform": 0.17691,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.91044,
             "_thrs_weight": 0.72,
@@ -422,7 +422,7 @@
             "ground_truth": "sylbi \u22a2 ( A \u2208 Odd \u2192 ( B \u2208 Odd \u2192 \u2203 n \u2208 \u2124 ( A + B ) = ( 2 \u00b7 n ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.78667,
+            "_thrs_random_uniform": 0.15518,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.91044,
             "_thrs_weight": 0.72,
@@ -441,7 +441,7 @@
             "ground_truth": "syl5bi \u22a2 ( ( A \u2208 \u2124 \u2227 \u2203 i \u2208 \u2124 A = ( ( 2 \u00b7 i ) + 1 ) ) \u2192 ( B \u2208 Odd \u2192 \u2203 n \u2208 \u2124 ( A + B ) = ( 2 \u00b7 n ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.49321,
+            "_thrs_random_uniform": 0.17183,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.5188,
             "_thrs_weight": 0.5,
@@ -460,7 +460,7 @@
             "ground_truth": "imp \u22a2 ( ( A \u2208 \u2124 \u2227 \u2203 i \u2208 \u2124 A = ( ( 2 \u00b7 i ) + 1 ) ) \u2192 ( ( B \u2208 \u2124 \u2227 \u2203 j \u2208 \u2124 B = ( ( 2 \u00b7 j ) + 1 ) ) \u2192 \u2203 n \u2208 \u2124 ( A + B ) = ( 2 \u00b7 n ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.56934,
+            "_thrs_random_uniform": 0.96364,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.12716,
             "_thrs_weight": 0.28,
@@ -479,7 +479,7 @@
             "ground_truth": "rexlimdva \u22a2 ( A \u2208 \u2124 \u2192 ( \u2203 i \u2208 \u2124 A = ( ( 2 \u00b7 i ) + 1 ) \u2192 ( ( B \u2208 \u2124 \u2227 \u2203 j \u2208 \u2124 B = ( ( 2 \u00b7 j ) + 1 ) ) \u2192 \u2203 n \u2208 \u2124 ( A + B ) = ( 2 \u00b7 n ) ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.36263,
+            "_thrs_random_uniform": 0.1743,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.12716,
             "_thrs_weight": 0.28,
@@ -498,7 +498,7 @@
             "ground_truth": "ex \u22a2 ( ( A \u2208 \u2124 \u2227 i \u2208 \u2124 ) \u2192 ( A = ( ( 2 \u00b7 i ) + 1 ) \u2192 ( ( B \u2208 \u2124 \u2227 \u2203 j \u2208 \u2124 B = ( ( 2 \u00b7 j ) + 1 ) ) \u2192 \u2203 n \u2208 \u2124 ( A + B ) = ( 2 \u00b7 n ) ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.84957,
+            "_thrs_random_uniform": 0.1107,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.12716,
             "_thrs_weight": 0.28,
@@ -517,7 +517,7 @@
             "ground_truth": "expimpd \u22a2 ( ( ( A \u2208 \u2124 \u2227 i \u2208 \u2124 ) \u2227 A = ( ( 2 \u00b7 i ) + 1 ) ) \u2192 ( ( B \u2208 \u2124 \u2227 \u2203 j \u2208 \u2124 B = ( ( 2 \u00b7 j ) + 1 ) ) \u2192 \u2203 n \u2208 \u2124 ( A + B ) = ( 2 \u00b7 n ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.31937,
+            "_thrs_random_uniform": 0.63813,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.12716,
             "_thrs_weight": 0.28,
@@ -536,7 +536,7 @@
             "ground_truth": "rexlimdva \u22a2 ( ( ( ( A \u2208 \u2124 \u2227 i \u2208 \u2124 ) \u2227 A = ( ( 2 \u00b7 i ) + 1 ) ) \u2227 B \u2208 \u2124 ) \u2192 ( \u2203 j \u2208 \u2124 B = ( ( 2 \u00b7 j ) + 1 ) \u2192 \u2203 n \u2208 \u2124 ( A + B ) = ( 2 \u00b7 n ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.72303,
+            "_thrs_random_uniform": 0.74574,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.12716,
             "_thrs_weight": 0.28,
@@ -555,7 +555,7 @@
             "ground_truth": "ex \u22a2 ( ( ( ( ( A \u2208 \u2124 \u2227 i \u2208 \u2124 ) \u2227 A = ( ( 2 \u00b7 i ) + 1 ) ) \u2227 B \u2208 \u2124 ) \u2227 j \u2208 \u2124 ) \u2192 ( B = ( ( 2 \u00b7 j ) + 1 ) \u2192 \u2203 n \u2208 \u2124 ( A + B ) = ( 2 \u00b7 n ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.85178,
+            "_thrs_random_uniform": 0.29966,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.12716,
             "_thrs_weight": 0.28,
@@ -574,7 +574,7 @@
             "ground_truth": "rspcedvd \u22a2 ( ( ( ( ( ( A \u2208 \u2124 \u2227 i \u2208 \u2124 ) \u2227 A = ( ( 2 \u00b7 i ) + 1 ) ) \u2227 B \u2208 \u2124 ) \u2227 j \u2208 \u2124 ) \u2227 B = ( ( 2 \u00b7 j ) + 1 ) ) \u2192 \u2203 n \u2208 \u2124 ( A + B ) = ( 2 \u00b7 n ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.7889,
+            "_thrs_random_uniform": 0.43491,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.12716,
             "_thrs_weight": 0.28,
@@ -593,7 +593,7 @@
             "ground_truth": "eqtrd \u22a2 ( ( ( ( ( ( A \u2208 \u2124 \u2227 i \u2208 \u2124 ) \u2227 A = ( ( 2 \u00b7 i ) + 1 ) ) \u2227 B \u2208 \u2124 ) \u2227 j \u2208 \u2124 ) \u2227 B = ( ( 2 \u00b7 j ) + 1 ) ) \u2192 ( A + B ) = ( 2 \u00b7 ( ( i + j ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.01996,
+            "_thrs_random_uniform": 0.84145,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.28,
@@ -612,7 +612,7 @@
             "ground_truth": "adantr \u22a2 ( ( ( ( ( ( A \u2208 \u2124 \u2227 i \u2208 \u2124 ) \u2227 A = ( ( 2 \u00b7 i ) + 1 ) ) \u2227 B \u2208 \u2124 ) \u2227 j \u2208 \u2124 ) \u2227 B = ( ( 2 \u00b7 j ) + 1 ) ) \u2192 ( ( ( 2 \u00b7 i ) + 1 ) + ( ( 2 \u00b7 j ) + 1 ) ) = ( 2 \u00b7 ( ( i + j ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.14758,
+            "_thrs_random_uniform": 0.07142,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.12,
@@ -631,7 +631,7 @@
             "ground_truth": "imp \u22a2 ( ( ( ( ( A \u2208 \u2124 \u2227 i \u2208 \u2124 ) \u2227 A = ( ( 2 \u00b7 i ) + 1 ) ) \u2227 B \u2208 \u2124 ) \u2227 j \u2208 \u2124 ) \u2192 ( ( ( 2 \u00b7 i ) + 1 ) + ( ( 2 \u00b7 j ) + 1 ) ) = ( 2 \u00b7 ( ( i + j ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.2335,
+            "_thrs_random_uniform": 0.52407,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.26,
@@ -650,7 +650,7 @@
             "ground_truth": "ad3antlr \u22a2 ( ( ( ( A \u2208 \u2124 \u2227 i \u2208 \u2124 ) \u2227 A = ( ( 2 \u00b7 i ) + 1 ) ) \u2227 B \u2208 \u2124 ) \u2192 ( j \u2208 \u2124 \u2192 ( ( ( 2 \u00b7 i ) + 1 ) + ( ( 2 \u00b7 j ) + 1 ) ) = ( 2 \u00b7 ( ( i + j ) + 1 ) ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.9303,
+            "_thrs_random_uniform": 0.69409,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.26,
@@ -669,7 +669,7 @@
             "ground_truth": "ex \u22a2 ( i \u2208 \u2124 \u2192 ( j \u2208 \u2124 \u2192 ( ( ( 2 \u00b7 i ) + 1 ) + ( ( 2 \u00b7 j ) + 1 ) ) = ( 2 \u00b7 ( ( i + j ) + 1 ) ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.74056,
+            "_thrs_random_uniform": 0.17696,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.56,
@@ -688,7 +688,7 @@
             "ground_truth": "syl2an \u22a2 ( ( i \u2208 \u2124 \u2227 j \u2208 \u2124 ) \u2192 ( ( ( 2 \u00b7 i ) + 1 ) + ( ( 2 \u00b7 j ) + 1 ) ) = ( 2 \u00b7 ( ( i + j ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.57468,
+            "_thrs_random_uniform": 0.86209,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.56,
@@ -707,7 +707,7 @@
             "ground_truth": "eqtrd \u22a2 ( ( i \u2208 \u2102 \u2227 j \u2208 \u2102 ) \u2192 ( ( ( 2 \u00b7 i ) + 1 ) + ( ( 2 \u00b7 j ) + 1 ) ) = ( 2 \u00b7 ( ( i + j ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.61191,
+            "_thrs_random_uniform": 0.62002,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.56,
@@ -726,7 +726,7 @@
             "ground_truth": "3eqtr4rd \u22a2 ( ( i \u2208 \u2102 \u2227 j \u2208 \u2102 ) \u2192 ( ( ( 2 \u00b7 i ) + ( 2 \u00b7 j ) ) + ( 1 + 1 ) ) = ( 2 \u00b7 ( ( i + j ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.90603,
+            "_thrs_random_uniform": 0.54118,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.56,
@@ -745,7 +745,7 @@
             "ground_truth": "oveq2d \u22a2 ( ( i \u2208 \u2102 \u2227 j \u2208 \u2102 ) \u2192 ( ( ( 2 \u00b7 i ) + ( 2 \u00b7 j ) ) + ( 1 + 1 ) ) = ( ( ( 2 \u00b7 i ) + ( 2 \u00b7 j ) ) + ( 2 \u00b7 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.80245,
+            "_thrs_random_uniform": 0.08763,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.48,
@@ -764,7 +764,7 @@
             "ground_truth": "a1i \u22a2 ( ( i \u2208 \u2102 \u2227 j \u2208 \u2102 ) \u2192 ( 1 + 1 ) = ( 2 \u00b7 1 ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.13932,
+            "_thrs_random_uniform": 0.39042,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.8,
@@ -783,7 +783,7 @@
             "ground_truth": "eqtr4i \u22a2 ( 1 + 1 ) = ( 2 \u00b7 1 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.97837,
+            "_thrs_random_uniform": 0.72239,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.96,
@@ -802,7 +802,7 @@
             "ground_truth": "2t1e2 \u22a2 ( 2 \u00b7 1 ) = 2",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.49091,
+            "_thrs_random_uniform": 0.44399,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
@@ -821,7 +821,7 @@
             "ground_truth": "1p1e2 \u22a2 ( 1 + 1 ) = 2",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.90781,
+            "_thrs_random_uniform": 0.18888,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 1.0,
@@ -840,7 +840,7 @@
             "ground_truth": "adddid \u22a2 ( ( i \u2208 \u2102 \u2227 j \u2208 \u2102 ) \u2192 ( 2 \u00b7 ( ( i + j ) + 1 ) ) = ( ( 2 \u00b7 ( i + j ) ) + ( 2 \u00b7 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.11543,
+            "_thrs_random_uniform": 0.00894,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.6,
@@ -859,7 +859,7 @@
             "ground_truth": "addcl \u22a2 ( ( i \u2208 \u2102 \u2227 j \u2208 \u2102 ) \u2192 ( i + j ) \u2208 \u2102 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.58099,
+            "_thrs_random_uniform": 0.95799,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.82,
@@ -878,7 +878,7 @@
             "ground_truth": "oveq1d \u22a2 ( ( i \u2208 \u2102 \u2227 j \u2208 \u2102 ) \u2192 ( ( 2 \u00b7 ( i + j ) ) + ( 2 \u00b7 1 ) ) = ( ( ( 2 \u00b7 i ) + ( 2 \u00b7 j ) ) + ( 2 \u00b7 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.86112,
+            "_thrs_random_uniform": 0.74435,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.52,
@@ -897,7 +897,7 @@
             "ground_truth": "adddid \u22a2 ( ( i \u2208 \u2102 \u2227 j \u2208 \u2102 ) \u2192 ( 2 \u00b7 ( i + j ) ) = ( ( 2 \u00b7 i ) + ( 2 \u00b7 j ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.44477,
+            "_thrs_random_uniform": 0.93393,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.68,
@@ -916,7 +916,7 @@
             "ground_truth": "simpr \u22a2 ( ( i \u2208 \u2102 \u2227 j \u2208 \u2102 ) \u2192 j \u2208 \u2102 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.11045,
+            "_thrs_random_uniform": 0.44532,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.86,
@@ -935,7 +935,7 @@
             "ground_truth": "simpl \u22a2 ( ( i \u2208 \u2102 \u2227 j \u2208 \u2102 ) \u2192 i \u2208 \u2102 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.42968,
+            "_thrs_random_uniform": 0.17608,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.86,
@@ -954,7 +954,7 @@
             "ground_truth": "2cnd \u22a2 ( ( i \u2208 \u2102 \u2227 j \u2208 \u2102 ) \u2192 2 \u2208 \u2102 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.51512,
+            "_thrs_random_uniform": 0.22946,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.86,
@@ -973,7 +973,7 @@
             "ground_truth": "add4d \u22a2 ( ( i \u2208 \u2102 \u2227 j \u2208 \u2102 ) \u2192 ( ( ( 2 \u00b7 i ) + 1 ) + ( ( 2 \u00b7 j ) + 1 ) ) = ( ( ( 2 \u00b7 i ) + ( 2 \u00b7 j ) ) + ( 1 + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.12797,
+            "_thrs_random_uniform": 0.50745,
             "_thrs_reconstruct": 1e-05,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.48,
@@ -992,7 +992,7 @@
             "ground_truth": "sylan \u22a2 ( ( i \u2208 \u2102 \u2227 j \u2208 \u2102 ) \u2192 ( 2 \u00b7 j ) \u2208 \u2102 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.60696,
+            "_thrs_random_uniform": 0.35625,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.82,
@@ -1011,7 +1011,7 @@
             "ground_truth": "mulcl \u22a2 ( ( 2 \u2208 \u2102 \u2227 j \u2208 \u2102 ) \u2192 ( 2 \u00b7 j ) \u2208 \u2102 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.71485,
+            "_thrs_random_uniform": 0.82123,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.82,
@@ -1030,7 +1030,7 @@
             "ground_truth": "2cnd \u22a2 ( i \u2208 \u2102 \u2192 2 \u2208 \u2102 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.07577,
+            "_thrs_random_uniform": 0.30943,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.94,
@@ -1049,7 +1049,7 @@
             "ground_truth": "1cnd \u22a2 ( ( i \u2208 \u2102 \u2227 j \u2208 \u2102 ) \u2192 1 \u2208 \u2102 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.3277,
+            "_thrs_random_uniform": 0.4379,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.86,
@@ -1068,7 +1068,7 @@
             "ground_truth": "syl \u22a2 ( ( i \u2208 \u2102 \u2227 j \u2208 \u2102 ) \u2192 ( 2 \u00b7 i ) \u2208 \u2102 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.28656,
+            "_thrs_random_uniform": 0.83048,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.82,
@@ -1087,7 +1087,7 @@
             "ground_truth": "mulcl \u22a2 ( ( 2 \u2208 \u2102 \u2227 i \u2208 \u2102 ) \u2192 ( 2 \u00b7 i ) \u2208 \u2102 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.44221,
+            "_thrs_random_uniform": 0.08352,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.82,
@@ -1106,7 +1106,7 @@
             "ground_truth": "ancoms \u22a2 ( ( i \u2208 \u2102 \u2227 j \u2208 \u2102 ) \u2192 ( 2 \u2208 \u2102 \u2227 i \u2208 \u2102 ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.99933,
+            "_thrs_random_uniform": 0.21419,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.78,
@@ -1125,7 +1125,7 @@
             "ground_truth": "anim1i \u22a2 ( ( j \u2208 \u2102 \u2227 i \u2208 \u2102 ) \u2192 ( 2 \u2208 \u2102 \u2227 i \u2208 \u2102 ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.17403,
+            "_thrs_random_uniform": 0.06257,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.78,
@@ -1144,7 +1144,7 @@
             "ground_truth": "2cnd \u22a2 ( j \u2208 \u2102 \u2192 2 \u2208 \u2102 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.12032,
+            "_thrs_random_uniform": 0.47883,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.94,
@@ -1163,7 +1163,7 @@
             "ground_truth": "zcn \u22a2 ( j \u2208 \u2124 \u2192 j \u2208 \u2102 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.88906,
+            "_thrs_random_uniform": 0.04844,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.94,
@@ -1182,7 +1182,7 @@
             "ground_truth": "zcn \u22a2 ( i \u2208 \u2124 \u2192 i \u2208 \u2102 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.07188,
+            "_thrs_random_uniform": 0.79527,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.94,
@@ -1201,7 +1201,7 @@
             "ground_truth": "imp \u22a2 ( ( ( ( ( ( A \u2208 \u2124 \u2227 i \u2208 \u2124 ) \u2227 A = ( ( 2 \u00b7 i ) + 1 ) ) \u2227 B \u2208 \u2124 ) \u2227 j \u2208 \u2124 ) \u2227 B = ( ( 2 \u00b7 j ) + 1 ) ) \u2192 ( A + B ) = ( ( ( 2 \u00b7 i ) + 1 ) + ( ( 2 \u00b7 j ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.85581,
+            "_thrs_random_uniform": 0.19078,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.2,
@@ -1220,7 +1220,7 @@
             "ground_truth": "ad3antlr \u22a2 ( ( ( ( ( A \u2208 \u2124 \u2227 i \u2208 \u2124 ) \u2227 A = ( ( 2 \u00b7 i ) + 1 ) ) \u2227 B \u2208 \u2124 ) \u2227 j \u2208 \u2124 ) \u2192 ( B = ( ( 2 \u00b7 j ) + 1 ) \u2192 ( A + B ) = ( ( ( 2 \u00b7 i ) + 1 ) + ( ( 2 \u00b7 j ) + 1 ) ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.23337,
+            "_thrs_random_uniform": 0.76253,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.2,
@@ -1239,7 +1239,7 @@
             "ground_truth": "ex \u22a2 ( A = ( ( 2 \u00b7 i ) + 1 ) \u2192 ( B = ( ( 2 \u00b7 j ) + 1 ) \u2192 ( A + B ) = ( ( ( 2 \u00b7 i ) + 1 ) + ( ( 2 \u00b7 j ) + 1 ) ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.32665,
+            "_thrs_random_uniform": 0.44696,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.52,
@@ -1258,7 +1258,7 @@
             "ground_truth": "oveq12 \u22a2 ( ( A = ( ( 2 \u00b7 i ) + 1 ) \u2227 B = ( ( 2 \u00b7 j ) + 1 ) ) \u2192 ( A + B ) = ( ( ( 2 \u00b7 i ) + 1 ) + ( ( 2 \u00b7 j ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.1637,
+            "_thrs_random_uniform": 0.50443,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.52,
@@ -1277,7 +1277,7 @@
             "ground_truth": "adantl \u22a2 ( ( ( ( ( ( ( A \u2208 \u2124 \u2227 i \u2208 \u2124 ) \u2227 A = ( ( 2 \u00b7 i ) + 1 ) ) \u2227 B \u2208 \u2124 ) \u2227 j \u2208 \u2124 ) \u2227 B = ( ( 2 \u00b7 j ) + 1 ) ) \u2227 n = ( ( i + j ) + 1 ) ) \u2192 ( ( A + B ) = ( 2 \u00b7 n ) \u2194 ( A + B ) = ( 2 \u00b7 ( ( i + j ) + 1 ) ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.81169,
+            "_thrs_random_uniform": 0.39297,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.0,
@@ -1296,7 +1296,7 @@
             "ground_truth": "eqeq2d \u22a2 ( n = ( ( i + j ) + 1 ) \u2192 ( ( A + B ) = ( 2 \u00b7 n ) \u2194 ( A + B ) = ( 2 \u00b7 ( ( i + j ) + 1 ) ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.1498,
+            "_thrs_random_uniform": 0.37087,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.6,
@@ -1315,7 +1315,7 @@
             "ground_truth": "oveq2 \u22a2 ( n = ( ( i + j ) + 1 ) \u2192 ( 2 \u00b7 n ) = ( 2 \u00b7 ( ( i + j ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.65173,
+            "_thrs_random_uniform": 0.78977,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.74,
@@ -1334,7 +1334,7 @@
             "ground_truth": "peano2zd \u22a2 ( ( ( ( ( ( A \u2208 \u2124 \u2227 i \u2208 \u2124 ) \u2227 A = ( ( 2 \u00b7 i ) + 1 ) ) \u2227 B \u2208 \u2124 ) \u2227 j \u2208 \u2124 ) \u2227 B = ( ( 2 \u00b7 j ) + 1 ) ) \u2192 ( ( i + j ) + 1 ) \u2208 \u2124 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.00178,
+            "_thrs_random_uniform": 0.93778,
             "_thrs_reconstruct": 0.1681,
             "_thrs_obviousness": 0.12716,
             "_thrs_weight": 0.34,
@@ -1353,7 +1353,7 @@
             "ground_truth": "adantr \u22a2 ( ( ( ( ( ( A \u2208 \u2124 \u2227 i \u2208 \u2124 ) \u2227 A = ( ( 2 \u00b7 i ) + 1 ) ) \u2227 B \u2208 \u2124 ) \u2227 j \u2208 \u2124 ) \u2227 B = ( ( 2 \u00b7 j ) + 1 ) ) \u2192 ( i + j ) \u2208 \u2124 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.2476,
+            "_thrs_random_uniform": 0.38868,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.06132,
             "_thrs_weight": 0.38,
@@ -1372,7 +1372,7 @@
             "ground_truth": "imp \u22a2 ( ( ( ( ( A \u2208 \u2124 \u2227 i \u2208 \u2124 ) \u2227 A = ( ( 2 \u00b7 i ) + 1 ) ) \u2227 B \u2208 \u2124 ) \u2227 j \u2208 \u2124 ) \u2192 ( i + j ) \u2208 \u2124 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.09812,
+            "_thrs_random_uniform": 0.34492,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.06132,
             "_thrs_weight": 0.52,
@@ -1391,7 +1391,7 @@
             "ground_truth": "ad3antlr \u22a2 ( ( ( ( A \u2208 \u2124 \u2227 i \u2208 \u2124 ) \u2227 A = ( ( 2 \u00b7 i ) + 1 ) ) \u2227 B \u2208 \u2124 ) \u2192 ( j \u2208 \u2124 \u2192 ( i + j ) \u2208 \u2124 ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.49815,
+            "_thrs_random_uniform": 0.48566,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.06132,
             "_thrs_weight": 0.52,
@@ -1410,7 +1410,7 @@
             "ground_truth": "ex \u22a2 ( i \u2208 \u2124 \u2192 ( j \u2208 \u2124 \u2192 ( i + j ) \u2208 \u2124 ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.77928,
+            "_thrs_random_uniform": 0.30812,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.06132,
             "_thrs_weight": 0.82,
@@ -1429,7 +1429,7 @@
             "ground_truth": "zaddcl \u22a2 ( ( i \u2208 \u2124 \u2227 j \u2208 \u2124 ) \u2192 ( i + j ) \u2208 \u2124 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.5618,
+            "_thrs_random_uniform": 0.74543,
             "_thrs_reconstruct": 0.15658,
             "_thrs_obviousness": 0.06132,
             "_thrs_weight": 0.82,
@@ -1448,7 +1448,7 @@
             "ground_truth": "elrab2 \u22a2 ( B \u2208 Odd \u2194 ( B \u2208 \u2124 \u2227 \u2203 j \u2208 \u2124 B = ( ( 2 \u00b7 j ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.64041,
+            "_thrs_random_uniform": 0.23337,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.39164,
             "_thrs_weight": 0.72,
@@ -1467,7 +1467,7 @@
             "ground_truth": "dfodd6 \u22a2 Odd = { b \u2208 \u2124 | \u2203 j \u2208 \u2124 b = ( ( 2 \u00b7 j ) + 1 ) }",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.47655,
+            "_thrs_random_uniform": 0.83721,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 0.39164,
             "_thrs_weight": 0.8,
@@ -1486,7 +1486,7 @@
             "ground_truth": "rexbidv \u22a2 ( b = B \u2192 ( \u2203 j \u2208 \u2124 b = ( ( 2 \u00b7 j ) + 1 ) \u2194 \u2203 j \u2208 \u2124 B = ( ( 2 \u00b7 j ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.60573,
+            "_thrs_random_uniform": 0.7556,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.6,
@@ -1505,7 +1505,7 @@
             "ground_truth": "eqeq1 \u22a2 ( b = B \u2192 ( b = ( ( 2 \u00b7 j ) + 1 ) \u2194 B = ( ( 2 \u00b7 j ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.61981,
+            "_thrs_random_uniform": 0.752,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.76,
@@ -1524,7 +1524,7 @@
             "ground_truth": "elrab2 \u22a2 ( A \u2208 Odd \u2194 ( A \u2208 \u2124 \u2227 \u2203 i \u2208 \u2124 A = ( ( 2 \u00b7 i ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.52977,
+            "_thrs_random_uniform": 0.87872,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.39164,
             "_thrs_weight": 0.72,
@@ -1543,7 +1543,7 @@
             "ground_truth": "dfodd6 \u22a2 Odd = { a \u2208 \u2124 | \u2203 i \u2208 \u2124 a = ( ( 2 \u00b7 i ) + 1 ) }",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.8188,
+            "_thrs_random_uniform": 0.18805,
             "_thrs_reconstruct": 1.0,
             "_thrs_obviousness": 0.39164,
             "_thrs_weight": 0.8,
@@ -1562,7 +1562,7 @@
             "ground_truth": "rexbidv \u22a2 ( a = A \u2192 ( \u2203 i \u2208 \u2124 a = ( ( 2 \u00b7 i ) + 1 ) \u2194 \u2203 i \u2208 \u2124 A = ( ( 2 \u00b7 i ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.36498,
+            "_thrs_random_uniform": 0.73797,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.6,
@@ -1581,7 +1581,7 @@
             "ground_truth": "eqeq1 \u22a2 ( a = A \u2192 ( a = ( ( 2 \u00b7 i ) + 1 ) \u2194 A = ( ( 2 \u00b7 i ) + 1 ) ) )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.9623,
+            "_thrs_random_uniform": 0.68247,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.76,
@@ -1600,7 +1600,7 @@
             "ground_truth": "syl2an \u22a2 ( ( A \u2208 Odd \u2227 B \u2208 Odd ) \u2192 ( A + B ) \u2208 \u2124 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.96581,
+            "_thrs_random_uniform": 0.64393,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.06132,
             "_thrs_weight": 0.82,
@@ -1619,7 +1619,7 @@
             "ground_truth": "zaddcl \u22a2 ( ( A \u2208 \u2124 \u2227 B \u2208 \u2124 ) \u2192 ( A + B ) \u2208 \u2124 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.00722,
+            "_thrs_random_uniform": 0.69736,
             "_thrs_reconstruct": 0.15658,
             "_thrs_obviousness": 0.06132,
             "_thrs_weight": 0.82,
@@ -1638,7 +1638,7 @@
             "ground_truth": "oddz \u22a2 ( B \u2208 Odd \u2192 B \u2208 \u2124 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.19056,
+            "_thrs_random_uniform": 0.11283,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.94,
@@ -1657,7 +1657,7 @@
             "ground_truth": "oddz \u22a2 ( A \u2208 Odd \u2192 A \u2208 \u2124 )",
             "ground_truth_display": false,
             "statement_depth": 0,
-            "_thrs_random_uniform": 0.48145,
+            "_thrs_random_uniform": 0.11754,
             "_thrs_reconstruct": 0.0,
             "_thrs_obviousness": 0.0,
             "_thrs_weight": 0.94,
